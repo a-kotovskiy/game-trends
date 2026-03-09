@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎮 Game Trends Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f0f1a;
+      --bg2: #16162a;
+      --bg3: #1e1e35;
+      --card: #1a1a2e;
+      --card-hover: #22223a;
+      --accent1: #7c3aed;
+      --accent2: #2563eb;
+      --accent3: #a855f7;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --border: #2d2d4a;
+      --green: #10b981;
+      --yellow: #f59e0b;
+      --red: #ef4444;
+      --gradient: linear-gradient(135deg, #7c3aed, #2563eb);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .header-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .updated-badge {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 8px; height: 8px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.3); }
+    }
+
+    .btn-refresh {
+      background: var(--gradient);
+      border: none;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: opacity 0.2s, transform 0.1s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-refresh:hover { opacity: 0.85; transform: scale(1.03); }
+    .btn-refresh:active { transform: scale(0.98); }
+
+    /* MAIN */
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+
+    /* SECTION */
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .section-icon {
+      width: 44px; height: 44px;
+      background: var(--gradient);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .section-subtitle {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .section-count {
+      margin-left: auto;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    /* GRID */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+
+    .grid-5 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 16px;
+    }
+
+    /* CARD BASE */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      transition: transform 0.2s, border-color 0.2s, background 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      cursor: default;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent1);
+      background: var(--card-hover);
+    }
+
+    a.card:hover { cursor: pointer; }
+
+    /* ROCKET CARD */
+    .rocket-card .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .game-emoji {
+      width: 56px; height: 56px;
+      background: var(--bg3);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: rgba(124, 58, 237, 0.2);
+      color: var(--accent3);
+      border: 1px solid rgba(124, 58, 237, 0.3);
+      margin-bottom: 4px;
+    }
+
+    .game-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.3;
+    }
+
+    .game-genre {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .metrics {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .metric {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .metric-value {
+      font-size: 1.4rem;
+      font-weight: 800;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+
+    .metric-value.green { background: none; -webkit-text-fill-color: var(--green); }
+    .metric-value.yellow { background: none; -webkit-text-fill-color: var(--yellow); }
+
+    .metric-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .metric-divider {
+      width: 1px;
+      background: var(--border);
+      align-self: stretch;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .play-link {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      color: var(--accent3);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.78rem;
+      transition: color 0.2s;
+    }
+
+    .play-link:hover { color: #fff; }
+
+    /* VIDEO CARD */
+    .video-card {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .video-thumb {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+      background: var(--bg3);
+    }
+
+    .video-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .video-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.3;
+    }
+
+    .video-views {
+      font-size: 2rem;
+      font-weight: 900;
+      background: linear-gradient(135deg, #f59e0b, #ef4444);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+
+    .video-views-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 2px;
+    }
+
+    /* NEWS CARD */
+    .news-card {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .news-emoji {
+      width: 44px; height: 44px;
+      background: var(--bg3);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+    }
+
+    .news-content { flex: 1; }
+
+    .news-source {
+      font-size: 0.7rem;
+      color: var(--accent3);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+
+    .news-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+
+    .news-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* IDEA CARD */
+    .idea-card {
+      background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(37,99,235,0.08));
+      border-color: rgba(124,58,237,0.25);
+    }
+
+    .idea-card:hover {
+      border-color: var(--accent1);
+    }
+
+    .idea-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .idea-emoji {
+      font-size: 2rem;
+    }
+
+    .idea-priority {
+      margin-left: auto;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    .idea-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .idea-insight {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .idea-signal {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      color: var(--accent3);
+      background: rgba(168, 85, 247, 0.1);
+      border: 1px solid rgba(168, 85, 247, 0.2);
+      padding: 6px 10px;
+      border-radius: 8px;
+    }
+
+    /* LOADING */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 40px;
+      color: var(--text-muted);
+    }
+
+    .spinner {
+      width: 24px; height: 24px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent1);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* STATS BAR */
+    .stats-bar {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 28px;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .stat-item { text-align: center; }
+
+    .stat-num {
+      font-size: 2rem;
+      font-weight: 900;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+
+    .stat-lbl {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 4px;
+    }
+
+    .stat-divider {
+      width: 1px;
+      height: 40px;
+      background: var(--border);
+    }
+
+    /* PROGRESS BAR */
+    .progress-wrap {
+      margin-top: 8px;
+    }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .progress-bar {
+      height: 4px;
+      background: var(--bg3);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--gradient);
+      border-radius: 2px;
+      transition: width 0.8s ease;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      main { padding: 20px 16px; gap: 36px; }
+      .header-title { font-size: 1.3rem; }
+      .stats-bar { gap: 20px; padding: 16px 20px; }
+      .grid-3, .grid-5, .grid-2 { grid-template-columns: 1fr; }
+    }
+
+    /* ERROR */
+    .error-banner {
+      background: rgba(239,68,68,0.1);
+      border: 1px solid rgba(239,68,68,0.3);
+      color: #fca5a5;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-title">🎮 Game Trends Dashboard</div>
+    <div class="header-meta">
+      <div class="updated-badge">
+        <div class="dot"></div>
+        <span>Обновлено: <span id="updated-date">загрузка...</span></span>
+      </div>
+      <button class="btn-refresh" id="refresh-btn" onclick="startRefresh()">
+        <span id="refresh-icon">↻</span> <span id="refresh-label">Обновить данные</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ERROR BANNER -->
+  <div class="error-banner" id="error-banner">
+    ⚠️ Не удалось загрузить данные. Проверь что data.json доступен.
+  </div>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar" id="stats-bar">
+    <div class="loading"><div class="spinner"></div> Загружаю данные...</div>
+  </div>
+
+  <!-- ROCKETS -->
+  <section>
+    <div class="section-header">
+      <div class="section-icon">🚀</div>
+      <div>
+        <div class="section-title">Ракеты Google Play</div>
+        <div class="section-subtitle">Новинки с >1K скачиваний в день, последние 6 мес.</div>
+      </div>
+      <div class="section-count" id="rockets-count">...</div>
+    </div>
+    <div class="grid-3" id="rockets-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section>
+    <div class="section-header">
+      <div class="section-icon">🔥</div>
+      <div>
+        <div class="section-title">Вирусные видео</div>
+        <div class="section-subtitle">500K+ просмотров, тренды последних 6 мес.</div>
+      </div>
+      <div class="section-count" id="videos-count">...</div>
+    </div>
+    <div class="grid-5" id="videos-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section>
+    <div class="section-header">
+      <div class="section-icon">📰</div>
+      <div>
+        <div class="section-title">Новости индустрии</div>
+        <div class="section-subtitle">Pocket Gamer · свежие релизы и анонсы</div>
+      </div>
+      <div class="section-count" id="news-count">...</div>
+    </div>
+    <div class="grid-2" id="news-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+  <!-- IDEAS -->
+  <section>
+    <div class="section-header">
+      <div class="section-icon">💡</div>
+      <div>
+        <div class="section-title">Идеи для игры</div>
+        <div class="section-subtitle">Инсайты на основе трендов — что стоит сделать</div>
+      </div>
+      <div class="section-count" id="ideas-count">...</div>
+    </div>
+    <div class="grid-2" id="ideas-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+  const maxPerDay = 9433; // для прогресс-баров
+
+  function formatNum(n) {
+    if (n >= 1000000) return (n / 1000000).toFixed(0) + 'M';
+    if (n >= 1000) return (n / 1000).toFixed(0) + 'K';
+    return n;
+  }
+
+  function formatViews(str) {
+    return str;
+  }
+
+  // RENDER ROCKETS
+  function renderRockets(data) {
+    const grid = document.getElementById('rockets-grid');
+    document.getElementById('rockets-count').textContent = data.length + ' игр';
+    grid.innerHTML = data.map(g => {
+      const pct = Math.round((g.perDay / maxPerDay) * 100);
+      return `
+        <div class="card rocket-card">
+          <div class="card-top">
+            <div class="game-emoji">${g.emoji}</div>
+            <div style="flex:1">
+              <div class="card-tag">${g.tag}</div>
+              <div class="game-name">${g.name}</div>
+              <div class="game-genre">${g.genre}</div>
+            </div>
+          </div>
+          <div class="metrics">
+            <div class="metric">
+              <div class="metric-value">${g.downloads}</div>
+              <div class="metric-label">Скачиваний</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+              <div class="metric-value green">${g.perDay.toLocaleString()}</div>
+              <div class="metric-label">в день</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+              <div class="metric-value yellow">${g.days}</div>
+              <div class="metric-label">дней</div>
+            </div>
+          </div>
+          <div class="progress-wrap">
+            <div class="progress-label">
+              <span>Скорость роста</span>
+              <span>${pct}% от топа</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: ${pct}%"></div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span>📅 Релиз: ${g.releaseDate}</span>
+            <a class="play-link" href="${g.url}" target="_blank" rel="noopener">
+              Google Play ↗
+            </a>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // RENDER VIDEOS
+  function renderVideos(data) {
+    const grid = document.getElementById('videos-grid');
+    document.getElementById('videos-count').textContent = data.length + ' видео';
+    grid.innerHTML = data.map(v => `
+      <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
+        <img
+          class="video-thumb"
+          src="https://img.youtube.com/vi/${v.videoId}/mqdefault.jpg"
+          alt="${v.title}"
+          loading="lazy"
+          onerror="this.style.background='#1e1e35';this.removeAttribute('src')"
+        />
+        <div class="video-body">
+          <div class="card-tag">${v.tag}</div>
+          <div class="video-title">${v.title}</div>
+          <div>
+            <div class="video-views">${v.views}</div>
+            <div class="video-views-label">просмотров</div>
+          </div>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  // RENDER NEWS
+  function renderNews(data) {
+    const grid = document.getElementById('news-grid');
+    document.getElementById('news-count').textContent = data.length + ' новостей';
+    grid.innerHTML = data.map(n => `
+      <div class="card news-card">
+        <div class="news-emoji">${n.emoji}</div>
+        <div class="news-content">
+          <div class="news-source">${n.source}</div>
+          <div class="news-title">${n.title}</div>
+          <div class="news-desc">${n.desc}</div>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // RENDER IDEAS
+  function renderIdeas(data) {
+    const grid = document.getElementById('ideas-grid');
+    document.getElementById('ideas-count').textContent = data.length + ' идеи';
+    grid.innerHTML = data.map(i => `
+      <div class="card idea-card">
+        <div class="idea-header">
+          <div class="idea-emoji">${i.emoji}</div>
+          <div style="flex:1">
+            <div class="idea-title">${i.title}</div>
+          </div>
+          <div class="idea-priority">${i.priority}</div>
+        </div>
+        <div class="idea-insight">${i.insight}</div>
+        <div class="idea-signal">📊 ${i.signal}</div>
+      </div>
+    `).join('');
+  }
+
+  // RENDER STATS
+  function renderStats(data) {
+    const totalViews = data.videos.reduce((s, v) => s + v.viewsNum, 0);
+    const maxDay = Math.max(...data.rockets.map(r => r.perDay));
+    document.getElementById('stats-bar').innerHTML = `
+      <div class="stat-item">
+        <div class="stat-num">${data.rockets.length}</div>
+        <div class="stat-lbl">Ракет Play</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">${maxDay.toLocaleString()}</div>
+        <div class="stat-lbl">Макс. скач./день</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">${data.videos.length}</div>
+        <div class="stat-lbl">Вирусных видео</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">${formatNum(totalViews)}</div>
+        <div class="stat-lbl">Суммарно просмотров</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">${data.ideas.length}</div>
+        <div class="stat-lbl">Идей для игры</div>
+      </div>
+    `;
+  }
+
+  // LOAD DATA
+  async function loadData() {
+    try {
+      const res = await fetch('./data.json?t=' + Date.now());
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+
+      document.getElementById('updated-date').textContent = data.updated || '—';
+
+      renderStats(data);
+      renderRockets(data.rockets || []);
+      renderVideos(data.videos || []);
+      renderNews(data.news || []);
+      renderIdeas(data.ideas || []);
+
+    } catch (err) {
+      console.error('Load error:', err);
+      document.getElementById('error-banner').style.display = 'block';
+      document.getElementById('updated-date').textContent = 'ошибка';
+      document.getElementById('stats-bar').innerHTML = '<div style="color:#fca5a5;font-size:0.85rem">⚠️ Ошибка загрузки данных</div>';
+    }
+  }
+
+  // REFRESH
+  async function startRefresh() {
+    const btn = document.getElementById('refresh-btn');
+    const icon = document.getElementById('refresh-icon');
+    const label = document.getElementById('refresh-label');
+    btn.disabled = true;
+    icon.textContent = '⏳';
+    label.textContent = 'Парсю данные...';
+
+    try {
+      await fetch('/api/refresh');
+      // Polling пока не готово
+      const poll = setInterval(async () => {
+        const s = await fetch('/api/status').then(r => r.json());
+        if (!s.running) {
+          clearInterval(poll);
+          icon.textContent = '✅';
+          label.textContent = 'Готово! Обновляю...';
+          setTimeout(() => { loadData(); btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 1000);
+        }
+      }, 2000);
+    } catch(e) {
+      btn.disabled = false;
+      icon.textContent = '↻';
+      label.textContent = 'Ошибка, повтори';
+    }
+  }
+
+  // INIT
+  document.addEventListener('DOMContentLoaded', loadData);
+</script>
+
+</body>
+</html>
