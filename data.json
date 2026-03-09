@@ -1,234 +1,171 @@
 {
-  "updated": "2026-03-10 01:08",
-  "rockets": [
-    {
-      "emoji": "🔫",
-      "tag": "РОСТ",
-      "name": "PUBG MOBILE",
-      "genre": "Battle Royale · Shooter",
-      "downloads": "1B+",
-      "perDay": 9400,
-      "days": 45,
-      "releaseDate": "2018-03-19",
-      "url": "https://play.google.com/store/apps/details?id=com.tencent.ig"
-    },
-    {
-      "emoji": "⚔️",
-      "tag": "НОВИНКА",
-      "name": "Brawl Stars",
-      "genre": "Action · MOBA",
-      "downloads": "500M+",
-      "perDay": 7200,
-      "days": 60,
-      "releaseDate": "2018-12-12",
-      "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
-    },
-    {
-      "emoji": "👑",
-      "tag": "ТОП",
-      "name": "Royal Match",
-      "genre": "Puzzle · Match-3",
-      "downloads": "100M+",
-      "perDay": 6800,
-      "days": 90,
-      "releaseDate": "2021-02-28",
-      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch"
-    },
-    {
-      "emoji": "🎲",
-      "tag": "РОСТ",
-      "name": "Dice Dreams",
-      "genre": "Board · Casual",
-      "downloads": "50M+",
-      "perDay": 5500,
-      "days": 40,
-      "releaseDate": "2020-10-22",
-      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams"
-    },
-    {
-      "emoji": "⚽",
-      "tag": "СЕЗОН",
-      "name": "EA SPORTS FC Mobile 26",
-      "genre": "Sports · Football",
-      "downloads": "100M+",
-      "perDay": 4900,
-      "days": 35,
-      "releaseDate": "2016-09-22",
-      "url": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile"
-    },
-    {
-      "emoji": "🍪",
-      "tag": "PRE-REG",
-      "name": "CookieRun: OvenSmash",
-      "genre": "Action · Multiplayer",
-      "downloads": "Pre-reg",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2026 Q2",
-      "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos"
-    },
-    {
-      "emoji": "🤖",
-      "tag": "PRE-REG",
-      "name": "Supremacy: Warhammer 40K",
-      "genre": "Strategy · Wargame",
-      "downloads": "Pre-reg",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2026",
-      "url": "https://play.google.com/store/apps/details?id=com.bytro.warhammer40ksupremacy"
-    },
-    {
-      "emoji": "🥷",
-      "tag": "PRE-REG",
-      "name": "Ninja Gangsters: Idle Streets",
-      "genre": "RPG · Idle",
-      "downloads": "Pre-reg",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2026",
-      "url": "https://play.google.com/store/apps/details?id=com.Deliciousgames.NGI"
-    }
-  ],
+  "updated": "2026-03-09",
+  "rockets": [],
   "videos": [
     {
-      "title": "World's Fastest Workers!",
-      "views": 126804878,
-      "views_str": "126.8M",
-      "url": "https://www.youtube.com/watch?v=Iu8ZmhRphSU",
-      "thumb": "https://img.youtube.com/vi/Iu8ZmhRphSU/mqdefault.jpg",
-      "tag": "VIRAL"
+      "vpd": 33053,
+      "views": 991617,
+      "views_str": "991.617",
+      "age_days": 30,
+      "title": "Top 30 NEW Open World Games of 2026",
+      "channel": "gameranx",
+      "url": "https://www.youtube.com/watch?v=SY_jMUantvw",
+      "thumb": "https://img.youtube.com/vi/SY_jMUantvw/mqdefault.jpg",
+      "grade": "⚡"
     },
     {
-      "title": "Impossible 0.00001% Odds!",
-      "views": 107604981,
-      "views_str": "107.6M",
-      "url": "https://www.youtube.com/watch?v=DvkTX-AquQo",
-      "thumb": "https://img.youtube.com/vi/DvkTX-AquQo/mqdefault.jpg",
-      "tag": "TRENDING"
+      "vpd": 23980,
+      "views": 719418,
+      "views_str": "719.418",
+      "age_days": 30,
+      "title": "15 PS5 Games Everyone's Talking About for 2026",
+      "channel": "NextGenGamers",
+      "url": "https://www.youtube.com/watch?v=xQ5wr8pDwnM",
+      "thumb": "https://img.youtube.com/vi/xQ5wr8pDwnM/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "Extreme Try Not To Laugh Challenge!",
-      "views": 103225856,
-      "views_str": "103.2M",
-      "url": "https://www.youtube.com/watch?v=HR1ig6u9-6A",
-      "thumb": "https://img.youtube.com/vi/HR1ig6u9-6A/mqdefault.jpg",
-      "tag": "CHALLENGE"
+      "vpd": 18003,
+      "views": 540101,
+      "views_str": "540.101",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of January 2026",
+      "channel": "gameranx",
+      "url": "https://www.youtube.com/watch?v=h8ivdRs_Ukg",
+      "thumb": "https://img.youtube.com/vi/h8ivdRs_Ukg/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "Impossible 0.0000001% Odds!",
-      "views": 93509459,
-      "views_str": "93.5M",
-      "url": "https://www.youtube.com/watch?v=bReHusqxnvw",
-      "thumb": "https://img.youtube.com/vi/bReHusqxnvw/mqdefault.jpg",
-      "tag": "VIRAL"
+      "vpd": 16757,
+      "views": 502723,
+      "views_str": "502.723",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of 2026 [First Half]",
+      "channel": "gameranx",
+      "url": "https://www.youtube.com/watch?v=iZm0fI4yoIk",
+      "thumb": "https://img.youtube.com/vi/iZm0fI4yoIk/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "Luckiest People Alive!",
-      "views": 79365107,
-      "views_str": "79.4M",
-      "url": "https://www.youtube.com/watch?v=jgyTwWtvMdE",
-      "thumb": "https://img.youtube.com/vi/jgyTwWtvMdE/mqdefault.jpg",
-      "tag": "TRENDING"
+      "vpd": 15825,
+      "views": 474773,
+      "views_str": "474.773",
+      "age_days": 30,
+      "title": "Why is EVERYBODY Playing This Game....",
+      "channel": "DotoDoya",
+      "url": "https://www.youtube.com/watch?v=atPhv2XFSD8",
+      "thumb": "https://img.youtube.com/vi/atPhv2XFSD8/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "People With Amazing Talent!",
-      "views": 75241086,
-      "views_str": "75.2M",
-      "url": "https://www.youtube.com/watch?v=_t9LL1VcG3Q",
-      "thumb": "https://img.youtube.com/vi/_t9LL1VcG3Q/mqdefault.jpg",
-      "tag": "TRENDING"
+      "vpd": 15128,
+      "views": 453841,
+      "views_str": "453.841",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of February 2026",
+      "channel": "gameranx",
+      "url": "https://www.youtube.com/watch?v=ws7cLrmJFYU",
+      "thumb": "https://img.youtube.com/vi/ws7cLrmJFYU/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "100,000 Magnetic Balls In Slow Motion!",
-      "views": 68647529,
-      "views_str": "68.6M",
-      "url": "https://www.youtube.com/watch?v=d2-BHPI8ggM",
-      "thumb": "https://img.youtube.com/vi/d2-BHPI8ggM/mqdefault.jpg",
-      "tag": "SATISFYING"
+      "vpd": 13575,
+      "views": 407275,
+      "views_str": "407.275",
+      "age_days": 30,
+      "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
+      "channel": "PartiallyRoyal",
+      "url": "https://www.youtube.com/watch?v=F56XCC-wFzk",
+      "thumb": "https://img.youtube.com/vi/F56XCC-wFzk/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "BRAINROT but it's OTAMATONE",
-      "views": 54928913,
-      "views_str": "54.9M",
-      "url": "https://www.youtube.com/watch?v=6cAUQcG_eCk",
-      "thumb": "https://img.youtube.com/vi/6cAUQcG_eCk/mqdefault.jpg",
-      "tag": "BRAINROT"
-    }
-  ],
-  "news": [
-    {
-      "emoji": "📊",
-      "source": "PocketGamer.biz",
-      "title": "Январь 2026: Clash Royale падает, PUBG Mobile растёт, Microfun в топ-10",
-      "desc": "Ежемесячный чарт мобильных игр показывает смену лидеров. PUBG Mobile снова набирает обороты, а новый издатель Microfun впервые ворвался в десятку."
+      "vpd": 12381,
+      "views": 371446,
+      "views_str": "371.446",
+      "age_days": 30,
+      "title": "Top 50 NEW PC Games of 2026",
+      "channel": "gameranx",
+      "url": "https://www.youtube.com/watch?v=S8hyguTBsSU",
+      "thumb": "https://img.youtube.com/vi/S8hyguTBsSU/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "emoji": "💰",
-      "source": "Mobilegamer.biz",
-      "title": "Топ кассовых мобильных игр февраля 2026",
-      "desc": "Royal Match продолжает доминировать в puzzle-сегменте. Monopoly GO и Whiteout Survival удерживают позиции в топ-5 по выручке."
+      "vpd": 12078,
+      "views": 362356,
+      "views_str": "362.356",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of March 2026",
+      "channel": "gameranx",
+      "url": "https://www.youtube.com/watch?v=Ze2Bm3Yax3U",
+      "thumb": "https://img.youtube.com/vi/Ze2Bm3Yax3U/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "emoji": "🐱",
-      "source": "Pocket Gamer",
-      "title": "GlobalFun выпускает новую мобильную игру Tom & Jerry",
-      "desc": "Лицензионная игра по Tom & Jerry выходит на мобильные платформы. Мультиплеерный экшн с узнаваемыми персонажами."
+      "vpd": 11986,
+      "views": 359597,
+      "views_str": "359.597",
+      "age_days": 30,
+      "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
+      "channel": "GameRax",
+      "url": "https://www.youtube.com/watch?v=ZcXiHGiDSeU",
+      "thumb": "https://img.youtube.com/vi/ZcXiHGiDSeU/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "emoji": "📱",
-      "source": "PCMag",
-      "title": "Лучшие Android-игры 2026: топ мобильного гейминга",
-      "desc": "PCMag составил обновлённый рейтинг лучших мобильных игр. В списке - Roblox, Brawl Stars, PUBG Mobile, Royal Match."
+      "vpd": 9033,
+      "views": 271010,
+      "views_str": "271.010",
+      "age_days": 30,
+      "title": "27 NEW Games That Will SHOCK You in 2026!",
+      "channel": "GameRax",
+      "url": "https://www.youtube.com/watch?v=vh3z-u-r8bI",
+      "thumb": "https://img.youtube.com/vi/vh3z-u-r8bI/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "emoji": "🆕",
-      "source": "Metro.co.uk",
-      "title": "Лучшие новые мобильные игры марта 2026",
-      "desc": "Обзор новинок iOS и Android за март. CookieRun: OvenSmash и Neverness to Everness среди самых ожидаемых."
+      "vpd": 8932,
+      "views": 267970,
+      "views_str": "267.970",
+      "age_days": 30,
+      "title": "22 NEW GAMES the WHOLE WORLD Is WAITING FOR in 2026! (PC, PS5, Xbox)",
+      "channel": "GameRax",
+      "url": "https://www.youtube.com/watch?v=6OO57T-2wL4",
+      "thumb": "https://img.youtube.com/vi/6OO57T-2wL4/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "emoji": "📈",
-      "source": "GameDev Reports",
-      "title": "AppMagic: топ мобильных игр по выручке и загрузкам за январь 2026",
-      "desc": "Аналитика от AppMagic: лидеры по загрузкам и доходам. Match-3 и idle RPG продолжают расти."
-    }
-  ],
-  "ideas": [
-    {
-      "emoji": "🧩",
-      "title": "Match-3 с мета-геймплеем",
-      "priority": "🔥 HIGH",
-      "insight": "Royal Match и Candy Crush доминируют, но рынок не насыщен. Ключ - мета-слой (строительство, сюжет, коллекция). Match-3 с уникальной мета-механикой всё ещё может взлететь.",
-      "signal": "Royal Match - 6.8K загрузок/день, Match Masters в топе Google Play"
+      "vpd": 7654,
+      "views": 229638,
+      "views_str": "229.638",
+      "age_days": 30,
+      "title": "Best New Space Games for 2026 (FINALLY Something Different)",
+      "channel": "ObsidianAnt",
+      "url": "https://www.youtube.com/watch?v=02UBo2cjPJo",
+      "thumb": "https://img.youtube.com/vi/02UBo2cjPJo/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "emoji": "🎯",
-      "title": "Idle RPG с PvP элементами",
-      "priority": "🔥 HIGH",
-      "insight": "3 из pre-reg игр на Google Play - idle RPG. Жанр растёт. Добавь PvP-арену для удержания и монетизации. Ninja Gangsters и Big Guy уже на подходе.",
-      "signal": "Ninja Gangsters, Evil Sword, Big Guy - все pre-reg idle RPG"
+      "vpd": 5980,
+      "views": 179422,
+      "views_str": "179.422",
+      "age_days": 30,
+      "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
+      "channel": "Tekkan",
+      "url": "https://www.youtube.com/watch?v=E7qMngvwXM4",
+      "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "emoji": "🏃",
-      "title": "Challenge / Obstacle курс (по мотивам YouTube)",
-      "priority": "⚡ MEDIUM",
-      "insight": "Видео с 'impossible odds' и 'fastest workers' набирают 100M+ просмотров. Игра-симулятор с физикой препятствий в стиле Fall Guys но мобильная - зайдёт в casual аудиторию.",
-      "signal": "3 видео с 100M+ просмотров на тему challenge/odds"
-    },
-    {
-      "emoji": "🧠",
-      "title": "Brainrot / мем-игра",
-      "priority": "⚡ MEDIUM",
-      "insight": "'BRAINROT OTAMATONE' - 55M просмотров. Мем-контент вирусится. Простая аркада обёрнутая в brainrot-эстетику (skibidi, sigma) может дать бесплатный маркетинг через TikTok.",
-      "signal": "Brainrot-контент стабильно в трендах YouTube и TikTok"
-    },
-    {
-      "emoji": "⚔️",
-      "title": "Warhammer-like стратегия (лицензия не нужна)",
-      "priority": "💤 LOW",
-      "insight": "Supremacy: Warhammer 40K на pre-reg. Sci-fi стратегии в тренде, но можно сделать свой IP в похожем сеттинге без лицензии. Главное - глубокая стратегия + мобильный UX.",
-      "signal": "Supremacy: Warhammer 40K, Total Battle в топе Google Play"
+      "vpd": 5960,
+      "views": 178808,
+      "views_str": "178.808",
+      "age_days": 30,
+      "title": "12 Best NEW Games To Play In February 2026",
+      "channel": "Force Gaming",
+      "url": "https://www.youtube.com/watch?v=4MnRvtQ3xKQ",
+      "thumb": "https://img.youtube.com/vi/4MnRvtQ3xKQ/mqdefault.jpg",
+      "grade": "📈"
     }
   ]
 }
