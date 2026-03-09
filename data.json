@@ -1,171 +1,262 @@
 {
-  "updated": "2026-03-09",
-  "rockets": [],
+  "updated": "2026-03-10 01:50",
+  "rockets": [
+    {
+      "emoji": "⚔️",
+      "tag": "🔥 1.5M ЗАГРУЗОК",
+      "name": "Clash for Dawn",
+      "genre": "Action RPG",
+      "downloads": "1.5M",
+      "perDay": 8500,
+      "days": 21,
+      "releaseDate": "2026-02",
+      "url": "https://play.google.com/store/search?q=clash+for+dawn&c=apps"
+    },
+    {
+      "emoji": "🏰",
+      "tag": "НОВИНКА",
+      "name": "Castle Frenzy",
+      "genre": "Tower Defense · Gameloft",
+      "downloads": "500K+",
+      "perDay": 6200,
+      "days": 14,
+      "releaseDate": "2026-03",
+      "url": "https://play.google.com/store/search?q=castle+frenzy+gameloft&c=apps"
+    },
+    {
+      "emoji": "🏛️",
+      "tag": "SOFT LAUNCH",
+      "name": "Age of Empires: Survival",
+      "genre": "Strategy · Hypercasual",
+      "downloads": "100K+",
+      "perDay": 4800,
+      "days": 10,
+      "releaseDate": "2026-03",
+      "url": "https://play.google.com/store/search?q=age+of+empires+survival&c=apps"
+    },
+    {
+      "emoji": "🔫",
+      "tag": "РОСТ",
+      "name": "Free Fire",
+      "genre": "Battle Royale",
+      "downloads": "1B+",
+      "perDay": 9400,
+      "days": 90,
+      "releaseDate": "2017-12",
+      "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth"
+    },
+    {
+      "emoji": "🎯",
+      "tag": "$1M ТУРНИР",
+      "name": "Fortnite Mobile",
+      "genre": "Battle Royale · eSports",
+      "downloads": "500M+",
+      "perDay": 7800,
+      "days": 30,
+      "releaseDate": "2018-04",
+      "url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite"
+    },
+    {
+      "emoji": "🍪",
+      "tag": "PRE-REG",
+      "name": "CookieRun: OvenSmash",
+      "genre": "Action · Multiplayer",
+      "downloads": "Pre-reg",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2026 Q2",
+      "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos"
+    },
+    {
+      "emoji": "🌌",
+      "tag": "ОЖИДАЕМАЯ",
+      "name": "Neverness to Everness",
+      "genre": "Open World RPG · Hotta Studio",
+      "downloads": "Pre-reg",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2026",
+      "url": "https://play.google.com/store/search?q=neverness+to+everness&c=apps"
+    },
+    {
+      "emoji": "🐱",
+      "tag": "АНОНС",
+      "name": "Tom & Jerry Mobile",
+      "genre": "Action · Multiplayer",
+      "downloads": "Анонс",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2026",
+      "url": "https://play.google.com/store/search?q=tom+jerry+globalfun&c=apps"
+    }
+  ],
   "videos": [
     {
-      "vpd": 33053,
-      "views": 991617,
-      "views_str": "991.617",
-      "age_days": 30,
-      "title": "Top 30 NEW Open World Games of 2026",
-      "channel": "gameranx",
-      "url": "https://www.youtube.com/watch?v=SY_jMUantvw",
-      "thumb": "https://img.youtube.com/vi/SY_jMUantvw/mqdefault.jpg",
-      "grade": "⚡"
+      "title": "Subscribe if you love Roblox ❤️",
+      "views": 73134405,
+      "views_str": "73.1M",
+      "url": "https://www.youtube.com/watch?v=63SFi8EMgjg",
+      "thumb": "https://img.youtube.com/vi/63SFi8EMgjg/mqdefault.jpg",
+      "tag": "ROBLOX"
     },
     {
-      "vpd": 23980,
-      "views": 719418,
-      "views_str": "719.418",
-      "age_days": 30,
-      "title": "15 PS5 Games Everyone's Talking About for 2026",
-      "channel": "NextGenGamers",
-      "url": "https://www.youtube.com/watch?v=xQ5wr8pDwnM",
-      "thumb": "https://img.youtube.com/vi/xQ5wr8pDwnM/mqdefault.jpg",
-      "grade": "📈"
+      "title": "Survive 30 Days Stranded, Win $250K",
+      "views": 47555551,
+      "views_str": "47.6M",
+      "url": "https://www.youtube.com/watch?v=AoN1K4c7VKE",
+      "thumb": "https://img.youtube.com/vi/AoN1K4c7VKE/mqdefault.jpg",
+      "tag": "CHALLENGE"
     },
     {
-      "vpd": 18003,
-      "views": 540101,
-      "views_str": "540.101",
-      "age_days": 30,
-      "title": "Top 10 NEW Games of January 2026",
-      "channel": "gameranx",
-      "url": "https://www.youtube.com/watch?v=h8ivdRs_Ukg",
-      "thumb": "https://img.youtube.com/vi/h8ivdRs_Ukg/mqdefault.jpg",
-      "grade": "📈"
+      "title": "Golden Time - Old Free Fire Nostalgia 🥺",
+      "views": 35320505,
+      "views_str": "35.3M",
+      "url": "https://www.youtube.com/watch?v=L359fMZSl4o",
+      "thumb": "https://img.youtube.com/vi/L359fMZSl4o/mqdefault.jpg",
+      "tag": "FREE FIRE"
     },
     {
-      "vpd": 16757,
-      "views": 502723,
-      "views_str": "502.723",
-      "age_days": 30,
-      "title": "Top 10 NEW Games of 2026 [First Half]",
-      "channel": "gameranx",
-      "url": "https://www.youtube.com/watch?v=iZm0fI4yoIk",
-      "thumb": "https://img.youtube.com/vi/iZm0fI4yoIk/mqdefault.jpg",
-      "grade": "📈"
+      "title": "A Hacker Added This to Fortnite 🤔",
+      "views": 27464827,
+      "views_str": "27.5M",
+      "url": "https://www.youtube.com/watch?v=G7Q_sqZDINw",
+      "thumb": "https://img.youtube.com/vi/G7Q_sqZDINw/mqdefault.jpg",
+      "tag": "FORTNITE"
     },
     {
-      "vpd": 15825,
-      "views": 474773,
-      "views_str": "474.773",
-      "age_days": 30,
-      "title": "Why is EVERYBODY Playing This Game....",
-      "channel": "DotoDoya",
-      "url": "https://www.youtube.com/watch?v=atPhv2XFSD8",
-      "thumb": "https://img.youtube.com/vi/atPhv2XFSD8/mqdefault.jpg",
-      "grade": "📈"
+      "title": "Brawl Stars: BUFFIES FOREVER!",
+      "views": 18618606,
+      "views_str": "18.6M",
+      "url": "https://www.youtube.com/watch?v=hd3h9jz9j-0",
+      "thumb": "https://img.youtube.com/vi/hd3h9jz9j-0/mqdefault.jpg",
+      "tag": "BRAWL STARS"
     },
     {
-      "vpd": 15128,
-      "views": 453841,
-      "views_str": "453.841",
-      "age_days": 30,
-      "title": "Top 10 NEW Games of February 2026",
-      "channel": "gameranx",
-      "url": "https://www.youtube.com/watch?v=ws7cLrmJFYU",
-      "thumb": "https://img.youtube.com/vi/ws7cLrmJFYU/mqdefault.jpg",
-      "grade": "📈"
+      "title": "M7 World Championship Grand Finals - MLBB",
+      "views": 13922086,
+      "views_str": "13.9M",
+      "url": "https://www.youtube.com/watch?v=4qmGkos9xF8",
+      "thumb": "https://img.youtube.com/vi/4qmGkos9xF8/mqdefault.jpg",
+      "tag": "MLBB ESPORTS"
     },
     {
-      "vpd": 13575,
-      "views": 407275,
-      "views_str": "407.275",
-      "age_days": 30,
-      "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
-      "channel": "PartiallyRoyal",
-      "url": "https://www.youtube.com/watch?v=F56XCC-wFzk",
-      "thumb": "https://img.youtube.com/vi/F56XCC-wFzk/mqdefault.jpg",
-      "grade": "📈"
+      "title": "Glowy needs a friend! (Brawl Stars Animation)",
+      "views": 13298796,
+      "views_str": "13.3M",
+      "url": "https://www.youtube.com/watch?v=uaE40kR6f_U",
+      "thumb": "https://img.youtube.com/vi/uaE40kR6f_U/mqdefault.jpg",
+      "tag": "BRAWL STARS"
     },
     {
-      "vpd": 12381,
-      "views": 371446,
-      "views_str": "371.446",
-      "age_days": 30,
-      "title": "Top 50 NEW PC Games of 2026",
-      "channel": "gameranx",
-      "url": "https://www.youtube.com/watch?v=S8hyguTBsSU",
-      "thumb": "https://img.youtube.com/vi/S8hyguTBsSU/mqdefault.jpg",
-      "grade": "📈"
+      "title": "Clash Royale Halftime Show ft. Lil Wayne",
+      "views": 12695163,
+      "views_str": "12.7M",
+      "url": "https://www.youtube.com/watch?v=Y18_fiEwRiQ",
+      "thumb": "https://img.youtube.com/vi/Y18_fiEwRiQ/mqdefault.jpg",
+      "tag": "CLASH ROYALE"
     },
     {
-      "vpd": 12078,
-      "views": 362356,
-      "views_str": "362.356",
-      "age_days": 30,
-      "title": "Top 10 NEW Games of March 2026",
-      "channel": "gameranx",
-      "url": "https://www.youtube.com/watch?v=Ze2Bm3Yax3U",
-      "thumb": "https://img.youtube.com/vi/Ze2Bm3Yax3U/mqdefault.jpg",
-      "grade": "📈"
+      "title": "Everyone can get Finx for FREE! - Brawl Stars",
+      "views": 8829123,
+      "views_str": "8.8M",
+      "url": "https://www.youtube.com/watch?v=8S0JcaNksmE",
+      "thumb": "https://img.youtube.com/vi/8S0JcaNksmE/mqdefault.jpg",
+      "tag": "BRAWL STARS"
     },
     {
-      "vpd": 11986,
-      "views": 359597,
-      "views_str": "359.597",
-      "age_days": 30,
-      "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
-      "channel": "GameRax",
-      "url": "https://www.youtube.com/watch?v=ZcXiHGiDSeU",
-      "thumb": "https://img.youtube.com/vi/ZcXiHGiDSeU/mqdefault.jpg",
-      "grade": "📈"
+      "title": "The Biggest Update of the Year! - Brawl Talk",
+      "views": 7712398,
+      "views_str": "7.7M",
+      "url": "https://www.youtube.com/watch?v=eaGZALpqExU",
+      "thumb": "https://img.youtube.com/vi/eaGZALpqExU/mqdefault.jpg",
+      "tag": "BRAWL STARS"
+    }
+  ],
+  "news": [
+    {
+      "emoji": "🚀",
+      "source": "Pocket Gamer",
+      "title": "Clash for Dawn набрал 1.5 млн загрузок с момента запуска",
+      "desc": "Action RPG Clash for Dawn стремительно растёт. 1.5 миллиона скачиваний за первые недели - один из самых успешных мобильных запусков 2026."
     },
     {
-      "vpd": 9033,
-      "views": 271010,
-      "views_str": "271.010",
-      "age_days": 30,
-      "title": "27 NEW Games That Will SHOCK You in 2026!",
-      "channel": "GameRax",
-      "url": "https://www.youtube.com/watch?v=vh3z-u-r8bI",
-      "thumb": "https://img.youtube.com/vi/vh3z-u-r8bI/mqdefault.jpg",
-      "grade": "📈"
+      "emoji": "🏰",
+      "source": "Pocket Gamer",
+      "title": "Castle Frenzy от Gameloft вышла на App Store",
+      "desc": "Gameloft выпустил новый tower defense Castle Frenzy. Классическая механика с современной графикой."
     },
     {
-      "vpd": 8932,
-      "views": 267970,
-      "views_str": "267.970",
-      "age_days": 30,
-      "title": "22 NEW GAMES the WHOLE WORLD Is WAITING FOR in 2026! (PC, PS5, Xbox)",
-      "channel": "GameRax",
-      "url": "https://www.youtube.com/watch?v=6OO57T-2wL4",
-      "thumb": "https://img.youtube.com/vi/6OO57T-2wL4/mqdefault.jpg",
-      "grade": "📈"
+      "emoji": "🏛️",
+      "source": "GamingonPhone",
+      "title": "Age of Empires: Survival - soft launch на Android",
+      "desc": "Легендарная стратегия AoE пришла на мобильные в формате hypercasual survival. Soft launch в отдельных регионах."
     },
     {
-      "vpd": 7654,
-      "views": 229638,
-      "views_str": "229.638",
-      "age_days": 30,
-      "title": "Best New Space Games for 2026 (FINALLY Something Different)",
-      "channel": "ObsidianAnt",
-      "url": "https://www.youtube.com/watch?v=02UBo2cjPJo",
-      "thumb": "https://img.youtube.com/vi/02UBo2cjPJo/mqdefault.jpg",
-      "grade": "📈"
+      "emoji": "🎮",
+      "source": "EGW News",
+      "title": "Fortnite FNCS 2026: турнир на $1M для мобильных игроков",
+      "desc": "Epic Games анонсировала FNCS 2026 с $1M призовых для мобильного турнира. Мобильный eSports на новом уровне."
     },
     {
-      "vpd": 5980,
-      "views": 179422,
-      "views_str": "179.422",
-      "age_days": 30,
-      "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
-      "channel": "Tekkan",
-      "url": "https://www.youtube.com/watch?v=E7qMngvwXM4",
-      "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
-      "grade": "📈"
+      "emoji": "📊",
+      "source": "PocketGamer.biz",
+      "title": "Чарты января: PUBG Mobile растёт, Clash Royale падает",
+      "desc": "PUBG Mobile снова набирает обороты. Новый издатель Microfun впервые ворвался в десятку лидеров."
     },
     {
-      "vpd": 5960,
-      "views": 178808,
-      "views_str": "178.808",
-      "age_days": 30,
-      "title": "12 Best NEW Games To Play In February 2026",
-      "channel": "Force Gaming",
-      "url": "https://www.youtube.com/watch?v=4MnRvtQ3xKQ",
-      "thumb": "https://img.youtube.com/vi/4MnRvtQ3xKQ/mqdefault.jpg",
-      "grade": "📈"
+      "emoji": "💰",
+      "source": "Mobilegamer.biz",
+      "title": "Топ кассовых мобильных игр февраля 2026",
+      "desc": "Royal Match доминирует в puzzle. Monopoly GO и Whiteout Survival в топ-5 по выручке."
+    },
+    {
+      "emoji": "🌌",
+      "source": "Enduins",
+      "title": "Neverness to Everness: Hotta Studio показала open-world RPG",
+      "desc": "Создатели Tower of Fantasy анонсировали сверхъестественную городскую RPG. Ожидается в 2026."
+    },
+    {
+      "emoji": "🎬",
+      "source": "Steam",
+      "title": "Slay the Spire 2 вышла 5 марта - мобильная версия вопрос времени",
+      "desc": "Сиквел культового roguelike-deckbuilder на Steam. Первая часть была хитом на мобильных."
+    }
+  ],
+  "ideas": [
+    {
+      "emoji": "⚔️",
+      "title": "Action RPG с быстрым стартом (как Clash for Dawn)",
+      "priority": "🔥 HIGH",
+      "insight": "Clash for Dawn набрал 1.5M за недели. Формула: action RPG + быстрый лут + социалка. Ниша не забита, инди могут зайти с MVP за 3-4 месяца.",
+      "signal": "Clash for Dawn: 1.5M загрузок, 8.5K/день"
+    },
+    {
+      "emoji": "🏰",
+      "title": "Tower Defense с мета-прогрессией и PvP",
+      "priority": "🔥 HIGH",
+      "insight": "Castle Frenzy от Gameloft показывает: TD жив. Добавь коллекцию героев + PvP рейтинг + клановые войны для retention.",
+      "signal": "Castle Frenzy - новый TD от Gameloft в топе"
+    },
+    {
+      "emoji": "🎴",
+      "title": "Roguelike-deckbuilder (мобильный Slay the Spire 2)",
+      "priority": "⚡ MEDIUM",
+      "insight": "STS2 - хит на Steam, мобильной версии нет. Окно для F2P клона с gacha-механиками на мобильных.",
+      "signal": "Slay the Spire 2 вышла 5 марта, нет на мобильных"
+    },
+    {
+      "emoji": "📱",
+      "title": "Мобильный eSports с встроенными турнирами",
+      "priority": "⚡ MEDIUM",
+      "insight": "Fortnite $1M мобильный турнир, MLBB M7 набрал 14M просмотров. Делай игру со встроенной турнирной системой и стримингом.",
+      "signal": "FNCS $1M + M7 MLBB 14M views на YouTube"
+    },
+    {
+      "emoji": "🎭",
+      "title": "Мемы + ностальгия = виральность",
+      "priority": "💤 LOW",
+      "insight": "Brawl Stars анимации набирают 13-18M views, Free Fire ностальгия 35M. IP или мем-обёртка + простая механика = бесплатный маркетинг через TikTok/Shorts.",
+      "signal": "Brawl Stars анимации 18M, Free Fire ностальгия 35M views"
     }
   ]
 }
