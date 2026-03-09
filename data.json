@@ -1,6 +1,17 @@
 {
-  "updated": "2026-03-10 01:50",
+  "updated": "2026-03-10 02:00",
   "rockets": [
+    {
+      "emoji": "🎯",
+      "tag": "💰 $1M ЗА ДЕНЬ",
+      "name": "Valorant Mobile",
+      "genre": "Tactical Shooter · Tencent",
+      "downloads": "10M+",
+      "perDay": 12000,
+      "days": 7,
+      "releaseDate": "2026-03",
+      "url": "https://play.google.com/store/search?q=valorant+mobile&c=apps"
+    },
     {
       "emoji": "⚔️",
       "tag": "🔥 1.5M ЗАГРУЗОК",
@@ -38,7 +49,7 @@
       "emoji": "🔫",
       "tag": "РОСТ",
       "name": "Free Fire",
-      "genre": "Battle Royale",
+      "genre": "Battle Royale · Garena",
       "downloads": "1B+",
       "perDay": 9400,
       "days": 90,
@@ -46,7 +57,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth"
     },
     {
-      "emoji": "🎯",
+      "emoji": "🎮",
       "tag": "$1M ТУРНИР",
       "name": "Fortnite Mobile",
       "genre": "Battle Royale · eSports",
@@ -77,51 +88,64 @@
       "days": 0,
       "releaseDate": "2026",
       "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte"
-    },
-    {
-      "emoji": "🐱",
-      "tag": "АНОНС",
-      "name": "Tom & Jerry Mobile",
-      "genre": "Action · Multiplayer",
-      "downloads": "Анонс",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2026",
-      "url": "https://play.google.com/store/apps/details?id=com.jerrym"
     }
   ],
   "videos": [
     {
-      "title": "Subscribe if you love Roblox ❤️",
-      "views": 73134405,
-      "views_str": "73.1M",
-      "url": "https://www.youtube.com/watch?v=63SFi8EMgjg",
-      "thumb": "https://img.youtube.com/vi/63SFi8EMgjg/mqdefault.jpg",
-      "tag": "ROBLOX"
+      "title": "Brawl Stars Animation: Piper's Sugar & Spice!",
+      "views": 258946737,
+      "views_str": "259M",
+      "url": "https://www.youtube.com/watch?v=0cOsLTM5l9c",
+      "thumb": "https://img.youtube.com/vi/0cOsLTM5l9c/mqdefault.jpg",
+      "tag": "BRAWL STARS"
     },
     {
-      "title": "Survive 30 Days Stranded, Win $250K",
-      "views": 47555551,
-      "views_str": "47.6M",
-      "url": "https://www.youtube.com/watch?v=AoN1K4c7VKE",
-      "thumb": "https://img.youtube.com/vi/AoN1K4c7VKE/mqdefault.jpg",
-      "tag": "CHALLENGE"
+      "title": "End level camping in PUBG 🔥 Victor pro camper",
+      "views": 184779689,
+      "views_str": "185M",
+      "url": "https://www.youtube.com/watch?v=CWBFrctcQTM",
+      "thumb": "https://img.youtube.com/vi/CWBFrctcQTM/mqdefault.jpg",
+      "tag": "PUBG MOBILE"
     },
     {
-      "title": "Golden Time - Old Free Fire Nostalgia 🥺",
-      "views": 35320505,
+      "title": "Fortnite Chapter 2 Season 2 - Top Secret Launch Trailer",
+      "views": 65389522,
+      "views_str": "65.4M",
+      "url": "https://www.youtube.com/watch?v=JgPXMxW7zJk",
+      "thumb": "https://img.youtube.com/vi/JgPXMxW7zJk/mqdefault.jpg",
+      "tag": "FORTNITE"
+    },
+    {
+      "title": "Card Evolution Reveal! (music by Tenacious D!)",
+      "views": 45393218,
+      "views_str": "45.4M",
+      "url": "https://www.youtube.com/watch?v=6fo9gJ2nFdU",
+      "thumb": "https://img.youtube.com/vi/6fo9gJ2nFdU/mqdefault.jpg",
+      "tag": "CLASH ROYALE"
+    },
+    {
+      "title": "Ellen Character Demo - Zenless Zone Zero",
+      "views": 37985483,
+      "views_str": "38M",
+      "url": "https://www.youtube.com/watch?v=iOW8XhUce38",
+      "thumb": "https://img.youtube.com/vi/iOW8XhUce38/mqdefault.jpg",
+      "tag": "ZZZ"
+    },
+    {
+      "title": "Golden Time 🥺 Old Free Fire Nostalgia",
+      "views": 35320561,
       "views_str": "35.3M",
       "url": "https://www.youtube.com/watch?v=L359fMZSl4o",
       "thumb": "https://img.youtube.com/vi/L359fMZSl4o/mqdefault.jpg",
       "tag": "FREE FIRE"
     },
     {
-      "title": "A Hacker Added This to Fortnite 🤔",
-      "views": 27464827,
-      "views_str": "27.5M",
-      "url": "https://www.youtube.com/watch?v=G7Q_sqZDINw",
-      "thumb": "https://img.youtube.com/vi/G7Q_sqZDINw/mqdefault.jpg",
-      "tag": "FORTNITE"
+      "title": "MONOPOLY GO! Official Trailer",
+      "views": 20036786,
+      "views_str": "20M",
+      "url": "https://www.youtube.com/watch?v=cwfoZy3mNTI",
+      "thumb": "https://img.youtube.com/vi/cwfoZy3mNTI/mqdefault.jpg",
+      "tag": "MONOPOLY GO"
     },
     {
       "title": "Brawl Stars: BUFFIES FOREVER!",
@@ -132,131 +156,107 @@
       "tag": "BRAWL STARS"
     },
     {
-      "title": "M7 World Championship Grand Finals - MLBB",
-      "views": 13922086,
-      "views_str": "13.9M",
-      "url": "https://www.youtube.com/watch?v=4qmGkos9xF8",
-      "thumb": "https://img.youtube.com/vi/4qmGkos9xF8/mqdefault.jpg",
-      "tag": "MLBB ESPORTS"
+      "title": "Defeat Dr. Eggman with Sonic in Squad Busters! 🌀",
+      "views": 5773229,
+      "views_str": "5.8M",
+      "url": "https://www.youtube.com/watch?v=NOYtqju2erM",
+      "thumb": "https://img.youtube.com/vi/NOYtqju2erM/mqdefault.jpg",
+      "tag": "SQUAD BUSTERS"
     },
     {
-      "title": "Glowy needs a friend! (Brawl Stars Animation)",
-      "views": 13298796,
-      "views_str": "13.3M",
-      "url": "https://www.youtube.com/watch?v=uaE40kR6f_U",
-      "thumb": "https://img.youtube.com/vi/uaE40kR6f_U/mqdefault.jpg",
-      "tag": "BRAWL STARS"
-    },
-    {
-      "title": "Clash Royale Halftime Show ft. Lil Wayne",
-      "views": 12695163,
-      "views_str": "12.7M",
-      "url": "https://www.youtube.com/watch?v=Y18_fiEwRiQ",
-      "thumb": "https://img.youtube.com/vi/Y18_fiEwRiQ/mqdefault.jpg",
-      "tag": "CLASH ROYALE"
-    },
-    {
-      "title": "Everyone can get Finx for FREE! - Brawl Stars",
-      "views": 8829123,
-      "views_str": "8.8M",
-      "url": "https://www.youtube.com/watch?v=8S0JcaNksmE",
-      "thumb": "https://img.youtube.com/vi/8S0JcaNksmE/mqdefault.jpg",
-      "tag": "BRAWL STARS"
-    },
-    {
-      "title": "The Biggest Update of the Year! - Brawl Talk",
-      "views": 7712398,
-      "views_str": "7.7M",
-      "url": "https://www.youtube.com/watch?v=eaGZALpqExU",
-      "thumb": "https://img.youtube.com/vi/eaGZALpqExU/mqdefault.jpg",
-      "tag": "BRAWL STARS"
+      "title": "VALORANT Mobile China Launch - IN MY ZONE ft. BBNO$",
+      "views": 3443757,
+      "views_str": "3.4M",
+      "url": "https://www.youtube.com/watch?v=WyYiVdNhTE0",
+      "thumb": "https://img.youtube.com/vi/WyYiVdNhTE0/mqdefault.jpg",
+      "tag": "VALORANT"
     }
   ],
   "news": [
     {
+      "emoji": "💰",
+      "source": "PhoneWorld",
+      "title": "Valorant Mobile набрал $1M за первый день в Китае",
+      "desc": "Tencent запустил Valorant Mobile в Китае - $1 миллион выручки за первые сутки. Тактический шутер становится мобильным хитом."
+    },
+    {
       "emoji": "🚀",
       "source": "Pocket Gamer",
-      "title": "Clash for Dawn набрал 1.5 млн загрузок с момента запуска",
-      "desc": "Action RPG Clash for Dawn стремительно растёт. 1.5 миллиона скачиваний за первые недели - один из самых успешных мобильных запусков 2026."
+      "title": "Clash for Dawn набрал 1.5 млн загрузок",
+      "desc": "Action RPG Clash for Dawn стремительно растёт. 1.5M скачиваний за первые недели - один из лучших запусков 2026."
     },
     {
       "emoji": "🏰",
       "source": "Pocket Gamer",
       "title": "Castle Frenzy от Gameloft вышла на App Store",
-      "desc": "Gameloft выпустил новый tower defense Castle Frenzy. Классическая механика с современной графикой."
+      "desc": "Gameloft выпустил новый tower defense. Классическая механика с современной графикой."
     },
     {
       "emoji": "🏛️",
       "source": "GamingonPhone",
       "title": "Age of Empires: Survival - soft launch на Android",
-      "desc": "Легендарная стратегия AoE пришла на мобильные в формате hypercasual survival. Soft launch в отдельных регионах."
+      "desc": "Легендарная AoE пришла на мобильные в формате hypercasual survival."
+    },
+    {
+      "emoji": "🏆",
+      "source": "GamingonPhone",
+      "title": "MLMS дебютирует с прямым слотом на MSC 2026",
+      "desc": "Moba Legends Master Series стартует с гарантированным местом на MSC 2026. Mobile Legends eSports расширяется."
     },
     {
       "emoji": "🎮",
       "source": "EGW News",
-      "title": "Fortnite FNCS 2026: турнир на $1M для мобильных игроков",
-      "desc": "Epic Games анонсировала FNCS 2026 с $1M призовых для мобильного турнира. Мобильный eSports на новом уровне."
+      "title": "Fortnite FNCS 2026: $1M мобильный турнир",
+      "desc": "Epic Games анонсировала FNCS 2026 с $1M призовых для мобильных игроков."
     },
     {
       "emoji": "📊",
       "source": "PocketGamer.biz",
-      "title": "Чарты января: PUBG Mobile растёт, Clash Royale падает",
-      "desc": "PUBG Mobile снова набирает обороты. Новый издатель Microfun впервые ворвался в десятку лидеров."
-    },
-    {
-      "emoji": "💰",
-      "source": "Mobilegamer.biz",
-      "title": "Топ кассовых мобильных игр февраля 2026",
-      "desc": "Royal Match доминирует в puzzle. Monopoly GO и Whiteout Survival в топ-5 по выручке."
-    },
-    {
-      "emoji": "🌌",
-      "source": "Enduins",
-      "title": "Neverness to Everness: Hotta Studio показала open-world RPG",
-      "desc": "Создатели Tower of Fantasy анонсировали сверхъестественную городскую RPG. Ожидается в 2026."
+      "title": "Чарты января: PUBG Mobile растёт, Microfun в топ-10",
+      "desc": "PUBG Mobile набирает обороты. Новый издатель Microfun впервые в десятке лидеров."
     },
     {
       "emoji": "🎬",
       "source": "Steam",
-      "title": "Slay the Spire 2 вышла 5 марта - мобильная версия вопрос времени",
-      "desc": "Сиквел культового roguelike-deckbuilder на Steam. Первая часть была хитом на мобильных."
+      "title": "Slay the Spire 2 вышла 5 марта",
+      "desc": "Сиквел культового roguelike-deckbuilder. Первая часть была хитом на мобильных - вторая наверняка придёт."
     }
   ],
   "ideas": [
     {
-      "emoji": "⚔️",
-      "title": "Action RPG с быстрым стартом (как Clash for Dawn)",
+      "emoji": "🎯",
+      "title": "Тактический шутер для мобильных (Valorant-lite)",
       "priority": "🔥 HIGH",
-      "insight": "Clash for Dawn набрал 1.5M за недели. Формула: action RPG + быстрый лут + социалка. Ниша не забита, инди могут зайти с MVP за 3-4 месяца.",
+      "insight": "Valorant Mobile сделал $1M за день. Рынок тактических шутеров на мобильных только открывается. Упрощённая версия с короткими матчами (3 мин) может захватить casual аудиторию.",
+      "signal": "Valorant Mobile: $1M/день, 12K загрузок/день"
+    },
+    {
+      "emoji": "⚔️",
+      "title": "Action RPG с быстрым стартом",
+      "priority": "🔥 HIGH",
+      "insight": "Clash for Dawn - 1.5M за недели. Формула: быстрый лут + социалка + простой онбординг. Инди может зайти с MVP за 3-4 месяца.",
       "signal": "Clash for Dawn: 1.5M загрузок, 8.5K/день"
     },
     {
-      "emoji": "🏰",
-      "title": "Tower Defense с мета-прогрессией и PvP",
-      "priority": "🔥 HIGH",
-      "insight": "Castle Frenzy от Gameloft показывает: TD жив. Добавь коллекцию героев + PvP рейтинг + клановые войны для retention.",
-      "signal": "Castle Frenzy - новый TD от Gameloft в топе"
-    },
-    {
       "emoji": "🎴",
-      "title": "Roguelike-deckbuilder (мобильный Slay the Spire 2)",
+      "title": "Roguelike-deckbuilder (мобильный STS2)",
       "priority": "⚡ MEDIUM",
-      "insight": "STS2 - хит на Steam, мобильной версии нет. Окно для F2P клона с gacha-механиками на мобильных.",
-      "signal": "Slay the Spire 2 вышла 5 марта, нет на мобильных"
+      "insight": "Slay the Spire 2 - хит на Steam, мобильной версии нет. Окно для F2P deckbuilder с gacha-элементами.",
+      "signal": "STS2 вышла 5 марта, нет на мобильных"
     },
     {
       "emoji": "📱",
-      "title": "Мобильный eSports с встроенными турнирами",
+      "title": "Мобильный eSports с турнирами",
       "priority": "⚡ MEDIUM",
-      "insight": "Fortnite $1M мобильный турнир, MLBB M7 набрал 14M просмотров. Делай игру со встроенной турнирной системой и стримингом.",
-      "signal": "FNCS $1M + M7 MLBB 14M views на YouTube"
+      "insight": "Fortnite $1M мобильный турнир, MLMS→MSC 2026, Brawl Stars анимации 259M views. Встроенная турнирная система + стриминг = retention.",
+      "signal": "FNCS $1M + MLMS + Brawl Stars 259M views"
     },
     {
       "emoji": "🎭",
-      "title": "Мемы + ностальгия = виральность",
+      "title": "Контент-игра (анимации = маркетинг)",
       "priority": "💤 LOW",
-      "insight": "Brawl Stars анимации набирают 13-18M views, Free Fire ностальгия 35M. IP или мем-обёртка + простая механика = бесплатный маркетинг через TikTok/Shorts.",
-      "signal": "Brawl Stars анимации 18M, Free Fire ностальгия 35M views"
+      "insight": "Brawl Stars: Piper анимация 259M views, Ellen ZZZ 38M. Игра, где контент-маркетинг встроен в продукт (персонажи для мемов, анимации, Shorts).",
+      "signal": "Brawl Stars анимации 259M, ZZZ 38M, Squad Busters 5.8M"
     }
   ]
 }
