@@ -832,17 +832,12 @@
     label.textContent = 'Парсю данные...';
 
     try {
-      await fetch('/api/refresh');
-      // Polling пока не готово
-      const poll = setInterval(async () => {
-        const s = await fetch('/api/status').then(r => r.json());
-        if (!s.running) {
-          clearInterval(poll);
-          icon.textContent = '✅';
-          label.textContent = 'Готово! Обновляю...';
-          setTimeout(() => { loadData(); btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 1000);
-        }
-      }, 2000);
+      // GitHub Pages - просто перезагружаем данные
+      await new Promise(r => setTimeout(r, 1000));
+      await loadData();
+      icon.textContent = '✅';
+      label.textContent = 'Готово!';
+      setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 2000);
     } catch(e) {
       btn.disabled = false;
       icon.textContent = '↻';
