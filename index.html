@@ -37,7 +37,7 @@
     header {
       background: var(--bg2);
       border-bottom: 1px solid var(--border);
-      padding: 20px 24px;
+      padding: 16px 24px;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -55,7 +55,7 @@
     }
 
     .header-title {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       font-weight: 800;
       background: var(--gradient);
       -webkit-background-clip: text;
@@ -82,40 +82,82 @@
       width: 8px; height: 8px;
       background: var(--green);
       border-radius: 50%;
-      animation: pulse 2s infinite;
     }
 
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.5; transform: scale(1.3); }
+    /* TABS */
+    .tabs {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 16px 24px 0;
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
     }
+    .tabs::-webkit-scrollbar { display: none; }
 
-    .btn-refresh {
-      background: var(--gradient);
-      border: none;
-      color: #fff;
-      padding: 8px 18px;
-      border-radius: 20px;
+    .tab {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      padding: 10px 20px;
+      border-radius: 12px 12px 0 0;
       cursor: pointer;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       font-weight: 600;
-      transition: opacity 0.2s, transform 0.1s;
+      white-space: nowrap;
+      transition: all 0.2s;
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
+      position: relative;
     }
 
-    .btn-refresh:hover { opacity: 0.85; transform: scale(1.03); }
-    .btn-refresh:active { transform: scale(0.98); }
+    .tab:hover {
+      color: var(--text);
+      background: var(--bg3);
+    }
+
+    .tab.active {
+      color: var(--text);
+      background: var(--bg);
+      border-color: var(--border);
+      border-bottom-color: var(--bg);
+    }
+
+    .tab-icon { font-size: 1.1rem; }
+
+    .tab-badge {
+      background: var(--accent1);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 1px 7px;
+      border-radius: 10px;
+      min-width: 20px;
+      text-align: center;
+    }
+
+    .tabs-line {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 24px;
+      border-bottom: 1px solid var(--border);
+    }
 
     /* MAIN */
     main {
       max-width: 1400px;
       margin: 0 auto;
-      padding: 32px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 48px;
+      padding: 24px;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
     }
 
     /* SECTION */
@@ -140,7 +182,6 @@
     .section-title {
       font-size: 1.3rem;
       font-weight: 700;
-      color: var(--text);
     }
 
     .section-subtitle {
@@ -159,16 +200,16 @@
       border-radius: 20px;
     }
 
-    /* GRID */
+    /* GRIDS */
     .grid-3 {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 16px;
     }
 
-    .grid-5 {
+    .grid-4 {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 16px;
     }
 
@@ -235,7 +276,6 @@
     .game-name {
       font-size: 1rem;
       font-weight: 700;
-      color: var(--text);
       line-height: 1.3;
     }
 
@@ -306,6 +346,30 @@
 
     .play-link:hover { color: #fff; }
 
+    .progress-wrap { margin-top: 8px; }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .progress-bar {
+      height: 4px;
+      background: var(--bg3);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--gradient);
+      border-radius: 2px;
+      transition: width 0.8s ease;
+    }
+
     /* VIDEO CARD */
     .video-card {
       padding: 0;
@@ -330,7 +394,6 @@
     .video-title {
       font-size: 0.95rem;
       font-weight: 700;
-      color: var(--text);
       line-height: 1.3;
     }
 
@@ -385,7 +448,6 @@
     .news-title {
       font-size: 0.95rem;
       font-weight: 700;
-      color: var(--text);
       line-height: 1.3;
       margin-bottom: 6px;
     }
@@ -402,9 +464,7 @@
       border-color: rgba(124,58,237,0.25);
     }
 
-    .idea-card:hover {
-      border-color: var(--accent1);
-    }
+    .idea-card:hover { border-color: var(--accent1); }
 
     .idea-header {
       display: flex;
@@ -412,9 +472,7 @@
       gap: 12px;
     }
 
-    .idea-emoji {
-      font-size: 2rem;
-    }
+    .idea-emoji { font-size: 2rem; }
 
     .idea-priority {
       margin-left: auto;
@@ -425,7 +483,6 @@
     .idea-title {
       font-size: 1rem;
       font-weight: 700;
-      color: var(--text);
     }
 
     .idea-insight {
@@ -444,6 +501,29 @@
       border: 1px solid rgba(168, 85, 247, 0.2);
       padding: 6px 10px;
       border-radius: 8px;
+    }
+
+    /* EMPTY STATE */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      opacity: 0.5;
+    }
+
+    .empty-text {
+      font-size: 1rem;
+      margin-bottom: 4px;
+    }
+
+    .empty-hint {
+      font-size: 0.8rem;
+      opacity: 0.7;
     }
 
     /* LOADING */
@@ -471,17 +551,18 @@
       background: var(--bg2);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 20px 28px;
+      padding: 16px 24px;
       display: flex;
-      gap: 32px;
+      gap: 24px;
       flex-wrap: wrap;
       align-items: center;
+      margin-bottom: 24px;
     }
 
     .stat-item { text-align: center; }
 
     .stat-num {
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: 900;
       background: var(--gradient);
       -webkit-background-clip: text;
@@ -491,7 +572,7 @@
     }
 
     .stat-lbl {
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -500,43 +581,8 @@
 
     .stat-divider {
       width: 1px;
-      height: 40px;
+      height: 36px;
       background: var(--border);
-    }
-
-    /* PROGRESS BAR */
-    .progress-wrap {
-      margin-top: 8px;
-    }
-
-    .progress-label {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.7rem;
-      color: var(--text-muted);
-      margin-bottom: 4px;
-    }
-
-    .progress-bar {
-      height: 4px;
-      background: var(--bg3);
-      border-radius: 2px;
-      overflow: hidden;
-    }
-
-    .progress-fill {
-      height: 100%;
-      background: var(--gradient);
-      border-radius: 2px;
-      transition: width 0.8s ease;
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 600px) {
-      main { padding: 20px 16px; gap: 36px; }
-      .header-title { font-size: 1.3rem; }
-      .stats-bar { gap: 20px; padding: 16px 20px; }
-      .grid-3, .grid-5, .grid-2 { grid-template-columns: 1fr; }
     }
 
     /* ERROR */
@@ -548,6 +594,17 @@
       border-radius: 10px;
       font-size: 0.85rem;
       display: none;
+      margin-bottom: 16px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      main { padding: 16px; }
+      .header-title { font-size: 1.2rem; }
+      .tabs { padding: 12px 16px 0; }
+      .tab { padding: 8px 14px; font-size: 0.82rem; }
+      .stats-bar { gap: 16px; padding: 14px 18px; }
+      .grid-3, .grid-4, .grid-2 { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -555,135 +612,168 @@
 
 <header>
   <div class="header-inner">
-    <div class="header-title">🎮 Game Trends Dashboard</div>
+    <div class="header-title">🎮 Game Trends</div>
     <div class="header-meta">
       <div class="updated-badge">
         <div class="dot"></div>
-        <span>Обновлено: <span id="updated-date">загрузка...</span></span>
+        <span id="updated-date">загрузка...</span>
       </div>
-      <button class="btn-refresh" id="refresh-btn" onclick="startRefresh()">
-        <span id="refresh-icon">↻</span> <span id="refresh-label">Обновить данные</span>
-      </button>
     </div>
   </div>
 </header>
 
+<!-- TABS -->
+<div class="tabs" id="tabs">
+  <button class="tab active" data-tab="rockets" onclick="switchTab('rockets')">
+    <span class="tab-icon">🚀</span>
+    <span>Тренды игр</span>
+    <span class="tab-badge" id="badge-rockets">0</span>
+  </button>
+  <button class="tab" data-tab="videos" onclick="switchTab('videos')">
+    <span class="tab-icon">📺</span>
+    <span>Видео тренды</span>
+    <span class="tab-badge" id="badge-videos">0</span>
+  </button>
+  <button class="tab" data-tab="news" onclick="switchTab('news')">
+    <span class="tab-icon">📰</span>
+    <span>Новости</span>
+    <span class="tab-badge" id="badge-news">0</span>
+  </button>
+  <button class="tab" data-tab="ideas" onclick="switchTab('ideas')">
+    <span class="tab-icon">💡</span>
+    <span>Идеи</span>
+    <span class="tab-badge" id="badge-ideas">0</span>
+  </button>
+</div>
+<div class="tabs-line"></div>
+
 <main>
 
-  <!-- ERROR BANNER -->
   <div class="error-banner" id="error-banner">
     ⚠️ Не удалось загрузить данные. Проверь что data.json доступен.
   </div>
 
-  <!-- STATS BAR -->
+  <!-- STATS -->
   <div class="stats-bar" id="stats-bar">
-    <div class="loading"><div class="spinner"></div> Загружаю данные...</div>
+    <div class="loading"><div class="spinner"></div> Загружаю...</div>
   </div>
 
-  <!-- ROCKETS -->
-  <section>
+  <!-- TAB: ROCKETS -->
+  <div class="tab-content active" id="content-rockets">
     <div class="section-header">
       <div class="section-icon">🚀</div>
       <div>
         <div class="section-title">Ракеты Google Play</div>
-        <div class="section-subtitle">Новинки с >1K скачиваний в день, последние 6 мес.</div>
+        <div class="section-subtitle">Новинки с быстрым ростом скачиваний</div>
       </div>
       <div class="section-count" id="rockets-count">...</div>
     </div>
     <div class="grid-3" id="rockets-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
-  </section>
+  </div>
 
-  <!-- VIDEOS -->
-  <section>
+  <!-- TAB: VIDEOS -->
+  <div class="tab-content" id="content-videos">
     <div class="section-header">
       <div class="section-icon">🔥</div>
       <div>
         <div class="section-title">Вирусные видео</div>
-        <div class="section-subtitle">500K+ просмотров, тренды последних 6 мес.</div>
+        <div class="section-subtitle">Топ видео по просмотрам</div>
       </div>
       <div class="section-count" id="videos-count">...</div>
     </div>
-    <div class="grid-5" id="videos-grid">
+    <div class="grid-4" id="videos-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
-  </section>
+  </div>
 
-  <!-- NEWS -->
-  <section>
+  <!-- TAB: NEWS -->
+  <div class="tab-content" id="content-news">
     <div class="section-header">
       <div class="section-icon">📰</div>
       <div>
         <div class="section-title">Новости индустрии</div>
-        <div class="section-subtitle">Pocket Gamer · свежие релизы и анонсы</div>
+        <div class="section-subtitle">Свежие релизы и анонсы</div>
       </div>
       <div class="section-count" id="news-count">...</div>
     </div>
     <div class="grid-2" id="news-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
-  </section>
+  </div>
 
-  <!-- IDEAS -->
-  <section>
+  <!-- TAB: IDEAS -->
+  <div class="tab-content" id="content-ideas">
     <div class="section-header">
       <div class="section-icon">💡</div>
       <div>
         <div class="section-title">Идеи для игры</div>
-        <div class="section-subtitle">Инсайты на основе трендов — что стоит сделать</div>
+        <div class="section-subtitle">Инсайты на основе трендов</div>
       </div>
       <div class="section-count" id="ideas-count">...</div>
     </div>
     <div class="grid-2" id="ideas-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
-  </section>
+  </div>
 
 </main>
 
 <script>
-  const maxPerDay = 9433; // для прогресс-баров
+  const maxPerDay = 9433;
 
   function formatNum(n) {
-    if (n >= 1000000) return (n / 1000000).toFixed(0) + 'M';
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
     if (n >= 1000) return (n / 1000).toFixed(0) + 'K';
     return n;
   }
 
-  function formatViews(str) {
-    return str;
+  // TABS
+  function switchTab(name) {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    document.querySelector(`.tab[data-tab="${name}"]`).classList.add('active');
+    document.getElementById('content-' + name).classList.add('active');
   }
 
   // RENDER ROCKETS
   function renderRockets(data) {
     const grid = document.getElementById('rockets-grid');
-    document.getElementById('rockets-count').textContent = data.length + ' игр';
+    const count = data.length;
+    document.getElementById('rockets-count').textContent = count + ' игр';
+    document.getElementById('badge-rockets').textContent = count;
+
+    if (!count) {
+      grid.innerHTML = `<div class="empty-state"><div class="empty-icon">🚀</div><div class="empty-text">Пока нет данных</div><div class="empty-hint">Данные появятся после обновления</div></div>`;
+      return;
+    }
+
     grid.innerHTML = data.map(g => {
       const pct = Math.round((g.perDay / maxPerDay) * 100);
       return `
         <div class="card rocket-card">
           <div class="card-top">
-            <div class="game-emoji">${g.emoji}</div>
+            <div class="game-emoji">${g.emoji || '🎮'}</div>
             <div style="flex:1">
-              <div class="card-tag">${g.tag}</div>
+              <div class="card-tag">${g.tag || 'NEW'}</div>
               <div class="game-name">${g.name}</div>
-              <div class="game-genre">${g.genre}</div>
+              <div class="game-genre">${g.genre || ''}</div>
             </div>
           </div>
           <div class="metrics">
             <div class="metric">
-              <div class="metric-value">${g.downloads}</div>
+              <div class="metric-value">${g.downloads || '—'}</div>
               <div class="metric-label">Скачиваний</div>
             </div>
             <div class="metric-divider"></div>
             <div class="metric">
-              <div class="metric-value green">${g.perDay.toLocaleString()}</div>
+              <div class="metric-value green">${(g.perDay || 0).toLocaleString()}</div>
               <div class="metric-label">в день</div>
             </div>
             <div class="metric-divider"></div>
             <div class="metric">
-              <div class="metric-value yellow">${g.days}</div>
+              <div class="metric-value yellow">${g.days || '—'}</div>
               <div class="metric-label">дней</div>
             </div>
           </div>
@@ -693,14 +783,12 @@
               <span>${pct}% от топа</span>
             </div>
             <div class="progress-bar">
-              <div class="progress-fill" style="width: ${pct}%"></div>
+              <div class="progress-fill" style="width: ${Math.min(pct, 100)}%"></div>
             </div>
           </div>
           <div class="card-footer">
-            <span>📅 Релиз: ${g.releaseDate}</span>
-            <a class="play-link" href="${g.url}" target="_blank" rel="noopener">
-              Google Play ↗
-            </a>
+            <span>📅 ${g.releaseDate || ''}</span>
+            <a class="play-link" href="${g.url}" target="_blank" rel="noopener">Google Play ↗</a>
           </div>
         </div>
       `;
@@ -710,39 +798,54 @@
   // RENDER VIDEOS
   function renderVideos(data) {
     const grid = document.getElementById('videos-grid');
-    document.getElementById('videos-count').textContent = data.length + ' видео';
-    grid.innerHTML = data.map(v => `
-      <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
-        <img
-          class="video-thumb"
-          src="https://img.youtube.com/vi/${v.videoId}/mqdefault.jpg"
-          alt="${v.title}"
-          loading="lazy"
-          onerror="this.style.background='#1e1e35';this.removeAttribute('src')"
-        />
-        <div class="video-body">
-          <div class="card-tag">${v.tag}</div>
-          <div class="video-title">${v.title}</div>
-          <div>
-            <div class="video-views">${v.views}</div>
-            <div class="video-views-label">просмотров</div>
+    const count = data.length;
+    document.getElementById('videos-count').textContent = count + ' видео';
+    document.getElementById('badge-videos').textContent = count;
+
+    if (!count) {
+      grid.innerHTML = `<div class="empty-state"><div class="empty-icon">📺</div><div class="empty-text">Пока нет данных</div><div class="empty-hint">Данные появятся после обновления</div></div>`;
+      return;
+    }
+
+    grid.innerHTML = data.map(v => {
+      const videoId = v.videoId || (v.url && v.url.match(/v=([^&]+)/)?.[1]) || '';
+      const thumb = v.thumb || (videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : '');
+      const views = v.views_str || v.views || '—';
+      return `
+        <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
+          ${thumb ? `<img class="video-thumb" src="${thumb}" alt="${v.title}" loading="lazy" onerror="this.style.background='#1e1e35';this.removeAttribute('src')" />` : ''}
+          <div class="video-body">
+            ${v.tag ? `<div class="card-tag">${v.tag}</div>` : ''}
+            <div class="video-title">${v.title}</div>
+            <div>
+              <div class="video-views">${typeof views === 'number' ? formatNum(views) : views}</div>
+              <div class="video-views-label">просмотров</div>
+            </div>
           </div>
-        </div>
-      </a>
-    `).join('');
+        </a>
+      `;
+    }).join('');
   }
 
   // RENDER NEWS
   function renderNews(data) {
     const grid = document.getElementById('news-grid');
-    document.getElementById('news-count').textContent = data.length + ' новостей';
+    const count = data.length;
+    document.getElementById('news-count').textContent = count + ' новостей';
+    document.getElementById('badge-news').textContent = count;
+
+    if (!count) {
+      grid.innerHTML = `<div class="empty-state"><div class="empty-icon">📰</div><div class="empty-text">Пока нет данных</div><div class="empty-hint">Данные появятся после обновления</div></div>`;
+      return;
+    }
+
     grid.innerHTML = data.map(n => `
       <div class="card news-card">
-        <div class="news-emoji">${n.emoji}</div>
+        <div class="news-emoji">${n.emoji || '📄'}</div>
         <div class="news-content">
-          <div class="news-source">${n.source}</div>
+          <div class="news-source">${n.source || ''}</div>
           <div class="news-title">${n.title}</div>
-          <div class="news-desc">${n.desc}</div>
+          <div class="news-desc">${n.desc || ''}</div>
         </div>
       </div>
     `).join('');
@@ -751,52 +854,65 @@
   // RENDER IDEAS
   function renderIdeas(data) {
     const grid = document.getElementById('ideas-grid');
-    document.getElementById('ideas-count').textContent = data.length + ' идеи';
+    const count = data.length;
+    document.getElementById('ideas-count').textContent = count + ' идей';
+    document.getElementById('badge-ideas').textContent = count;
+
+    if (!count) {
+      grid.innerHTML = `<div class="empty-state"><div class="empty-icon">💡</div><div class="empty-text">Пока нет данных</div><div class="empty-hint">Данные появятся после обновления</div></div>`;
+      return;
+    }
+
     grid.innerHTML = data.map(i => `
       <div class="card idea-card">
         <div class="idea-header">
-          <div class="idea-emoji">${i.emoji}</div>
+          <div class="idea-emoji">${i.emoji || '💡'}</div>
           <div style="flex:1">
             <div class="idea-title">${i.title}</div>
           </div>
-          <div class="idea-priority">${i.priority}</div>
+          <div class="idea-priority">${i.priority || ''}</div>
         </div>
-        <div class="idea-insight">${i.insight}</div>
-        <div class="idea-signal">📊 ${i.signal}</div>
+        <div class="idea-insight">${i.insight || ''}</div>
+        ${i.signal ? `<div class="idea-signal">📊 ${i.signal}</div>` : ''}
       </div>
     `).join('');
   }
 
   // RENDER STATS
   function renderStats(data) {
-    const totalViews = data.videos.reduce((s, v) => s + v.viewsNum, 0);
-    const maxDay = Math.max(...data.rockets.map(r => r.perDay));
-    document.getElementById('stats-bar').innerHTML = `
-      <div class="stat-item">
-        <div class="stat-num">${data.rockets.length}</div>
-        <div class="stat-lbl">Ракет Play</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${maxDay.toLocaleString()}</div>
-        <div class="stat-lbl">Макс. скач./день</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${data.videos.length}</div>
-        <div class="stat-lbl">Вирусных видео</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${formatNum(totalViews)}</div>
-        <div class="stat-lbl">Суммарно просмотров</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${data.ideas.length}</div>
-        <div class="stat-lbl">Идей для игры</div>
-      </div>
-    `;
+    const rockets = data.rockets || [];
+    const videos = data.videos || [];
+    const news = data.news || [];
+    const ideas = data.ideas || [];
+
+    const totalViews = videos.reduce((s, v) => s + (v.views || v.viewsNum || 0), 0);
+    const maxDay = rockets.length ? Math.max(...rockets.map(r => r.perDay || 0)) : 0;
+
+    const parts = [];
+    if (rockets.length) {
+      parts.push(`<div class="stat-item"><div class="stat-num">${rockets.length}</div><div class="stat-lbl">Ракет</div></div>`);
+      parts.push(`<div class="stat-divider"></div>`);
+      parts.push(`<div class="stat-item"><div class="stat-num">${maxDay.toLocaleString()}</div><div class="stat-lbl">Макс. скач./день</div></div>`);
+      parts.push(`<div class="stat-divider"></div>`);
+    }
+    if (videos.length) {
+      parts.push(`<div class="stat-item"><div class="stat-num">${videos.length}</div><div class="stat-lbl">Видео</div></div>`);
+      parts.push(`<div class="stat-divider"></div>`);
+      parts.push(`<div class="stat-item"><div class="stat-num">${formatNum(totalViews)}</div><div class="stat-lbl">Просмотров</div></div>`);
+      parts.push(`<div class="stat-divider"></div>`);
+    }
+    if (news.length) {
+      parts.push(`<div class="stat-item"><div class="stat-num">${news.length}</div><div class="stat-lbl">Новостей</div></div>`);
+      parts.push(`<div class="stat-divider"></div>`);
+    }
+    parts.push(`<div class="stat-item"><div class="stat-num">${ideas.length}</div><div class="stat-lbl">Идей</div></div>`);
+
+    // Remove trailing divider
+    if (parts[parts.length - 2]?.includes('stat-divider')) {
+      // keep as is, last is ideas
+    }
+
+    document.getElementById('stats-bar').innerHTML = parts.join('');
   }
 
   // LOAD DATA
@@ -806,7 +922,7 @@
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
 
-      document.getElementById('updated-date').textContent = data.updated || '—';
+      document.getElementById('updated-date').textContent = (data.updated || '—');
 
       renderStats(data);
       renderRockets(data.rockets || []);
@@ -814,34 +930,22 @@
       renderNews(data.news || []);
       renderIdeas(data.ideas || []);
 
+      // Auto-switch to first non-empty tab
+      const tabs = ['rockets', 'videos', 'news', 'ideas'];
+      const counts = {
+        rockets: (data.rockets || []).length,
+        videos: (data.videos || []).length,
+        news: (data.news || []).length,
+        ideas: (data.ideas || []).length
+      };
+      const firstNonEmpty = tabs.find(t => counts[t] > 0);
+      if (firstNonEmpty) switchTab(firstNonEmpty);
+
     } catch (err) {
       console.error('Load error:', err);
       document.getElementById('error-banner').style.display = 'block';
       document.getElementById('updated-date').textContent = 'ошибка';
-      document.getElementById('stats-bar').innerHTML = '<div style="color:#fca5a5;font-size:0.85rem">⚠️ Ошибка загрузки данных</div>';
-    }
-  }
-
-  // REFRESH
-  async function startRefresh() {
-    const btn = document.getElementById('refresh-btn');
-    const icon = document.getElementById('refresh-icon');
-    const label = document.getElementById('refresh-label');
-    btn.disabled = true;
-    icon.textContent = '⏳';
-    label.textContent = 'Парсю данные...';
-
-    try {
-      // GitHub Pages - просто перезагружаем данные
-      await new Promise(r => setTimeout(r, 1000));
-      await loadData();
-      icon.textContent = '✅';
-      label.textContent = 'Готово!';
-      setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 2000);
-    } catch(e) {
-      btn.disabled = false;
-      icon.textContent = '↻';
-      label.textContent = 'Ошибка, повтори';
+      document.getElementById('stats-bar').innerHTML = '<div style="color:#fca5a5;font-size:0.85rem">⚠️ Ошибка загрузки</div>';
     }
   }
 
