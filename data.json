@@ -1,76 +1,234 @@
 {
-  "rockets": [],
-  "videos": [
+  "updated": "2026-03-10 01:08",
+  "rockets": [
     {
-      "views": 126804878,
-      "views_str": "126.8M",
-      "title": "World's Fastest Workers!",
-      "url": "https://www.youtube.com/watch?v=Iu8ZmhRphSU",
-      "thumb": "https://img.youtube.com/vi/Iu8ZmhRphSU/mqdefault.jpg"
+      "emoji": "🔫",
+      "tag": "РОСТ",
+      "name": "PUBG MOBILE",
+      "genre": "Battle Royale · Shooter",
+      "downloads": "1B+",
+      "perDay": 9400,
+      "days": 45,
+      "releaseDate": "2018-03-19",
+      "url": "https://play.google.com/store/apps/details?id=com.tencent.ig"
     },
     {
-      "views": 107604981,
-      "views_str": "107.6M",
-      "title": "Impossible 0.00001% Odds!",
-      "url": "https://www.youtube.com/watch?v=DvkTX-AquQo",
-      "thumb": "https://img.youtube.com/vi/DvkTX-AquQo/mqdefault.jpg"
+      "emoji": "⚔️",
+      "tag": "НОВИНКА",
+      "name": "Brawl Stars",
+      "genre": "Action · MOBA",
+      "downloads": "500M+",
+      "perDay": 7200,
+      "days": 60,
+      "releaseDate": "2018-12-12",
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
     },
     {
-      "views": 103225856,
-      "views_str": "103.2M",
-      "title": "Extreme Try Not To Laugh Challenge!",
-      "url": "https://www.youtube.com/watch?v=HR1ig6u9-6A",
-      "thumb": "https://img.youtube.com/vi/HR1ig6u9-6A/mqdefault.jpg"
+      "emoji": "👑",
+      "tag": "ТОП",
+      "name": "Royal Match",
+      "genre": "Puzzle · Match-3",
+      "downloads": "100M+",
+      "perDay": 6800,
+      "days": 90,
+      "releaseDate": "2021-02-28",
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch"
     },
     {
-      "views": 93509459,
-      "views_str": "93.5M",
-      "title": "Impossible 0.0000001% Odds!",
-      "url": "https://www.youtube.com/watch?v=bReHusqxnvw",
-      "thumb": "https://img.youtube.com/vi/bReHusqxnvw/mqdefault.jpg"
+      "emoji": "🎲",
+      "tag": "РОСТ",
+      "name": "Dice Dreams",
+      "genre": "Board · Casual",
+      "downloads": "50M+",
+      "perDay": 5500,
+      "days": 40,
+      "releaseDate": "2020-10-22",
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams"
     },
     {
-      "views": 79365107,
-      "views_str": "79.4M",
-      "title": "Luckiest People Alive!",
-      "url": "https://www.youtube.com/watch?v=jgyTwWtvMdE",
-      "thumb": "https://img.youtube.com/vi/jgyTwWtvMdE/mqdefault.jpg"
+      "emoji": "⚽",
+      "tag": "СЕЗОН",
+      "name": "EA SPORTS FC Mobile 26",
+      "genre": "Sports · Football",
+      "downloads": "100M+",
+      "perDay": 4900,
+      "days": 35,
+      "releaseDate": "2016-09-22",
+      "url": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile"
     },
     {
-      "views": 75241086,
-      "views_str": "75.2M",
-      "title": "People With Amazing Talent!",
-      "url": "https://www.youtube.com/watch?v=_t9LL1VcG3Q",
-      "thumb": "https://img.youtube.com/vi/_t9LL1VcG3Q/mqdefault.jpg"
+      "emoji": "🍪",
+      "tag": "PRE-REG",
+      "name": "CookieRun: OvenSmash",
+      "genre": "Action · Multiplayer",
+      "downloads": "Pre-reg",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2026 Q2",
+      "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos"
     },
     {
-      "views": 73142033,
-      "views_str": "73.1M",
-      "title": "Extreme Moments Before Disaster!",
-      "url": "https://www.youtube.com/watch?v=5orcB4yyjoU",
-      "thumb": "https://img.youtube.com/vi/5orcB4yyjoU/mqdefault.jpg"
+      "emoji": "🤖",
+      "tag": "PRE-REG",
+      "name": "Supremacy: Warhammer 40K",
+      "genre": "Strategy · Wargame",
+      "downloads": "Pre-reg",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2026",
+      "url": "https://play.google.com/store/apps/details?id=com.bytro.warhammer40ksupremacy"
     },
     {
-      "views": 68647529,
-      "views_str": "68.6M",
-      "title": "100,000 Magnetic Balls In Slow Motion!",
-      "url": "https://www.youtube.com/watch?v=d2-BHPI8ggM",
-      "thumb": "https://img.youtube.com/vi/d2-BHPI8ggM/mqdefault.jpg"
-    },
-    {
-      "views": 65330546,
-      "views_str": "65.3M",
-      "title": "Extremely Satisfying Workers!",
-      "url": "https://www.youtube.com/watch?v=plTvQ1g59yM",
-      "thumb": "https://img.youtube.com/vi/plTvQ1g59yM/mqdefault.jpg"
-    },
-    {
-      "views": 54928913,
-      "views_str": "54.9M",
-      "title": "BRAINROT but it's OTAMATONE | Official Music Video",
-      "url": "https://www.youtube.com/watch?v=6cAUQcG_eCk",
-      "thumb": "https://img.youtube.com/vi/6cAUQcG_eCk/mqdefault.jpg"
+      "emoji": "🥷",
+      "tag": "PRE-REG",
+      "name": "Ninja Gangsters: Idle Streets",
+      "genre": "RPG · Idle",
+      "downloads": "Pre-reg",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2026",
+      "url": "https://play.google.com/store/apps/details?id=com.Deliciousgames.NGI"
     }
   ],
-  "updated": "2026-03-09 12:08"
+  "videos": [
+    {
+      "title": "World's Fastest Workers!",
+      "views": 126804878,
+      "views_str": "126.8M",
+      "url": "https://www.youtube.com/watch?v=Iu8ZmhRphSU",
+      "thumb": "https://img.youtube.com/vi/Iu8ZmhRphSU/mqdefault.jpg",
+      "tag": "VIRAL"
+    },
+    {
+      "title": "Impossible 0.00001% Odds!",
+      "views": 107604981,
+      "views_str": "107.6M",
+      "url": "https://www.youtube.com/watch?v=DvkTX-AquQo",
+      "thumb": "https://img.youtube.com/vi/DvkTX-AquQo/mqdefault.jpg",
+      "tag": "TRENDING"
+    },
+    {
+      "title": "Extreme Try Not To Laugh Challenge!",
+      "views": 103225856,
+      "views_str": "103.2M",
+      "url": "https://www.youtube.com/watch?v=HR1ig6u9-6A",
+      "thumb": "https://img.youtube.com/vi/HR1ig6u9-6A/mqdefault.jpg",
+      "tag": "CHALLENGE"
+    },
+    {
+      "title": "Impossible 0.0000001% Odds!",
+      "views": 93509459,
+      "views_str": "93.5M",
+      "url": "https://www.youtube.com/watch?v=bReHusqxnvw",
+      "thumb": "https://img.youtube.com/vi/bReHusqxnvw/mqdefault.jpg",
+      "tag": "VIRAL"
+    },
+    {
+      "title": "Luckiest People Alive!",
+      "views": 79365107,
+      "views_str": "79.4M",
+      "url": "https://www.youtube.com/watch?v=jgyTwWtvMdE",
+      "thumb": "https://img.youtube.com/vi/jgyTwWtvMdE/mqdefault.jpg",
+      "tag": "TRENDING"
+    },
+    {
+      "title": "People With Amazing Talent!",
+      "views": 75241086,
+      "views_str": "75.2M",
+      "url": "https://www.youtube.com/watch?v=_t9LL1VcG3Q",
+      "thumb": "https://img.youtube.com/vi/_t9LL1VcG3Q/mqdefault.jpg",
+      "tag": "TRENDING"
+    },
+    {
+      "title": "100,000 Magnetic Balls In Slow Motion!",
+      "views": 68647529,
+      "views_str": "68.6M",
+      "url": "https://www.youtube.com/watch?v=d2-BHPI8ggM",
+      "thumb": "https://img.youtube.com/vi/d2-BHPI8ggM/mqdefault.jpg",
+      "tag": "SATISFYING"
+    },
+    {
+      "title": "BRAINROT but it's OTAMATONE",
+      "views": 54928913,
+      "views_str": "54.9M",
+      "url": "https://www.youtube.com/watch?v=6cAUQcG_eCk",
+      "thumb": "https://img.youtube.com/vi/6cAUQcG_eCk/mqdefault.jpg",
+      "tag": "BRAINROT"
+    }
+  ],
+  "news": [
+    {
+      "emoji": "📊",
+      "source": "PocketGamer.biz",
+      "title": "Январь 2026: Clash Royale падает, PUBG Mobile растёт, Microfun в топ-10",
+      "desc": "Ежемесячный чарт мобильных игр показывает смену лидеров. PUBG Mobile снова набирает обороты, а новый издатель Microfun впервые ворвался в десятку."
+    },
+    {
+      "emoji": "💰",
+      "source": "Mobilegamer.biz",
+      "title": "Топ кассовых мобильных игр февраля 2026",
+      "desc": "Royal Match продолжает доминировать в puzzle-сегменте. Monopoly GO и Whiteout Survival удерживают позиции в топ-5 по выручке."
+    },
+    {
+      "emoji": "🐱",
+      "source": "Pocket Gamer",
+      "title": "GlobalFun выпускает новую мобильную игру Tom & Jerry",
+      "desc": "Лицензионная игра по Tom & Jerry выходит на мобильные платформы. Мультиплеерный экшн с узнаваемыми персонажами."
+    },
+    {
+      "emoji": "📱",
+      "source": "PCMag",
+      "title": "Лучшие Android-игры 2026: топ мобильного гейминга",
+      "desc": "PCMag составил обновлённый рейтинг лучших мобильных игр. В списке - Roblox, Brawl Stars, PUBG Mobile, Royal Match."
+    },
+    {
+      "emoji": "🆕",
+      "source": "Metro.co.uk",
+      "title": "Лучшие новые мобильные игры марта 2026",
+      "desc": "Обзор новинок iOS и Android за март. CookieRun: OvenSmash и Neverness to Everness среди самых ожидаемых."
+    },
+    {
+      "emoji": "📈",
+      "source": "GameDev Reports",
+      "title": "AppMagic: топ мобильных игр по выручке и загрузкам за январь 2026",
+      "desc": "Аналитика от AppMagic: лидеры по загрузкам и доходам. Match-3 и idle RPG продолжают расти."
+    }
+  ],
+  "ideas": [
+    {
+      "emoji": "🧩",
+      "title": "Match-3 с мета-геймплеем",
+      "priority": "🔥 HIGH",
+      "insight": "Royal Match и Candy Crush доминируют, но рынок не насыщен. Ключ - мета-слой (строительство, сюжет, коллекция). Match-3 с уникальной мета-механикой всё ещё может взлететь.",
+      "signal": "Royal Match - 6.8K загрузок/день, Match Masters в топе Google Play"
+    },
+    {
+      "emoji": "🎯",
+      "title": "Idle RPG с PvP элементами",
+      "priority": "🔥 HIGH",
+      "insight": "3 из pre-reg игр на Google Play - idle RPG. Жанр растёт. Добавь PvP-арену для удержания и монетизации. Ninja Gangsters и Big Guy уже на подходе.",
+      "signal": "Ninja Gangsters, Evil Sword, Big Guy - все pre-reg idle RPG"
+    },
+    {
+      "emoji": "🏃",
+      "title": "Challenge / Obstacle курс (по мотивам YouTube)",
+      "priority": "⚡ MEDIUM",
+      "insight": "Видео с 'impossible odds' и 'fastest workers' набирают 100M+ просмотров. Игра-симулятор с физикой препятствий в стиле Fall Guys но мобильная - зайдёт в casual аудиторию.",
+      "signal": "3 видео с 100M+ просмотров на тему challenge/odds"
+    },
+    {
+      "emoji": "🧠",
+      "title": "Brainrot / мем-игра",
+      "priority": "⚡ MEDIUM",
+      "insight": "'BRAINROT OTAMATONE' - 55M просмотров. Мем-контент вирусится. Простая аркада обёрнутая в brainrot-эстетику (skibidi, sigma) может дать бесплатный маркетинг через TikTok.",
+      "signal": "Brainrot-контент стабильно в трендах YouTube и TikTok"
+    },
+    {
+      "emoji": "⚔️",
+      "title": "Warhammer-like стратегия (лицензия не нужна)",
+      "priority": "💤 LOW",
+      "insight": "Supremacy: Warhammer 40K на pre-reg. Sci-fi стратегии в тренде, но можно сделать свой IP в похожем сеттинге без лицензии. Главное - глубокая стратегия + мобильный UX.",
+      "signal": "Supremacy: Warhammer 40K, Total Battle в топе Google Play"
+    }
+  ]
 }
