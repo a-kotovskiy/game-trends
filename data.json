@@ -1,89 +1,89 @@
 {
-  "updated": "2026-03-10 02:00",
+  "updated": "2026-03-10 02:10",
   "rockets": [
     {
-      "emoji": "🎯",
-      "tag": "💰 $1M ЗА ДЕНЬ",
-      "name": "Valorant Mobile",
-      "genre": "Tactical Shooter · Tencent",
-      "downloads": "10M+",
-      "perDay": 12000,
-      "days": 7,
-      "releaseDate": "2026-03",
-      "url": "https://play.google.com/store/search?q=valorant+mobile&c=apps"
-    },
-    {
-      "emoji": "⚔️",
-      "tag": "🔥 1.5M ЗАГРУЗОК",
-      "name": "Clash for Dawn",
-      "genre": "Action RPG",
-      "downloads": "1.5M",
-      "perDay": 8500,
-      "days": 21,
-      "releaseDate": "2026-02",
-      "url": "https://play.google.com/store/apps/details?id=com.kageed.clajhe"
-    },
-    {
-      "emoji": "🏰",
-      "tag": "НОВИНКА",
-      "name": "Castle Frenzy",
-      "genre": "Tower Defense · Gameloft",
-      "downloads": "500K+",
-      "perDay": 6200,
-      "days": 14,
-      "releaseDate": "2026-03",
-      "url": "https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDOHM"
-    },
-    {
-      "emoji": "🏛️",
-      "tag": "SOFT LAUNCH",
-      "name": "Age of Empires: Survival",
-      "genre": "Strategy · Hypercasual",
-      "downloads": "100K+",
-      "perDay": 4800,
-      "days": 10,
-      "releaseDate": "2026-03",
-      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.aoemobile"
-    },
-    {
-      "emoji": "🔫",
-      "tag": "РОСТ",
-      "name": "Free Fire",
-      "genre": "Battle Royale · Garena",
-      "downloads": "1B+",
-      "perDay": 9400,
-      "days": 90,
-      "releaseDate": "2017-12",
-      "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth"
-    },
-    {
-      "emoji": "🎮",
-      "tag": "$1M ТУРНИР",
-      "name": "Fortnite Mobile",
-      "genre": "Battle Royale · eSports",
-      "downloads": "500M+",
-      "perDay": 7800,
-      "days": 30,
-      "releaseDate": "2018-04",
-      "url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite"
-    },
-    {
       "emoji": "🍪",
-      "tag": "PRE-REG",
+      "tag": "10M+ ЗАГРУЗОК",
       "name": "CookieRun: OvenSmash",
-      "genre": "Action · Multiplayer",
-      "downloads": "Pre-reg",
+      "genre": "Action · Multiplayer · Devsisters",
+      "downloads": "10,000,000+",
       "perDay": 0,
       "days": 0,
-      "releaseDate": "2026 Q2",
+      "releaseDate": "2026",
       "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos"
     },
     {
+      "emoji": "🏛️",
+      "tag": "10M+ ЗАГРУЗОК",
+      "name": "Age of Empires Mobile",
+      "genre": "Strategy · Xbox Game Studios",
+      "downloads": "10,000,000+",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2025",
+      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.aoemobile"
+    },
+    {
+      "emoji": "🤖",
+      "tag": "10M+ ЗАГРУЗОК",
+      "name": "Supremacy: Warhammer 40K",
+      "genre": "Strategy · Wargame · Bytro",
+      "downloads": "10,000,000+",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2025",
+      "url": "https://play.google.com/store/apps/details?id=com.bytro.warhammer40ksupremacy"
+    },
+    {
+      "emoji": "⚔️",
+      "tag": "5M+ ЗАГРУЗОК",
+      "name": "God Rivals: RPG Roguelike",
+      "genre": "Action · Roguelike",
+      "downloads": "5,000,000+",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2025",
+      "url": "https://play.google.com/store/apps/details?id=com.gamee.godslayer.rpg.rougelike"
+    },
+    {
+      "emoji": "👧",
+      "tag": "50M+ ЗАГРУЗОК",
+      "name": "Guild of Monster Girls",
+      "genre": "RPG · Chillyroom",
+      "downloads": "50,000,000+",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2025",
+      "url": "https://play.google.com/store/apps/details?id=com.chillyroom.monstergirls.gp"
+    },
+    {
+      "emoji": "⚔️",
+      "tag": "500K+ ЗАГРУЗОК",
+      "name": "TEN VALKYRIE",
+      "genre": "RPG · Daeri Soft",
+      "downloads": "500,000+",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2025",
+      "url": "https://play.google.com/store/apps/details?id=com.daeri.TenValkyrie"
+    },
+    {
+      "emoji": "🧪",
+      "tag": "100K+ ЗАГРУЗОК",
+      "name": "Alchemy Guardians",
+      "genre": "RPG · F5 Games",
+      "downloads": "100,000+",
+      "perDay": 0,
+      "days": 0,
+      "releaseDate": "2025",
+      "url": "https://play.google.com/store/apps/details?id=com.f5game.ag"
+    },
+    {
       "emoji": "🌌",
-      "tag": "ОЖИДАЕМАЯ",
+      "tag": "НОВИНКА · 10K+",
       "name": "Neverness to Everness",
       "genre": "Open World RPG · Hotta Studio",
-      "downloads": "Pre-reg",
+      "downloads": "10,000+",
       "perDay": 0,
       "days": 0,
       "releaseDate": "2026",
@@ -100,7 +100,7 @@
       "tag": "BRAWL STARS"
     },
     {
-      "title": "End level camping in PUBG 🔥 Victor pro camper",
+      "title": "End level camping in PUBG 🔥 Pro camper",
       "views": 184779689,
       "views_str": "185M",
       "url": "https://www.youtube.com/watch?v=CWBFrctcQTM",
@@ -108,7 +108,7 @@
       "tag": "PUBG MOBILE"
     },
     {
-      "title": "Fortnite Chapter 2 Season 2 - Top Secret Launch Trailer",
+      "title": "Fortnite Chapter 2 Season 2 - Top Secret Trailer",
       "views": 65389522,
       "views_str": "65.4M",
       "url": "https://www.youtube.com/watch?v=JgPXMxW7zJk",
@@ -116,7 +116,7 @@
       "tag": "FORTNITE"
     },
     {
-      "title": "Card Evolution Reveal! (music by Tenacious D!)",
+      "title": "Clash Royale: Card Evolution (ft. Tenacious D!)",
       "views": 45393218,
       "views_str": "45.4M",
       "url": "https://www.youtube.com/watch?v=6fo9gJ2nFdU",
@@ -156,7 +156,7 @@
       "tag": "BRAWL STARS"
     },
     {
-      "title": "Defeat Dr. Eggman with Sonic in Squad Busters! 🌀",
+      "title": "Defeat Dr. Eggman with Sonic - Squad Busters!",
       "views": 5773229,
       "views_str": "5.8M",
       "url": "https://www.youtube.com/watch?v=NOYtqju2erM",
@@ -164,7 +164,7 @@
       "tag": "SQUAD BUSTERS"
     },
     {
-      "title": "VALORANT Mobile China Launch - IN MY ZONE ft. BBNO$",
+      "title": "VALORANT Mobile China Launch ft. BBNO$",
       "views": 3443757,
       "views_str": "3.4M",
       "url": "https://www.youtube.com/watch?v=WyYiVdNhTE0",
@@ -177,31 +177,25 @@
       "emoji": "💰",
       "source": "PhoneWorld",
       "title": "Valorant Mobile набрал $1M за первый день в Китае",
-      "desc": "Tencent запустил Valorant Mobile в Китае - $1 миллион выручки за первые сутки. Тактический шутер становится мобильным хитом."
+      "desc": "Tencent запустил Valorant Mobile в Китае - $1M выручки за первые сутки."
     },
     {
-      "emoji": "🚀",
-      "source": "Pocket Gamer",
-      "title": "Clash for Dawn набрал 1.5 млн загрузок",
-      "desc": "Action RPG Clash for Dawn стремительно растёт. 1.5M скачиваний за первые недели - один из лучших запусков 2026."
-    },
-    {
-      "emoji": "🏰",
-      "source": "Pocket Gamer",
-      "title": "Castle Frenzy от Gameloft вышла на App Store",
-      "desc": "Gameloft выпустил новый tower defense. Классическая механика с современной графикой."
+      "emoji": "🍪",
+      "source": "Google Play",
+      "title": "CookieRun: OvenSmash перевалил за 10M загрузок",
+      "desc": "Новый экшн от Devsisters набрал 10M+ скачиваний на Google Play. Рейтинг 4.8★."
     },
     {
       "emoji": "🏛️",
       "source": "GamingonPhone",
       "title": "Age of Empires: Survival - soft launch на Android",
-      "desc": "Легендарная AoE пришла на мобильные в формате hypercasual survival."
+      "desc": "AoE пришла на мобильные. Уже 10M+ загрузок на Google Play."
     },
     {
       "emoji": "🏆",
       "source": "GamingonPhone",
       "title": "MLMS дебютирует с прямым слотом на MSC 2026",
-      "desc": "Moba Legends Master Series стартует с гарантированным местом на MSC 2026. Mobile Legends eSports расширяется."
+      "desc": "Moba Legends Master Series стартует с местом на MSC 2026. MLBB eSports растёт."
     },
     {
       "emoji": "🎮",
@@ -213,50 +207,56 @@
       "emoji": "📊",
       "source": "PocketGamer.biz",
       "title": "Чарты января: PUBG Mobile растёт, Microfun в топ-10",
-      "desc": "PUBG Mobile набирает обороты. Новый издатель Microfun впервые в десятке лидеров."
+      "desc": "Новый издатель Microfun впервые в десятке лидеров мобильного гейминга."
     },
     {
       "emoji": "🎬",
       "source": "Steam",
       "title": "Slay the Spire 2 вышла 5 марта",
-      "desc": "Сиквел культового roguelike-deckbuilder. Первая часть была хитом на мобильных - вторая наверняка придёт."
+      "desc": "Roguelike-deckbuilder хит на Steam. Первая часть была топом на мобильных."
+    },
+    {
+      "emoji": "🔫",
+      "source": "TalkEsport",
+      "title": "Free Fire - самая скачиваемая мобильная Battle Royale в мире",
+      "desc": "Garena's Free Fire подтвердил статус самого скачиваемого мобильного BR глобально."
     }
   ],
   "ideas": [
     {
-      "emoji": "🎯",
-      "title": "Тактический шутер для мобильных (Valorant-lite)",
+      "emoji": "🍪",
+      "title": "Мультиплеер-экшн с IP (CookieRun модель)",
       "priority": "🔥 HIGH",
-      "insight": "Valorant Mobile сделал $1M за день. Рынок тактических шутеров на мобильных только открывается. Упрощённая версия с короткими матчами (3 мин) может захватить casual аудиторию.",
-      "signal": "Valorant Mobile: $1M/день, 12K загрузок/день"
+      "insight": "CookieRun OvenSmash: 10M+ загрузок, ★4.8. Формула: узнаваемый IP + real-time PvP + urban fantasy сеттинг. Даже без IP, стилизация под мемы/анимации может дать виральность.",
+      "signal": "CookieRun OvenSmash: 10M+ | Brawl Stars анимации: 259M views"
     },
     {
       "emoji": "⚔️",
-      "title": "Action RPG с быстрым стартом",
+      "title": "RPG-Roguelike (God Rivals модель)",
       "priority": "🔥 HIGH",
-      "insight": "Clash for Dawn - 1.5M за недели. Формула: быстрый лут + социалка + простой онбординг. Инди может зайти с MVP за 3-4 месяца.",
-      "signal": "Clash for Dawn: 1.5M загрузок, 8.5K/день"
+      "insight": "God Rivals набрал 5M+ загрузок. Roguelike + RPG прогрессия + gacha - проверенная формула. Slay the Spire 2 подогрел интерес к жанру.",
+      "signal": "God Rivals: 5M+ | Slay the Spire 2 хит на Steam"
     },
     {
-      "emoji": "🎴",
-      "title": "Roguelike-deckbuilder (мобильный STS2)",
+      "emoji": "🏛️",
+      "title": "Стратегия с большим IP (AoE/Warhammer модель)",
       "priority": "⚡ MEDIUM",
-      "insight": "Slay the Spire 2 - хит на Steam, мобильной версии нет. Окно для F2P deckbuilder с gacha-элементами.",
-      "signal": "STS2 вышла 5 марта, нет на мобильных"
+      "insight": "AoE Mobile: 10M+, Warhammer 40K: 10M+. Большие IP стратегий отлично заходят на мобильных. Для инди: оригинальный сеттинг + 4X-lite механики + клановые войны.",
+      "signal": "AoE Mobile: 10M+ | Warhammer 40K: 10M+"
     },
     {
-      "emoji": "📱",
-      "title": "Мобильный eSports с турнирами",
+      "emoji": "👧",
+      "title": "Anime RPG с коллекцией персонажей",
       "priority": "⚡ MEDIUM",
-      "insight": "Fortnite $1M мобильный турнир, MLMS→MSC 2026, Brawl Stars анимации 259M views. Встроенная турнирная система + стриминг = retention.",
-      "signal": "FNCS $1M + MLMS + Brawl Stars 259M views"
+      "insight": "Guild of Monster Girls: 50M+! Chillyroom (создатели Soul Knight) показывают что anime + коллекция + RPG = массовая аудитория. ZZZ Ellen demo набрал 38M views.",
+      "signal": "Guild of Monster Girls: 50M+ | ZZZ: 38M views на YouTube"
     },
     {
-      "emoji": "🎭",
-      "title": "Контент-игра (анимации = маркетинг)",
+      "emoji": "🎯",
+      "title": "Тактический шутер для мобильных",
       "priority": "💤 LOW",
-      "insight": "Brawl Stars: Piper анимация 259M views, Ellen ZZZ 38M. Игра, где контент-маркетинг встроен в продукт (персонажи для мемов, анимации, Shorts).",
-      "signal": "Brawl Stars анимации 259M, ZZZ 38M, Squad Busters 5.8M"
+      "insight": "Valorant Mobile - $1M за день. Но порог входа высок. Упрощённая версия с матчами по 3 мин может забрать casual-аудиторию.",
+      "signal": "Valorant Mobile: $1M/день в Китае"
     }
   ]
 }
