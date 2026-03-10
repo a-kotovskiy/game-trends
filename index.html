@@ -356,6 +356,47 @@
     .metric-value.yellow { color: var(--yellow); }
 
     /* VIDEO CARD */
+    /* === Hype list (compact rows) === */
+    .hype-list { display:flex; flex-direction:column; gap:6px; }
+    .hype-row {
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding:10px 14px; background:var(--bg2); border:1px solid var(--border);
+      border-radius:10px; transition:border-color .2s;
+    }
+    .hype-row:hover { border-color:var(--accent); }
+    .hype-row.double { border-left:3px solid #7c3aed; }
+    .hype-row.triple { border-left:3px solid gold; background: linear-gradient(90deg, rgba(255,215,0,.06) 0%, var(--bg2) 100%); }
+    .hype-left  { display:flex; align-items:center; gap:10px; flex:1; min-width:0; }
+    .hype-grade { font-size:1.2rem; flex-shrink:0; }
+    .hype-info  { min-width:0; }
+    .hype-title { font-size:0.82rem; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .hype-meta  { font-size:0.68rem; color:var(--text-muted); margin-top:2px; }
+    .hype-right { display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex-shrink:0; }
+    .hype-nums  { display:flex; align-items:center; gap:8px; }
+    .hype-views { font-size:0.82rem; font-weight:700; color:var(--text); }
+    .hype-vpd   { font-size:0.75rem; color:var(--green); font-weight:600; }
+    .triple-badge { font-size:0.65rem; background:gold; color:#000; padding:1px 5px; border-radius:4px; font-weight:700; }
+    .double-badge { font-size:0.65rem; background:#7c3aed; color:#fff; padding:1px 5px; border-radius:4px; font-weight:700; }
+    .hype-links { display:flex; gap:5px; flex-wrap:wrap; justify-content:flex-end; }
+    .pl-link {
+      font-size:0.65rem; padding:2px 7px; border-radius:5px; text-decoration:none;
+      font-weight:600; white-space:nowrap; transition:opacity .2s;
+    }
+    .pl-link:hover { opacity:.8; }
+    .pl-link.tiktok  { background:#161823; color:#fff; border:1px solid #333; }
+    .pl-link.youtube { background:#ff0000; color:#fff; }
+    .pl-link.gtrends { background:#1a73e8; color:#fff; }
+    .gt-pill {
+      display:inline-block; padding:4px 10px; background:var(--bg3); border:1px solid var(--border);
+      border-radius:16px; font-size:0.75rem; color:var(--text); text-decoration:none; transition:border-color .2s;
+    }
+    .gt-pill:hover { border-color:var(--accent); }
+    @media(max-width:600px){
+      .hype-row { flex-direction:column; align-items:flex-start; gap:8px; }
+      .hype-right { align-items:flex-start; width:100%; }
+      .hype-links { justify-content:flex-start; }
+    }
+    /* === end hype === */
     .video-card {
       padding: 0;
       overflow: hidden;
@@ -1027,66 +1068,85 @@
   }
 
   // RENDER IDEAS
-  function renderViralTrends(data, googleTrends) {
+    function renderViralTrends(data, googleTrends) {
     const grid = document.getElementById('viral-grid');
-    const ttCount = data.filter(d => d.source === 'tiktok').length;
-    const ytCount = data.filter(d => d.source === 'youtube').length;
-    document.getElementById('viral-count').textContent = `TikTok ${ttCount} · YouTube ${ytCount}`;
     document.getElementById('tab-count-viral').textContent = data.length;
 
-    const videosHtml = data.map(v => {
-      const isTT = v.source === 'tiktok' || v.source === 'tiktok_fyp';
-      const kindTag = isTT ? '🎵 TikTok' : (v.kind === 'Short' ? '🩳 Short' : '▶ YouTube');
-      const thumb = v.thumb ? `<img class="video-thumb" src="${v.thumb}" loading="lazy" onerror="this.style.background='var(--bg3)';this.removeAttribute('src')">` : '<div class="video-thumb" style="background:var(--bg3)"></div>';
-      const ratioHtml = isTT && v.ratio ? `<span class="video-stat-val" style="color:#f59e0b">${v.ratio >= 1000 ? (v.ratio/1000).toFixed(0)+'K' : v.ratio}x</span><span class="video-stat-lbl">ratio</span>` : '';
-      const subsHtml = isTT && v.subs !== undefined ? `<span class="video-stat-val">${v.subs_str||'?'}</span><span class="video-stat-lbl">подп.</span>` : '';
-      const tripleClass = v.hype_score === 3 ? ' triple-confirmed' : '';
-      const platformBadges = (v.platforms || []).map(p => {
-        const labels = {tiktok: '🎵 TikTok', youtube: '▶ YouTube', google_trends: '🔍 Google Trends'};
-        return `<span class="hype-badge ${p}">${labels[p]||p}</span>`;
-      }).join('');
-      const ytRelated = (v.yt_videos || []).length ? `
-        <div class="yt-related" onclick="event.preventDefault();event.stopPropagation()">
-          <div class="yt-related-title">Также на YouTube:</div>
-          ${v.yt_videos.slice(0,2).map(y => `<a href="${y.url}" target="_blank" rel="noopener">${y.title} (${y.views_str})</a>`).join('')}
-        </div>` : '';
+    // Сортируем: сначала тройные, потом по vpd
+    const sorted = [...data].sort((a,b) => {
+      const sa = (a.hype_score||1)*10000000 + (a.vpd||0);
+      const sb = (b.hype_score||1)*10000000 + (b.vpd||0);
+      return sb - sa;
+    });
+
+    const videosHtml = sorted.map(v => {
+      const isTriple = v.hype_score === 3;
+      const isDouble = v.hype_score === 2;
+      const rowClass = isTriple ? 'hype-row triple' : isDouble ? 'hype-row double' : 'hype-row';
+
+      // Форматируем VPD
+      const vpdStr = v.vpd >= 1000000 ? (v.vpd/1000000).toFixed(1)+'M/д'
+                   : v.vpd >= 1000 ? Math.round(v.vpd/1000)+'K/д' : (v.vpd||0)+'/д';
+
+      // Ссылки на платформы
+      const platforms = v.platforms || ['tiktok'];
+      const links = [];
+
+      // TikTok ссылка
+      if (platforms.includes('tiktok') || v.source === 'tiktok_fyp') {
+        links.push(`<a href="${v.url}" target="_blank" rel="noopener" class="pl-link tiktok" onclick="event.stopPropagation()">🎵 TikTok</a>`);
+      }
+
+      // YouTube ссылки (из yt_videos)
+      const ytVids = v.yt_videos || [];
+      if (platforms.includes('youtube') && ytVids.length) {
+        ytVids.slice(0,2).forEach(y => {
+          links.push(`<a href="${y.url}" target="_blank" rel="noopener" class="pl-link youtube" onclick="event.stopPropagation()">▶ ${y.views_str||''}</a>`);
+        });
+      } else if (platforms.includes('youtube')) {
+        const q = encodeURIComponent((v.title||'').slice(0,40));
+        links.push(`<a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener" class="pl-link youtube" onclick="event.stopPropagation()">▶ YouTube</a>`);
+      }
+
+      // Google Trends ссылка
+      if (platforms.includes('google_trends') || (v.gt_url)) {
+        const gtUrl = v.gt_url || `https://trends.google.com/trends/explore?q=${encodeURIComponent((v.gt_keyword||v.title||'').slice(0,40))}&geo=US`;
+        links.push(`<a href="${gtUrl}" target="_blank" rel="noopener" class="pl-link gtrends" onclick="event.stopPropagation()">🔍 Trends</a>`);
+      }
+
+      const badge = isTriple ? '<span class="triple-badge">🏆×3</span>' : isDouble ? '<span class="double-badge">×2</span>' : '';
+      const gradeIcon = v.grade || '⚡';
+
       return `
-        <a class="card video-card${tripleClass}" href="${v.url}" target="_blank" rel="noopener">
-          ${thumb}
-          <div class="video-body">
-            <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
-              <span class="card-tag">${v.grade} ${kindTag}</span>
-              <span style="font-size:0.65rem;color:var(--text-muted)">${v.published||''}</span>
-            </div>
-            <div class="video-title">${v.title||'—'}</div>
-            <div class="video-channel">${v.channel||''}</div>
-            ${platformBadges ? `<div class="hype-platforms">${platformBadges}</div>` : ''}
-            <div class="video-stats">
-              <span class="video-stat-val">${v.views_str}</span>
-              <span class="video-stat-lbl">просмотров</span>
-              ${v.vpd ? `<span class="video-stat-val" style="color:var(--green)">${v.vpd>=1000?(v.vpd/1000).toFixed(0)+'K':v.vpd}</span><span class="video-stat-lbl">в день</span>` : ''}
-              ${ratioHtml}${subsHtml}
-            </div>
-            ${ytRelated}
+      <div class="${rowClass}">
+        <div class="hype-left">
+          <span class="hype-grade">${gradeIcon}</span>
+          <div class="hype-info">
+            <div class="hype-title">${v.title ? v.title.slice(0,70) : '@'+v.author||'—'}</div>
+            <div class="hype-meta">${v.channel||''} · ${v.published||''}</div>
           </div>
-        </a>`;
+        </div>
+        <div class="hype-right">
+          <div class="hype-nums">
+            <span class="hype-views">${v.views_str}</span>
+            <span class="hype-vpd">${vpdStr}</span>
+            ${badge}
+          </div>
+          <div class="hype-links">${links.join('')}</div>
+        </div>
+      </div>`;
     }).join('');
 
+    // Google Trends пилюли
     const trendsHtml = (googleTrends||[]).length ? `
-      <div style="margin-top:20px">
-        <div class="section-subtitle" style="margin-bottom:12px">🔍 Google Trends сейчас (США)</div>
-        <div style="display:flex;flex-wrap:wrap;gap:8px">
-          ${(googleTrends||[]).map(t => `
-            <a href="${t.url}" target="_blank" rel="noopener"
-               style="display:inline-block;padding:6px 14px;background:var(--bg3);border:1px solid var(--border);
-                      border-radius:20px;font-size:0.8rem;color:var(--text);text-decoration:none;transition:border-color 0.2s"
-               onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-              🔥 ${t.title}
-            </a>`).join('')}
+      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
+        <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em">🔍 Google Trends США прямо сейчас</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px">
+          ${(googleTrends||[]).map(t => `<a href="${t.url}" target="_blank" rel="noopener" class="gt-pill">🔥 ${t.title}</a>`).join('')}
         </div>
       </div>` : '';
 
-    grid.innerHTML = `<div class="grid-3">${videosHtml}</div>${trendsHtml}`;
+    grid.innerHTML = `<div class="hype-list">${videosHtml}</div>${trendsHtml}`;
   }
 
   function renderIdeas(data) {
