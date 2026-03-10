@@ -772,8 +772,8 @@
           <div class="rc-body">
             <div class="rc-metrics">
               <div class="rc-m">
-                <div class="rc-m-val">${g.downloads}</div>
-                <div class="rc-m-lbl">Скачиваний</div>
+                <div class="rc-m-val">${g.realInstallsStr || g.downloads}</div>
+                <div class="rc-m-lbl">Установок</div>
               </div>
               <div class="rc-m">
                 <div class="rc-m-val green">${g.perDay.toLocaleString()}</div>
@@ -783,6 +783,10 @@
                 <div class="rc-m-val yellow">${g.days}</div>
                 <div class="rc-m-lbl">дней</div>
               </div>
+              ${g.score ? `<div class="rc-m">
+                <div class="rc-m-val" style="-webkit-text-fill-color:#f59e0b">⭐${g.score}</div>
+                <div class="rc-m-lbl">${g.ratingsStr || ''} отзывов</div>
+              </div>` : ''}
             </div>
             <div class="rc-progress">
               <div class="rc-prog-row"><span>Скорость роста</span><span>${pct}% от топа</span></div>
@@ -790,7 +794,7 @@
             </div>
             ${screens ? `<div class="rc-screenshots">${screens}</div>` : ''}
             <div class="rc-footer">
-              <span>📅 ${g.releaseDate}</span>
+              <span>📅 ${g.releaseDate}${g.developer ? ' · ' + g.developer : ''}</span>
               <a class="play-link" href="${g.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Google Play ↗</a>
             </div>
           </div>
