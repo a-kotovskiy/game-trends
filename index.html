@@ -191,6 +191,8 @@
       flex-direction: column;
       gap: 12px;
       cursor: default;
+      min-width: 0;
+      overflow: hidden;
     }
 
     .card:hover {
@@ -262,6 +264,8 @@
       margin-top: 12px;
       padding-top: 12px;
       border-top: 1px solid var(--border);
+      min-width: 0;
+      overflow: hidden;
     }
     .rocket-card.open .rc-body { display: block; }
 
@@ -289,14 +293,17 @@
 
     .rc-screenshots {
       display: flex; gap: 6px; overflow-x: auto;
+      overflow-y: hidden;
       scrollbar-width: none; padding-bottom: 4px;
       margin-bottom: 10px;
+      max-width: 100%;
+      -webkit-overflow-scrolling: touch;
     }
     .rc-screenshots::-webkit-scrollbar { display: none; }
     .rc-screenshots img {
-      height: 100px; width: auto; border-radius: 8px;
+      height: 120px; width: auto; border-radius: 8px;
       border: 1px solid var(--border); flex-shrink: 0;
-      object-fit: cover;
+      object-fit: cover; max-height: 120px;
     }
 
     .rc-footer {
@@ -782,6 +789,7 @@
               <div class="rc-m">
                 <div class="rc-m-val yellow">${g.days}</div>
                 <div class="rc-m-lbl">дней</div>
+                <div style="font-size:0.6rem;color:var(--text-muted);margin-top:2px">${g.releaseDate}</div>
               </div>
               ${g.score ? `<div class="rc-m">
                 <div class="rc-m-val" style="-webkit-text-fill-color:#f59e0b">⭐${g.score}</div>
