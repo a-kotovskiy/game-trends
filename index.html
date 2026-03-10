@@ -557,7 +557,56 @@
       font-size: 0.85rem;
       display: none;
     }
-  </style>
+  
+  /* --- TABS --- */
+  .tab-nav {
+    display: flex;
+    gap: 6px;
+    padding: 14px 20px 0;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg2);
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    background: none;
+    border: none;
+    color: var(--text2);
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    transition: color 0.15s, background 0.15s;
+    position: relative;
+    bottom: -1px;
+    border-bottom: 2px solid transparent;
+  }
+  .tab-btn:hover { color: var(--text1); background: var(--bg3); }
+  .tab-btn.active {
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+    background: none;
+  }
+  .tab-count {
+    background: var(--bg3);
+    color: var(--text2);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 10px;
+    min-width: 20px;
+    text-align: center;
+  }
+  .tab-btn.active .tab-count {
+    background: rgba(124, 58, 237, 0.25);
+    color: var(--accent3);
+  }
+  .tab-section { display: none; }
+  .tab-section.active { display: block; }
+</style>
 </head>
 <body>
 
@@ -569,10 +618,25 @@
         <div class="dot"></div>
         <span>Обновлено: <span id="updated-date">загрузка...</span></span>
       </div>
-
     </div>
   </div>
 </header>
+
+<!-- TAB NAVIGATION -->
+<nav class="tab-nav">
+  <button class="tab-btn active" onclick="switchTab('rockets', this)">
+    🚀 Тренды игр <span class="tab-count" id="tab-count-rockets">…</span>
+  </button>
+  <button class="tab-btn" onclick="switchTab('videos', this)">
+    🎬 Видео тренды <span class="tab-count" id="tab-count-videos">…</span>
+  </button>
+  <button class="tab-btn" onclick="switchTab('news', this)">
+    📰 Новости <span class="tab-count" id="tab-count-news">…</span>
+  </button>
+  <button class="tab-btn" onclick="switchTab('ideas', this)">
+    💡 Идеи <span class="tab-count" id="tab-count-ideas">…</span>
+  </button>
+</nav>
 
 <main>
 
@@ -587,7 +651,7 @@
   </div>
 
   <!-- ROCKETS -->
-  <section>
+  <section class="tab-section active" id="section-rockets">
     <div class="section-header">
       <div class="section-icon">🚀</div>
       <div>
@@ -602,7 +666,7 @@
   </section>
 
   <!-- VIDEOS -->
-  <section>
+  <section class="tab-section" id="section-videos">
     <div class="section-header">
       <div class="section-icon">🔥</div>
       <div>
@@ -617,7 +681,7 @@
   </section>
 
   <!-- NEWS -->
-  <section>
+  <section class="tab-section" id="section-news">
     <div class="section-header">
       <div class="section-icon">📰</div>
       <div>
@@ -632,7 +696,7 @@
   </section>
 
   <!-- IDEAS -->
-  <section>
+  <section class="tab-section" id="section-ideas">
     <div class="section-header">
       <div class="section-icon">💡</div>
       <div>
@@ -662,9 +726,17 @@
   }
 
   // RENDER ROCKETS
+  function switchTab(name, btn) {
+    document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('section-' + name).classList.add('active');
+    btn.classList.add('active');
+  }
+
   function renderRockets(data) {
     const grid = document.getElementById('rockets-grid');
     document.getElementById('rockets-count').textContent = data.length + ' игр';
+    document.getElementById('tab-count-rockets').textContent = data.length;
     grid.innerHTML = data.map(g => {
       const pct = Math.round((g.perDay / maxPerDay) * 100);
       return `
@@ -721,6 +793,7 @@
   function renderVideos(data) {
     const grid = document.getElementById('videos-grid');
     document.getElementById('videos-count').textContent = data.length + ' видео';
+    document.getElementById('tab-count-videos').textContent = data.length;
     grid.innerHTML = data.map(v => {
       const viewsStr = v.views_str || (v.views >= 1000000 ? (v.views/1000000).toFixed(1)+'M' : Math.round(v.views/1000)+'K');
       const thumb = v.thumb || '';
@@ -752,6 +825,7 @@
   function renderNews(data) {
     const grid = document.getElementById('news-grid');
     document.getElementById('news-count').textContent = data.length + ' новостей';
+    document.getElementById('tab-count-news').textContent = data.length;
     grid.innerHTML = data.map(n => `
       <div class="card news-card">
         <div class="news-emoji">${n.emoji}</div>
@@ -768,6 +842,7 @@
   function renderIdeas(data) {
     const grid = document.getElementById('ideas-grid');
     document.getElementById('ideas-count').textContent = data.length + ' идеи';
+    document.getElementById('tab-count-ideas').textContent = data.length;
     grid.innerHTML = data.map(i => {
       const tags = (i.tags || []).join(' · ');
       const difficulty = i.difficulty || '';
