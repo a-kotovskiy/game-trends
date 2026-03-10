@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10 19:26 МСК",
+  "updated": "2026-03-10 19:45 МСК",
   "rockets": [
     {
       "emoji": "🚀🔥",
@@ -15,9 +15,9 @@
       "genre": "Action",
       "developer": "SYBO Games",
       "downloads": "10,000,000+",
-      "realInstalls": 12141622,
-      "realInstallsStr": "12.1M",
-      "perDay": 933970,
+      "realInstalls": 12182068,
+      "realInstallsStr": "12.2M",
+      "perDay": 937082,
       "days": 13,
       "score": 4.8,
       "ratings": 189271,
@@ -31,7 +31,7 @@
       "reviewsByDay": [
         {
           "date": "2026-03-03",
-          "count": 664
+          "count": 648
         },
         {
           "date": "2026-03-04",
@@ -55,7 +55,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 206
+          "count": 222
         }
       ]
     },
@@ -73,9 +73,9 @@
       "genre": "Action",
       "developer": "Ubisoft Nova",
       "downloads": "10,000,000+",
-      "realInstalls": 10843946,
-      "realInstallsStr": "10.8M",
-      "perDay": 722929,
+      "realInstalls": 10873947,
+      "realInstallsStr": "10.9M",
+      "perDay": 724929,
       "days": 15,
       "score": 4.5,
       "ratings": 92280,
@@ -89,7 +89,7 @@
       "reviewsByDay": [
         {
           "date": "2026-02-27",
-          "count": 556
+          "count": 548
         },
         {
           "date": "2026-02-28",
@@ -125,11 +125,11 @@
         },
         {
           "date": "2026-03-08",
-          "count": 236
+          "count": 237
         },
         {
           "date": "2026-03-09",
-          "count": 105
+          "count": 112
         }
       ]
     },
@@ -263,7 +263,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 59
+          "count": 65
         }
       ]
     },
@@ -436,7 +436,7 @@
       "reviewsByDay": [
         {
           "date": "2026-03-04",
-          "count": 416
+          "count": 415
         },
         {
           "date": "2026-03-05",
@@ -456,7 +456,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 58
+          "count": 59
         }
       ]
     },
@@ -479,7 +479,7 @@
       "perDay": 78169,
       "days": 6,
       "score": 4.4,
-      "ratings": 8063,
+      "ratings": 8064,
       "ratingsStr": "8K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -510,7 +510,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 38
+          "count": 39
         }
       ]
     },
@@ -533,7 +533,7 @@
       "perDay": 55557,
       "days": 11,
       "score": 4.6,
-      "ratings": 26031,
+      "ratings": 26088,
       "ratingsStr": "26K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -572,7 +572,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 6
+          "count": 7
         }
       ]
     },
@@ -699,19 +699,8 @@
   ],
   "videos": [
     {
-      "vpd": 47246,
-      "views": 566958,
-      "views_str": "566K",
-      "age_days": 12,
-      "title": "Subway Surfers City | Official Gameplay Trailer",
-      "channel": "Subway Surfers",
-      "url": "https://youtu.be/oQpRzQgBWpc",
-      "thumb": "https://img.youtube.com/vi/oQpRzQgBWpc/mqdefault.jpg",
-      "grade": "⚡"
-    },
-    {
-      "vpd": 9351,
-      "views": 280543,
+      "vpd": 9357,
+      "views": 280710,
       "views_str": "280K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -721,8 +710,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 6554,
-      "views": 78659,
+      "vpd": 6560,
+      "views": 78721,
       "views_str": "78K",
       "age_days": 12,
       "title": "Subway Surfers City - Gameplay Walkthrough Part 1 - New Subway Surfers Game Tutorial (iOS, Android)",
@@ -732,14 +721,25 @@
       "grade": "📈"
     },
     {
-      "vpd": 6050,
-      "views": 181519,
+      "vpd": 6056,
+      "views": 181705,
       "views_str": "181K",
       "age_days": 30,
       "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
       "channel": "Tekkan",
       "url": "https://youtu.be/E7qMngvwXM4",
       "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 6044,
+      "views": 181326,
+      "views_str": "181K",
+      "age_days": 30,
+      "title": "Subway Surfers City - Gameplay Walkthrough Part 1 (Android/iOS)",
+      "channel": "GameplayTheory",
+      "url": "https://youtu.be/dt7foNSLzn4",
+      "thumb": "https://img.youtube.com/vi/dt7foNSLzn4/mqdefault.jpg",
       "grade": "📈"
     },
     {
@@ -754,8 +754,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 5589,
-      "views": 335357,
+      "vpd": 5591,
+      "views": 335469,
       "views_str": "335K",
       "age_days": 60,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
@@ -776,8 +776,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 4592,
-      "views": 13777,
+      "vpd": 4617,
+      "views": 13852,
       "views_str": "13K",
       "age_days": 3,
       "title": "HEAVENHELLS is a mobile RPG game where you assemble a team of 4 incredibly attractive high school...",
@@ -798,8 +798,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3921,
-      "views": 117657,
+      "vpd": 3924,
+      "views": 117723,
       "views_str": "117K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
@@ -820,8 +820,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3374,
-      "views": 33748,
+      "vpd": 3378,
+      "views": 33783,
       "views_str": "33K",
       "age_days": 10,
       "title": "Subway Surfers City - Gameplay Walkthrough Part 1 - Tutorial (iOS, Android)",
@@ -831,14 +831,25 @@
       "grade": "📊"
     },
     {
-      "vpd": 3252,
-      "views": 29270,
+      "vpd": 3256,
+      "views": 29310,
       "views_str": "29K",
       "age_days": 9,
       "title": "Top 10 Best New Mobile Games of March 2026 | Android & iOS",
       "channel": "Android Tools",
       "url": "https://youtu.be/CG-6lWG_1_Q",
       "thumb": "https://img.youtube.com/vi/CG-6lWG_1_Q/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 3203,
+      "views": 32032,
+      "views_str": "32K",
+      "age_days": 10,
+      "title": "The Complete Beginners Guide to Rainbow Six Mobile!",
+      "channel": "Noah Sunday - Mobile",
+      "url": "https://youtu.be/xcjsm-Pt5vs",
+      "thumb": "https://img.youtube.com/vi/xcjsm-Pt5vs/mqdefault.jpg",
       "grade": "📊"
     },
     {
@@ -854,7 +865,7 @@
     },
     {
       "vpd": 2645,
-      "views": 476204,
+      "views": 476242,
       "views_str": "476K",
       "age_days": 180,
       "title": "I Played 1000 Hours Of Warframe!",
@@ -864,8 +875,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 2583,
-      "views": 33591,
+      "vpd": 2586,
+      "views": 33621,
       "views_str": "33K",
       "age_days": 13,
       "title": "Rainbow Six Mobile - Gameplay Walkthrough Part 1 - Tutorial (iOS, Android)",
@@ -875,8 +886,19 @@
       "grade": "📊"
     },
     {
-      "vpd": 2527,
-      "views": 25277,
+      "vpd": 2559,
+      "views": 2559,
+      "views_str": "2K",
+      "age_days": 1,
+      "title": "Is Lucy Worth Buying? (Subway Pass Review) Subway Surfers City",
+      "channel": "StillAliveGG",
+      "url": "https://youtu.be/a42VqiXvmwg",
+      "thumb": "https://img.youtube.com/vi/a42VqiXvmwg/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 2539,
+      "views": 25392,
       "views_str": "25K",
       "age_days": 10,
       "title": "ТОП 20 ЛУЧШИХ ИГР ДЛЯ ANDROID и iOS 2026 (Оффлайн/Онлайн)",
@@ -886,40 +908,26 @@
       "grade": "📊"
     },
     {
-      "vpd": 1964,
-      "views": 23569,
-      "views_str": "23K",
-      "age_days": 12,
-      "title": "Subway Surfers City Review - Is It Worth Playing?",
-      "channel": "Jerry Plays",
-      "url": "https://youtu.be/N_VPHxPPXKw",
-      "thumb": "https://img.youtube.com/vi/N_VPHxPPXKw/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 1936,
-      "views": 290508,
-      "views_str": "290K",
-      "age_days": 150,
-      "title": "929: Dragon Hatchling: The Missing Link Between Transformers and the Brain — with Adrian Kosowski",
-      "channel": "Super Data Science: ML & AI Podcast with Jon Krohn and Pathway (pathway.com)",
-      "url": "https://youtu.be/mfV44-mtg7c",
-      "thumb": "https://img.youtube.com/vi/mfV44-mtg7c/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 1875,
-      "views": 112540,
-      "views_str": "112K",
-      "age_days": 60,
-      "title": "Warframe in 2025 | New Player, First Impressions",
-      "channel": "Waydot",
-      "url": "https://youtu.be/Zxi_3kHCR3g",
-      "thumb": "https://img.youtube.com/vi/Zxi_3kHCR3g/mqdefault.jpg",
+      "vpd": 2399,
+      "views": 26393,
+      "views_str": "26K",
+      "age_days": 11,
+      "title": "Subway Surfers City - Gameplay 152 - Yutani New High Score (21,603,030)",
+      "channel": "Mr. Subway Man",
+      "url": "https://youtu.be/LpHZFoOIlbw",
+      "thumb": "https://img.youtube.com/vi/LpHZFoOIlbw/mqdefault.jpg",
       "grade": "📊"
     }
   ],
   "news": [
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Duet Night Abyss sees the debut of exciting new character Yuming in latest update",
+      "desc": "If you're a frequent reader who follows our coverage of Pan Studio and Hero Games' Duet Night Abyss, then you may recall the launch of their The Wind Awakening - Chapter II event l",
+      "url": "https://www.pocketgamer.com/duet-night-abyss/yuming-debuts/",
+      "date": "Tue, 10 Mar 2026 16:39:00 +0000"
+    },
     {
       "emoji": "📱",
       "source": "Pocket Gamer",
@@ -975,14 +983,6 @@
       "desc": "Updated on March 10, 2026 - Checked for new codes\n\nDo you like free in-game loot and useful freebies that don't require you to do pretty much anything to redeem them besides typing",
       "url": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
       "date": "Tue, 10 Mar 2026 00:55:00 +0000"
-    },
-    {
-      "emoji": "📱",
-      "source": "Pocket Gamer",
-      "title": "All Who Wander drops its enormous item-packed v1.2.11 update for even more looting",
-      "desc": "As we draw to a close for the day here at Pocket Gamer (or at least I do), there's just enough time to round up an exciting new update from All Who Wander, the turn-based roguelike",
-      "url": "https://www.pocketgamer.com/all-who-wander/v1-2-11-items/",
-      "date": "Mon, 09 Mar 2026 18:00:00 +0000"
     }
   ],
   "ideas": [
@@ -1035,6 +1035,176 @@
         "Narrative"
       ],
       "difficulty": "Средняя"
+    }
+  ],
+  "viral_trends": [
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "title": "The Super Mario Galaxy Movie – Final Trailer",
+      "channel": "Nintendo of America",
+      "views": 1284369,
+      "views_str": "1.3M",
+      "age_days": 1,
+      "vpd": 1284369,
+      "grade": "🔥",
+      "url": "https://youtu.be/LX9kXRRJlPw",
+      "thumb": "https://img.youtube.com/vi/LX9kXRRJlPw/mqdefault.jpg",
+      "published": "19 hours ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "title": "The Super Mario Galaxy Movie | Final Trailer",
+      "channel": "Illumination and Universal Pictures",
+      "views": 435399,
+      "views_str": "435K",
+      "age_days": 1,
+      "vpd": 435399,
+      "grade": "🚀",
+      "url": "https://youtu.be/En5QZmL5R1s",
+      "thumb": "https://img.youtube.com/vi/En5QZmL5R1s/mqdefault.jpg",
+      "published": "19 hours ago"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "baylor basketball",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=baylor+basketball",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "kalif raymond",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=kalif+raymond",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "toronto",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=toronto",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "brad marchand",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=brad+marchand",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "caleb holt",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=caleb+holt",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "hunter greene",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=hunter+greene",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "dawson knox",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=dawson+knox",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "barcelona vs newcastle",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=barcelona+vs+newcastle",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "sheryl underwood",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=sheryl+underwood",
+      "thumb": "",
+      "published": "сейчас"
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "moltbook",
+      "channel": "Google Trends US",
+      "views": 0,
+      "views_str": "🔥 Trending",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trends/explore?q=moltbook",
+      "thumb": "",
+      "published": "сейчас"
     }
   ]
 }

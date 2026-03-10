@@ -671,6 +671,9 @@
   <button class="tab-btn" onclick="switchTab('videos', this)">
     🎬 Видео тренды <span class="tab-count" id="tab-count-videos">…</span>
   </button>
+  <button class="tab-btn" onclick="switchTab('viral', this)">
+    🔥 Хайп <span class="tab-count" id="tab-count-viral">…</span>
+  </button>
   <button class="tab-btn" onclick="switchTab('news', this)">
     📰 Новости <span class="tab-count" id="tab-count-news">…</span>
   </button>
@@ -717,6 +720,21 @@
       <div class="section-count" id="videos-count">...</div>
     </div>
     <div class="grid-5" id="videos-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+  <!-- VIRAL TRENDS -->
+  <section class="tab-section" id="section-viral">
+    <div class="section-header">
+      <div class="section-icon">🔥</div>
+      <div>
+        <div class="section-title">Хайп тренды</div>
+        <div class="section-subtitle">YouTube · вирусные видео 300K+ просмотров/день + Google Trends</div>
+      </div>
+      <div class="section-count" id="viral-count">...</div>
+    </div>
+    <div id="viral-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
   </section>
@@ -982,6 +1000,56 @@
   }
 
   // RENDER IDEAS
+  function renderViralTrends(data) {
+    const grid = document.getElementById('viral-grid');
+    const count = data.filter(d => d.source !== 'google_trends').length;
+    const trendsCount = data.filter(d => d.source === 'google_trends').length;
+    document.getElementById('viral-count').textContent = count + ' видео · ' + trendsCount + ' трендов';
+    document.getElementById('tab-count-viral').textContent = data.length;
+
+    const videos = data.filter(d => d.source !== 'google_trends');
+    const trends = data.filter(d => d.source === 'google_trends');
+
+    const videosHtml = videos.map(v => {
+      const kindTag = v.kind === 'Short' ? '🩳 Short' : '▶ Video';
+      const thumb = v.thumb ? `<img class="video-thumb" src="${v.thumb}" loading="lazy" onerror="this.style.display='none'">` : '';
+      return `
+        <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
+          ${thumb}
+          <div class="video-body">
+            <div style="display:flex;gap:6px;align-items:center">
+              <span class="card-tag">${v.grade} ${kindTag}</span>
+              <span style="font-size:0.65rem;color:var(--text-muted)">${v.published || ''}</span>
+            </div>
+            <div class="video-title">${v.title}</div>
+            <div class="video-channel">${v.channel}</div>
+            <div class="video-stats">
+              <span class="video-stat-val">${v.views_str}</span>
+              <span class="video-stat-lbl">просмотров</span>
+              ${v.vpd ? `<span class="video-stat-val" style="color:var(--green)">${(v.vpd/1000).toFixed(0)}K</span><span class="video-stat-lbl">в день</span>` : ''}
+            </div>
+          </div>
+        </a>`;
+    }).join('');
+
+    const trendsHtml = trends.length ? `
+      <div style="margin-top:20px">
+        <div class="section-subtitle" style="margin-bottom:12px">🔍 Google Trends прямо сейчас (США)</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          ${trends.map(t => `
+            <a href="${t.url}" target="_blank" rel="noopener"
+               style="display:inline-block;padding:6px 14px;background:var(--bg3);border:1px solid var(--border);
+                      border-radius:20px;font-size:0.8rem;color:var(--text);text-decoration:none;
+                      transition:border-color 0.2s" onmouseover="this.style.borderColor='var(--accent)'"
+               onmouseout="this.style.borderColor='var(--border)'">
+              🔥 ${t.title}
+            </a>`).join('')}
+        </div>
+      </div>` : '';
+
+    grid.innerHTML = `<div class="grid-3">${videosHtml}</div>${trendsHtml}`;
+  }
+
   function renderIdeas(data) {
     const grid = document.getElementById('ideas-grid');
     document.getElementById('ideas-count').textContent = data.length + ' идеи';
@@ -1048,6 +1116,7 @@
       renderStats(data);
       renderRockets(data.rockets || []);
       renderVideos(data.videos || []);
+      renderViralTrends(data.viral_trends || []);
       renderNews(data.news || []);
       renderIdeas(data.ideas || []);
 
