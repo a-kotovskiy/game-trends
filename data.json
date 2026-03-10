@@ -1,235 +1,21 @@
 {
-  "updated": "2026-03-10 04:39",
-  "rockets": [
-    {
-      "emoji": "🚀🔥",
-      "tag": "10M+ УСТАНОВОК",
-      "name": "Subway Surfers City",
-      "icon": "https://play-lh.googleusercontent.com/03aa9B2_VkQHtkTY9XVdmbDWYar7F7OMWfGBXHzTuwkiVHFT_H6NJHRrPcanuXYY63h4",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/9tqiohVWJSn6fNQsm2zHoBiISZ8Dr73LOIUlEHYBddPo_1I2r1d5VVGgseZ2IAS-mKo=w300",
-        "https://play-lh.googleusercontent.com/zrRFA-kqgqBg52SFN0OKHFjNd5WZaWMbqoGHfVt-5dDXsgCrOM4Hqs6Qu5PFO7RrRB0=w300",
-        "https://play-lh.googleusercontent.com/4xHSROEYu9qzlrD4NDIIV33ptsmZ3_E-MMpDpi2R1HNKx52JQHmeYq5t8iF4N7LVs3A=w300",
-        "https://play-lh.googleusercontent.com/QPiBmiKuwuihVRLx8qkdnA_iJ9tuLL0_r4pv2Wolaz1cSHQEYZrd_Dlkd6PEgO6UgQ8=w300"
-      ],
-      "genre": "Action",
-      "developer": "SYBO Games",
-      "downloads": "10,000,000+",
-      "realInstalls": 11854890,
-      "realInstallsStr": "11.9M",
-      "perDay": 911914,
-      "days": 13,
-      "score": 4.8,
-      "ratings": 188164,
-      "ratingsStr": "188K",
-      "contentRating": "Everyone 10+",
-      "offersIAP": true,
-      "releaseDate": "Feb 25, 2026",
-      "lastUpdated": "Mar 4, 2026",
-      "summary": "Run, jump, dodge and explore Subway Surfers City on your hoverboard!",
-      "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game"
-    },
-    {
-      "emoji": "🚀🔥",
-      "tag": "10M+ УСТАНОВОК",
-      "name": "Rainbow Six Mobile",
-      "icon": "https://play-lh.googleusercontent.com/QIH2nL3HlU9UcEL8MuDJtunxs3dSTY9LXeWx4fQMU0XdOzEG8xQ0DVXa6nz4hbNvwrDI_FYOHcvi1up7KAT81A",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/-_sJG-ra2ymDMq9oypj5eVo94uw__QbTBlgdAV88bcwnAuHClJbmhXEP_-dTPjMq3Di6vmAUNz6K1BymbjN8Yw=w300",
-        "https://play-lh.googleusercontent.com/5uf1PWNcDjZ1aoxybVH_ECDnDEIWPzbSWV77d8EbJAf6n_lR9ZNNDEOY1NS1oQ-8vCH7nIOWeJPCxDLrrtCCww=w300",
-        "https://play-lh.googleusercontent.com/lXumqIyi5iA6Mqc-8_eJah0J6AyjnOjUeWmE0ARM589wJD29wWSfwoyKxA8SHCxsx88_MeGEJJo98p6q9nAkQw=w300",
-        "https://play-lh.googleusercontent.com/b7m7iJGvcKRXhWIhySiOkq83dMMRGoi1-fJegXOMBtbBi3yyr42bvMeqXPtjh1q_y2Q6jLRmehqal6GuYJf1Ww=w300"
-      ],
-      "genre": "Action",
-      "developer": "Ubisoft Nova",
-      "downloads": "10,000,000+",
-      "realInstalls": 10843946,
-      "realInstallsStr": "10.8M",
-      "perDay": 722929,
-      "days": 15,
-      "score": 4.5,
-      "ratings": 92017,
-      "ratingsStr": "92K",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Feb 23, 2026",
-      "lastUpdated": "Mar 3, 2026",
-      "summary": "Mark your calendar! Global launch is on February 23, 2026",
-      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter"
-    },
-    {
-      "emoji": "🚀",
-      "tag": "500K+ УСТАНОВОК",
-      "name": "Hatch Dragons",
-      "icon": "https://play-lh.googleusercontent.com/tWSpMMixH1mx7Yv5DnEZdRaiHK68V6tZGYpr7WvgiluvGmuuRY_RefxseSKMcg5oV4YBUAtJZONrExg1qFkn",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/-igf16Yp7I5zFRUCyPa32POZwlQeH9JFR67_o1Zb-0r3hGFhxvMGt_4atiP7vqOueMk=w300",
-        "https://play-lh.googleusercontent.com/tF2MXle2EiM8nRtOInXNK4QTF-q47CEEVfD04TaWdEE7z-_GDHUj17GRCs_aDjvGnr4=w300",
-        "https://play-lh.googleusercontent.com/6L5rAcmItK9lz2KK822D9znevPF80oXvRY5XjAfUy5otskpzee49pgQrTFsSREXys5r6=w300",
-        "https://play-lh.googleusercontent.com/wl1RxSp4eHrWctbCJL6G4MSJfjSoZQbHVVYTW8q0Fk_f3zcHkPPmV7P320mAp25KXg=w300"
-      ],
-      "genre": "Simulation",
-      "developer": "Runaway Play",
-      "downloads": "500,000+",
-      "realInstalls": 538232,
-      "realInstallsStr": "538K",
-      "perDay": 89705,
-      "days": 6,
-      "score": 4.8,
-      "ratings": 12383,
-      "ratingsStr": "12K",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Mar 4, 2026",
-      "lastUpdated": "Mar 2, 2026",
-      "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
-      "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons"
-    },
-    {
-      "emoji": "🚀",
-      "tag": "500K+ УСТАНОВОК",
-      "name": "StoneAge: Idle Adventure",
-      "icon": "https://play-lh.googleusercontent.com/mHJqRu4jWQURdoJTkJYcqPvd1atYDkx4EGEuv3olhT8MFdDW1jYNGyFLmOkr8plJmQZmmSc7v744iYJk09Nc7A",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/VkWqZFpXs-nAiqmrQjWGnp1l7DRJd98CzIpa75vT8el0mMoMx8qabYPv_Q4rOOWxoH4X2dpUZDoRvUE6SliJpjo=w300",
-        "https://play-lh.googleusercontent.com/nF81peCIWutAw1qiuFcDouRjJTGgywoCZSLNNZOmw8qAoZyTv-i51gmN_qQxT_iK5BKG9jp4e8tYoX8HhJ1wBw=w300",
-        "https://play-lh.googleusercontent.com/j5e8H3jaFUrN0n6fV1sL6qFXeefmEezqWG9pKHM2nkttBsKj2CkGoNJeWdJZ79Suan7LpLGkw964EwbeBm58UZw=w300",
-        "https://play-lh.googleusercontent.com/kTZeL9eHe5rwTtDGxGLRizrhE_DcUBJ0uEUyxNe-KkRmzATnFJe_SHsouihKj0Z1dAusdeaaYW7ckZPZrMXT=w300"
-      ],
-      "genre": "Role Playing",
-      "developer": "Netmarble",
-      "downloads": "500,000+",
-      "realInstalls": 611129,
-      "realInstallsStr": "611K",
-      "perDay": 55557,
-      "days": 11,
-      "score": 4.6,
-      "ratings": 25754,
-      "ratingsStr": "25K",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Feb 27, 2026",
-      "lastUpdated": "Feb 27, 2026",
-      "summary": "Get ALL Pets just by checking in!",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.stonkey"
-    },
-    {
-      "emoji": "⚡",
-      "tag": "100K+ УСТАНОВОК",
-      "name": "Tile Mahjong Classic",
-      "icon": "https://play-lh.googleusercontent.com/smIlH0nPeaUyb1RV1HCtB5gQ3Una86hwlZlwrCkUKmkYzEAINwR-DnnD-fkKauStohxqGjFn9se19x_6CWqgvg",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/zVj1_myQUdYUg535eYA7MpOaTXgZW4fEzhl3K5SUw5CVWkhVPVvToG616gFgtBtW62eTNbJ84iRwTAtbPB4Kjg=w300",
-        "https://play-lh.googleusercontent.com/4JMLZp_Y-H9aKF6yg87de5xOjNg6FmuzGdStzH5EoY8HgVAY0o0vEHbica8xr5p6ITi4UdAYVWCWXuNKKTHyIw=w300",
-        "https://play-lh.googleusercontent.com/bUJA1JNVhlYJFBd93GHW-yu1kPreey1CaFOiuTzEOIe9NaV81OqPWddMf9qrt1oYcEfc6Nm6nr7lYpnh1vDM=w300",
-        "https://play-lh.googleusercontent.com/GzIOyjIkzkpasAR6YtBFh6_sELPuBWq882m-SYJzp85Dxfzr50jla79NvI5VvJ3uwqEShwVEEtB1l-C68nR3lNQ=w300"
-      ],
-      "genre": "Casual",
-      "developer": "SOFISH GAMES",
-      "downloads": "100,000+",
-      "realInstalls": 222487,
-      "realInstallsStr": "222K",
-      "perDay": 10113,
-      "days": 22,
-      "score": 4.8,
-      "ratings": 203,
-      "ratingsStr": "203",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Feb 16, 2026",
-      "lastUpdated": "Mar 6, 2026",
-      "summary": "Relaxing Mahjong puzzle game for adults & seniors. Play offline!",
-      "url": "https://play.google.com/store/apps/details?id=com.sofish.tilemahjong.gp"
-    },
-    {
-      "emoji": "⚡",
-      "tag": "50K+ УСТАНОВОК",
-      "name": "Nuts Factory: Sort Puzzle",
-      "icon": "https://play-lh.googleusercontent.com/xM6nj0ViJL7-HCU7IL7FH_wXhEjfE9NBD6LQQyyBrinWlfTP4DsZZj35qWmNTbXbj7LmbvDqtk8AEBONm3EA",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/SsV2HqkZYEdMbu2A3Xk0-3CQO4STg1k56Dyoy9SC9090XjWqPLszPhZC__u7ZfSdt1gNGblTumKVxAGCh1KQtRg=w300",
-        "https://play-lh.googleusercontent.com/2U2Z06hAN8MpvyrtbKekUwoB4zvq4l0qL60PXIdBR-IL3xQZLoDfLWx8orP1IfqAZjAXn8tvbbP0ZecqnfJHnV4=w300",
-        "https://play-lh.googleusercontent.com/PXZbYQqMSSRsuzeqpGSIl602-nAsyEhS5FtRN-LThYh0KBSMaEKQxsCoHBTMAtXnJr3HmqbnhibU2JqpewQm=w300",
-        "https://play-lh.googleusercontent.com/PcCKmfUkz4b9ulNV77YCnb4CYuknSRRpcdh7kH4v1TEBy1BHvo19ZksBz1zyB9xE7OdEUK_NddWk0X42PDMmHw=w300"
-      ],
-      "genre": "Puzzle",
-      "developer": "Playful Bytes",
-      "downloads": "50,000+",
-      "realInstalls": 66795,
-      "realInstallsStr": "67K",
-      "perDay": 5566,
-      "days": 12,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Feb 26, 2026",
-      "lastUpdated": "Mar 5, 2026",
-      "summary": "Nuts Factory: Sort It, Master It, Love It—A Journey of Sorting Satisfaction!",
-      "url": "https://play.google.com/store/apps/details?id=nuts.factory.sort.puzzle"
-    },
-    {
-      "emoji": "📈",
-      "tag": "50K+ УСТАНОВОК",
-      "name": "Mahjong Match - Matching Games",
-      "icon": "https://play-lh.googleusercontent.com/1roP5RKm7w2sNX9tmipfxWWnhCdFOLuZ9Au26kZxfosx_ZeEVW-E0M21Dr7YWqfLhl8FGJKFsDYp9JWDVSUo",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/pA97fEBET46KmlPGlVD7PoGXXcAUmum_Cf9A0foDAb2pxDVSmIGC8zreUtf7-XasfeqKLrk325XS97h5p-a0ZDI=w300",
-        "https://play-lh.googleusercontent.com/-EIXARWmgqhm4jg6KOoLBb2Z2HPPOCOdplFDk4ajd4TtGsAPnrQUP7zmxdQUWToGJ5Ds3RBss5IThq7BLBUwAQ=w300",
-        "https://play-lh.googleusercontent.com/W9-OqNw0NuTZJqz_GBRErfG8dOgHnPCHIgDjO4ZYQLxDu5Upsj_00490khFaXU4rFoGGpRhCGItKybl61X-RpA=w300",
-        "https://play-lh.googleusercontent.com/YAGBVsfcPbSyT5ER2J7RIdmLcs5z5eHDoS0kymalX6nNuwzYpwSgtHgj5MiXyq4Nb9mJ_KU8AX95ZhIsVzjpo_Y=w300"
-      ],
-      "genre": "Puzzle",
-      "developer": "Guru Puzzle Game",
-      "downloads": "50,000+",
-      "realInstalls": 57922,
-      "realInstallsStr": "58K",
-      "perDay": 2227,
-      "days": 26,
-      "score": 4.9,
-      "ratings": 658,
-      "ratingsStr": "658",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Feb 12, 2026",
-      "lastUpdated": "Feb 12, 2026",
-      "summary": "Mahjong match games for seniors! Perfect for mahjong games & tile match lovers!",
-      "url": "https://play.google.com/store/apps/details?id=slide.match.mahjong.tile.connect.pair.puzzle.games"
-    },
-    {
-      "emoji": "📈",
-      "tag": "НОВИНКА",
-      "name": "Screw Home: Color Sort",
-      "icon": "https://play-lh.googleusercontent.com/LS5oHa3aTQ8k2KKNfgCNomFGrD7Kuzd2bZ39yhufOopkRtoR-Rl1dmSZF9ObQzavGYuECo1iN5WgRM9GUnUknXw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/TtP9vf30BMnhhNDRWLHHExJ4H8Kle_M-0F6Rrl14rjPRfIrgFyfWupyaVbUJlS3jW49AsLo_ajOwRrF3HkmG3Q=w300",
-        "https://play-lh.googleusercontent.com/c6SDHHNvkc1h-n0rGz_raTR7hWAdaclp_-ZB4Y5GJmYQBUoUWXCDBZXh3YV08qia3yYoV4dI8eyEGIHutvr0=w300",
-        "https://play-lh.googleusercontent.com/epWbIcwbTScZ7HwVHF623Tvnw9puipDmXptURrCULQs8nXqBMrmw5FEDQlIVjV6NmREsLyWHSkP4UywNOr1yeZU=w300",
-        "https://play-lh.googleusercontent.com/_pyDROvc7UPW8S4MH3uqRXdh4MwSTWagrunvlkb8y4kpuiYtIbeaA8x37veHeAGlUBJ8a7Xe2Day3pHUkaKzeg=w300"
-      ],
-      "genre": "Casual",
-      "developer": "SOFISH GAMES",
-      "downloads": "10,000+",
-      "realInstalls": 38223,
-      "realInstallsStr": "38K",
-      "perDay": 1737,
-      "days": 22,
-      "score": 4.9,
-      "ratings": 430,
-      "ratingsStr": "430",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Feb 16, 2026",
-      "lastUpdated": "Mar 3, 2026",
-      "summary": "Sort colorful screws, solve relaxing puzzles, and build your cozy home!",
-      "url": "https://play.google.com/store/apps/details?id=com.sofish.screwhome.gp"
-    }
-  ],
+  "updated": "2026-03-10 05:22",
+  "rockets": [],
   "videos": [
     {
-      "vpd": 33167,
-      "views": 995030,
+      "vpd": 40882,
+      "views": 1226477,
+      "views_str": "1.2M",
+      "age_days": 30,
+      "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
+      "channel": "Kuplinov ► Play",
+      "url": "https://youtu.be/tbHb24IW9ZY",
+      "thumb": "https://img.youtube.com/vi/tbHb24IW9ZY/mqdefault.jpg",
+      "grade": "⚡"
+    },
+    {
+      "vpd": 33171,
+      "views": 995155,
       "views_str": "995K",
       "age_days": 30,
       "title": "Top 30 NEW Open World Games of 2026",
@@ -250,8 +36,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 18004,
-      "views": 540148,
+      "vpd": 18005,
+      "views": 540151,
       "views_str": "540K",
       "age_days": 30,
       "title": "Top 10 NEW Games of January 2026",
@@ -262,7 +48,7 @@
     },
     {
       "vpd": 16767,
-      "views": 503027,
+      "views": 503034,
       "views_str": "503K",
       "age_days": 30,
       "title": "Top 10 NEW Games of 2026 [First Half]",
@@ -273,7 +59,7 @@
     },
     {
       "vpd": 15860,
-      "views": 475806,
+      "views": 475827,
       "views_str": "475K",
       "age_days": 30,
       "title": "Why is EVERYBODY Playing This Game....",
@@ -295,7 +81,7 @@
     },
     {
       "vpd": 13594,
-      "views": 407832,
+      "views": 407835,
       "views_str": "407K",
       "age_days": 30,
       "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
@@ -305,9 +91,9 @@
       "grade": "📈"
     },
     {
-      "vpd": 12560,
-      "views": 376811,
-      "views_str": "376K",
+      "vpd": 12568,
+      "views": 377045,
+      "views_str": "377K",
       "age_days": 30,
       "title": "Top 50 NEW PC Games of 2026",
       "channel": "gameranx",
@@ -316,8 +102,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12130,
-      "views": 363902,
+      "vpd": 12131,
+      "views": 363957,
       "views_str": "363K",
       "age_days": 30,
       "title": "Top 10 NEW Games of March 2026",
@@ -327,8 +113,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12007,
-      "views": 360213,
+      "vpd": 12008,
+      "views": 360249,
       "views_str": "360K",
       "age_days": 30,
       "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
@@ -338,8 +124,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 11164,
-      "views": 334920,
+      "vpd": 11166,
+      "views": 334982,
       "views_str": "334K",
       "age_days": 30,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
@@ -349,8 +135,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 9333,
-      "views": 280002,
+      "vpd": 9336,
+      "views": 280098,
       "views_str": "280K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -360,8 +146,30 @@
       "grade": "📈"
     },
     {
-      "vpd": 5963,
-      "views": 178904,
+      "vpd": 7630,
+      "views": 228918,
+      "views_str": "228K",
+      "age_days": 30,
+      "title": "GAME OF COURAGE 🔥 | DID ARTEM AND KRISTINA BREAK UP?!😱 | MUSIM ATE THE HOTTEST PEPPER IN THE WORL...",
+      "channel": "nikita…shulgin",
+      "url": "https://youtu.be/MUtfV52u4So",
+      "thumb": "https://img.youtube.com/vi/MUtfV52u4So/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 6032,
+      "views": 180978,
+      "views_str": "180K",
+      "age_days": 30,
+      "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
+      "channel": "Tekkan",
+      "url": "https://youtu.be/E7qMngvwXM4",
+      "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 5964,
+      "views": 178921,
       "views_str": "178K",
       "age_days": 30,
       "title": "12 Best NEW Games To Play In February 2026",
@@ -382,8 +190,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 3913,
-      "views": 117412,
+      "vpd": 3915,
+      "views": 117455,
       "views_str": "117K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
@@ -393,8 +201,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3808,
-      "views": 114265,
+      "vpd": 3812,
+      "views": 114378,
       "views_str": "114K",
       "age_days": 30,
       "title": "35 Best Single-Player Games Everyone Must Play",
@@ -405,46 +213,13 @@
     },
     {
       "vpd": 3676,
-      "views": 110283,
+      "views": 110295,
       "views_str": "110K",
       "age_days": 30,
       "title": "TOP 10 MOBILE GAMES YOU NEED TO PLAY IN 2026...",
       "channel": "ExxotikGaming",
       "url": "https://youtu.be/pEz42oZrLAI",
       "thumb": "https://img.youtube.com/vi/pEz42oZrLAI/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3620,
-      "views": 108611,
-      "views_str": "108K",
-      "age_days": 30,
-      "title": "19 NEW Games That Will BLOW UP in 2026–2027!",
-      "channel": "GameRax",
-      "url": "https://youtu.be/kddbsFGX7MI",
-      "thumb": "https://img.youtube.com/vi/kddbsFGX7MI/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3366,
-      "views": 100989,
-      "views_str": "100K",
-      "age_days": 30,
-      "title": "Top 10 BEST Mobile Games of 2026 🔥 | Upcoming Android Games",
-      "channel": "PROTECH",
-      "url": "https://youtu.be/hiGJXGTcTyA",
-      "thumb": "https://img.youtube.com/vi/hiGJXGTcTyA/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3027,
-      "views": 90839,
-      "views_str": "90K",
-      "age_days": 30,
-      "title": "15 Best Gacha Games You Must Play 2026! F2P Friendly Gacha Games (Android/iOS/PC)",
-      "channel": "Tekkan",
-      "url": "https://youtu.be/nhU4xqDZTCs",
-      "thumb": "https://img.youtube.com/vi/nhU4xqDZTCs/mqdefault.jpg",
       "grade": "📊"
     }
   ],
@@ -517,8 +292,8 @@
   "ideas": [
     {
       "emoji": "🎯",
-      "title": "Клон-улучшение топового жанра: Casual",
-      "desc": "Возьми механику из жанра Casual, добавь одну уникальную фишку. Бюджет: 2-4 недели.",
+      "title": "Клон-улучшение топового жанра: Action",
+      "desc": "Возьми механику из жанра Action, добавь одну уникальную фишку. Бюджет: 2-4 недели.",
       "tags": [
         "Indie",
         "Быстрый старт"
