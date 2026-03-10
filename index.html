@@ -569,9 +569,7 @@
         <div class="dot"></div>
         <span>Обновлено: <span id="updated-date">загрузка...</span></span>
       </div>
-      <button class="btn-refresh" id="refresh-btn" onclick="startRefresh()">
-        <span id="refresh-icon">↻</span> <span id="refresh-label">Обновить данные</span>
-      </button>
+
     </div>
   </div>
 </header>
@@ -723,25 +721,31 @@
   function renderVideos(data) {
     const grid = document.getElementById('videos-grid');
     document.getElementById('videos-count').textContent = data.length + ' видео';
-    grid.innerHTML = data.map(v => `
+    grid.innerHTML = data.map(v => {
+      const viewsStr = v.views_str || (v.views >= 1000000 ? (v.views/1000000).toFixed(1)+'M' : Math.round(v.views/1000)+'K');
+      const thumb = v.thumb || '';
+      const grade = v.grade || '📈';
+      const channel = v.channel || '';
+      return `
       <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
         <img
           class="video-thumb"
-          src="https://img.youtube.com/vi/${v.videoId}/mqdefault.jpg"
+          src="${thumb}"
           alt="${v.title}"
           loading="lazy"
           onerror="this.style.background='#1e1e35';this.removeAttribute('src')"
         />
         <div class="video-body">
-          <div class="card-tag">${v.tag}</div>
+          <div class="card-tag">${grade}</div>
           <div class="video-title">${v.title}</div>
+          <div class="video-meta" style="font-size:0.75rem;color:var(--text2);margin-top:4px">${channel}</div>
           <div>
-            <div class="video-views">${v.views}</div>
+            <div class="video-views">${viewsStr}</div>
             <div class="video-views-label">просмотров</div>
           </div>
         </div>
-      </a>
-    `).join('');
+      </a>`;
+    }).join('');
   }
 
   // RENDER NEWS
@@ -764,19 +768,22 @@
   function renderIdeas(data) {
     const grid = document.getElementById('ideas-grid');
     document.getElementById('ideas-count').textContent = data.length + ' идеи';
-    grid.innerHTML = data.map(i => `
+    grid.innerHTML = data.map(i => {
+      const tags = (i.tags || []).join(' · ');
+      const difficulty = i.difficulty || '';
+      return `
       <div class="card idea-card">
         <div class="idea-header">
           <div class="idea-emoji">${i.emoji}</div>
           <div style="flex:1">
             <div class="idea-title">${i.title}</div>
           </div>
-          <div class="idea-priority">${i.priority}</div>
+          ${difficulty ? `<div class="idea-priority">${difficulty}</div>` : ''}
         </div>
-        <div class="idea-insight">${i.insight}</div>
-        <div class="idea-signal">📊 ${i.signal}</div>
-      </div>
-    `).join('');
+        <div class="idea-insight">${i.desc || ''}</div>
+        ${tags ? `<div class="idea-signal">🏷 ${tags}</div>` : ''}
+      </div>`;
+    }).join('');
   }
 
   // RENDER STATS
