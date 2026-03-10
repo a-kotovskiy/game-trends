@@ -1,11 +1,17 @@
 {
-  "updated": "2026-03-10 02:45",
+  "updated": "2026-03-10 03:24",
   "rockets": [
     {
       "emoji": "🚀🔥",
       "tag": "10M+ ЗАГРУЗОК",
       "name": "Rainbow Six Mobile",
       "icon": "https://play-lh.googleusercontent.com/QIH2nL3HlU9UcEL8MuDJtunxs3dSTY9LXeWx4fQMU0XdOzEG8xQ0DVXa6nz4hbNvwrDI_FYOHcvi1up7KAT81A",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/cq-61uX75JlSRyeihENPRwZbTXESpJAyyMqYwWrHbcnkW3FNbVnjNSEi1-7i3nG3ErpZWLS5AOH_Bq5P=w300",
+        "https://play-lh.googleusercontent.com/2HdBRpldnay_l87ch2P2T50oHOUghuk8M2R7oftUmMuuQXBr6Y7tMfCWqmieKYUyXZANU7wkqbhQnZsy9qG_=w300",
+        "https://play-lh.googleusercontent.com/Z0Fr5PwdNkWJnU0EWhWk7_EO0SZ_WamwGOeh19X8UmQThCnX0Z1GmQT_rp2SA7s16VaLyxclpEemtUhTJQefs_I=w300",
+        "https://play-lh.googleusercontent.com/RBJUfziP5E2NuzAHiY79aHTszNWsGxGZSq4SSxda-tMIB2Ts51Gt-gGW3eFmld7utNzuSQJvuvgapy0DXgkS=w300"
+      ],
       "genre": "Action",
       "downloads": "10,000,000+",
       "perDay": 666666,
@@ -18,6 +24,12 @@
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Mahjong Spirit: Match Game",
       "icon": "https://play-lh.googleusercontent.com/4LePhbtVKEoN0CD5VZ3gn2yYqm7Iy-J8oZJwymKgC7UV28jWCqKmNFo_oJgEdy_en5GLzv4MIBi-mcZV527K",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/pkRJItONmD2VOz6enlkaAC6wcBCZRwl3y_zRjOb1OM27IVdliwoRQV3Ag2j2FYOudBfn2hCAb5eIkukzJlxrAw=w300",
+        "https://play-lh.googleusercontent.com/d-G-i7AE01lNMQvA2PWRHn_ZNEp30ecc5do_hul11x-MBPzEUtSJ6yjDMqtT_T1JGVkiDAesuzMD4O9-8iZSaA=w300",
+        "https://play-lh.googleusercontent.com/By7WxM0n76SY6UzSjjSMc-JubHBTHd1AeMaW8PYfv_IIwOdBlzQgfroXqStHGs1oSxcYrzTFRmzfbdbDNI65uw=w300"
+      ],
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 16666,
@@ -30,6 +42,12 @@
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Block Spark: Classic Puzzle",
       "icon": "https://play-lh.googleusercontent.com/oH4pWjEwWfS5n7bi-cgnFyPjGV4cVpD_uFnXlnU_rGndsphVS_sjDbG7rcm_ke34DB8nlg0e0eNkz2APENaPnA",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/cPsdPJifSwxFKzPcF7sT0-nejzK0hGgg0DmgMRfbQpkn6JQvX0_z1iWVDBG07Rny125nCwRrTmuJCsKaO39i=w300",
+        "https://play-lh.googleusercontent.com/knbGb9kcfW7B-oWmqiZRnqmU6Yv-FwSNuNyEFZRLjitEVgHa9Xu9i0wXPjZEoi-B6KJOIF5lNs7OVMpAAPJcZw=w300",
+        "https://play-lh.googleusercontent.com/koqBy5YMSVYBPjSXz_zlrzFb6MD2wGqZpX2ck7lXz0yb_WBDkaJfvFoTH44ML5Nx0lLCqzBxgC2t-tqI0xQSoQ=w300"
+      ],
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 4761,
@@ -40,20 +58,14 @@
     {
       "emoji": "⚡",
       "tag": "100K+ ЗАГРУЗОК",
-      "name": "Tile Land: Triple Match",
-      "icon": "https://play-lh.googleusercontent.com/rwFJwCl6R1GN-ydrDeAiS5a8xFOBHJ26FQ5LIxKPpchyR2v0Pl-HEWGTzxNxfbuIrMI2il5Pj-hL8mXXEPT0KQ",
-      "genre": "Casual",
-      "downloads": "100,000+",
-      "perDay": 4545,
-      "days": 22,
-      "releaseDate": "Feb 16, 2026",
-      "url": "https://play.google.com/store/apps/details?id=com.sohi.tileland.gp"
-    },
-    {
-      "emoji": "⚡",
-      "tag": "100K+ ЗАГРУЗОК",
       "name": "Tile Mahjong Classic",
       "icon": "https://play-lh.googleusercontent.com/smIlH0nPeaUyb1RV1HCtB5gQ3Una86hwlZlwrCkUKmkYzEAINwR-DnnD-fkKauStohxqGjFn9se19x_6CWqgvg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/zVj1_myQUdYUg535eYA7MpOaTXgZW4fEzhl3K5SUw5CVWkhVPVvToG616gFgtBtW62eTNbJ84iRwTAtbPB4Kjg=w300",
+        "https://play-lh.googleusercontent.com/4JMLZp_Y-H9aKF6yg87de5xOjNg6FmuzGdStzH5EoY8HgVAY0o0vEHbica8xr5p6ITi4UdAYVWCWXuNKKTHyIw=w300",
+        "https://play-lh.googleusercontent.com/bUJA1JNVhlYJFBd93GHW-yu1kPreey1CaFOiuTzEOIe9NaV81OqPWddMf9qrt1oYcEfc6Nm6nr7lYpnh1vDM=w300"
+      ],
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 4545,
@@ -63,9 +75,33 @@
     },
     {
       "emoji": "⚡",
+      "tag": "100K+ ЗАГРУЗОК",
+      "name": "Tile Land: Triple Match",
+      "icon": "https://play-lh.googleusercontent.com/rwFJwCl6R1GN-ydrDeAiS5a8xFOBHJ26FQ5LIxKPpchyR2v0Pl-HEWGTzxNxfbuIrMI2il5Pj-hL8mXXEPT0KQ",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/iCTEgLuVcBmX0d6TapgaJhoDMlSxv0nPuSXPv0kTFdQNR61cXcwnBU2Sb_6UapEMnV-w9SCN3ym7GjVXfj7H=w300",
+        "https://play-lh.googleusercontent.com/4oX7t4mxmqTawlHH1KGwneUAF3p9epqQte8fCwiQp2YNgxpqhElX0tf-HWZJZ5UfU-yzLl_FEHDi5E3FG1Ve=w300",
+        "https://play-lh.googleusercontent.com/4wTjT14WkR5VKlkygB2fJnIRzDO7-Jw3PHOi_yDkGyJ4Mjwx4AP9sxJlnak-K9CRFAb3gaFkdZL9rUrAsAH2-Vo=w300"
+      ],
+      "genre": "Casual",
+      "downloads": "100,000+",
+      "perDay": 4545,
+      "days": 22,
+      "releaseDate": "Feb 16, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.sohi.tileland.gp"
+    },
+    {
+      "emoji": "⚡",
       "tag": "НОВИНКА · 50,000+",
       "name": "Nuts Factory: Sort Puzzle",
       "icon": "https://play-lh.googleusercontent.com/xM6nj0ViJL7-HCU7IL7FH_wXhEjfE9NBD6LQQyyBrinWlfTP4DsZZj35qWmNTbXbj7LmbvDqtk8AEBONm3EA",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/SsV2HqkZYEdMbu2A3Xk0-3CQO4STg1k56Dyoy9SC9090XjWqPLszPhZC__u7ZfSdt1gNGblTumKVxAGCh1KQtRg=w300",
+        "https://play-lh.googleusercontent.com/2U2Z06hAN8MpvyrtbKekUwoB4zvq4l0qL60PXIdBR-IL3xQZLoDfLWx8orP1IfqAZjAXn8tvbbP0ZecqnfJHnV4=w300",
+        "https://play-lh.googleusercontent.com/PXZbYQqMSSRsuzeqpGSIl602-nAsyEhS5FtRN-LThYh0KBSMaEKQxsCoHBTMAtXnJr3HmqbnhibU2JqpewQm=w300"
+      ],
       "genre": "Puzzle",
       "downloads": "50,000+",
       "perDay": 4166,
@@ -78,6 +114,12 @@
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Arrow Madness: Arrow Puzzle",
       "icon": "https://play-lh.googleusercontent.com/5zBzPy1EUYZWR9Moj0_EappkL42notU4yj722Hzox3au3PMueLIcdN-UIESj0M7NPEuryqy1sv_gNx4BEYRe",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/RXOgcJyg67iaYcLSVYDKVgXWtTVGq4yVaOWvnmStNWexG-fQnonjuuaiZ_pBt7u2bOZEkZytsEQAd67E5M3GazA=w300",
+        "https://play-lh.googleusercontent.com/WQ_3YMZRRca-CJ9zq8dROlxBwgXZENwZ4kMw8n0Fk7DAgRuD30QzyN8UexrsePTkcwe0n-KoaHlimRjVN1ra_9Q=w300",
+        "https://play-lh.googleusercontent.com/naYsQp1ZrpSfflVFzyqVPsTjypyfeYo0C71SyXisePGhhHqEtzBZqNMm3zL1gYQ6knxJu2XKhHvSizVWdg8O-Q=w300"
+      ],
       "genre": "Puzzle",
       "downloads": "100,000+",
       "perDay": 3846,
@@ -90,6 +132,12 @@
       "tag": "НОВИНКА · 50,000+",
       "name": "Knit Madness - Wool Color Sort",
       "icon": "https://play-lh.googleusercontent.com/eCfyyhYFXBa309OsunyWumNqHgfCRQHUZWV54y9zCr1bZWmamRfdG9xGgqJxkmKCJG4t5B7cdmHo0ZKrDMSo9Q",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/07_Iyi8lfIsUzZt5xvYo1o-GYxxXvXfktPar7edvx6US6Xv_6vpP2JWJIQ8bTfSmUZIOU5cgvB9GqVD8rBcuUIw=w300",
+        "https://play-lh.googleusercontent.com/ExDOE74kaiu3kp8dVMf9imTWqZrB8kyXxwwrnhHFrIOBXc4uGBE7V1dhWw-KNUs6_rF-KJ1mCzMnPjvDr2-16Q=w300",
+        "https://play-lh.googleusercontent.com/VGPEVsJOIOtWNKswitSY4CwcgU-5NytWznBbkrSMwbl4AgkH13tQrtWj2eSzGBYN47_Y8aSMsIlWTkkXAKKf=w300"
+      ],
       "genre": "Puzzle",
       "downloads": "50,000+",
       "perDay": 3333,
@@ -102,6 +150,12 @@
       "tag": "НОВИНКА · 50,000+",
       "name": "Mahjong Match - Matching Games",
       "icon": "https://play-lh.googleusercontent.com/1roP5RKm7w2sNX9tmipfxWWnhCdFOLuZ9Au26kZxfosx_ZeEVW-E0M21Dr7YWqfLhl8FGJKFsDYp9JWDVSUo",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A=w300",
+        "https://play-lh.googleusercontent.com/pA97fEBET46KmlPGlVD7PoGXXcAUmum_Cf9A0foDAb2pxDVSmIGC8zreUtf7-XasfeqKLrk325XS97h5p-a0ZDI=w300",
+        "https://play-lh.googleusercontent.com/-EIXARWmgqhm4jg6KOoLBb2Z2HPPOCOdplFDk4ajd4TtGsAPnrQUP7zmxdQUWToGJ5Ds3RBss5IThq7BLBUwAQ=w300",
+        "https://play-lh.googleusercontent.com/W9-OqNw0NuTZJqz_GBRErfG8dOgHnPCHIgDjO4ZYQLxDu5Upsj_00490khFaXU4rFoGGpRhCGItKybl61X-RpA=w300"
+      ],
       "genre": "Puzzle",
       "downloads": "50,000+",
       "perDay": 1923,
@@ -112,8 +166,8 @@
   ],
   "videos": [
     {
-      "vpd": 40849,
-      "views": 1225487,
+      "vpd": 40859,
+      "views": 1225775,
       "views_str": "1.2M",
       "age_days": 30,
       "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
@@ -123,8 +177,8 @@
       "grade": "⚡"
     },
     {
-      "vpd": 33156,
-      "views": 994693,
+      "vpd": 33160,
+      "views": 994815,
       "views_str": "994K",
       "age_days": 30,
       "title": "Top 30 NEW Open World Games of 2026",
@@ -146,7 +200,7 @@
     },
     {
       "vpd": 18004,
-      "views": 540148,
+      "views": 540147,
       "views_str": "540K",
       "age_days": 30,
       "title": "Top 10 NEW Games of January 2026",
@@ -156,9 +210,9 @@
       "grade": "📈"
     },
     {
-      "vpd": 16765,
-      "views": 502967,
-      "views_str": "502K",
+      "vpd": 16767,
+      "views": 503032,
+      "views_str": "503K",
       "age_days": 30,
       "title": "Top 10 NEW Games of 2026 [First Half]",
       "channel": "gameranx",
@@ -167,8 +221,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 15857,
-      "views": 475726,
+      "vpd": 15858,
+      "views": 475754,
       "views_str": "475K",
       "age_days": 30,
       "title": "Why is EVERYBODY Playing This Game....",
@@ -179,7 +233,7 @@
     },
     {
       "vpd": 15131,
-      "views": 453937,
+      "views": 453943,
       "views_str": "453K",
       "age_days": 30,
       "title": "Top 10 NEW Games of February 2026",
@@ -189,8 +243,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 13590,
-      "views": 407706,
+      "vpd": 13593,
+      "views": 407797,
       "views_str": "407K",
       "age_days": 30,
       "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
@@ -200,9 +254,9 @@
       "grade": "📈"
     },
     {
-      "vpd": 12532,
-      "views": 375973,
-      "views_str": "375K",
+      "vpd": 12542,
+      "views": 376285,
+      "views_str": "376K",
       "age_days": 30,
       "title": "Top 50 NEW PC Games of 2026",
       "channel": "gameranx",
@@ -211,8 +265,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12125,
-      "views": 363753,
+      "vpd": 12127,
+      "views": 363829,
       "views_str": "363K",
       "age_days": 30,
       "title": "Top 10 NEW Games of March 2026",
@@ -222,8 +276,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12004,
-      "views": 360139,
+      "vpd": 12005,
+      "views": 360167,
       "views_str": "360K",
       "age_days": 30,
       "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
@@ -233,8 +287,19 @@
       "grade": "📈"
     },
     {
-      "vpd": 11158,
-      "views": 334752,
+      "vpd": 11886,
+      "views": 356595,
+      "views_str": "356K",
+      "age_days": 30,
+      "title": "WHAT THE HELL IS GOING ON WITH XBOX & SONY, NEW GAME REVEALS & MORE",
+      "channel": "gameranx",
+      "url": "https://youtu.be/U6s875AaIdI",
+      "thumb": "https://img.youtube.com/vi/U6s875AaIdI/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 11160,
+      "views": 334803,
       "views_str": "334K",
       "age_days": 30,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
@@ -244,8 +309,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 9325,
-      "views": 279771,
+      "vpd": 9328,
+      "views": 279852,
       "views_str": "279K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -255,19 +320,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 8932,
-      "views": 267977,
-      "views_str": "267K",
-      "age_days": 30,
-      "title": "22 NEW GAMES the WHOLE WORLD Is WAITING FOR in 2026! (PC, PS5, Xbox)",
-      "channel": "GameRax",
-      "url": "https://youtu.be/6OO57T-2wL4",
-      "thumb": "https://img.youtube.com/vi/6OO57T-2wL4/mqdefault.jpg",
-      "grade": "📈"
-    },
-    {
-      "vpd": 6018,
-      "views": 180558,
+      "vpd": 6022,
+      "views": 180665,
       "views_str": "180K",
       "age_days": 30,
       "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
@@ -289,7 +343,7 @@
     },
     {
       "vpd": 5328,
-      "views": 159843,
+      "views": 159849,
       "views_str": "159K",
       "age_days": 30,
       "title": "20 New PS5 Games That Will BLOW UP the GAMING INDUSTRY in 2026",
@@ -299,8 +353,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 3909,
-      "views": 117299,
+      "vpd": 3911,
+      "views": 117336,
       "views_str": "117K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
@@ -310,9 +364,9 @@
       "grade": "📊"
     },
     {
-      "vpd": 3799,
-      "views": 113998,
-      "views_str": "113K",
+      "vpd": 3803,
+      "views": 114100,
+      "views_str": "114K",
       "age_days": 30,
       "title": "35 Best Single-Player Games Everyone Must Play",
       "channel": "gamewise",
@@ -321,8 +375,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3674,
-      "views": 110240,
+      "vpd": 3675,
+      "views": 110254,
       "views_str": "110K",
       "age_days": 30,
       "title": "TOP 10 MOBILE GAMES YOU NEED TO PLAY IN 2026...",
@@ -368,6 +422,14 @@
     {
       "emoji": "📱",
       "source": "Pocket Gamer",
+      "title": "Today's Mobile Legends: Bang Bang redeem codes (March 2026)",
+      "desc": "Updated on March 10, 2026 - Checked for new codes\n\nDo you like free in-game loot and useful freebies that don't require you to do pretty much anything to redeem them besides typing",
+      "url": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+      "date": "Tue, 10 Mar 2026 00:55:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
       "title": "All Who Wander drops its enormous item-packed v1.2.11 update for even more looting",
       "desc": "As we draw to a close for the day here at Pocket Gamer (or at least I do), there's just enough time to round up an exciting new update from All Who Wander, the turn-based roguelike",
       "url": "https://www.pocketgamer.com/all-who-wander/v1-2-11-items/",
@@ -388,14 +450,6 @@
       "desc": "Updated by Stephen Gregson-Wood on March 9, 2026\n\nNetflix isn't just a place to watch movies and TV episodes - it's also a great place for gamers to discover new forms of entertain",
       "url": "https://www.pocketgamer.com/best-games/netflix/",
       "date": "Mon, 09 Mar 2026 08:33:00 +0000"
-    },
-    {
-      "emoji": "📱",
-      "source": "Pocket Gamer",
-      "title": "Best free games to play on your iPhone, iPad or Android Phone in 2026 - Updated",
-      "desc": "Updated on March 9th, 2026.\n\nThis list compiles the best free mobile games that you can play on your iPhone, iPad or Android phone - and we've done our best to keep it right up to ",
-      "url": "https://www.pocketgamer.com/best-games/free-mobile-games/",
-      "date": "Mon, 09 Mar 2026 06:35:00 +0000"
     }
   ],
   "ideas": [
