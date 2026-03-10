@@ -356,45 +356,79 @@
     .metric-value.yellow { color: var(--yellow); }
 
     /* VIDEO CARD */
-    /* === Hype list (compact rows) === */
-    .hype-list { display:flex; flex-direction:column; gap:6px; }
-    .hype-row {
-      display:flex; align-items:center; justify-content:space-between; gap:10px;
-      padding:10px 14px; background:var(--bg2); border:1px solid var(--border);
-      border-radius:10px; transition:border-color .2s;
+    /* === Hype cards === */
+    .hype-list { display:flex; flex-direction:column; gap:8px; }
+    .hype-card {
+      background:var(--bg2); border-radius:12px; padding:12px; margin-bottom:0;
+      border:1px solid var(--border); transition:border-color .2s;
     }
-    .hype-row:hover { border-color:var(--accent); }
-    .hype-row.double { border-left:3px solid #7c3aed; }
-    .hype-row.triple { border-left:3px solid gold; background: linear-gradient(90deg, rgba(255,215,0,.06) 0%, var(--bg2) 100%); }
-    .hype-left  { display:flex; align-items:center; gap:10px; flex:1; min-width:0; }
-    .hype-grade { font-size:1.2rem; flex-shrink:0; }
-    .hype-info  { min-width:0; }
-    .hype-title { font-size:0.82rem; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .hype-meta  { font-size:0.68rem; color:var(--text-muted); margin-top:2px; }
-    .hype-right { display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex-shrink:0; }
-    .hype-nums  { display:flex; align-items:center; gap:8px; }
-    .hype-views { font-size:0.82rem; font-weight:700; color:var(--text); }
-    .hype-vpd   { font-size:0.75rem; color:var(--green); font-weight:600; }
-    .triple-badge { font-size:0.65rem; background:gold; color:#000; padding:1px 5px; border-radius:4px; font-weight:700; }
-    .double-badge { font-size:0.65rem; background:#7c3aed; color:#fff; padding:1px 5px; border-radius:4px; font-weight:700; }
-    .hype-links { display:flex; gap:5px; flex-wrap:wrap; justify-content:flex-end; }
-    .pl-link {
-      font-size:0.65rem; padding:2px 7px; border-radius:5px; text-decoration:none;
-      font-weight:600; white-space:nowrap; transition:opacity .2s;
+    .hype-card:hover { border-color:var(--accent1); }
+    .hype-card.double { border-left:3px solid #7c3aed; }
+    .hype-card.triple { border-left:3px solid gold; background: linear-gradient(90deg, rgba(255,215,0,.06) 0%, var(--bg2) 100%); }
+
+    /* Top section: thumb + title/author/views */
+    .hype-top { display:flex; gap:12px; align-items:flex-start; }
+    .hype-thumb {
+      width:80px; height:80px; border-radius:8px; object-fit:cover; flex-shrink:0;
+      background:var(--bg3);
     }
-    .pl-link:hover { opacity:.8; }
-    .pl-link.tiktok  { background:#161823; color:#fff; border:1px solid #333; }
-    .pl-link.youtube { background:#ff0000; color:#fff; }
-    .pl-link.gtrends { background:#1a73e8; color:#fff; }
+    .hype-top-info { flex:1; min-width:0; }
+    .hype-title {
+      font-size:0.85rem; font-weight:700; color:var(--text); line-height:1.3;
+      display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+      overflow:hidden; text-overflow:ellipsis;
+    }
+    .hype-author { font-size:0.7rem; color:var(--text-muted); margin-top:3px; }
+    .hype-stats {
+      display:flex; align-items:center; gap:8px; margin-top:4px;
+      font-size:0.82rem; font-weight:700;
+    }
+    .hype-views { color:var(--text); }
+    .hype-vpd { color:var(--green); font-size:0.75rem; font-weight:600; }
+
+    /* Bottom section: platform rows */
+    .hype-platforms-section {
+      margin-top:10px; padding-top:10px; border-top:1px solid var(--border);
+      display:flex; flex-direction:column; gap:6px;
+    }
+    .hype-plat-row {
+      display:flex; align-items:center; gap:8px; min-width:0;
+    }
+    .hype-plat-row .yt-thumb-small {
+      width:56px; height:32px; border-radius:4px; object-fit:cover; flex-shrink:0;
+      background:var(--bg3);
+    }
+    .hype-plat-text {
+      flex:1; min-width:0; font-size:0.75rem; color:var(--text-muted);
+      white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    }
+    .hype-plat-views { font-size:0.7rem; color:var(--text); font-weight:600; flex-shrink:0; }
+    .pl-btn {
+      display:inline-flex; align-items:center; height:24px; padding:0 8px;
+      border-radius:5px; text-decoration:none; font-size:0.65rem;
+      font-weight:600; white-space:nowrap; transition:opacity .2s; flex-shrink:0;
+    }
+    .pl-btn:hover { opacity:.8; }
+    .pl-btn.tiktok  { background:#161823; color:#fff; border:1px solid #333; }
+    .pl-btn.youtube { background:#ff0000; color:#fff; }
+    .pl-btn.gtrends { background:#1a73e8; color:#fff; }
+
+    /* Keywords */
+    .hype-keywords { display:flex; gap:4px; flex-wrap:wrap; margin-top:6px; }
+    .hype-kw {
+      font-size:0.65rem; color:var(--text-muted); background:var(--bg3);
+      padding:2px 8px; border-radius:10px; border:1px solid var(--border);
+    }
+
     .gt-pill {
       display:inline-block; padding:4px 10px; background:var(--bg3); border:1px solid var(--border);
       border-radius:16px; font-size:0.75rem; color:var(--text); text-decoration:none; transition:border-color .2s;
     }
     .gt-pill:hover { border-color:var(--accent); }
+
     @media(max-width:600px){
-      .hype-row { flex-direction:column; align-items:flex-start; gap:8px; }
-      .hype-right { align-items:flex-start; width:100%; }
-      .hype-links { justify-content:flex-start; }
+      .hype-thumb { display:none; }
+      .hype-plat-row .yt-thumb-small { display:none; }
     }
     /* === end hype === */
     .video-card {
@@ -689,32 +723,7 @@
   .tab-section { display: none; }
   .tab-section.active { display: block; }
 
-  /* HYPE VALIDATION */
-  .triple-confirmed { border: 2px solid gold !important; }
-  .triple-confirmed:hover { border-color: #ffd700 !important; }
-  .hype-platforms {
-    display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px;
-  }
-  .hype-badge {
-    font-size: 0.65rem; font-weight: 600;
-    padding: 2px 8px; border-radius: 10px;
-    display: inline-flex; align-items: center; gap: 3px;
-  }
-  .hype-badge.tiktok { background: rgba(255,0,80,0.15); color: #ff4081; border: 1px solid rgba(255,0,80,0.3); }
-  .hype-badge.youtube { background: rgba(255,0,0,0.12); color: #ff6b6b; border: 1px solid rgba(255,0,0,0.25); }
-  .hype-badge.google_trends { background: rgba(66,133,244,0.15); color: #64b5f6; border: 1px solid rgba(66,133,244,0.3); }
-  .yt-related {
-    margin-top: 6px; padding: 6px 8px;
-    background: rgba(255,255,255,0.03); border-radius: 8px;
-    font-size: 0.7rem;
-  }
-  .yt-related-title { color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
-  .yt-related a {
-    color: var(--accent3); text-decoration: none; display: block;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    line-height: 1.6;
-  }
-  .yt-related a:hover { color: #fff; }
+  /* (old hype-badge/yt-related styles removed — replaced by hype-card) */
 </style>
 </head>
 <body>
@@ -1072,67 +1081,93 @@
     const grid = document.getElementById('viral-grid');
     document.getElementById('tab-count-viral').textContent = data.length;
 
-    // Сортируем: сначала тройные, потом по vpd
+    // Сортируем: score=3 по vpd, score=2 по vpd, остальные по vpd
     const sorted = [...data].sort((a,b) => {
-      const sa = (a.hype_score||1)*10000000 + (a.vpd||0);
-      const sb = (b.hype_score||1)*10000000 + (b.vpd||0);
-      return sb - sa;
+      const sa = (a.hype_score||1);
+      const sb = (b.hype_score||1);
+      if (sa !== sb) return sb - sa;
+      return (b.vpd||0) - (a.vpd||0);
     });
 
     const videosHtml = sorted.map(v => {
       const isTriple = v.hype_score === 3;
       const isDouble = v.hype_score === 2;
-      const rowClass = isTriple ? 'hype-row triple' : isDouble ? 'hype-row double' : 'hype-row';
+      const cardClass = isTriple ? 'hype-card triple' : isDouble ? 'hype-card double' : 'hype-card';
 
       // Форматируем VPD
       const vpdStr = v.vpd >= 1000000 ? (v.vpd/1000000).toFixed(1)+'M/д'
                    : v.vpd >= 1000 ? Math.round(v.vpd/1000)+'K/д' : (v.vpd||0)+'/д';
 
-      // Ссылки на платформы
+      const thumbSrc = v.thumb || '';
+      const thumbHtml = thumbSrc
+        ? `<img class="hype-thumb" src="${thumbSrc}" loading="lazy" onerror="this.style.display='none'">`
+        : '';
+
+      // Platform rows
       const platforms = v.platforms || ['tiktok'];
-      const links = [];
+      const platRows = [];
 
-      // TikTok ссылка
+      // TikTok row
       if (platforms.includes('tiktok') || v.source === 'tiktok_fyp') {
-        links.push(`<a href="${v.url}" target="_blank" rel="noopener" class="pl-link tiktok" onclick="event.stopPropagation()">🎵 TikTok</a>`);
+        platRows.push(`<div class="hype-plat-row">
+          <span style="font-size:0.75rem">🎵</span>
+          <span class="hype-plat-text">TikTok</span>
+          <span class="hype-plat-views">${v.views_str||''}</span>
+          <a href="${v.url}" target="_blank" rel="noopener" class="pl-btn tiktok">↗</a>
+        </div>`);
       }
 
-      // YouTube ссылки (из yt_videos)
+      // YouTube rows
       const ytVids = v.yt_videos || [];
-      if (platforms.includes('youtube') && ytVids.length) {
+      if (ytVids.length) {
         ytVids.slice(0,2).forEach(y => {
-          links.push(`<a href="${y.url}" target="_blank" rel="noopener" class="pl-link youtube" onclick="event.stopPropagation()">▶ ${y.views_str||''}</a>`);
+          const ytThumb = y.thumb || '';
+          const ytThumbHtml = ytThumb
+            ? `<img class="yt-thumb-small" src="${ytThumb}" loading="lazy" onerror="this.style.display='none'">`
+            : '';
+          platRows.push(`<div class="hype-plat-row">
+            <span style="font-size:0.75rem">▶</span>
+            ${ytThumbHtml}
+            <span class="hype-plat-text">${(y.title||'').slice(0,50)}</span>
+            <span class="hype-plat-views">${y.views_str||''}</span>
+            <a href="${y.url}" target="_blank" rel="noopener" class="pl-btn youtube">↗</a>
+          </div>`);
         });
-      } else if (platforms.includes('youtube')) {
-        const q = encodeURIComponent((v.title||'').slice(0,40));
-        links.push(`<a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener" class="pl-link youtube" onclick="event.stopPropagation()">▶ YouTube</a>`);
       }
 
-      // Google Trends ссылка
-      if (platforms.includes('google_trends') || (v.gt_url)) {
-        const gtUrl = v.gt_url || `https://trends.google.com/trends/explore?q=${encodeURIComponent((v.gt_keyword||v.title||'').slice(0,40))}&geo=US`;
-        links.push(`<a href="${gtUrl}" target="_blank" rel="noopener" class="pl-link gtrends" onclick="event.stopPropagation()">🔍 Trends</a>`);
+      // Google Trends row
+      if (platforms.includes('google_trends') || v.gt_url) {
+        const gtKw = v.gt_keyword || '';
+        const gtUrl = v.gt_url || `https://trends.google.com/trends/explore?q=${encodeURIComponent(gtKw||v.title||'')}&geo=US`;
+        platRows.push(`<div class="hype-plat-row">
+          <span style="font-size:0.75rem">🔍</span>
+          <span class="hype-plat-text">Google Trends: <b>${gtKw}</b></span>
+          <a href="${gtUrl}" target="_blank" rel="noopener" class="pl-btn gtrends">↗</a>
+        </div>`);
       }
 
-      const badge = isTriple ? '<span class="triple-badge">🏆×3</span>' : isDouble ? '<span class="double-badge">×2</span>' : '';
-      const gradeIcon = v.grade || '⚡';
+      // Keywords
+      const kws = v.keywords || [];
+      const kwsHtml = kws.length
+        ? `<div class="hype-keywords">${kws.map(k => `<span class="hype-kw">${k}</span>`).join('')}</div>`
+        : '';
 
       return `
-      <div class="${rowClass}">
-        <div class="hype-left">
-          <span class="hype-grade">${gradeIcon}</span>
-          <div class="hype-info">
-            <div class="hype-title">${v.title ? v.title.slice(0,70) : '@'+v.author||'—'}</div>
-            <div class="hype-meta">${v.channel||''} · ${v.published||''}</div>
+      <div class="${cardClass}">
+        <div class="hype-top">
+          ${thumbHtml}
+          <div class="hype-top-info">
+            <div class="hype-title">${v.title || '@'+(v.author||'—')}</div>
+            <div class="hype-author">@${v.author||''} · ${v.published||''}</div>
+            <div class="hype-stats">
+              <span class="hype-views">${v.views_str||''}</span>
+              <span class="hype-vpd">${vpdStr} 📈</span>
+            </div>
           </div>
         </div>
-        <div class="hype-right">
-          <div class="hype-nums">
-            <span class="hype-views">${v.views_str}</span>
-            <span class="hype-vpd">${vpdStr}</span>
-            ${badge}
-          </div>
-          <div class="hype-links">${links.join('')}</div>
+        <div class="hype-platforms-section">
+          ${platRows.join('')}
+          ${kwsHtml}
         </div>
       </div>`;
     }).join('');
@@ -1223,6 +1258,9 @@
           v.hype_confirmed = val.hype_confirmed;
           v.platforms = val.platforms;
           v.yt_videos = val.yt_videos;
+          v.keywords = val.keywords;
+          v.gt_keyword = val.gt_keyword;
+          v.gt_url = val.gt_url;
         }
         return v;
       });
@@ -1230,6 +1268,13 @@
       const existingUrls = new Set(viralTrends.map(v => v.url));
       validated.forEach(v => {
         if (!existingUrls.has(v.url)) viralTrends.push(v);
+      });
+      // Сортируем: score=3 по vpd, score=2 по vpd, остальные по vpd
+      viralTrends.sort((a,b) => {
+        const sa = (a.hype_score||1);
+        const sb = (b.hype_score||1);
+        if (sa !== sb) return sb - sa;
+        return (b.vpd||0) - (a.vpd||0);
       });
 
       renderStats(data);
