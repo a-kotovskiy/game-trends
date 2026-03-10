@@ -291,6 +291,14 @@
     .progress-bar { background: var(--bg3); border-radius: 4px; height: 5px; }
     .progress-fill { height: 100%; border-radius: 4px; background: var(--gradient); }
 
+    .rc-reviews-chart { margin-bottom: 12px; }
+    .rc-reviews-title { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .rc-bars { display: flex; align-items: flex-end; gap: 3px; height: 48px; }
+    .rc-bar-wrap { display: flex; flex-direction: column; align-items: center; flex: 1; gap: 2px; min-width: 0; }
+    .rc-bar { width: 100%; border-radius: 3px 3px 0 0; background: var(--accent); opacity: 0.7; transition: opacity 0.2s; min-height: 2px; }
+    .rc-bar:hover { opacity: 1; }
+    .rc-bar-lbl { font-size: 0.5rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: clip; }
+
     .rc-screenshots {
       display: flex; gap: 6px; overflow-x: auto;
       overflow-y: hidden;
@@ -800,6 +808,7 @@
               <div class="rc-prog-row"><span>Скорость роста</span><span>${pct}% от топа</span></div>
               <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
             </div>
+            ${renderReviewsChart(g.reviewsByDay)}
             ${screens ? `<div class="rc-screenshots">${screens}</div>` : ''}
             <div class="rc-footer">
               <span>📅 ${g.releaseDate}${g.developer ? ' · ' + g.developer : ''}</span>
@@ -808,6 +817,26 @@
           </div>
         </div>`;
     }).join('');
+  }
+
+  function renderReviewsChart(reviewsByDay) {
+    if (!reviewsByDay || reviewsByDay.length < 2) return '';
+    const maxVal = Math.max(...reviewsByDay.map(d => d.count));
+    if (maxVal === 0) return '';
+    const bars = reviewsByDay.map(d => {
+      const pct = Math.round((d.count / maxVal) * 100);
+      const h = Math.max(2, Math.round(pct * 0.48)); // max 48px
+      const dayLabel = d.date.slice(5); // MM-DD
+      return `<div class="rc-bar-wrap" title="${d.date}: ${d.count} отзывов">
+        <div class="rc-bar" style="height:${h}px"></div>
+        <div class="rc-bar-lbl">${dayLabel}</div>
+      </div>`;
+    }).join('');
+    const total = reviewsByDay.reduce((s, d) => s + d.count, 0);
+    return `<div class="rc-reviews-chart">
+      <div class="rc-reviews-title">📝 Отзывы по дням (${total} за период)</div>
+      <div class="rc-bars">${bars}</div>
+    </div>`;
   }
 
   function toggleRocket(el) {

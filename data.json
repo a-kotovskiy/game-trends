@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10 17:45 МСК",
+  "updated": "2026-03-10 18:03 МСК",
   "rockets": [
     {
       "emoji": "🚀🔥",
@@ -20,14 +20,24 @@
       "perDay": 933970,
       "days": 13,
       "score": 4.8,
-      "ratings": 188798,
+      "ratings": 188797,
       "ratingsStr": "188K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Feb 25, 2026",
       "lastUpdated": "Mar 4, 2026",
       "summary": "Run, jump, dodge and explore Subway Surfers City on your hoverboard!",
-      "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game"
+      "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-08",
+          "count": 329
+        },
+        {
+          "date": "2026-03-09",
+          "count": 171
+        }
+      ]
     },
     {
       "emoji": "🚀🔥",
@@ -48,14 +58,28 @@
       "perDay": 722929,
       "days": 15,
       "score": 4.5,
-      "ratings": 92155,
+      "ratings": 92154,
       "ratingsStr": "92K",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Feb 23, 2026",
       "lastUpdated": "Mar 3, 2026",
       "summary": "Mark your calendar! Global launch is on February 23, 2026",
-      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter"
+      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-07",
+          "count": 177
+        },
+        {
+          "date": "2026-03-08",
+          "count": 236
+        },
+        {
+          "date": "2026-03-09",
+          "count": 87
+        }
+      ]
     },
     {
       "emoji": "🚀🔥",
@@ -76,14 +100,40 @@
       "perDay": 652250,
       "days": 26,
       "score": 3.7,
-      "ratings": 146699,
+      "ratings": 146723,
       "ratingsStr": "146K",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Feb 12, 2026",
       "lastUpdated": "Feb 26, 2026",
       "summary": "Most Realistic 3D Cricket Game with Ultra Graphics & Officially Licensed Players",
-      "url": "https://play.google.com/store/apps/details?id=in.dreamgamestudios.games.sports.dreamcricket3d"
+      "url": "https://play.google.com/store/apps/details?id=in.dreamgamestudios.games.sports.dreamcricket3d",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-04",
+          "count": 6
+        },
+        {
+          "date": "2026-03-05",
+          "count": 68
+        },
+        {
+          "date": "2026-03-06",
+          "count": 108
+        },
+        {
+          "date": "2026-03-07",
+          "count": 166
+        },
+        {
+          "date": "2026-03-08",
+          "count": 99
+        },
+        {
+          "date": "2026-03-09",
+          "count": 53
+        }
+      ]
     },
     {
       "emoji": "🚀🔥",
@@ -111,7 +161,8 @@
       "releaseDate": "Mar 7, 2026",
       "lastUpdated": "Mar 7, 2026",
       "summary": "Tap fast, punch hard and rise as the champion of epic punch battles.",
-      "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games"
+      "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
+      "reviewsByDay": []
     },
     {
       "emoji": "🚀",
@@ -139,7 +190,49 @@
       "releaseDate": "Feb 18, 2026",
       "lastUpdated": "Mar 4, 2026",
       "summary": "Battle alongside your friends in this story-driven, online action game.",
-      "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile"
+      "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-28",
+          "count": 86
+        },
+        {
+          "date": "2026-03-01",
+          "count": 61
+        },
+        {
+          "date": "2026-03-02",
+          "count": 45
+        },
+        {
+          "date": "2026-03-03",
+          "count": 37
+        },
+        {
+          "date": "2026-03-04",
+          "count": 111
+        },
+        {
+          "date": "2026-03-05",
+          "count": 58
+        },
+        {
+          "date": "2026-03-06",
+          "count": 34
+        },
+        {
+          "date": "2026-03-07",
+          "count": 35
+        },
+        {
+          "date": "2026-03-08",
+          "count": 27
+        },
+        {
+          "date": "2026-03-09",
+          "count": 6
+        }
+      ]
     },
     {
       "emoji": "🚀",
@@ -160,14 +253,32 @@
       "perDay": 89705,
       "days": 6,
       "score": 4.8,
-      "ratings": 12560,
+      "ratings": 12558,
       "ratingsStr": "12K",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 4, 2026",
       "lastUpdated": "Mar 2, 2026",
       "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
-      "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons"
+      "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-06",
+          "count": 23
+        },
+        {
+          "date": "2026-03-07",
+          "count": 228
+        },
+        {
+          "date": "2026-03-08",
+          "count": 201
+        },
+        {
+          "date": "2026-03-09",
+          "count": 48
+        }
+      ]
     },
     {
       "emoji": "🚀",
@@ -195,7 +306,25 @@
       "releaseDate": "Mar 4, 2026",
       "lastUpdated": "Mar 6, 2026",
       "summary": "Build your 4-girl Tactical team! Engage Real-Time RPG battle to reclaim the city",
-      "url": "https://play.google.com/store/apps/details?id=com.clovergames.avalonclient"
+      "url": "https://play.google.com/store/apps/details?id=com.clovergames.avalonclient",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-06",
+          "count": 182
+        },
+        {
+          "date": "2026-03-07",
+          "count": 187
+        },
+        {
+          "date": "2026-03-08",
+          "count": 97
+        },
+        {
+          "date": "2026-03-09",
+          "count": 34
+        }
+      ]
     },
     {
       "emoji": "🚀",
@@ -223,7 +352,73 @@
       "releaseDate": "Feb 27, 2026",
       "lastUpdated": "Feb 27, 2026",
       "summary": "Get ALL Pets just by checking in!",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.stonkey"
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.stonkey",
+      "reviewsByDay": [
+        {
+          "date": "2025-08-12",
+          "count": 2
+        },
+        {
+          "date": "2025-08-13",
+          "count": 1
+        },
+        {
+          "date": "2025-08-14",
+          "count": 2
+        },
+        {
+          "date": "2025-08-15",
+          "count": 1
+        },
+        {
+          "date": "2025-08-18",
+          "count": 1
+        },
+        {
+          "date": "2025-09-26",
+          "count": 1
+        },
+        {
+          "date": "2025-11-06",
+          "count": 1
+        },
+        {
+          "date": "2026-01-01",
+          "count": 1
+        },
+        {
+          "date": "2026-03-02",
+          "count": 20
+        },
+        {
+          "date": "2026-03-03",
+          "count": 26
+        },
+        {
+          "date": "2026-03-04",
+          "count": 31
+        },
+        {
+          "date": "2026-03-05",
+          "count": 15
+        },
+        {
+          "date": "2026-03-06",
+          "count": 20
+        },
+        {
+          "date": "2026-03-07",
+          "count": 19
+        },
+        {
+          "date": "2026-03-08",
+          "count": 20
+        },
+        {
+          "date": "2026-03-09",
+          "count": 6
+        }
+      ]
     },
     {
       "emoji": "🚀",
@@ -251,7 +446,17 @@
       "releaseDate": "Mar 4, 2026",
       "lastUpdated": "Mar 6, 2026",
       "summary": "Simple tile matching meets classic Mahjong, bringing pure peace of mind.",
-      "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual"
+      "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-05",
+          "count": 1
+        },
+        {
+          "date": "2026-03-08",
+          "count": 2
+        }
+      ]
     },
     {
       "emoji": "⚡",
@@ -272,20 +477,86 @@
       "perDay": 18263,
       "days": 14,
       "score": 4.4,
-      "ratings": 7755,
+      "ratings": 7757,
       "ratingsStr": "7K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Feb 24, 2026",
       "lastUpdated": "Feb 19, 2026",
       "summary": "Your choices determine the future.",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.imagineer.medarotsurvivors"
+      "url": "https://play.google.com/store/apps/details?id=jp.co.imagineer.medarotsurvivors",
+      "reviewsByDay": [
+        {
+          "date": "2026-01-03",
+          "count": 1
+        },
+        {
+          "date": "2026-01-07",
+          "count": 1
+        },
+        {
+          "date": "2026-02-04",
+          "count": 1
+        },
+        {
+          "date": "2026-02-25",
+          "count": 196
+        },
+        {
+          "date": "2026-02-26",
+          "count": 66
+        },
+        {
+          "date": "2026-02-27",
+          "count": 38
+        },
+        {
+          "date": "2026-02-28",
+          "count": 23
+        },
+        {
+          "date": "2026-03-01",
+          "count": 23
+        },
+        {
+          "date": "2026-03-02",
+          "count": 20
+        },
+        {
+          "date": "2026-03-03",
+          "count": 16
+        },
+        {
+          "date": "2026-03-04",
+          "count": 9
+        },
+        {
+          "date": "2026-03-05",
+          "count": 11
+        },
+        {
+          "date": "2026-03-06",
+          "count": 11
+        },
+        {
+          "date": "2026-03-07",
+          "count": 17
+        },
+        {
+          "date": "2026-03-08",
+          "count": 10
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1
+        }
+      ]
     }
   ],
   "videos": [
     {
-      "vpd": 40902,
-      "views": 1227078,
+      "vpd": 40909,
+      "views": 1227274,
       "views_str": "1.2M",
       "age_days": 30,
       "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
@@ -295,8 +566,8 @@
       "grade": "⚡"
     },
     {
-      "vpd": 33183,
-      "views": 995499,
+      "vpd": 33187,
+      "views": 995625,
       "views_str": "995K",
       "age_days": 30,
       "title": "Top 30 NEW Open World Games of 2026",
@@ -329,7 +600,7 @@
     },
     {
       "vpd": 16769,
-      "views": 503070,
+      "views": 503093,
       "views_str": "503K",
       "age_days": 30,
       "title": "Top 10 NEW Games of 2026 [First Half]",
@@ -339,8 +610,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 15863,
-      "views": 475900,
+      "vpd": 15864,
+      "views": 475932,
       "views_str": "475K",
       "age_days": 30,
       "title": "Why is EVERYBODY Playing This Game....",
@@ -350,8 +621,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 15131,
-      "views": 453959,
+      "vpd": 15132,
+      "views": 453978,
       "views_str": "453K",
       "age_days": 30,
       "title": "Top 10 NEW Games of February 2026",
@@ -372,8 +643,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12584,
-      "views": 377530,
+      "vpd": 12590,
+      "views": 377718,
       "views_str": "377K",
       "age_days": 30,
       "title": "Top 50 NEW PC Games of 2026",
@@ -383,8 +654,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12136,
-      "views": 364084,
+      "vpd": 12137,
+      "views": 364136,
       "views_str": "364K",
       "age_days": 30,
       "title": "Top 10 NEW Games of March 2026",
@@ -394,8 +665,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12012,
-      "views": 360364,
+      "vpd": 12013,
+      "views": 360392,
       "views_str": "360K",
       "age_days": 30,
       "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
@@ -405,19 +676,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 11172,
-      "views": 335162,
-      "views_str": "335K",
-      "age_days": 30,
-      "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
-      "channel": "Down to Top",
-      "url": "https://youtu.be/fPCrnvkMAcI",
-      "thumb": "https://img.youtube.com/vi/fPCrnvkMAcI/mqdefault.jpg",
-      "grade": "📈"
-    },
-    {
-      "vpd": 9343,
-      "views": 280308,
+      "vpd": 9346,
+      "views": 280391,
       "views_str": "280K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -427,8 +687,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 7639,
-      "views": 229197,
+      "vpd": 7641,
+      "views": 229250,
       "views_str": "229K",
       "age_days": 30,
       "title": "GAME OF COURAGE 🔥 | DID ARTEM AND KRISTINA BREAK UP?!😱 | MUSIM ATE THE HOTTEST PEPPER IN THE WORL...",
@@ -438,8 +698,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 6041,
-      "views": 181259,
+      "vpd": 6044,
+      "views": 181327,
       "views_str": "181K",
       "age_days": 30,
       "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
@@ -471,19 +731,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 3918,
-      "views": 117558,
-      "views_str": "117K",
-      "age_days": 30,
-      "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
-      "channel": "Tekkan",
-      "url": "https://youtu.be/8PGiRMXwXxs",
-      "thumb": "https://img.youtube.com/vi/8PGiRMXwXxs/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3821,
-      "views": 114644,
+      "vpd": 3824,
+      "views": 114730,
       "views_str": "114K",
       "age_days": 30,
       "title": "35 Best Single-Player Games Everyone Must Play",
@@ -501,6 +750,28 @@
       "channel": "ExxotikGaming",
       "url": "https://youtu.be/pEz42oZrLAI",
       "thumb": "https://img.youtube.com/vi/pEz42oZrLAI/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 3622,
+      "views": 108664,
+      "views_str": "108K",
+      "age_days": 30,
+      "title": "19 NEW Games That Will BLOW UP in 2026–2027!",
+      "channel": "GameRax",
+      "url": "https://youtu.be/kddbsFGX7MI",
+      "thumb": "https://img.youtube.com/vi/kddbsFGX7MI/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 3370,
+      "views": 101115,
+      "views_str": "101K",
+      "age_days": 30,
+      "title": "Top 10 BEST Mobile Games of 2026 🔥 | Upcoming Android Games",
+      "channel": "PROTECH",
+      "url": "https://youtu.be/hiGJXGTcTyA",
+      "thumb": "https://img.youtube.com/vi/hiGJXGTcTyA/mqdefault.jpg",
       "grade": "📊"
     }
   ],
