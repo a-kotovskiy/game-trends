@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🎮 Game Trends Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
       --bg: #0f0f1a;
@@ -312,13 +313,9 @@
     .progress-bar { background: var(--bg3); border-radius: 4px; height: 5px; }
     .progress-fill { height: 100%; border-radius: 4px; background: var(--gradient); }
 
-    .rc-reviews-chart { margin-bottom: 12px; }
-    .rc-reviews-title { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.05em; }
-    .rc-bars { display: flex; align-items: flex-end; gap: 3px; height: 48px; }
-    .rc-bar-wrap { display: flex; flex-direction: column; align-items: center; flex: 1; gap: 2px; min-width: 0; }
-    .rc-bar { width: 100%; border-radius: 3px 3px 0 0; background: var(--accent); opacity: 0.7; transition: opacity 0.2s; min-height: 2px; }
-    .rc-bar:hover { opacity: 1; }
-    .rc-bar-lbl { font-size: 0.5rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: clip; }
+    .rc-reviews-chart { margin-bottom: 14px; }
+    .rc-reviews-title { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .rc-chart-canvas { width: 100% !important; height: 140px !important; }
 
     .rc-screenshots {
       display: flex; gap: 6px; overflow-x: auto;
@@ -781,8 +778,9 @@
     const grid = document.getElementById('rockets-grid');
     document.getElementById('rockets-count').textContent = data.length + ' игр';
     document.getElementById('tab-count-rockets').textContent = data.length;
+    window._rocketData = data;
     const maxPerDay = Math.max(...data.map(r => r.perDay), 1);
-    grid.innerHTML = data.map((g, idx) => {
+    grid.innerHTML = data.map((g, i) => {
       const pct = Math.round((g.perDay / maxPerDay) * 100);
       const iconHtml = g.icon
         ? `<img src="${g.icon}" alt="${g.name}" loading="lazy" onerror="this.parentElement.innerHTML='${g.emoji}'">`
@@ -841,7 +839,7 @@
               <div class="rc-prog-row"><span>Скорость роста</span><span>${pct}% от топа</span></div>
               <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
             </div>
-            ${renderReviewsChart(g.reviewsByDay)}
+            ${renderReviewsChart(g.reviewsByDay, `chart-${i}`)}
             ${screens ? `<div class="rc-screenshots">${screens}</div>` : ''}
             <div class="rc-footer">
               <span>📅 ${g.releaseDate}${g.developer ? ' · ' + g.developer : ''}</span>
@@ -852,28 +850,82 @@
     }).join('');
   }
 
-  function renderReviewsChart(reviewsByDay) {
+  const chartInstances = {};
+
+  function renderReviewsChart(reviewsByDay, chartId) {
     if (!reviewsByDay || reviewsByDay.length < 2) return '';
-    const maxVal = Math.max(...reviewsByDay.map(d => d.count));
-    if (maxVal === 0) return '';
-    const bars = reviewsByDay.map(d => {
-      const pct = Math.round((d.count / maxVal) * 100);
-      const h = Math.max(2, Math.round(pct * 0.48)); // max 48px
-      const dayLabel = d.date.slice(5); // MM-DD
-      return `<div class="rc-bar-wrap" title="${d.date}: ${d.count} отзывов">
-        <div class="rc-bar" style="height:${h}px"></div>
-        <div class="rc-bar-lbl">${dayLabel}</div>
-      </div>`;
-    }).join('');
     const total = reviewsByDay.reduce((s, d) => s + d.count, 0);
     return `<div class="rc-reviews-chart">
-      <div class="rc-reviews-title">📝 Отзывы по дням (${total} за период)</div>
-      <div class="rc-bars">${bars}</div>
+      <div class="rc-reviews-title">📝 Отзывы по дням · ${total} за период</div>
+      <canvas id="${chartId}" class="rc-chart-canvas"></canvas>
     </div>`;
+  }
+
+  function initChart(chartId, reviewsByDay) {
+    if (!reviewsByDay || reviewsByDay.length < 2) return;
+    const canvas = document.getElementById(chartId);
+    if (!canvas || chartInstances[chartId]) return;
+    const labels = reviewsByDay.map(d => d.date.slice(5)); // MM-DD
+    const data = reviewsByDay.map(d => d.count);
+    chartInstances[chartId] = new Chart(canvas, {
+      type: 'bar',
+      data: {
+        labels,
+        datasets: [{
+          label: 'Отзывов',
+          data,
+          backgroundColor: 'rgba(124, 58, 237, 0.6)',
+          borderColor: 'rgba(124, 58, 237, 1)',
+          borderWidth: 1,
+          borderRadius: 4,
+          hoverBackgroundColor: 'rgba(124, 58, 237, 0.9)',
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: (items) => reviewsByDay[items[0].dataIndex].date,
+              label: (item) => `  ${item.raw} отзывов`
+            },
+            backgroundColor: '#1e1e35',
+            borderColor: 'rgba(124,58,237,0.4)',
+            borderWidth: 1,
+            titleColor: '#a78bfa',
+            bodyColor: '#e2e8f0',
+            padding: 10,
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: 'rgba(255,255,255,0.05)' },
+            ticks: { color: '#6b7280', font: { size: 10 } }
+          },
+          y: {
+            grid: { color: 'rgba(255,255,255,0.05)' },
+            ticks: { color: '#6b7280', font: { size: 10 } },
+            beginAtZero: true
+          }
+        }
+      }
+    });
   }
 
   function toggleRocket(el) {
     el.classList.toggle('open');
+    if (el.classList.contains('open')) {
+      // Инициализируем Chart.js график если ещё не создан
+      const canvas = el.querySelector('canvas[id^="chart-"]');
+      if (canvas) {
+        const chartId = canvas.id;
+        const idx = parseInt(chartId.split('-')[1]);
+        const rocket = window._rocketData && window._rocketData[idx];
+        if (rocket) initChart(chartId, rocket.reviewsByDay);
+      }
+    }
   }
 
   // RENDER VIDEOS
