@@ -647,6 +647,33 @@
   }
   .tab-section { display: none; }
   .tab-section.active { display: block; }
+
+  /* HYPE VALIDATION */
+  .triple-confirmed { border: 2px solid gold !important; }
+  .triple-confirmed:hover { border-color: #ffd700 !important; }
+  .hype-platforms {
+    display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px;
+  }
+  .hype-badge {
+    font-size: 0.65rem; font-weight: 600;
+    padding: 2px 8px; border-radius: 10px;
+    display: inline-flex; align-items: center; gap: 3px;
+  }
+  .hype-badge.tiktok { background: rgba(255,0,80,0.15); color: #ff4081; border: 1px solid rgba(255,0,80,0.3); }
+  .hype-badge.youtube { background: rgba(255,0,0,0.12); color: #ff6b6b; border: 1px solid rgba(255,0,0,0.25); }
+  .hype-badge.google_trends { background: rgba(66,133,244,0.15); color: #64b5f6; border: 1px solid rgba(66,133,244,0.3); }
+  .yt-related {
+    margin-top: 6px; padding: 6px 8px;
+    background: rgba(255,255,255,0.03); border-radius: 8px;
+    font-size: 0.7rem;
+  }
+  .yt-related-title { color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
+  .yt-related a {
+    color: var(--accent3); text-decoration: none; display: block;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    line-height: 1.6;
+  }
+  .yt-related a:hover { color: #fff; }
 </style>
 </head>
 <body>
@@ -1008,13 +1035,23 @@
     document.getElementById('tab-count-viral').textContent = data.length;
 
     const videosHtml = data.map(v => {
-      const isTT = v.source === 'tiktok';
+      const isTT = v.source === 'tiktok' || v.source === 'tiktok_fyp';
       const kindTag = isTT ? '🎵 TikTok' : (v.kind === 'Short' ? '🩳 Short' : '▶ YouTube');
       const thumb = v.thumb ? `<img class="video-thumb" src="${v.thumb}" loading="lazy" onerror="this.style.background='var(--bg3)';this.removeAttribute('src')">` : '<div class="video-thumb" style="background:var(--bg3)"></div>';
       const ratioHtml = isTT && v.ratio ? `<span class="video-stat-val" style="color:#f59e0b">${v.ratio >= 1000 ? (v.ratio/1000).toFixed(0)+'K' : v.ratio}x</span><span class="video-stat-lbl">ratio</span>` : '';
       const subsHtml = isTT && v.subs !== undefined ? `<span class="video-stat-val">${v.subs_str||'?'}</span><span class="video-stat-lbl">подп.</span>` : '';
+      const tripleClass = v.hype_score === 3 ? ' triple-confirmed' : '';
+      const platformBadges = (v.platforms || []).map(p => {
+        const labels = {tiktok: '🎵 TikTok', youtube: '▶ YouTube', google_trends: '🔍 Google Trends'};
+        return `<span class="hype-badge ${p}">${labels[p]||p}</span>`;
+      }).join('');
+      const ytRelated = (v.yt_videos || []).length ? `
+        <div class="yt-related" onclick="event.preventDefault();event.stopPropagation()">
+          <div class="yt-related-title">Также на YouTube:</div>
+          ${v.yt_videos.slice(0,2).map(y => `<a href="${y.url}" target="_blank" rel="noopener">${y.title} (${y.views_str})</a>`).join('')}
+        </div>` : '';
       return `
-        <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
+        <a class="card video-card${tripleClass}" href="${v.url}" target="_blank" rel="noopener">
           ${thumb}
           <div class="video-body">
             <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
@@ -1023,12 +1060,14 @@
             </div>
             <div class="video-title">${v.title||'—'}</div>
             <div class="video-channel">${v.channel||''}</div>
+            ${platformBadges ? `<div class="hype-platforms">${platformBadges}</div>` : ''}
             <div class="video-stats">
               <span class="video-stat-val">${v.views_str}</span>
               <span class="video-stat-lbl">просмотров</span>
               ${v.vpd ? `<span class="video-stat-val" style="color:var(--green)">${v.vpd>=1000?(v.vpd/1000).toFixed(0)+'K':v.vpd}</span><span class="video-stat-lbl">в день</span>` : ''}
               ${ratioHtml}${subsHtml}
             </div>
+            ${ytRelated}
           </div>
         </a>`;
     }).join('');
@@ -1113,10 +1152,30 @@
 
       document.getElementById('updated-date').textContent = data.updated || '—';
 
+      // Обогащаем viral_trends данными валидации
+      const validated = data.hype_validated || [];
+      const validatedMap = {};
+      validated.forEach(v => { if (v.url) validatedMap[v.url] = v; });
+      const viralTrends = (data.viral_trends || []).map(v => {
+        const val = validatedMap[v.url];
+        if (val) {
+          v.hype_score = val.hype_score;
+          v.hype_confirmed = val.hype_confirmed;
+          v.platforms = val.platforms;
+          v.yt_videos = val.yt_videos;
+        }
+        return v;
+      });
+      // Добавляем validated которых нет в viral_trends
+      const existingUrls = new Set(viralTrends.map(v => v.url));
+      validated.forEach(v => {
+        if (!existingUrls.has(v.url)) viralTrends.push(v);
+      });
+
       renderStats(data);
       renderRockets(data.rockets || []);
       renderVideos(data.videos || []);
-      renderViralTrends(data.viral_trends || [], data.google_trends || []);
+      renderViralTrends(viralTrends, data.google_trends || []);
       renderNews(data.news || []);
       renderIdeas(data.ideas || []);
 
