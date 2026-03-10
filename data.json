@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10 19:45 МСК",
+  "updated": "2026-03-10 21:58 МСК",
   "rockets": [
     {
       "emoji": "🚀🔥",
@@ -20,7 +20,7 @@
       "perDay": 937082,
       "days": 13,
       "score": 4.8,
-      "ratings": 189271,
+      "ratings": 189690,
       "ratingsStr": "189K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
@@ -31,7 +31,7 @@
       "reviewsByDay": [
         {
           "date": "2026-03-03",
-          "count": 648
+          "count": 602
         },
         {
           "date": "2026-03-04",
@@ -55,7 +55,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 222
+          "count": 268
         }
       ]
     },
@@ -78,7 +78,7 @@
       "perDay": 724929,
       "days": 15,
       "score": 4.5,
-      "ratings": 92280,
+      "ratings": 92383,
       "ratingsStr": "92K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -89,7 +89,7 @@
       "reviewsByDay": [
         {
           "date": "2026-02-27",
-          "count": 548
+          "count": 528
         },
         {
           "date": "2026-02-28",
@@ -101,7 +101,7 @@
         },
         {
           "date": "2026-03-02",
-          "count": 357
+          "count": 356
         },
         {
           "date": "2026-03-03",
@@ -121,7 +121,7 @@
         },
         {
           "date": "2026-03-07",
-          "count": 288
+          "count": 287
         },
         {
           "date": "2026-03-08",
@@ -129,7 +129,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 112
+          "count": 134
         }
       ]
     },
@@ -147,12 +147,12 @@
       "genre": "Sports",
       "developer": "Sporta Technologies Private Limited",
       "downloads": "10,000,000+",
-      "realInstalls": 16958504,
+      "realInstalls": 16979113,
       "realInstallsStr": "17.0M",
-      "perDay": 652250,
+      "perDay": 653042,
       "days": 26,
       "score": 3.7,
-      "ratings": 146743,
+      "ratings": 146765,
       "ratingsStr": "146K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -207,7 +207,7 @@
         },
         {
           "date": "2026-02-23",
-          "count": 103
+          "count": 102
         },
         {
           "date": "2026-02-24",
@@ -239,11 +239,11 @@
         },
         {
           "date": "2026-03-03",
-          "count": 91
+          "count": 90
         },
         {
           "date": "2026-03-04",
-          "count": 82
+          "count": 81
         },
         {
           "date": "2026-03-05",
@@ -251,7 +251,7 @@
         },
         {
           "date": "2026-03-06",
-          "count": 108
+          "count": 107
         },
         {
           "date": "2026-03-07",
@@ -259,11 +259,11 @@
         },
         {
           "date": "2026-03-08",
-          "count": 99
+          "count": 98
         },
         {
           "date": "2026-03-09",
-          "count": 65
+          "count": 82
         }
       ]
     },
@@ -281,9 +281,9 @@
       "genre": "Adventure",
       "developer": "Extreme Games Production",
       "downloads": "500,000+",
-      "realInstalls": 516197,
-      "realInstallsStr": "516K",
-      "perDay": 172065,
+      "realInstalls": 526035,
+      "realInstallsStr": "526K",
+      "perDay": 175345,
       "days": 3,
       "score": null,
       "ratings": 0,
@@ -310,17 +310,17 @@
       "genre": "Action",
       "developer": "Digital Extremes",
       "downloads": "1,000,000+",
-      "realInstalls": 1923698,
+      "realInstalls": 1925299,
       "realInstallsStr": "1.9M",
-      "perDay": 96184,
+      "perDay": 96264,
       "days": 20,
       "score": 4.3,
-      "ratings": 20182,
+      "ratings": 20191,
       "ratingsStr": "20K",
       "contentRating": "Mature 17+",
       "offersIAP": true,
       "releaseDate": "Feb 18, 2026",
-      "lastUpdated": "Mar 4, 2026",
+      "lastUpdated": "Mar 10, 2026",
       "summary": "Battle alongside your friends in this story-driven, online action game.",
       "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile",
       "reviewsByDay": [
@@ -334,11 +334,11 @@
         },
         {
           "date": "2026-02-20",
-          "count": 687
+          "count": 686
         },
         {
           "date": "2026-02-21",
-          "count": 329
+          "count": 328
         },
         {
           "date": "2026-02-22",
@@ -358,7 +358,7 @@
         },
         {
           "date": "2026-02-26",
-          "count": 89
+          "count": 88
         },
         {
           "date": "2026-02-27",
@@ -366,7 +366,7 @@
         },
         {
           "date": "2026-02-28",
-          "count": 86
+          "count": 85
         },
         {
           "date": "2026-03-01",
@@ -382,7 +382,7 @@
         },
         {
           "date": "2026-03-04",
-          "count": 111
+          "count": 110
         },
         {
           "date": "2026-03-05",
@@ -402,7 +402,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 7
+          "count": 10
         }
       ]
     },
@@ -420,12 +420,12 @@
       "genre": "Simulation",
       "developer": "Runaway Play",
       "downloads": "500,000+",
-      "realInstalls": 538232,
-      "realInstallsStr": "538K",
-      "perDay": 89705,
+      "realInstalls": 572654,
+      "realInstallsStr": "573K",
+      "perDay": 95442,
       "days": 6,
       "score": 4.8,
-      "ratings": 12707,
+      "ratings": 12859,
       "ratingsStr": "12K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -456,61 +456,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 59
-        }
-      ]
-    },
-    {
-      "emoji": "🚀",
-      "tag": "100K+ УСТАНОВОК",
-      "name": "HEAVENHELLS: Anime Squad RPG",
-      "icon": "https://play-lh.googleusercontent.com/wN9JX-ctnrfLys9dVUkzs4gWRBLVPMFAlvBtydnqeLdWuP9HFUQ1Mwieu4xqZ9bSoHtIr44yJMVM0vIv2h2TGdk",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/tA3qitR-ugwNsckZi-YOPk6QrG0_IpoYs5jcM2cGYpgA9NuUp5AvOvuZsXh1W1utBzSxAfPVTcIQkIKXSH1i=w300",
-        "https://play-lh.googleusercontent.com/l06WXpdiHYr6x1Bj2FbCjeM3yeMTXwqtyp89VjUTG1pab6kL8H94kXZwBSfgh09V7ox3ELCsK72P2ARYZ0roxw=w300",
-        "https://play-lh.googleusercontent.com/x9rFKM4t6jzfrCLgx6yjyc3NxFcLQ9mA0SOwtStoK1KXVAYS9Fl1Uob5ANs3yHY7wwVHI9nrLRir7pcJCeLvdw=w300",
-        "https://play-lh.googleusercontent.com/rpL_l1hNk9QWoITv11Gw5k-TsU4NgIgP0emz9jpvblZQkunrqwszzBe833FSxBW9s6d0W8G8sivapKnw-3qqYxU=w300"
-      ],
-      "genre": "Role Playing",
-      "developer": "CloverGames",
-      "downloads": "100,000+",
-      "realInstalls": 469015,
-      "realInstallsStr": "469K",
-      "perDay": 78169,
-      "days": 6,
-      "score": 4.4,
-      "ratings": 8064,
-      "ratingsStr": "8K",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Mar 4, 2026",
-      "lastUpdated": "Mar 6, 2026",
-      "summary": "Build your 4-girl Tactical team! Engage Real-Time RPG battle to reclaim the city",
-      "url": "https://play.google.com/store/apps/details?id=com.clovergames.avalonclient",
-      "reviewsByDay": [
-        {
-          "date": "2026-03-04",
-          "count": 102
-        },
-        {
-          "date": "2026-03-05",
-          "count": 239
-        },
-        {
-          "date": "2026-03-06",
-          "count": 251
-        },
-        {
-          "date": "2026-03-07",
-          "count": 187
-        },
-        {
-          "date": "2026-03-08",
-          "count": 97
-        },
-        {
-          "date": "2026-03-09",
-          "count": 39
+          "count": 76
         }
       ]
     },
@@ -528,12 +474,12 @@
       "genre": "Role Playing",
       "developer": "Netmarble",
       "downloads": "500,000+",
-      "realInstalls": 611129,
-      "realInstallsStr": "611K",
-      "perDay": 55557,
+      "realInstalls": 618389,
+      "realInstallsStr": "618K",
+      "perDay": 56217,
       "days": 11,
-      "score": 4.6,
-      "ratings": 26088,
+      "score": 4.5,
+      "ratings": 26162,
       "ratingsStr": "26K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -594,9 +540,9 @@
       "realInstallsStr": "212K",
       "perDay": 35265,
       "days": 6,
-      "score": 4.7,
-      "ratings": 34,
-      "ratingsStr": "34",
+      "score": 4.8,
+      "ratings": 35,
+      "ratingsStr": "35",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Mar 4, 2026",
@@ -611,6 +557,10 @@
         {
           "date": "2026-03-08",
           "count": 2
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1
         }
       ]
     },
@@ -633,7 +583,7 @@
       "perDay": 18263,
       "days": 14,
       "score": 4.4,
-      "ratings": 7764,
+      "ratings": 7768,
       "ratingsStr": "7K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
@@ -695,13 +645,114 @@
           "count": 2
         }
       ]
+    },
+    {
+      "emoji": "⚡",
+      "tag": "100K+ УСТАНОВОК",
+      "name": "ABYSSDIA",
+      "icon": "https://play-lh.googleusercontent.com/uoDMR6qv0dkOTa6daGuX7ATtEHPbzGA8h9O0i4Lw0GAfnrx5kiZeV4Pamp8MifQcHyWrSBpyZ-usqNpvIejmbw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/bwrfBNEQrURytRfxCJ5KW5kLe0PIgje79ugfQHC0WTm3mVawDWVDTN66owwooHJtR-dr2AstQMYWlxR_mjtaIg=w300",
+        "https://play-lh.googleusercontent.com/bDp2WDAmNjtDvv24n8hUvqLR5njfPxdF8UtXZ7KGJfnfq2pCmw-Xg8fS9aCHdimUlwwF4eUMLDbsjBRGxgrYFw=w300",
+        "https://play-lh.googleusercontent.com/a4F-L5ClSbMNOXDWTQ-4rw-mlK8MKiq_TDKFCqAkxaZWn30jnyPVgulSWabf_xwym5oONVbxbFkOUbR2O7g8VnE=w300",
+        "https://play-lh.googleusercontent.com/PYviOGd-ncDoIZ006VEumwPyL6a0_12jZ8zWC8YBRAxfbyKsIMzUALHdiGMzcy48n3e54FL85_i1LNGXlZmC3w=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "NHN Corp.",
+      "downloads": "100,000+",
+      "realInstalls": 302611,
+      "realInstallsStr": "303K",
+      "perDay": 11638,
+      "days": 26,
+      "score": 4.7,
+      "ratings": 7493,
+      "ratingsStr": "7K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Feb 12, 2026",
+      "lastUpdated": null,
+      "summary": "The Chain Action RPG",
+      "url": "https://play.google.com/store/apps/details?id=com.nhn.abyssdia",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-19",
+          "count": 1
+        },
+        {
+          "date": "2026-02-24",
+          "count": 15
+        },
+        {
+          "date": "2026-02-25",
+          "count": 33
+        },
+        {
+          "date": "2026-02-26",
+          "count": 24
+        },
+        {
+          "date": "2026-02-27",
+          "count": 13
+        },
+        {
+          "date": "2026-02-28",
+          "count": 7
+        },
+        {
+          "date": "2026-03-01",
+          "count": 10
+        },
+        {
+          "date": "2026-03-02",
+          "count": 8
+        },
+        {
+          "date": "2026-03-03",
+          "count": 5
+        },
+        {
+          "date": "2026-03-04",
+          "count": 6
+        },
+        {
+          "date": "2026-03-05",
+          "count": 6
+        },
+        {
+          "date": "2026-03-06",
+          "count": 3
+        },
+        {
+          "date": "2026-03-07",
+          "count": 10
+        },
+        {
+          "date": "2026-03-08",
+          "count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "count": 3
+        }
+      ]
     }
   ],
   "videos": [
     {
-      "vpd": 9357,
-      "views": 280710,
-      "views_str": "280K",
+      "vpd": 47394,
+      "views": 568733,
+      "views_str": "568K",
+      "age_days": 12,
+      "title": "Subway Surfers City | Official Gameplay Trailer",
+      "channel": "Subway Surfers",
+      "url": "https://youtu.be/oQpRzQgBWpc",
+      "thumb": "https://img.youtube.com/vi/oQpRzQgBWpc/mqdefault.jpg",
+      "grade": "⚡"
+    },
+    {
+      "vpd": 9367,
+      "views": 281013,
+      "views_str": "281K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
       "channel": "Tekkan",
@@ -710,8 +761,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 6560,
-      "views": 78721,
+      "vpd": 6576,
+      "views": 78921,
       "views_str": "78K",
       "age_days": 12,
       "title": "Subway Surfers City - Gameplay Walkthrough Part 1 - New Subway Surfers Game Tutorial (iOS, Android)",
@@ -721,9 +772,9 @@
       "grade": "📈"
     },
     {
-      "vpd": 6056,
-      "views": 181705,
-      "views_str": "181K",
+      "vpd": 6070,
+      "views": 182101,
+      "views_str": "182K",
       "age_days": 30,
       "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
       "channel": "Tekkan",
@@ -732,8 +783,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 6044,
-      "views": 181326,
+      "vpd": 6048,
+      "views": 181465,
       "views_str": "181K",
       "age_days": 30,
       "title": "Subway Surfers City - Gameplay Walkthrough Part 1 (Android/iOS)",
@@ -744,7 +795,7 @@
     },
     {
       "vpd": 5659,
-      "views": 509321,
+      "views": 509322,
       "views_str": "509K",
       "age_days": 90,
       "title": "The WORST Episode of One Punch Man Ever",
@@ -754,8 +805,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 5591,
-      "views": 335469,
+      "vpd": 5596,
+      "views": 335803,
       "views_str": "335K",
       "age_days": 60,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
@@ -765,9 +816,9 @@
       "grade": "📈"
     },
     {
-      "vpd": 4875,
-      "views": 48751,
-      "views_str": "48K",
+      "vpd": 4901,
+      "views": 49011,
+      "views_str": "49K",
       "age_days": 10,
       "title": "Top 15 INSANE Open World Games for Android & iOS 2026 (Offline/Online)",
       "channel": "Down to Top",
@@ -776,9 +827,9 @@
       "grade": "📊"
     },
     {
-      "vpd": 4617,
-      "views": 13852,
-      "views_str": "13K",
+      "vpd": 4681,
+      "views": 14045,
+      "views_str": "14K",
       "age_days": 3,
       "title": "HEAVENHELLS is a mobile RPG game where you assemble a team of 4 incredibly attractive high school...",
       "channel": "Shorty Bluejova",
@@ -788,7 +839,7 @@
     },
     {
       "vpd": 4557,
-      "views": 136714,
+      "views": 136738,
       "views_str": "136K",
       "age_days": 30,
       "title": "ТОП 10 игр, что НАДО ЖДАТЬ в 2026 году",
@@ -798,8 +849,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3924,
-      "views": 117723,
+      "vpd": 3929,
+      "views": 117897,
       "views_str": "117K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
@@ -809,8 +860,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3631,
-      "views": 50836,
+      "vpd": 3635,
+      "views": 50897,
       "views_str": "50K",
       "age_days": 14,
       "title": "Top 10 Best NEW Mobile Games of February 2026 | Android & iOS (Offline/Online)",
@@ -820,19 +871,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3378,
-      "views": 33783,
-      "views_str": "33K",
-      "age_days": 10,
-      "title": "Subway Surfers City - Gameplay Walkthrough Part 1 - Tutorial (iOS, Android)",
-      "channel": "TapGameplay",
-      "url": "https://youtu.be/uWRshH6qN18",
-      "thumb": "https://img.youtube.com/vi/uWRshH6qN18/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3256,
-      "views": 29310,
+      "vpd": 3268,
+      "views": 29415,
       "views_str": "29K",
       "age_days": 9,
       "title": "Top 10 Best New Mobile Games of March 2026 | Android & iOS",
@@ -842,19 +882,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 3203,
-      "views": 32032,
-      "views_str": "32K",
-      "age_days": 10,
-      "title": "The Complete Beginners Guide to Rainbow Six Mobile!",
-      "channel": "Noah Sunday - Mobile",
-      "url": "https://youtu.be/xcjsm-Pt5vs",
-      "thumb": "https://img.youtube.com/vi/xcjsm-Pt5vs/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3171,
-      "views": 12685,
+      "vpd": 3198,
+      "views": 12795,
       "views_str": "12K",
       "age_days": 4,
       "title": "How I Carry Games with INSANE Clutches in Rainbow Six Mobile!",
@@ -864,8 +893,30 @@
       "grade": "📊"
     },
     {
-      "vpd": 2645,
-      "views": 476242,
+      "vpd": 3077,
+      "views": 33849,
+      "views_str": "33K",
+      "age_days": 11,
+      "title": "Subway Surfers City - Gameplay Walkthrough Part 1 - Tutorial (iOS, Android)",
+      "channel": "TapGameplay",
+      "url": "https://youtu.be/uWRshH6qN18",
+      "thumb": "https://img.youtube.com/vi/uWRshH6qN18/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 2653,
+      "views": 29183,
+      "views_str": "29K",
+      "age_days": 11,
+      "title": "Subway Surfers Games: Subway Surfers City (2026),Subway Surfers+ (2025),Match,Blast,Tag,BRIM",
+      "channel": "AndromalicPlay1337",
+      "url": "https://youtu.be/AAUHlfv4aVY",
+      "thumb": "https://img.youtube.com/vi/AAUHlfv4aVY/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 2646,
+      "views": 476312,
       "views_str": "476K",
       "age_days": 180,
       "title": "I Played 1000 Hours Of Warframe!",
@@ -875,30 +926,8 @@
       "grade": "📊"
     },
     {
-      "vpd": 2586,
-      "views": 33621,
-      "views_str": "33K",
-      "age_days": 13,
-      "title": "Rainbow Six Mobile - Gameplay Walkthrough Part 1 - Tutorial (iOS, Android)",
-      "channel": "TapGameplay",
-      "url": "https://youtu.be/tlKvmh7oiH4",
-      "thumb": "https://img.youtube.com/vi/tlKvmh7oiH4/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 2559,
-      "views": 2559,
-      "views_str": "2K",
-      "age_days": 1,
-      "title": "Is Lucy Worth Buying? (Subway Pass Review) Subway Surfers City",
-      "channel": "StillAliveGG",
-      "url": "https://youtu.be/a42VqiXvmwg",
-      "thumb": "https://img.youtube.com/vi/a42VqiXvmwg/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 2539,
-      "views": 25392,
+      "vpd": 2562,
+      "views": 25627,
       "views_str": "25K",
       "age_days": 10,
       "title": "ТОП 20 ЛУЧШИХ ИГР ДЛЯ ANDROID и iOS 2026 (Оффлайн/Онлайн)",
@@ -908,18 +937,45 @@
       "grade": "📊"
     },
     {
-      "vpd": 2399,
-      "views": 26393,
-      "views_str": "26K",
-      "age_days": 11,
-      "title": "Subway Surfers City - Gameplay 152 - Yutani New High Score (21,603,030)",
+      "vpd": 2408,
+      "views": 33713,
+      "views_str": "33K",
+      "age_days": 14,
+      "title": "Rainbow Six Mobile - Gameplay Walkthrough Part 1 - Tutorial (iOS, Android)",
+      "channel": "TapGameplay",
+      "url": "https://youtu.be/tlKvmh7oiH4",
+      "thumb": "https://img.youtube.com/vi/tlKvmh7oiH4/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 2192,
+      "views": 17542,
+      "views_str": "17K",
+      "age_days": 8,
+      "title": "Subway Surfers City - Gameplay 153 - Miss Maia New High Score (25,442,620)",
       "channel": "Mr. Subway Man",
-      "url": "https://youtu.be/LpHZFoOIlbw",
-      "thumb": "https://img.youtube.com/vi/LpHZFoOIlbw/mqdefault.jpg",
+      "url": "https://youtu.be/inpMUrzRiuE",
+      "thumb": "https://img.youtube.com/vi/inpMUrzRiuE/mqdefault.jpg",
       "grade": "📊"
     }
   ],
   "news": [
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Phobies brings in eight new terrifying additions to its roster to celebrate four years since launch",
+      "desc": "There've been some wacky concepts for strategy battlers on mobile (and many other platforms), but one that continues to stand out is Phobies. Smoking Gun Interactive is celebrating",
+      "url": "https://www.pocketgamer.com/phobies/fourth-anniversary-and-new-roster-additions-2026/",
+      "date": "Tue, 10 Mar 2026 18:10:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Subnautica: Below Zero breaks the ice for more exciting aquatic alien adventures on mobile",
+      "desc": "In the survival-crafting adventure world, Subnautica is one of, if not perhaps the only, most well-known entries in the alien aquatic subgenre. Now, if you're hungry for more of th",
+      "url": "https://www.pocketgamer.com/subnautica-below-zero/out-now-on-ios-and-android/",
+      "date": "Tue, 10 Mar 2026 17:23:00 +0000"
+    },
     {
       "emoji": "📱",
       "source": "Pocket Gamer",
@@ -967,22 +1023,6 @@
       "desc": "It's all about pushing your horror tolerance to the limit in this week's Ahead of the Game series, where we tell you all about a new mobile endeavour that's playable in one form or",
       "url": "https://www.pocketgamer.com/ahead-of-the-game/among-the-sleep/",
       "date": "Tue, 10 Mar 2026 06:05:00 +0000"
-    },
-    {
-      "emoji": "📱",
-      "source": "Pocket Gamer",
-      "title": "Three Kingdoms: Grand Strategy launches on iOS and Android with generals, diplomacy, and empire buil",
-      "desc": "If there’s one historical setting developers refuse to let rest, it’s the Three Kingdoms era. Every few months brings another interpretation of Cao Cao, Liu Bei, and the endless cy",
-      "url": "https://www.pocketgamer.com/three-kingdoms-grand-strategy/official-launch-android-ios/",
-      "date": "Tue, 10 Mar 2026 05:00:00 +0000"
-    },
-    {
-      "emoji": "📱",
-      "source": "Pocket Gamer",
-      "title": "Today's Mobile Legends: Bang Bang redeem codes (March 2026)",
-      "desc": "Updated on March 10, 2026 - Checked for new codes\n\nDo you like free in-game loot and useful freebies that don't require you to do pretty much anything to redeem them besides typing",
-      "url": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
-      "date": "Tue, 10 Mar 2026 00:55:00 +0000"
     }
   ],
   "ideas": [
@@ -1039,170 +1079,374 @@
   ],
   "viral_trends": [
     {
-      "source": "youtube",
-      "kind": "Video",
-      "title": "The Super Mario Galaxy Movie – Final Trailer",
-      "channel": "Nintendo of America",
-      "views": 1284369,
-      "views_str": "1.3M",
-      "age_days": 1,
-      "vpd": 1284369,
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "HEUTE kommt dieses Gehypte Koop Game für Konsole und PC raus 🤯 hier ist alles was du wissen musst! #roadsidereserch #si",
+      "channel": "@iamdunkz · 0 подп.",
+      "author": "iamdunkz",
+      "views": 1100000,
+      "views_str": "1.1M",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 26,
+      "vpd": 42307,
+      "vpd_str": "42K",
+      "ratio": 1100000.0,
+      "likes": 53100,
+      "shares": 32600,
+      "comments": 1153,
+      "music": "Originalton",
       "grade": "🔥",
-      "url": "https://youtu.be/LX9kXRRJlPw",
-      "thumb": "https://img.youtube.com/vi/LX9kXRRJlPw/mqdefault.jpg",
-      "published": "19 hours ago"
+      "url": "https://www.tiktok.com/@iamdunkz/video/7605945322052881686",
+      "thumb": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0PCtI5RN00AERSvOgijAixCICwBJweyXIPG1i~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/oQ3TFNAAEevF1CvAMAgEGQHAj33wDLAfIf5I4I.image?dr=10393&x-expires=1773338400&x-signature=58vTVD0lTuRz2JN4mhJlWQy04k0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "26д назад"
     },
     {
-      "source": "youtube",
-      "kind": "Video",
-      "title": "The Super Mario Galaxy Movie | Final Trailer",
-      "channel": "Illumination and Universal Pictures",
-      "views": 435399,
-      "views_str": "435K",
-      "age_days": 1,
-      "vpd": 435399,
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "Sperma Simulator 🤯 Dieses NEUE Game lässt dich als Spermie gegen Millionen andere antreten 🤯 #simulatorgames #newgame ",
+      "channel": "@iamdunkz · 0 подп.",
+      "author": "iamdunkz",
+      "views": 488400,
+      "views_str": "488K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 14,
+      "vpd": 34885,
+      "vpd_str": "35K",
+      "ratio": 488400.0,
+      "likes": 19300,
+      "shares": 30900,
+      "comments": 537,
+      "music": "Originalton",
+      "grade": "🔥",
+      "url": "https://www.tiktok.com/@iamdunkz/video/7610341754738347266",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oEGIElG8EFAX0nBgIRmDkotaVvXuzepduF0fBY~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/okus3FkEEQEIgqnwV6f2iAHARAjfpDkCFAwwCU.image?dr=10393&x-expires=1773338400&x-signature=ySpGM%2FqEnzRaVVbFZZn%2BMq3y5y0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "14д назад"
+    },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "9 Insane Mobile Games YOU NEED to Play #gaming #foryou #gamesrecommendation #topgames ",
+      "channel": "@d_wayne111 · 0 подп.",
+      "author": "d_wayne111",
+      "views": 467000,
+      "views_str": "467K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 22,
+      "vpd": 21227,
+      "vpd_str": "21K",
+      "ratio": 467000.0,
+      "likes": 20200,
+      "shares": 1113,
+      "comments": 483,
+      "music": "original sound",
+      "grade": "🔥",
+      "url": "https://www.tiktok.com/@d_wayne111/video/7607374566083661076",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/ocuCIziokhqSmLxSACBAIly4I70w0AiCjWidfc~tplv-tiktokx-origin.image?dr=10395&x-expires=1773338400&x-signature=Ujb7RDBWsIsK%2FqGrOxRSGEzgST8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "22д назад"
+    },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "Das PERFEKTE Spiel für dich und deine FREUNDE! 🔥🤯 🎮 Totally Secure Airport 📅 KOSTENLOSER Playtest #gaming #newgame #",
+      "channel": "@mythixgamingofficial · 0 подп.",
+      "author": "mythixgamingofficial",
+      "views": 378000,
+      "views_str": "378K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 27,
+      "vpd": 14000,
+      "vpd_str": "14K",
+      "ratio": 378000.0,
+      "likes": 30900,
+      "shares": 21800,
+      "comments": 456,
+      "music": "Originalton",
+      "grade": "🚀🔥",
+      "url": "https://www.tiktok.com/@mythixgamingofficial/video/7605622955883728150",
+      "thumb": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogkAN09fuMk0iCA4IydhImjBwiiCyMFqNNxmIi~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/okajgGIEGAXK0ZI5IDOdMvAIGeAfLLAe4FATTQ.image?dr=10393&x-expires=1773338400&x-signature=fw3VmfOjp9xjshlXu%2BF8APslNA4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "27д назад"
+    },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "🎮 Ballad of Antara A dark‑fantasy action RPG where you explore a world shattered by a mysterious plague and seek divine",
+      "channel": "@imranakram407 · 0 подп.",
+      "author": "imranakram407",
+      "views": 123500,
+      "views_str": "124K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 9,
+      "vpd": 13722,
+      "vpd_str": "14K",
+      "ratio": 123500.0,
+      "likes": 2105,
+      "shares": 393,
+      "comments": 50,
+      "music": "original sound",
+      "grade": "🚀🔥",
+      "url": "https://www.tiktok.com/@imranakram407/video/7612264893172944130",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIqkRpBkpixEEMBXFAIG9zHfUeFg6FIDQQkBHD~tplv-tiktokx-origin.image?dr=10395&x-expires=1773338400&x-signature=RO2nquP99lSBYIQ9VlzyKgE9s6w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "9д назад"
+    },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "Einmal eine Frau sein 🤯 dieses NEUE Simualtor Game kommt in kürze raus ✅  Woman Simulator auf Steam #simulatorgames #ne",
+      "channel": "@iamdunkz · 0 подп.",
+      "author": "iamdunkz",
+      "views": 114600,
+      "views_str": "115K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 13,
+      "vpd": 8815,
+      "vpd_str": "9K",
+      "ratio": 114600.0,
+      "likes": 7030,
+      "shares": 7199,
+      "comments": 187,
+      "music": "Originalton",
       "grade": "🚀",
-      "url": "https://youtu.be/En5QZmL5R1s",
-      "thumb": "https://img.youtube.com/vi/En5QZmL5R1s/mqdefault.jpg",
-      "published": "19 hours ago"
+      "url": "https://www.tiktok.com/@iamdunkz/video/7610868761071078678",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAzpBfp5E8NFvUPAAg5QnAHhRuBvDFDmEfrQ5k~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/ownA2CEzNLDARggRzGA0FSfFflkAEpQEPEIUPh.image?dr=10393&x-expires=1773338400&x-signature=Juf9nkRQ9H%2BtYL7Ir42UR4bi%2FQo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "13д назад"
     },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "awee this is so cute #nevernesstoeverness #nte #newgame #gameplay #NTE #NTEbeta #NTEcreator #animerpg #animegame #openwo",
+      "channel": "@yuwrzeh · 0 подп.",
+      "author": "yuwrzeh",
+      "views": 158300,
+      "views_str": "158K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 21,
+      "vpd": 7538,
+      "vpd_str": "8K",
+      "ratio": 158300.0,
+      "likes": 24100,
+      "shares": 2482,
+      "comments": 118,
+      "music": "Stateside + Zara Larsson",
+      "grade": "🚀",
+      "url": "https://www.tiktok.com/@yuwrzeh/video/7607651396673916182",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oIgPgLLFrOAJAeGTQLJQereog2OEnIvAIm51Dm~tplv-tiktokx-origin.image?dr=10395&x-expires=1773338400&x-signature=G%2Feok1%2F4s161XxOD5ZCN2ZNOcvU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "21д назад"
+    },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "Dieses NEUE Piraten Survival Game macht etwas, was kein anderes Spiel macht 🤯 #windrose #newgame #gaming #gamingnews #s",
+      "channel": "@iamdunkz · 0 подп.",
+      "author": "iamdunkz",
+      "views": 68900,
+      "views_str": "69K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 12,
+      "vpd": 5741,
+      "vpd_str": "6K",
+      "ratio": 68900.0,
+      "likes": 1933,
+      "shares": 570,
+      "comments": 47,
+      "music": "Originalton",
+      "grade": "🚀",
+      "url": "https://www.tiktok.com/@iamdunkz/video/7611206677005733142",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oA8v4btQgGWWeCGQGQA88pAfMffAFmH7MRGAQV~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/oECAbB0yIEEdGPw8IYaiBgBpCgijBAa1KAcAw.image?dr=10393&x-expires=1773338400&x-signature=9qY%2Bwe6pNkJENjKVXVl3BzknrxI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "12д назад"
+    },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "What the heck is this game bro. It’s the game Become and it’s coming out this year!  #becomegame #indiegames #newgames #",
+      "channel": "@christiantg92 · 0 подп.",
+      "author": "christiantg92",
+      "views": 90100,
+      "views_str": "90K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 18,
+      "vpd": 5005,
+      "vpd_str": "5K",
+      "ratio": 90100.0,
+      "likes": 3056,
+      "shares": 4862,
+      "comments": 120,
+      "music": "original sound",
+      "grade": "🚀",
+      "url": "https://www.tiktok.com/@christiantg92/video/7608826114290601246",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oMkwI5vEjqrf9r8seADfYQXLQA3ToxDZ9SzIFC~tplv-tiktokx-origin.image?dr=10395&x-expires=1773338400&x-signature=IVAaYBhkY%2B0edKpU6cm2Z5FIjKQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "18д назад"
+    },
+    {
+      "source": "tiktok",
+      "kind": "TikTok",
+      "title": "Finally tried this and here’s the vibe — College Brawl Game 🎮 Would you give this a shot? #foryou #newgame #gamingcommu",
+      "channel": "@george85660 · 0 подп.",
+      "author": "george85660",
+      "views": 56900,
+      "views_str": "57K",
+      "subs": 0,
+      "subs_str": "0",
+      "age_days": 18,
+      "vpd": 3161,
+      "vpd_str": "3K",
+      "ratio": 56900.0,
+      "likes": 248,
+      "shares": 38,
+      "comments": 9,
+      "music": "original sound",
+      "grade": "⚡",
+      "url": "https://www.tiktok.com/@george85660/video/7609005261314936078",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-85c255-tx/owWpmBD1EDBEJyfNfwEgITUFsJYk0tz4iSBBSn~tplv-tiktokx-origin.image?dr=10395&x-expires=1773338400&x-signature=xb315Gvt%2BImd6P0n0rC9FpfGYI4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "18д назад"
+    }
+  ],
+  "google_trends": [
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "baylor basketball",
+      "title": "jaquan brisker",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=baylor+basketball",
+      "url": "https://trends.google.com/trends/explore?q=jaquan+brisker",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "kalif raymond",
+      "title": "illinois lottery",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=kalif+raymond",
+      "url": "https://trends.google.com/trends/explore?q=illinois+lottery",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "toronto",
+      "title": "karoline leavitt",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=toronto",
+      "url": "https://trends.google.com/trends/explore?q=karoline+leavitt",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "brad marchand",
+      "title": "arthur fils",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=brad+marchand",
+      "url": "https://trends.google.com/trends/explore?q=arthur+fils",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "caleb holt",
+      "title": "ucl",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=caleb+holt",
+      "url": "https://trends.google.com/trends/explore?q=ucl",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "hunter greene",
+      "title": "naomi osaka",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=hunter+greene",
+      "url": "https://trends.google.com/trends/explore?q=naomi+osaka",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "dawson knox",
+      "title": "doubs",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=dawson+knox",
+      "url": "https://trends.google.com/trends/explore?q=doubs",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "barcelona vs newcastle",
+      "title": "justin fields",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=barcelona+vs+newcastle",
+      "url": "https://trends.google.com/trends/explore?q=justin+fields",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "sheryl underwood",
+      "title": "winter storm warning",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=sheryl+underwood",
+      "url": "https://trends.google.com/trends/explore?q=winter+storm+warning",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "moltbook",
+      "title": "newcastle vs barcelona",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=moltbook",
+      "url": "https://trends.google.com/trends/explore?q=newcastle+vs+barcelona",
       "thumb": "",
       "published": "сейчас"
     }

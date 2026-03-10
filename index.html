@@ -1000,48 +1000,48 @@
   }
 
   // RENDER IDEAS
-  function renderViralTrends(data) {
+  function renderViralTrends(data, googleTrends) {
     const grid = document.getElementById('viral-grid');
-    const count = data.filter(d => d.source !== 'google_trends').length;
-    const trendsCount = data.filter(d => d.source === 'google_trends').length;
-    document.getElementById('viral-count').textContent = count + ' видео · ' + trendsCount + ' трендов';
+    const ttCount = data.filter(d => d.source === 'tiktok').length;
+    const ytCount = data.filter(d => d.source === 'youtube').length;
+    document.getElementById('viral-count').textContent = `TikTok ${ttCount} · YouTube ${ytCount}`;
     document.getElementById('tab-count-viral').textContent = data.length;
 
-    const videos = data.filter(d => d.source !== 'google_trends');
-    const trends = data.filter(d => d.source === 'google_trends');
-
-    const videosHtml = videos.map(v => {
-      const kindTag = v.kind === 'Short' ? '🩳 Short' : '▶ Video';
-      const thumb = v.thumb ? `<img class="video-thumb" src="${v.thumb}" loading="lazy" onerror="this.style.display='none'">` : '';
+    const videosHtml = data.map(v => {
+      const isTT = v.source === 'tiktok';
+      const kindTag = isTT ? '🎵 TikTok' : (v.kind === 'Short' ? '🩳 Short' : '▶ YouTube');
+      const thumb = v.thumb ? `<img class="video-thumb" src="${v.thumb}" loading="lazy" onerror="this.style.background='var(--bg3)';this.removeAttribute('src')">` : '<div class="video-thumb" style="background:var(--bg3)"></div>';
+      const ratioHtml = isTT && v.ratio ? `<span class="video-stat-val" style="color:#f59e0b">${v.ratio >= 1000 ? (v.ratio/1000).toFixed(0)+'K' : v.ratio}x</span><span class="video-stat-lbl">ratio</span>` : '';
+      const subsHtml = isTT && v.subs !== undefined ? `<span class="video-stat-val">${v.subs_str||'?'}</span><span class="video-stat-lbl">подп.</span>` : '';
       return `
         <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
           ${thumb}
           <div class="video-body">
-            <div style="display:flex;gap:6px;align-items:center">
+            <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
               <span class="card-tag">${v.grade} ${kindTag}</span>
-              <span style="font-size:0.65rem;color:var(--text-muted)">${v.published || ''}</span>
+              <span style="font-size:0.65rem;color:var(--text-muted)">${v.published||''}</span>
             </div>
-            <div class="video-title">${v.title}</div>
-            <div class="video-channel">${v.channel}</div>
+            <div class="video-title">${v.title||'—'}</div>
+            <div class="video-channel">${v.channel||''}</div>
             <div class="video-stats">
               <span class="video-stat-val">${v.views_str}</span>
               <span class="video-stat-lbl">просмотров</span>
-              ${v.vpd ? `<span class="video-stat-val" style="color:var(--green)">${(v.vpd/1000).toFixed(0)}K</span><span class="video-stat-lbl">в день</span>` : ''}
+              ${v.vpd ? `<span class="video-stat-val" style="color:var(--green)">${v.vpd>=1000?(v.vpd/1000).toFixed(0)+'K':v.vpd}</span><span class="video-stat-lbl">в день</span>` : ''}
+              ${ratioHtml}${subsHtml}
             </div>
           </div>
         </a>`;
     }).join('');
 
-    const trendsHtml = trends.length ? `
+    const trendsHtml = (googleTrends||[]).length ? `
       <div style="margin-top:20px">
-        <div class="section-subtitle" style="margin-bottom:12px">🔍 Google Trends прямо сейчас (США)</div>
+        <div class="section-subtitle" style="margin-bottom:12px">🔍 Google Trends сейчас (США)</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
-          ${trends.map(t => `
+          ${(googleTrends||[]).map(t => `
             <a href="${t.url}" target="_blank" rel="noopener"
                style="display:inline-block;padding:6px 14px;background:var(--bg3);border:1px solid var(--border);
-                      border-radius:20px;font-size:0.8rem;color:var(--text);text-decoration:none;
-                      transition:border-color 0.2s" onmouseover="this.style.borderColor='var(--accent)'"
-               onmouseout="this.style.borderColor='var(--border)'">
+                      border-radius:20px;font-size:0.8rem;color:var(--text);text-decoration:none;transition:border-color 0.2s"
+               onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
               🔥 ${t.title}
             </a>`).join('')}
         </div>
@@ -1116,7 +1116,7 @@
       renderStats(data);
       renderRockets(data.rockets || []);
       renderVideos(data.videos || []);
-      renderViralTrends(data.viral_trends || []);
+      renderViralTrends(data.viral_trends || [], data.google_trends || []);
       renderNews(data.news || []);
       renderIdeas(data.ideas || []);
 
