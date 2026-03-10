@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10 19:01 МСК",
+  "updated": "2026-03-10 19:09 МСК",
   "rockets": [
     {
       "emoji": "🚀🔥",
@@ -20,7 +20,7 @@
       "perDay": 933970,
       "days": 13,
       "score": 4.8,
-      "ratings": 189037,
+      "ratings": 189271,
       "ratingsStr": "189K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
@@ -30,8 +30,24 @@
       "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
       "reviewsByDay": [
         {
+          "date": "2026-03-03",
+          "count": 664
+        },
+        {
+          "date": "2026-03-04",
+          "count": 730
+        },
+        {
+          "date": "2026-03-05",
+          "count": 655
+        },
+        {
+          "date": "2026-03-06",
+          "count": 623
+        },
+        {
           "date": "2026-03-07",
-          "count": 292
+          "count": 615
         },
         {
           "date": "2026-03-08",
@@ -39,7 +55,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 201
+          "count": 206
         }
       ]
     },
@@ -62,7 +78,7 @@
       "perDay": 724929,
       "days": 15,
       "score": 4.5,
-      "ratings": 92207,
+      "ratings": 92280,
       "ratingsStr": "92K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -72,8 +88,32 @@
       "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
       "reviewsByDay": [
         {
+          "date": "2026-02-27",
+          "count": 560
+        },
+        {
+          "date": "2026-02-28",
+          "count": 556
+        },
+        {
+          "date": "2026-03-01",
+          "count": 417
+        },
+        {
+          "date": "2026-03-02",
+          "count": 357
+        },
+        {
+          "date": "2026-03-03",
+          "count": 327
+        },
+        {
+          "date": "2026-03-04",
+          "count": 252
+        },
+        {
           "date": "2026-03-05",
-          "count": 12
+          "count": 542
         },
         {
           "date": "2026-03-06",
@@ -89,7 +129,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 100
+          "count": 101
         }
       ]
     },
@@ -112,7 +152,7 @@
       "perDay": 652250,
       "days": 26,
       "score": 3.7,
-      "ratings": 146722,
+      "ratings": 146723,
       "ratingsStr": "146K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -122,8 +162,68 @@
       "url": "https://play.google.com/store/apps/details?id=in.dreamgamestudios.games.sports.dreamcricket3d",
       "reviewsByDay": [
         {
+          "date": "2026-02-12",
+          "count": 115
+        },
+        {
+          "date": "2026-02-13",
+          "count": 69
+        },
+        {
+          "date": "2026-02-14",
+          "count": 85
+        },
+        {
+          "date": "2026-02-15",
+          "count": 67
+        },
+        {
+          "date": "2026-02-16",
+          "count": 99
+        },
+        {
+          "date": "2026-02-17",
+          "count": 110
+        },
+        {
+          "date": "2026-02-18",
+          "count": 102
+        },
+        {
+          "date": "2026-02-19",
+          "count": 104
+        },
+        {
+          "date": "2026-02-20",
+          "count": 145
+        },
+        {
+          "date": "2026-02-21",
+          "count": 152
+        },
+        {
+          "date": "2026-02-22",
+          "count": 138
+        },
+        {
+          "date": "2026-02-23",
+          "count": 103
+        },
+        {
+          "date": "2026-02-24",
+          "count": 108
+        },
+        {
+          "date": "2026-02-25",
+          "count": 99
+        },
+        {
+          "date": "2026-02-26",
+          "count": 95
+        },
+        {
           "date": "2026-02-27",
-          "count": 62
+          "count": 104
         },
         {
           "date": "2026-02-28",
@@ -225,8 +325,28 @@
       "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile",
       "reviewsByDay": [
         {
+          "date": "2026-02-18",
+          "count": 877
+        },
+        {
+          "date": "2026-02-19",
+          "count": 824
+        },
+        {
+          "date": "2026-02-20",
+          "count": 687
+        },
+        {
+          "date": "2026-02-21",
+          "count": 329
+        },
+        {
+          "date": "2026-02-22",
+          "count": 198
+        },
+        {
           "date": "2026-02-23",
-          "count": 40
+          "count": 118
         },
         {
           "date": "2026-02-24",
@@ -282,7 +402,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 6
+          "count": 7
         }
       ]
     },
@@ -315,8 +435,12 @@
       "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
       "reviewsByDay": [
         {
+          "date": "2026-03-04",
+          "count": 416
+        },
+        {
           "date": "2026-03-05",
-          "count": 269
+          "count": 413
         },
         {
           "date": "2026-03-06",
@@ -355,7 +479,7 @@
       "perDay": 78169,
       "days": 6,
       "score": 4.4,
-      "ratings": 8044,
+      "ratings": 8063,
       "ratingsStr": "8K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -386,7 +510,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 37
+          "count": 38
         }
       ]
     },
@@ -418,38 +542,6 @@
       "summary": "Get ALL Pets just by checking in!",
       "url": "https://play.google.com/store/apps/details?id=com.netmarble.stonkey",
       "reviewsByDay": [
-        {
-          "date": "2025-08-12",
-          "count": 2
-        },
-        {
-          "date": "2025-08-13",
-          "count": 1
-        },
-        {
-          "date": "2025-08-14",
-          "count": 2
-        },
-        {
-          "date": "2025-08-15",
-          "count": 1
-        },
-        {
-          "date": "2025-08-18",
-          "count": 1
-        },
-        {
-          "date": "2025-09-26",
-          "count": 1
-        },
-        {
-          "date": "2025-11-06",
-          "count": 1
-        },
-        {
-          "date": "2026-01-01",
-          "count": 1
-        },
         {
           "date": "2026-03-02",
           "count": 20
@@ -503,8 +595,8 @@
       "perDay": 35265,
       "days": 6,
       "score": 4.7,
-      "ratings": 33,
-      "ratingsStr": "33",
+      "ratings": 34,
+      "ratingsStr": "34",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Mar 4, 2026",
@@ -550,18 +642,6 @@
       "summary": "Your choices determine the future.",
       "url": "https://play.google.com/store/apps/details?id=jp.co.imagineer.medarotsurvivors",
       "reviewsByDay": [
-        {
-          "date": "2026-01-03",
-          "count": 1
-        },
-        {
-          "date": "2026-01-07",
-          "count": 1
-        },
-        {
-          "date": "2026-02-04",
-          "count": 1
-        },
         {
           "date": "2026-02-25",
           "count": 196
@@ -619,19 +699,30 @@
   ],
   "videos": [
     {
-      "vpd": 40917,
-      "views": 1227535,
-      "views_str": "1.2M",
+      "vpd": 96646,
+      "views": 2899391,
+      "views_str": "2.9M",
       "age_days": 30,
-      "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
-      "channel": "Kuplinov ► Play",
-      "url": "https://youtu.be/tbHb24IW9ZY",
-      "thumb": "https://img.youtube.com/vi/tbHb24IW9ZY/mqdefault.jpg",
+      "title": "Cool Gaming Music 2026 ♫ Best Music Mix, NCS, Electronic, House ♫ Best Of EDM 2026",
+      "channel": "Freeme Music",
+      "url": "https://youtu.be/PP2Uvesx4ls",
+      "thumb": "https://img.youtube.com/vi/PP2Uvesx4ls/mqdefault.jpg",
       "grade": "⚡"
     },
     {
-      "vpd": 33195,
-      "views": 995861,
+      "vpd": 38225,
+      "views": 1146767,
+      "views_str": "1.1M",
+      "age_days": 30,
+      "title": "Gaming Music 2026 ♫ Top 30 Songs: NCS, Trap, Electronic, House ♫ Best Of EDM 2026",
+      "channel": "Freeme Music",
+      "url": "https://youtu.be/_6nv4rrIMuU",
+      "thumb": "https://img.youtube.com/vi/_6nv4rrIMuU/mqdefault.jpg",
+      "grade": "⚡"
+    },
+    {
+      "vpd": 33196,
+      "views": 995886,
       "views_str": "995K",
       "age_days": 30,
       "title": "Top 30 NEW Open World Games of 2026",
@@ -642,7 +733,7 @@
     },
     {
       "vpd": 23986,
-      "views": 719605,
+      "views": 719599,
       "views_str": "719K",
       "age_days": 30,
       "title": "15 PS5 Games Everyone's Talking About for 2026",
@@ -664,7 +755,7 @@
     },
     {
       "vpd": 16771,
-      "views": 503145,
+      "views": 503149,
       "views_str": "503K",
       "age_days": 30,
       "title": "Top 10 NEW Games of 2026 [First Half]",
@@ -675,7 +766,7 @@
     },
     {
       "vpd": 15865,
-      "views": 475958,
+      "views": 475965,
       "views_str": "475K",
       "age_days": 30,
       "title": "Why is EVERYBODY Playing This Game....",
@@ -686,7 +777,7 @@
     },
     {
       "vpd": 15132,
-      "views": 453986,
+      "views": 453987,
       "views_str": "453K",
       "age_days": 30,
       "title": "Top 10 NEW Games of February 2026",
@@ -696,8 +787,19 @@
       "grade": "📈"
     },
     {
-      "vpd": 12598,
-      "views": 377954,
+      "vpd": 13598,
+      "views": 407955,
+      "views_str": "407K",
+      "age_days": 30,
+      "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
+      "channel": "PartiallyRoyal",
+      "url": "https://youtu.be/F56XCC-wFzk",
+      "thumb": "https://img.youtube.com/vi/F56XCC-wFzk/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 12599,
+      "views": 377988,
       "views_str": "377K",
       "age_days": 30,
       "title": "Top 50 NEW PC Games of 2026",
@@ -707,19 +809,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12446,
-      "views": 373389,
-      "views_str": "373K",
-      "age_days": 30,
-      "title": "20 New PS5 GAMES Coming in 2026 or 2027 With AMAZING NEXT GEN GRAPHICS",
-      "channel": "NextGenGamers",
-      "url": "https://youtu.be/Vn_VuUGyLiI",
-      "thumb": "https://img.youtube.com/vi/Vn_VuUGyLiI/mqdefault.jpg",
-      "grade": "📈"
-    },
-    {
-      "vpd": 12139,
-      "views": 364196,
+      "vpd": 12140,
+      "views": 364200,
       "views_str": "364K",
       "age_days": 30,
       "title": "Top 10 NEW Games of March 2026",
@@ -729,8 +820,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12013,
-      "views": 360419,
+      "vpd": 12014,
+      "views": 360430,
       "views_str": "360K",
       "age_days": 30,
       "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
@@ -740,8 +831,19 @@
       "grade": "📈"
     },
     {
-      "vpd": 9349,
-      "views": 280479,
+      "vpd": 11177,
+      "views": 335321,
+      "views_str": "335K",
+      "age_days": 30,
+      "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
+      "channel": "Down to Top",
+      "url": "https://youtu.be/fPCrnvkMAcI",
+      "thumb": "https://img.youtube.com/vi/fPCrnvkMAcI/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 9350,
+      "views": 280505,
       "views_str": "280K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -751,14 +853,36 @@
       "grade": "📈"
     },
     {
-      "vpd": 6047,
-      "views": 181439,
-      "views_str": "181K",
+      "vpd": 9035,
+      "views": 271053,
+      "views_str": "271K",
       "age_days": 30,
-      "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
-      "channel": "Tekkan",
-      "url": "https://youtu.be/E7qMngvwXM4",
-      "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
+      "title": "27 NEW Games That Will SHOCK You in 2026!",
+      "channel": "GameRax",
+      "url": "https://youtu.be/vh3z-u-r8bI",
+      "thumb": "https://img.youtube.com/vi/vh3z-u-r8bI/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 8932,
+      "views": 267977,
+      "views_str": "267K",
+      "age_days": 30,
+      "title": "22 NEW GAMES the WHOLE WORLD Is WAITING FOR in 2026! (PC, PS5, Xbox)",
+      "channel": "GameRax",
+      "url": "https://youtu.be/6OO57T-2wL4",
+      "thumb": "https://img.youtube.com/vi/6OO57T-2wL4/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 7644,
+      "views": 229341,
+      "views_str": "229K",
+      "age_days": 30,
+      "title": "GAME OF COURAGE 🔥 | DID ARTEM AND KRISTINA BREAK UP?!😱 | MUSIM ATE THE HOTTEST PEPPER IN THE WORL...",
+      "channel": "nikita…shulgin",
+      "url": "https://youtu.be/MUtfV52u4So",
+      "thumb": "https://img.youtube.com/vi/MUtfV52u4So/mqdefault.jpg",
       "grade": "📈"
     },
     {
@@ -773,17 +897,6 @@
       "grade": "📈"
     },
     {
-      "vpd": 5846,
-      "views": 175389,
-      "views_str": "175K",
-      "age_days": 30,
-      "title": "Top 20 NEW Open World Games of 2026 You Must Play",
-      "channel": "Broz Play",
-      "url": "https://youtu.be/_gv1_RF5Nxo",
-      "thumb": "https://img.youtube.com/vi/_gv1_RF5Nxo/mqdefault.jpg",
-      "grade": "📈"
-    },
-    {
       "vpd": 5328,
       "views": 159854,
       "views_str": "159K",
@@ -795,47 +908,14 @@
       "grade": "📈"
     },
     {
-      "vpd": 3921,
-      "views": 117639,
-      "views_str": "117K",
+      "vpd": 4016,
+      "views": 120505,
+      "views_str": "120K",
       "age_days": 30,
-      "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
-      "channel": "Tekkan",
-      "url": "https://youtu.be/8PGiRMXwXxs",
-      "thumb": "https://img.youtube.com/vi/8PGiRMXwXxs/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3828,
-      "views": 114859,
-      "views_str": "114K",
-      "age_days": 30,
-      "title": "35 Best Single-Player Games Everyone Must Play",
-      "channel": "gamewise",
-      "url": "https://youtu.be/-WNmTF_QjOg",
-      "thumb": "https://img.youtube.com/vi/-WNmTF_QjOg/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3678,
-      "views": 110360,
-      "views_str": "110K",
-      "age_days": 30,
-      "title": "TOP 10 MOBILE GAMES YOU NEED TO PLAY IN 2026...",
-      "channel": "ExxotikGaming",
-      "url": "https://youtu.be/pEz42oZrLAI",
-      "thumb": "https://img.youtube.com/vi/pEz42oZrLAI/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3622,
-      "views": 108664,
-      "views_str": "108K",
-      "age_days": 30,
-      "title": "19 NEW Games That Will BLOW UP in 2026–2027!",
-      "channel": "GameRax",
-      "url": "https://youtu.be/kddbsFGX7MI",
-      "thumb": "https://img.youtube.com/vi/kddbsFGX7MI/mqdefault.jpg",
+      "title": "2026 Will Be INSANE For Mobile Gaming 🔥 | 26 Best Mobile Games Coming in 2026 😱",
+      "channel": "Games Gossip India",
+      "url": "https://youtu.be/CKkeLXgJV7o",
+      "thumb": "https://img.youtube.com/vi/CKkeLXgJV7o/mqdefault.jpg",
       "grade": "📊"
     }
   ],
