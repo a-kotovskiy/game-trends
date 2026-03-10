@@ -1,10 +1,10 @@
 {
-  "updated": "2026-03-10 02:08",
+  "updated": "2026-03-10 02:17",
   "rockets": [
     {
       "emoji": "🚀🔥",
       "tag": "10M+ ЗАГРУЗОК",
-      "name": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
+      "name": "Rainbow Six Mobile",
       "genre": "Action",
       "downloads": "10,000,000+",
       "perDay": 666666,
@@ -15,7 +15,7 @@
     {
       "emoji": "🚀🔥",
       "tag": "10M+ ЗАГРУЗОК",
-      "name": "com.sega.sonicrumble",
+      "name": "Sonic Rumble│Chaos Mini Party",
       "genre": "Action",
       "downloads": "10,000,000+",
       "perDay": 79365,
@@ -25,19 +25,8 @@
     },
     {
       "emoji": "🚀🔥",
-      "tag": "5M+ ЗАГРУЗОК",
-      "name": "com.xd.xdtglobal.gp",
-      "genre": "Simulation",
-      "downloads": "5,000,000+",
-      "perDay": 64935,
-      "days": 77,
-      "releaseDate": "Dec 23, 2025",
-      "url": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp"
-    },
-    {
-      "emoji": "🚀🔥",
       "tag": "1M+ ЗАГРУЗОК",
-      "name": "com.digitalextremes.warframemobile",
+      "name": "Warframe",
       "genre": "Action",
       "downloads": "1,000,000+",
       "perDay": 50000,
@@ -48,7 +37,7 @@
     {
       "emoji": "🚀",
       "tag": "10M+ ЗАГРУЗОК",
-      "name": "com.superplaystudios.disneysolitairedreams",
+      "name": "Disney Solitaire",
       "genre": "Card",
       "downloads": "10,000,000+",
       "perDay": 30487,
@@ -59,7 +48,7 @@
     {
       "emoji": "🚀",
       "tag": "10M+ ЗАГРУЗОК",
-      "name": "com.proxima.dfm",
+      "name": "Delta Force",
       "genre": "Action",
       "downloads": "10,000,000+",
       "perDay": 30120,
@@ -70,7 +59,7 @@
     {
       "emoji": "🚀",
       "tag": "100K+ ЗАГРУЗОК",
-      "name": "mahjong.game.match.spirit.casual",
+      "name": "Mahjong Spirit: Match Game",
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 16666,
@@ -79,21 +68,32 @@
       "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual"
     },
     {
-      "emoji": "🚀",
-      "tag": "1M+ ЗАГРУЗОК",
-      "name": "com.newmoonproduction.bigfarmhomestead",
-      "genre": "Simulation",
-      "downloads": "1,000,000+",
-      "perDay": 10101,
-      "days": 99,
-      "releaseDate": "Dec 1, 2025",
-      "url": "https://play.google.com/store/apps/details?id=com.newmoonproduction.bigfarmhomestead"
+      "emoji": "⚡",
+      "tag": "500K+ ЗАГРУЗОК",
+      "name": "Tile Match: Rescue Story",
+      "genre": "Casual",
+      "downloads": "500,000+",
+      "perDay": 8928,
+      "days": 56,
+      "releaseDate": "Jan 13, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.tile.match.rescuestory.puzzle.game"
+    },
+    {
+      "emoji": "⚡",
+      "tag": "100K+ ЗАГРУЗОК",
+      "name": "Block Spark: Classic Puzzle",
+      "genre": "Casual",
+      "downloads": "100,000+",
+      "perDay": 4761,
+      "days": 21,
+      "releaseDate": "Feb 17, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.sofish.blockspark.gp"
     }
   ],
   "videos": [
     {
       "vpd": 96632,
-      "views": 2898966,
+      "views": 2898978,
       "views_str": "2.9M",
       "age_days": 30,
       "title": "Cool Gaming Music 2026 ♫ Best Music Mix, NCS, Electronic, House ♫ Best Of EDM 2026",
@@ -103,19 +103,8 @@
       "grade": "⚡"
     },
     {
-      "vpd": 40841,
-      "views": 1225257,
-      "views_str": "1.2M",
-      "age_days": 30,
-      "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
-      "channel": "Kuplinov ► Play",
-      "url": "https://youtu.be/tbHb24IW9ZY",
-      "thumb": "https://img.youtube.com/vi/tbHb24IW9ZY/mqdefault.jpg",
-      "grade": "⚡"
-    },
-    {
-      "vpd": 33152,
-      "views": 994572,
+      "vpd": 33153,
+      "views": 994600,
       "views_str": "994K",
       "age_days": 30,
       "title": "Top 30 NEW Open World Games of 2026",
@@ -126,7 +115,7 @@
     },
     {
       "vpd": 23985,
-      "views": 719564,
+      "views": 719555,
       "views_str": "719K",
       "age_days": 30,
       "title": "15 PS5 Games Everyone's Talking About for 2026",
@@ -137,7 +126,7 @@
     },
     {
       "vpd": 18004,
-      "views": 540147,
+      "views": 540135,
       "views_str": "540K",
       "age_days": 30,
       "title": "Top 10 NEW Games of January 2026",
@@ -159,7 +148,7 @@
     },
     {
       "vpd": 15856,
-      "views": 475691,
+      "views": 475703,
       "views_str": "475K",
       "age_days": 30,
       "title": "Why is EVERYBODY Playing This Game....",
@@ -170,7 +159,7 @@
     },
     {
       "vpd": 15131,
-      "views": 453943,
+      "views": 453937,
       "views_str": "453K",
       "age_days": 30,
       "title": "Top 10 NEW Games of February 2026",
@@ -180,8 +169,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 13590,
-      "views": 407706,
+      "vpd": 13589,
+      "views": 407687,
       "views_str": "407K",
       "age_days": 30,
       "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
@@ -191,8 +180,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12524,
-      "views": 375722,
+      "vpd": 12526,
+      "views": 375799,
       "views_str": "375K",
       "age_days": 30,
       "title": "Top 50 NEW PC Games of 2026",
@@ -203,7 +192,7 @@
     },
     {
       "vpd": 12123,
-      "views": 363705,
+      "views": 363713,
       "views_str": "363K",
       "age_days": 30,
       "title": "Top 10 NEW Games of March 2026",
@@ -214,7 +203,7 @@
     },
     {
       "vpd": 12003,
-      "views": 360109,
+      "views": 360119,
       "views_str": "360K",
       "age_days": 30,
       "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
@@ -224,8 +213,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 11870,
-      "views": 356122,
+      "vpd": 11872,
+      "views": 356179,
       "views_str": "356K",
       "age_days": 30,
       "title": "WHAT THE HELL IS GOING ON WITH XBOX & SONY, NEW GAME REVEALS & MORE",
@@ -235,8 +224,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 11156,
-      "views": 334695,
+      "vpd": 11157,
+      "views": 334730,
       "views_str": "334K",
       "age_days": 30,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
@@ -246,8 +235,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 9323,
-      "views": 279697,
+      "vpd": 9324,
+      "views": 279729,
       "views_str": "279K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -257,19 +246,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 7625,
-      "views": 228777,
-      "views_str": "228K",
-      "age_days": 30,
-      "title": "GAME OF COURAGE 🔥 | DID ARTEM AND KRISTINA BREAK UP?!😱 | MUSIM ATE THE HOTTEST PEPPER IN THE WORL...",
-      "channel": "nikita…shulgin",
-      "url": "https://youtu.be/MUtfV52u4So",
-      "thumb": "https://img.youtube.com/vi/MUtfV52u4So/mqdefault.jpg",
-      "grade": "📈"
-    },
-    {
-      "vpd": 6015,
-      "views": 180467,
+      "vpd": 6016,
+      "views": 180502,
       "views_str": "180K",
       "age_days": 30,
       "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
@@ -280,7 +258,7 @@
     },
     {
       "vpd": 5963,
-      "views": 178904,
+      "views": 178893,
       "views_str": "178K",
       "age_days": 30,
       "title": "12 Best NEW Games To Play In February 2026",
@@ -291,7 +269,7 @@
     },
     {
       "vpd": 5328,
-      "views": 159844,
+      "views": 159843,
       "views_str": "159K",
       "age_days": 30,
       "title": "20 New PS5 Games That Will BLOW UP the GAMING INDUSTRY in 2026",
@@ -301,8 +279,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 3908,
-      "views": 117262,
+      "vpd": 3909,
+      "views": 117278,
       "views_str": "117K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
@@ -310,8 +288,146 @@
       "url": "https://youtu.be/8PGiRMXwXxs",
       "thumb": "https://img.youtube.com/vi/8PGiRMXwXxs/mqdefault.jpg",
       "grade": "📊"
+    },
+    {
+      "vpd": 3794,
+      "views": 113821,
+      "views_str": "113K",
+      "age_days": 30,
+      "title": "35 Best Single-Player Games Everyone Must Play",
+      "channel": "gamewise",
+      "url": "https://youtu.be/-WNmTF_QjOg",
+      "thumb": "https://img.youtube.com/vi/-WNmTF_QjOg/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 3674,
+      "views": 110227,
+      "views_str": "110K",
+      "age_days": 30,
+      "title": "TOP 10 MOBILE GAMES YOU NEED TO PLAY IN 2026...",
+      "channel": "ExxotikGaming",
+      "url": "https://youtu.be/pEz42oZrLAI",
+      "thumb": "https://img.youtube.com/vi/pEz42oZrLAI/mqdefault.jpg",
+      "grade": "📊"
     }
   ],
-  "news": [],
-  "ideas": []
+  "news": [
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Pocket Gamer 20th anniversary: Showering alligators and jogging through temples",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/features/pocket-gamer-20th-anniversary-2011/",
+      "date": "Tue, 10 Mar 2026 09:00:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Nova Drift is a roguelike space shooter that is now available on iOS and Android",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/nova-drift/official-launch-android-ios/",
+      "date": "Tue, 10 Mar 2026 09:00:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Ahead of the Game - Among the Sleep is atmospheric helplessness now in mobile form",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/ahead-of-the-game/among-the-sleep/",
+      "date": "Tue, 10 Mar 2026 06:05:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Three Kingdoms: Grand Strategy launches on iOS and Android with generals, diplomacy, and empire buil",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/three-kingdoms-grand-strategy/official-launch-android-ios/",
+      "date": "Tue, 10 Mar 2026 05:00:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "All Who Wander drops its enormous item-packed v1.2.11 update for even more looting",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/all-who-wander/v1-2-11-items/",
+      "date": "Mon, 09 Mar 2026 18:00:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Pocket Gamer 20th anniversary: Candy-gobbling monsters, slicing up fruit and the iPad",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/features/pocket-gamer-20th-anniversary-2010/",
+      "date": "Mon, 09 Mar 2026 09:00:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Best Netflix games available right now - From Into the Breach to Red Dead Redemption",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/best-games/netflix/",
+      "date": "Mon, 09 Mar 2026 08:33:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Best free games to play on your iPhone, iPad or Android Phone in 2026 - Updated",
+      "desc": "MORE]]]>",
+      "url": "https://www.pocketgamer.com/best-games/free-mobile-games/",
+      "date": "Mon, 09 Mar 2026 06:35:00 +0000"
+    }
+  ],
+  "ideas": [
+    {
+      "emoji": "🎯",
+      "title": "Клон-улучшение топового жанра: Action",
+      "desc": "Возьми механику из жанра Action, добавь одну уникальную фишку. Бюджет: 2-4 недели.",
+      "tags": [
+        "Indie",
+        "Быстрый старт"
+      ],
+      "difficulty": "Средняя"
+    },
+    {
+      "emoji": "🔄",
+      "title": "Гибридная казуалка: два жанра в одном",
+      "desc": "Смешай пазл + idle или match-3 + roguelike. Виральность за счёт новизны механики.",
+      "tags": [
+        "Casual",
+        "Hybrid"
+      ],
+      "difficulty": "Средняя"
+    },
+    {
+      "emoji": "📱",
+      "title": "Мобильная co-op игра",
+      "desc": "Локальный или онлайн кооператив на 2-4 игрока. Рынок недонасыщен, особенно на мобайле.",
+      "tags": [
+        "Multiplayer",
+        "Mobile"
+      ],
+      "difficulty": "Высокая"
+    },
+    {
+      "emoji": "⚡",
+      "title": "Hypercasual с виральным хуком",
+      "desc": "Одна механика + шаринг результата. Цель: первые 10K скачиваний за неделю органики.",
+      "tags": [
+        "Hypercasual",
+        "Viral"
+      ],
+      "difficulty": "Низкая"
+    },
+    {
+      "emoji": "🌍",
+      "title": "Idle/кликер с нарративом",
+      "desc": "Добавь историю и персонажей в idle-механику. Retention x3 по сравнению с чистым idle.",
+      "tags": [
+        "Idle",
+        "Narrative"
+      ],
+      "difficulty": "Средняя"
+    }
+  ]
 }
