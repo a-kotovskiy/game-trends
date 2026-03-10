@@ -315,7 +315,7 @@
 
     .rc-reviews-chart { margin-bottom: 14px; }
     .rc-reviews-title { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
-    .rc-chart-canvas { width: 100% !important; height: 140px !important; }
+    .rc-chart-canvas { width: 100% !important; height: 180px !important; }
 
     .rc-screenshots {
       display: flex; gap: 6px; overflow-x: auto;
@@ -868,22 +868,26 @@
     const labels = reviewsByDay.map(d => d.date.slice(5)); // MM-DD
     const data = reviewsByDay.map(d => d.count);
     chartInstances[chartId] = new Chart(canvas, {
-      type: 'bar',
+      type: 'line',
       data: {
         labels,
         datasets: [{
           label: 'Отзывов',
           data,
-          backgroundColor: 'rgba(124, 58, 237, 0.6)',
           borderColor: 'rgba(124, 58, 237, 1)',
-          borderWidth: 1,
-          borderRadius: 4,
-          hoverBackgroundColor: 'rgba(124, 58, 237, 0.9)',
+          backgroundColor: 'rgba(124, 58, 237, 0.15)',
+          borderWidth: 2,
+          pointBackgroundColor: 'rgba(124, 58, 237, 1)',
+          pointRadius: 4,
+          pointHoverRadius: 6,
+          fill: true,
+          tension: 0.4,
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
         plugins: {
           legend: { display: false },
           tooltip: {
@@ -892,7 +896,7 @@
               label: (item) => `  ${item.raw} отзывов`
             },
             backgroundColor: '#1e1e35',
-            borderColor: 'rgba(124,58,237,0.4)',
+            borderColor: 'rgba(124,58,237,0.5)',
             borderWidth: 1,
             titleColor: '#a78bfa',
             bodyColor: '#e2e8f0',
