@@ -1,10 +1,11 @@
 {
-  "updated": "2026-03-10 02:29",
+  "updated": "2026-03-10 02:38",
   "rockets": [
     {
       "emoji": "🚀🔥",
       "tag": "10M+ ЗАГРУЗОК",
       "name": "Rainbow Six Mobile",
+      "icon": "https://play-lh.googleusercontent.com/QIH2nL3HlU9UcEL8MuDJtunxs3dSTY9LXeWx4fQMU0XdOzEG8xQ0DVXa6nz4hbNvwrDI_FYOHcvi1up7KAT81A",
       "genre": "Action",
       "downloads": "10,000,000+",
       "perDay": 666666,
@@ -16,6 +17,7 @@
       "emoji": "🚀🔥",
       "tag": "1M+ ЗАГРУЗОК",
       "name": "Warframe",
+      "icon": "https://play-lh.googleusercontent.com/C2FSzPBDTKdDKAVmwCOr9CBvJ6j2toa_bfp8utKGbrWVAuDSHgeMdIzqWzK3rwRUyeY",
       "genre": "Action",
       "downloads": "1,000,000+",
       "perDay": 50000,
@@ -27,6 +29,7 @@
       "emoji": "🚀",
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Mahjong Spirit: Match Game",
+      "icon": "https://play-lh.googleusercontent.com/4LePhbtVKEoN0CD5VZ3gn2yYqm7Iy-J8oZJwymKgC7UV28jWCqKmNFo_oJgEdy_en5GLzv4MIBi-mcZV527K",
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 16666,
@@ -38,6 +41,7 @@
       "emoji": "⚡",
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Block Spark: Classic Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/oH4pWjEwWfS5n7bi-cgnFyPjGV4cVpD_uFnXlnU_rGndsphVS_sjDbG7rcm_ke34DB8nlg0e0eNkz2APENaPnA",
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 4761,
@@ -49,6 +53,7 @@
       "emoji": "⚡",
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Tile Land: Triple Match",
+      "icon": "https://play-lh.googleusercontent.com/rwFJwCl6R1GN-ydrDeAiS5a8xFOBHJ26FQ5LIxKPpchyR2v0Pl-HEWGTzxNxfbuIrMI2il5Pj-hL8mXXEPT0KQ",
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 4545,
@@ -60,6 +65,7 @@
       "emoji": "⚡",
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Tile Mahjong Classic",
+      "icon": "https://play-lh.googleusercontent.com/smIlH0nPeaUyb1RV1HCtB5gQ3Una86hwlZlwrCkUKmkYzEAINwR-DnnD-fkKauStohxqGjFn9se19x_6CWqgvg",
       "genre": "Casual",
       "downloads": "100,000+",
       "perDay": 4545,
@@ -71,6 +77,7 @@
       "emoji": "⚡",
       "tag": "НОВИНКА · 50,000+",
       "name": "Nuts Factory: Sort Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/xM6nj0ViJL7-HCU7IL7FH_wXhEjfE9NBD6LQQyyBrinWlfTP4DsZZj35qWmNTbXbj7LmbvDqtk8AEBONm3EA",
       "genre": "Puzzle",
       "downloads": "50,000+",
       "perDay": 4166,
@@ -82,6 +89,7 @@
       "emoji": "⚡",
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Arrow Madness: Arrow Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/5zBzPy1EUYZWR9Moj0_EappkL42notU4yj722Hzox3au3PMueLIcdN-UIESj0M7NPEuryqy1sv_gNx4BEYRe",
       "genre": "Puzzle",
       "downloads": "100,000+",
       "perDay": 3846,
@@ -93,6 +101,7 @@
       "emoji": "⚡",
       "tag": "НОВИНКА · 50,000+",
       "name": "Knit Madness - Wool Color Sort",
+      "icon": "https://play-lh.googleusercontent.com/eCfyyhYFXBa309OsunyWumNqHgfCRQHUZWV54y9zCr1bZWmamRfdG9xGgqJxkmKCJG4t5B7cdmHo0ZKrDMSo9Q",
       "genre": "Puzzle",
       "downloads": "50,000+",
       "perDay": 3333,
@@ -104,6 +113,7 @@
       "emoji": "📈",
       "tag": "НОВИНКА · 50,000+",
       "name": "Mahjong Match - Matching Games",
+      "icon": "https://play-lh.googleusercontent.com/1roP5RKm7w2sNX9tmipfxWWnhCdFOLuZ9Au26kZxfosx_ZeEVW-E0M21Dr7YWqfLhl8FGJKFsDYp9JWDVSUo",
       "genre": "Puzzle",
       "downloads": "50,000+",
       "perDay": 1923,
@@ -114,8 +124,8 @@
   ],
   "videos": [
     {
-      "vpd": 96632,
-      "views": 2898983,
+      "vpd": 96633,
+      "views": 2898992,
       "views_str": "2.9M",
       "age_days": 30,
       "title": "Cool Gaming Music 2026 ♫ Best Music Mix, NCS, Electronic, House ♫ Best Of EDM 2026",
@@ -125,8 +135,8 @@
       "grade": "⚡"
     },
     {
-      "vpd": 40845,
-      "views": 1225363,
+      "vpd": 40847,
+      "views": 1225429,
       "views_str": "1.2M",
       "age_days": 30,
       "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
@@ -136,8 +146,8 @@
       "grade": "⚡"
     },
     {
-      "vpd": 33154,
-      "views": 994647,
+      "vpd": 33155,
+      "views": 994655,
       "views_str": "994K",
       "age_days": 30,
       "title": "Top 30 NEW Open World Games of 2026",
@@ -148,7 +158,7 @@
     },
     {
       "vpd": 23985,
-      "views": 719555,
+      "views": 719564,
       "views_str": "719K",
       "age_days": 30,
       "title": "15 PS5 Games Everyone's Talking About for 2026",
@@ -180,8 +190,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 15856,
-      "views": 475709,
+      "vpd": 15857,
+      "views": 475716,
       "views_str": "475K",
       "age_days": 30,
       "title": "Why is EVERYBODY Playing This Game....",
@@ -191,19 +201,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 15131,
-      "views": 453937,
-      "views_str": "453K",
-      "age_days": 30,
-      "title": "Top 10 NEW Games of February 2026",
-      "channel": "gameranx",
-      "url": "https://youtu.be/ws7cLrmJFYU",
-      "thumb": "https://img.youtube.com/vi/ws7cLrmJFYU/mqdefault.jpg",
-      "grade": "📈"
-    },
-    {
-      "vpd": 13589,
-      "views": 407687,
+      "vpd": 13592,
+      "views": 407774,
       "views_str": "407K",
       "age_days": 30,
       "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
@@ -213,8 +212,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12528,
-      "views": 375846,
+      "vpd": 12530,
+      "views": 375903,
       "views_str": "375K",
       "age_days": 30,
       "title": "Top 50 NEW PC Games of 2026",
@@ -225,7 +224,7 @@
     },
     {
       "vpd": 12124,
-      "views": 363736,
+      "views": 363746,
       "views_str": "363K",
       "age_days": 30,
       "title": "Top 10 NEW Games of March 2026",
@@ -236,7 +235,7 @@
     },
     {
       "vpd": 12004,
-      "views": 360128,
+      "views": 360134,
       "views_str": "360K",
       "age_days": 30,
       "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
@@ -246,19 +245,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 11875,
-      "views": 356269,
-      "views_str": "356K",
-      "age_days": 30,
-      "title": "WHAT THE HELL IS GOING ON WITH XBOX & SONY, NEW GAME REVEALS & MORE",
-      "channel": "gameranx",
-      "url": "https://youtu.be/U6s875AaIdI",
-      "thumb": "https://img.youtube.com/vi/U6s875AaIdI/mqdefault.jpg",
-      "grade": "📈"
-    },
-    {
-      "vpd": 11157,
-      "views": 334737,
+      "vpd": 11158,
+      "views": 334744,
       "views_str": "334K",
       "age_days": 30,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
@@ -269,7 +257,7 @@
     },
     {
       "vpd": 9325,
-      "views": 279751,
+      "views": 279760,
       "views_str": "279K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -279,14 +267,14 @@
       "grade": "📈"
     },
     {
-      "vpd": 7626,
-      "views": 228800,
-      "views_str": "228K",
+      "vpd": 6018,
+      "views": 180547,
+      "views_str": "180K",
       "age_days": 30,
-      "title": "GAME OF COURAGE 🔥 | DID ARTEM AND KRISTINA BREAK UP?!😱 | MUSIM ATE THE HOTTEST PEPPER IN THE WORL...",
-      "channel": "nikita…shulgin",
-      "url": "https://youtu.be/MUtfV52u4So",
-      "thumb": "https://img.youtube.com/vi/MUtfV52u4So/mqdefault.jpg",
+      "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
+      "channel": "Tekkan",
+      "url": "https://youtu.be/E7qMngvwXM4",
+      "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
       "grade": "📈"
     },
     {
@@ -313,7 +301,7 @@
     },
     {
       "vpd": 3909,
-      "views": 117290,
+      "views": 117292,
       "views_str": "117K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
@@ -323,14 +311,36 @@
       "grade": "📊"
     },
     {
-      "vpd": 3798,
-      "views": 113959,
+      "vpd": 3799,
+      "views": 113976,
       "views_str": "113K",
       "age_days": 30,
       "title": "35 Best Single-Player Games Everyone Must Play",
       "channel": "gamewise",
       "url": "https://youtu.be/-WNmTF_QjOg",
       "thumb": "https://img.youtube.com/vi/-WNmTF_QjOg/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 3674,
+      "views": 110238,
+      "views_str": "110K",
+      "age_days": 30,
+      "title": "TOP 10 MOBILE GAMES YOU NEED TO PLAY IN 2026...",
+      "channel": "ExxotikGaming",
+      "url": "https://youtu.be/pEz42oZrLAI",
+      "thumb": "https://img.youtube.com/vi/pEz42oZrLAI/mqdefault.jpg",
+      "grade": "📊"
+    },
+    {
+      "vpd": 3620,
+      "views": 108608,
+      "views_str": "108K",
+      "age_days": 30,
+      "title": "19 NEW Games That Will BLOW UP in 2026–2027!",
+      "channel": "GameRax",
+      "url": "https://youtu.be/kddbsFGX7MI",
+      "thumb": "https://img.youtube.com/vi/kddbsFGX7MI/mqdefault.jpg",
       "grade": "📊"
     }
   ],
@@ -403,8 +413,8 @@
   "ideas": [
     {
       "emoji": "🎯",
-      "title": "Клон-улучшение топового жанра: Action",
-      "desc": "Возьми механику из жанра Action, добавь одну уникальную фишку. Бюджет: 2-4 недели.",
+      "title": "Клон-улучшение топового жанра: Casual",
+      "desc": "Возьми механику из жанра Casual, добавь одну уникальную фишку. Бюджет: 2-4 недели.",
       "tags": [
         "Indie",
         "Быстрый старт"
