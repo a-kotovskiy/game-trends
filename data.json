@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10 02:17",
+  "updated": "2026-03-10 02:29",
   "rockets": [
     {
       "emoji": "🚀🔥",
@@ -14,17 +14,6 @@
     },
     {
       "emoji": "🚀🔥",
-      "tag": "10M+ ЗАГРУЗОК",
-      "name": "Sonic Rumble│Chaos Mini Party",
-      "genre": "Action",
-      "downloads": "10,000,000+",
-      "perDay": 79365,
-      "days": 126,
-      "releaseDate": "Nov 4, 2025",
-      "url": "https://play.google.com/store/apps/details?id=com.sega.sonicrumble"
-    },
-    {
-      "emoji": "🚀🔥",
       "tag": "1M+ ЗАГРУЗОК",
       "name": "Warframe",
       "genre": "Action",
@@ -33,28 +22,6 @@
       "days": 20,
       "releaseDate": "Feb 18, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile"
-    },
-    {
-      "emoji": "🚀",
-      "tag": "10M+ ЗАГРУЗОК",
-      "name": "Disney Solitaire",
-      "genre": "Card",
-      "downloads": "10,000,000+",
-      "perDay": 30487,
-      "days": 328,
-      "releaseDate": "Apr 16, 2025",
-      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams"
-    },
-    {
-      "emoji": "🚀",
-      "tag": "10M+ ЗАГРУЗОК",
-      "name": "Delta Force",
-      "genre": "Action",
-      "downloads": "10,000,000+",
-      "perDay": 30120,
-      "days": 332,
-      "releaseDate": "Apr 12, 2025",
-      "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm"
     },
     {
       "emoji": "🚀",
@@ -69,17 +36,6 @@
     },
     {
       "emoji": "⚡",
-      "tag": "500K+ ЗАГРУЗОК",
-      "name": "Tile Match: Rescue Story",
-      "genre": "Casual",
-      "downloads": "500,000+",
-      "perDay": 8928,
-      "days": 56,
-      "releaseDate": "Jan 13, 2026",
-      "url": "https://play.google.com/store/apps/details?id=com.tile.match.rescuestory.puzzle.game"
-    },
-    {
-      "emoji": "⚡",
       "tag": "100K+ ЗАГРУЗОК",
       "name": "Block Spark: Classic Puzzle",
       "genre": "Casual",
@@ -88,12 +44,78 @@
       "days": 21,
       "releaseDate": "Feb 17, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.sofish.blockspark.gp"
+    },
+    {
+      "emoji": "⚡",
+      "tag": "100K+ ЗАГРУЗОК",
+      "name": "Tile Land: Triple Match",
+      "genre": "Casual",
+      "downloads": "100,000+",
+      "perDay": 4545,
+      "days": 22,
+      "releaseDate": "Feb 16, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.sohi.tileland.gp"
+    },
+    {
+      "emoji": "⚡",
+      "tag": "100K+ ЗАГРУЗОК",
+      "name": "Tile Mahjong Classic",
+      "genre": "Casual",
+      "downloads": "100,000+",
+      "perDay": 4545,
+      "days": 22,
+      "releaseDate": "Feb 16, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.sofish.tilemahjong.gp"
+    },
+    {
+      "emoji": "⚡",
+      "tag": "НОВИНКА · 50,000+",
+      "name": "Nuts Factory: Sort Puzzle",
+      "genre": "Puzzle",
+      "downloads": "50,000+",
+      "perDay": 4166,
+      "days": 12,
+      "releaseDate": "Feb 26, 2026",
+      "url": "https://play.google.com/store/apps/details?id=nuts.factory.sort.puzzle"
+    },
+    {
+      "emoji": "⚡",
+      "tag": "100K+ ЗАГРУЗОК",
+      "name": "Arrow Madness: Arrow Puzzle",
+      "genre": "Puzzle",
+      "downloads": "100,000+",
+      "perDay": 3846,
+      "days": 26,
+      "releaseDate": "Feb 12, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.arrow.madness.games.arrows.escape.puzzle.game"
+    },
+    {
+      "emoji": "⚡",
+      "tag": "НОВИНКА · 50,000+",
+      "name": "Knit Madness - Wool Color Sort",
+      "genre": "Puzzle",
+      "downloads": "50,000+",
+      "perDay": 3333,
+      "days": 15,
+      "releaseDate": "Feb 23, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.knit.madness.wool.thread.color.sort.match.puzzle"
+    },
+    {
+      "emoji": "📈",
+      "tag": "НОВИНКА · 50,000+",
+      "name": "Mahjong Match - Matching Games",
+      "genre": "Puzzle",
+      "downloads": "50,000+",
+      "perDay": 1923,
+      "days": 26,
+      "releaseDate": "Feb 12, 2026",
+      "url": "https://play.google.com/store/apps/details?id=slide.match.mahjong.tile.connect.pair.puzzle.games"
     }
   ],
   "videos": [
     {
       "vpd": 96632,
-      "views": 2898978,
+      "views": 2898983,
       "views_str": "2.9M",
       "age_days": 30,
       "title": "Cool Gaming Music 2026 ♫ Best Music Mix, NCS, Electronic, House ♫ Best Of EDM 2026",
@@ -103,8 +125,19 @@
       "grade": "⚡"
     },
     {
-      "vpd": 33153,
-      "views": 994600,
+      "vpd": 40845,
+      "views": 1225363,
+      "views_str": "1.2M",
+      "age_days": 30,
+      "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
+      "channel": "Kuplinov ► Play",
+      "url": "https://youtu.be/tbHb24IW9ZY",
+      "thumb": "https://img.youtube.com/vi/tbHb24IW9ZY/mqdefault.jpg",
+      "grade": "⚡"
+    },
+    {
+      "vpd": 33154,
+      "views": 994647,
       "views_str": "994K",
       "age_days": 30,
       "title": "Top 30 NEW Open World Games of 2026",
@@ -126,7 +159,7 @@
     },
     {
       "vpd": 18004,
-      "views": 540135,
+      "views": 540142,
       "views_str": "540K",
       "age_days": 30,
       "title": "Top 10 NEW Games of January 2026",
@@ -137,7 +170,7 @@
     },
     {
       "vpd": 16765,
-      "views": 502967,
+      "views": 502965,
       "views_str": "502K",
       "age_days": 30,
       "title": "Top 10 NEW Games of 2026 [First Half]",
@@ -148,7 +181,7 @@
     },
     {
       "vpd": 15856,
-      "views": 475703,
+      "views": 475709,
       "views_str": "475K",
       "age_days": 30,
       "title": "Why is EVERYBODY Playing This Game....",
@@ -180,8 +213,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12526,
-      "views": 375799,
+      "vpd": 12528,
+      "views": 375846,
       "views_str": "375K",
       "age_days": 30,
       "title": "Top 50 NEW PC Games of 2026",
@@ -191,8 +224,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12123,
-      "views": 363713,
+      "vpd": 12124,
+      "views": 363736,
       "views_str": "363K",
       "age_days": 30,
       "title": "Top 10 NEW Games of March 2026",
@@ -202,8 +235,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 12003,
-      "views": 360119,
+      "vpd": 12004,
+      "views": 360128,
       "views_str": "360K",
       "age_days": 30,
       "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
@@ -213,8 +246,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 11872,
-      "views": 356179,
+      "vpd": 11875,
+      "views": 356269,
       "views_str": "356K",
       "age_days": 30,
       "title": "WHAT THE HELL IS GOING ON WITH XBOX & SONY, NEW GAME REVEALS & MORE",
@@ -225,7 +258,7 @@
     },
     {
       "vpd": 11157,
-      "views": 334730,
+      "views": 334737,
       "views_str": "334K",
       "age_days": 30,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
@@ -235,8 +268,8 @@
       "grade": "📈"
     },
     {
-      "vpd": 9324,
-      "views": 279729,
+      "vpd": 9325,
+      "views": 279751,
       "views_str": "279K",
       "age_days": 30,
       "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
@@ -246,19 +279,19 @@
       "grade": "📈"
     },
     {
-      "vpd": 6016,
-      "views": 180502,
-      "views_str": "180K",
+      "vpd": 7626,
+      "views": 228800,
+      "views_str": "228K",
       "age_days": 30,
-      "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
-      "channel": "Tekkan",
-      "url": "https://youtu.be/E7qMngvwXM4",
-      "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
+      "title": "GAME OF COURAGE 🔥 | DID ARTEM AND KRISTINA BREAK UP?!😱 | MUSIM ATE THE HOTTEST PEPPER IN THE WORL...",
+      "channel": "nikita…shulgin",
+      "url": "https://youtu.be/MUtfV52u4So",
+      "thumb": "https://img.youtube.com/vi/MUtfV52u4So/mqdefault.jpg",
       "grade": "📈"
     },
     {
       "vpd": 5963,
-      "views": 178893,
+      "views": 178909,
       "views_str": "178K",
       "age_days": 30,
       "title": "12 Best NEW Games To Play In February 2026",
@@ -269,7 +302,7 @@
     },
     {
       "vpd": 5328,
-      "views": 159843,
+      "views": 159844,
       "views_str": "159K",
       "age_days": 30,
       "title": "20 New PS5 Games That Will BLOW UP the GAMING INDUSTRY in 2026",
@@ -280,7 +313,7 @@
     },
     {
       "vpd": 3909,
-      "views": 117278,
+      "views": 117290,
       "views_str": "117K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
@@ -290,25 +323,14 @@
       "grade": "📊"
     },
     {
-      "vpd": 3794,
-      "views": 113821,
+      "vpd": 3798,
+      "views": 113959,
       "views_str": "113K",
       "age_days": 30,
       "title": "35 Best Single-Player Games Everyone Must Play",
       "channel": "gamewise",
       "url": "https://youtu.be/-WNmTF_QjOg",
       "thumb": "https://img.youtube.com/vi/-WNmTF_QjOg/mqdefault.jpg",
-      "grade": "📊"
-    },
-    {
-      "vpd": 3674,
-      "views": 110227,
-      "views_str": "110K",
-      "age_days": 30,
-      "title": "TOP 10 MOBILE GAMES YOU NEED TO PLAY IN 2026...",
-      "channel": "ExxotikGaming",
-      "url": "https://youtu.be/pEz42oZrLAI",
-      "thumb": "https://img.youtube.com/vi/pEz42oZrLAI/mqdefault.jpg",
       "grade": "📊"
     }
   ],
