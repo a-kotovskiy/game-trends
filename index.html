@@ -1125,11 +1125,18 @@
           const ytThumbHtml = ytThumb
             ? `<img class="yt-thumb-small" src="${ytThumb}" loading="lazy" onerror="this.style.display='none'">`
             : '';
+          const ageDays = y.age_days;
+          let ageBadge = '';
+          if (ageDays != null) {
+            if (ageDays <= 14) ageBadge = `<span style="color:#10b981;font-size:0.7rem;margin-left:4px">🟢 ${ageDays}д</span>`;
+            else if (ageDays <= 45) ageBadge = `<span style="color:#f59e0b;font-size:0.7rem;margin-left:4px">🟡 ${ageDays}д</span>`;
+            else ageBadge = `<span style="color:#94a3b8;font-size:0.7rem;margin-left:4px">(старое)</span>`;
+          }
           platRows.push(`<div class="hype-plat-row">
             <span style="font-size:0.75rem">▶</span>
             ${ytThumbHtml}
             <span class="hype-plat-text">${(y.title||'').slice(0,50)}</span>
-            <span class="hype-plat-views">${y.views_str||''}</span>
+            <span class="hype-plat-views">${y.views_str||''}${ageBadge}</span>
             <a href="${y.url}" target="_blank" rel="noopener" class="pl-btn youtube">↗</a>
           </div>`);
         });
@@ -1157,7 +1164,7 @@
         <div class="hype-top">
           ${thumbHtml}
           <div class="hype-top-info">
-            <div class="hype-title">${v.title || '@'+(v.author||'—')}</div>
+            <div class="hype-title">${v.title || '@'+(v.author||'—')}${v.joint_hype ? ' <span style="background:linear-gradient(135deg,#7c3aed,#2563eb);color:#fff;font-size:0.65rem;padding:2px 6px;border-radius:8px;margin-left:6px;white-space:nowrap">⚡ Синхронный хайп</span>' : ''}</div>
             <div class="hype-author">@${v.author||''} · ${v.published||''}</div>
             <div class="hype-stats">
               <span class="hype-views">${v.views_str||''}</span>
@@ -1261,6 +1268,8 @@
           v.keywords = val.keywords;
           v.gt_keyword = val.gt_keyword;
           v.gt_url = val.gt_url;
+          v.yt_freshness = val.yt_freshness;
+          v.joint_hype = val.joint_hype;
         }
         return v;
       });
