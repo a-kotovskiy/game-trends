@@ -1,262 +1,317 @@
 {
-  "updated": "2026-03-10 02:10",
+  "updated": "2026-03-10 02:08",
   "rockets": [
     {
-      "emoji": "🍪",
+      "emoji": "🚀🔥",
       "tag": "10M+ ЗАГРУЗОК",
-      "name": "CookieRun: OvenSmash",
-      "genre": "Action · Multiplayer · Devsisters",
+      "name": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
+      "genre": "Action",
       "downloads": "10,000,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2026",
-      "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos"
+      "perDay": 666666,
+      "days": 15,
+      "releaseDate": "Feb 23, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter"
     },
     {
-      "emoji": "🏛️",
+      "emoji": "🚀🔥",
       "tag": "10M+ ЗАГРУЗОК",
-      "name": "Age of Empires Mobile",
-      "genre": "Strategy · Xbox Game Studios",
+      "name": "com.sega.sonicrumble",
+      "genre": "Action",
       "downloads": "10,000,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2025",
-      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.aoemobile"
+      "perDay": 79365,
+      "days": 126,
+      "releaseDate": "Nov 4, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.sega.sonicrumble"
     },
     {
-      "emoji": "🤖",
-      "tag": "10M+ ЗАГРУЗОК",
-      "name": "Supremacy: Warhammer 40K",
-      "genre": "Strategy · Wargame · Bytro",
-      "downloads": "10,000,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2025",
-      "url": "https://play.google.com/store/apps/details?id=com.bytro.warhammer40ksupremacy"
-    },
-    {
-      "emoji": "⚔️",
+      "emoji": "🚀🔥",
       "tag": "5M+ ЗАГРУЗОК",
-      "name": "God Rivals: RPG Roguelike",
-      "genre": "Action · Roguelike",
+      "name": "com.xd.xdtglobal.gp",
+      "genre": "Simulation",
       "downloads": "5,000,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2025",
-      "url": "https://play.google.com/store/apps/details?id=com.gamee.godslayer.rpg.rougelike"
+      "perDay": 64935,
+      "days": 77,
+      "releaseDate": "Dec 23, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp"
     },
     {
-      "emoji": "👧",
-      "tag": "50M+ ЗАГРУЗОК",
-      "name": "Guild of Monster Girls",
-      "genre": "RPG · Chillyroom",
-      "downloads": "50,000,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2025",
-      "url": "https://play.google.com/store/apps/details?id=com.chillyroom.monstergirls.gp"
+      "emoji": "🚀🔥",
+      "tag": "1M+ ЗАГРУЗОК",
+      "name": "com.digitalextremes.warframemobile",
+      "genre": "Action",
+      "downloads": "1,000,000+",
+      "perDay": 50000,
+      "days": 20,
+      "releaseDate": "Feb 18, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile"
     },
     {
-      "emoji": "⚔️",
-      "tag": "500K+ ЗАГРУЗОК",
-      "name": "TEN VALKYRIE",
-      "genre": "RPG · Daeri Soft",
-      "downloads": "500,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2025",
-      "url": "https://play.google.com/store/apps/details?id=com.daeri.TenValkyrie"
+      "emoji": "🚀",
+      "tag": "10M+ ЗАГРУЗОК",
+      "name": "com.superplaystudios.disneysolitairedreams",
+      "genre": "Card",
+      "downloads": "10,000,000+",
+      "perDay": 30487,
+      "days": 328,
+      "releaseDate": "Apr 16, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams"
     },
     {
-      "emoji": "🧪",
+      "emoji": "🚀",
+      "tag": "10M+ ЗАГРУЗОК",
+      "name": "com.proxima.dfm",
+      "genre": "Action",
+      "downloads": "10,000,000+",
+      "perDay": 30120,
+      "days": 332,
+      "releaseDate": "Apr 12, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm"
+    },
+    {
+      "emoji": "🚀",
       "tag": "100K+ ЗАГРУЗОК",
-      "name": "Alchemy Guardians",
-      "genre": "RPG · F5 Games",
+      "name": "mahjong.game.match.spirit.casual",
+      "genre": "Casual",
       "downloads": "100,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2025",
-      "url": "https://play.google.com/store/apps/details?id=com.f5game.ag"
+      "perDay": 16666,
+      "days": 6,
+      "releaseDate": "Mar 4, 2026",
+      "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual"
     },
     {
-      "emoji": "🌌",
-      "tag": "НОВИНКА · 10K+",
-      "name": "Neverness to Everness",
-      "genre": "Open World RPG · Hotta Studio",
-      "downloads": "10,000+",
-      "perDay": 0,
-      "days": 0,
-      "releaseDate": "2026",
-      "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte"
+      "emoji": "🚀",
+      "tag": "1M+ ЗАГРУЗОК",
+      "name": "com.newmoonproduction.bigfarmhomestead",
+      "genre": "Simulation",
+      "downloads": "1,000,000+",
+      "perDay": 10101,
+      "days": 99,
+      "releaseDate": "Dec 1, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.newmoonproduction.bigfarmhomestead"
     }
   ],
   "videos": [
     {
-      "title": "Brawl Stars Animation: Piper's Sugar & Spice!",
-      "views": 258946737,
-      "views_str": "259M",
-      "url": "https://www.youtube.com/watch?v=0cOsLTM5l9c",
-      "thumb": "https://img.youtube.com/vi/0cOsLTM5l9c/mqdefault.jpg",
-      "tag": "BRAWL STARS"
+      "vpd": 96632,
+      "views": 2898966,
+      "views_str": "2.9M",
+      "age_days": 30,
+      "title": "Cool Gaming Music 2026 ♫ Best Music Mix, NCS, Electronic, House ♫ Best Of EDM 2026",
+      "channel": "Freeme Music",
+      "url": "https://youtu.be/PP2Uvesx4ls",
+      "thumb": "https://img.youtube.com/vi/PP2Uvesx4ls/mqdefault.jpg",
+      "grade": "⚡"
     },
     {
-      "title": "End level camping in PUBG 🔥 Pro camper",
-      "views": 184779689,
-      "views_str": "185M",
-      "url": "https://www.youtube.com/watch?v=CWBFrctcQTM",
-      "thumb": "https://img.youtube.com/vi/CWBFrctcQTM/mqdefault.jpg",
-      "tag": "PUBG MOBILE"
+      "vpd": 40841,
+      "views": 1225257,
+      "views_str": "1.2M",
+      "age_days": 30,
+      "title": "СТРАШНАЯ РАБОТА? ► HELLMART",
+      "channel": "Kuplinov ► Play",
+      "url": "https://youtu.be/tbHb24IW9ZY",
+      "thumb": "https://img.youtube.com/vi/tbHb24IW9ZY/mqdefault.jpg",
+      "grade": "⚡"
     },
     {
-      "title": "Fortnite Chapter 2 Season 2 - Top Secret Trailer",
-      "views": 65389522,
-      "views_str": "65.4M",
-      "url": "https://www.youtube.com/watch?v=JgPXMxW7zJk",
-      "thumb": "https://img.youtube.com/vi/JgPXMxW7zJk/mqdefault.jpg",
-      "tag": "FORTNITE"
+      "vpd": 33152,
+      "views": 994572,
+      "views_str": "994K",
+      "age_days": 30,
+      "title": "Top 30 NEW Open World Games of 2026",
+      "channel": "gameranx",
+      "url": "https://youtu.be/SY_jMUantvw",
+      "thumb": "https://img.youtube.com/vi/SY_jMUantvw/mqdefault.jpg",
+      "grade": "⚡"
     },
     {
-      "title": "Clash Royale: Card Evolution (ft. Tenacious D!)",
-      "views": 45393218,
-      "views_str": "45.4M",
-      "url": "https://www.youtube.com/watch?v=6fo9gJ2nFdU",
-      "thumb": "https://img.youtube.com/vi/6fo9gJ2nFdU/mqdefault.jpg",
-      "tag": "CLASH ROYALE"
+      "vpd": 23985,
+      "views": 719564,
+      "views_str": "719K",
+      "age_days": 30,
+      "title": "15 PS5 Games Everyone's Talking About for 2026",
+      "channel": "NextGenGamers",
+      "url": "https://youtu.be/xQ5wr8pDwnM",
+      "thumb": "https://img.youtube.com/vi/xQ5wr8pDwnM/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "Ellen Character Demo - Zenless Zone Zero",
-      "views": 37985483,
-      "views_str": "38M",
-      "url": "https://www.youtube.com/watch?v=iOW8XhUce38",
-      "thumb": "https://img.youtube.com/vi/iOW8XhUce38/mqdefault.jpg",
-      "tag": "ZZZ"
+      "vpd": 18004,
+      "views": 540147,
+      "views_str": "540K",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of January 2026",
+      "channel": "gameranx",
+      "url": "https://youtu.be/h8ivdRs_Ukg",
+      "thumb": "https://img.youtube.com/vi/h8ivdRs_Ukg/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "Golden Time 🥺 Old Free Fire Nostalgia",
-      "views": 35320561,
-      "views_str": "35.3M",
-      "url": "https://www.youtube.com/watch?v=L359fMZSl4o",
-      "thumb": "https://img.youtube.com/vi/L359fMZSl4o/mqdefault.jpg",
-      "tag": "FREE FIRE"
+      "vpd": 16765,
+      "views": 502967,
+      "views_str": "502K",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of 2026 [First Half]",
+      "channel": "gameranx",
+      "url": "https://youtu.be/iZm0fI4yoIk",
+      "thumb": "https://img.youtube.com/vi/iZm0fI4yoIk/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "MONOPOLY GO! Official Trailer",
-      "views": 20036786,
-      "views_str": "20M",
-      "url": "https://www.youtube.com/watch?v=cwfoZy3mNTI",
-      "thumb": "https://img.youtube.com/vi/cwfoZy3mNTI/mqdefault.jpg",
-      "tag": "MONOPOLY GO"
+      "vpd": 15856,
+      "views": 475691,
+      "views_str": "475K",
+      "age_days": 30,
+      "title": "Why is EVERYBODY Playing This Game....",
+      "channel": "DotoDoya",
+      "url": "https://youtu.be/atPhv2XFSD8",
+      "thumb": "https://img.youtube.com/vi/atPhv2XFSD8/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "Brawl Stars: BUFFIES FOREVER!",
-      "views": 18618606,
-      "views_str": "18.6M",
-      "url": "https://www.youtube.com/watch?v=hd3h9jz9j-0",
-      "thumb": "https://img.youtube.com/vi/hd3h9jz9j-0/mqdefault.jpg",
-      "tag": "BRAWL STARS"
+      "vpd": 15131,
+      "views": 453943,
+      "views_str": "453K",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of February 2026",
+      "channel": "gameranx",
+      "url": "https://youtu.be/ws7cLrmJFYU",
+      "thumb": "https://img.youtube.com/vi/ws7cLrmJFYU/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "Defeat Dr. Eggman with Sonic - Squad Busters!",
-      "views": 5773229,
-      "views_str": "5.8M",
-      "url": "https://www.youtube.com/watch?v=NOYtqju2erM",
-      "thumb": "https://img.youtube.com/vi/NOYtqju2erM/mqdefault.jpg",
-      "tag": "SQUAD BUSTERS"
+      "vpd": 13590,
+      "views": 407706,
+      "views_str": "407K",
+      "age_days": 30,
+      "title": "The NEW Zombie Survival Game EVERYONE Wants to Play...",
+      "channel": "PartiallyRoyal",
+      "url": "https://youtu.be/F56XCC-wFzk",
+      "thumb": "https://img.youtube.com/vi/F56XCC-wFzk/mqdefault.jpg",
+      "grade": "📈"
     },
     {
-      "title": "VALORANT Mobile China Launch ft. BBNO$",
-      "views": 3443757,
-      "views_str": "3.4M",
-      "url": "https://www.youtube.com/watch?v=WyYiVdNhTE0",
-      "thumb": "https://img.youtube.com/vi/WyYiVdNhTE0/mqdefault.jpg",
-      "tag": "VALORANT"
+      "vpd": 12524,
+      "views": 375722,
+      "views_str": "375K",
+      "age_days": 30,
+      "title": "Top 50 NEW PC Games of 2026",
+      "channel": "gameranx",
+      "url": "https://youtu.be/S8hyguTBsSU",
+      "thumb": "https://img.youtube.com/vi/S8hyguTBsSU/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 12123,
+      "views": 363705,
+      "views_str": "363K",
+      "age_days": 30,
+      "title": "Top 10 NEW Games of March 2026",
+      "channel": "gameranx",
+      "url": "https://youtu.be/Ze2Bm3Yax3U",
+      "thumb": "https://img.youtube.com/vi/Ze2Bm3Yax3U/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 12003,
+      "views": 360109,
+      "views_str": "360K",
+      "age_days": 30,
+      "title": "21 NEW Games That Will BLOW UP the GAMING INDUSTRY in 2026!",
+      "channel": "GameRax",
+      "url": "https://youtu.be/ZcXiHGiDSeU",
+      "thumb": "https://img.youtube.com/vi/ZcXiHGiDSeU/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 11870,
+      "views": 356122,
+      "views_str": "356K",
+      "age_days": 30,
+      "title": "WHAT THE HELL IS GOING ON WITH XBOX & SONY, NEW GAME REVEALS & MORE",
+      "channel": "gameranx",
+      "url": "https://youtu.be/U6s875AaIdI",
+      "thumb": "https://img.youtube.com/vi/U6s875AaIdI/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 11156,
+      "views": 334695,
+      "views_str": "334K",
+      "age_days": 30,
+      "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
+      "channel": "Down to Top",
+      "url": "https://youtu.be/fPCrnvkMAcI",
+      "thumb": "https://img.youtube.com/vi/fPCrnvkMAcI/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 9323,
+      "views": 279697,
+      "views_str": "279K",
+      "age_days": 30,
+      "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
+      "channel": "Tekkan",
+      "url": "https://youtu.be/-AOxvO65Qu8",
+      "thumb": "https://img.youtube.com/vi/-AOxvO65Qu8/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 7625,
+      "views": 228777,
+      "views_str": "228K",
+      "age_days": 30,
+      "title": "GAME OF COURAGE 🔥 | DID ARTEM AND KRISTINA BREAK UP?!😱 | MUSIM ATE THE HOTTEST PEPPER IN THE WORL...",
+      "channel": "nikita…shulgin",
+      "url": "https://youtu.be/MUtfV52u4So",
+      "thumb": "https://img.youtube.com/vi/MUtfV52u4So/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 6015,
+      "views": 180467,
+      "views_str": "180K",
+      "age_days": 30,
+      "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
+      "channel": "Tekkan",
+      "url": "https://youtu.be/E7qMngvwXM4",
+      "thumb": "https://img.youtube.com/vi/E7qMngvwXM4/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 5963,
+      "views": 178904,
+      "views_str": "178K",
+      "age_days": 30,
+      "title": "12 Best NEW Games To Play In February 2026",
+      "channel": "Force Gaming",
+      "url": "https://youtu.be/4MnRvtQ3xKQ",
+      "thumb": "https://img.youtube.com/vi/4MnRvtQ3xKQ/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 5328,
+      "views": 159844,
+      "views_str": "159K",
+      "age_days": 30,
+      "title": "20 New PS5 Games That Will BLOW UP the GAMING INDUSTRY in 2026",
+      "channel": "NextGenGamers",
+      "url": "https://youtu.be/X82nmReYbk4",
+      "thumb": "https://img.youtube.com/vi/X82nmReYbk4/mqdefault.jpg",
+      "grade": "📈"
+    },
+    {
+      "vpd": 3908,
+      "views": 117262,
+      "views_str": "117K",
+      "age_days": 30,
+      "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
+      "channel": "Tekkan",
+      "url": "https://youtu.be/8PGiRMXwXxs",
+      "thumb": "https://img.youtube.com/vi/8PGiRMXwXxs/mqdefault.jpg",
+      "grade": "📊"
     }
   ],
-  "news": [
-    {
-      "emoji": "💰",
-      "source": "PhoneWorld",
-      "title": "Valorant Mobile набрал $1M за первый день в Китае",
-      "desc": "Tencent запустил Valorant Mobile в Китае - $1M выручки за первые сутки."
-    },
-    {
-      "emoji": "🍪",
-      "source": "Google Play",
-      "title": "CookieRun: OvenSmash перевалил за 10M загрузок",
-      "desc": "Новый экшн от Devsisters набрал 10M+ скачиваний на Google Play. Рейтинг 4.8★."
-    },
-    {
-      "emoji": "🏛️",
-      "source": "GamingonPhone",
-      "title": "Age of Empires: Survival - soft launch на Android",
-      "desc": "AoE пришла на мобильные. Уже 10M+ загрузок на Google Play."
-    },
-    {
-      "emoji": "🏆",
-      "source": "GamingonPhone",
-      "title": "MLMS дебютирует с прямым слотом на MSC 2026",
-      "desc": "Moba Legends Master Series стартует с местом на MSC 2026. MLBB eSports растёт."
-    },
-    {
-      "emoji": "🎮",
-      "source": "EGW News",
-      "title": "Fortnite FNCS 2026: $1M мобильный турнир",
-      "desc": "Epic Games анонсировала FNCS 2026 с $1M призовых для мобильных игроков."
-    },
-    {
-      "emoji": "📊",
-      "source": "PocketGamer.biz",
-      "title": "Чарты января: PUBG Mobile растёт, Microfun в топ-10",
-      "desc": "Новый издатель Microfun впервые в десятке лидеров мобильного гейминга."
-    },
-    {
-      "emoji": "🎬",
-      "source": "Steam",
-      "title": "Slay the Spire 2 вышла 5 марта",
-      "desc": "Roguelike-deckbuilder хит на Steam. Первая часть была топом на мобильных."
-    },
-    {
-      "emoji": "🔫",
-      "source": "TalkEsport",
-      "title": "Free Fire - самая скачиваемая мобильная Battle Royale в мире",
-      "desc": "Garena's Free Fire подтвердил статус самого скачиваемого мобильного BR глобально."
-    }
-  ],
-  "ideas": [
-    {
-      "emoji": "🍪",
-      "title": "Мультиплеер-экшн с IP (CookieRun модель)",
-      "priority": "🔥 HIGH",
-      "insight": "CookieRun OvenSmash: 10M+ загрузок, ★4.8. Формула: узнаваемый IP + real-time PvP + urban fantasy сеттинг. Даже без IP, стилизация под мемы/анимации может дать виральность.",
-      "signal": "CookieRun OvenSmash: 10M+ | Brawl Stars анимации: 259M views"
-    },
-    {
-      "emoji": "⚔️",
-      "title": "RPG-Roguelike (God Rivals модель)",
-      "priority": "🔥 HIGH",
-      "insight": "God Rivals набрал 5M+ загрузок. Roguelike + RPG прогрессия + gacha - проверенная формула. Slay the Spire 2 подогрел интерес к жанру.",
-      "signal": "God Rivals: 5M+ | Slay the Spire 2 хит на Steam"
-    },
-    {
-      "emoji": "🏛️",
-      "title": "Стратегия с большим IP (AoE/Warhammer модель)",
-      "priority": "⚡ MEDIUM",
-      "insight": "AoE Mobile: 10M+, Warhammer 40K: 10M+. Большие IP стратегий отлично заходят на мобильных. Для инди: оригинальный сеттинг + 4X-lite механики + клановые войны.",
-      "signal": "AoE Mobile: 10M+ | Warhammer 40K: 10M+"
-    },
-    {
-      "emoji": "👧",
-      "title": "Anime RPG с коллекцией персонажей",
-      "priority": "⚡ MEDIUM",
-      "insight": "Guild of Monster Girls: 50M+! Chillyroom (создатели Soul Knight) показывают что anime + коллекция + RPG = массовая аудитория. ZZZ Ellen demo набрал 38M views.",
-      "signal": "Guild of Monster Girls: 50M+ | ZZZ: 38M views на YouTube"
-    },
-    {
-      "emoji": "🎯",
-      "title": "Тактический шутер для мобильных",
-      "priority": "💤 LOW",
-      "insight": "Valorant Mobile - $1M за день. Но порог входа высок. Упрощённая версия с матчами по 3 мин может забрать casual-аудиторию.",
-      "signal": "Valorant Mobile: $1M/день в Китае"
-    }
-  ]
+  "news": [],
+  "ideas": []
 }
