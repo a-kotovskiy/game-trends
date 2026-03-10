@@ -863,7 +863,7 @@
 
   // RENDER STATS
   function renderStats(data) {
-    const totalViews = data.videos.reduce((s, v) => s + v.viewsNum, 0);
+    const totalViews = data.videos.reduce((s, v) => s + (v.views || v.viewsNum || 0), 0);
     const maxDay = Math.max(...data.rockets.map(r => r.perDay));
     document.getElementById('stats-bar').innerHTML = `
       <div class="stat-item">
