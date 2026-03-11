@@ -892,6 +892,15 @@
     btn.classList.add('active');
   }
 
+  function trendBadge(g) {
+    if (!g.trend || g.trend === 'stable') return '';
+    const pct = g.dpd_change_pct || 0;
+    if (g.trend === 'new') return '<span style="color:#f59e0b;font-size:0.7rem">🆕</span>';
+    if (g.trend === 'rising') return `<span style="color:#10b981;font-size:0.7rem">📈+${pct}%</span>`;
+    if (g.trend === 'falling') return `<span style="color:#ef4444;font-size:0.7rem">📉${pct}%</span>`;
+    return '';
+  }
+
   function renderRockets(data) {
     const grid = document.getElementById('rockets-grid');
     document.getElementById('rockets-count').textContent = data.length + ' игр';
@@ -919,7 +928,7 @@
             </div>
             <div class="rc-inline-stats">
               <div class="rc-inline-stat">
-                <div class="rc-inline-val">${g.perDay.toLocaleString()}</div>
+                <div class="rc-inline-val">${g.perDay.toLocaleString()} ${trendBadge(g)}</div>
                 <div class="rc-inline-lbl">уст/день</div>
               </div>
               <div class="rc-inline-stat">
@@ -1254,12 +1263,12 @@
   }
 
   // RENDER STATS
-  function renderStats(data) {
-    const totalViews = data.videos.reduce((s, v) => s + (v.views || v.viewsNum || 0), 0);
-    const maxDay = Math.max(...data.rockets.map(r => r.perDay));
+  function renderStats({rockets, videos, viral_trends}) {
+    const totalViews = videos.reduce((s, v) => s + (v.views || v.viewsNum || 0), 0);
+    const maxDay = rockets.length ? Math.max(...rockets.map(r => r.perDay)) : 0;
     document.getElementById('stats-bar').innerHTML = `
       <div class="stat-item">
-        <div class="stat-num">${data.rockets.length}</div>
+        <div class="stat-num">${rockets.length}</div>
         <div class="stat-lbl">Ракет Play</div>
       </div>
       <div class="stat-divider"></div>
@@ -1269,7 +1278,7 @@
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
-        <div class="stat-num">${data.videos.length}</div>
+        <div class="stat-num">${videos.length}</div>
         <div class="stat-lbl">Вирусных видео</div>
       </div>
       <div class="stat-divider"></div>
@@ -1279,63 +1288,62 @@
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
-        <div class="stat-num">${data.ideas.length}</div>
-        <div class="stat-lbl">Идей для игры</div>
+        <div class="stat-num">${viral_trends.length}</div>
+        <div class="stat-lbl">Хайп-трендов</div>
       </div>
     `;
   }
 
   // LOAD DATA
   async function loadData() {
+    const BASE = './';
+    const t = Date.now();
     try {
-      const res = await fetch('./data.json?t=' + Date.now());
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const data = await res.json();
+      const [rockets, hype, videos, news, ideas, meta] = await Promise.allSettled([
+        fetch(`${BASE}rockets.json?t=${t}`).then(r => r.ok ? r.json() : []),
+        fetch(`${BASE}hype.json?t=${t}`).then(r => r.ok ? r.json() : {}),
+        fetch(`${BASE}videos.json?t=${t}`).then(r => r.ok ? r.json() : []),
+        fetch(`${BASE}news.json?t=${t}`).then(r => r.ok ? r.json() : []),
+        fetch(`${BASE}ideas.json?t=${t}`).then(r => r.ok ? r.json() : []),
+        fetch(`${BASE}meta.json?t=${t}`).then(r => r.ok ? r.json() : {}),
+      ]);
 
-      document.getElementById('updated-date').textContent = data.updated || '—';
+      const rocketData = rockets.status === 'fulfilled' ? rockets.value : [];
+      const hypeData   = hype.status === 'fulfilled'    ? hype.value    : {};
+      const videoData  = videos.status === 'fulfilled'  ? videos.value  : [];
+      const newsData   = news.status === 'fulfilled'    ? news.value    : [];
+      const ideasData  = ideas.status === 'fulfilled'   ? ideas.value   : [];
+      const metaData   = meta.status === 'fulfilled'    ? meta.value    : {};
+
+      // Обновляем updated date
+      document.getElementById('updated-date').textContent = metaData.updated || '—';
 
       // Обогащаем viral_trends данными валидации
-      const validated = data.hype_validated || [];
+      const viralTrends = hypeData.viral_trends || [];
+      const validated   = hypeData.hype_validated || [];
       const validatedMap = {};
       validated.forEach(v => { if (v.url) validatedMap[v.url] = v; });
-      const viralTrends = (data.viral_trends || []).map(v => {
+      const enrichedTrends = viralTrends.map(v => {
         const val = validatedMap[v.url];
-        if (val) {
-          v.hype_score = val.hype_score;
-          v.hype_confirmed = val.hype_confirmed;
-          v.platforms = val.platforms;
-          v.yt_videos = val.yt_videos;
-          v.keywords = val.keywords;
-          v.gt_keyword = val.gt_keyword;
-          v.gt_url = val.gt_url;
-          v.yt_freshness = val.yt_freshness;
-          v.joint_hype = val.joint_hype;
-          v.sound_viral = val.sound_viral;
-          v.sound_video_count = val.sound_video_count;
-          v.sound_title = val.sound_title;
-          v.music_id = val.music_id;
-        }
+        if (val) Object.assign(v, {hype_score: val.hype_score, hype_confirmed: val.hype_confirmed, platforms: val.platforms, yt_videos: val.yt_videos, keywords: val.keywords, gt_keyword: val.gt_keyword, gt_url: val.gt_url, yt_freshness: val.yt_freshness, sound_viral: val.sound_viral, sound_video_count: val.sound_video_count, sound_title: val.sound_title, music_id: val.music_id, joint_hype: val.joint_hype});
         return v;
       });
-      // Добавляем validated которых нет в viral_trends
-      const existingUrls = new Set(viralTrends.map(v => v.url));
       validated.forEach(v => {
-        if (!existingUrls.has(v.url)) viralTrends.push(v);
+        if (!enrichedTrends.find(x => x.url === v.url)) enrichedTrends.push(v);
       });
-      // Сортируем: score=3 по vpd, score=2 по vpd, остальные по vpd
-      viralTrends.sort((a,b) => {
+      enrichedTrends.sort((a,b) => {
         const sa = (a.hype_score||1);
         const sb = (b.hype_score||1);
         if (sa !== sb) return sb - sa;
         return (b.vpd||0) - (a.vpd||0);
       });
 
-      renderStats(data);
-      renderRockets(data.rockets || []);
-      renderVideos(data.videos || []);
-      renderViralTrends(viralTrends, data.google_trends || []);
-      renderNews(data.news || []);
-      renderIdeas(data.ideas || []);
+      renderStats({rockets: rocketData, videos: videoData, viral_trends: enrichedTrends});
+      renderRockets(rocketData);
+      renderVideos(videoData);
+      renderViralTrends(enrichedTrends, hypeData.google_trends || []);
+      renderNews(newsData);
+      renderIdeas(ideasData);
 
     } catch (err) {
       console.error('Load error:', err);
