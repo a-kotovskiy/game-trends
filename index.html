@@ -1090,9 +1090,10 @@
     });
 
     const videosHtml = sorted.map(v => {
+      const isQuad = v.hype_score >= 4;
       const isTriple = v.hype_score === 3;
       const isDouble = v.hype_score === 2;
-      const cardClass = isTriple ? 'hype-card triple' : isDouble ? 'hype-card double' : 'hype-card';
+      const cardClass = isQuad ? 'hype-card triple' : isTriple ? 'hype-card triple' : isDouble ? 'hype-card double' : 'hype-card';
 
       // Форматируем VPD
       const vpdStr = v.vpd >= 1000000 ? (v.vpd/1000000).toFixed(1)+'M/д'
@@ -1150,6 +1151,22 @@
           <span style="font-size:0.75rem">🔍</span>
           <span class="hype-plat-text">Google Trends: <b>${gtKw}</b></span>
           <a href="${gtUrl}" target="_blank" rel="noopener" class="pl-btn gtrends">↗</a>
+        </div>`);
+      }
+
+      // Sound viral row
+      if (v.sound_viral && v.sound_video_count) {
+        const sc = v.sound_video_count;
+        const scStr = sc >= 1000000 ? (sc/1000000).toFixed(1)+'M' : sc >= 1000 ? Math.round(sc/1000)+'K' : sc;
+        const scColor = sc >= 100000 ? 'color:gold' : sc >= 10000 ? 'color:#10b981' : 'color:#94a3b8';
+        const soundTitle = v.sound_title || v.music || '';
+        const musicId = v.music_id || '';
+        const soundUrl = musicId ? `https://www.tiktok.com/music/${encodeURIComponent(soundTitle.replace(/\s+/g,'-'))}-${musicId}` : '';
+        const linkHtml = soundUrl ? `<a href="${soundUrl}" target="_blank" rel="noopener" class="pl-btn tiktok">↗</a>` : '';
+        platRows.push(`<div class="hype-plat-row">
+          <span style="font-size:0.75rem">🎵</span>
+          <span class="hype-plat-text" style="${scColor}">Звук: "${soundTitle.slice(0,40)}" — ${scStr} видео</span>
+          ${linkHtml}
         </div>`);
       }
 
@@ -1270,6 +1287,10 @@
           v.gt_url = val.gt_url;
           v.yt_freshness = val.yt_freshness;
           v.joint_hype = val.joint_hype;
+          v.sound_viral = val.sound_viral;
+          v.sound_video_count = val.sound_video_count;
+          v.sound_title = val.sound_title;
+          v.music_id = val.music_id;
         }
         return v;
       });
