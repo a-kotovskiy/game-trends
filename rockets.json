@@ -278,6 +278,29 @@
     ]
   },
   {
+    "id": "com.extreme.games.production.onehitpunch.games",
+    "name": "One Hit Punch",
+    "genre": "Adventure",
+    "score": 0,
+    "tag": "500K+",
+    "emoji": "🥊",
+    "icon": "https://play-lh.googleusercontent.com/ybQE_kXyTZV7co0NVzhy64hQ8iZr9lJCfBGgBhd4KAaudTmBVHuOcomyy8tlCbqmY0dGk4SLHsgWMkI9n7JxdJc",
+    "days": 4,
+    "releaseDate": "Mar 7, 2026",
+    "perDay": 131508,
+    "realInstalls": 526035,
+    "realInstallsStr": "526K",
+    "downloads": "526K",
+    "trend": "new",
+    "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/R-K9dkhi4N5T6Ctcdwb_GUMDgdLSy3x8nxaxmLI6mZNyHoq_CXNe5vOKR3omhskZJr_fmNYYVjePzaCnjna0jA",
+      "https://play-lh.googleusercontent.com/I0DIGNfUYqkAVzNi-kHrQVUb3QbRxDdxKOZ8zMJh2Ch1VAUbgrgq4U3thsG6rupUUT5N7N20c6QNJR8wlbvCwQ",
+      "https://play-lh.googleusercontent.com/BEM2VZ6JNWYiUbb1xbaH_hplYf3UQdVZxANEdq2u41KyMwX2I6OMunfbF5YSRvRmfk1JQpaP8ZJs51sdo3XQdQ"
+    ],
+    "reviewsByDay": {}
+  },
+  {
     "emoji": "🚀",
     "tag": "1M+",
     "name": "Warframe",
