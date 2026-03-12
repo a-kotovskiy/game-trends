@@ -296,7 +296,7 @@
     "downloads": "526K",
     "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
     "screenshots": [],
-    "reviewsByDay": []
+    "reviewsByDay": {}
   },
   {
     "emoji": "🚀",
@@ -800,6 +800,7 @@
     "id": "com.sohi.tileland.gp"
   },
   {
+    "id": "com.SpaghettiHouse.EscapeFromBlogger",
     "emoji": "🎮⭐",
     "tag": "Наша!",
     "name": "Побег от Блогера",
@@ -807,8 +808,7 @@
     "screenshots": [
       "https://play-lh.googleusercontent.com/pQMuCHpS4CZ8CfFbgShrrIOycuY2im3AfQ5fgYi2M2O5AHjG5OzkChibg-lMR9D4sqFeNGUA-5bouU1fbklYjBA=w300",
       "https://play-lh.googleusercontent.com/w4WI2vYTaHaIRZ-ToW3H16W4LM4tC0RNfnFZU5yroAOuVFobuYlmiQjMMEECsAIHN-50478jrG9bTJX8W0QRvr4=w300",
-      "https://play-lh.googleusercontent.com/0-uSbqpYVnEuKttKJr0reLaHo90CkFvGKvksOkI4x51sk_--C_Dmow2Ljj8N3Mv-fp1LP6oQiEm41cZE4uLB2w=w300",
-      "https://play-lh.googleusercontent.com/B6YPcTo1BmS3la_-uULKHGTUQeSVddXEiNiYkfyqtnIbqwCgfuJaXU7ZJeo8N0fSjrTJUoz_LIQ3oIENfuusbQ=w300"
+      "https://play-lh.googleusercontent.com/0-uSbqpYVnEuKttKJr0reLaHo90CkFvGKvksOkI4x51sk_--C_Dmow2Ljj8N3Mv-fp1LP6oQiEm41cZE4uLB2w=w300"
     ],
     "genre": "Экшен",
     "developer": "Spaghetti House",
@@ -828,7 +828,6 @@
     "summary": "Прячься, решай квесты-головоломки и соверши побег из дома блогера в хоррор игре!",
     "url": "https://play.google.com/store/apps/details?id=com.SpaghettiHouse.EscapeFromBlogger",
     "reviewsByDay": [],
-    "pinned": true,
-    "id": "com.SpaghettiHouse.EscapeFromBlogger"
+    "pinned": true
   }
 ]
