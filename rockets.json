@@ -25,7 +25,7 @@
     "releaseDate": "Feb 25, 2026",
     "lastUpdated": "Mar 4, 2026",
     "summary": "Run, jump, dodge and explore Subway Surfers City on your hoverboard!",
-    "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf",
+    "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
     "reviewsByDay": [
       {
         "date": "2026-03-03",
@@ -60,7 +60,7 @@
         "count": 18
       }
     ],
-    "id": "com.kiloo.subwaysurf"
+    "id": "com.sybogames.subway.surfers.game"
   },
   {
     "emoji": "🚀🔥",
@@ -88,7 +88,7 @@
     "releaseDate": "Feb 23, 2026",
     "lastUpdated": "Mar 3, 2026",
     "summary": "Mark your calendar! Global launch is on February 23, 2026",
-    "url": "https://play.google.com/store/apps/details?id=com.ubisoft.r6mobile",
+    "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
     "reviewsByDay": [
       {
         "date": "2026-02-27",
@@ -139,7 +139,7 @@
         "count": 10
       }
     ],
-    "id": "com.ubisoft.r6mobile"
+    "id": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter"
   },
   {
     "emoji": "🚀🔥",
@@ -167,7 +167,7 @@
     "releaseDate": "Feb 12, 2026",
     "lastUpdated": "Feb 26, 2026",
     "summary": "Most Realistic 3D Cricket Game with Ultra Graphics & Officially Licensed Players",
-    "url": "https://play.google.com/store/apps/details?id=com.nawaricompany.dreamcricket2024",
+    "url": "https://play.google.com/store/apps/details?id=in.dreamgamestudios.games.sports.dreamcricket3d",
     "reviewsByDay": [
       {
         "date": "2026-02-12",
@@ -278,7 +278,7 @@
         "count": 5
       }
     ],
-    "id": "com.nawaricompany.dreamcricket2024"
+    "id": "in.dreamgamestudios.games.sports.dreamcricket3d"
   },
   {
     "id": "com.extreme.games.production.onehitpunch.games",
@@ -286,7 +286,7 @@
     "genre": "Adventure",
     "score": 0,
     "tag": "500K+",
-    "emoji": "🥊",
+    "emoji": "🚀🔥",
     "icon": "https://play-lh.googleusercontent.com/ybQE_kXyTZV7co0NVzhy64hQ8iZr9lJCfBGgBhd4KAaudTmBVHuOcomyy8tlCbqmY0dGk4SLHsgWMkI9n7JxdJc",
     "days": 4,
     "releaseDate": "Mar 7, 2026",
@@ -294,13 +294,8 @@
     "realInstalls": 526035,
     "realInstallsStr": "526K",
     "downloads": "526K",
-    "trend": "new",
     "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/R-K9dkhi4N5T6Ctcdwb_GUMDgdLSy3x8nxaxmLI6mZNyHoq_CXNe5vOKR3omhskZJr_fmNYYVjePzaCnjna0jA",
-      "https://play-lh.googleusercontent.com/I0DIGNfUYqkAVzNi-kHrQVUb3QbRxDdxKOZ8zMJh2Ch1VAUbgrgq4U3thsG6rupUUT5N7N20c6QNJR8wlbvCwQ",
-      "https://play-lh.googleusercontent.com/BEM2VZ6JNWYiUbb1xbaH_hplYf3UQdVZxANEdq2u41KyMwX2I6OMunfbF5YSRvRmfk1JQpaP8ZJs51sdo3XQdQ"
-    ],
+    "screenshots": [],
     "reviewsByDay": {}
   },
   {
@@ -499,7 +494,7 @@
     "releaseDate": "Feb 27, 2026",
     "lastUpdated": "Feb 27, 2026",
     "summary": "Get ALL Pets just by checking in!",
-    "url": "https://play.google.com/store/apps/details?id=com.cherrypick.stoneageidle",
+    "url": "https://play.google.com/store/apps/details?id=com.netmarble.stonkey",
     "reviewsByDay": [
       {
         "date": "2026-03-02",
@@ -534,7 +529,7 @@
         "count": 8
       }
     ],
-    "id": "com.cherrypick.stoneageidle"
+    "id": "com.netmarble.stonkey"
   },
   {
     "emoji": "🚀",
@@ -562,7 +557,7 @@
     "releaseDate": "Mar 4, 2026",
     "lastUpdated": "Mar 6, 2026",
     "summary": "Simple tile matching meets classic Mahjong, bringing pure peace of mind.",
-    "url": "https://play.google.com/store/apps/details?id=com.easybrain.mahjong.master",
+    "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual",
     "reviewsByDay": [
       {
         "date": "2026-03-05",
@@ -577,7 +572,7 @@
         "count": 2
       }
     ],
-    "id": "com.easybrain.mahjong.master"
+    "id": "mahjong.game.match.spirit.casual"
   },
   {
     "emoji": "⚡",
@@ -605,7 +600,7 @@
     "releaseDate": "Feb 24, 2026",
     "lastUpdated": "Feb 19, 2026",
     "summary": "Your choices determine the future.",
-    "url": "https://play.google.com/store/apps/details?id=com.konami.medabots.survivors",
+    "url": "https://play.google.com/store/apps/details?id=jp.co.imagineer.medarotsurvivors",
     "reviewsByDay": [
       {
         "date": "2026-02-25",
@@ -660,7 +655,7 @@
         "count": 6
       }
     ],
-    "id": "com.konami.medabots.survivors"
+    "id": "jp.co.imagineer.medarotsurvivors"
   },
   {
     "emoji": "⚡",
@@ -688,7 +683,7 @@
     "releaseDate": "Feb 12, 2026",
     "lastUpdated": null,
     "summary": "The Chain Action RPG",
-    "url": "https://play.google.com/store/apps/details?id=com.applibot.abyssdia",
+    "url": "https://play.google.com/store/apps/details?id=com.nhn.abyssdia",
     "reviewsByDay": [
       {
         "date": "2026-02-19",
@@ -755,7 +750,7 @@
         "count": 3
       }
     ],
-    "id": "com.applibot.abyssdia"
+    "id": "com.nhn.abyssdia"
   },
   {
     "emoji": "⚡",
@@ -783,7 +778,7 @@
     "releaseDate": "Feb 16, 2026",
     "lastUpdated": "Mar 4, 2026",
     "summary": "Relax, match tiles, and collect scenes in Tile Land — a cozy triple match!",
-    "url": "https://play.google.com/store/apps/details?id=com.matchgame.tileland",
+    "url": "https://play.google.com/store/apps/details?id=com.sohi.tileland.gp",
     "reviewsByDay": [
       {
         "date": "2026-02-19",
@@ -802,6 +797,6 @@
         "count": 1
       }
     ],
-    "id": "com.matchgame.tileland"
+    "id": "com.sohi.tileland.gp"
   }
 ]
