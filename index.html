@@ -313,6 +313,7 @@
     .progress-bar { background: var(--bg3); border-radius: 4px; height: 5px; }
     .progress-fill { height: 100%; border-radius: 4px; background: var(--gradient); }
 
+    .watchlist-header { border-top: 1px solid var(--border); padding-top: 24px; }
     .rc-watchlist-badge { display: inline-block; background: linear-gradient(135deg,#7c3aed,#a855f7); color:#fff; font-size:0.7rem; font-weight:700; padding:3px 10px; border-radius:20px; margin-bottom:10px; letter-spacing:0.05em; }
     .rc-reviews-chart { margin-bottom: 14px; }
     .rc-reviews-title { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
@@ -792,15 +793,29 @@
 
   <!-- ROCKETS -->
   <section class="tab-section active" id="section-rockets">
+    <!-- ТОП ХАЙПА -->
     <div class="section-header">
       <div class="section-icon">🚀</div>
       <div>
-        <div class="section-title">Ракеты Google Play</div>
-        <div class="section-subtitle">Новинки с >1K скачиваний в день, последние 6 мес.</div>
+        <div class="section-title">Топ хайпа</div>
+        <div class="section-subtitle">Новинки с взрывным ростом прямо сейчас</div>
       </div>
       <div class="section-count" id="rockets-count">...</div>
     </div>
     <div class="rockets-list" id="rockets-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+
+    <!-- WATCHLIST -->
+    <div class="section-header watchlist-header" style="margin-top:32px">
+      <div class="section-icon">👁</div>
+      <div>
+        <div class="section-title">Слежу</div>
+        <div class="section-subtitle">Проекты на радаре — собираем статистику отдельно</div>
+      </div>
+      <div class="section-count" id="watchlist-count">...</div>
+    </div>
+    <div class="rockets-list" id="watchlist-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
   </section>
@@ -897,13 +912,12 @@
     return '';
   }
 
-  function renderRockets(data) {
-    const grid = document.getElementById('rockets-grid');
-    document.getElementById('rockets-count').textContent = data.length + ' игр';
-    document.getElementById('tab-count-rockets').textContent = data.length;
-    window._rocketData = data;
+  function renderRocketCards(data, gridId, offset) {
+    const grid = document.getElementById(gridId);
+    if (!data || !data.length) { grid.innerHTML = '<div style="color:var(--text-muted);padding:20px">Нет данных</div>'; return; }
     const maxPerDay = Math.max(...data.map(r => r.perDay), 1);
     grid.innerHTML = data.map((g, i) => {
+      const idx = offset + i;
       const pct = Math.round((g.perDay / maxPerDay) * 100);
       const iconHtml = g.icon
         ? `<img src="${g.icon}" alt="${g.name}" loading="lazy" onerror="this.parentElement.innerHTML='${g.emoji}'">`
@@ -912,7 +926,7 @@
         `<img src="${s}" loading="lazy" onerror="this.style.display='none'">`
       ).join('');
       return `
-        <div class="card rocket-card" onclick="toggleRocket(this)">
+        <div class="card rocket-card" data-rocket-idx="${idx}" onclick="toggleRocket(this)">
           <div class="rc-head">
             <div class="game-emoji">${iconHtml}</div>
             <div class="rc-info">
@@ -962,9 +976,8 @@
               <div class="rc-prog-row"><span>Скорость роста</span><span>${pct}% от топа</span></div>
               <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
             </div>
-            ${g.isWatchlist ? `<div class="rc-watchlist-badge">👁 Наша игра</div>` : ''}
-            ${renderDpdChart(g.dpdHistory, `dpd-chart-${i}`)}
-            ${renderReviewsChart(g.reviewsByDay, `chart-${i}`)}
+            ${renderDpdChart(g.dpdHistory, `dpd-chart-${idx}`)}
+            ${renderReviewsChart(g.reviewsByDay, `chart-${idx}`)}
             ${screens ? `<div class="rc-screenshots">${screens}</div>` : ''}
             <div class="rc-footer">
               <span>📅 ${g.releaseDate}${g.developer ? ' · ' + g.developer : ''}</span>
@@ -973,6 +986,20 @@
           </div>
         </div>`;
     }).join('');
+  }
+
+  function renderRockets(rockets, watchlist) {
+    // Топ
+    document.getElementById('rockets-count').textContent = (rockets || []).length + ' игр';
+    document.getElementById('tab-count-rockets').textContent = (rockets || []).length;
+    // Watchlist
+    const wlCount = document.getElementById('watchlist-count');
+    if (wlCount) wlCount.textContent = (watchlist || []).length + ' игр';
+
+    // Единый массив для поиска по idx при toggleRocket
+    window._rocketData = (rockets || []).concat(watchlist || []);
+    renderRocketCards(rockets || [], 'rockets-grid', 0);
+    renderRocketCards(watchlist || [], 'watchlist-grid', (rockets || []).length);
   }
 
   const chartInstances = {};
@@ -1104,7 +1131,7 @@
   function toggleRocket(el) {
     el.classList.toggle('open');
     if (el.classList.contains('open')) {
-      const idx = Array.from(el.parentElement.children).indexOf(el);
+      const idx = parseInt(el.dataset.rocketIdx);
       const rocket = window._rocketData && window._rocketData[idx];
       if (rocket) {
         initDpdChart(`dpd-chart-${idx}`, rocket.dpdHistory);
@@ -1364,7 +1391,10 @@
         fetch(`${BASE}meta.json?t=${t}`).then(r => r.ok ? r.json() : {}),
       ]);
 
-      const rocketData = rockets.status === 'fulfilled' ? rockets.value : [];
+      const rocketRaw  = rockets.status === 'fulfilled' ? rockets.value : {};
+      // Поддержка нового формата {"rockets": [...], "watchlist": [...]} и старого (массив)
+      const rocketData    = Array.isArray(rocketRaw) ? rocketRaw : (rocketRaw.rockets || []);
+      const watchlistData = Array.isArray(rocketRaw) ? [] : (rocketRaw.watchlist || []);
       const hypeData   = hype.status === 'fulfilled'    ? hype.value    : {};
       const videoData  = videos.status === 'fulfilled'  ? videos.value  : [];
       const newsData   = news.status === 'fulfilled'    ? news.value    : [];
@@ -1395,7 +1425,7 @@
       });
 
       renderStats({rockets: rocketData, videos: videoData, viral_trends: enrichedTrends});
-      renderRockets(rocketData);
+      renderRockets(rocketData, watchlistData);
       renderVideos(videoData);
       renderViralTrends(enrichedTrends, hypeData.google_trends || []);
       renderNews(newsData);
