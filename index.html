@@ -313,6 +313,7 @@
     .progress-bar { background: var(--bg3); border-radius: 4px; height: 5px; }
     .progress-fill { height: 100%; border-radius: 4px; background: var(--gradient); }
 
+    .rc-watchlist-badge { display: inline-block; background: linear-gradient(135deg,#7c3aed,#a855f7); color:#fff; font-size:0.7rem; font-weight:700; padding:3px 10px; border-radius:20px; margin-bottom:10px; letter-spacing:0.05em; }
     .rc-reviews-chart { margin-bottom: 14px; }
     .rc-reviews-title { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
     .rc-chart-canvas { width: 100% !important; height: 180px !important; }
@@ -961,6 +962,8 @@
               <div class="rc-prog-row"><span>Скорость роста</span><span>${pct}% от топа</span></div>
               <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
             </div>
+            ${g.isWatchlist ? `<div class="rc-watchlist-badge">👁 Наша игра</div>` : ''}
+            ${renderDpdChart(g.dpdHistory, `dpd-chart-${i}`)}
             ${renderReviewsChart(g.reviewsByDay, `chart-${i}`)}
             ${screens ? `<div class="rc-screenshots">${screens}</div>` : ''}
             <div class="rc-footer">
@@ -973,6 +976,14 @@
   }
 
   const chartInstances = {};
+
+  function renderDpdChart(dpdHistory, chartId) {
+    if (!dpdHistory || !Array.isArray(dpdHistory) || dpdHistory.length < 2) return '';
+    return `<div class="rc-reviews-chart">
+      <div class="rc-reviews-title">📈 Установки/день · история</div>
+      <canvas id="${chartId}" class="rc-chart-canvas"></canvas>
+    </div>`;
+  }
 
   function renderReviewsChart(reviewsByDay, chartId) {
     if (!reviewsByDay || !Array.isArray(reviewsByDay) || reviewsByDay.length < 2) return '';
@@ -1040,16 +1051,64 @@
     });
   }
 
+  function initDpdChart(chartId, dpdHistory) {
+    if (!dpdHistory || !Array.isArray(dpdHistory) || dpdHistory.length < 2) return;
+    const canvas = document.getElementById(chartId);
+    if (!canvas || chartInstances[chartId]) return;
+    const labels = dpdHistory.map(d => d.date.slice(5));
+    const data = dpdHistory.map(d => d.dpd);
+    chartInstances[chartId] = new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [{
+          label: 'Уст./день',
+          data,
+          borderColor: 'rgba(16, 185, 129, 1)',
+          backgroundColor: 'rgba(16, 185, 129, 0.15)',
+          borderWidth: 2,
+          pointBackgroundColor: 'rgba(16, 185, 129, 1)',
+          pointRadius: 4,
+          pointHoverRadius: 6,
+          fill: true,
+          tension: 0.4,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: (items) => dpdHistory[items[0].dataIndex].date,
+              label: (item) => `  ${item.raw.toLocaleString()} уст./день`
+            },
+            backgroundColor: '#1e1e35',
+            borderColor: 'rgba(16,185,129,0.5)',
+            borderWidth: 1,
+            titleColor: '#6ee7b7',
+            bodyColor: '#e2e8f0',
+            padding: 10,
+          }
+        },
+        scales: {
+          x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#6b7280', font: { size: 10 } } },
+          y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#6b7280', font: { size: 10 }, callback: v => v >= 1000 ? Math.round(v/1000)+'K' : v }, beginAtZero: true }
+        }
+      }
+    });
+  }
+
   function toggleRocket(el) {
     el.classList.toggle('open');
     if (el.classList.contains('open')) {
-      // Инициализируем Chart.js график если ещё не создан
-      const canvas = el.querySelector('canvas[id^="chart-"]');
-      if (canvas) {
-        const chartId = canvas.id;
-        const idx = parseInt(chartId.split('-')[1]);
-        const rocket = window._rocketData && window._rocketData[idx];
-        if (rocket) initChart(chartId, rocket.reviewsByDay);
+      const idx = Array.from(el.parentElement.children).indexOf(el);
+      const rocket = window._rocketData && window._rocketData[idx];
+      if (rocket) {
+        initDpdChart(`dpd-chart-${idx}`, rocket.dpdHistory);
+        initChart(`chart-${idx}`, rocket.reviewsByDay);
       }
     }
   }

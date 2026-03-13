@@ -19,7 +19,7 @@
     "perDay": 801370,
     "days": 16,
     "score": 4.8,
-    "ratings": 198093,
+    "ratings": 198245,
     "ratingsStr": "198K",
     "contentRating": "Everyone 10+",
     "offersIAP": true,
@@ -30,7 +30,7 @@
     "reviewsByDay": [
       {
         "date": "2026-03-04",
-        "count": 409
+        "count": 401
       },
       {
         "date": "2026-03-05",
@@ -62,12 +62,30 @@
       },
       {
         "date": "2026-03-12",
-        "count": 107
+        "count": 115
+      }
+    ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-11",
+        "dpd": 885751,
+        "installs": 12400521
+      },
+      {
+        "date": "2026-03-12",
+        "dpd": 841823,
+        "installs": 12627356
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 792959,
+        "installs": 12687355
       }
     ],
     "trend": "stable",
     "dpd_prev": 841823,
-    "dpd_change_pct": -5
+    "dpd_change_pct": -5,
+    "isWatchlist": false
   },
   {
     "id": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
@@ -89,7 +107,7 @@
     "perDay": 610496,
     "days": 18,
     "score": 4.5,
-    "ratings": 94332,
+    "ratings": 94372,
     "ratingsStr": "94K",
     "contentRating": "Teen",
     "offersIAP": true,
@@ -100,7 +118,7 @@
     "reviewsByDay": [
       {
         "date": "2026-02-27",
-        "count": 75
+        "count": 70
       },
       {
         "date": "2026-02-28",
@@ -120,7 +138,7 @@
       },
       {
         "date": "2026-03-04",
-        "count": 250
+        "count": 249
       },
       {
         "date": "2026-03-05",
@@ -152,12 +170,30 @@
       },
       {
         "date": "2026-03-12",
-        "count": 51
+        "count": 57
+      }
+    ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-11",
+        "dpd": 681870,
+        "installs": 10909929
+      },
+      {
+        "date": "2026-03-12",
+        "dpd": 641760,
+        "installs": 10909929
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 610496,
+        "installs": 10988942
       }
     ],
     "trend": "stable",
     "dpd_prev": 641760,
-    "dpd_change_pct": -5
+    "dpd_change_pct": -5,
+    "isWatchlist": false
   },
   {
     "id": "in.dreamgamestudios.games.sports.dreamcricket3d",
@@ -222,7 +258,7 @@
       },
       {
         "date": "2026-02-20",
-        "count": 144
+        "count": 143
       },
       {
         "date": "2026-02-21",
@@ -302,12 +338,30 @@
       },
       {
         "date": "2026-03-12",
-        "count": 30
+        "count": 36
+      }
+    ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-11",
+        "dpd": 628856,
+        "installs": 16979113
+      },
+      {
+        "date": "2026-03-12",
+        "dpd": 607782,
+        "installs": 17017915
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 586824,
+        "installs": 17017915
       }
     ],
     "trend": "stable",
     "dpd_prev": 607782,
-    "dpd_change_pct": -3
+    "dpd_change_pct": -3,
+    "isWatchlist": false
   },
   {
     "id": "com.peerplay.megamerge",
@@ -329,8 +383,8 @@
     "perDay": 485326,
     "days": 2,
     "score": 4.6,
-    "ratings": 325,
-    "ratingsStr": "325",
+    "ratings": 328,
+    "ratingsStr": "328",
     "contentRating": "Everyone",
     "offersIAP": true,
     "releaseDate": "Mar 11, 2026",
@@ -343,9 +397,22 @@
         "count": 1
       }
     ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-12",
+        "dpd": 969281,
+        "installs": 969281
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 485326,
+        "installs": 970653
+      }
+    ],
     "trend": "falling",
     "dpd_prev": 969281,
-    "dpd_change_pct": -50
+    "dpd_change_pct": -50,
+    "isWatchlist": false
   },
   {
     "id": "com.phs.global",
@@ -418,12 +485,30 @@
       },
       {
         "date": "2026-03-12",
-        "count": 10
+        "count": 11
+      }
+    ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-11",
+        "dpd": 343248,
+        "installs": 3775734
+      },
+      {
+        "date": "2026-03-12",
+        "dpd": 330746,
+        "installs": 3968955
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 313084,
+        "installs": 4070095
       }
     ],
     "trend": "stable",
     "dpd_prev": 330746,
-    "dpd_change_pct": -5
+    "dpd_change_pct": -5,
+    "isWatchlist": false
   },
   {
     "id": "com.obby.parkour.prison.runner.game3d",
@@ -459,9 +544,22 @@
         "count": 1
       }
     ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-12",
+        "dpd": 179590,
+        "installs": 2334670
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 166820,
+        "installs": 2335485
+      }
+    ],
     "trend": "stable",
     "dpd_prev": 179590,
-    "dpd_change_pct": -7
+    "dpd_change_pct": -7,
+    "isWatchlist": false
   },
   {
     "id": "com.peri.game.mall.shopping.fast.food.simulator.business",
@@ -517,9 +615,22 @@
         "count": 1
       }
     ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-12",
+        "dpd": 170878,
+        "installs": 1025270
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 146756,
+        "installs": 1027298
+      }
+    ],
     "trend": "falling",
     "dpd_prev": 170878,
-    "dpd_change_pct": -14
+    "dpd_change_pct": -14,
+    "isWatchlist": false
   },
   {
     "id": "com.extreme.games.production.onehitpunch.games",
@@ -550,9 +661,27 @@
     "summary": "Tap fast, punch hard and rise as the champion of epic punch battles.",
     "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
     "reviewsByDay": [],
+    "dpdHistory": [
+      {
+        "date": "2026-03-11",
+        "dpd": 131508,
+        "installs": 526035
+      },
+      {
+        "date": "2026-03-12",
+        "dpd": 106661,
+        "installs": 533307
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 89266,
+        "installs": 535596
+      }
+    ],
     "trend": "falling",
     "dpd_prev": 106661,
-    "dpd_change_pct": -16
+    "dpd_change_pct": -16,
+    "isWatchlist": true
   },
   {
     "id": "com.digitalextremes.warframemobile",
@@ -574,7 +703,7 @@
     "perDay": 84664,
     "days": 23,
     "score": 4.3,
-    "ratings": 20722,
+    "ratings": 20731,
     "ratingsStr": "20K",
     "contentRating": "Mature 17+",
     "offersIAP": true,
@@ -585,7 +714,7 @@
     "reviewsByDay": [
       {
         "date": "2026-02-18",
-        "count": 772
+        "count": 771
       },
       {
         "date": "2026-02-19",
@@ -673,12 +802,30 @@
       },
       {
         "date": "2026-03-12",
-        "count": 13
+        "count": 14
+      }
+    ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-11",
+        "dpd": 91680,
+        "installs": 1925299
+      },
+      {
+        "date": "2026-03-12",
+        "dpd": 87779,
+        "installs": 1931142
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 84664,
+        "installs": 1947275
       }
     ],
     "trend": "stable",
     "dpd_prev": 87779,
-    "dpd_change_pct": -4
+    "dpd_change_pct": -4,
+    "isWatchlist": false
   },
   {
     "id": "com.runawayplay.dragons",
@@ -700,7 +847,7 @@
     "perDay": 77188,
     "days": 9,
     "score": 4.8,
-    "ratings": 16181,
+    "ratings": 16255,
     "ratingsStr": "16K",
     "contentRating": "Everyone",
     "offersIAP": true,
@@ -743,11 +890,84 @@
       },
       {
         "date": "2026-03-12",
-        "count": 25
+        "count": 27
+      }
+    ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-11",
+        "dpd": 82946,
+        "installs": 580627
+      },
+      {
+        "date": "2026-03-12",
+        "dpd": 79029,
+        "installs": 632238
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 77188,
+        "installs": 694692
       }
     ],
     "trend": "stable",
     "dpd_prev": 79029,
-    "dpd_change_pct": -2
+    "dpd_change_pct": -2,
+    "isWatchlist": true
+  },
+  {
+    "id": "com.SpaghettiHouse.EscapeFromBlogger",
+    "emoji": "🚀",
+    "tag": "50K+ УСТАНОВОК",
+    "name": "Escape from Vlogger: Runaway",
+    "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/pQMuCHpS4CZ8CfFbgShrrIOycuY2im3AfQ5fgYi2M2O5AHjG5OzkChibg-lMR9D4sqFeNGUA-5bouU1fbklYjBA=w300",
+      "https://play-lh.googleusercontent.com/w4WI2vYTaHaIRZ-ToW3H16W4LM4tC0RNfnFZU5yroAOuVFobuYlmiQjMMEECsAIHN-50478jrG9bTJX8W0QRvr4=w300",
+      "https://play-lh.googleusercontent.com/0-uSbqpYVnEuKttKJr0reLaHo90CkFvGKvksOkI4x51sk_--C_Dmow2Ljj8N3Mv-fp1LP6oQiEm41cZE4uLB2w=w300",
+      "https://play-lh.googleusercontent.com/B6YPcTo1BmS3la_-uULKHGTUQeSVddXEiNiYkfyqtnIbqwCgfuJaXY7ZJeo8N0fSjrTJUoz_LIQ3oIENfuusbQ=w300"
+    ],
+    "genre": "Action",
+    "developer": "Spaghetti House",
+    "downloads": "50,000+",
+    "realInstalls": 63756,
+    "realInstallsStr": "64K",
+    "perDay": 21252,
+    "days": 3,
+    "score": 4.8,
+    "ratings": 1779,
+    "ratingsStr": "1K",
+    "contentRating": "Teen",
+    "offersIAP": false,
+    "releaseDate": "Mar 10, 2026",
+    "lastUpdated": "Mar 10, 2026",
+    "summary": "Hide seek, solve puzzle quests, and escape the vlogger’s house in a horror game",
+    "url": "https://play.google.com/store/apps/details?id=com.SpaghettiHouse.EscapeFromBlogger",
+    "reviewsByDay": [
+      {
+        "date": "2026-03-11",
+        "count": 4
+      },
+      {
+        "date": "2026-03-12",
+        "count": 1
+      }
+    ],
+    "dpdHistory": [
+      {
+        "date": "2026-03-12",
+        "dpd": 14933,
+        "installs": 29866
+      },
+      {
+        "date": "2026-03-13",
+        "dpd": 21252,
+        "installs": 63756
+      }
+    ],
+    "trend": "rising",
+    "dpd_prev": 14933,
+    "dpd_change_pct": 42,
+    "isWatchlist": true
   }
 ]
