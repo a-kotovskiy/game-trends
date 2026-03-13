@@ -1090,7 +1090,8 @@
   function renderNews(data) {
     const grid = document.getElementById('news-grid');
     document.getElementById('news-count').textContent = data.length + ' новостей';
-    document.getElementById('tab-count-news').textContent = data.length;
+    const newsTabCount = document.getElementById('tab-count-news');
+    if (newsTabCount) newsTabCount.textContent = data.length;
     grid.innerHTML = data.map(n => `
       <div class="card news-card">
         <div class="news-emoji">${n.emoji}</div>
@@ -1238,7 +1239,8 @@
   function renderIdeas(data) {
     const grid = document.getElementById('ideas-grid');
     document.getElementById('ideas-count').textContent = data.length + ' идеи';
-    document.getElementById('tab-count-ideas').textContent = data.length;
+    const ideasTabCount = document.getElementById('tab-count-ideas');
+    if (ideasTabCount) ideasTabCount.textContent = data.length;
     grid.innerHTML = data.map(i => {
       const tags = (i.tags || []).join(' · ');
       const difficulty = i.difficulty || '';
