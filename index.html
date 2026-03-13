@@ -975,7 +975,7 @@
   const chartInstances = {};
 
   function renderReviewsChart(reviewsByDay, chartId) {
-    if (!reviewsByDay || reviewsByDay.length < 2) return '';
+    if (!reviewsByDay || !Array.isArray(reviewsByDay) || reviewsByDay.length < 2) return '';
     const total = reviewsByDay.reduce((s, d) => s + d.count, 0);
     return `<div class="rc-reviews-chart">
       <div class="rc-reviews-title">📝 Отзывы по дням · ${total} за период</div>
@@ -984,7 +984,7 @@
   }
 
   function initChart(chartId, reviewsByDay) {
-    if (!reviewsByDay || reviewsByDay.length < 2) return;
+    if (!reviewsByDay || !Array.isArray(reviewsByDay) || reviewsByDay.length < 2) return;
     const canvas = document.getElementById(chartId);
     if (!canvas || chartInstances[chartId]) return;
     const labels = reviewsByDay.map(d => d.date.slice(5)); // MM-DD
