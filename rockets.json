@@ -1,5 +1,6 @@
 [
   {
+    "id": "com.sybogames.subway.surfers.game",
     "emoji": "🚀🔥",
     "tag": "10M+",
     "name": "Subway Surfers City",
@@ -13,13 +14,13 @@
     "genre": "Action",
     "developer": "SYBO Games",
     "downloads": "10,000,000+",
-    "realInstalls": 12182068,
-    "realInstallsStr": "12.2M",
-    "perDay": 870147,
-    "days": 14,
+    "realInstalls": 12821935,
+    "realInstallsStr": "12.8M",
+    "perDay": 801370,
+    "days": 16,
     "score": 4.8,
-    "ratings": 191430,
-    "ratingsStr": "191K",
+    "ratings": 198093,
+    "ratingsStr": "198K",
     "contentRating": "Everyone 10+",
     "offersIAP": true,
     "releaseDate": "Feb 25, 2026",
@@ -28,41 +29,48 @@
     "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
     "reviewsByDay": [
       {
-        "date": "2026-03-03",
-        "count": 428
-      },
-      {
         "date": "2026-03-04",
-        "count": 729
+        "count": 409
       },
       {
         "date": "2026-03-05",
-        "count": 655
+        "count": 654
       },
       {
         "date": "2026-03-06",
-        "count": 623
+        "count": 619
       },
       {
         "date": "2026-03-07",
-        "count": 614
+        "count": 609
       },
       {
         "date": "2026-03-08",
-        "count": 506
+        "count": 501
       },
       {
         "date": "2026-03-09",
-        "count": 427
+        "count": 420
       },
       {
         "date": "2026-03-10",
-        "count": 18
+        "count": 349
+      },
+      {
+        "date": "2026-03-11",
+        "count": 332
+      },
+      {
+        "date": "2026-03-12",
+        "count": 107
       }
     ],
-    "id": "com.sybogames.subway.surfers.game"
+    "trend": "stable",
+    "dpd_prev": 841823,
+    "dpd_change_pct": -5
   },
   {
+    "id": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
     "emoji": "🚀🔥",
     "tag": "10M+",
     "name": "Rainbow Six Mobile",
@@ -76,13 +84,13 @@
     "genre": "Action",
     "developer": "Ubisoft Nova",
     "downloads": "10,000,000+",
-    "realInstalls": 10909929,
-    "realInstallsStr": "10.9M",
-    "perDay": 681870,
-    "days": 16,
+    "realInstalls": 10988942,
+    "realInstallsStr": "11.0M",
+    "perDay": 610496,
+    "days": 18,
     "score": 4.5,
-    "ratings": 92811,
-    "ratingsStr": "92K",
+    "ratings": 94332,
+    "ratingsStr": "94K",
     "contentRating": "Teen",
     "offersIAP": true,
     "releaseDate": "Feb 23, 2026",
@@ -92,56 +100,67 @@
     "reviewsByDay": [
       {
         "date": "2026-02-27",
-        "count": 446
+        "count": 75
       },
       {
         "date": "2026-02-28",
-        "count": 553
+        "count": 550
       },
       {
         "date": "2026-03-01",
-        "count": 416
+        "count": 414
       },
       {
         "date": "2026-03-02",
-        "count": 356
+        "count": 354
       },
       {
         "date": "2026-03-03",
-        "count": 327
+        "count": 323
       },
       {
         "date": "2026-03-04",
-        "count": 251
+        "count": 250
       },
       {
         "date": "2026-03-05",
-        "count": 541
+        "count": 534
       },
       {
         "date": "2026-03-06",
-        "count": 362
+        "count": 357
       },
       {
         "date": "2026-03-07",
-        "count": 284
+        "count": 278
       },
       {
         "date": "2026-03-08",
-        "count": 236
+        "count": 230
       },
       {
         "date": "2026-03-09",
-        "count": 218
+        "count": 210
       },
       {
         "date": "2026-03-10",
-        "count": 10
+        "count": 207
+      },
+      {
+        "date": "2026-03-11",
+        "count": 167
+      },
+      {
+        "date": "2026-03-12",
+        "count": 51
       }
     ],
-    "id": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter"
+    "trend": "stable",
+    "dpd_prev": 641760,
+    "dpd_change_pct": -5
   },
   {
+    "id": "in.dreamgamestudios.games.sports.dreamcricket3d",
     "emoji": "🚀🔥",
     "tag": "10M+",
     "name": "Dream Cricket 2025",
@@ -155,13 +174,13 @@
     "genre": "Sports",
     "developer": "Sporta Technologies Private Limited",
     "downloads": "10,000,000+",
-    "realInstalls": 16979113,
+    "realInstalls": 17017915,
     "realInstallsStr": "17.0M",
-    "perDay": 628856,
-    "days": 27,
+    "perDay": 586824,
+    "days": 29,
     "score": 3.7,
-    "ratings": 146868,
-    "ratingsStr": "146K",
+    "ratings": 147349,
+    "ratingsStr": "147K",
     "contentRating": "Everyone",
     "offersIAP": true,
     "releaseDate": "Feb 12, 2026",
@@ -175,7 +194,7 @@
       },
       {
         "date": "2026-02-13",
-        "count": 69
+        "count": 68
       },
       {
         "date": "2026-02-14",
@@ -187,11 +206,11 @@
       },
       {
         "date": "2026-02-16",
-        "count": 99
+        "count": 97
       },
       {
         "date": "2026-02-17",
-        "count": 110
+        "count": 108
       },
       {
         "date": "2026-02-18",
@@ -203,31 +222,31 @@
       },
       {
         "date": "2026-02-20",
-        "count": 145
+        "count": 144
       },
       {
         "date": "2026-02-21",
-        "count": 152
+        "count": 151
       },
       {
         "date": "2026-02-22",
-        "count": 138
+        "count": 137
       },
       {
         "date": "2026-02-23",
-        "count": 102
+        "count": 100
       },
       {
         "date": "2026-02-24",
-        "count": 108
+        "count": 104
       },
       {
         "date": "2026-02-25",
-        "count": 99
+        "count": 98
       },
       {
         "date": "2026-02-26",
-        "count": 95
+        "count": 94
       },
       {
         "date": "2026-02-27",
@@ -235,15 +254,15 @@
       },
       {
         "date": "2026-02-28",
-        "count": 86
+        "count": 85
       },
       {
         "date": "2026-03-01",
-        "count": 90
+        "count": 88
       },
       {
         "date": "2026-03-02",
-        "count": 87
+        "count": 85
       },
       {
         "date": "2026-03-03",
@@ -263,42 +282,280 @@
       },
       {
         "date": "2026-03-07",
-        "count": 166
+        "count": 162
       },
       {
         "date": "2026-03-08",
-        "count": 97
+        "count": 95
       },
       {
         "date": "2026-03-09",
-        "count": 120
+        "count": 109
       },
       {
         "date": "2026-03-10",
-        "count": 5
+        "count": 99
+      },
+      {
+        "date": "2026-03-11",
+        "count": 127
+      },
+      {
+        "date": "2026-03-12",
+        "count": 30
       }
     ],
-    "id": "in.dreamgamestudios.games.sports.dreamcricket3d"
+    "trend": "stable",
+    "dpd_prev": 607782,
+    "dpd_change_pct": -3
+  },
+  {
+    "id": "com.peerplay.megamerge",
+    "emoji": "🚀🔥",
+    "tag": "500K+",
+    "name": "Merge Cruise: Mystery Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/HPR1HCSj2yz7i4jV0dUece2qswOgkxXKgrqZnQF9lWVTLzeFhKpajuUQwTABne39Iiht4QNglnaDDJD0f8iw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/eB4ZsgNUkccCIwUY99UAV9EqUyAoJoz_5Oal_oHoc_N-1Q809TRrSeRNVgGmlZQUlG4D=w300",
+      "https://play-lh.googleusercontent.com/LnEzvV1z0LMiFFLGsr30KEcTCJ8TK9KlLEIKB-1tCWXVLp9RVAnl1i9DTkDbHrjzgd8=w300",
+      "https://play-lh.googleusercontent.com/odAaiutIWJ1HlFMMikVCnUnwpc-PSEp_VvIYCkElSO_NrnPzSej-QGoDDwp081Lo6hM5=w300",
+      "https://play-lh.googleusercontent.com/sT0v7oWxJ3SLcX-ACrVlfghoYkFKnRDdPiWOiJWucSZ2auz1DVBnTJVxWkmOQNnJdT4G=w300"
+    ],
+    "genre": "Puzzle",
+    "developer": "PeerPlay",
+    "downloads": "500,000+",
+    "realInstalls": 970653,
+    "realInstallsStr": "971K",
+    "perDay": 485326,
+    "days": 2,
+    "score": 4.6,
+    "ratings": 325,
+    "ratingsStr": "325",
+    "contentRating": "Everyone",
+    "offersIAP": true,
+    "releaseDate": "Mar 11, 2026",
+    "lastUpdated": "Mar 10, 2026",
+    "summary": "Merge & solve cruise ship mystery! Renovate, puzzle, uncover thrilling secrets!",
+    "url": "https://play.google.com/store/apps/details?id=com.peerplay.megamerge",
+    "reviewsByDay": [
+      {
+        "date": "2026-03-11",
+        "count": 1
+      }
+    ],
+    "trend": "falling",
+    "dpd_prev": 969281,
+    "dpd_change_pct": -50
+  },
+  {
+    "id": "com.phs.global",
+    "emoji": "🚀🔥",
+    "tag": "1M+",
+    "name": "Last Asylum: Plague",
+    "icon": "https://play-lh.googleusercontent.com/HOFXbIOJIZGru5_UM5hdGDmP7HIgxGJEx4dQAbPClmAtrNw3tVL9fY5NNHfa7VgIMFU-Sr3-s5FQGfaYJYhP",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/MsDsRt-8aVXMf6u48T91zk4qqFP2-THlsCeAtlDItE69BX7OF_wlQMRAgyZjWbZ5HOpDw7xtypb49e4N-8OnJ98=w300",
+      "https://play-lh.googleusercontent.com/bh3ffZZ30kIk1sAGs7t0biK6bncAy-bizpXcRBav26E-9ZsfYyv_Kc_KlwyBq11jj3e3K-DQagWtGFxZ-9LLnA=w300",
+      "https://play-lh.googleusercontent.com/3xquqPetJMM0eIJ2Vd9Urjw3nrYcY3Wg2ksvpgQ6B0uEtuB97SyT008h_5N_q6D5Pd735Ku2fYk9ELwPe_9eoL8=w300",
+      "https://play-lh.googleusercontent.com/OLxLkh9HSXP7O4eKojVCcFKbDIMIXuPNpie53j26pFMdgZBF1_-_sCBnxSea0VuB8h2aNq_PC2Ocm4GrAATKsA=w300"
+    ],
+    "genre": "Strategy",
+    "developer": "37GAMES GLOBAL",
+    "downloads": "1,000,000+",
+    "realInstalls": 4070095,
+    "realInstallsStr": "4.1M",
+    "perDay": 313084,
+    "days": 13,
+    "score": 4.6,
+    "ratings": 29146,
+    "ratingsStr": "29K",
+    "contentRating": "Teen",
+    "offersIAP": true,
+    "releaseDate": "Feb 28, 2026",
+    "lastUpdated": "Mar 12, 2026",
+    "summary": "One sanctuary. One doctor. One last chance.",
+    "url": "https://play.google.com/store/apps/details?id=com.phs.global",
+    "reviewsByDay": [
+      {
+        "date": "2026-03-02",
+        "count": 4
+      },
+      {
+        "date": "2026-03-03",
+        "count": 23
+      },
+      {
+        "date": "2026-03-04",
+        "count": 50
+      },
+      {
+        "date": "2026-03-05",
+        "count": 66
+      },
+      {
+        "date": "2026-03-06",
+        "count": 44
+      },
+      {
+        "date": "2026-03-07",
+        "count": 55
+      },
+      {
+        "date": "2026-03-08",
+        "count": 50
+      },
+      {
+        "date": "2026-03-09",
+        "count": 53
+      },
+      {
+        "date": "2026-03-10",
+        "count": 65
+      },
+      {
+        "date": "2026-03-11",
+        "count": 57
+      },
+      {
+        "date": "2026-03-12",
+        "count": 10
+      }
+    ],
+    "trend": "stable",
+    "dpd_prev": 330746,
+    "dpd_change_pct": -5
+  },
+  {
+    "id": "com.obby.parkour.prison.runner.game3d",
+    "emoji": "🚀🔥",
+    "tag": "1M+",
+    "name": "Obby Parkour: Prison Runner 3D",
+    "icon": "https://play-lh.googleusercontent.com/xA8BV9n2eMK8Kfrrl9x0BE3X1y76K26bJYNgZLE7kGQCFxRXJGYbUxxyEomFiKIi-sO72_kLkuRdEr4jtuLo",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/xx77OJk3cW4ZwGqRSqFju5ftasLdlzWet8eKebPo2D0GxLQgsYXyudZlmmV1omQE5JV7yZWm-KzGQXEv4w6U=w300",
+      "https://play-lh.googleusercontent.com/1edWPFHnsRKtK8u3WUY2a2qKEjdv7jhV8V214FrhZzk-rrCnwflVEmU5eSPZDPvO06soZd7m4iAn_LIdCgZkKw=w300",
+      "https://play-lh.googleusercontent.com/5Ee4BYlM7-KDmItaUwJGI1Djdjrji5oXmJKrEdrUVY_4QZkv07RI723pcp9jF0O2Vik7GudJHm1RqYqPWN4W36I=w300",
+      "https://play-lh.googleusercontent.com/ZEY11jwww4Rh2Tka-3B93hXW-8Lz3BG4j2jmd7o4SOYeVULGi2gbPM2IPxZJZPxODIcpIr7c1mX035PC_9-T-A=w300"
+    ],
+    "genre": "Adventure",
+    "developer": "Play Paradigm",
+    "downloads": "1,000,000+",
+    "realInstalls": 2335485,
+    "realInstallsStr": "2.3M",
+    "perDay": 166820,
+    "days": 14,
+    "score": null,
+    "ratings": 0,
+    "ratingsStr": "0",
+    "contentRating": "Everyone 10+",
+    "offersIAP": true,
+    "releaseDate": "Feb 27, 2026",
+    "lastUpdated": "Feb 27, 2026",
+    "summary": "Run, jump & escape a blocky prison in this fast obby parkour game",
+    "url": "https://play.google.com/store/apps/details?id=com.obby.parkour.prison.runner.game3d",
+    "reviewsByDay": [
+      {
+        "date": "2026-03-08",
+        "count": 1
+      }
+    ],
+    "trend": "stable",
+    "dpd_prev": 179590,
+    "dpd_change_pct": -7
+  },
+  {
+    "id": "com.peri.game.mall.shopping.fast.food.simulator.business",
+    "emoji": "🚀🔥",
+    "tag": "1M+",
+    "name": "Mall & Fast Food Simulator 3D",
+    "icon": "https://play-lh.googleusercontent.com/MQ9Kok5d5X7sHVGq88PFU57nToSDa_B2kl--AYyrTHng9d7QgBKEBzbBMPVo2QKOwTNq",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/pmnc3glaOnIJXKRujAxwFYlsjVETy1l4ruZDwS0wZTMY8ctsCdlauL3G7rC059Cxfz0o7B27-gIkeac0MijiGw=w300",
+      "https://play-lh.googleusercontent.com/bk9P9zcZ1PZTSAvqKaYBeCrtfdm_MnPXtOeXb9mvFdWO1V6-j7fW7Udnyd6m0E0Fyg-IuB31CIK-kXXCEbY_-zg=w300",
+      "https://play-lh.googleusercontent.com/2grDAZFtIbFX1LEhboXOVuO79vylkdJ-qeXuSHJsGRkde2FXJATpBbNf4ffmuFdFGXImfnNSWK663xKnb4ee=w300",
+      "https://play-lh.googleusercontent.com/4xAzV7ADVjAP0ycJAc_ahpfMcV0d0-vLZxB5hYmA0LYdPMNuhd0Pfx-EW-KOA5g0LEY9KxeGkf7psG5fp7ucbOA=w300"
+    ],
+    "genre": "Simulation",
+    "developer": "Peri Games",
+    "downloads": "1,000,000+",
+    "realInstalls": 1027298,
+    "realInstallsStr": "1.0M",
+    "perDay": 146756,
+    "days": 7,
+    "score": null,
+    "ratings": 0,
+    "ratingsStr": "0",
+    "contentRating": "Everyone",
+    "offersIAP": true,
+    "releaseDate": "Mar 6, 2026",
+    "lastUpdated": "Mar 7, 2026",
+    "summary": "Manage a shopping mall business. Grow your megastore, fast food & mall simulator",
+    "url": "https://play.google.com/store/apps/details?id=com.peri.game.mall.shopping.fast.food.simulator.business",
+    "reviewsByDay": [
+      {
+        "date": "2026-03-07",
+        "count": 2
+      },
+      {
+        "date": "2026-03-08",
+        "count": 5
+      },
+      {
+        "date": "2026-03-09",
+        "count": 1
+      },
+      {
+        "date": "2026-03-10",
+        "count": 3
+      },
+      {
+        "date": "2026-03-11",
+        "count": 3
+      },
+      {
+        "date": "2026-03-12",
+        "count": 1
+      }
+    ],
+    "trend": "falling",
+    "dpd_prev": 170878,
+    "dpd_change_pct": -14
   },
   {
     "id": "com.extreme.games.production.onehitpunch.games",
-    "name": "One Hit Punch",
-    "genre": "Adventure",
-    "score": 0,
+    "emoji": "🚀",
     "tag": "500K+",
-    "emoji": "🚀🔥",
+    "name": "One Hit Punch",
     "icon": "https://play-lh.googleusercontent.com/ybQE_kXyTZV7co0NVzhy64hQ8iZr9lJCfBGgBhd4KAaudTmBVHuOcomyy8tlCbqmY0dGk4SLHsgWMkI9n7JxdJc",
-    "days": 4,
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/R-K9dkhi4N5T6Ctcdwb_GUMDgdLSy3x8nxaxmLI6mZNyHoq_CXNe5vOKR3omhskZJr_fmNYYVjePzaCnjna0jA=w300",
+      "https://play-lh.googleusercontent.com/I0DIGNfUYqkAVzNi-kHrQVUb3QbRxDdxKOZ8zMJh2Ch1VAUbgrgq4U3thsG6rupUUT5N7N20c6QNJR8wlbvCwQ=w300",
+      "https://play-lh.googleusercontent.com/BEM2VZ6JNWYiUbb1xbaH_hplYf3UQdVZxANEdq2u41KyMwX2I6OMunfbF5YSRvRmfk1JQpaP8ZJs51sdo3XQdQ=w300",
+      "https://play-lh.googleusercontent.com/uolR4jzF57_YQv_IxeeowaCpNa1wjbbEgUkE_FIxak62Y3LmcUkW_UGFEiYJm3NRHKXb9fR_6i_RaMEYlaxt6pE=w300"
+    ],
+    "genre": "Adventure",
+    "developer": "Extreme Games Production",
+    "downloads": "500,000+",
+    "realInstalls": 535596,
+    "realInstallsStr": "536K",
+    "perDay": 89266,
+    "days": 6,
+    "score": null,
+    "ratings": 0,
+    "ratingsStr": "0",
+    "contentRating": "Everyone",
+    "offersIAP": false,
     "releaseDate": "Mar 7, 2026",
-    "perDay": 131508,
-    "realInstalls": 526035,
-    "realInstallsStr": "526K",
-    "downloads": "526K",
+    "lastUpdated": "Mar 7, 2026",
+    "summary": "Tap fast, punch hard and rise as the champion of epic punch battles.",
     "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
-    "screenshots": [],
-    "reviewsByDay": []
+    "reviewsByDay": [],
+    "trend": "falling",
+    "dpd_prev": 106661,
+    "dpd_change_pct": -16
   },
   {
+    "id": "com.digitalextremes.warframemobile",
     "emoji": "🚀",
     "tag": "1M+",
     "name": "Warframe",
@@ -312,12 +569,12 @@
     "genre": "Action",
     "developer": "Digital Extremes",
     "downloads": "1,000,000+",
-    "realInstalls": 1925299,
+    "realInstalls": 1947275,
     "realInstallsStr": "1.9M",
-    "perDay": 91680,
-    "days": 21,
+    "perDay": 84664,
+    "days": 23,
     "score": 4.3,
-    "ratings": 20225,
+    "ratings": 20722,
     "ratingsStr": "20K",
     "contentRating": "Mature 17+",
     "offersIAP": true,
@@ -328,15 +585,15 @@
     "reviewsByDay": [
       {
         "date": "2026-02-18",
-        "count": 874
+        "count": 772
       },
       {
         "date": "2026-02-19",
-        "count": 823
+        "count": 822
       },
       {
         "date": "2026-02-20",
-        "count": 686
+        "count": 685
       },
       {
         "date": "2026-02-21",
@@ -344,15 +601,15 @@
       },
       {
         "date": "2026-02-22",
-        "count": 198
+        "count": 196
       },
       {
         "date": "2026-02-23",
-        "count": 117
+        "count": 116
       },
       {
         "date": "2026-02-24",
-        "count": 116
+        "count": 115
       },
       {
         "date": "2026-02-25",
@@ -360,11 +617,11 @@
       },
       {
         "date": "2026-02-26",
-        "count": 88
+        "count": 87
       },
       {
         "date": "2026-02-27",
-        "count": 151
+        "count": 150
       },
       {
         "date": "2026-02-28",
@@ -372,7 +629,7 @@
       },
       {
         "date": "2026-03-01",
-        "count": 61
+        "count": 60
       },
       {
         "date": "2026-03-02",
@@ -384,7 +641,7 @@
       },
       {
         "date": "2026-03-04",
-        "count": 110
+        "count": 108
       },
       {
         "date": "2026-03-05",
@@ -396,7 +653,7 @@
       },
       {
         "date": "2026-03-07",
-        "count": 35
+        "count": 33
       },
       {
         "date": "2026-03-08",
@@ -404,12 +661,27 @@
       },
       {
         "date": "2026-03-09",
-        "count": 25
+        "count": 24
+      },
+      {
+        "date": "2026-03-10",
+        "count": 64
+      },
+      {
+        "date": "2026-03-11",
+        "count": 39
+      },
+      {
+        "date": "2026-03-12",
+        "count": 13
       }
     ],
-    "id": "com.digitalextremes.warframemobile"
+    "trend": "stable",
+    "dpd_prev": 87779,
+    "dpd_change_pct": -4
   },
   {
+    "id": "com.runawayplay.dragons",
     "emoji": "🚀",
     "tag": "500K+",
     "name": "Hatch Dragons",
@@ -423,13 +695,13 @@
     "genre": "Simulation",
     "developer": "Runaway Play",
     "downloads": "500,000+",
-    "realInstalls": 580627,
-    "realInstallsStr": "581K",
-    "perDay": 82946,
-    "days": 7,
+    "realInstalls": 694692,
+    "realInstallsStr": "695K",
+    "perDay": 77188,
+    "days": 9,
     "score": 4.8,
-    "ratings": 13604,
-    "ratingsStr": "13K",
+    "ratings": 16181,
+    "ratingsStr": "16K",
     "contentRating": "Everyone",
     "offersIAP": true,
     "releaseDate": "Mar 4, 2026",
@@ -439,364 +711,43 @@
     "reviewsByDay": [
       {
         "date": "2026-03-04",
-        "count": 415
+        "count": 414
       },
       {
         "date": "2026-03-05",
-        "count": 411
+        "count": 410
       },
       {
         "date": "2026-03-06",
-        "count": 243
+        "count": 240
       },
       {
         "date": "2026-03-07",
-        "count": 227
+        "count": 225
       },
       {
         "date": "2026-03-08",
-        "count": 201
+        "count": 198
       },
       {
         "date": "2026-03-09",
-        "count": 178
+        "count": 173
       },
       {
         "date": "2026-03-10",
-        "count": 4
+        "count": 161
+      },
+      {
+        "date": "2026-03-11",
+        "count": 157
+      },
+      {
+        "date": "2026-03-12",
+        "count": 25
       }
     ],
-    "id": "com.runawayplay.dragons"
-  },
-  {
-    "emoji": "🚀",
-    "tag": "500K+",
-    "name": "StoneAge: Idle Adventure",
-    "icon": "https://play-lh.googleusercontent.com/mHJqRu4jWQURdoJTkJYcqPvd1atYDkx4EGEuv3olhT8MFdDW1jYNGyFLmOkr8plJmQZmmSc7v744iYJk09Nc7A",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/VkWqZFpXs-nAiqmrQjWGnp1l7DRJd98CzIpa75vT8el0mMoMx8qabYPv_Q4rOOWxoH4X2dpUZDoRvUE6SliJpjo=w300",
-      "https://play-lh.googleusercontent.com/nF81peCIWutAw1qiuFcDouRjJTGgywoCZSLNNZOmw8qAoZyTv-i51gmN_qQxT_iK5BKG9jp4e8tYoX8HhJ1wBw=w300",
-      "https://play-lh.googleusercontent.com/j5e8H3jaFUrN0n6fV1sL6qFXeefmEezqWG9pKHM2nkttBsKj2CkGoNJeWdJZ79Suan7LpLGkw964EwbeBm58UZw=w300",
-      "https://play-lh.googleusercontent.com/kTZeL9eHe5rwTtDGxGLRizrhE_DcUBJ0uEUyxNe-KkRmzATnFJe_SHsouihKj0Z1dAusdeaaYW7ckZPZrMXT=w300"
-    ],
-    "genre": "Role Playing",
-    "developer": "Netmarble",
-    "downloads": "500,000+",
-    "realInstalls": 618389,
-    "realInstallsStr": "618K",
-    "perDay": 51532,
-    "days": 12,
-    "score": 4.5,
-    "ratings": 26459,
-    "ratingsStr": "26K",
-    "contentRating": "Teen",
-    "offersIAP": true,
-    "releaseDate": "Feb 27, 2026",
-    "lastUpdated": "Feb 27, 2026",
-    "summary": "Get ALL Pets just by checking in!",
-    "url": "https://play.google.com/store/apps/details?id=com.netmarble.stonkey",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-02",
-        "count": 20
-      },
-      {
-        "date": "2026-03-03",
-        "count": 26
-      },
-      {
-        "date": "2026-03-04",
-        "count": 31
-      },
-      {
-        "date": "2026-03-05",
-        "count": 15
-      },
-      {
-        "date": "2026-03-06",
-        "count": 20
-      },
-      {
-        "date": "2026-03-07",
-        "count": 19
-      },
-      {
-        "date": "2026-03-08",
-        "count": 20
-      },
-      {
-        "date": "2026-03-09",
-        "count": 8
-      }
-    ],
-    "id": "com.netmarble.stonkey"
-  },
-  {
-    "emoji": "🚀",
-    "tag": "100K+",
-    "name": "Mahjong Spirit: Match Game",
-    "icon": "https://play-lh.googleusercontent.com/4LePhbtVKEoN0CD5VZ3gn2yYqm7Iy-J8oZJwymKgC7UV28jWCqKmNFo_oJgEdy_en5GLzv4MIBi-mcZV527K",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/pkRJItONmD2VOz6enlkaAC6wcBCZRwl3y_zRjOb1OM27IVdliwoRQV3Ag2j2FYOudBfn2hCAb5eIkukzJlxrAw=w300",
-      "https://play-lh.googleusercontent.com/d-G-i7AE01lNMQvA2PWRHn_ZNEp30ecc5do_hul11x-MBPzEUtSJ6yjDMqtT_T1JGVkiDAesuzMD4O9-8iZSaA=w300",
-      "https://play-lh.googleusercontent.com/By7WxM0n76SY6UzSjjSMc-JubHBTHd1AeMaW8PYfv_IIwOdBlzQgfroXqStHGs1oSxcYrzTFRmzfbdbDNI65uw=w300",
-      "https://play-lh.googleusercontent.com/INxzs1c3w8JMKKoOfHUz1Fa0gWOqHXMKQjkXTqgLC9C_poNt4KRQBK_PjVwszOghqvQgLJ_UVi1fGPImmXyQHA=w300"
-    ],
-    "genre": "Casual",
-    "developer": "Lynn Mobile Puzzle Games",
-    "downloads": "100,000+",
-    "realInstalls": 211593,
-    "realInstallsStr": "212K",
-    "perDay": 30227,
-    "days": 7,
-    "score": 4.8,
-    "ratings": 40,
-    "ratingsStr": "40",
-    "contentRating": "Everyone",
-    "offersIAP": false,
-    "releaseDate": "Mar 4, 2026",
-    "lastUpdated": "Mar 6, 2026",
-    "summary": "Simple tile matching meets classic Mahjong, bringing pure peace of mind.",
-    "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-05",
-        "count": 1
-      },
-      {
-        "date": "2026-03-08",
-        "count": 2
-      },
-      {
-        "date": "2026-03-09",
-        "count": 2
-      }
-    ],
-    "id": "mahjong.game.match.spirit.casual"
-  },
-  {
-    "emoji": "⚡",
-    "tag": "100K+",
-    "name": "Medabots Survivors",
-    "icon": "https://play-lh.googleusercontent.com/QTpDvf339LbGx6DiEs9gNttM5K5PoE_tAtGut9dkbKWFonY3nNO5RiZmuBQsZIngx7fxoKuMqlh0DuQ6FSN9_Bs",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/5GJDFjdwPCb2qYti7I_KrXH5FQ4sdi4fgK7M6x8VxyITWuQRfw4z52N_YUp1a1yuX6KnlvbRNeFbolsIl6DGdg=w300",
-      "https://play-lh.googleusercontent.com/HZQDx-QuxGWYBSybRe8gB0NT18sKPT_j7JiL7Hm3kSsmf6IbhdSNz7sW5OraZ6yj04qmJf2ZP8zaP4HMt4VOvUE=w300",
-      "https://play-lh.googleusercontent.com/Sg0DPbN-uyTL41QFJPSKYpIv7I-0vb2FQqxAojE7Yxr4YEGSZW4-u8iIE2FqpFSLYMvNVvptBdKOJ9s25s3hAXA=w300",
-      "https://play-lh.googleusercontent.com/hNJDeHp5kweQ-RXZfUAgTa4MI0iqGT3bP6lWGTOtnd0dkiJ0A_ji-8yTTUbyOu4tTSrBntfaFMLMqhj2nd_rqA=w300"
-    ],
-    "genre": "Action",
-    "developer": "Imagineer Co.,Ltd.",
-    "downloads": "100,000+",
-    "realInstalls": 259571,
-    "realInstallsStr": "260K",
-    "perDay": 17304,
-    "days": 15,
-    "score": 4.3,
-    "ratings": 7829,
-    "ratingsStr": "7K",
-    "contentRating": "Everyone 10+",
-    "offersIAP": true,
-    "releaseDate": "Feb 24, 2026",
-    "lastUpdated": "Feb 19, 2026",
-    "summary": "Your choices determine the future.",
-    "url": "https://play.google.com/store/apps/details?id=jp.co.imagineer.medarotsurvivors",
-    "reviewsByDay": [
-      {
-        "date": "2026-02-25",
-        "count": 196
-      },
-      {
-        "date": "2026-02-26",
-        "count": 66
-      },
-      {
-        "date": "2026-02-27",
-        "count": 38
-      },
-      {
-        "date": "2026-02-28",
-        "count": 23
-      },
-      {
-        "date": "2026-03-01",
-        "count": 23
-      },
-      {
-        "date": "2026-03-02",
-        "count": 20
-      },
-      {
-        "date": "2026-03-03",
-        "count": 16
-      },
-      {
-        "date": "2026-03-04",
-        "count": 9
-      },
-      {
-        "date": "2026-03-05",
-        "count": 11
-      },
-      {
-        "date": "2026-03-06",
-        "count": 11
-      },
-      {
-        "date": "2026-03-07",
-        "count": 17
-      },
-      {
-        "date": "2026-03-08",
-        "count": 10
-      },
-      {
-        "date": "2026-03-09",
-        "count": 6
-      }
-    ],
-    "id": "jp.co.imagineer.medarotsurvivors"
-  },
-  {
-    "emoji": "⚡",
-    "tag": "100K+",
-    "name": "ABYSSDIA",
-    "icon": "https://play-lh.googleusercontent.com/uoDMR6qv0dkOTa6daGuX7ATtEHPbzGA8h9O0i4Lw0GAfnrx5kiZeV4Pamp8MifQcHyWrSBpyZ-usqNpvIejmbw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/bwrfBNEQrURytRfxCJ5KW5kLe0PIgje79ugfQHC0WTm3mVawDWVDTN66owwooHJtR-dr2AstQMYWlxR_mjtaIg=w300",
-      "https://play-lh.googleusercontent.com/bDp2WDAmNjtDvv24n8hUvqLR5njfPxdF8UtXZ7KGJfnfq2pCmw-Xg8fS9aCHdimUlwwF4eUMLDbsjBRGxgrYFw=w300",
-      "https://play-lh.googleusercontent.com/a4F-L5ClSbMNOXDWTQ-4rw-mlK8MKiq_TDKFCqAkxaZWn30jnyPVgulSWabf_xwym5oONVbxbFkOUbR2O7g8VnE=w300",
-      "https://play-lh.googleusercontent.com/PYviOGd-ncDoIZ006VEumwPyL6a0_12jZ8zWC8YBRAxfbyKsIMzUALHdiGMzcy48n3e54FL85_i1LNGXlZmC3w=w300"
-    ],
-    "genre": "Role Playing",
-    "developer": "NHN Corp.",
-    "downloads": "100,000+",
-    "realInstalls": 308056,
-    "realInstallsStr": "308K",
-    "perDay": 11409,
-    "days": 27,
-    "score": 4.7,
-    "ratings": 7538,
-    "ratingsStr": "7K",
-    "contentRating": "Teen",
-    "offersIAP": true,
-    "releaseDate": "Feb 12, 2026",
-    "lastUpdated": null,
-    "summary": "The Chain Action RPG",
-    "url": "https://play.google.com/store/apps/details?id=com.nhn.abyssdia",
-    "reviewsByDay": [
-      {
-        "date": "2026-02-19",
-        "count": 1
-      },
-      {
-        "date": "2026-02-24",
-        "count": 15
-      },
-      {
-        "date": "2026-02-25",
-        "count": 33
-      },
-      {
-        "date": "2026-02-26",
-        "count": 24
-      },
-      {
-        "date": "2026-02-27",
-        "count": 13
-      },
-      {
-        "date": "2026-02-28",
-        "count": 7
-      },
-      {
-        "date": "2026-03-01",
-        "count": 10
-      },
-      {
-        "date": "2026-03-02",
-        "count": 8
-      },
-      {
-        "date": "2026-03-03",
-        "count": 5
-      },
-      {
-        "date": "2026-03-04",
-        "count": 6
-      },
-      {
-        "date": "2026-03-05",
-        "count": 6
-      },
-      {
-        "date": "2026-03-06",
-        "count": 3
-      },
-      {
-        "date": "2026-03-07",
-        "count": 10
-      },
-      {
-        "date": "2026-03-08",
-        "count": 3
-      },
-      {
-        "date": "2026-03-09",
-        "count": 6
-      },
-      {
-        "date": "2026-03-10",
-        "count": 3
-      }
-    ],
-    "id": "com.nhn.abyssdia"
-  },
-  {
-    "emoji": "⚡",
-    "tag": "100K+",
-    "name": "Tile Land: Triple Match",
-    "icon": "https://play-lh.googleusercontent.com/rwFJwCl6R1GN-ydrDeAiS5a8xFOBHJ26FQ5LIxKPpchyR2v0Pl-HEWGTzxNxfbuIrMI2il5Pj-hL8mXXEPT0KQ",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/iCTEgLuVcBmX0d6TapgaJhoDMlSxv0nPuSXPv0kTFdQNR61cXcwnBU2Sb_6UapEMnV-w9SCN3ym7GjVXfj7H=w300",
-      "https://play-lh.googleusercontent.com/4oX7t4mxmqTawlHH1KGwneUAF3p9epqQte8fCwiQp2YNgxpqhElX0tf-HWZJZ5UfU-yzLl_FEHDi5E3FG1Ve=w300",
-      "https://play-lh.googleusercontent.com/4wTjT14WkR5VKlkygB2fJnIRzDO7-Jw3PHOi_yDkGyJ4Mjwx4AP9sxJlnak-K9CRFAb3gaFkdZL9rUrAsAH2-Vo=w300",
-      "https://play-lh.googleusercontent.com/CLjiemUcbPNgUx1oQwLD3snBGIORIV-CtnD6PcDgAzxHi7iwEhJn9_iCo-WvU2BDcAdC8bNQk3lnN_o0CvDbGsU=w300"
-    ],
-    "genre": "Casual",
-    "developer": "SOHI GAMES",
-    "downloads": "100,000+",
-    "realInstalls": 243322,
-    "realInstallsStr": "243K",
-    "perDay": 10579,
-    "days": 23,
-    "score": 3.9,
-    "ratings": 102,
-    "ratingsStr": "102",
-    "contentRating": "Everyone",
-    "offersIAP": true,
-    "releaseDate": "Feb 16, 2026",
-    "lastUpdated": "Mar 4, 2026",
-    "summary": "Relax, match tiles, and collect scenes in Tile Land — a cozy triple match!",
-    "url": "https://play.google.com/store/apps/details?id=com.sohi.tileland.gp",
-    "reviewsByDay": [
-      {
-        "date": "2026-02-19",
-        "count": 1
-      },
-      {
-        "date": "2026-02-27",
-        "count": 2
-      },
-      {
-        "date": "2026-02-28",
-        "count": 1
-      },
-      {
-        "date": "2026-03-09",
-        "count": 1
-      }
-    ],
-    "id": "com.sohi.tileland.gp"
+    "trend": "stable",
+    "dpd_prev": 79029,
+    "dpd_change_pct": -2
   }
 ]
