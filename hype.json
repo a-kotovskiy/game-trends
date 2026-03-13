@@ -1,6 +1,20 @@
 {
   "viral_trends": [
     {
+      "source": "youtube",
+      "kind": "Video",
+      "title": "WHO STOLE MY DOG??",
+      "channel": "The Royalty Family",
+      "views": 7441763,
+      "views_str": "7.4M",
+      "age_days": 3,
+      "vpd": 2480587,
+      "grade": "🔥",
+      "url": "https://youtu.be/7E8gVS3kL_c",
+      "thumb": "https://img.youtube.com/vi/7E8gVS3kL_c/mqdefault.jpg",
+      "published": "3 days ago"
+    },
+    {
       "source": "tiktok_fyp",
       "kind": "TikTok",
       "title": "dito ka sa ′kin tumabi 🖤 #KATSEYE_Sophia #KATSEYE_Yoonchae  ",
@@ -724,171 +738,146 @@
       "url": "https://www.tiktok.com/@julesboringlife/video/7612699751603047702",
       "thumb": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owqSIgRgMMkw3DfLAQ8DAeKYzWHf4TLIOJUjZW~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=NQzBj4bcFg%2FxrO3mFgU5RtSuDMA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
       "published": "9д назад"
-    },
-    {
-      "source": "tiktok_fyp",
-      "kind": "TikTok",
-      "title": "what else is pink? 🤔 #cristianoronaldo #edit #fy #ronaldo #football #aftereffects #promo #phonk",
-      "channel": "@sonheii · новый канал",
-      "author": "sonheii",
-      "views": 4300000,
-      "views_str": "4.3M",
-      "subs": 0,
-      "subs_str": "0",
-      "age_days": 13,
-      "vpd": 330769,
-      "vpd_str": "331K",
-      "ratio": 4300000.0,
-      "likes": 167500,
-      "shares": 5662,
-      "comments": 919,
-      "music": "JOGADA (Slowed) - Nakama & ΣP & Regyn & ZIMXN",
-      "music_id": "7607478025962440721",
-      "music_original": false,
-      "grade": "🔥",
-      "url": "https://www.tiktok.com/@sonheii/video/7611193522967907601",
-      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oIZPakSE2IBIakiaKQliWMHEgXkEFAz7BAYZU~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=CJANSdHNnTw968Zw%2BJc0n0G2g9A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-      "published": "13д назад"
     }
   ],
   "google_trends": [
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "watch vs warning",
+      "title": "dca",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=watch+vs+warning",
+      "url": "https://trends.google.com/trends/explore?q=dca",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "mta",
+      "title": "tornado warning columbia sc",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=mta",
+      "url": "https://trends.google.com/trends/explore?q=tornado+warning+columbia+sc",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "dallas goedert",
+      "title": "kisd",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=dallas+goedert",
+      "url": "https://trends.google.com/trends/explore?q=kisd",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "janet jackson",
+      "title": "buc ees",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=janet+jackson",
+      "url": "https://trends.google.com/trends/explore?q=buc+ees",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "disney world",
+      "title": "epic games fortnite",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=disney+world",
+      "url": "https://trends.google.com/trends/explore?q=epic+games+fortnite",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "lina hidalgo",
+      "title": "dca airport",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=lina+hidalgo",
+      "url": "https://trends.google.com/trends/explore?q=dca+airport",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "oil price today",
+      "title": "tessa thompson",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=oil+price+today",
+      "url": "https://trends.google.com/trends/explore?q=tessa+thompson",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "tornado warning near me",
+      "title": "adrien brody",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=tornado+warning+near+me",
+      "url": "https://trends.google.com/trends/explore?q=adrien+brody",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "tornado tracker",
+      "title": "lauren graham",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=tornado+tracker",
+      "url": "https://trends.google.com/trends/explore?q=lauren+graham",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "eid al fitr 2026",
+      "title": "palantir",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=eid+al+fitr+2026",
+      "url": "https://trends.google.com/trends/explore?q=palantir",
       "thumb": "",
       "published": "сейчас"
     }
@@ -922,78 +911,29 @@
       "hype_confirmed": true,
       "platforms": [
         "tiktok",
-        "google_trends"
-      ],
-      "yt_videos": [],
-      "keywords": [
-        "starbucks",
-        "after",
-        "worry"
-      ],
-      "yt_freshness": "old",
-      "joint_hype": false,
-      "gt_keyword": "after",
-      "gt_url": "https://trends.google.com/trends/explore?q=after&geo=US"
-    },
-    {
-      "source": "tiktok_fyp",
-      "kind": "TikTok",
-      "title": "#alysaliu is the coolest",
-      "channel": "@jillsta · новый канал",
-      "author": "jillsta",
-      "views": 14600000,
-      "views_str": "14.6M",
-      "subs": 0,
-      "subs_str": "0",
-      "age_days": 13,
-      "vpd": 1123077,
-      "vpd_str": "1.1M",
-      "ratio": 14600000.0,
-      "likes": 1800000,
-      "shares": 12900,
-      "comments": 1190,
-      "music": "original sound - latedawns",
-      "music_id": "7579767131974224662",
-      "music_original": true,
-      "grade": "🔥🔥",
-      "url": "https://www.tiktok.com/@jillsta/video/7611224645655694623",
-      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/owzBiANuDC8C0O6gIEMIifwtqg0U0IAbti5IAJ~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=HjtdzpvV45mppWtdwr1zJsk5wPE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-      "published": "13д назад",
-      "hype_score": 3,
-      "hype_confirmed": true,
-      "platforms": [
-        "tiktok",
         "youtube",
         "google_trends"
       ],
       "yt_videos": [
         {
-          "title": "Alysa Liu figure skates to PinkPantheress and Zara Larsson’s ‘Stateside’ 😮‍💨 | Winter Olympics 2026",
-          "views_str": "826,403 views",
-          "views": 826403,
-          "published": "2 weeks ago",
-          "age_days": 14,
-          "url": "https://youtube.com/watch?v=GZJD54BELuw",
-          "thumb": "https://img.youtube.com/vi/GZJD54BELuw/mqdefault.jpg"
-        },
-        {
-          "title": "Milano Cortina 2026 | Alysa LIU (USA) | Women – Free Skating",
-          "views_str": "591,667 views",
-          "views": 591667,
-          "published": "2 weeks ago",
-          "age_days": 14,
-          "url": "https://youtube.com/watch?v=UtL2ie4Xxq8",
-          "thumb": "https://img.youtube.com/vi/UtL2ie4Xxq8/mqdefault.jpg"
+          "title": "DO NOT GO TO STARBUCKS AT 3 AM...",
+          "views_str": "1,573,298 views",
+          "views": 1573298,
+          "published": "1 month ago",
+          "age_days": 30,
+          "url": "https://youtube.com/watch?v=w4eKbHbhaV0",
+          "thumb": "https://img.youtube.com/vi/w4eKbHbhaV0/mqdefault.jpg"
         }
       ],
       "keywords": [
-        "alysaliu",
-        "coolest"
+        "starbucks",
+        "after",
+        "worry"
       ],
-      "yt_freshness": "fresh",
+      "yt_freshness": "recent",
       "joint_hype": true,
-      "gt_keyword": "coolest",
-      "gt_url": "https://trends.google.com/trends/explore?q=coolest&geo=US"
+      "gt_keyword": "after",
+      "gt_url": "https://trends.google.com/trends/explore?q=after&geo=US"
     },
     {
       "source": "tiktok_fyp",
@@ -1039,85 +979,59 @@
     {
       "source": "tiktok_fyp",
       "kind": "TikTok",
-      "title": "#HollywoodEdits #MovieClips #EpicScenes #CinematicMoments #ActionEdits #ViralClips #HDScenes #FilmEdits #ReelEdits #Tren",
-      "channel": "@the.viewingroom · новый канал",
-      "author": "the.viewingroom",
-      "views": 37800000,
-      "views_str": "37.8M",
+      "title": "#alysaliu is the coolest",
+      "channel": "@jillsta · новый канал",
+      "author": "jillsta",
+      "views": 14600000,
+      "views_str": "14.6M",
       "subs": 0,
       "subs_str": "0",
-      "age_days": 45,
-      "vpd": 840000,
-      "vpd_str": "840K",
-      "ratio": 37800000.0,
-      "likes": 794200,
-      "shares": 16600,
-      "comments": 3271,
-      "music": "original sound - 🎥 TheViewingRoom",
-      "music_id": "7599173786138577695",
+      "age_days": 13,
+      "vpd": 1123077,
+      "vpd_str": "1.1M",
+      "ratio": 14600000.0,
+      "likes": 1800000,
+      "shares": 12900,
+      "comments": 1190,
+      "music": "original sound - latedawns",
+      "music_id": "7579767131974224662",
       "music_original": true,
-      "grade": "🔥",
-      "url": "https://www.tiktok.com/@the.viewingroom/video/7599173827548957983",
-      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/o8kBCEVDpBYrVhhFE7Pb5AIyEEnrfdeA2RQMjV~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=OV1yI4GgscP%2FBqPtJYla2SlVSOs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-      "published": "45д назад",
-      "hype_score": 3,
+      "grade": "🔥🔥",
+      "url": "https://www.tiktok.com/@jillsta/video/7611224645655694623",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/owzBiANuDC8C0O6gIEMIifwtqg0U0IAbti5IAJ~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=HjtdzpvV45mppWtdwr1zJsk5wPE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "13д назад",
+      "hype_score": 2,
       "hype_confirmed": true,
       "platforms": [
         "tiktok",
-        "google_trends"
+        "youtube"
       ],
-      "yt_videos": [],
+      "yt_videos": [
+        {
+          "title": "Alysa Liu figure skates to PinkPantheress and Zara Larsson’s ‘Stateside’ 😮‍💨 | Winter Olympics 2026",
+          "views_str": "828,394 views",
+          "views": 828394,
+          "published": "2 weeks ago",
+          "age_days": 14,
+          "url": "https://youtube.com/watch?v=GZJD54BELuw",
+          "thumb": "https://img.youtube.com/vi/GZJD54BELuw/mqdefault.jpg"
+        },
+        {
+          "title": "Milano Cortina 2026 | Alysa LIU (USA) | Women – Free Skating",
+          "views_str": "592,121 views",
+          "views": 592121,
+          "published": "2 weeks ago",
+          "age_days": 14,
+          "url": "https://youtube.com/watch?v=UtL2ie4Xxq8",
+          "thumb": "https://img.youtube.com/vi/UtL2ie4Xxq8/mqdefault.jpg"
+        }
+      ],
       "keywords": [
-        "hollywoodedits",
-        "movieclips",
-        "epicscenes"
+        "alysaliu",
+        "coolest"
       ],
-      "yt_freshness": "old",
-      "joint_hype": false,
-      "gt_keyword": "movieclips",
-      "gt_url": "https://trends.google.com/trends/explore?q=movieclips&geo=US"
-    },
-    {
-      "source": "tiktok_fyp",
-      "kind": "TikTok",
-      "title": "so golden it’s insane.  #tan #summer ",
-      "channel": "@bellehass · новый канал",
-      "author": "bellehass",
-      "views": 23300000,
-      "views_str": "23.3M",
-      "subs": 0,
-      "subs_str": "0",
-      "age_days": 34,
-      "vpd": 685294,
-      "vpd_str": "685K",
-      "ratio": 23300000.0,
-      "likes": 2000000,
-      "shares": 27600,
-      "comments": 2201,
-      "music": "3 Strikes - Terror Jr",
-      "music_id": "249620626724917248",
-      "music_original": false,
-      "grade": "🔥",
-      "url": "https://www.tiktok.com/@bellehass/video/7603299722866003230",
-      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oIhfEREERVUfMgywWACFbI2hIANpx6Dt8jSEFB~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=o%2FoxxNaj2ULZoJCM2Xl%2FVHq0c5c%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-      "published": "34д назад",
-      "hype_score": 3,
-      "hype_confirmed": true,
-      "platforms": [
-        "tiktok",
-        "google_trends"
-      ],
-      "yt_videos": [],
-      "keywords": [
-        "tan",
-        "summer",
-        "golden",
-        "insane"
-      ],
-      "yt_freshness": "old",
-      "joint_hype": false,
-      "gt_keyword": "summer",
-      "gt_url": "https://trends.google.com/trends/explore?q=summer&geo=US"
+      "yt_freshness": "fresh",
+      "joint_hype": true
     },
     {
       "source": "tiktok_fyp",
@@ -1143,17 +1057,27 @@
       "url": "https://www.tiktok.com/@undead.aep/video/7603487365792877846",
       "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/osCAiCAipEAxCIAwImCwVGIobOAkBfKBS0I0UF~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=Z2SDpH2rKLSad8VhSHMaFJjlMY4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
       "published": "34д назад",
-      "hype_score": 2,
+      "hype_score": 3,
       "hype_confirmed": true,
       "platforms": [
         "tiktok",
-        "youtube"
+        "youtube",
+        "google_trends"
       ],
       "yt_videos": [
         {
+          "title": "Boy Singing Sorry Meme | Download Link In Comments 🔗",
+          "views_str": "466,183 views",
+          "views": 466183,
+          "published": "1 month ago",
+          "age_days": 30,
+          "url": "https://youtube.com/watch?v=kTeccZp6K0w",
+          "thumb": "https://img.youtube.com/vi/kTeccZp6K0w/mqdefault.jpg"
+        },
+        {
           "title": "Lithuanian Justin Bieber The Sorry Guy Meme Full Version Lyrics",
-          "views_str": "567,193 views",
-          "views": 567193,
+          "views_str": "567,454 views",
+          "views": 567454,
           "published": "1 month ago",
           "age_days": 30,
           "url": "https://youtube.com/watch?v=zdNYMx_QWKA",
@@ -1161,21 +1085,12 @@
         },
         {
           "title": "sorry (justin bieber) - HILARIOUS performance fail",
-          "views_str": "672,827 views",
-          "views": 672827,
+          "views_str": "673,499 views",
+          "views": 673499,
           "published": "1 month ago",
           "age_days": 30,
           "url": "https://youtube.com/watch?v=wGXR66GCPv8",
           "thumb": "https://img.youtube.com/vi/wGXR66GCPv8/mqdefault.jpg"
-        },
-        {
-          "title": "Boy Singing Sorry Meme | Download Link In Comments 🔗",
-          "views_str": "465,936 views",
-          "views": 465936,
-          "published": "1 month ago",
-          "age_days": 30,
-          "url": "https://youtube.com/watch?v=kTeccZp6K0w",
-          "thumb": "https://img.youtube.com/vi/kTeccZp6K0w/mqdefault.jpg"
         }
       ],
       "keywords": [
@@ -1186,32 +1101,34 @@
         "apologizing"
       ],
       "yt_freshness": "recent",
-      "joint_hype": false
+      "joint_hype": false,
+      "gt_keyword": "justinbieber",
+      "gt_url": "https://trends.google.com/trends/explore?q=justinbieber&geo=US"
     },
     {
       "source": "tiktok_fyp",
       "kind": "TikTok",
-      "title": "She should do my lashes next. Also we’re opening up a store where you can buy lashes like these follow for updates! #las",
-      "channel": "@chrev__ · новый канал",
-      "author": "chrev__",
-      "views": 7500000,
-      "views_str": "7.5M",
+      "title": "Celebrities can’t hide their reactions as Nicki Minaj delivers unforgettable, show-stopping performances. #Music #NickiM",
+      "channel": "@music.party78 · новый канал",
+      "author": "music.party78",
+      "views": 10800000,
+      "views_str": "10.8M",
       "subs": 0,
       "subs_str": "0",
-      "age_days": 17,
-      "vpd": 441176,
-      "vpd_str": "441K",
-      "ratio": 7500000.0,
-      "likes": 683000,
-      "shares": 44300,
-      "comments": 1759,
-      "music": "original sound - Ghosted Lashes",
-      "music_id": "7609777795488582414",
+      "age_days": 16,
+      "vpd": 675000,
+      "vpd_str": "675K",
+      "ratio": 10800000.0,
+      "likes": 1100000,
+      "shares": 38600,
+      "comments": 2077,
+      "music": "original sound - TheVibeMusic™",
+      "music_id": "7609923973249387295",
       "music_original": true,
       "grade": "🔥",
-      "url": "https://www.tiktok.com/@chrev__/video/7609777718967684366",
-      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8bRlW1ERQoAJS7fneICNCDp8rIFEDS1BghvXm~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=HljCx5CRvfh2nD%2FW0qDQ9Z1vkk8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-      "published": "17д назад",
+      "url": "https://www.tiktok.com/@music.party78/video/7609918805778681119",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ogkEIIALiQerGjGAM0INemQ7FQ3RGeTCqO2Tjb~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=FWE3%2FstKULd8%2Fjg%2BUGgsoconIKw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "16д назад",
       "hype_score": 3,
       "hype_confirmed": true,
       "platforms": [
@@ -1220,15 +1137,16 @@
       ],
       "yt_videos": [],
       "keywords": [
-        "las",
-        "lashes",
-        "next",
-        "opening"
+        "music",
+        "nickim",
+        "celebrities",
+        "hide",
+        "their"
       ],
       "yt_freshness": "old",
       "joint_hype": false,
-      "gt_keyword": "las",
-      "gt_url": "https://trends.google.com/trends/explore?q=las&geo=US"
+      "gt_keyword": "their",
+      "gt_url": "https://trends.google.com/trends/explore?q=their&geo=US"
     },
     {
       "source": "tiktok_fyp",
@@ -1254,17 +1172,18 @@
       "url": "https://www.tiktok.com/@yoangelolo/video/7611536626451303694",
       "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/oITAk4hdTEBEzALjfHWIeGmAAQIlAzeCyjnGIz~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=qnRq3w644MCyYI66lx5sryQeJRg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
       "published": "12д назад",
-      "hype_score": 2,
+      "hype_score": 3,
       "hype_confirmed": true,
       "platforms": [
         "tiktok",
-        "youtube"
+        "youtube",
+        "google_trends"
       ],
       "yt_videos": [
         {
           "title": "The JustJules Breakup Situation Is Sickening",
-          "views_str": "150,277 views",
-          "views": 150277,
+          "views_str": "150,531 views",
+          "views": 150531,
           "published": "3 weeks ago",
           "age_days": 21,
           "url": "https://youtube.com/watch?v=1oibctEdTHE",
@@ -1276,56 +1195,52 @@
         "justjules"
       ],
       "yt_freshness": "recent",
-      "joint_hype": true
+      "joint_hype": true,
+      "gt_keyword": "justjules",
+      "gt_url": "https://trends.google.com/trends/explore?q=justjules&geo=US"
     },
     {
       "source": "tiktok_fyp",
       "kind": "TikTok",
-      "title": "started crying making this video ",
-      "channel": "@maligoshik · новый канал",
-      "author": "maligoshik",
-      "views": 14400000,
-      "views_str": "14.4M",
+      "title": "Jesus… @Natalie Reynolds #nataliereynolds #couple #Love #girlfriend",
+      "channel": "@zackhuelsman · новый канал",
+      "author": "zackhuelsman",
+      "views": 12200000,
+      "views_str": "12.2M",
       "subs": 0,
       "subs_str": "0",
-      "age_days": 22,
-      "vpd": 654545,
-      "vpd_str": "655K",
-      "ratio": 14400000.0,
-      "likes": 1600000,
-      "shares": 12900,
-      "comments": 2601,
-      "music": "original sound - anna malygon",
-      "music_id": "7607938813965028097",
+      "age_days": 23,
+      "vpd": 530435,
+      "vpd_str": "530K",
+      "ratio": 12200000.0,
+      "likes": 981900,
+      "shares": 63800,
+      "comments": 3408,
+      "music": "original sound - Zackreynolds",
+      "music_id": "7607276489322564382",
       "music_original": true,
       "grade": "🔥",
-      "url": "https://www.tiktok.com/@maligoshik/video/7607938412372380948",
-      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/okAQpFPqAltADqE3RfKBNfEqgUEbB09QFpIMQ4~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=Z1NxO7WFM3NeGkOErSkhzvzDRIE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
-      "published": "22д назад",
-      "hype_score": 2,
+      "url": "https://www.tiktok.com/@zackhuelsman/video/7607276545039748383",
+      "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ogVBkoTA0n1DSJyOFyPRc9flEzEFkeEpAQ6Q5n~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=gDlhZGy2sI6eAVVnrW%2BYRc0oGYo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
+      "published": "23д назад",
+      "hype_score": 3,
       "hype_confirmed": true,
       "platforms": [
         "tiktok",
-        "youtube"
+        "google_trends"
       ],
-      "yt_videos": [
-        {
-          "title": "he started crying",
-          "views_str": "122,559 views",
-          "views": 122559,
-          "published": "Streamed 2 weeks ago",
-          "age_days": 14,
-          "url": "https://youtube.com/watch?v=D2tNm9aTp5A",
-          "thumb": "https://img.youtube.com/vi/D2tNm9aTp5A/mqdefault.jpg"
-        }
-      ],
+      "yt_videos": [],
       "keywords": [
-        "started",
-        "crying",
-        "making"
+        "nataliereynolds",
+        "couple",
+        "love",
+        "jesus",
+        "natalie"
       ],
-      "yt_freshness": "fresh",
-      "joint_hype": true
+      "yt_freshness": "old",
+      "joint_hype": false,
+      "gt_keyword": "love",
+      "gt_url": "https://trends.google.com/trends/explore?q=love&geo=US"
     },
     {
       "source": "tiktok_fyp",
@@ -1351,39 +1266,40 @@
       "url": "https://www.tiktok.com/@xkarentorresx/video/7605035050157067527",
       "thumb": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oocYTvoEILitA5KBbBCgx4iXB7EYDqEAKIaZ2~tplv-tiktokx-origin.image?dr=10395&x-expires=1773396000&x-signature=47R%2F4qlazuFZxh12v4%2B9e3k%2BgW8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a",
       "published": "29д назад",
-      "hype_score": 2,
+      "hype_score": 3,
       "hype_confirmed": true,
       "platforms": [
         "tiktok",
-        "youtube"
+        "youtube",
+        "google_trends"
       ],
       "yt_videos": [
         {
           "title": "Si Te Sabes El Tiktok Baila - 2026 #tiktokvideo #tiktokviral",
-          "views_str": "783,211 views",
-          "views": 783211,
+          "views_str": "783,254 views",
+          "views": 783254,
           "published": "3 weeks ago",
           "age_days": 21,
           "url": "https://youtube.com/watch?v=JwLQ-mC54A0",
           "thumb": "https://img.youtube.com/vi/JwLQ-mC54A0/mqdefault.jpg"
         },
         {
-          "title": "SI TE SABES EL TIKTOK BAILA! - 2026🔥 MASHUP TIKTOK DANCE",
-          "views_str": "1,115,701 views",
-          "views": 1115701,
-          "published": "3 weeks ago",
-          "age_days": 21,
-          "url": "https://youtube.com/watch?v=nhyKW7t2TUo",
-          "thumb": "https://img.youtube.com/vi/nhyKW7t2TUo/mqdefault.jpg"
-        },
-        {
           "title": "Si te sabes el tiktok baila 2026 #tiktokvideo #tiktokviral ",
-          "views_str": "3,646,234 views",
-          "views": 3646234,
+          "views_str": "3,646,414 views",
+          "views": 3646414,
           "published": "1 month ago",
           "age_days": 30,
           "url": "https://youtube.com/watch?v=wIwJRi3xo0s",
           "thumb": "https://img.youtube.com/vi/wIwJRi3xo0s/mqdefault.jpg"
+        },
+        {
+          "title": "SI TE SABES EL TIKTOK BAILA! - 2026🔥 MASHUP TIKTOK DANCE",
+          "views_str": "1,115,708 views",
+          "views": 1115708,
+          "published": "3 weeks ago",
+          "age_days": 21,
+          "url": "https://youtube.com/watch?v=nhyKW7t2TUo",
+          "thumb": "https://img.youtube.com/vi/nhyKW7t2TUo/mqdefault.jpg"
         }
       ],
       "keywords": [
@@ -1394,7 +1310,9 @@
         "nichole"
       ],
       "yt_freshness": "recent",
-      "joint_hype": true
+      "joint_hype": true,
+      "gt_keyword": "nichole",
+      "gt_url": "https://trends.google.com/trends/explore?q=nichole&geo=US"
     },
     {
       "source": "tiktok_fyp",
@@ -1429,30 +1347,30 @@
       "yt_videos": [
         {
           "title": "Monte & TimGiOh LIVE aus Hamburg! 😱 Talk über Sh*tstorms, Hate & Meme.. 👀 | MontanaBlack IRL",
-          "views_str": "285,152 views",
-          "views": 285152,
+          "views_str": "285,327 views",
+          "views": 285327,
           "published": "2 weeks ago",
           "age_days": 14,
           "url": "https://youtube.com/watch?v=PzHSOOzC6I8",
           "thumb": "https://img.youtube.com/vi/PzHSOOzC6I8/mqdefault.jpg"
         },
         {
-          "title": "VIELE VORWÜRFE an TIMGIOH.. 😱 Statement & Reaktion auf KuchenTV 👀 | MontanaBlack Reaktion",
-          "views_str": "711,009 views",
-          "views": 711009,
-          "published": "6 days ago",
-          "age_days": 6,
-          "url": "https://youtube.com/watch?v=ohLm33C5va8",
-          "thumb": "https://img.youtube.com/vi/ohLm33C5va8/mqdefault.jpg"
-        },
-        {
           "title": "WER LACHT, VERLIERT mit TimGiOh! 🫢😂 Deutsche Memes Reaktion | MontanaBlack Reaktion",
-          "views_str": "302,347 views",
-          "views": 302347,
+          "views_str": "302,579 views",
+          "views": 302579,
           "published": "2 weeks ago",
           "age_days": 14,
           "url": "https://youtube.com/watch?v=gpoQCIqKTas",
           "thumb": "https://img.youtube.com/vi/gpoQCIqKTas/mqdefault.jpg"
+        },
+        {
+          "title": "VIELE VORWÜRFE an TIMGIOH.. 😱 Statement & Reaktion auf KuchenTV 👀 | MontanaBlack Reaktion",
+          "views_str": "712,663 views",
+          "views": 712663,
+          "published": "6 days ago",
+          "age_days": 6,
+          "url": "https://youtube.com/watch?v=ohLm33C5va8",
+          "thumb": "https://img.youtube.com/vi/ohLm33C5va8/mqdefault.jpg"
         }
       ],
       "keywords": [

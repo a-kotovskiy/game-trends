@@ -798,36 +798,5 @@
       }
     ],
     "id": "com.sohi.tileland.gp"
-  },
-  {
-    "id": "com.SpaghettiHouse.EscapeFromBlogger",
-    "emoji": "🎮⭐",
-    "tag": "Наша!",
-    "name": "Побег от Блогера",
-    "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/pQMuCHpS4CZ8CfFbgShrrIOycuY2im3AfQ5fgYi2M2O5AHjG5OzkChibg-lMR9D4sqFeNGUA-5bouU1fbklYjBA=w300",
-      "https://play-lh.googleusercontent.com/w4WI2vYTaHaIRZ-ToW3H16W4LM4tC0RNfnFZU5yroAOuVFobuYlmiQjMMEECsAIHN-50478jrG9bTJX8W0QRvr4=w300",
-      "https://play-lh.googleusercontent.com/0-uSbqpYVnEuKttKJr0reLaHo90CkFvGKvksOkI4x51sk_--C_Dmow2Ljj8N3Mv-fp1LP6oQiEm41cZE4uLB2w=w300"
-    ],
-    "genre": "Экшен",
-    "developer": "Spaghetti House",
-    "downloads": "10,000+",
-    "realInstalls": 16132,
-    "realInstallsStr": "16K",
-    "perDay": 8066,
-    "days": 2,
-    "score": null,
-    "ratings": null,
-    "ratingsStr": "—",
-    "contentRating": "12+",
-    "offersIAP": false,
-    "adSupported": true,
-    "releaseDate": "Mar 10, 2026",
-    "lastUpdated": "Mar 10, 2026",
-    "summary": "Прячься, решай квесты-головоломки и соверши побег из дома блогера в хоррор игре!",
-    "url": "https://play.google.com/store/apps/details?id=com.SpaghettiHouse.EscapeFromBlogger",
-    "reviewsByDay": [],
-    "pinned": true
   }
 ]

@@ -1730,8 +1730,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.sofish.screwhome.gp",
     "first_seen": "2026-03-11",
     "last_seen": "2026-03-12",
-    "peak_dpd": 1707,
-    "peak_date": "2026-03-11",
+    "peak_dpd": 1713,
+    "peak_date": "2026-03-12",
     "history": [
       {
         "date": "2026-03-11",
@@ -2136,6 +2136,63 @@
         "installs": 83481,
         "dpd": 11925,
         "score": 2.5
+      }
+    ]
+  },
+  "com.SpaghettiHouse.EscapeFromBlogger": {
+    "id": "com.SpaghettiHouse.EscapeFromBlogger",
+    "name": "Escape from Vlogger: Runaway",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
+    "url": "https://play.google.com/store/apps/details?id=com.SpaghettiHouse.EscapeFromBlogger",
+    "first_seen": "2026-03-12",
+    "last_seen": "2026-03-12",
+    "peak_dpd": 14933,
+    "peak_date": "2026-03-12",
+    "history": [
+      {
+        "date": "2026-03-12",
+        "installs": 29866,
+        "dpd": 14933,
+        "score": 0
+      }
+    ]
+  },
+  "com.peri.game.mall.shopping.fast.food.simulator.business": {
+    "id": "com.peri.game.mall.shopping.fast.food.simulator.business",
+    "name": "Mall & Fast Food Simulator 3D",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/MQ9Kok5d5X7sHVGq88PFU57nToSDa_B2kl--AYyrTHng9d7QgBKEBzbBMPVo2QKOwTNq",
+    "url": "https://play.google.com/store/apps/details?id=com.peri.game.mall.shopping.fast.food.simulator.business",
+    "first_seen": "2026-03-12",
+    "last_seen": "2026-03-12",
+    "peak_dpd": 170878,
+    "peak_date": "2026-03-12",
+    "history": [
+      {
+        "date": "2026-03-12",
+        "installs": 1025270,
+        "dpd": 170878,
+        "score": 0
+      }
+    ]
+  },
+  "com.obby.parkour.prison.runner.game3d": {
+    "id": "com.obby.parkour.prison.runner.game3d",
+    "name": "Obby Parkour: Prison Runner 3D",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/xA8BV9n2eMK8Kfrrl9x0BE3X1y76K26bJYNgZLE7kGQCFxRXJGYbUxxyEomFiKIi-sO72_kLkuRdEr4jtuLo",
+    "url": "https://play.google.com/store/apps/details?id=com.obby.parkour.prison.runner.game3d",
+    "first_seen": "2026-03-12",
+    "last_seen": "2026-03-12",
+    "peak_dpd": 179590,
+    "peak_date": "2026-03-12",
+    "history": [
+      {
+        "date": "2026-03-12",
+        "installs": 2334670,
+        "dpd": 179590,
+        "score": 0
       }
     ]
   }
