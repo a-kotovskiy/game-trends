@@ -2607,5 +2607,24 @@
         "score": 0
       }
     ]
+  },
+  "com.rvappstudios.find.differences.spot.difference.puzzle.game": {
+    "id": "com.rvappstudios.find.differences.spot.difference.puzzle.game",
+    "name": "Spot the Differences - Find It",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/Xw-Vy1Jn9XA2fF2YxhjR0qX9aJEbf_zLHpq-Wqb7KCZe9lC2rbI92JeLI1bKkL2Ngz4aB5h-oHiu5PBoRT-TUAo",
+    "url": "https://play.google.com/store/apps/details?id=com.rvappstudios.find.differences.spot.difference.puzzle.game",
+    "first_seen": "2026-03-14",
+    "last_seen": "2026-03-14",
+    "peak_dpd": 909,
+    "peak_date": "2026-03-14",
+    "history": [
+      {
+        "date": "2026-03-14",
+        "installs": 10002,
+        "dpd": 909,
+        "score": 4
+      }
+    ]
   }
 }
