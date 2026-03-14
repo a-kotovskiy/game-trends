@@ -1394,7 +1394,9 @@
       const rocketRaw  = rockets.status === 'fulfilled' ? rockets.value : {};
       // Поддержка нового формата {"rockets": [...], "watchlist": [...]} и старого (массив)
       const rocketData    = Array.isArray(rocketRaw) ? rocketRaw : (rocketRaw.rockets || []);
-      const watchlistData = Array.isArray(rocketRaw) ? [] : (rocketRaw.watchlist || []);
+      const watchlistData = Array.isArray(rocketRaw)
+        ? rocketRaw.filter(r => r.isWatchlist)
+        : (rocketRaw.watchlist || []);
       const hypeData   = hype.status === 'fulfilled'    ? hype.value    : {};
       const videoData  = videos.status === 'fulfilled'  ? videos.value  : [];
       const newsData   = news.status === 'fulfilled'    ? news.value    : [];

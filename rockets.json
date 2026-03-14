@@ -1,973 +1,977 @@
-[
-  {
-    "id": "com.sybogames.subway.surfers.game",
-    "emoji": "🚀🔥",
-    "tag": "10M+",
-    "name": "Subway Surfers City",
-    "icon": "https://play-lh.googleusercontent.com/03aa9B2_VkQHtkTY9XVdmbDWYar7F7OMWfGBXHzTuwkiVHFT_H6NJHRrPcanuXYY63h4",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/9tqiohVWJSn6fNQsm2zHoBiISZ8Dr73LOIUlEHYBddPo_1I2r1d5VVGgseZ2IAS-mKo=w300",
-      "https://play-lh.googleusercontent.com/zrRFA-kqgqBg52SFN0OKHFjNd5WZaWMbqoGHfVt-5dDXsgCrOM4Hqs6Qu5PFO7RrRB0=w300",
-      "https://play-lh.googleusercontent.com/4xHSROEYu9qzlrD4NDIIV33ptsmZ3_E-MMpDpi2R1HNKx52JQHmeYq5t8iF4N7LVs3A=w300",
-      "https://play-lh.googleusercontent.com/QPiBmiKuwuihVRLx8qkdnA_iJ9tuLL0_r4pv2Wolaz1cSHQEYZrd_Dlkd6PEgO6UgQ8=w300"
-    ],
-    "genre": "Action",
-    "developer": "SYBO Games",
-    "downloads": "10,000,000+",
-    "realInstalls": 12821935,
-    "realInstallsStr": "12.8M",
-    "perDay": 801370,
-    "days": 16,
-    "score": 4.8,
-    "ratings": 198245,
-    "ratingsStr": "198K",
-    "contentRating": "Everyone 10+",
-    "offersIAP": true,
-    "releaseDate": "Feb 25, 2026",
-    "lastUpdated": "Mar 4, 2026",
-    "summary": "Run, jump, dodge and explore Subway Surfers City on your hoverboard!",
-    "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-04",
-        "count": 401
-      },
-      {
-        "date": "2026-03-05",
-        "count": 654
-      },
-      {
-        "date": "2026-03-06",
-        "count": 619
-      },
-      {
-        "date": "2026-03-07",
-        "count": 609
-      },
-      {
-        "date": "2026-03-08",
-        "count": 501
-      },
-      {
-        "date": "2026-03-09",
-        "count": 420
-      },
-      {
-        "date": "2026-03-10",
-        "count": 349
-      },
-      {
-        "date": "2026-03-11",
-        "count": 332
-      },
-      {
-        "date": "2026-03-12",
-        "count": 115
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-11",
-        "dpd": 885751,
-        "installs": 12400521
-      },
-      {
-        "date": "2026-03-12",
-        "dpd": 841823,
-        "installs": 12627356
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 792959,
-        "installs": 12687355
-      }
-    ],
-    "trend": "stable",
-    "dpd_prev": 841823,
-    "dpd_change_pct": -5,
-    "isWatchlist": false
-  },
-  {
-    "id": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
-    "emoji": "🚀🔥",
-    "tag": "10M+",
-    "name": "Rainbow Six Mobile",
-    "icon": "https://play-lh.googleusercontent.com/QIH2nL3HlU9UcEL8MuDJtunxs3dSTY9LXeWx4fQMU0XdOzEG8xQ0DVXa6nz4hbNvwrDI_FYOHcvi1up7KAT81A",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/-_sJG-ra2ymDMq9oypj5eVo94uw__QbTBlgdAV88bcwnAuHClJbmhXEP_-dTPjMq3Di6vmAUNz6K1BymbjN8Yw=w300",
-      "https://play-lh.googleusercontent.com/5uf1PWNcDjZ1aoxybVH_ECDnDEIWPzbSWV77d8EbJAf6n_lR9ZNNDEOY1NS1oQ-8vCH7nIOWeJPCxDLrrtCCww=w300",
-      "https://play-lh.googleusercontent.com/lXumqIyi5iA6Mqc-8_eJah0J6AyjnOjUeWmE0ARM589wJD29wWSfwoyKxA8SHCxsx88_MeGEJJo98p6q9nAkQw=w300",
-      "https://play-lh.googleusercontent.com/b7m7iJGvcKRXhWIhySiOkq83dMMRGoi1-fJegXOMBtbBi3yyr42bvMeqXPtjh1q_y2Q6jLRmehqal6GuYJf1Ww=w300"
-    ],
-    "genre": "Action",
-    "developer": "Ubisoft Nova",
-    "downloads": "10,000,000+",
-    "realInstalls": 10988942,
-    "realInstallsStr": "11.0M",
-    "perDay": 610496,
-    "days": 18,
-    "score": 4.5,
-    "ratings": 94372,
-    "ratingsStr": "94K",
-    "contentRating": "Teen",
-    "offersIAP": true,
-    "releaseDate": "Feb 23, 2026",
-    "lastUpdated": "Mar 3, 2026",
-    "summary": "Mark your calendar! Global launch is on February 23, 2026",
-    "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
-    "reviewsByDay": [
-      {
-        "date": "2026-02-27",
-        "count": 70
-      },
-      {
-        "date": "2026-02-28",
-        "count": 550
-      },
-      {
-        "date": "2026-03-01",
-        "count": 414
-      },
-      {
-        "date": "2026-03-02",
-        "count": 354
-      },
-      {
-        "date": "2026-03-03",
-        "count": 323
-      },
-      {
-        "date": "2026-03-04",
-        "count": 249
-      },
-      {
-        "date": "2026-03-05",
-        "count": 534
-      },
-      {
-        "date": "2026-03-06",
-        "count": 357
-      },
-      {
-        "date": "2026-03-07",
-        "count": 278
-      },
-      {
-        "date": "2026-03-08",
-        "count": 230
-      },
-      {
-        "date": "2026-03-09",
-        "count": 210
-      },
-      {
-        "date": "2026-03-10",
-        "count": 207
-      },
-      {
-        "date": "2026-03-11",
-        "count": 167
-      },
-      {
-        "date": "2026-03-12",
-        "count": 57
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-11",
-        "dpd": 681870,
-        "installs": 10909929
-      },
-      {
-        "date": "2026-03-12",
-        "dpd": 641760,
-        "installs": 10909929
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 610496,
-        "installs": 10988942
-      }
-    ],
-    "trend": "stable",
-    "dpd_prev": 641760,
-    "dpd_change_pct": -5,
-    "isWatchlist": false
-  },
-  {
-    "id": "in.dreamgamestudios.games.sports.dreamcricket3d",
-    "emoji": "🚀🔥",
-    "tag": "10M+",
-    "name": "Dream Cricket 2025",
-    "icon": "https://play-lh.googleusercontent.com/CTDVFfAl0tIcf8IpXyLsUt6mlDfMXUDtM647sGpsO9xeSGhZM_E1fL2DLY724DFQjl6Kvt4Hr2uD33zVgmNr",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/zBsLVUn_48XFdTlnsXB5SyItSDZmtLGd_OwYhnMdNu0gl_A0zFejrnB0gVnVEAUOW4nbuqf1hROtcjEK6qULyg=w300",
-      "https://play-lh.googleusercontent.com/JTCLhyrBi27JfVbezTb-3liIyINWlI8IpUsxEgyMeRBWD2zEUe7gUcoQCDQyS9YbBkmBrm9POF-xGVu0uxpGd0M=w300",
-      "https://play-lh.googleusercontent.com/LlRmACfA4lLCXDRNyZQAXnW5j7i8ktyG82-KP03oANOdA5mwwftAAfYwdi7eJyb0wMR9e14-xdZyKI3kv7EC=w300",
-      "https://play-lh.googleusercontent.com/zj2s6Gm9_oXAU_gMX3V-q4syTNduRs0sbukd3eMpbNYV6KucCfswK_NvtT8xEDILswH7SWmHQZ5s-m-FSXcpDw=w300"
-    ],
-    "genre": "Sports",
-    "developer": "Sporta Technologies Private Limited",
-    "downloads": "10,000,000+",
-    "realInstalls": 17017915,
-    "realInstallsStr": "17.0M",
-    "perDay": 586824,
-    "days": 29,
-    "score": 3.7,
-    "ratings": 147349,
-    "ratingsStr": "147K",
-    "contentRating": "Everyone",
-    "offersIAP": true,
-    "releaseDate": "Feb 12, 2026",
-    "lastUpdated": "Feb 26, 2026",
-    "summary": "Most Realistic 3D Cricket Game with Ultra Graphics & Officially Licensed Players",
-    "url": "https://play.google.com/store/apps/details?id=in.dreamgamestudios.games.sports.dreamcricket3d",
-    "reviewsByDay": [
-      {
-        "date": "2026-02-12",
-        "count": 114
-      },
-      {
-        "date": "2026-02-13",
-        "count": 68
-      },
-      {
-        "date": "2026-02-14",
-        "count": 85
-      },
-      {
-        "date": "2026-02-15",
-        "count": 67
-      },
-      {
-        "date": "2026-02-16",
-        "count": 97
-      },
-      {
-        "date": "2026-02-17",
-        "count": 108
-      },
-      {
-        "date": "2026-02-18",
-        "count": 102
-      },
-      {
-        "date": "2026-02-19",
-        "count": 104
-      },
-      {
-        "date": "2026-02-20",
-        "count": 143
-      },
-      {
-        "date": "2026-02-21",
-        "count": 151
-      },
-      {
-        "date": "2026-02-22",
-        "count": 137
-      },
-      {
-        "date": "2026-02-23",
-        "count": 100
-      },
-      {
-        "date": "2026-02-24",
-        "count": 104
-      },
-      {
-        "date": "2026-02-25",
-        "count": 98
-      },
-      {
-        "date": "2026-02-26",
-        "count": 94
-      },
-      {
-        "date": "2026-02-27",
-        "count": 103
-      },
-      {
-        "date": "2026-02-28",
-        "count": 85
-      },
-      {
-        "date": "2026-03-01",
-        "count": 88
-      },
-      {
-        "date": "2026-03-02",
-        "count": 85
-      },
-      {
-        "date": "2026-03-03",
-        "count": 90
-      },
-      {
-        "date": "2026-03-04",
-        "count": 81
-      },
-      {
-        "date": "2026-03-05",
-        "count": 68
-      },
-      {
-        "date": "2026-03-06",
-        "count": 106
-      },
-      {
-        "date": "2026-03-07",
-        "count": 162
-      },
-      {
-        "date": "2026-03-08",
-        "count": 95
-      },
-      {
-        "date": "2026-03-09",
-        "count": 109
-      },
-      {
-        "date": "2026-03-10",
-        "count": 99
-      },
-      {
-        "date": "2026-03-11",
-        "count": 127
-      },
-      {
-        "date": "2026-03-12",
-        "count": 36
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-11",
-        "dpd": 628856,
-        "installs": 16979113
-      },
-      {
-        "date": "2026-03-12",
-        "dpd": 607782,
-        "installs": 17017915
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 586824,
-        "installs": 17017915
-      }
-    ],
-    "trend": "stable",
-    "dpd_prev": 607782,
-    "dpd_change_pct": -3,
-    "isWatchlist": false
-  },
-  {
-    "id": "com.peerplay.megamerge",
-    "emoji": "🚀🔥",
-    "tag": "500K+",
-    "name": "Merge Cruise: Mystery Puzzle",
-    "icon": "https://play-lh.googleusercontent.com/HPR1HCSj2yz7i4jV0dUece2qswOgkxXKgrqZnQF9lWVTLzeFhKpajuUQwTABne39Iiht4QNglnaDDJD0f8iw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/eB4ZsgNUkccCIwUY99UAV9EqUyAoJoz_5Oal_oHoc_N-1Q809TRrSeRNVgGmlZQUlG4D=w300",
-      "https://play-lh.googleusercontent.com/LnEzvV1z0LMiFFLGsr30KEcTCJ8TK9KlLEIKB-1tCWXVLp9RVAnl1i9DTkDbHrjzgd8=w300",
-      "https://play-lh.googleusercontent.com/odAaiutIWJ1HlFMMikVCnUnwpc-PSEp_VvIYCkElSO_NrnPzSej-QGoDDwp081Lo6hM5=w300",
-      "https://play-lh.googleusercontent.com/sT0v7oWxJ3SLcX-ACrVlfghoYkFKnRDdPiWOiJWucSZ2auz1DVBnTJVxWkmOQNnJdT4G=w300"
-    ],
-    "genre": "Puzzle",
-    "developer": "PeerPlay",
-    "downloads": "500,000+",
-    "realInstalls": 970653,
-    "realInstallsStr": "971K",
-    "perDay": 485326,
-    "days": 2,
-    "score": 4.6,
-    "ratings": 328,
-    "ratingsStr": "328",
-    "contentRating": "Everyone",
-    "offersIAP": true,
-    "releaseDate": "Mar 11, 2026",
-    "lastUpdated": "Mar 10, 2026",
-    "summary": "Merge & solve cruise ship mystery! Renovate, puzzle, uncover thrilling secrets!",
-    "url": "https://play.google.com/store/apps/details?id=com.peerplay.megamerge",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-11",
-        "count": 1
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-12",
-        "dpd": 969281,
-        "installs": 969281
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 485326,
-        "installs": 970653
-      }
-    ],
-    "trend": "falling",
-    "dpd_prev": 969281,
-    "dpd_change_pct": -50,
-    "isWatchlist": false
-  },
-  {
-    "id": "com.phs.global",
-    "emoji": "🚀🔥",
-    "tag": "1M+",
-    "name": "Last Asylum: Plague",
-    "icon": "https://play-lh.googleusercontent.com/HOFXbIOJIZGru5_UM5hdGDmP7HIgxGJEx4dQAbPClmAtrNw3tVL9fY5NNHfa7VgIMFU-Sr3-s5FQGfaYJYhP",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/MsDsRt-8aVXMf6u48T91zk4qqFP2-THlsCeAtlDItE69BX7OF_wlQMRAgyZjWbZ5HOpDw7xtypb49e4N-8OnJ98=w300",
-      "https://play-lh.googleusercontent.com/bh3ffZZ30kIk1sAGs7t0biK6bncAy-bizpXcRBav26E-9ZsfYyv_Kc_KlwyBq11jj3e3K-DQagWtGFxZ-9LLnA=w300",
-      "https://play-lh.googleusercontent.com/3xquqPetJMM0eIJ2Vd9Urjw3nrYcY3Wg2ksvpgQ6B0uEtuB97SyT008h_5N_q6D5Pd735Ku2fYk9ELwPe_9eoL8=w300",
-      "https://play-lh.googleusercontent.com/OLxLkh9HSXP7O4eKojVCcFKbDIMIXuPNpie53j26pFMdgZBF1_-_sCBnxSea0VuB8h2aNq_PC2Ocm4GrAATKsA=w300"
-    ],
-    "genre": "Strategy",
-    "developer": "37GAMES GLOBAL",
-    "downloads": "1,000,000+",
-    "realInstalls": 4070095,
-    "realInstallsStr": "4.1M",
-    "perDay": 313084,
-    "days": 13,
-    "score": 4.6,
-    "ratings": 29146,
-    "ratingsStr": "29K",
-    "contentRating": "Teen",
-    "offersIAP": true,
-    "releaseDate": "Feb 28, 2026",
-    "lastUpdated": "Mar 12, 2026",
-    "summary": "One sanctuary. One doctor. One last chance.",
-    "url": "https://play.google.com/store/apps/details?id=com.phs.global",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-02",
-        "count": 4
-      },
-      {
-        "date": "2026-03-03",
-        "count": 23
-      },
-      {
-        "date": "2026-03-04",
-        "count": 50
-      },
-      {
-        "date": "2026-03-05",
-        "count": 66
-      },
-      {
-        "date": "2026-03-06",
-        "count": 44
-      },
-      {
-        "date": "2026-03-07",
-        "count": 55
-      },
-      {
-        "date": "2026-03-08",
-        "count": 50
-      },
-      {
-        "date": "2026-03-09",
-        "count": 53
-      },
-      {
-        "date": "2026-03-10",
-        "count": 65
-      },
-      {
-        "date": "2026-03-11",
-        "count": 57
-      },
-      {
-        "date": "2026-03-12",
-        "count": 11
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-11",
-        "dpd": 343248,
-        "installs": 3775734
-      },
-      {
-        "date": "2026-03-12",
-        "dpd": 330746,
-        "installs": 3968955
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 313084,
-        "installs": 4070095
-      }
-    ],
-    "trend": "stable",
-    "dpd_prev": 330746,
-    "dpd_change_pct": -5,
-    "isWatchlist": false
-  },
-  {
-    "id": "com.obby.parkour.prison.runner.game3d",
-    "emoji": "🚀🔥",
-    "tag": "1M+",
-    "name": "Obby Parkour: Prison Runner 3D",
-    "icon": "https://play-lh.googleusercontent.com/xA8BV9n2eMK8Kfrrl9x0BE3X1y76K26bJYNgZLE7kGQCFxRXJGYbUxxyEomFiKIi-sO72_kLkuRdEr4jtuLo",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/xx77OJk3cW4ZwGqRSqFju5ftasLdlzWet8eKebPo2D0GxLQgsYXyudZlmmV1omQE5JV7yZWm-KzGQXEv4w6U=w300",
-      "https://play-lh.googleusercontent.com/1edWPFHnsRKtK8u3WUY2a2qKEjdv7jhV8V214FrhZzk-rrCnwflVEmU5eSPZDPvO06soZd7m4iAn_LIdCgZkKw=w300",
-      "https://play-lh.googleusercontent.com/5Ee4BYlM7-KDmItaUwJGI1Djdjrji5oXmJKrEdrUVY_4QZkv07RI723pcp9jF0O2Vik7GudJHm1RqYqPWN4W36I=w300",
-      "https://play-lh.googleusercontent.com/ZEY11jwww4Rh2Tka-3B93hXW-8Lz3BG4j2jmd7o4SOYeVULGi2gbPM2IPxZJZPxODIcpIr7c1mX035PC_9-T-A=w300"
-    ],
-    "genre": "Adventure",
-    "developer": "Play Paradigm",
-    "downloads": "1,000,000+",
-    "realInstalls": 2335485,
-    "realInstallsStr": "2.3M",
-    "perDay": 166820,
-    "days": 14,
-    "score": null,
-    "ratings": 0,
-    "ratingsStr": "0",
-    "contentRating": "Everyone 10+",
-    "offersIAP": true,
-    "releaseDate": "Feb 27, 2026",
-    "lastUpdated": "Feb 27, 2026",
-    "summary": "Run, jump & escape a blocky prison in this fast obby parkour game",
-    "url": "https://play.google.com/store/apps/details?id=com.obby.parkour.prison.runner.game3d",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-08",
-        "count": 1
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-12",
-        "dpd": 179590,
-        "installs": 2334670
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 166820,
-        "installs": 2335485
-      }
-    ],
-    "trend": "stable",
-    "dpd_prev": 179590,
-    "dpd_change_pct": -7,
-    "isWatchlist": false
-  },
-  {
-    "id": "com.peri.game.mall.shopping.fast.food.simulator.business",
-    "emoji": "🚀🔥",
-    "tag": "1M+",
-    "name": "Mall & Fast Food Simulator 3D",
-    "icon": "https://play-lh.googleusercontent.com/MQ9Kok5d5X7sHVGq88PFU57nToSDa_B2kl--AYyrTHng9d7QgBKEBzbBMPVo2QKOwTNq",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/pmnc3glaOnIJXKRujAxwFYlsjVETy1l4ruZDwS0wZTMY8ctsCdlauL3G7rC059Cxfz0o7B27-gIkeac0MijiGw=w300",
-      "https://play-lh.googleusercontent.com/bk9P9zcZ1PZTSAvqKaYBeCrtfdm_MnPXtOeXb9mvFdWO1V6-j7fW7Udnyd6m0E0Fyg-IuB31CIK-kXXCEbY_-zg=w300",
-      "https://play-lh.googleusercontent.com/2grDAZFtIbFX1LEhboXOVuO79vylkdJ-qeXuSHJsGRkde2FXJATpBbNf4ffmuFdFGXImfnNSWK663xKnb4ee=w300",
-      "https://play-lh.googleusercontent.com/4xAzV7ADVjAP0ycJAc_ahpfMcV0d0-vLZxB5hYmA0LYdPMNuhd0Pfx-EW-KOA5g0LEY9KxeGkf7psG5fp7ucbOA=w300"
-    ],
-    "genre": "Simulation",
-    "developer": "Peri Games",
-    "downloads": "1,000,000+",
-    "realInstalls": 1027298,
-    "realInstallsStr": "1.0M",
-    "perDay": 146756,
-    "days": 7,
-    "score": null,
-    "ratings": 0,
-    "ratingsStr": "0",
-    "contentRating": "Everyone",
-    "offersIAP": true,
-    "releaseDate": "Mar 6, 2026",
-    "lastUpdated": "Mar 7, 2026",
-    "summary": "Manage a shopping mall business. Grow your megastore, fast food & mall simulator",
-    "url": "https://play.google.com/store/apps/details?id=com.peri.game.mall.shopping.fast.food.simulator.business",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-07",
-        "count": 2
-      },
-      {
-        "date": "2026-03-08",
-        "count": 5
-      },
-      {
-        "date": "2026-03-09",
-        "count": 1
-      },
-      {
-        "date": "2026-03-10",
-        "count": 3
-      },
-      {
-        "date": "2026-03-11",
-        "count": 3
-      },
-      {
-        "date": "2026-03-12",
-        "count": 1
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-12",
-        "dpd": 170878,
-        "installs": 1025270
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 146756,
-        "installs": 1027298
-      }
-    ],
-    "trend": "falling",
-    "dpd_prev": 170878,
-    "dpd_change_pct": -14,
-    "isWatchlist": false
-  },
-  {
-    "id": "com.extreme.games.production.onehitpunch.games",
-    "emoji": "🚀",
-    "tag": "500K+",
-    "name": "One Hit Punch",
-    "icon": "https://play-lh.googleusercontent.com/ybQE_kXyTZV7co0NVzhy64hQ8iZr9lJCfBGgBhd4KAaudTmBVHuOcomyy8tlCbqmY0dGk4SLHsgWMkI9n7JxdJc",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/R-K9dkhi4N5T6Ctcdwb_GUMDgdLSy3x8nxaxmLI6mZNyHoq_CXNe5vOKR3omhskZJr_fmNYYVjePzaCnjna0jA=w300",
-      "https://play-lh.googleusercontent.com/I0DIGNfUYqkAVzNi-kHrQVUb3QbRxDdxKOZ8zMJh2Ch1VAUbgrgq4U3thsG6rupUUT5N7N20c6QNJR8wlbvCwQ=w300",
-      "https://play-lh.googleusercontent.com/BEM2VZ6JNWYiUbb1xbaH_hplYf3UQdVZxANEdq2u41KyMwX2I6OMunfbF5YSRvRmfk1JQpaP8ZJs51sdo3XQdQ=w300",
-      "https://play-lh.googleusercontent.com/uolR4jzF57_YQv_IxeeowaCpNa1wjbbEgUkE_FIxak62Y3LmcUkW_UGFEiYJm3NRHKXb9fR_6i_RaMEYlaxt6pE=w300"
-    ],
-    "genre": "Adventure",
-    "developer": "Extreme Games Production",
-    "downloads": "500,000+",
-    "realInstalls": 535596,
-    "realInstallsStr": "536K",
-    "perDay": 89266,
-    "days": 6,
-    "score": null,
-    "ratings": 0,
-    "ratingsStr": "0",
-    "contentRating": "Everyone",
-    "offersIAP": false,
-    "releaseDate": "Mar 7, 2026",
-    "lastUpdated": "Mar 7, 2026",
-    "summary": "Tap fast, punch hard and rise as the champion of epic punch battles.",
-    "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
-    "reviewsByDay": [],
-    "dpdHistory": [
-      {
-        "date": "2026-03-11",
-        "dpd": 131508,
-        "installs": 526035
-      },
-      {
-        "date": "2026-03-12",
-        "dpd": 106661,
-        "installs": 533307
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 89266,
-        "installs": 535596
-      }
-    ],
-    "trend": "falling",
-    "dpd_prev": 106661,
-    "dpd_change_pct": -16,
-    "isWatchlist": true
-  },
-  {
-    "id": "com.digitalextremes.warframemobile",
-    "emoji": "🚀",
-    "tag": "1M+",
-    "name": "Warframe",
-    "icon": "https://play-lh.googleusercontent.com/C2FSzPBDTKdDKAVmwCOr9CBvJ6j2toa_bfp8utKGbrWVAuDSHgeMdIzqWzK3rwRUyeY",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/RdOmEi8NPfMd7aCzwt2LhlBnsZNTTq2-9kMkhLxan6TZffkuJFYJxhQhA8GLHR4ikw=w300",
-      "https://play-lh.googleusercontent.com/sMbnYpx3EexpkvgwMZQZ-Gu-0OEYh0f1ZF0atpq_gDdAq5WccTU2FdCSFHfTvMcmSAxY=w300",
-      "https://play-lh.googleusercontent.com/RfwNctPmnIEcrtl0uiZCxmnCgg6aDIOf30v-WDQEeZWVMkPrGTVTSorElz-ASm3V_pnN7YhJVGMds-G9GX7G=w300",
-      "https://play-lh.googleusercontent.com/Cvq5gdn0NWHHWqsfAjgkqQpG4sjHEEc6whIGLNN5N5pvV_sV7JpT7utleMOaJqLwxQ=w300"
-    ],
-    "genre": "Action",
-    "developer": "Digital Extremes",
-    "downloads": "1,000,000+",
-    "realInstalls": 1947275,
-    "realInstallsStr": "1.9M",
-    "perDay": 84664,
-    "days": 23,
-    "score": 4.3,
-    "ratings": 20731,
-    "ratingsStr": "20K",
-    "contentRating": "Mature 17+",
-    "offersIAP": true,
-    "releaseDate": "Feb 18, 2026",
-    "lastUpdated": "Mar 10, 2026",
-    "summary": "Battle alongside your friends in this story-driven, online action game.",
-    "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile",
-    "reviewsByDay": [
-      {
-        "date": "2026-02-18",
-        "count": 771
-      },
-      {
-        "date": "2026-02-19",
-        "count": 822
-      },
-      {
-        "date": "2026-02-20",
-        "count": 685
-      },
-      {
-        "date": "2026-02-21",
-        "count": 328
-      },
-      {
-        "date": "2026-02-22",
-        "count": 196
-      },
-      {
-        "date": "2026-02-23",
-        "count": 116
-      },
-      {
-        "date": "2026-02-24",
-        "count": 115
-      },
-      {
-        "date": "2026-02-25",
-        "count": 103
-      },
-      {
-        "date": "2026-02-26",
-        "count": 87
-      },
-      {
-        "date": "2026-02-27",
-        "count": 150
-      },
-      {
-        "date": "2026-02-28",
-        "count": 85
-      },
-      {
-        "date": "2026-03-01",
-        "count": 60
-      },
-      {
-        "date": "2026-03-02",
-        "count": 45
-      },
-      {
-        "date": "2026-03-03",
-        "count": 37
-      },
-      {
-        "date": "2026-03-04",
-        "count": 108
-      },
-      {
-        "date": "2026-03-05",
-        "count": 58
-      },
-      {
-        "date": "2026-03-06",
-        "count": 33
-      },
-      {
-        "date": "2026-03-07",
-        "count": 33
-      },
-      {
-        "date": "2026-03-08",
-        "count": 27
-      },
-      {
-        "date": "2026-03-09",
-        "count": 24
-      },
-      {
-        "date": "2026-03-10",
-        "count": 64
-      },
-      {
-        "date": "2026-03-11",
-        "count": 39
-      },
-      {
-        "date": "2026-03-12",
-        "count": 14
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-11",
-        "dpd": 91680,
-        "installs": 1925299
-      },
-      {
-        "date": "2026-03-12",
-        "dpd": 87779,
-        "installs": 1931142
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 84664,
-        "installs": 1947275
-      }
-    ],
-    "trend": "stable",
-    "dpd_prev": 87779,
-    "dpd_change_pct": -4,
-    "isWatchlist": false
-  },
-  {
-    "id": "com.runawayplay.dragons",
-    "emoji": "🚀",
-    "tag": "500K+",
-    "name": "Hatch Dragons",
-    "icon": "https://play-lh.googleusercontent.com/tWSpMMixH1mx7Yv5DnEZdRaiHK68V6tZGYpr7WvgiluvGmuuRY_RefxseSKMcg5oV4YBUAtJZONrExg1qFkn",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/-igf16Yp7I5zFRUCyPa32POZwlQeH9JFR67_o1Zb-0r3hGFhxvMGt_4atiP7vqOueMk=w300",
-      "https://play-lh.googleusercontent.com/tF2MXle2EiM8nRtOInXNK4QTF-q47CEEVfD04TaWdEE7z-_GDHUj17GRCs_aDjvGnr4=w300",
-      "https://play-lh.googleusercontent.com/6L5rAcmItK9lz2KK822D9znevPF80oXvRY5XjAfUy5otskpzee49pgQrTFsSREXys5r6=w300",
-      "https://play-lh.googleusercontent.com/wl1RxSp4eHrWctbCJL6G4MSJfjSoZQbHVVYTW8q0Fk_f3zcHkPPmV7P320mAp25KXg=w300"
-    ],
-    "genre": "Simulation",
-    "developer": "Runaway Play",
-    "downloads": "500,000+",
-    "realInstalls": 694692,
-    "realInstallsStr": "695K",
-    "perDay": 77188,
-    "days": 9,
-    "score": 4.8,
-    "ratings": 16255,
-    "ratingsStr": "16K",
-    "contentRating": "Everyone",
-    "offersIAP": true,
-    "releaseDate": "Mar 4, 2026",
-    "lastUpdated": "Mar 2, 2026",
-    "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
-    "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-04",
-        "count": 414
-      },
-      {
-        "date": "2026-03-05",
-        "count": 410
-      },
-      {
-        "date": "2026-03-06",
-        "count": 240
-      },
-      {
-        "date": "2026-03-07",
-        "count": 225
-      },
-      {
-        "date": "2026-03-08",
-        "count": 198
-      },
-      {
-        "date": "2026-03-09",
-        "count": 173
-      },
-      {
-        "date": "2026-03-10",
-        "count": 161
-      },
-      {
-        "date": "2026-03-11",
-        "count": 157
-      },
-      {
-        "date": "2026-03-12",
-        "count": 27
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-11",
-        "dpd": 82946,
-        "installs": 580627
-      },
-      {
-        "date": "2026-03-12",
-        "dpd": 79029,
-        "installs": 632238
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 77188,
-        "installs": 694692
-      }
-    ],
-    "trend": "stable",
-    "dpd_prev": 79029,
-    "dpd_change_pct": -2,
-    "isWatchlist": true
-  },
-  {
-    "id": "com.SpaghettiHouse.EscapeFromBlogger",
-    "emoji": "🚀",
-    "tag": "50K+ УСТАНОВОК",
-    "name": "Escape from Vlogger: Runaway",
-    "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/pQMuCHpS4CZ8CfFbgShrrIOycuY2im3AfQ5fgYi2M2O5AHjG5OzkChibg-lMR9D4sqFeNGUA-5bouU1fbklYjBA=w300",
-      "https://play-lh.googleusercontent.com/w4WI2vYTaHaIRZ-ToW3H16W4LM4tC0RNfnFZU5yroAOuVFobuYlmiQjMMEECsAIHN-50478jrG9bTJX8W0QRvr4=w300",
-      "https://play-lh.googleusercontent.com/0-uSbqpYVnEuKttKJr0reLaHo90CkFvGKvksOkI4x51sk_--C_Dmow2Ljj8N3Mv-fp1LP6oQiEm41cZE4uLB2w=w300",
-      "https://play-lh.googleusercontent.com/B6YPcTo1BmS3la_-uULKHGTUQeSVddXEiNiYkfyqtnIbqwCgfuJaXY7ZJeo8N0fSjrTJUoz_LIQ3oIENfuusbQ=w300"
-    ],
-    "genre": "Action",
-    "developer": "Spaghetti House",
-    "downloads": "50,000+",
-    "realInstalls": 63756,
-    "realInstallsStr": "64K",
-    "perDay": 21252,
-    "days": 3,
-    "score": 4.8,
-    "ratings": 1779,
-    "ratingsStr": "1K",
-    "contentRating": "Teen",
-    "offersIAP": false,
-    "releaseDate": "Mar 10, 2026",
-    "lastUpdated": "Mar 10, 2026",
-    "summary": "Hide seek, solve puzzle quests, and escape the vlogger’s house in a horror game",
-    "url": "https://play.google.com/store/apps/details?id=com.SpaghettiHouse.EscapeFromBlogger",
-    "reviewsByDay": [
-      {
-        "date": "2026-03-11",
-        "count": 4
-      },
-      {
-        "date": "2026-03-12",
-        "count": 1
-      }
-    ],
-    "dpdHistory": [
-      {
-        "date": "2026-03-12",
-        "dpd": 14933,
-        "installs": 29866
-      },
-      {
-        "date": "2026-03-13",
-        "dpd": 21252,
-        "installs": 63756
-      }
-    ],
-    "trend": "rising",
-    "dpd_prev": 14933,
-    "dpd_change_pct": 42,
-    "isWatchlist": true
-  }
-]
+{
+  "rockets": [
+    {
+      "id": "com.sybogames.subway.surfers.game",
+      "emoji": "🚀🔥",
+      "tag": "10M+",
+      "name": "Subway Surfers City",
+      "icon": "https://play-lh.googleusercontent.com/03aa9B2_VkQHtkTY9XVdmbDWYar7F7OMWfGBXHzTuwkiVHFT_H6NJHRrPcanuXYY63h4",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/9tqiohVWJSn6fNQsm2zHoBiISZ8Dr73LOIUlEHYBddPo_1I2r1d5VVGgseZ2IAS-mKo=w300",
+        "https://play-lh.googleusercontent.com/zrRFA-kqgqBg52SFN0OKHFjNd5WZaWMbqoGHfVt-5dDXsgCrOM4Hqs6Qu5PFO7RrRB0=w300",
+        "https://play-lh.googleusercontent.com/4xHSROEYu9qzlrD4NDIIV33ptsmZ3_E-MMpDpi2R1HNKx52JQHmeYq5t8iF4N7LVs3A=w300",
+        "https://play-lh.googleusercontent.com/QPiBmiKuwuihVRLx8qkdnA_iJ9tuLL0_r4pv2Wolaz1cSHQEYZrd_Dlkd6PEgO6UgQ8=w300"
+      ],
+      "genre": "Action",
+      "developer": "SYBO Games",
+      "downloads": "10,000,000+",
+      "realInstalls": 12821935,
+      "realInstallsStr": "12.8M",
+      "perDay": 801370,
+      "days": 16,
+      "score": 4.8,
+      "ratings": 198404,
+      "ratingsStr": "198K",
+      "contentRating": "Everyone 10+",
+      "offersIAP": true,
+      "releaseDate": "Feb 25, 2026",
+      "lastUpdated": "Mar 4, 2026",
+      "summary": "Run, jump, dodge and explore Subway Surfers City on your hoverboard!",
+      "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-04",
+          "count": 392
+        },
+        {
+          "date": "2026-03-05",
+          "count": 654
+        },
+        {
+          "date": "2026-03-06",
+          "count": 619
+        },
+        {
+          "date": "2026-03-07",
+          "count": 609
+        },
+        {
+          "date": "2026-03-08",
+          "count": 501
+        },
+        {
+          "date": "2026-03-09",
+          "count": 420
+        },
+        {
+          "date": "2026-03-10",
+          "count": 349
+        },
+        {
+          "date": "2026-03-11",
+          "count": 332
+        },
+        {
+          "date": "2026-03-12",
+          "count": 124
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 885751,
+          "installs": 12400521
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 841823,
+          "installs": 12627356
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 792959,
+          "installs": 12687355
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 841823,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
+      "emoji": "🚀🔥",
+      "tag": "10M+",
+      "name": "Rainbow Six Mobile",
+      "icon": "https://play-lh.googleusercontent.com/QIH2nL3HlU9UcEL8MuDJtunxs3dSTY9LXeWx4fQMU0XdOzEG8xQ0DVXa6nz4hbNvwrDI_FYOHcvi1up7KAT81A",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/-_sJG-ra2ymDMq9oypj5eVo94uw__QbTBlgdAV88bcwnAuHClJbmhXEP_-dTPjMq3Di6vmAUNz6K1BymbjN8Yw=w300",
+        "https://play-lh.googleusercontent.com/5uf1PWNcDjZ1aoxybVH_ECDnDEIWPzbSWV77d8EbJAf6n_lR9ZNNDEOY1NS1oQ-8vCH7nIOWeJPCxDLrrtCCww=w300",
+        "https://play-lh.googleusercontent.com/lXumqIyi5iA6Mqc-8_eJah0J6AyjnOjUeWmE0ARM589wJD29wWSfwoyKxA8SHCxsx88_MeGEJJo98p6q9nAkQw=w300",
+        "https://play-lh.googleusercontent.com/b7m7iJGvcKRXhWIhySiOkq83dMMRGoi1-fJegXOMBtbBi3yyr42bvMeqXPtjh1q_y2Q6jLRmehqal6GuYJf1Ww=w300"
+      ],
+      "genre": "Action",
+      "developer": "Ubisoft Nova",
+      "downloads": "10,000,000+",
+      "realInstalls": 10988942,
+      "realInstallsStr": "11.0M",
+      "perDay": 610496,
+      "days": 18,
+      "score": 4.5,
+      "ratings": 94432,
+      "ratingsStr": "94K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Feb 23, 2026",
+      "lastUpdated": "Mar 3, 2026",
+      "summary": "Mark your calendar! Global launch is on February 23, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-27",
+          "count": 57
+        },
+        {
+          "date": "2026-02-28",
+          "count": 550
+        },
+        {
+          "date": "2026-03-01",
+          "count": 414
+        },
+        {
+          "date": "2026-03-02",
+          "count": 354
+        },
+        {
+          "date": "2026-03-03",
+          "count": 323
+        },
+        {
+          "date": "2026-03-04",
+          "count": 249
+        },
+        {
+          "date": "2026-03-05",
+          "count": 534
+        },
+        {
+          "date": "2026-03-06",
+          "count": 357
+        },
+        {
+          "date": "2026-03-07",
+          "count": 278
+        },
+        {
+          "date": "2026-03-08",
+          "count": 230
+        },
+        {
+          "date": "2026-03-09",
+          "count": 210
+        },
+        {
+          "date": "2026-03-10",
+          "count": 207
+        },
+        {
+          "date": "2026-03-11",
+          "count": 167
+        },
+        {
+          "date": "2026-03-12",
+          "count": 70
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 681870,
+          "installs": 10909929
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 641760,
+          "installs": 10909929
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 610496,
+          "installs": 10988942
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 641760,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "in.dreamgamestudios.games.sports.dreamcricket3d",
+      "emoji": "🚀🔥",
+      "tag": "10M+",
+      "name": "Dream Cricket 2025",
+      "icon": "https://play-lh.googleusercontent.com/CTDVFfAl0tIcf8IpXyLsUt6mlDfMXUDtM647sGpsO9xeSGhZM_E1fL2DLY724DFQjl6Kvt4Hr2uD33zVgmNr",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/zBsLVUn_48XFdTlnsXB5SyItSDZmtLGd_OwYhnMdNu0gl_A0zFejrnB0gVnVEAUOW4nbuqf1hROtcjEK6qULyg=w300",
+        "https://play-lh.googleusercontent.com/JTCLhyrBi27JfVbezTb-3liIyINWlI8IpUsxEgyMeRBWD2zEUe7gUcoQCDQyS9YbBkmBrm9POF-xGVu0uxpGd0M=w300",
+        "https://play-lh.googleusercontent.com/LlRmACfA4lLCXDRNyZQAXnW5j7i8ktyG82-KP03oANOdA5mwwftAAfYwdi7eJyb0wMR9e14-xdZyKI3kv7EC=w300",
+        "https://play-lh.googleusercontent.com/zj2s6Gm9_oXAU_gMX3V-q4syTNduRs0sbukd3eMpbNYV6KucCfswK_NvtT8xEDILswH7SWmHQZ5s-m-FSXcpDw=w300"
+      ],
+      "genre": "Sports",
+      "developer": "Sporta Technologies Private Limited",
+      "downloads": "10,000,000+",
+      "realInstalls": 17017915,
+      "realInstallsStr": "17.0M",
+      "perDay": 586824,
+      "days": 29,
+      "score": 3.7,
+      "ratings": 147368,
+      "ratingsStr": "147K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Feb 12, 2026",
+      "lastUpdated": "Feb 26, 2026",
+      "summary": "Most Realistic 3D Cricket Game with Ultra Graphics & Officially Licensed Players",
+      "url": "https://play.google.com/store/apps/details?id=in.dreamgamestudios.games.sports.dreamcricket3d",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-12",
+          "count": 114
+        },
+        {
+          "date": "2026-02-13",
+          "count": 68
+        },
+        {
+          "date": "2026-02-14",
+          "count": 85
+        },
+        {
+          "date": "2026-02-15",
+          "count": 67
+        },
+        {
+          "date": "2026-02-16",
+          "count": 97
+        },
+        {
+          "date": "2026-02-17",
+          "count": 108
+        },
+        {
+          "date": "2026-02-18",
+          "count": 102
+        },
+        {
+          "date": "2026-02-19",
+          "count": 104
+        },
+        {
+          "date": "2026-02-20",
+          "count": 143
+        },
+        {
+          "date": "2026-02-21",
+          "count": 151
+        },
+        {
+          "date": "2026-02-22",
+          "count": 137
+        },
+        {
+          "date": "2026-02-23",
+          "count": 99
+        },
+        {
+          "date": "2026-02-24",
+          "count": 104
+        },
+        {
+          "date": "2026-02-25",
+          "count": 98
+        },
+        {
+          "date": "2026-02-26",
+          "count": 94
+        },
+        {
+          "date": "2026-02-27",
+          "count": 103
+        },
+        {
+          "date": "2026-02-28",
+          "count": 85
+        },
+        {
+          "date": "2026-03-01",
+          "count": 88
+        },
+        {
+          "date": "2026-03-02",
+          "count": 85
+        },
+        {
+          "date": "2026-03-03",
+          "count": 90
+        },
+        {
+          "date": "2026-03-04",
+          "count": 81
+        },
+        {
+          "date": "2026-03-05",
+          "count": 68
+        },
+        {
+          "date": "2026-03-06",
+          "count": 106
+        },
+        {
+          "date": "2026-03-07",
+          "count": 162
+        },
+        {
+          "date": "2026-03-08",
+          "count": 95
+        },
+        {
+          "date": "2026-03-09",
+          "count": 109
+        },
+        {
+          "date": "2026-03-10",
+          "count": 99
+        },
+        {
+          "date": "2026-03-11",
+          "count": 127
+        },
+        {
+          "date": "2026-03-12",
+          "count": 41
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 628856,
+          "installs": 16979113
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 607782,
+          "installs": 17017915
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 586824,
+          "installs": 17017915
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 607782,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.peerplay.megamerge",
+      "emoji": "🚀🔥",
+      "tag": "500K+",
+      "name": "Merge Cruise: Mystery Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/HPR1HCSj2yz7i4jV0dUece2qswOgkxXKgrqZnQF9lWVTLzeFhKpajuUQwTABne39Iiht4QNglnaDDJD0f8iw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/eB4ZsgNUkccCIwUY99UAV9EqUyAoJoz_5Oal_oHoc_N-1Q809TRrSeRNVgGmlZQUlG4D=w300",
+        "https://play-lh.googleusercontent.com/LnEzvV1z0LMiFFLGsr30KEcTCJ8TK9KlLEIKB-1tCWXVLp9RVAnl1i9DTkDbHrjzgd8=w300",
+        "https://play-lh.googleusercontent.com/odAaiutIWJ1HlFMMikVCnUnwpc-PSEp_VvIYCkElSO_NrnPzSej-QGoDDwp081Lo6hM5=w300",
+        "https://play-lh.googleusercontent.com/sT0v7oWxJ3SLcX-ACrVlfghoYkFKnRDdPiWOiJWucSZ2auz1DVBnTJVxWkmOQNnJdT4G=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "PeerPlay",
+      "downloads": "500,000+",
+      "realInstalls": 970653,
+      "realInstallsStr": "971K",
+      "perDay": 485326,
+      "days": 2,
+      "score": 4.6,
+      "ratings": 329,
+      "ratingsStr": "329",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 11, 2026",
+      "lastUpdated": "Mar 10, 2026",
+      "summary": "Merge & solve cruise ship mystery! Renovate, puzzle, uncover thrilling secrets!",
+      "url": "https://play.google.com/store/apps/details?id=com.peerplay.megamerge",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-11",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-12",
+          "dpd": 969281,
+          "installs": 969281
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 485326,
+          "installs": 970653
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 969281,
+      "dpd_change_pct": -50,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.phs.global",
+      "emoji": "🚀🔥",
+      "tag": "1M+",
+      "name": "Last Asylum: Plague",
+      "icon": "https://play-lh.googleusercontent.com/HOFXbIOJIZGru5_UM5hdGDmP7HIgxGJEx4dQAbPClmAtrNw3tVL9fY5NNHfa7VgIMFU-Sr3-s5FQGfaYJYhP",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/MsDsRt-8aVXMf6u48T91zk4qqFP2-THlsCeAtlDItE69BX7OF_wlQMRAgyZjWbZ5HOpDw7xtypb49e4N-8OnJ98=w300",
+        "https://play-lh.googleusercontent.com/bh3ffZZ30kIk1sAGs7t0biK6bncAy-bizpXcRBav26E-9ZsfYyv_Kc_KlwyBq11jj3e3K-DQagWtGFxZ-9LLnA=w300",
+        "https://play-lh.googleusercontent.com/3xquqPetJMM0eIJ2Vd9Urjw3nrYcY3Wg2ksvpgQ6B0uEtuB97SyT008h_5N_q6D5Pd735Ku2fYk9ELwPe_9eoL8=w300",
+        "https://play-lh.googleusercontent.com/OLxLkh9HSXP7O4eKojVCcFKbDIMIXuPNpie53j26pFMdgZBF1_-_sCBnxSea0VuB8h2aNq_PC2Ocm4GrAATKsA=w300"
+      ],
+      "genre": "Strategy",
+      "developer": "37GAMES GLOBAL",
+      "downloads": "1,000,000+",
+      "realInstalls": 4070095,
+      "realInstallsStr": "4.1M",
+      "perDay": 313084,
+      "days": 13,
+      "score": 4.6,
+      "ratings": 29371,
+      "ratingsStr": "29K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Feb 28, 2026",
+      "lastUpdated": "Mar 12, 2026",
+      "summary": "One sanctuary. One doctor. One last chance.",
+      "url": "https://play.google.com/store/apps/details?id=com.phs.global",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-02",
+          "count": 4
+        },
+        {
+          "date": "2026-03-03",
+          "count": 23
+        },
+        {
+          "date": "2026-03-04",
+          "count": 50
+        },
+        {
+          "date": "2026-03-05",
+          "count": 66
+        },
+        {
+          "date": "2026-03-06",
+          "count": 44
+        },
+        {
+          "date": "2026-03-07",
+          "count": 55
+        },
+        {
+          "date": "2026-03-08",
+          "count": 50
+        },
+        {
+          "date": "2026-03-09",
+          "count": 53
+        },
+        {
+          "date": "2026-03-10",
+          "count": 65
+        },
+        {
+          "date": "2026-03-11",
+          "count": 57
+        },
+        {
+          "date": "2026-03-12",
+          "count": 13
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 343248,
+          "installs": 3775734
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 330746,
+          "installs": 3968955
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 313084,
+          "installs": 4070095
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 330746,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.obby.parkour.prison.runner.game3d",
+      "emoji": "🚀🔥",
+      "tag": "1M+",
+      "name": "Obby Parkour: Prison Runner 3D",
+      "icon": "https://play-lh.googleusercontent.com/xA8BV9n2eMK8Kfrrl9x0BE3X1y76K26bJYNgZLE7kGQCFxRXJGYbUxxyEomFiKIi-sO72_kLkuRdEr4jtuLo",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/xx77OJk3cW4ZwGqRSqFju5ftasLdlzWet8eKebPo2D0GxLQgsYXyudZlmmV1omQE5JV7yZWm-KzGQXEv4w6U=w300",
+        "https://play-lh.googleusercontent.com/1edWPFHnsRKtK8u3WUY2a2qKEjdv7jhV8V214FrhZzk-rrCnwflVEmU5eSPZDPvO06soZd7m4iAn_LIdCgZkKw=w300",
+        "https://play-lh.googleusercontent.com/5Ee4BYlM7-KDmItaUwJGI1Djdjrji5oXmJKrEdrUVY_4QZkv07RI723pcp9jF0O2Vik7GudJHm1RqYqPWN4W36I=w300",
+        "https://play-lh.googleusercontent.com/ZEY11jwww4Rh2Tka-3B93hXW-8Lz3BG4j2jmd7o4SOYeVULGi2gbPM2IPxZJZPxODIcpIr7c1mX035PC_9-T-A=w300"
+      ],
+      "genre": "Adventure",
+      "developer": "Play Paradigm",
+      "downloads": "1,000,000+",
+      "realInstalls": 2335485,
+      "realInstallsStr": "2.3M",
+      "perDay": 166820,
+      "days": 14,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone 10+",
+      "offersIAP": true,
+      "releaseDate": "Feb 27, 2026",
+      "lastUpdated": "Feb 27, 2026",
+      "summary": "Run, jump & escape a blocky prison in this fast obby parkour game",
+      "url": "https://play.google.com/store/apps/details?id=com.obby.parkour.prison.runner.game3d",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-08",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-12",
+          "dpd": 179590,
+          "installs": 2334670
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 166820,
+          "installs": 2335485
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 179590,
+      "dpd_change_pct": -7,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.peri.game.mall.shopping.fast.food.simulator.business",
+      "emoji": "🚀🔥",
+      "tag": "1M+",
+      "name": "Mall & Fast Food Simulator 3D",
+      "icon": "https://play-lh.googleusercontent.com/MQ9Kok5d5X7sHVGq88PFU57nToSDa_B2kl--AYyrTHng9d7QgBKEBzbBMPVo2QKOwTNq",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/pmnc3glaOnIJXKRujAxwFYlsjVETy1l4ruZDwS0wZTMY8ctsCdlauL3G7rC059Cxfz0o7B27-gIkeac0MijiGw=w300",
+        "https://play-lh.googleusercontent.com/bk9P9zcZ1PZTSAvqKaYBeCrtfdm_MnPXtOeXb9mvFdWO1V6-j7fW7Udnyd6m0E0Fyg-IuB31CIK-kXXCEbY_-zg=w300",
+        "https://play-lh.googleusercontent.com/2grDAZFtIbFX1LEhboXOVuO79vylkdJ-qeXuSHJsGRkde2FXJATpBbNf4ffmuFdFGXImfnNSWK663xKnb4ee=w300",
+        "https://play-lh.googleusercontent.com/4xAzV7ADVjAP0ycJAc_ahpfMcV0d0-vLZxB5hYmA0LYdPMNuhd0Pfx-EW-KOA5g0LEY9KxeGkf7psG5fp7ucbOA=w300"
+      ],
+      "genre": "Simulation",
+      "developer": "Peri Games",
+      "downloads": "1,000,000+",
+      "realInstalls": 1027298,
+      "realInstallsStr": "1.0M",
+      "perDay": 146756,
+      "days": 7,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 6, 2026",
+      "lastUpdated": "Mar 7, 2026",
+      "summary": "Manage a shopping mall business. Grow your megastore, fast food & mall simulator",
+      "url": "https://play.google.com/store/apps/details?id=com.peri.game.mall.shopping.fast.food.simulator.business",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-07",
+          "count": 2
+        },
+        {
+          "date": "2026-03-08",
+          "count": 5
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1
+        },
+        {
+          "date": "2026-03-10",
+          "count": 3
+        },
+        {
+          "date": "2026-03-11",
+          "count": 3
+        },
+        {
+          "date": "2026-03-12",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-12",
+          "dpd": 170878,
+          "installs": 1025270
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 146756,
+          "installs": 1027298
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 170878,
+      "dpd_change_pct": -14,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.digitalextremes.warframemobile",
+      "emoji": "🚀",
+      "tag": "1M+",
+      "name": "Warframe",
+      "icon": "https://play-lh.googleusercontent.com/C2FSzPBDTKdDKAVmwCOr9CBvJ6j2toa_bfp8utKGbrWVAuDSHgeMdIzqWzK3rwRUyeY",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/RdOmEi8NPfMd7aCzwt2LhlBnsZNTTq2-9kMkhLxan6TZffkuJFYJxhQhA8GLHR4ikw=w300",
+        "https://play-lh.googleusercontent.com/sMbnYpx3EexpkvgwMZQZ-Gu-0OEYh0f1ZF0atpq_gDdAq5WccTU2FdCSFHfTvMcmSAxY=w300",
+        "https://play-lh.googleusercontent.com/RfwNctPmnIEcrtl0uiZCxmnCgg6aDIOf30v-WDQEeZWVMkPrGTVTSorElz-ASm3V_pnN7YhJVGMds-G9GX7G=w300",
+        "https://play-lh.googleusercontent.com/Cvq5gdn0NWHHWqsfAjgkqQpG4sjHEEc6whIGLNN5N5pvV_sV7JpT7utleMOaJqLwxQ=w300"
+      ],
+      "genre": "Action",
+      "developer": "Digital Extremes",
+      "downloads": "1,000,000+",
+      "realInstalls": 1947275,
+      "realInstallsStr": "1.9M",
+      "perDay": 84664,
+      "days": 23,
+      "score": 4.3,
+      "ratings": 20733,
+      "ratingsStr": "20K",
+      "contentRating": "Mature 17+",
+      "offersIAP": true,
+      "releaseDate": "Feb 18, 2026",
+      "lastUpdated": "Mar 10, 2026",
+      "summary": "Battle alongside your friends in this story-driven, online action game.",
+      "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-18",
+          "count": 773
+        },
+        {
+          "date": "2026-02-19",
+          "count": 821
+        },
+        {
+          "date": "2026-02-20",
+          "count": 685
+        },
+        {
+          "date": "2026-02-21",
+          "count": 328
+        },
+        {
+          "date": "2026-02-22",
+          "count": 196
+        },
+        {
+          "date": "2026-02-23",
+          "count": 116
+        },
+        {
+          "date": "2026-02-24",
+          "count": 115
+        },
+        {
+          "date": "2026-02-25",
+          "count": 103
+        },
+        {
+          "date": "2026-02-26",
+          "count": 87
+        },
+        {
+          "date": "2026-02-27",
+          "count": 150
+        },
+        {
+          "date": "2026-02-28",
+          "count": 85
+        },
+        {
+          "date": "2026-03-01",
+          "count": 60
+        },
+        {
+          "date": "2026-03-02",
+          "count": 44
+        },
+        {
+          "date": "2026-03-03",
+          "count": 37
+        },
+        {
+          "date": "2026-03-04",
+          "count": 108
+        },
+        {
+          "date": "2026-03-05",
+          "count": 58
+        },
+        {
+          "date": "2026-03-06",
+          "count": 33
+        },
+        {
+          "date": "2026-03-07",
+          "count": 33
+        },
+        {
+          "date": "2026-03-08",
+          "count": 27
+        },
+        {
+          "date": "2026-03-09",
+          "count": 24
+        },
+        {
+          "date": "2026-03-10",
+          "count": 63
+        },
+        {
+          "date": "2026-03-11",
+          "count": 39
+        },
+        {
+          "date": "2026-03-12",
+          "count": 15
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 91680,
+          "installs": 1925299
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 87779,
+          "installs": 1931142
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 84664,
+          "installs": 1947275
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 87779,
+      "dpd_change_pct": -4,
+      "isWatchlist": false
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "com.extreme.games.production.onehitpunch.games",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "One Hit Punch",
+      "icon": "https://play-lh.googleusercontent.com/ybQE_kXyTZV7co0NVzhy64hQ8iZr9lJCfBGgBhd4KAaudTmBVHuOcomyy8tlCbqmY0dGk4SLHsgWMkI9n7JxdJc",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/R-K9dkhi4N5T6Ctcdwb_GUMDgdLSy3x8nxaxmLI6mZNyHoq_CXNe5vOKR3omhskZJr_fmNYYVjePzaCnjna0jA=w300",
+        "https://play-lh.googleusercontent.com/I0DIGNfUYqkAVzNi-kHrQVUb3QbRxDdxKOZ8zMJh2Ch1VAUbgrgq4U3thsG6rupUUT5N7N20c6QNJR8wlbvCwQ=w300",
+        "https://play-lh.googleusercontent.com/BEM2VZ6JNWYiUbb1xbaH_hplYf3UQdVZxANEdq2u41KyMwX2I6OMunfbF5YSRvRmfk1JQpaP8ZJs51sdo3XQdQ=w300",
+        "https://play-lh.googleusercontent.com/uolR4jzF57_YQv_IxeeowaCpNa1wjbbEgUkE_FIxak62Y3LmcUkW_UGFEiYJm3NRHKXb9fR_6i_RaMEYlaxt6pE=w300"
+      ],
+      "genre": "Adventure",
+      "developer": "Extreme Games Production",
+      "downloads": "500,000+",
+      "realInstalls": 535596,
+      "realInstallsStr": "536K",
+      "perDay": 89266,
+      "days": 6,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Mar 7, 2026",
+      "lastUpdated": "Mar 7, 2026",
+      "summary": "Tap fast, punch hard and rise as the champion of epic punch battles.",
+      "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 131508,
+          "installs": 526035
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 106661,
+          "installs": 533307
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 89266,
+          "installs": 535596
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 106661,
+      "dpd_change_pct": -16,
+      "isWatchlist": true
+    },
+    {
+      "id": "com.runawayplay.dragons",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Hatch Dragons",
+      "icon": "https://play-lh.googleusercontent.com/tWSpMMixH1mx7Yv5DnEZdRaiHK68V6tZGYpr7WvgiluvGmuuRY_RefxseSKMcg5oV4YBUAtJZONrExg1qFkn",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/-igf16Yp7I5zFRUCyPa32POZwlQeH9JFR67_o1Zb-0r3hGFhxvMGt_4atiP7vqOueMk=w300",
+        "https://play-lh.googleusercontent.com/tF2MXle2EiM8nRtOInXNK4QTF-q47CEEVfD04TaWdEE7z-_GDHUj17GRCs_aDjvGnr4=w300",
+        "https://play-lh.googleusercontent.com/6L5rAcmItK9lz2KK822D9znevPF80oXvRY5XjAfUy5otskpzee49pgQrTFsSREXys5r6=w300",
+        "https://play-lh.googleusercontent.com/wl1RxSp4eHrWctbCJL6G4MSJfjSoZQbHVVYTW8q0Fk_f3zcHkPPmV7P320mAp25KXg=w300"
+      ],
+      "genre": "Simulation",
+      "developer": "Runaway Play",
+      "downloads": "500,000+",
+      "realInstalls": 694692,
+      "realInstallsStr": "695K",
+      "perDay": 77188,
+      "days": 9,
+      "score": 4.8,
+      "ratings": 16310,
+      "ratingsStr": "16K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 4, 2026",
+      "lastUpdated": "Mar 2, 2026",
+      "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
+      "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-04",
+          "count": 414
+        },
+        {
+          "date": "2026-03-05",
+          "count": 410
+        },
+        {
+          "date": "2026-03-06",
+          "count": 240
+        },
+        {
+          "date": "2026-03-07",
+          "count": 225
+        },
+        {
+          "date": "2026-03-08",
+          "count": 198
+        },
+        {
+          "date": "2026-03-09",
+          "count": 173
+        },
+        {
+          "date": "2026-03-10",
+          "count": 161
+        },
+        {
+          "date": "2026-03-11",
+          "count": 157
+        },
+        {
+          "date": "2026-03-12",
+          "count": 31
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 82946,
+          "installs": 580627
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 79029,
+          "installs": 632238
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 77188,
+          "installs": 694692
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 79029,
+      "dpd_change_pct": -2,
+      "isWatchlist": true
+    },
+    {
+      "id": "com.SpaghettiHouse.EscapeFromBlogger",
+      "emoji": "🚀",
+      "tag": "50K+ УСТАНОВОК",
+      "name": "Escape from Vlogger: Runaway",
+      "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/pQMuCHpS4CZ8CfFbgShrrIOycuY2im3AfQ5fgYi2M2O5AHjG5OzkChibg-lMR9D4sqFeNGUA-5bouU1fbklYjBA=w300",
+        "https://play-lh.googleusercontent.com/w4WI2vYTaHaIRZ-ToW3H16W4LM4tC0RNfnFZU5yroAOuVFobuYlmiQjMMEECsAIHN-50478jrG9bTJX8W0QRvr4=w300",
+        "https://play-lh.googleusercontent.com/0-uSbqpYVnEuKttKJr0reLaHo90CkFvGKvksOkI4x51sk_--C_Dmow2Ljj8N3Mv-fp1LP6oQiEm41cZE4uLB2w=w300",
+        "https://play-lh.googleusercontent.com/B6YPcTo1BmS3la_-uULKHGTUQeSVddXEiNiYkfyqtnIbqwCgfuJaXY7ZJeo8N0fSjrTJUoz_LIQ3oIENfuusbQ=w300"
+      ],
+      "genre": "Action",
+      "developer": "Spaghetti House",
+      "downloads": "50,000+",
+      "realInstalls": 63756,
+      "realInstallsStr": "64K",
+      "perDay": 21252,
+      "days": 3,
+      "score": 4.9,
+      "ratings": 1913,
+      "ratingsStr": "1K",
+      "contentRating": "Teen",
+      "offersIAP": false,
+      "releaseDate": "Mar 10, 2026",
+      "lastUpdated": "Mar 10, 2026",
+      "summary": "Hide seek, solve puzzle quests, and escape the vlogger’s house in a horror game",
+      "url": "https://play.google.com/store/apps/details?id=com.SpaghettiHouse.EscapeFromBlogger",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-11",
+          "count": 4
+        },
+        {
+          "date": "2026-03-12",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-12",
+          "dpd": 14933,
+          "installs": 29866
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 21252,
+          "installs": 63756
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 14933,
+      "dpd_change_pct": 42,
+      "isWatchlist": true
+    }
+  ]
+}
