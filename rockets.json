@@ -17,11 +17,11 @@
       "downloads": "10,000,000+",
       "realInstalls": 12821935,
       "realInstallsStr": "12.8M",
-      "perDay": 801370,
-      "days": 16,
+      "perDay": 754231,
+      "days": 17,
       "score": 4.8,
-      "ratings": 198404,
-      "ratingsStr": "198K",
+      "ratings": 199405,
+      "ratingsStr": "199K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Feb 25, 2026",
@@ -31,7 +31,7 @@
       "reviewsByDay": [
         {
           "date": "2026-03-04",
-          "count": 392
+          "count": 284
         },
         {
           "date": "2026-03-05",
@@ -63,7 +63,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 124
+          "count": 232
         }
       ],
       "dpdHistory": [
@@ -81,10 +81,15 @@
           "date": "2026-03-13",
           "dpd": 792959,
           "installs": 12687355
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 754231,
+          "installs": 12821935
         }
       ],
       "trend": "stable",
-      "dpd_prev": 841823,
+      "dpd_prev": 792959,
       "dpd_change_pct": -5,
       "isWatchlist": false
     },
@@ -103,12 +108,12 @@
       "genre": "Action",
       "developer": "Ubisoft Nova",
       "downloads": "10,000,000+",
-      "realInstalls": 10988942,
+      "realInstalls": 11010465,
       "realInstallsStr": "11.0M",
-      "perDay": 610496,
-      "days": 18,
+      "perDay": 579498,
+      "days": 19,
       "score": 4.5,
-      "ratings": 94432,
+      "ratings": 94749,
       "ratingsStr": "94K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -118,12 +123,8 @@
       "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
       "reviewsByDay": [
         {
-          "date": "2026-02-27",
-          "count": 57
-        },
-        {
           "date": "2026-02-28",
-          "count": 550
+          "count": 541
         },
         {
           "date": "2026-03-01",
@@ -131,11 +132,11 @@
         },
         {
           "date": "2026-03-02",
-          "count": 354
+          "count": 353
         },
         {
           "date": "2026-03-03",
-          "count": 323
+          "count": 322
         },
         {
           "date": "2026-03-04",
@@ -151,11 +152,11 @@
         },
         {
           "date": "2026-03-07",
-          "count": 278
+          "count": 277
         },
         {
           "date": "2026-03-08",
-          "count": 230
+          "count": 229
         },
         {
           "date": "2026-03-09",
@@ -171,7 +172,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 70
+          "count": 140
         }
       ],
       "dpdHistory": [
@@ -189,10 +190,15 @@
           "date": "2026-03-13",
           "dpd": 610496,
           "installs": 10988942
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 579498,
+          "installs": 11010465
         }
       ],
       "trend": "stable",
-      "dpd_prev": 641760,
+      "dpd_prev": 610496,
       "dpd_change_pct": -5,
       "isWatchlist": false
     },
@@ -211,12 +217,12 @@
       "genre": "Sports",
       "developer": "Sporta Technologies Private Limited",
       "downloads": "10,000,000+",
-      "realInstalls": 17017915,
+      "realInstalls": 17038041,
       "realInstallsStr": "17.0M",
-      "perDay": 586824,
-      "days": 29,
+      "perDay": 567934,
+      "days": 30,
       "score": 3.7,
-      "ratings": 147368,
+      "ratings": 147415,
       "ratingsStr": "147K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -331,15 +337,15 @@
         },
         {
           "date": "2026-03-10",
-          "count": 99
+          "count": 98
         },
         {
           "date": "2026-03-11",
-          "count": 127
+          "count": 126
         },
         {
           "date": "2026-03-12",
-          "count": 41
+          "count": 75
         }
       ],
       "dpdHistory": [
@@ -357,10 +363,15 @@
           "date": "2026-03-13",
           "dpd": 586824,
           "installs": 17017915
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 567934,
+          "installs": 17038041
         }
       ],
       "trend": "stable",
-      "dpd_prev": 607782,
+      "dpd_prev": 586824,
       "dpd_change_pct": -3,
       "isWatchlist": false
     },
@@ -379,13 +390,13 @@
       "genre": "Puzzle",
       "developer": "PeerPlay",
       "downloads": "500,000+",
-      "realInstalls": 970653,
-      "realInstallsStr": "971K",
-      "perDay": 485326,
-      "days": 2,
+      "realInstalls": 974673,
+      "realInstallsStr": "975K",
+      "perDay": 324891,
+      "days": 3,
       "score": 4.6,
-      "ratings": 329,
-      "ratingsStr": "329",
+      "ratings": 345,
+      "ratingsStr": "345",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 11, 2026",
@@ -408,11 +419,16 @@
           "date": "2026-03-13",
           "dpd": 485326,
           "installs": 970653
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 324891,
+          "installs": 974673
         }
       ],
       "trend": "falling",
-      "dpd_prev": 969281,
-      "dpd_change_pct": -50,
+      "dpd_prev": 485326,
+      "dpd_change_pct": -33,
       "isWatchlist": false
     },
     {
@@ -432,11 +448,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 4070095,
       "realInstallsStr": "4.1M",
-      "perDay": 313084,
-      "days": 13,
+      "perDay": 290721,
+      "days": 14,
       "score": 4.6,
-      "ratings": 29371,
-      "ratingsStr": "29K",
+      "ratings": 30524,
+      "ratingsStr": "30K",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Feb 28, 2026",
@@ -486,7 +502,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 13
+          "count": 27
         }
       ],
       "dpdHistory": [
@@ -504,11 +520,16 @@
           "date": "2026-03-13",
           "dpd": 313084,
           "installs": 4070095
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 290721,
+          "installs": 4070095
         }
       ],
       "trend": "stable",
-      "dpd_prev": 330746,
-      "dpd_change_pct": -5,
+      "dpd_prev": 313084,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -526,10 +547,10 @@
       "genre": "Adventure",
       "developer": "Play Paradigm",
       "downloads": "1,000,000+",
-      "realInstalls": 2335485,
+      "realInstalls": 2337586,
       "realInstallsStr": "2.3M",
-      "perDay": 166820,
-      "days": 14,
+      "perDay": 155839,
+      "days": 15,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -555,10 +576,15 @@
           "date": "2026-03-13",
           "dpd": 166820,
           "installs": 2335485
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 155839,
+          "installs": 2337586
         }
       ],
       "trend": "stable",
-      "dpd_prev": 179590,
+      "dpd_prev": 166820,
       "dpd_change_pct": -7,
       "isWatchlist": false
     },
@@ -577,10 +603,10 @@
       "genre": "Simulation",
       "developer": "Peri Games",
       "downloads": "1,000,000+",
-      "realInstalls": 1027298,
+      "realInstalls": 1029736,
       "realInstallsStr": "1.0M",
-      "perDay": 146756,
-      "days": 7,
+      "perDay": 128717,
+      "days": 8,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -626,11 +652,16 @@
           "date": "2026-03-13",
           "dpd": 146756,
           "installs": 1027298
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 128717,
+          "installs": 1029736
         }
       ],
       "trend": "falling",
-      "dpd_prev": 170878,
-      "dpd_change_pct": -14,
+      "dpd_prev": 146756,
+      "dpd_change_pct": -12,
       "isWatchlist": false
     },
     {
@@ -648,12 +679,12 @@
       "genre": "Action",
       "developer": "Digital Extremes",
       "downloads": "1,000,000+",
-      "realInstalls": 1947275,
-      "realInstallsStr": "1.9M",
-      "perDay": 84664,
-      "days": 23,
+      "realInstalls": 1956410,
+      "realInstallsStr": "2.0M",
+      "perDay": 81517,
+      "days": 24,
       "score": 4.3,
-      "ratings": 20733,
+      "ratings": 20776,
       "ratingsStr": "20K",
       "contentRating": "Mature 17+",
       "offersIAP": true,
@@ -664,7 +695,7 @@
       "reviewsByDay": [
         {
           "date": "2026-02-18",
-          "count": 773
+          "count": 763
         },
         {
           "date": "2026-02-19",
@@ -724,7 +755,7 @@
         },
         {
           "date": "2026-03-05",
-          "count": 58
+          "count": 57
         },
         {
           "date": "2026-03-06",
@@ -752,7 +783,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 15
+          "count": 26
         }
       ],
       "dpdHistory": [
@@ -770,10 +801,15 @@
           "date": "2026-03-13",
           "dpd": 84664,
           "installs": 1947275
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 81517,
+          "installs": 1956410
         }
       ],
       "trend": "stable",
-      "dpd_prev": 87779,
+      "dpd_prev": 84664,
       "dpd_change_pct": -4,
       "isWatchlist": false
     }
@@ -794,10 +830,10 @@
       "genre": "Adventure",
       "developer": "Extreme Games Production",
       "downloads": "500,000+",
-      "realInstalls": 535596,
-      "realInstallsStr": "536K",
-      "perDay": 89266,
-      "days": 6,
+      "realInstalls": 538292,
+      "realInstallsStr": "538K",
+      "perDay": 76898,
+      "days": 7,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -823,11 +859,16 @@
           "date": "2026-03-13",
           "dpd": 89266,
           "installs": 535596
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 76898,
+          "installs": 538292
         }
       ],
       "trend": "falling",
-      "dpd_prev": 106661,
-      "dpd_change_pct": -16,
+      "dpd_prev": 89266,
+      "dpd_change_pct": -14,
       "isWatchlist": true
     },
     {
@@ -845,23 +886,23 @@
       "genre": "Simulation",
       "developer": "Runaway Play",
       "downloads": "500,000+",
-      "realInstalls": 694692,
-      "realInstallsStr": "695K",
-      "perDay": 77188,
-      "days": 9,
+      "realInstalls": 737549,
+      "realInstallsStr": "738K",
+      "perDay": 73754,
+      "days": 10,
       "score": 4.8,
-      "ratings": 16310,
+      "ratings": 16689,
       "ratingsStr": "16K",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 4, 2026",
-      "lastUpdated": "Mar 2, 2026",
+      "lastUpdated": "Mar 13, 2026",
       "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
       "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
       "reviewsByDay": [
         {
           "date": "2026-03-04",
-          "count": 414
+          "count": 413
         },
         {
           "date": "2026-03-05",
@@ -881,7 +922,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 173
+          "count": 172
         },
         {
           "date": "2026-03-10",
@@ -889,11 +930,11 @@
         },
         {
           "date": "2026-03-11",
-          "count": 157
+          "count": 156
         },
         {
           "date": "2026-03-12",
-          "count": 31
+          "count": 82
         }
       ],
       "dpdHistory": [
@@ -911,16 +952,21 @@
           "date": "2026-03-13",
           "dpd": 77188,
           "installs": 694692
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 73754,
+          "installs": 737549
         }
       ],
       "trend": "stable",
-      "dpd_prev": 79029,
-      "dpd_change_pct": -2,
+      "dpd_prev": 77188,
+      "dpd_change_pct": -4,
       "isWatchlist": true
     },
     {
       "id": "com.SpaghettiHouse.EscapeFromBlogger",
-      "emoji": "🚀",
+      "emoji": "⚡",
       "tag": "50K+ УСТАНОВОК",
       "name": "Escape from Vlogger: Runaway",
       "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
@@ -935,11 +981,11 @@
       "downloads": "50,000+",
       "realInstalls": 63756,
       "realInstallsStr": "64K",
-      "perDay": 21252,
-      "days": 3,
+      "perDay": 15939,
+      "days": 4,
       "score": 4.9,
-      "ratings": 1913,
-      "ratingsStr": "1K",
+      "ratings": 2419,
+      "ratingsStr": "2K",
       "contentRating": "Teen",
       "offersIAP": false,
       "releaseDate": "Mar 10, 2026",
@@ -953,7 +999,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 1
+          "count": 4
         }
       ],
       "dpdHistory": [
@@ -966,11 +1012,16 @@
           "date": "2026-03-13",
           "dpd": 21252,
           "installs": 63756
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 15939,
+          "installs": 63756
         }
       ],
-      "trend": "rising",
-      "dpd_prev": 14933,
-      "dpd_change_pct": 42,
+      "trend": "falling",
+      "dpd_prev": 21252,
+      "dpd_change_pct": -25,
       "isWatchlist": true
     }
   ]

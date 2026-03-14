@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 03:31 МСК",
+  "updated": "2026-03-14 11:07 МСК",
   "rockets": {
     "rockets": [
       {
@@ -19,11 +19,11 @@
         "downloads": "10,000,000+",
         "realInstalls": 12821935,
         "realInstallsStr": "12.8M",
-        "perDay": 801370,
-        "days": 16,
+        "perDay": 754231,
+        "days": 17,
         "score": 4.8,
-        "ratings": 198404,
-        "ratingsStr": "198K",
+        "ratings": 199405,
+        "ratingsStr": "199K",
         "contentRating": "Everyone 10+",
         "offersIAP": true,
         "releaseDate": "Feb 25, 2026",
@@ -33,7 +33,7 @@
         "reviewsByDay": [
           {
             "date": "2026-03-04",
-            "count": 392
+            "count": 284
           },
           {
             "date": "2026-03-05",
@@ -65,7 +65,7 @@
           },
           {
             "date": "2026-03-12",
-            "count": 124
+            "count": 232
           }
         ],
         "dpdHistory": [
@@ -83,10 +83,15 @@
             "date": "2026-03-13",
             "dpd": 792959,
             "installs": 12687355
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 754231,
+            "installs": 12821935
           }
         ],
         "trend": "stable",
-        "dpd_prev": 841823,
+        "dpd_prev": 792959,
         "dpd_change_pct": -5,
         "isWatchlist": false
       },
@@ -105,12 +110,12 @@
         "genre": "Action",
         "developer": "Ubisoft Nova",
         "downloads": "10,000,000+",
-        "realInstalls": 10988942,
+        "realInstalls": 11010465,
         "realInstallsStr": "11.0M",
-        "perDay": 610496,
-        "days": 18,
+        "perDay": 579498,
+        "days": 19,
         "score": 4.5,
-        "ratings": 94432,
+        "ratings": 94749,
         "ratingsStr": "94K",
         "contentRating": "Teen",
         "offersIAP": true,
@@ -120,12 +125,8 @@
         "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
         "reviewsByDay": [
           {
-            "date": "2026-02-27",
-            "count": 57
-          },
-          {
             "date": "2026-02-28",
-            "count": 550
+            "count": 541
           },
           {
             "date": "2026-03-01",
@@ -133,11 +134,11 @@
           },
           {
             "date": "2026-03-02",
-            "count": 354
+            "count": 353
           },
           {
             "date": "2026-03-03",
-            "count": 323
+            "count": 322
           },
           {
             "date": "2026-03-04",
@@ -153,11 +154,11 @@
           },
           {
             "date": "2026-03-07",
-            "count": 278
+            "count": 277
           },
           {
             "date": "2026-03-08",
-            "count": 230
+            "count": 229
           },
           {
             "date": "2026-03-09",
@@ -173,7 +174,7 @@
           },
           {
             "date": "2026-03-12",
-            "count": 70
+            "count": 140
           }
         ],
         "dpdHistory": [
@@ -191,10 +192,15 @@
             "date": "2026-03-13",
             "dpd": 610496,
             "installs": 10988942
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 579498,
+            "installs": 11010465
           }
         ],
         "trend": "stable",
-        "dpd_prev": 641760,
+        "dpd_prev": 610496,
         "dpd_change_pct": -5,
         "isWatchlist": false
       },
@@ -213,12 +219,12 @@
         "genre": "Sports",
         "developer": "Sporta Technologies Private Limited",
         "downloads": "10,000,000+",
-        "realInstalls": 17017915,
+        "realInstalls": 17038041,
         "realInstallsStr": "17.0M",
-        "perDay": 586824,
-        "days": 29,
+        "perDay": 567934,
+        "days": 30,
         "score": 3.7,
-        "ratings": 147368,
+        "ratings": 147415,
         "ratingsStr": "147K",
         "contentRating": "Everyone",
         "offersIAP": true,
@@ -333,15 +339,15 @@
           },
           {
             "date": "2026-03-10",
-            "count": 99
+            "count": 98
           },
           {
             "date": "2026-03-11",
-            "count": 127
+            "count": 126
           },
           {
             "date": "2026-03-12",
-            "count": 41
+            "count": 75
           }
         ],
         "dpdHistory": [
@@ -359,10 +365,15 @@
             "date": "2026-03-13",
             "dpd": 586824,
             "installs": 17017915
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 567934,
+            "installs": 17038041
           }
         ],
         "trend": "stable",
-        "dpd_prev": 607782,
+        "dpd_prev": 586824,
         "dpd_change_pct": -3,
         "isWatchlist": false
       },
@@ -381,13 +392,13 @@
         "genre": "Puzzle",
         "developer": "PeerPlay",
         "downloads": "500,000+",
-        "realInstalls": 970653,
-        "realInstallsStr": "971K",
-        "perDay": 485326,
-        "days": 2,
+        "realInstalls": 974673,
+        "realInstallsStr": "975K",
+        "perDay": 324891,
+        "days": 3,
         "score": 4.6,
-        "ratings": 329,
-        "ratingsStr": "329",
+        "ratings": 345,
+        "ratingsStr": "345",
         "contentRating": "Everyone",
         "offersIAP": true,
         "releaseDate": "Mar 11, 2026",
@@ -410,11 +421,16 @@
             "date": "2026-03-13",
             "dpd": 485326,
             "installs": 970653
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 324891,
+            "installs": 974673
           }
         ],
         "trend": "falling",
-        "dpd_prev": 969281,
-        "dpd_change_pct": -50,
+        "dpd_prev": 485326,
+        "dpd_change_pct": -33,
         "isWatchlist": false
       },
       {
@@ -434,11 +450,11 @@
         "downloads": "1,000,000+",
         "realInstalls": 4070095,
         "realInstallsStr": "4.1M",
-        "perDay": 313084,
-        "days": 13,
+        "perDay": 290721,
+        "days": 14,
         "score": 4.6,
-        "ratings": 29371,
-        "ratingsStr": "29K",
+        "ratings": 30524,
+        "ratingsStr": "30K",
         "contentRating": "Teen",
         "offersIAP": true,
         "releaseDate": "Feb 28, 2026",
@@ -488,7 +504,7 @@
           },
           {
             "date": "2026-03-12",
-            "count": 13
+            "count": 27
           }
         ],
         "dpdHistory": [
@@ -506,11 +522,16 @@
             "date": "2026-03-13",
             "dpd": 313084,
             "installs": 4070095
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 290721,
+            "installs": 4070095
           }
         ],
         "trend": "stable",
-        "dpd_prev": 330746,
-        "dpd_change_pct": -5,
+        "dpd_prev": 313084,
+        "dpd_change_pct": -7,
         "isWatchlist": false
       },
       {
@@ -528,10 +549,10 @@
         "genre": "Adventure",
         "developer": "Play Paradigm",
         "downloads": "1,000,000+",
-        "realInstalls": 2335485,
+        "realInstalls": 2337586,
         "realInstallsStr": "2.3M",
-        "perDay": 166820,
-        "days": 14,
+        "perDay": 155839,
+        "days": 15,
         "score": null,
         "ratings": 0,
         "ratingsStr": "0",
@@ -557,10 +578,15 @@
             "date": "2026-03-13",
             "dpd": 166820,
             "installs": 2335485
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 155839,
+            "installs": 2337586
           }
         ],
         "trend": "stable",
-        "dpd_prev": 179590,
+        "dpd_prev": 166820,
         "dpd_change_pct": -7,
         "isWatchlist": false
       },
@@ -579,10 +605,10 @@
         "genre": "Simulation",
         "developer": "Peri Games",
         "downloads": "1,000,000+",
-        "realInstalls": 1027298,
+        "realInstalls": 1029736,
         "realInstallsStr": "1.0M",
-        "perDay": 146756,
-        "days": 7,
+        "perDay": 128717,
+        "days": 8,
         "score": null,
         "ratings": 0,
         "ratingsStr": "0",
@@ -628,11 +654,16 @@
             "date": "2026-03-13",
             "dpd": 146756,
             "installs": 1027298
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 128717,
+            "installs": 1029736
           }
         ],
         "trend": "falling",
-        "dpd_prev": 170878,
-        "dpd_change_pct": -14,
+        "dpd_prev": 146756,
+        "dpd_change_pct": -12,
         "isWatchlist": false
       },
       {
@@ -650,12 +681,12 @@
         "genre": "Action",
         "developer": "Digital Extremes",
         "downloads": "1,000,000+",
-        "realInstalls": 1947275,
-        "realInstallsStr": "1.9M",
-        "perDay": 84664,
-        "days": 23,
+        "realInstalls": 1956410,
+        "realInstallsStr": "2.0M",
+        "perDay": 81517,
+        "days": 24,
         "score": 4.3,
-        "ratings": 20733,
+        "ratings": 20776,
         "ratingsStr": "20K",
         "contentRating": "Mature 17+",
         "offersIAP": true,
@@ -666,7 +697,7 @@
         "reviewsByDay": [
           {
             "date": "2026-02-18",
-            "count": 773
+            "count": 763
           },
           {
             "date": "2026-02-19",
@@ -726,7 +757,7 @@
           },
           {
             "date": "2026-03-05",
-            "count": 58
+            "count": 57
           },
           {
             "date": "2026-03-06",
@@ -754,7 +785,7 @@
           },
           {
             "date": "2026-03-12",
-            "count": 15
+            "count": 26
           }
         ],
         "dpdHistory": [
@@ -772,10 +803,15 @@
             "date": "2026-03-13",
             "dpd": 84664,
             "installs": 1947275
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 81517,
+            "installs": 1956410
           }
         ],
         "trend": "stable",
-        "dpd_prev": 87779,
+        "dpd_prev": 84664,
         "dpd_change_pct": -4,
         "isWatchlist": false
       }
@@ -796,10 +832,10 @@
         "genre": "Adventure",
         "developer": "Extreme Games Production",
         "downloads": "500,000+",
-        "realInstalls": 535596,
-        "realInstallsStr": "536K",
-        "perDay": 89266,
-        "days": 6,
+        "realInstalls": 538292,
+        "realInstallsStr": "538K",
+        "perDay": 76898,
+        "days": 7,
         "score": null,
         "ratings": 0,
         "ratingsStr": "0",
@@ -825,11 +861,16 @@
             "date": "2026-03-13",
             "dpd": 89266,
             "installs": 535596
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 76898,
+            "installs": 538292
           }
         ],
         "trend": "falling",
-        "dpd_prev": 106661,
-        "dpd_change_pct": -16,
+        "dpd_prev": 89266,
+        "dpd_change_pct": -14,
         "isWatchlist": true
       },
       {
@@ -847,23 +888,23 @@
         "genre": "Simulation",
         "developer": "Runaway Play",
         "downloads": "500,000+",
-        "realInstalls": 694692,
-        "realInstallsStr": "695K",
-        "perDay": 77188,
-        "days": 9,
+        "realInstalls": 737549,
+        "realInstallsStr": "738K",
+        "perDay": 73754,
+        "days": 10,
         "score": 4.8,
-        "ratings": 16310,
+        "ratings": 16689,
         "ratingsStr": "16K",
         "contentRating": "Everyone",
         "offersIAP": true,
         "releaseDate": "Mar 4, 2026",
-        "lastUpdated": "Mar 2, 2026",
+        "lastUpdated": "Mar 13, 2026",
         "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
         "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
         "reviewsByDay": [
           {
             "date": "2026-03-04",
-            "count": 414
+            "count": 413
           },
           {
             "date": "2026-03-05",
@@ -883,7 +924,7 @@
           },
           {
             "date": "2026-03-09",
-            "count": 173
+            "count": 172
           },
           {
             "date": "2026-03-10",
@@ -891,11 +932,11 @@
           },
           {
             "date": "2026-03-11",
-            "count": 157
+            "count": 156
           },
           {
             "date": "2026-03-12",
-            "count": 31
+            "count": 82
           }
         ],
         "dpdHistory": [
@@ -913,16 +954,21 @@
             "date": "2026-03-13",
             "dpd": 77188,
             "installs": 694692
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 73754,
+            "installs": 737549
           }
         ],
         "trend": "stable",
-        "dpd_prev": 79029,
-        "dpd_change_pct": -2,
+        "dpd_prev": 77188,
+        "dpd_change_pct": -4,
         "isWatchlist": true
       },
       {
         "id": "com.SpaghettiHouse.EscapeFromBlogger",
-        "emoji": "🚀",
+        "emoji": "⚡",
         "tag": "50K+ УСТАНОВОК",
         "name": "Escape from Vlogger: Runaway",
         "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
@@ -937,11 +983,11 @@
         "downloads": "50,000+",
         "realInstalls": 63756,
         "realInstallsStr": "64K",
-        "perDay": 21252,
-        "days": 3,
+        "perDay": 15939,
+        "days": 4,
         "score": 4.9,
-        "ratings": 1913,
-        "ratingsStr": "1K",
+        "ratings": 2419,
+        "ratingsStr": "2K",
         "contentRating": "Teen",
         "offersIAP": false,
         "releaseDate": "Mar 10, 2026",
@@ -955,7 +1001,7 @@
           },
           {
             "date": "2026-03-12",
-            "count": 1
+            "count": 4
           }
         ],
         "dpdHistory": [
@@ -968,11 +1014,16 @@
             "date": "2026-03-13",
             "dpd": 21252,
             "installs": 63756
+          },
+          {
+            "date": "2026-03-14",
+            "dpd": 15939,
+            "installs": 63756
           }
         ],
-        "trend": "rising",
-        "dpd_prev": 14933,
-        "dpd_change_pct": 42,
+        "trend": "falling",
+        "dpd_prev": 21252,
+        "dpd_change_pct": -25,
         "isWatchlist": true
       }
     ]
@@ -980,82 +1031,40 @@
   "videos": [
     {
       "source": "youtube",
-      "kind": "Short",
-      "vpd": 93030,
-      "views": 1302424,
-      "views_str": "1.3M",
-      "age_days": 14,
-      "title": "Medabots Survivors | Official Trailer",
-      "channel": "メダロット公式チャンネル",
-      "url": "https://youtu.be/JkObhnXh9Tc",
-      "thumb": "https://img.youtube.com/vi/JkObhnXh9Tc/mqdefault.jpg",
-      "grade": "⚡",
-      "published": "2 weeks ago"
-    },
-    {
-      "source": "youtube",
       "kind": "Video",
-      "vpd": 42990,
-      "views": 601866,
-      "views_str": "601K",
-      "age_days": 14,
-      "title": "Subway Surfers City | Official Gameplay Trailer",
-      "channel": "Subway Surfers",
-      "url": "https://youtu.be/oQpRzQgBWpc",
-      "thumb": "https://img.youtube.com/vi/oQpRzQgBWpc/mqdefault.jpg",
-      "grade": "⚡",
-      "published": "2 weeks ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 15030,
-      "views": 195400,
-      "views_str": "195K",
-      "age_days": 13,
-      "title": "RAINBOW SIX MOBILE IS INSANE",
-      "channel": "Marley",
-      "url": "https://youtu.be/q8qHOIt-O8U",
-      "thumb": "https://img.youtube.com/vi/q8qHOIt-O8U/mqdefault.jpg",
+      "vpd": 9619,
+      "views": 288578,
+      "views_str": "288K",
+      "age_days": 30,
+      "title": "150 Best OFFLINE Games for Android/iOS 2026 | Tekkan 150K Subscriber Special",
+      "channel": "Tekkan",
+      "url": "https://youtu.be/-AOxvO65Qu8",
+      "thumb": "https://img.youtube.com/vi/-AOxvO65Qu8/mqdefault.jpg",
       "grade": "📈",
-      "published": "13 days ago"
+      "published": "1 month ago"
     },
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 14187,
-      "views": 184434,
-      "views_str": "184K",
-      "age_days": 13,
-      "title": "LEVINHO PLAYING RAINBOW SIX MOBILE",
-      "channel": "Levinho",
-      "url": "https://youtu.be/rv5UbhQZGxc",
-      "thumb": "https://img.youtube.com/vi/rv5UbhQZGxc/mqdefault.jpg",
-      "grade": "📈",
-      "published": "13 days ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 9149,
-      "views": 54899,
-      "views_str": "54K",
-      "age_days": 6,
+      "vpd": 8033,
+      "views": 56234,
+      "views_str": "56K",
+      "age_days": 7,
       "title": "Top 10 New Mobile Games of March 2026 (Android & iOS)",
       "channel": "PROTECH",
       "url": "https://youtu.be/psm9F5HDa_I",
       "thumb": "https://img.youtube.com/vi/psm9F5HDa_I/mqdefault.jpg",
       "grade": "📈",
-      "published": "6 days ago"
+      "published": "7 days ago"
     },
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 6605,
-      "views": 33028,
+      "vpd": 6793,
+      "views": 33968,
       "views_str": "33K",
       "age_days": 5,
-      "title": "Top 10 Best FREE Mobile Games of March 2026! (Android & iOS)",
+      "title": "10 Best FREE Mobile Games You Should Play in March 2026! (Android & iOS)",
       "channel": "Android Tools",
       "url": "https://youtu.be/4TrKY624kI4",
       "thumb": "https://img.youtube.com/vi/4TrKY624kI4/mqdefault.jpg",
@@ -1065,9 +1074,9 @@
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 6368,
-      "views": 191058,
-      "views_str": "191K",
+      "vpd": 6417,
+      "views": 192531,
+      "views_str": "192K",
       "age_days": 30,
       "title": "Top 15 Best Open World Games for Android/iOS 2026 (Offline/Online)",
       "channel": "Tekkan",
@@ -1079,37 +1088,9 @@
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 6149,
-      "views": 184485,
-      "views_str": "184K",
-      "age_days": 30,
-      "title": "Subway Surfers City - Gameplay Walkthrough Part 1 (Android/iOS)",
-      "channel": "GameplayTheory",
-      "url": "https://youtu.be/dt7foNSLzn4",
-      "thumb": "https://img.youtube.com/vi/dt7foNSLzn4/mqdefault.jpg",
-      "grade": "📈",
-      "published": "1 month ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 5913,
-      "views": 82786,
-      "views_str": "82K",
-      "age_days": 14,
-      "title": "Subway Surfers City - Gameplay Walkthrough Part 1 - New Subway Surfers Game Tutorial (iOS, Android)",
-      "channel": "Pryszard Android iOS Gameplays",
-      "url": "https://youtu.be/zQ8F1P00zII",
-      "thumb": "https://img.youtube.com/vi/zQ8F1P00zII/mqdefault.jpg",
-      "grade": "📈",
-      "published": "2 weeks ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 5726,
-      "views": 343594,
-      "views_str": "343K",
+      "vpd": 5746,
+      "views": 344810,
+      "views_str": "344K",
       "age_days": 60,
       "title": "Top 15 Best Mobile Games of 2025 | GAME OF THE YEAR @DowntoTop",
       "channel": "Down to Top",
@@ -1121,22 +1102,8 @@
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 5660,
-      "views": 509434,
-      "views_str": "509K",
-      "age_days": 90,
-      "title": "The WORST Episode of One Punch Man Ever",
-      "channel": "Mastar",
-      "url": "https://youtu.be/Zh7Y2aSYzeE",
-      "thumb": "https://img.youtube.com/vi/Zh7Y2aSYzeE/mqdefault.jpg",
-      "grade": "📈",
-      "published": "3 months ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 4570,
-      "views": 137120,
+      "vpd": 4572,
+      "views": 137176,
       "views_str": "137K",
       "age_days": 30,
       "title": "ТОП 10 игр, что НАДО ЖДАТЬ в 2026 году",
@@ -1149,37 +1116,9 @@
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 4337,
-      "views": 52044,
-      "views_str": "52K",
-      "age_days": 12,
-      "title": "Top 15 INSANE Open World Games for Android & iOS 2026 (Offline/Online)",
-      "channel": "Down to Top",
-      "url": "https://youtu.be/4Sh5r2Y0jCE",
-      "thumb": "https://img.youtube.com/vi/4Sh5r2Y0jCE/mqdefault.jpg",
-      "grade": "📊",
-      "published": "12 days ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 4290,
-      "views": 60066,
-      "views_str": "60K",
-      "age_days": 14,
-      "title": "Ultimate Beginners Guide - Rainbow 6 Mobile",
-      "channel": "1ceStream",
-      "url": "https://youtu.be/bxs4w7JFoL8",
-      "thumb": "https://img.youtube.com/vi/bxs4w7JFoL8/mqdefault.jpg",
-      "grade": "📊",
-      "published": "2 weeks ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 4056,
-      "views": 121699,
-      "views_str": "121K",
+      "vpd": 4079,
+      "views": 122379,
+      "views_str": "122K",
       "age_days": 30,
       "title": "Top 15 Realistic Games for Android/iOS 2026 | Best HIGH GRAPHICS Games for Android",
       "channel": "Tekkan",
@@ -1191,64 +1130,22 @@
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 3674,
-      "views": 3674,
-      "views_str": "3K",
-      "age_days": 1,
-      "title": "This Is How I Reached Master Rank in Rainbow Six Mobile 🔥",
-      "channel": "Kybe",
-      "url": "https://youtu.be/yify-aJfkD8",
-      "thumb": "https://img.youtube.com/vi/yify-aJfkD8/mqdefault.jpg",
-      "grade": "📊",
-      "published": "1 day ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 2883,
-      "views": 34599,
-      "views_str": "34K",
-      "age_days": 12,
-      "title": "The Complete Beginners Guide to Rainbow Six Mobile!",
-      "channel": "Noah Sunday - Mobile",
-      "url": "https://youtu.be/xcjsm-Pt5vs",
-      "thumb": "https://img.youtube.com/vi/xcjsm-Pt5vs/mqdefault.jpg",
-      "grade": "📊",
-      "published": "12 days ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 2699,
-      "views": 35098,
-      "views_str": "35K",
+      "vpd": 4037,
+      "views": 52488,
+      "views_str": "52K",
       "age_days": 13,
-      "title": "Subway Surfers City - Gameplay Walkthrough Part 1 - Tutorial (iOS, Android)",
-      "channel": "TapGameplay",
-      "url": "https://youtu.be/uWRshH6qN18",
-      "thumb": "https://img.youtube.com/vi/uWRshH6qN18/mqdefault.jpg",
+      "title": "Top 15 INSANE Open World Games for Android & iOS 2026 (Offline/Online)",
+      "channel": "Down to Top",
+      "url": "https://youtu.be/4Sh5r2Y0jCE",
+      "thumb": "https://img.youtube.com/vi/4Sh5r2Y0jCE/mqdefault.jpg",
       "grade": "📊",
       "published": "13 days ago"
     },
     {
       "source": "youtube",
       "kind": "Video",
-      "vpd": 2661,
-      "views": 479052,
-      "views_str": "479K",
-      "age_days": 180,
-      "title": "I Played 1000 Hours Of Warframe!",
-      "channel": "Vurv",
-      "url": "https://youtu.be/tbHutppS9Bo",
-      "thumb": "https://img.youtube.com/vi/tbHutppS9Bo/mqdefault.jpg",
-      "grade": "📊",
-      "published": "6 months ago"
-    },
-    {
-      "source": "youtube",
-      "kind": "Video",
-      "vpd": 2642,
-      "views": 31713,
+      "vpd": 2664,
+      "views": 31973,
       "views_str": "31K",
       "age_days": 12,
       "title": "Top 10 Best New Mobile Games of March 2026 | Android & iOS",
@@ -1257,9 +1154,187 @@
       "thumb": "https://img.youtube.com/vi/CG-6lWG_1_Q/mqdefault.jpg",
       "grade": "📊",
       "published": "12 days ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 2477,
+      "views": 52023,
+      "views_str": "52K",
+      "age_days": 21,
+      "title": "Top 10 Best NEW Mobile Games of February 2026 | Android & iOS (Offline/Online)",
+      "channel": "Tekkan",
+      "url": "https://youtu.be/B9YFdWEuDK0",
+      "thumb": "https://img.youtube.com/vi/B9YFdWEuDK0/mqdefault.jpg",
+      "grade": "📊",
+      "published": "3 weeks ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 2390,
+      "views": 31072,
+      "views_str": "31K",
+      "age_days": 13,
+      "title": "ТОП 20 ЛУЧШИХ ИГР ДЛЯ ANDROID и iOS 2026 (Оффлайн/Онлайн)",
+      "channel": "Phenom Games",
+      "url": "https://youtu.be/6hxd0BBobaY",
+      "thumb": "https://img.youtube.com/vi/6hxd0BBobaY/mqdefault.jpg",
+      "grade": "📊",
+      "published": "13 days ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 2232,
+      "views": 13392,
+      "views_str": "13K",
+      "age_days": 6,
+      "title": "Top 15 Offline Games For Android 2026 Part3 || New Games For Mobiles",
+      "channel": "DroidGames",
+      "url": "https://youtu.be/zm5DOCIqLdk",
+      "thumb": "https://img.youtube.com/vi/zm5DOCIqLdk/mqdefault.jpg",
+      "grade": "📊",
+      "published": "6 days ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 2013,
+      "views": 120838,
+      "views_str": "120K",
+      "age_days": 60,
+      "title": "2026 Will Be INSANE For Mobile Gaming 🔥 | 26 Best Mobile Games Coming in 2026 😱",
+      "channel": "Games Gossip India",
+      "url": "https://youtu.be/CKkeLXgJV7o",
+      "thumb": "https://img.youtube.com/vi/CKkeLXgJV7o/mqdefault.jpg",
+      "grade": "📊",
+      "published": "2 months ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 1875,
+      "views": 112539,
+      "views_str": "112K",
+      "age_days": 60,
+      "title": "TOP 10 MOBILE GAMES YOU NEED TO PLAY IN 2026...",
+      "channel": "ExxotikGaming",
+      "url": "https://youtu.be/pEz42oZrLAI",
+      "thumb": "https://img.youtube.com/vi/pEz42oZrLAI/mqdefault.jpg",
+      "grade": "📊",
+      "published": "2 months ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 1721,
+      "views": 103310,
+      "views_str": "103K",
+      "age_days": 60,
+      "title": "Top 10 BEST Mobile Games of 2026 🔥 | Upcoming Android Games",
+      "channel": "PROTECH",
+      "url": "https://youtu.be/hiGJXGTcTyA",
+      "thumb": "https://img.youtube.com/vi/hiGJXGTcTyA/mqdefault.jpg",
+      "grade": "📊",
+      "published": "2 months ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 1695,
+      "views": 35611,
+      "views_str": "35K",
+      "age_days": 21,
+      "title": "ТОП 20 ЛУЧШИХ ИГР ДЛЯ ANDROID и iOS 2026 (Оффлайн/Онлайн)",
+      "channel": "Phenom Games",
+      "url": "https://youtu.be/PC4t8lAtxnQ",
+      "thumb": "https://img.youtube.com/vi/PC4t8lAtxnQ/mqdefault.jpg",
+      "grade": "📊",
+      "published": "3 weeks ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 1592,
+      "views": 47784,
+      "views_str": "47K",
+      "age_days": 30,
+      "title": "TOP 10 BEST ANDROID AND iOS GAMES OF ALL TIME (2026)",
+      "channel": "Fan PDA",
+      "url": "https://youtu.be/rlIYy8P3H1Q",
+      "thumb": "https://img.youtube.com/vi/rlIYy8P3H1Q/mqdefault.jpg",
+      "grade": "📊",
+      "published": "1 month ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 1379,
+      "views": 41392,
+      "views_str": "41K",
+      "age_days": 30,
+      "title": "10 New Mobile Games You Should Play in February 2026 | Android & iOS",
+      "channel": "Android Tools",
+      "url": "https://youtu.be/NTw9bFl5cBk",
+      "thumb": "https://img.youtube.com/vi/NTw9bFl5cBk/mqdefault.jpg",
+      "grade": "📊",
+      "published": "1 month ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 1146,
+      "views": 16048,
+      "views_str": "16K",
+      "age_days": 14,
+      "title": "🔥 РЕАЛЬНО ТОЛЬКО ЛУЧШИЕ ИГРЫ НА ТЕЛЕФОН. ТОП 10 ЛУЧШИХ игр на АНДРОИД iOS | Во что поиграть 2026?",
+      "channel": "KINATVIDEO - Лучшие игры на ПК, Андроид, iOS",
+      "url": "https://youtu.be/n4EanJ9rY14",
+      "thumb": "https://img.youtube.com/vi/n4EanJ9rY14/mqdefault.jpg",
+      "grade": "📊",
+      "published": "2 weeks ago"
+    },
+    {
+      "source": "youtube",
+      "kind": "Video",
+      "vpd": 1073,
+      "views": 64428,
+      "views_str": "64K",
+      "age_days": 60,
+      "title": "Top 15 Best New Games for Android & iOS 2026 | Best Mobile Games Coming in 2026",
+      "channel": "Down to Top",
+      "url": "https://youtu.be/XPfh1Bp6G_k",
+      "thumb": "https://img.youtube.com/vi/XPfh1Bp6G_k/mqdefault.jpg",
+      "grade": "📊",
+      "published": "2 months ago"
     }
   ],
   "news": [
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Wuthering Waves unveils new details for its version 3.2 update in special broadcast",
+      "desc": "It would seem it's not just Honkai: Star Rail previewing what's coming in their latest major update. Because Wuthering Waves is also getting in on the action with the launch of ver",
+      "url": "https://www.pocketgamer.com/wuthering-waves/version-3-2-release-and-preview/",
+      "date": "Fri, 13 Mar 2026 17:23:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "Interview: The Tomb Raider I-III Remastered developers Aspyr talk bringing the Croft classics to mob",
+      "desc": "If I had to pick, I'd say that this week's biggest news story, aside from the Google Play stuff, was the launch of Tomb Raider I-III Remastered for iOS and Android. First, having l",
+      "url": "https://www.pocketgamer.com/tomb-raider-i-iii-remastered-starring-lara-croft/aspyr-interview/",
+      "date": "Fri, 13 Mar 2026 17:20:00 +0000"
+    },
+    {
+      "emoji": "📱",
+      "source": "Pocket Gamer",
+      "title": "PUBG Mobile version 4.3 celebrates 8th anniversary with Evolving Universe and major collaborations",
+      "desc": "Eight years is a long runtime for any game, let alone consistently staying at the top of the charts. Yet, PUBG Mobile seems to have achieved both comfortably. The new version 4.3 u",
+      "url": "https://www.pocketgamer.com/pubg-mobile/8th-anniversary/",
+      "date": "Fri, 13 Mar 2026 16:51:00 +0000"
+    },
     {
       "emoji": "📱",
       "source": "Pocket Gamer",
@@ -1299,30 +1374,6 @@
       "desc": "Call of Duty: Mobile’s next seasonal update is diving fully into the strange. Season 3, titled Paranoia, arrives next week with a cosmic horror theme, bringing a faster version of ",
       "url": "https://www.pocketgamer.com/call-of-duty-mobile/season-3-paranoia/",
       "date": "Fri, 13 Mar 2026 03:30:00 +0000"
-    },
-    {
-      "emoji": "📱",
-      "source": "Pocket Gamer",
-      "title": "Today's Mobile Legends: Bang Bang redeem codes (March 2026)",
-      "desc": "Updated on March 13, 2026 - Checked for new codes\n\nDo you like free in-game loot and useful freebies that don't require you to do pretty much anything to redeem them besides typing",
-      "url": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
-      "date": "Fri, 13 Mar 2026 00:55:00 +0000"
-    },
-    {
-      "emoji": "📱",
-      "source": "Pocket Gamer",
-      "title": "Interview: Inside Sonic Rumble - Creative Director Makoto Tase on party gameplay, new modes, and The",
-      "desc": "For more than three decades, Sonic the Hedgehog has been the gaming epitome of blistering speed and precision platforming. It came as a big surprise when, late last year, the team ",
-      "url": "https://www.pocketgamer.com/sonic-rumble/interview/",
-      "date": "Thu, 12 Mar 2026 18:34:00 +0000"
-    },
-    {
-      "emoji": "📱",
-      "source": "Pocket Gamer",
-      "title": "Crystal of Atlan introduces its new Artificer-style Inventor class in latest update",
-      "desc": "Ah, the humble artificer, bane or boon of any D&D campaign. They, and classes like them, tend to really push the boundaries of fantasy settings. But over in the East, the concept o",
-      "url": "https://www.pocketgamer.com/crystal-of-atlan/inventor-class-update/",
-      "date": "Thu, 12 Mar 2026 17:50:00 +0000"
     }
   ],
   "ideas": [
@@ -2122,140 +2173,140 @@
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "wsdot",
+      "title": "st john&apos;s basketball",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=wsdot",
+      "url": "https://trends.google.com/trends/explore?q=st+john&apos;s+basketball",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "new balance nationals indoor 2026",
+      "title": "oscar nominations 2026",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=new+balance+nationals+indoor+2026",
+      "url": "https://trends.google.com/trends/explore?q=oscar+nominations+2026",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "seattle public schools",
+      "title": "tig notaro",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=seattle+public+schools",
+      "url": "https://trends.google.com/trends/explore?q=tig+notaro",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "gretchen whitmer",
+      "title": "korea vs dominican republic",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=gretchen+whitmer",
+      "url": "https://trends.google.com/trends/explore?q=korea+vs+dominican+republic",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "elissa slotkin",
+      "title": "wrexham standings",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=elissa+slotkin",
+      "url": "https://trends.google.com/trends/explore?q=wrexham+standings",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "friday the 13th movie",
+      "title": "big 10 basketball tournament",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=friday+the+13th+movie",
+      "url": "https://trends.google.com/trends/explore?q=big+10+basketball+tournament",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "ilber ortaylı",
+      "title": "duquesne basketball",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=ilber+ortaylı",
+      "url": "https://trends.google.com/trends/explore?q=duquesne+basketball",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "kay adams",
+      "title": "smylie kaufman",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=kay+adams",
+      "url": "https://trends.google.com/trends/explore?q=smylie+kaufman",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "fort collins fire",
+      "title": "bow wow",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=fort+collins+fire",
+      "url": "https://trends.google.com/trends/explore?q=bow+wow",
       "thumb": "",
       "published": "сейчас"
     },
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "eric swalwell",
+      "title": "dutton ranch",
       "channel": "Google Trends US",
       "views": 0,
       "views_str": "🔥 Trending",
       "age_days": 1,
       "vpd": 0,
       "grade": "🔥",
-      "url": "https://trends.google.com/trends/explore?q=eric+swalwell",
+      "url": "https://trends.google.com/trends/explore?q=dutton+ranch",
       "thumb": "",
       "published": "сейчас"
     }
