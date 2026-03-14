@@ -15,13 +15,13 @@
       "genre": "Action",
       "developer": "SYBO Games",
       "downloads": "10,000,000+",
-      "realInstalls": 12821935,
-      "realInstallsStr": "12.8M",
-      "perDay": 754231,
+      "realInstalls": 12878790,
+      "realInstallsStr": "12.9M",
+      "perDay": 757575,
       "days": 17,
       "score": 4.8,
-      "ratings": 199405,
-      "ratingsStr": "199K",
+      "ratings": 200791,
+      "ratingsStr": "200K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Feb 25, 2026",
@@ -31,11 +31,11 @@
       "reviewsByDay": [
         {
           "date": "2026-03-04",
-          "count": 284
+          "count": 140
         },
         {
           "date": "2026-03-05",
-          "count": 654
+          "count": 653
         },
         {
           "date": "2026-03-06",
@@ -51,7 +51,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 420
+          "count": 418
         },
         {
           "date": "2026-03-10",
@@ -59,11 +59,15 @@
         },
         {
           "date": "2026-03-11",
-          "count": 332
+          "count": 325
         },
         {
           "date": "2026-03-12",
-          "count": 232
+          "count": 317
+        },
+        {
+          "date": "2026-03-13",
+          "count": 69
         }
       ],
       "dpdHistory": [
@@ -90,7 +94,7 @@
       ],
       "trend": "stable",
       "dpd_prev": 792959,
-      "dpd_change_pct": -5,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -113,8 +117,8 @@
       "perDay": 579498,
       "days": 19,
       "score": 4.5,
-      "ratings": 94749,
-      "ratingsStr": "94K",
+      "ratings": 95170,
+      "ratingsStr": "95K",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Feb 23, 2026",
@@ -124,11 +128,11 @@
       "reviewsByDay": [
         {
           "date": "2026-02-28",
-          "count": 541
+          "count": 468
         },
         {
           "date": "2026-03-01",
-          "count": 414
+          "count": 412
         },
         {
           "date": "2026-03-02",
@@ -136,15 +140,15 @@
         },
         {
           "date": "2026-03-03",
-          "count": 322
+          "count": 321
         },
         {
           "date": "2026-03-04",
-          "count": 249
+          "count": 248
         },
         {
           "date": "2026-03-05",
-          "count": 534
+          "count": 532
         },
         {
           "date": "2026-03-06",
@@ -152,11 +156,11 @@
         },
         {
           "date": "2026-03-07",
-          "count": 277
+          "count": 276
         },
         {
           "date": "2026-03-08",
-          "count": 229
+          "count": 228
         },
         {
           "date": "2026-03-09",
@@ -168,11 +172,15 @@
         },
         {
           "date": "2026-03-11",
-          "count": 167
+          "count": 161
         },
         {
           "date": "2026-03-12",
-          "count": 140
+          "count": 190
+        },
+        {
+          "date": "2026-03-13",
+          "count": 37
         }
       ],
       "dpdHistory": [
@@ -222,7 +230,7 @@
       "perDay": 567934,
       "days": 30,
       "score": 3.7,
-      "ratings": 147415,
+      "ratings": 147537,
       "ratingsStr": "147K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -281,15 +289,15 @@
         },
         {
           "date": "2026-02-24",
-          "count": 104
+          "count": 103
         },
         {
           "date": "2026-02-25",
-          "count": 98
+          "count": 97
         },
         {
           "date": "2026-02-26",
-          "count": 94
+          "count": 93
         },
         {
           "date": "2026-02-27",
@@ -301,11 +309,11 @@
         },
         {
           "date": "2026-03-01",
-          "count": 88
+          "count": 87
         },
         {
           "date": "2026-03-02",
-          "count": 85
+          "count": 84
         },
         {
           "date": "2026-03-03",
@@ -341,11 +349,15 @@
         },
         {
           "date": "2026-03-11",
-          "count": 126
+          "count": 121
         },
         {
           "date": "2026-03-12",
-          "count": 75
+          "count": 103
+        },
+        {
+          "date": "2026-03-13",
+          "count": 35
         }
       ],
       "dpdHistory": [
@@ -395,8 +407,8 @@
       "perDay": 324891,
       "days": 3,
       "score": 4.6,
-      "ratings": 345,
-      "ratingsStr": "345",
+      "ratings": 387,
+      "ratingsStr": "387",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 11, 2026",
@@ -406,6 +418,14 @@
       "reviewsByDay": [
         {
           "date": "2026-03-11",
+          "count": 1
+        },
+        {
+          "date": "2026-03-12",
+          "count": 1
+        },
+        {
+          "date": "2026-03-13",
           "count": 1
         }
       ],
@@ -446,13 +466,13 @@
       "genre": "Strategy",
       "developer": "37GAMES GLOBAL",
       "downloads": "1,000,000+",
-      "realInstalls": 4070095,
+      "realInstalls": 4112240,
       "realInstallsStr": "4.1M",
-      "perDay": 290721,
+      "perDay": 293731,
       "days": 14,
       "score": 4.6,
-      "ratings": 30524,
-      "ratingsStr": "30K",
+      "ratings": 32441,
+      "ratingsStr": "32K",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Feb 28, 2026",
@@ -474,7 +494,7 @@
         },
         {
           "date": "2026-03-05",
-          "count": 66
+          "count": 65
         },
         {
           "date": "2026-03-06",
@@ -494,7 +514,7 @@
         },
         {
           "date": "2026-03-10",
-          "count": 65
+          "count": 64
         },
         {
           "date": "2026-03-11",
@@ -502,7 +522,11 @@
         },
         {
           "date": "2026-03-12",
-          "count": 27
+          "count": 43
+        },
+        {
+          "date": "2026-03-13",
+          "count": 8
         }
       ],
       "dpdHistory": [
@@ -529,7 +553,7 @@
       ],
       "trend": "stable",
       "dpd_prev": 313084,
-      "dpd_change_pct": -7,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -623,7 +647,7 @@
         },
         {
           "date": "2026-03-08",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-03-09",
@@ -639,7 +663,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 1
+          "count": 2
         }
       ],
       "dpdHistory": [
@@ -684,7 +708,7 @@
       "perDay": 81517,
       "days": 24,
       "score": 4.3,
-      "ratings": 20776,
+      "ratings": 20831,
       "ratingsStr": "20K",
       "contentRating": "Mature 17+",
       "offersIAP": true,
@@ -695,11 +719,11 @@
       "reviewsByDay": [
         {
           "date": "2026-02-18",
-          "count": 763
+          "count": 749
         },
         {
           "date": "2026-02-19",
-          "count": 821
+          "count": 820
         },
         {
           "date": "2026-02-20",
@@ -783,7 +807,11 @@
         },
         {
           "date": "2026-03-12",
-          "count": 26
+          "count": 38
+        },
+        {
+          "date": "2026-03-13",
+          "count": 3
         }
       ],
       "dpdHistory": [
@@ -891,8 +919,8 @@
       "perDay": 73754,
       "days": 10,
       "score": 4.8,
-      "ratings": 16689,
-      "ratingsStr": "16K",
+      "ratings": 17235,
+      "ratingsStr": "17K",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 4, 2026",
@@ -914,7 +942,7 @@
         },
         {
           "date": "2026-03-07",
-          "count": 225
+          "count": 224
         },
         {
           "date": "2026-03-08",
@@ -930,11 +958,15 @@
         },
         {
           "date": "2026-03-11",
-          "count": 156
+          "count": 155
         },
         {
           "date": "2026-03-12",
-          "count": 82
+          "count": 134
+        },
+        {
+          "date": "2026-03-13",
+          "count": 21
         }
       ],
       "dpdHistory": [
@@ -984,7 +1016,7 @@
       "perDay": 15939,
       "days": 4,
       "score": 4.9,
-      "ratings": 2419,
+      "ratings": 2785,
       "ratingsStr": "2K",
       "contentRating": "Teen",
       "offersIAP": false,
@@ -999,7 +1031,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 4
+          "count": 5
         }
       ],
       "dpdHistory": [

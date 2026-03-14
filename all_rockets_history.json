@@ -2569,5 +2569,43 @@
         "score": 0
       }
     ]
+  },
+  "super4.coloring.games.draw.princess.art.girls.paint.fantasy": {
+    "id": "super4.coloring.games.draw.princess.art.girls.paint.fantasy",
+    "name": "Coloring Game Drawing & Paint",
+    "genre": "Educational",
+    "icon": "https://play-lh.googleusercontent.com/h67qo23FSVitGb1vkrpQzqt1rreuqeg3osgmuxNYjbYf25NKpFZT2NJ1vh_Zo8EtoRacrYi2T04FkAicYOCyJ-4",
+    "url": "https://play.google.com/store/apps/details?id=super4.coloring.games.draw.princess.art.girls.paint.fantasy",
+    "first_seen": "2026-03-14",
+    "last_seen": "2026-03-14",
+    "peak_dpd": 1653,
+    "peak_date": "2026-03-14",
+    "history": [
+      {
+        "date": "2026-03-14",
+        "installs": 36377,
+        "dpd": 1653,
+        "score": 2.7
+      }
+    ]
+  },
+  "com.spider.solitaire.classic.card.game": {
+    "id": "com.spider.solitaire.classic.card.game",
+    "name": "Classic Card: Spider Solitaire",
+    "genre": "Card",
+    "icon": "https://play-lh.googleusercontent.com/AStGyDpSqcIhvU8HzJm-puiBZM_QrGtU0-2eLg3zSTe99cN1ul_q11BbN8pi8pCshQd-Fy7CEvovaPdMhIHD6oo",
+    "url": "https://play.google.com/store/apps/details?id=com.spider.solitaire.classic.card.game",
+    "first_seen": "2026-03-14",
+    "last_seen": "2026-03-14",
+    "peak_dpd": 1369,
+    "peak_date": "2026-03-14",
+    "history": [
+      {
+        "date": "2026-03-14",
+        "installs": 8219,
+        "dpd": 1369,
+        "score": 0
+      }
+    ]
   }
 }
