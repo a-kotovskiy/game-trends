@@ -33,7 +33,7 @@ def get_rockets():
     try:
         out = subprocess.check_output(
             ["python3", os.path.join(SCRIPTS, "gplay_rockets.py"),
-             "--days", "30", "--min-dpd", "1000", "--limit", "10", "--json"],
+             "--days", "30", "--min-dpd", "500", "--limit", "50", "--json"],
             timeout=1200, stderr=subprocess.DEVNULL
         ).decode().strip()
         if not out:
@@ -227,3 +227,4 @@ log("  meta.json: сохранено")
 
 log(f"✅ Обновлено: {len(data['rockets'])} ракет, {len(data['videos'])} видео, {len(data['news'])} новостей, {len(data['ideas'])} идей, {len(data['viral_trends'])} трендов")
 print(json.dumps({"rockets": len(data["rockets"]), "videos": len(data["videos"]), "news": len(data["news"]), "ideas": len(data["ideas"])}))
+
