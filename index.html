@@ -947,8 +947,8 @@
   }
 
   function newBadge(days) {
-    if (days <= 3) return '<span style="background:linear-gradient(135deg,#ef4444,#f59e0b);color:#fff;font-size:0.62rem;font-weight:800;padding:2px 7px;border-radius:6px;margin-left:4px;letter-spacing:0.03em">🔥 НОВИНКА</span>';
-    if (days <= 7) return '<span style="background:rgba(245,158,11,0.2);color:#f59e0b;border:1px solid rgba(245,158,11,0.4);font-size:0.62rem;font-weight:700;padding:2px 7px;border-radius:6px;margin-left:4px">✨ NEW</span>';
+    if (days <= 3) return '<span style="background:linear-gradient(135deg,#ef4444,#f59e0b);color:#fff;font-size:0.65rem;font-weight:800;padding:3px 8px;border-radius:6px;white-space:nowrap;flex-shrink:0">🔥 НОВИНКА</span>';
+    if (days <= 7) return '<span style="background:rgba(245,158,11,0.25);color:#f59e0b;border:1px solid rgba(245,158,11,0.5);font-size:0.65rem;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;flex-shrink:0">✨ NEW</span>';
     return '';
   }
 
@@ -970,9 +970,10 @@
           <div class="rc-head">
             <div class="game-emoji">${iconHtml}</div>
             <div class="rc-info">
-              <div class="game-name">${g.name}${newBadge(g.days)}</div>
+              <div class="game-name">${g.name}</div>
               <div class="rc-meta">
                 <span class="card-tag">${g.tag}</span>
+                ${newBadge(g.days)}
                 <span class="game-genre">${g.genre}${g.score ? ' · ⭐' + g.score : ''}</span>
               </div>
             </div>
