@@ -1,0 +1,74 @@
+name: Update Game Trends Data
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-parser
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Mark run as started
+        run: |
+          echo '{"running":true,"last_run":null,"rockets_count":0}' > status.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git commit -m "ci: mark run as started" || true
+          git push
+
+      - name: Run parser
+        run: |
+          cd scripts && python update_data.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Update status.json
+        if: always()
+        run: |
+          python3 - <<'PYEOF'
+          import json
+          from datetime import datetime, timezone
+          rockets_count = 0
+          try:
+              with open("meta.json") as f:
+                  meta = json.load(f)
+              rockets_count = meta.get("rockets_count", 0)
+          except:
+              pass
+          status = {
+              "running": False,
+              "last_run": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "rockets_count": rockets_count,
+          }
+          with open("status.json", "w") as f:
+              json.dump(status, f)
+          print("status.json updated:", status)
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "data: обновление дашборда $(date -u +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
