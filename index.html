@@ -761,6 +761,10 @@
         <div class="dot"></div>
         <span>Обновлено: <span id="updated-date">загрузка...</span></span>
       </div>
+      <button class="btn-refresh" id="refresh-btn" onclick="startRefresh()">
+        <span id="refresh-icon">🔄</span>
+        <span id="refresh-label">Обновить</span>
+      </button>
     </div>
   </div>
 </header>
@@ -889,6 +893,9 @@
 </main>
 
 <script>
+  // Cloudflare Worker URL — replace with your deployed worker URL
+  const WORKER_URL = 'https://YOUR_WORKER.YOUR_SUBDOMAIN.workers.dev';
+
   const maxPerDay = 9433; // для прогресс-баров
 
   function formatNum(n) {
@@ -1486,25 +1493,59 @@
     }
   }
 
-  // REFRESH
+  // REFRESH via Cloudflare Worker → GitHub Actions
   async function startRefresh() {
     const btn = document.getElementById('refresh-btn');
     const icon = document.getElementById('refresh-icon');
     const label = document.getElementById('refresh-label');
     btn.disabled = true;
     icon.textContent = '⏳';
-    label.textContent = 'Парсю данные...';
+    label.textContent = 'Обновляется (~8 мин)';
 
     try {
-      // GitHub Pages - просто перезагружаем данные
-      await new Promise(r => setTimeout(r, 1000));
-      await loadData();
-      icon.textContent = '✅';
-      label.textContent = 'Готово!';
-      setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 2000);
+      const res = await fetch(`${WORKER_URL}/trigger`, { method: 'POST' });
+      const data = await res.json();
+
+      if (!res.ok) {
+        const msg = data.error || 'Ошибка';
+        if (res.status === 429) {
+          label.textContent = msg;
+          setTimeout(() => { btn.disabled = false; icon.textContent = '🔄'; label.textContent = 'Обновить'; }, 5000);
+          return;
+        }
+        throw new Error(msg);
+      }
+
+      // Poll status every 30s until running=false
+      let pollCount = 0;
+      const poll = setInterval(async () => {
+        pollCount++;
+        try {
+          const sr = await fetch(`${WORKER_URL}/status`);
+          if (sr.ok) {
+            const status = await sr.json();
+            if (!status.running && status.last_run && pollCount > 1) {
+              clearInterval(poll);
+              icon.textContent = '✅';
+              label.textContent = 'Готово!';
+              await loadData();
+              setTimeout(() => { btn.disabled = false; icon.textContent = '🔄'; label.textContent = 'Обновить'; }, 3000);
+            }
+          }
+        } catch (_) {}
+        // Stop polling after 15 min (30 polls × 30s)
+        if (pollCount >= 30) {
+          clearInterval(poll);
+          btn.disabled = false;
+          icon.textContent = '🔄';
+          label.textContent = 'Обновить';
+        }
+      }, 30000);
+
     } catch(e) {
+      console.error('Refresh error:', e);
       btn.disabled = false;
-      icon.textContent = '↻';
+      icon.textContent = '🔄';
       label.textContent = 'Ошибка, повтори';
     }
   }

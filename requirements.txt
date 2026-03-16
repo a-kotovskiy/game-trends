@@ -1,0 +1,4 @@
+google-play-scraper
+scrapetube
+aiohttp
+websockets

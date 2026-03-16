@@ -1,0 +1,8 @@
+{
+  "_comment": "Игры которые всегда проверяем, даже если выпали из топа категорий",
+  "apps": [
+    "com.extreme.games.production.onehitpunch.games",
+    "com.runawayplay.dragons",
+    "com.SpaghettiHouse.EscapeFromBlogger"
+  ]
+}
