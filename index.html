@@ -802,6 +802,12 @@
       </div>
       <div class="section-count" id="rockets-count">...</div>
     </div>
+    <!-- SORT CONTROLS -->
+    <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap">
+      <button class="sort-btn active" onclick="setSortRockets('dpd',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">🔥 По скорости</button>
+      <button class="sort-btn" onclick="setSortRockets('growth',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">📈 По росту</button>
+      <button class="sort-btn" onclick="setSortRockets('new',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">🆕 По новизне</button>
+    </div>
     <div class="rockets-list" id="rockets-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
@@ -903,12 +909,46 @@
     btn.classList.add('active');
   }
 
+  // Сортировка ракет
+  let _currentSort = 'dpd';
+  let _rocketsData = [];
+  let _watchlistData = [];
+
+  function setSortRockets(mode, btn) {
+    _currentSort = mode;
+    document.querySelectorAll('.sort-btn').forEach(b => {
+      b.style.background = 'var(--bg3)';
+      b.style.borderColor = 'var(--border)';
+      b.style.color = 'var(--text-muted)';
+    });
+    btn.style.background = 'rgba(124,58,237,0.25)';
+    btn.style.borderColor = 'rgba(124,58,237,0.6)';
+    btn.style.color = '#a855f7';
+    const sorted = sortRockets(_rocketsData, mode);
+    window._rocketData = sorted.concat(_watchlistData);
+    renderRocketCards(sorted, 'rockets-grid', 0);
+  }
+
+  function sortRockets(data, mode) {
+    const arr = [...data];
+    if (mode === 'dpd') return arr.sort((a,b) => (b.perDay||0) - (a.perDay||0));
+    if (mode === 'growth') return arr.sort((a,b) => (b.dpd_change_pct||0) - (a.dpd_change_pct||0));
+    if (mode === 'new') return arr.sort((a,b) => (a.days||99) - (b.days||99));
+    return arr;
+  }
+
   function trendBadge(g) {
     if (!g.trend || g.trend === 'stable') return '';
     const pct = g.dpd_change_pct || 0;
     if (g.trend === 'new') return '<span style="color:#f59e0b;font-size:0.7rem">🆕</span>';
     if (g.trend === 'rising') return `<span style="color:#10b981;font-size:0.7rem">📈+${pct}%</span>`;
     if (g.trend === 'falling') return `<span style="color:#ef4444;font-size:0.7rem">📉${pct}%</span>`;
+    return '';
+  }
+
+  function newBadge(days) {
+    if (days <= 3) return '<span style="background:linear-gradient(135deg,#ef4444,#f59e0b);color:#fff;font-size:0.62rem;font-weight:800;padding:2px 7px;border-radius:6px;margin-left:4px;letter-spacing:0.03em">🔥 НОВИНКА</span>';
+    if (days <= 7) return '<span style="background:rgba(245,158,11,0.2);color:#f59e0b;border:1px solid rgba(245,158,11,0.4);font-size:0.62rem;font-weight:700;padding:2px 7px;border-radius:6px;margin-left:4px">✨ NEW</span>';
     return '';
   }
 
@@ -930,7 +970,7 @@
           <div class="rc-head">
             <div class="game-emoji">${iconHtml}</div>
             <div class="rc-info">
-              <div class="game-name">${g.name}</div>
+              <div class="game-name">${g.name}${newBadge(g.days)}</div>
               <div class="rc-meta">
                 <span class="card-tag">${g.tag}</span>
                 <span class="game-genre">${g.genre}${g.score ? ' · ⭐' + g.score : ''}</span>
@@ -989,17 +1029,21 @@
   }
 
   function renderRockets(rockets, watchlist) {
+    // Сохраняем для сортировки
+    _rocketsData = rockets || [];
+    _watchlistData = watchlist || [];
+
     // Топ
-    document.getElementById('rockets-count').textContent = (rockets || []).length + ' игр';
-    document.getElementById('tab-count-rockets').textContent = (rockets || []).length;
+    document.getElementById('rockets-count').textContent = (_rocketsData).length + ' игр';
+    document.getElementById('tab-count-rockets').textContent = (_rocketsData).length;
     // Watchlist
     const wlCount = document.getElementById('watchlist-count');
-    if (wlCount) wlCount.textContent = (watchlist || []).length + ' игр';
+    if (wlCount) wlCount.textContent = (_watchlistData).length + ' игр';
 
     // Единый массив для поиска по idx при toggleRocket
-    window._rocketData = (rockets || []).concat(watchlist || []);
-    renderRocketCards(rockets || [], 'rockets-grid', 0);
-    renderRocketCards(watchlist || [], 'watchlist-grid', (rockets || []).length);
+    window._rocketData = (_rocketsData).concat(_watchlistData);
+    renderRocketCards(_rocketsData, 'rockets-grid', 0);
+    renderRocketCards(_watchlistData, 'watchlist-grid', (_rocketsData).length);
   }
 
   const chartInstances = {};
