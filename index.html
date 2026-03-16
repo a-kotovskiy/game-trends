@@ -1491,25 +1491,56 @@
   }
 
   // REFRESH
+  const WORKER_URL = "https://reproduced-screenshots-bloggers-pop.trycloudflare.com";
+
   async function startRefresh() {
     const btn = document.getElementById('refresh-btn');
     const icon = document.getElementById('refresh-icon');
     const label = document.getElementById('refresh-label');
     btn.disabled = true;
     icon.textContent = '⏳';
-    label.textContent = 'Парсю данные...';
+    label.textContent = 'Запускаю парсер...';
 
     try {
-      // GitHub Pages - просто перезагружаем данные
-      await new Promise(r => setTimeout(r, 1000));
-      await loadData();
-      icon.textContent = '✅';
-      label.textContent = 'Готово!';
-      setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 2000);
+      // Запускаем GitHub Actions
+      const res = await fetch(WORKER_URL + '/trigger', { method: 'POST' });
+      if (!res.ok) throw new Error('Сервер недоступен');
+
+      label.textContent = 'Парсер работает (~8 мин)';
+
+      // Поллим статус каждые 30 сек
+      const pollInterval = setInterval(async () => {
+        try {
+          const s = await fetch(WORKER_URL + '/status').then(r => r.json());
+          const lastRun = s.last_run ? new Date(s.last_run) : null;
+          const secAgo = lastRun ? Math.floor((Date.now() - lastRun.getTime()) / 1000) : 999;
+
+          if (!s.running && secAgo < 120) {
+            // Парсер только что закончил
+            clearInterval(pollInterval);
+            await loadData();
+            icon.textContent = '✅';
+            label.textContent = 'Обновлено!';
+            setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 3000);
+          }
+        } catch(e) {}
+      }, 30000);
+
+      // Максимум 15 минут ждём
+      setTimeout(() => {
+        clearInterval(pollInterval);
+        if (btn.disabled) {
+          btn.disabled = false;
+          icon.textContent = '↻';
+          label.textContent = 'Обновить данные';
+        }
+      }, 900000);
+
     } catch(e) {
       btn.disabled = false;
-      icon.textContent = '↻';
-      label.textContent = 'Ошибка, повтори';
+      icon.textContent = '⚠️';
+      label.textContent = 'Сервер недоступен';
+      setTimeout(() => { icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 3000);
     }
   }
 
