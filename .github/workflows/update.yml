@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -25,18 +27,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Mark run as started
-        run: |
-          echo '{"running":true,"last_run":null,"rockets_count":0}' > status.json
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add status.json
-          git commit -m "ci: mark run as started" || true
-          git push
-
       - name: Run parser
-        run: |
-          cd scripts && python update_data.py
+        run: cd scripts && python update_data.py
         env:
           PYTHONUNBUFFERED: "1"
 
@@ -44,31 +36,29 @@ jobs:
         if: always()
         run: |
           python3 - <<'PYEOF'
-          import json
+          import json, os
           from datetime import datetime, timezone
           rockets_count = 0
           try:
               with open("meta.json") as f:
-                  meta = json.load(f)
-              rockets_count = meta.get("rockets_count", 0)
+                  rockets_count = json.load(f).get("rockets_count", 0)
           except:
               pass
-          status = {
-              "running": False,
-              "last_run": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-              "rockets_count": rockets_count,
-          }
+          failed = os.environ.get("RUNNER_RESULT", "") == "failure"
           with open("status.json", "w") as f:
-              json.dump(status, f)
-          print("status.json updated:", status)
+              json.dump({
+                  "running": False,
+                  "last_run": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "rockets_count": rockets_count,
+                  "error": failed
+              }, f)
           PYEOF
 
       - name: Commit and push
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "data: обновление дашборда $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "data: обновление $(date -u +%Y-%m-%d)"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
