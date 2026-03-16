@@ -16,8 +16,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -32,6 +30,25 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
 
+      - name: Health check (не коммитить если данных мало)
+        run: |
+          python3 - <<'PYEOF'
+          import json, sys
+          try:
+              with open("rockets.json") as f:
+                  d = json.load(f)
+              rockets = d.get("rockets", d) if isinstance(d, dict) else d
+              count = len(rockets)
+              print(f"Ракет найдено: {count}")
+              if count < 10:
+                  print(f"❌ Слишком мало ракет ({count} < 10) — отменяю коммит")
+                  sys.exit(1)
+              print(f"✅ Health check пройден: {count} ракет")
+          except Exception as e:
+              print(f"❌ Ошибка проверки: {e}")
+              sys.exit(1)
+          PYEOF
+
       - name: Update status.json
         if: always()
         run: |
@@ -44,21 +61,20 @@ jobs:
                   rockets_count = json.load(f).get("rockets_count", 0)
           except:
               pass
-          failed = os.environ.get("RUNNER_RESULT", "") == "failure"
           with open("status.json", "w") as f:
               json.dump({
                   "running": False,
                   "last_run": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                   "rockets_count": rockets_count,
-                  "error": failed
               }, f)
           PYEOF
 
       - name: Commit and push
-        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --quiet || git commit -m "data: обновление $(date -u +%Y-%m-%d)"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
