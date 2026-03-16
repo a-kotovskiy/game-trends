@@ -25,35 +25,56 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Backup current data
+        run: |
+          cp rockets.json rockets_backup.json 2>/dev/null || echo '{"rockets":[],"watchlist":[]}' > rockets_backup.json
+          echo "Бекап создан"
+
       - name: Run parser
         run: cd scripts && python update_data.py
         env:
           PYTHONUNBUFFERED: "1"
 
-      - name: Health check (не коммитить если данных мало)
+      - name: Validate new data vs backup
         run: |
           python3 - <<'PYEOF'
-          import json, sys
-          try:
-              with open("rockets.json") as f:
-                  d = json.load(f)
-              rockets = d.get("rockets", d) if isinstance(d, dict) else d
-              count = len(rockets)
-              print(f"Ракет найдено: {count}")
-              if count < 10:
-                  print(f"❌ Слишком мало ракет ({count} < 10) — отменяю коммит")
-                  sys.exit(1)
-              print(f"✅ Health check пройден: {count} ракет")
-          except Exception as e:
-              print(f"❌ Ошибка проверки: {e}")
-              sys.exit(1)
+          import json, sys, shutil
+
+          def count_rockets(path):
+              try:
+                  with open(path) as f:
+                      d = json.load(f)
+                  return len(d.get("rockets", d) if isinstance(d, dict) else d)
+              except:
+                  return 0
+
+          old_count = count_rockets("rockets_backup.json")
+          new_count = count_rockets("rockets.json")
+
+          print(f"Было ракет: {old_count}")
+          print(f"Стало ракет: {new_count}")
+
+          # Если старых данных не было — принимаем любой результат
+          if old_count == 0:
+              print("✅ Первый запуск, принимаем данные")
+              sys.exit(0)
+
+          # Новых должно быть не меньше 40% от старых
+          threshold = old_count * 0.4
+          if new_count < threshold:
+              print(f"⚠️ Новых данных слишком мало ({new_count} < {threshold:.0f}). Восстанавливаю предыдущие.")
+              shutil.copy("rockets_backup.json", "rockets.json")
+              # Не падаем — просто восстанавливаем старые данные
+          else:
+              print(f"✅ Данные валидны: {new_count} ракет")
+
           PYEOF
 
       - name: Update status.json
         if: always()
         run: |
           python3 - <<'PYEOF'
-          import json, os
+          import json
           from datetime import datetime, timezone
           rockets_count = 0
           try:
@@ -73,7 +94,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git rm --cached rockets_backup.json 2>/dev/null || true
+          git add rockets.json hype.json videos.json news.json ideas.json meta.json status.json all_rockets_history.json
           git diff --cached --quiet || git commit -m "data: обновление $(date -u +%Y-%m-%d)"
           git push
         env:
