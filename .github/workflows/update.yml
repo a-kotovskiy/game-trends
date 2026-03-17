@@ -29,53 +29,46 @@ jobs:
         id: parser
         run: |
           cd scripts && python update_data.py 2>&1
-          # Проверяем результат
-          python3 - <<'PYEOF'
+          cd ..
+          python3 -c "
           import json, sys
           try:
-              with open("../rockets.json") as f:
+              with open('rockets.json') as f:
                   d = json.load(f)
-              rockets = d.get("rockets", d) if isinstance(d, dict) else d
+              rockets = d.get('rockets', d) if isinstance(d, dict) else d
               count = len(rockets)
-              print(f"✅ Парсер нашёл {count} ракет")
+              print(f'Found {count} rockets')
               if count == 0:
-                  print("❌ Ноль ракет — не публикуем")
                   sys.exit(1)
           except Exception as e:
-              print(f"❌ Ошибка: {e}")
+              print(f'Error: {e}')
               sys.exit(1)
-          PYEOF
+          "
         env:
           PYTHONUNBUFFERED: "1"
 
       - name: Update status.json
         if: always()
         run: |
-          python3 - <<'PYEOF'
+          python3 -c "
           import json
           from datetime import datetime, timezone
           rockets_count = 0
           try:
-              with open("meta.json") as f:
-                  rockets_count = json.load(f).get("rockets_count", 0)
-          except:
-              pass
-          with open("status.json", "w") as f:
-              json.dump({
-                  "running": False,
-                  "last_run": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                  "rockets_count": rockets_count,
-              }, f)
-          PYEOF
+              with open('meta.json') as f:
+                  rockets_count = json.load(f).get('rockets_count', 0)
+          except: pass
+          with open('status.json', 'w') as f:
+              json.dump({'running': False, 'last_run': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'rockets_count': rockets_count}, f)
+          "
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rockets.json hype.json videos.json news.json ideas.json meta.json status.json all_rockets_history.json
-          git diff --cached --quiet && echo "Нет изменений" && exit 0
-          git commit -m "data: обновление $(date -u +%Y-%m-%d)"
-          git pull --rebase origin main
-          git push
+          git add -A
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "data: update $(date -u +%Y-%m-%d)"
+          git push --force-with-lease
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
