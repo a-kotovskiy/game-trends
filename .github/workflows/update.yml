@@ -69,6 +69,7 @@ jobs:
           git add -A
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "data: update $(date -u +%Y-%m-%d)"
-          git push --force-with-lease
+          git pull --rebase origin main
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
