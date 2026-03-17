@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🎮 Game Trends Dashboard</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
@@ -1452,8 +1453,24 @@
       const ideasData  = ideas.status === 'fulfilled'   ? ideas.value   : [];
       const metaData   = meta.status === 'fulfilled'    ? meta.value    : {};
 
-      // Обновляем updated date
-      document.getElementById('updated-date').textContent = metaData.updated || '—';
+      // Обновляем updated date с "X назад"
+      const updStr = metaData.updated || '—';
+      const updEl = document.getElementById('updated-date');
+      updEl.textContent = updStr;
+      // Парсим "2026-03-17 04:25 МСК" → добавляем "X назад"
+      const match = updStr.match(/(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})/);
+      if (match) {
+        const mskDate = new Date(match[1] + 'T' + match[2] + ':00+03:00');
+        const diffMs = Date.now() - mskDate.getTime();
+        const diffMin = Math.floor(diffMs / 60000);
+        let ago = '';
+        if (diffMin < 1) ago = 'только что';
+        else if (diffMin < 60) ago = `${diffMin} мин назад`;
+        else if (diffMin < 1440) ago = `${Math.floor(diffMin/60)} ч назад`;
+        else ago = `${Math.floor(diffMin/1440)} дн назад`;
+        updEl.textContent = updStr + ' (' + ago + ')';
+        if (diffMin > 1440) updEl.style.color = '#f59e0b'; // жёлтый если >24ч
+      }
 
       // Обогащаем viral_trends данными валидации
       const viralTrends = hypeData.viral_trends || [];
@@ -1501,14 +1518,34 @@
     icon.textContent = '⏳';
     label.textContent = 'Запускаю парсер...';
 
+    // Запоминаем время старта для таймера
+    const startTime = Date.now();
+
     try {
-      // Запускаем GitHub Actions
+      // Запускаем GitHub Actions через Worker
       const res = await fetch(WORKER_URL + '/trigger', { method: 'POST' });
-      if (!res.ok) throw new Error('Сервер недоступен');
+      const body = await res.json().catch(() => ({}));
 
-      label.textContent = 'Парсер работает (~8 мин)';
+      if (!res.ok) {
+        // Rate limit или другая ошибка
+        if (body.wait_minutes) {
+          throw new Error(`Подожди ${body.wait_minutes} мин`);
+        }
+        if (body.running) {
+          throw new Error('Парсер уже работает');
+        }
+        throw new Error(body.error || 'Ошибка запуска');
+      }
 
-      // Поллим статус каждые 30 сек
+      // Показываем таймер
+      const timerInterval = setInterval(() => {
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        const min = Math.floor(elapsed / 60);
+        const sec = elapsed % 60;
+        label.textContent = `Парсер работает ${min}:${sec.toString().padStart(2,'0')} (~8 мин)`;
+      }, 1000);
+
+      // Поллим статус каждые 20 сек
       const pollInterval = setInterval(async () => {
         try {
           const s = await fetch(WORKER_URL + '/status').then(r => r.json());
@@ -1516,31 +1553,33 @@
           const secAgo = lastRun ? Math.floor((Date.now() - lastRun.getTime()) / 1000) : 999;
 
           if (!s.running && secAgo < 120) {
-            // Парсер только что закончил
             clearInterval(pollInterval);
+            clearInterval(timerInterval);
             await loadData();
             icon.textContent = '✅';
-            label.textContent = 'Обновлено!';
-            setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 3000);
+            label.textContent = 'Данные обновлены!';
+            setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 4000);
           }
         } catch(e) {}
-      }, 30000);
+      }, 20000);
 
       // Максимум 15 минут ждём
       setTimeout(() => {
         clearInterval(pollInterval);
+        clearInterval(timerInterval);
         if (btn.disabled) {
           btn.disabled = false;
-          icon.textContent = '↻';
-          label.textContent = 'Обновить данные';
+          icon.textContent = '⚠️';
+          label.textContent = 'Таймаут - обнови страницу';
+          setTimeout(() => { icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 5000);
         }
       }, 900000);
 
     } catch(e) {
       btn.disabled = false;
       icon.textContent = '⚠️';
-      label.textContent = 'Сервер недоступен';
-      setTimeout(() => { icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 3000);
+      label.textContent = e.message || 'Ошибка';
+      setTimeout(() => { icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 4000);
     }
   }
 
