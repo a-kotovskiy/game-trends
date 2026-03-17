@@ -17,11 +17,11 @@
       "downloads": "10,000,000+",
       "realInstalls": 12878790,
       "realInstallsStr": "12.9M",
-      "perDay": 757575,
-      "days": 17,
+      "perDay": 677831,
+      "days": 19,
       "score": 4.8,
-      "ratings": 201102,
-      "ratingsStr": "201K",
+      "ratings": 208874,
+      "ratingsStr": "208K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Feb 25, 2026",
@@ -30,44 +30,44 @@
       "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
       "reviewsByDay": [
         {
-          "date": "2026-03-04",
-          "count": 105
-        },
-        {
-          "date": "2026-03-05",
-          "count": 653
-        },
-        {
           "date": "2026-03-06",
-          "count": 619
+          "count": 617
         },
         {
           "date": "2026-03-07",
-          "count": 609
+          "count": 608
         },
         {
           "date": "2026-03-08",
-          "count": 501
+          "count": 500
         },
         {
           "date": "2026-03-09",
-          "count": 418
+          "count": 416
         },
         {
           "date": "2026-03-10",
-          "count": 349
+          "count": 348
         },
         {
           "date": "2026-03-11",
-          "count": 325
+          "count": 323
         },
         {
           "date": "2026-03-12",
-          "count": 317
+          "count": 315
         },
         {
           "date": "2026-03-13",
-          "count": 104
+          "count": 336
+        },
+        {
+          "date": "2026-03-14",
+          "count": 346
+        },
+        {
+          "date": "2026-03-15",
+          "count": 191
         }
       ],
       "dpdHistory": [
@@ -90,11 +90,16 @@
           "date": "2026-03-14",
           "dpd": 754231,
           "installs": 12821935
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 677831,
+          "installs": 12878790
         }
       ],
-      "trend": "stable",
-      "dpd_prev": 792959,
-      "dpd_change_pct": -4,
+      "trend": "falling",
+      "dpd_prev": 754231,
+      "dpd_change_pct": -10,
       "isWatchlist": false
     },
     {
@@ -114,11 +119,11 @@
       "downloads": "10,000,000+",
       "realInstalls": 11010465,
       "realInstallsStr": "11.0M",
-      "perDay": 579498,
-      "days": 19,
+      "perDay": 524307,
+      "days": 21,
       "score": 4.5,
-      "ratings": 95228,
-      "ratingsStr": "95K",
+      "ratings": 97154,
+      "ratingsStr": "97K",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Feb 23, 2026",
@@ -128,11 +133,11 @@
       "reviewsByDay": [
         {
           "date": "2026-02-28",
-          "count": 463
+          "count": 114
         },
         {
           "date": "2026-03-01",
-          "count": 411
+          "count": 409
         },
         {
           "date": "2026-03-02",
@@ -144,43 +149,51 @@
         },
         {
           "date": "2026-03-04",
-          "count": 247
+          "count": 245
         },
         {
           "date": "2026-03-05",
-          "count": 532
+          "count": 529
         },
         {
           "date": "2026-03-06",
-          "count": 356
+          "count": 355
         },
         {
           "date": "2026-03-07",
-          "count": 276
+          "count": 272
         },
         {
           "date": "2026-03-08",
-          "count": 227
+          "count": 223
         },
         {
           "date": "2026-03-09",
-          "count": 210
+          "count": 205
         },
         {
           "date": "2026-03-10",
-          "count": 207
+          "count": 203
         },
         {
           "date": "2026-03-11",
-          "count": 161
+          "count": 160
         },
         {
           "date": "2026-03-12",
-          "count": 190
+          "count": 186
         },
         {
           "date": "2026-03-13",
-          "count": 46
+          "count": 152
+        },
+        {
+          "date": "2026-03-14",
+          "count": 162
+        },
+        {
+          "date": "2026-03-15",
+          "count": 111
         }
       ],
       "dpdHistory": [
@@ -203,252 +216,16 @@
           "date": "2026-03-14",
           "dpd": 579498,
           "installs": 11010465
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 524307,
+          "installs": 11010465
         }
       ],
       "trend": "stable",
-      "dpd_prev": 610496,
-      "dpd_change_pct": -5,
-      "isWatchlist": false
-    },
-    {
-      "id": "in.dreamgamestudios.games.sports.dreamcricket3d",
-      "emoji": "🚀🔥",
-      "tag": "10M+",
-      "name": "Dream Cricket 2025",
-      "icon": "https://play-lh.googleusercontent.com/CTDVFfAl0tIcf8IpXyLsUt6mlDfMXUDtM647sGpsO9xeSGhZM_E1fL2DLY724DFQjl6Kvt4Hr2uD33zVgmNr",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/zBsLVUn_48XFdTlnsXB5SyItSDZmtLGd_OwYhnMdNu0gl_A0zFejrnB0gVnVEAUOW4nbuqf1hROtcjEK6qULyg=w300",
-        "https://play-lh.googleusercontent.com/JTCLhyrBi27JfVbezTb-3liIyINWlI8IpUsxEgyMeRBWD2zEUe7gUcoQCDQyS9YbBkmBrm9POF-xGVu0uxpGd0M=w300",
-        "https://play-lh.googleusercontent.com/LlRmACfA4lLCXDRNyZQAXnW5j7i8ktyG82-KP03oANOdA5mwwftAAfYwdi7eJyb0wMR9e14-xdZyKI3kv7EC=w300",
-        "https://play-lh.googleusercontent.com/zj2s6Gm9_oXAU_gMX3V-q4syTNduRs0sbukd3eMpbNYV6KucCfswK_NvtT8xEDILswH7SWmHQZ5s-m-FSXcpDw=w300"
-      ],
-      "genre": "Sports",
-      "developer": "Sporta Technologies Private Limited",
-      "downloads": "10,000,000+",
-      "realInstalls": 17045747,
-      "realInstallsStr": "17.0M",
-      "perDay": 568191,
-      "days": 30,
-      "score": 3.7,
-      "ratings": 147572,
-      "ratingsStr": "147K",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Feb 12, 2026",
-      "lastUpdated": "Feb 26, 2026",
-      "summary": "Most Realistic 3D Cricket Game with Ultra Graphics & Officially Licensed Players",
-      "url": "https://play.google.com/store/apps/details?id=in.dreamgamestudios.games.sports.dreamcricket3d",
-      "reviewsByDay": [
-        {
-          "date": "2026-02-12",
-          "count": 114
-        },
-        {
-          "date": "2026-02-13",
-          "count": 68
-        },
-        {
-          "date": "2026-02-14",
-          "count": 85
-        },
-        {
-          "date": "2026-02-15",
-          "count": 67
-        },
-        {
-          "date": "2026-02-16",
-          "count": 97
-        },
-        {
-          "date": "2026-02-17",
-          "count": 108
-        },
-        {
-          "date": "2026-02-18",
-          "count": 102
-        },
-        {
-          "date": "2026-02-19",
-          "count": 104
-        },
-        {
-          "date": "2026-02-20",
-          "count": 143
-        },
-        {
-          "date": "2026-02-21",
-          "count": 151
-        },
-        {
-          "date": "2026-02-22",
-          "count": 137
-        },
-        {
-          "date": "2026-02-23",
-          "count": 99
-        },
-        {
-          "date": "2026-02-24",
-          "count": 103
-        },
-        {
-          "date": "2026-02-25",
-          "count": 97
-        },
-        {
-          "date": "2026-02-26",
-          "count": 93
-        },
-        {
-          "date": "2026-02-27",
-          "count": 103
-        },
-        {
-          "date": "2026-02-28",
-          "count": 85
-        },
-        {
-          "date": "2026-03-01",
-          "count": 87
-        },
-        {
-          "date": "2026-03-02",
-          "count": 84
-        },
-        {
-          "date": "2026-03-03",
-          "count": 90
-        },
-        {
-          "date": "2026-03-04",
-          "count": 81
-        },
-        {
-          "date": "2026-03-05",
-          "count": 68
-        },
-        {
-          "date": "2026-03-06",
-          "count": 106
-        },
-        {
-          "date": "2026-03-07",
-          "count": 162
-        },
-        {
-          "date": "2026-03-08",
-          "count": 95
-        },
-        {
-          "date": "2026-03-09",
-          "count": 109
-        },
-        {
-          "date": "2026-03-10",
-          "count": 98
-        },
-        {
-          "date": "2026-03-11",
-          "count": 121
-        },
-        {
-          "date": "2026-03-12",
-          "count": 103
-        },
-        {
-          "date": "2026-03-13",
-          "count": 43
-        }
-      ],
-      "dpdHistory": [
-        {
-          "date": "2026-03-11",
-          "dpd": 628856,
-          "installs": 16979113
-        },
-        {
-          "date": "2026-03-12",
-          "dpd": 607782,
-          "installs": 17017915
-        },
-        {
-          "date": "2026-03-13",
-          "dpd": 586824,
-          "installs": 17017915
-        },
-        {
-          "date": "2026-03-14",
-          "dpd": 567934,
-          "installs": 17038041
-        }
-      ],
-      "trend": "stable",
-      "dpd_prev": 586824,
-      "dpd_change_pct": -3,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.peerplay.megamerge",
-      "emoji": "🚀🔥",
-      "tag": "500K+",
-      "name": "Merge Cruise: Mystery Puzzle",
-      "icon": "https://play-lh.googleusercontent.com/HPR1HCSj2yz7i4jV0dUece2qswOgkxXKgrqZnQF9lWVTLzeFhKpajuUQwTABne39Iiht4QNglnaDDJD0f8iw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/eB4ZsgNUkccCIwUY99UAV9EqUyAoJoz_5Oal_oHoc_N-1Q809TRrSeRNVgGmlZQUlG4D=w300",
-        "https://play-lh.googleusercontent.com/LnEzvV1z0LMiFFLGsr30KEcTCJ8TK9KlLEIKB-1tCWXVLp9RVAnl1i9DTkDbHrjzgd8=w300",
-        "https://play-lh.googleusercontent.com/odAaiutIWJ1HlFMMikVCnUnwpc-PSEp_VvIYCkElSO_NrnPzSej-QGoDDwp081Lo6hM5=w300",
-        "https://play-lh.googleusercontent.com/sT0v7oWxJ3SLcX-ACrVlfghoYkFKnRDdPiWOiJWucSZ2auz1DVBnTJVxWkmOQNnJdT4G=w300"
-      ],
-      "genre": "Puzzle",
-      "developer": "PeerPlay",
-      "downloads": "500,000+",
-      "realInstalls": 976941,
-      "realInstallsStr": "977K",
-      "perDay": 325647,
-      "days": 3,
-      "score": 4.6,
-      "ratings": 391,
-      "ratingsStr": "391",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Mar 11, 2026",
-      "lastUpdated": "Mar 10, 2026",
-      "summary": "Merge & solve cruise ship mystery! Renovate, puzzle, uncover thrilling secrets!",
-      "url": "https://play.google.com/store/apps/details?id=com.peerplay.megamerge",
-      "reviewsByDay": [
-        {
-          "date": "2026-03-11",
-          "count": 1
-        },
-        {
-          "date": "2026-03-12",
-          "count": 1
-        },
-        {
-          "date": "2026-03-13",
-          "count": 1
-        }
-      ],
-      "dpdHistory": [
-        {
-          "date": "2026-03-12",
-          "dpd": 969281,
-          "installs": 969281
-        },
-        {
-          "date": "2026-03-13",
-          "dpd": 485326,
-          "installs": 970653
-        },
-        {
-          "date": "2026-03-14",
-          "dpd": 324891,
-          "installs": 974673
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 485326,
-      "dpd_change_pct": -33,
+      "dpd_prev": 579498,
+      "dpd_change_pct": -10,
       "isWatchlist": false
     },
     {
@@ -468,11 +245,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 4112240,
       "realInstallsStr": "4.1M",
-      "perDay": 293731,
-      "days": 14,
-      "score": 4.6,
-      "ratings": 32932,
-      "ratingsStr": "32K",
+      "perDay": 257015,
+      "days": 16,
+      "score": 4.7,
+      "ratings": 44130,
+      "ratingsStr": "44K",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Feb 28, 2026",
@@ -486,7 +263,7 @@
         },
         {
           "date": "2026-03-03",
-          "count": 23
+          "count": 22
         },
         {
           "date": "2026-03-04",
@@ -518,15 +295,23 @@
         },
         {
           "date": "2026-03-11",
-          "count": 57
+          "count": 55
         },
         {
           "date": "2026-03-12",
-          "count": 43
+          "count": 42
         },
         {
           "date": "2026-03-13",
-          "count": 11
+          "count": 49
+        },
+        {
+          "date": "2026-03-14",
+          "count": 60
+        },
+        {
+          "date": "2026-03-15",
+          "count": 43
         }
       ],
       "dpdHistory": [
@@ -549,11 +334,93 @@
           "date": "2026-03-14",
           "dpd": 290721,
           "installs": 4070095
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 257015,
+          "installs": 4112240
         }
       ],
-      "trend": "stable",
-      "dpd_prev": 313084,
-      "dpd_change_pct": -6,
+      "trend": "falling",
+      "dpd_prev": 290721,
+      "dpd_change_pct": -12,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.peerplay.megamerge",
+      "emoji": "🚀🔥",
+      "tag": "500K+",
+      "name": "Merge Cruise: Mystery Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/HPR1HCSj2yz7i4jV0dUece2qswOgkxXKgrqZnQF9lWVTLzeFhKpajuUQwTABne39Iiht4QNglnaDDJD0f8iw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/eB4ZsgNUkccCIwUY99UAV9EqUyAoJoz_5Oal_oHoc_N-1Q809TRrSeRNVgGmlZQUlG4D=w300",
+        "https://play-lh.googleusercontent.com/LnEzvV1z0LMiFFLGsr30KEcTCJ8TK9KlLEIKB-1tCWXVLp9RVAnl1i9DTkDbHrjzgd8=w300",
+        "https://play-lh.googleusercontent.com/odAaiutIWJ1HlFMMikVCnUnwpc-PSEp_VvIYCkElSO_NrnPzSej-QGoDDwp081Lo6hM5=w300",
+        "https://play-lh.googleusercontent.com/sT0v7oWxJ3SLcX-ACrVlfghoYkFKnRDdPiWOiJWucSZ2auz1DVBnTJVxWkmOQNnJdT4G=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "PeerPlay",
+      "downloads": "500,000+",
+      "realInstalls": 976941,
+      "realInstallsStr": "977K",
+      "perDay": 195388,
+      "days": 5,
+      "score": 4.6,
+      "ratings": 556,
+      "ratingsStr": "556",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 11, 2026",
+      "lastUpdated": "Mar 10, 2026",
+      "summary": "Merge & solve cruise ship mystery! Renovate, puzzle, uncover thrilling secrets!",
+      "url": "https://play.google.com/store/apps/details?id=com.peerplay.megamerge",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-11",
+          "count": 1
+        },
+        {
+          "date": "2026-03-12",
+          "count": 1
+        },
+        {
+          "date": "2026-03-13",
+          "count": 3
+        },
+        {
+          "date": "2026-03-14",
+          "count": 2
+        },
+        {
+          "date": "2026-03-15",
+          "count": 2
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-12",
+          "dpd": 969281,
+          "installs": 969281
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 485326,
+          "installs": 970653
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 324891,
+          "installs": 974673
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 195388,
+          "installs": 976941
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 324891,
+      "dpd_change_pct": -40,
       "isWatchlist": false
     },
     {
@@ -573,8 +440,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 2338421,
       "realInstallsStr": "2.3M",
-      "perDay": 155894,
-      "days": 15,
+      "perDay": 137554,
+      "days": 17,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -605,11 +472,16 @@
           "date": "2026-03-14",
           "dpd": 155839,
           "installs": 2337586
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 137554,
+          "installs": 2338421
         }
       ],
-      "trend": "stable",
-      "dpd_prev": 166820,
-      "dpd_change_pct": -7,
+      "trend": "falling",
+      "dpd_prev": 155839,
+      "dpd_change_pct": -12,
       "isWatchlist": false
     },
     {
@@ -629,11 +501,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 1030988,
       "realInstallsStr": "1.0M",
-      "perDay": 128873,
-      "days": 8,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
+      "perDay": 103098,
+      "days": 10,
+      "score": 4.8,
+      "ratings": 163,
+      "ratingsStr": "163",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 6, 2026",
@@ -664,6 +536,18 @@
         {
           "date": "2026-03-12",
           "count": 2
+        },
+        {
+          "date": "2026-03-13",
+          "count": 3
+        },
+        {
+          "date": "2026-03-14",
+          "count": 3
+        },
+        {
+          "date": "2026-03-15",
+          "count": 4
         }
       ],
       "dpdHistory": [
@@ -681,11 +565,16 @@
           "date": "2026-03-14",
           "dpd": 128717,
           "installs": 1029736
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 103098,
+          "installs": 1030988
         }
       ],
       "trend": "falling",
-      "dpd_prev": 146756,
-      "dpd_change_pct": -12,
+      "dpd_prev": 128717,
+      "dpd_change_pct": -20,
       "isWatchlist": false
     },
     {
@@ -705,11 +594,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 1956410,
       "realInstallsStr": "2.0M",
-      "perDay": 81517,
-      "days": 24,
-      "score": 4.3,
-      "ratings": 20847,
-      "ratingsStr": "20K",
+      "perDay": 75246,
+      "days": 26,
+      "score": 4.2,
+      "ratings": 21103,
+      "ratingsStr": "21K",
       "contentRating": "Mature 17+",
       "offersIAP": true,
       "releaseDate": "Feb 18, 2026",
@@ -719,19 +608,19 @@
       "reviewsByDay": [
         {
           "date": "2026-02-18",
-          "count": 747
+          "count": 703
         },
         {
           "date": "2026-02-19",
-          "count": 820
+          "count": 819
         },
         {
           "date": "2026-02-20",
-          "count": 685
+          "count": 684
         },
         {
           "date": "2026-02-21",
-          "count": 328
+          "count": 326
         },
         {
           "date": "2026-02-22",
@@ -755,7 +644,7 @@
         },
         {
           "date": "2026-02-27",
-          "count": 150
+          "count": 148
         },
         {
           "date": "2026-02-28",
@@ -775,11 +664,11 @@
         },
         {
           "date": "2026-03-04",
-          "count": 107
+          "count": 106
         },
         {
           "date": "2026-03-05",
-          "count": 57
+          "count": 56
         },
         {
           "date": "2026-03-06",
@@ -787,7 +676,7 @@
         },
         {
           "date": "2026-03-07",
-          "count": 33
+          "count": 31
         },
         {
           "date": "2026-03-08",
@@ -807,11 +696,19 @@
         },
         {
           "date": "2026-03-12",
-          "count": 38
+          "count": 37
         },
         {
           "date": "2026-03-13",
-          "count": 6
+          "count": 25
+        },
+        {
+          "date": "2026-03-14",
+          "count": 25
+        },
+        {
+          "date": "2026-03-15",
+          "count": 11
         }
       ],
       "dpdHistory": [
@@ -834,15 +731,1838 @@
           "date": "2026-03-14",
           "dpd": 81517,
           "installs": 1956410
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 75246,
+          "installs": 1956410
         }
       ],
       "trend": "stable",
-      "dpd_prev": 84664,
-      "dpd_change_pct": -4,
+      "dpd_prev": 81517,
+      "dpd_change_pct": -8,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.clovergames.avalonclient",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "HEAVENHELLS: Anime Squad RPG",
+      "icon": "https://play-lh.googleusercontent.com/wN9JX-ctnrfLys9dVUkzs4gWRBLVPMFAlvBtydnqeLdWuP9HFUQ1Mwieu4xqZ9bSoHtIr44yJMVM0vIv2h2TGdk",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/tA3qitR-ugwNsckZi-YOPk6QrG0_IpoYs5jcM2cGYpgA9NuUp5AvOvuZsXh1W1utBzSxAfPVTcIQkIKXSH1i=w300",
+        "https://play-lh.googleusercontent.com/l06WXpdiHYr6x1Bj2FbCjeM3yeMTXwqtyp89VjUTG1pab6kL8H94kXZwBSfgh09V7ox3ELCsK72P2ARYZ0roxw=w300",
+        "https://play-lh.googleusercontent.com/x9rFKM4t6jzfrCLgx6yjyc3NxFcLQ9mA0SOwtStoK1KXVAYS9Fl1Uob5ANs3yHY7wwVHI9nrLRir7pcJCeLvdw=w300",
+        "https://play-lh.googleusercontent.com/rpL_l1hNk9QWoITv11Gw5k-TsU4NgIgP0emz9jpvblZQkunrqwszzBe833FSxBW9s6d0W8G8sivapKnw-3qqYxU=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "CloverGames",
+      "downloads": "500,000+",
+      "realInstalls": 509012,
+      "realInstallsStr": "509K",
+      "perDay": 42417,
+      "days": 12,
+      "score": 4.3,
+      "ratings": 9065,
+      "ratingsStr": "9K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Mar 4, 2026",
+      "lastUpdated": "Mar 6, 2026",
+      "summary": "Build your 4-girl Tactical team! Engage Real-Time RPG battle to reclaim the city",
+      "url": "https://play.google.com/store/apps/details?id=com.clovergames.avalonclient",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-04",
+          "count": 100
+        },
+        {
+          "date": "2026-03-05",
+          "count": 233
+        },
+        {
+          "date": "2026-03-06",
+          "count": 249
+        },
+        {
+          "date": "2026-03-07",
+          "count": 175
+        },
+        {
+          "date": "2026-03-08",
+          "count": 86
+        },
+        {
+          "date": "2026-03-09",
+          "count": 83
+        },
+        {
+          "date": "2026-03-10",
+          "count": 65
+        },
+        {
+          "date": "2026-03-11",
+          "count": 52
+        },
+        {
+          "date": "2026-03-12",
+          "count": 25
+        },
+        {
+          "date": "2026-03-13",
+          "count": 18
+        },
+        {
+          "date": "2026-03-14",
+          "count": 14
+        },
+        {
+          "date": "2026-03-15",
+          "count": 12
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-12",
+          "dpd": 59781,
+          "installs": 478250
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 56135,
+          "installs": 505219
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 50521,
+          "installs": 505219
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 42417,
+          "installs": 509012
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 50521,
+      "dpd_change_pct": -16,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.netmarble.stonkey",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "StoneAge: Idle Adventure",
+      "icon": "https://play-lh.googleusercontent.com/mHJqRu4jWQURdoJTkJYcqPvd1atYDkx4EGEuv3olhT8MFdDW1jYNGyFLmOkr8plJmQZmmSc7v744iYJk09Nc7A",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/VkWqZFpXs-nAiqmrQjWGnp1l7DRJd98CzIpa75vT8el0mMoMx8qabYPv_Q4rOOWxoH4X2dpUZDoRvUE6SliJpjo=w300",
+        "https://play-lh.googleusercontent.com/nF81peCIWutAw1qiuFcDouRjJTGgywoCZSLNNZOmw8qAoZyTv-i51gmN_qQxT_iK5BKG9jp4e8tYoX8HhJ1wBw=w300",
+        "https://play-lh.googleusercontent.com/j5e8H3jaFUrN0n6fV1sL6qFXeefmEezqWG9pKHM2nkttBsKj2CkGoNJeWdJZ79Suan7LpLGkw964EwbeBm58UZw=w300",
+        "https://play-lh.googleusercontent.com/kTZeL9eHe5rwTtDGxGLRizrhE_DcUBJ0uEUyxNe-KkRmzATnFJe_SHsouihKj0Z1dAusdeaaYW7ckZPZrMXT=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "Netmarble",
+      "downloads": "500,000+",
+      "realInstalls": 705870,
+      "realInstallsStr": "706K",
+      "perDay": 41521,
+      "days": 17,
+      "score": 4.5,
+      "ratings": 29998,
+      "ratingsStr": "29K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Feb 27, 2026",
+      "lastUpdated": "Feb 27, 2026",
+      "summary": "Get ALL Pets just by checking in!",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.stonkey",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-02",
+          "count": 20
+        },
+        {
+          "date": "2026-03-03",
+          "count": 26
+        },
+        {
+          "date": "2026-03-04",
+          "count": 31
+        },
+        {
+          "date": "2026-03-05",
+          "count": 15
+        },
+        {
+          "date": "2026-03-06",
+          "count": 20
+        },
+        {
+          "date": "2026-03-07",
+          "count": 19
+        },
+        {
+          "date": "2026-03-08",
+          "count": 20
+        },
+        {
+          "date": "2026-03-09",
+          "count": 8
+        },
+        {
+          "date": "2026-03-10",
+          "count": 11
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6
+        },
+        {
+          "date": "2026-03-12",
+          "count": 4
+        },
+        {
+          "date": "2026-03-13",
+          "count": 10
+        },
+        {
+          "date": "2026-03-14",
+          "count": 15
+        },
+        {
+          "date": "2026-03-15",
+          "count": 12
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 51532,
+          "installs": 618389
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 53195,
+          "installs": 691537
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 50173,
+          "installs": 702429
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 46828,
+          "installs": 702429
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 41521,
+          "installs": 705870
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 46828,
+      "dpd_change_pct": -11,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.devolverdigital.ballxpit",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "BALL x PIT",
+      "icon": "https://play-lh.googleusercontent.com/0j3oRYHzry2gYMEsxUQ0OIbSslX81dA9eZ720wGnAuqOuF0TzfSD5PBL-FeSlXuAXXy6BuQr-gB0l1FhD1jpVg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/qG1o-qFclnXbAWlc4U09BBL8Eeq2qOEo4QBHXdxJ4Su0V2sYx6lqpxyLOUV4OP0XW7J2kmEmkpAcOK8xUp2H1w=w300",
+        "https://play-lh.googleusercontent.com/PxR2esLBTQ2IyIAorjlEz3QLf8FrATrDVa_TWvI3Mx_8eCTL7KUeCQXSWSccm-BHz76KKy8JkqXD91z4pQuO_Ng=w300",
+        "https://play-lh.googleusercontent.com/SmDyOcBrsU0K5UPD7dXrBvKH_FxfG3gjn7ta10JEOhrYQn5F9dAcvuzj466xg2knYzGCnk-PHcy-rkqCS_xW=w300",
+        "https://play-lh.googleusercontent.com/jiBDF9_L283k8J-1RU7bFa4jwTbJzO_Iqij391CIOJy33WwM27x1xEm1hkrcmKCOlbwwi093lZbZ6tA4MbFppg=w300"
+      ],
+      "genre": "Arcade",
+      "developer": "DevolverDigital",
+      "downloads": "100,000+",
+      "realInstalls": 196748,
+      "realInstallsStr": "197K",
+      "perDay": 39349,
+      "days": 5,
+      "score": 4.7,
+      "ratings": 2342,
+      "ratingsStr": "2K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Mar 11, 2026",
+      "lastUpdated": "Mar 16, 2026",
+      "summary": "BALL x PIT is a brick-breaking, ball-fusing, base-building survival roguelite.",
+      "url": "https://play.google.com/store/apps/details?id=com.devolverdigital.ballxpit",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-12",
+          "count": 130
+        },
+        {
+          "date": "2026-03-13",
+          "count": 75
+        },
+        {
+          "date": "2026-03-14",
+          "count": 49
+        },
+        {
+          "date": "2026-03-15",
+          "count": 14
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-13",
+          "dpd": 76118,
+          "installs": 152237
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 65582,
+          "installs": 196748
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 39349,
+          "installs": 196748
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 65582,
+      "dpd_change_pct": -40,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.police.bus.robot.fighting.shooting.game",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Prison Escape: Police Obby Run",
+      "icon": "https://play-lh.googleusercontent.com/5guQuHRUCqaD0Sun-zss5UohCcgN6mTrMz-SqQZRsAJdBSP1Mp3_ZWxXjBx8XU-9rAk",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/hUlpCMwUmRCFIHSa06ij2fguaoGUjETzByLevXZNAUWmDcWMjBJYH1C_KY2NiFNPL3pC8AxqyUzY3322H_N9=w300",
+        "https://play-lh.googleusercontent.com/dteC_oIsTqpHf8fmI1W5JnghVWuc_BhN4plj2b8q279KcUIHdpKlfG_-obX89s0LwThPkmBFgQVn089qr6_xVA=w300",
+        "https://play-lh.googleusercontent.com/CUL4dwwRpHpUqq0QgAj1GKJApRPiHEmFVwimgqj7jMH7_nc8o_fn458rRjmjR7N_YMLvEeWILPWrnEqFTjgSUFQ=w300",
+        "https://play-lh.googleusercontent.com/BC9htx6MWNLQwEIo7f2Xu-_gdPEClwXI9Cqz5GozM6VPD2HeuRoeKdTkEyWg_CXpMKesf4-gXxGSsQjNa3jMPQ=w300"
+      ],
+      "genre": "Adventure",
+      "developer": "Gamez.io",
+      "downloads": "500,000+",
+      "realInstalls": 789455,
+      "realInstallsStr": "789K",
+      "perDay": 28194,
+      "days": 28,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Feb 16, 2026",
+      "lastUpdated": "Feb 11, 2026",
+      "summary": "Escape fast in Prison Escape: Police Obby Run 3D with epic blocky parkour.",
+      "url": "https://play.google.com/store/apps/details?id=com.police.bus.robot.fighting.shooting.game",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-03-13",
+          "dpd": 31543,
+          "installs": 788589
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 30354,
+          "installs": 789214
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 28194,
+          "installs": 789455
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 30354,
+      "dpd_change_pct": -7,
+      "isWatchlist": false
+    },
+    {
+      "id": "mahjong.game.match.spirit.casual",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Mahjong Spirit: Match Game",
+      "icon": "https://play-lh.googleusercontent.com/4LePhbtVKEoN0CD5VZ3gn2yYqm7Iy-J8oZJwymKgC7UV28jWCqKmNFo_oJgEdy_en5GLzv4MIBi-mcZV527K",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/pkRJItONmD2VOz6enlkaAC6wcBCZRwl3y_zRjOb1OM27IVdliwoRQV3Ag2j2FYOudBfn2hCAb5eIkukzJlxrAw=w300",
+        "https://play-lh.googleusercontent.com/d-G-i7AE01lNMQvA2PWRHn_ZNEp30ecc5do_hul11x-MBPzEUtSJ6yjDMqtT_T1JGVkiDAesuzMD4O9-8iZSaA=w300",
+        "https://play-lh.googleusercontent.com/By7WxM0n76SY6UzSjjSMc-JubHBTHd1AeMaW8PYfv_IIwOdBlzQgfroXqStHGs1oSxcYrzTFRmzfbdbDNI65uw=w300",
+        "https://play-lh.googleusercontent.com/INxzs1c3w8JMKKoOfHUz1Fa0gWOqHXMKQjkXTqgLC9C_poNt4KRQBK_PjVwszOghqvQgLJ_UVi1fGPImmXyQHA=w300"
+      ],
+      "genre": "Casual",
+      "developer": "Lynn Mobile Puzzle Games",
+      "downloads": "100,000+",
+      "realInstalls": 230449,
+      "realInstallsStr": "230K",
+      "perDay": 19204,
+      "days": 12,
+      "score": 4.9,
+      "ratings": 100,
+      "ratingsStr": "100",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Mar 4, 2026",
+      "lastUpdated": "Mar 6, 2026",
+      "summary": "Simple tile matching meets classic Mahjong, bringing pure peace of mind.",
+      "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-05",
+          "count": 1
+        },
+        {
+          "date": "2026-03-08",
+          "count": 2
+        },
+        {
+          "date": "2026-03-09",
+          "count": 2
+        },
+        {
+          "date": "2026-03-10",
+          "count": 2
+        },
+        {
+          "date": "2026-03-11",
+          "count": 1
+        },
+        {
+          "date": "2026-03-13",
+          "count": 3
+        },
+        {
+          "date": "2026-03-14",
+          "count": 2
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 30227,
+          "installs": 211593
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 27189,
+          "installs": 217515
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 24778,
+          "installs": 223007
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 22724,
+          "installs": 227248
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 19204,
+          "installs": 230449
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 22724,
+      "dpd_change_pct": -15,
+      "isWatchlist": false
+    },
+    {
+      "id": "jp.co.imagineer.medarotsurvivors",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Medabots Survivors",
+      "icon": "https://play-lh.googleusercontent.com/QTpDvf339LbGx6DiEs9gNttM5K5PoE_tAtGut9dkbKWFonY3nNO5RiZmuBQsZIngx7fxoKuMqlh0DuQ6FSN9_Bs",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/5GJDFjdwPCb2qYti7I_KrXH5FQ4sdi4fgK7M6x8VxyITWuQRfw4z52N_YUp1a1yuX6KnlvbRNeFbolsIl6DGdg=w300",
+        "https://play-lh.googleusercontent.com/HZQDx-QuxGWYBSybRe8gB0NT18sKPT_j7JiL7Hm3kSsmf6IbhdSNz7sW5OraZ6yj04qmJf2ZP8zaP4HMt4VOvUE=w300",
+        "https://play-lh.googleusercontent.com/Sg0DPbN-uyTL41QFJPSKYpIv7I-0vb2FQqxAojE7Yxr4YEGSZW4-u8iIE2FqpFSLYMvNVvptBdKOJ9s25s3hAXA=w300",
+        "https://play-lh.googleusercontent.com/hNJDeHp5kweQ-RXZfUAgTa4MI0iqGT3bP6lWGTOtnd0dkiJ0A_ji-8yTTUbyOu4tTSrBntfaFMLMqhj2nd_rqA=w300"
+      ],
+      "genre": "Action",
+      "developer": "Imagineer Co.,Ltd.",
+      "downloads": "100,000+",
+      "realInstalls": 265480,
+      "realInstallsStr": "265K",
+      "perDay": 13274,
+      "days": 20,
+      "score": 4.3,
+      "ratings": 8206,
+      "ratingsStr": "8K",
+      "contentRating": "Everyone 10+",
+      "offersIAP": true,
+      "releaseDate": "Feb 24, 2026",
+      "lastUpdated": "Feb 19, 2026",
+      "summary": "Your choices determine the future.",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.imagineer.medarotsurvivors",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-25",
+          "count": 196
+        },
+        {
+          "date": "2026-02-26",
+          "count": 66
+        },
+        {
+          "date": "2026-02-27",
+          "count": 38
+        },
+        {
+          "date": "2026-02-28",
+          "count": 23
+        },
+        {
+          "date": "2026-03-01",
+          "count": 23
+        },
+        {
+          "date": "2026-03-02",
+          "count": 20
+        },
+        {
+          "date": "2026-03-03",
+          "count": 16
+        },
+        {
+          "date": "2026-03-04",
+          "count": 9
+        },
+        {
+          "date": "2026-03-05",
+          "count": 11
+        },
+        {
+          "date": "2026-03-06",
+          "count": 11
+        },
+        {
+          "date": "2026-03-07",
+          "count": 17
+        },
+        {
+          "date": "2026-03-08",
+          "count": 10
+        },
+        {
+          "date": "2026-03-09",
+          "count": 6
+        },
+        {
+          "date": "2026-03-10",
+          "count": 13
+        },
+        {
+          "date": "2026-03-11",
+          "count": 10
+        },
+        {
+          "date": "2026-03-12",
+          "count": 7
+        },
+        {
+          "date": "2026-03-13",
+          "count": 6
+        },
+        {
+          "date": "2026-03-14",
+          "count": 11
+        },
+        {
+          "date": "2026-03-15",
+          "count": 2
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 17304,
+          "installs": 259571
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 16415,
+          "installs": 262649
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 15548,
+          "installs": 264320
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 14684,
+          "installs": 264320
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 13274,
+          "installs": 265480
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 14684,
+      "dpd_change_pct": -10,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.sohi.tileland.gp",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Tile Land: Triple Match",
+      "icon": "https://play-lh.googleusercontent.com/rwFJwCl6R1GN-ydrDeAiS5a8xFOBHJ26FQ5LIxKPpchyR2v0Pl-HEWGTzxNxfbuIrMI2il5Pj-hL8mXXEPT0KQ",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/skY4MRhvX7T7Nsg7Gntxn3F1YqnhHizLggcjFlkRlqVPK3Ib0PYkP0GEYdktZaJIcXM=w300",
+        "https://play-lh.googleusercontent.com/IWOvL3Oa3raNtOOeXKEzx5GT1ju6Md8VuRIMzIDjE9FQo-kQz3Ya8UAWN-S0Nis87yl-=w300",
+        "https://play-lh.googleusercontent.com/QNSmaRr1wX1MoWA0ApnS34ArvWC5ugtBjtkr2lNpSqGnv_fw2_TetzHd7i5jpxsLpSlL=w300",
+        "https://play-lh.googleusercontent.com/jHSDwZ5pys2C87vTN3zhFlKLaSiENaPb9IvfiU4-xU2mX6Zr4WewvI7bQR9XnRkbTRJh=w300"
+      ],
+      "genre": "Casual",
+      "developer": "SOHI GAMES",
+      "downloads": "100,000+",
+      "realInstalls": 255398,
+      "realInstallsStr": "255K",
+      "perDay": 9121,
+      "days": 28,
+      "score": 3.8,
+      "ratings": 118,
+      "ratingsStr": "118",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Feb 16, 2026",
+      "lastUpdated": "Mar 11, 2026",
+      "summary": "Relax, match tiles, and collect scenes in Tile Land — a cozy triple match!",
+      "url": "https://play.google.com/store/apps/details?id=com.sohi.tileland.gp",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-19",
+          "count": 1
+        },
+        {
+          "date": "2026-02-27",
+          "count": 2
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1
+        },
+        {
+          "date": "2026-03-10",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 10579,
+          "installs": 243322
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 10330,
+          "installs": 247922
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 9916,
+          "installs": 247922
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 9722,
+          "installs": 252779
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 9121,
+          "installs": 255398
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 9722,
+      "dpd_change_pct": -6,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.sofish.tilemahjong.gp",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Tile Mahjong Classic",
+      "icon": "https://play-lh.googleusercontent.com/smIlH0nPeaUyb1RV1HCtB5gQ3Una86hwlZlwrCkUKmkYzEAINwR-DnnD-fkKauStohxqGjFn9se19x_6CWqgvg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/zVj1_myQUdYUg535eYA7MpOaTXgZW4fEzhl3K5SUw5CVWkhVPVvToG616gFgtBtW62eTNbJ84iRwTAtbPB4Kjg=w300",
+        "https://play-lh.googleusercontent.com/4JMLZp_Y-H9aKF6yg87de5xOjNg6FmuzGdStzH5EoY8HgVAY0o0vEHbica8xr5p6ITi4UdAYVWCWXuNKKTHyIw=w300",
+        "https://play-lh.googleusercontent.com/bUJA1JNVhlYJFBd93GHW-yu1kPreey1CaFOiuTzEOIe9NaV81OqPWddMf9qrt1oYcEfc6Nm6nr7lYpnh1vDM=w300",
+        "https://play-lh.googleusercontent.com/GzIOyjIkzkpasAR6YtBFh6_sELPuBWq882m-SYJzp85Dxfzr50jla79NvI5VvJ3uwqEShwVEEtB1l-C68nR3lNQ=w300"
+      ],
+      "genre": "Casual",
+      "developer": "SOFISH GAMES",
+      "downloads": "100,000+",
+      "realInstalls": 242343,
+      "realInstallsStr": "242K",
+      "perDay": 8655,
+      "days": 28,
+      "score": 4.9,
+      "ratings": 386,
+      "ratingsStr": "386",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Feb 16, 2026",
+      "lastUpdated": "Mar 16, 2026",
+      "summary": "Relaxing Mahjong puzzle game for adults & seniors. Play offline!",
+      "url": "https://play.google.com/store/apps/details?id=com.sofish.tilemahjong.gp",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-17",
+          "count": 1
+        },
+        {
+          "date": "2026-02-21",
+          "count": 1
+        },
+        {
+          "date": "2026-02-22",
+          "count": 1
+        },
+        {
+          "date": "2026-02-24",
+          "count": 1
+        },
+        {
+          "date": "2026-02-26",
+          "count": 1
+        },
+        {
+          "date": "2026-02-28",
+          "count": 1
+        },
+        {
+          "date": "2026-03-01",
+          "count": 3
+        },
+        {
+          "date": "2026-03-02",
+          "count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "count": 2
+        },
+        {
+          "date": "2026-03-04",
+          "count": 2
+        },
+        {
+          "date": "2026-03-05",
+          "count": 2
+        },
+        {
+          "date": "2026-03-06",
+          "count": 3
+        },
+        {
+          "date": "2026-03-07",
+          "count": 4
+        },
+        {
+          "date": "2026-03-08",
+          "count": 1
+        },
+        {
+          "date": "2026-03-09",
+          "count": 2
+        },
+        {
+          "date": "2026-03-10",
+          "count": 1
+        },
+        {
+          "date": "2026-03-11",
+          "count": 2
+        },
+        {
+          "date": "2026-03-12",
+          "count": 4
+        },
+        {
+          "date": "2026-03-13",
+          "count": 3
+        },
+        {
+          "date": "2026-03-14",
+          "count": 5
+        },
+        {
+          "date": "2026-03-15",
+          "count": 3
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 9699,
+          "installs": 223086
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 9820,
+          "installs": 235702
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 9428,
+          "installs": 235702
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 9220,
+          "installs": 239728
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 8655,
+          "installs": 242343
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 9220,
+      "dpd_change_pct": -6,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.kakaogames.smgame",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "SMiniz: K-POP Puzzle Game",
+      "icon": "https://play-lh.googleusercontent.com/afr2I3qbgMnkmjjgAnucrKaGpFisPwk9Sux9FIe4HxDIe1BTIOMOHrm2RvkEHapxhUhzD06Nt_Tbz6TeOQMnMg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/IGrpEKHmqK5MQ9NGnNIEeViRMo7xwUtxUieT7oshqbu7gaodKL9xqRCMHjm_k-iIj7Kdqo20M2L7MrCdQiNPDw=w300",
+        "https://play-lh.googleusercontent.com/d6evFvm52lsOP9kJTsPRq0TNwC_wnlIXH0BYjx2HzLIRe9n74l4AN3tPzfk5I_vQru8IBIP6zHa0vET9Ty8L3hw=w300",
+        "https://play-lh.googleusercontent.com/Ht_HW8aWMbapR-0kaJArEwg4HYxP1YlPQuDqWpPLs_lb5QdvoaspIsCMjuWBAlVNz-_NhTIYxdN82g9B47fVAQ=w300",
+        "https://play-lh.googleusercontent.com/rxZ15VWNZk2_n8-xZB9Xq8W7-cvgCnFonJsh0Peqgc1R993gIGh4BcJkp7ByQUHJtw5NxpQWo99HiAZOq39nG3M=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Kakao Games Corp.",
+      "downloads": "100,000+",
+      "realInstalls": 215907,
+      "realInstallsStr": "216K",
+      "perDay": 8636,
+      "days": 25,
+      "score": 4.5,
+      "ratings": 2286,
+      "ratingsStr": "2K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Feb 19, 2026",
+      "lastUpdated": "Mar 6, 2026",
+      "summary": "Join the world with SMiniz!",
+      "url": "https://play.google.com/store/apps/details?id=com.kakaogames.smgame",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-24",
+          "count": 2
+        },
+        {
+          "date": "2026-02-25",
+          "count": 4
+        },
+        {
+          "date": "2026-02-26",
+          "count": 12
+        },
+        {
+          "date": "2026-02-27",
+          "count": 7
+        },
+        {
+          "date": "2026-02-28",
+          "count": 7
+        },
+        {
+          "date": "2026-03-01",
+          "count": 10
+        },
+        {
+          "date": "2026-03-02",
+          "count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "count": 4
+        },
+        {
+          "date": "2026-03-05",
+          "count": 5
+        },
+        {
+          "date": "2026-03-06",
+          "count": 7
+        },
+        {
+          "date": "2026-03-07",
+          "count": 7
+        },
+        {
+          "date": "2026-03-08",
+          "count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "count": 11
+        },
+        {
+          "date": "2026-03-10",
+          "count": 5
+        },
+        {
+          "date": "2026-03-11",
+          "count": 18
+        },
+        {
+          "date": "2026-03-12",
+          "count": 5
+        },
+        {
+          "date": "2026-03-13",
+          "count": 2
+        },
+        {
+          "date": "2026-03-14",
+          "count": 4
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 9501,
+          "installs": 190027
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 9782,
+          "installs": 205422
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 9337,
+          "installs": 205422
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 9379,
+          "installs": 215728
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 8636,
+          "installs": 215907
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 9379,
+      "dpd_change_pct": -8,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.Deliciousgames.NGI",
+      "emoji": "⚡",
+      "tag": "50K+ УСТАНОВОК",
+      "name": "Ninja Gangsters: Idle Streets",
+      "icon": "https://play-lh.googleusercontent.com/E3a1WWvY5mdlCf3cv07MvHSotCeTJD9Bh1-1b2m8TxTCvrZ3nW3OmPXLTOxGTnBhDsepENedVLSXX1EcPSFdgA",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/J_G39o2AjHF6KkzIsWJNXHI_rXhUD7FivSiiXzS_utTxrLvVAK6pSjiBqHzonFzTmkXspCPe-1BVCTsuGcZhWME=w300",
+        "https://play-lh.googleusercontent.com/PoG1XtqBm_8eNtucwv_NL9_O2TUxpYme2H6CxpH8vRCgCynBKDNvcUL4DQFOrK5DtIIzYt7uWprfkquIMA0o4w=w300",
+        "https://play-lh.googleusercontent.com/GfnUCwCRnWMXOxDTVPtf1SH78uqwQeAwc5w8ja8dRKFG5NBxM57UMhjohH6LL38daq9Lu1bEiG-ESWP0dFylSw=w300",
+        "https://play-lh.googleusercontent.com/V82a7GMDHx4qF5oEw6meF5Rl_JQfUz2bj3G03nRkcDqQPtdFebIjK7rJI-WIKnn4bi5ilNahuo7Xv4_HU7KV8S4=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "DeliciousGames Inc.",
+      "downloads": "50,000+",
+      "realInstalls": 83707,
+      "realInstallsStr": "84K",
+      "perDay": 7609,
+      "days": 11,
+      "score": 2.1,
+      "ratings": 131,
+      "ratingsStr": "131",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 5, 2026",
+      "lastUpdated": "Mar 9, 2026",
+      "summary": "Grow like a storm even while idle! Cyberpunk Ninja Idle RPG!",
+      "url": "https://play.google.com/store/apps/details?id=com.Deliciousgames.NGI",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-05",
+          "count": 5
+        },
+        {
+          "date": "2026-03-06",
+          "count": 1
+        },
+        {
+          "date": "2026-03-08",
+          "count": 4
+        },
+        {
+          "date": "2026-03-10",
+          "count": 1
+        },
+        {
+          "date": "2026-03-11",
+          "count": 2
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-12",
+          "dpd": 11925,
+          "installs": 83481
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 10442,
+          "installs": 83540
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 9298,
+          "installs": 83686
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 7609,
+          "installs": 83707
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 9298,
+      "dpd_change_pct": -18,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.sofish.blockspark.gp",
+      "emoji": "📈",
+      "tag": "100K+",
+      "name": "Block Spark: Classic Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/oH4pWjEwWfS5n7bi-cgnFyPjGV4cVpD_uFnXlnU_rGndsphVS_sjDbG7rcm_ke34DB8nlg0e0eNkz2APENaPnA",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/6xIe8uzNwgNBjazVOX5zMjW1pqrJtKMqp-9oePa9PahtHeRBkl86yObe9Z0ANhRodHDS=w300",
+        "https://play-lh.googleusercontent.com/NgemlQkXicNNupitdyXEv4m8aBSY9_TD21WHvwE7pOHfFtFIhL2wdnCHqLFX6td78sM=w300",
+        "https://play-lh.googleusercontent.com/dAAFuVFQBcEhTQ5hcVlyYFenxsZb0tV4ouOeEbjAAJLtp7SQwD7KZHsw8tSsg4WKO4Q=w300",
+        "https://play-lh.googleusercontent.com/ZN6LMMPPfLbwuesdLGzvW5lkuZhvUXSvXhOgQZDKSAG8NczqPNajwTuBetRKvLLcaGI=w300"
+      ],
+      "genre": "Casual",
+      "developer": "SOFISH GAMES",
+      "downloads": "100,000+",
+      "realInstalls": 125694,
+      "realInstallsStr": "126K",
+      "perDay": 4655,
+      "days": 27,
+      "score": 4.9,
+      "ratings": 691,
+      "ratingsStr": "691",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Feb 17, 2026",
+      "lastUpdated": "Mar 13, 2026",
+      "summary": "Classic block puzzle! Easy to play, offline, and hard to put down!",
+      "url": "https://play.google.com/store/apps/details?id=com.sofish.blockspark.gp",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-20",
+          "count": 1
+        },
+        {
+          "date": "2026-02-22",
+          "count": 1
+        },
+        {
+          "date": "2026-02-23",
+          "count": 1
+        },
+        {
+          "date": "2026-02-24",
+          "count": 2
+        },
+        {
+          "date": "2026-02-28",
+          "count": 1
+        },
+        {
+          "date": "2026-03-03",
+          "count": 1
+        },
+        {
+          "date": "2026-03-05",
+          "count": 1
+        },
+        {
+          "date": "2026-03-07",
+          "count": 1
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1
+        },
+        {
+          "date": "2026-03-13",
+          "count": 1
+        },
+        {
+          "date": "2026-03-14",
+          "count": 1
+        },
+        {
+          "date": "2026-03-15",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 5308,
+          "installs": 116795
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 5078,
+          "installs": 116795
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 5161,
+          "installs": 123878
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 4955,
+          "installs": 123878
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 4655,
+          "installs": 125694
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 4955,
+      "dpd_change_pct": -6,
+      "isWatchlist": false
+    },
+    {
+      "id": "nuts.factory.sort.puzzle",
+      "emoji": "📈",
+      "tag": "50K+ УСТАНОВОК",
+      "name": "Nuts Factory: Sort Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/xM6nj0ViJL7-HCU7IL7FH_wXhEjfE9NBD6LQQyyBrinWlfTP4DsZZj35qWmNTbXbj7LmbvDqtk8AEBONm3EA",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/SsV2HqkZYEdMbu2A3Xk0-3CQO4STg1k56Dyoy9SC9090XjWqPLszPhZC__u7ZfSdt1gNGblTumKVxAGCh1KQtRg=w300",
+        "https://play-lh.googleusercontent.com/2U2Z06hAN8MpvyrtbKekUwoB4zvq4l0qL60PXIdBR-IL3xQZLoDfLWx8orP1IfqAZjAXn8tvbbP0ZecqnfJHnV4=w300",
+        "https://play-lh.googleusercontent.com/PXZbYQqMSSRsuzeqpGSIl602-nAsyEhS5FtRN-LThYh0KBSMaEKQxsCoHBTMAtXnJr3HmqbnhibU2JqpewQm=w300",
+        "https://play-lh.googleusercontent.com/PcCKmfUkz4b9ulNV77YCnb4CYuknSRRpcdh7kH4v1TEBy1BHvo19ZksBz1zyB9xE7OdEUK_NddWk0X42PDMmHw=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Playful Bytes",
+      "downloads": "50,000+",
+      "realInstalls": 67305,
+      "realInstallsStr": "67K",
+      "perDay": 3739,
+      "days": 18,
+      "score": 5,
+      "ratings": 18,
+      "ratingsStr": "18",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Feb 26, 2026",
+      "lastUpdated": "Mar 5, 2026",
+      "summary": "Nuts Factory: Sort It, Master It, Love It—A Journey of Sorting Satisfaction!",
+      "url": "https://play.google.com/store/apps/details?id=nuts.factory.sort.puzzle",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-27",
+          "count": 1
+        },
+        {
+          "date": "2026-03-03",
+          "count": 1
+        },
+        {
+          "date": "2026-03-10",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 5145,
+          "installs": 66892
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 4783,
+          "installs": 66966
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 4473,
+          "installs": 67108
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 4202,
+          "installs": 67244
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 3739,
+          "installs": 67305
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 4202,
+      "dpd_change_pct": -11,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.TeamSparta.SpaceMinions",
+      "emoji": "📈",
+      "tag": "НОВИНКА",
+      "name": "Space Minions: Defense",
+      "icon": "https://play-lh.googleusercontent.com/fSxoePMhMV9cP9UzAL5MIEUDFZf8Gc00233n3L8uWoz9TsD8Og9RTgEPxDe50fOUykxqEQO_2jLg718Tj-81",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/HIrTP7kULIYkGClbxUqHK4PoJhH01xpbVVsL_6VZbAeKiruFsfRMRQEkOPA1rblM3zlysC2gZW6zmrGFC8VX=w300",
+        "https://play-lh.googleusercontent.com/5ZyQdGVpilB5oAddyG4SuPfnQK_-uK4Zpu9l-SxSlwWs64ee8FfkYSTDncAKKPLXRMyPsp6g6nqPLiX8CBfOcg=w300",
+        "https://play-lh.googleusercontent.com/DY-I5YU-9yIP8bxREUKaYKg5T3YMqwrBx3m7henXjTgJH2VfWCgP3gpY5MVrXipZIo1UsdHaSujd8o2ZUM8Zaw=w300",
+        "https://play-lh.googleusercontent.com/3h72DUaGMWgL1cI-rHJsCJhjGeGVY7JF2CHR8gBXTxfItA_4S5ItVE_8GZCmxnQ00FLhngnjCJ2tSbNp4HWGKA=w300"
+      ],
+      "genre": "Strategy",
+      "developer": "RocketdanGames",
+      "downloads": "10,000+",
+      "realInstalls": 22220,
+      "realInstallsStr": "22K",
+      "perDay": 3174,
+      "days": 7,
+      "score": 3.6,
+      "ratings": 208,
+      "ratingsStr": "208",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 9, 2026",
+      "lastUpdated": "Mar 13, 2026",
+      "summary": "MINIONS, ASSEMBLE! Stop the swarm and defend the base!",
+      "url": "https://play.google.com/store/apps/details?id=com.TeamSparta.SpaceMinions",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-11",
+          "count": 11
+        },
+        {
+          "date": "2026-03-12",
+          "count": 4
+        },
+        {
+          "date": "2026-03-15",
+          "count": 2
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 453,
+          "installs": 906
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 5847,
+          "installs": 17542
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 5395,
+          "installs": 21580
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 4316,
+          "installs": 21580
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 3174,
+          "installs": 22220
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 4316,
+      "dpd_change_pct": -26,
+      "isWatchlist": false
+    },
+    {
+      "id": "super4.coloring.games.draw.princess.art.girls.paint.fantasy",
+      "emoji": "📈",
+      "tag": "НОВИНКА",
+      "name": "Coloring Game Drawing & Paint",
+      "icon": "https://play-lh.googleusercontent.com/h67qo23FSVitGb1vkrpQzqt1rreuqeg3osgmuxNYjbYf25NKpFZT2NJ1vh_Zo8EtoRacrYi2T04FkAicYOCyJ-4",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/eKyPDvoskDGLozylOFiaw2nZXeFdgVtrxROsjmM8Y_1fPJE4C6VQGO35dUWYTi5z6ajTwofhdkPBXYbXiV7HJt0=w300",
+        "https://play-lh.googleusercontent.com/PK-QBCfe7TGmmCY7V04W85-Y6asT5hdz7NEzoS5VGY2r4RMxUR_nH8z70QOPODN-Rsg1Z3tybLzpjGky-lld=w300",
+        "https://play-lh.googleusercontent.com/w7GF66YxjdaU5vViwZHOjReg4M-a6AH9AS5ZiwJlSKtBnLBFoZB-_w-YaNZeC5BbUreSvs_13w52B39CZ78GIWk=w300",
+        "https://play-lh.googleusercontent.com/9VrQyPOsyDghyVFdQaedZvz-P_tOkKLNRYeshbpowyFFVmlgxxupwXsKB3JDSJofMC5_RjYZOLrYQMCNYfTW-A=w300"
+      ],
+      "genre": "Educational",
+      "developer": "Super Four Games",
+      "downloads": "10,000+",
+      "realInstalls": 36495,
+      "realInstallsStr": "36K",
+      "perDay": 1520,
+      "days": 24,
+      "score": 2.7,
+      "ratings": 44,
+      "ratingsStr": "44",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Feb 20, 2026",
+      "lastUpdated": "Feb 25, 2026",
+      "summary": "150+ coloring pages A fun, stylized color by number & drawing game for all ages",
+      "url": "https://play.google.com/store/apps/details?id=super4.coloring.games.draw.princess.art.girls.paint.fantasy",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-20",
+          "count": 1
+        },
+        {
+          "date": "2026-02-21",
+          "count": 4
+        },
+        {
+          "date": "2026-02-22",
+          "count": 2
+        },
+        {
+          "date": "2026-02-24",
+          "count": 1
+        },
+        {
+          "date": "2026-02-25",
+          "count": 1
+        },
+        {
+          "date": "2026-03-02",
+          "count": 1
+        },
+        {
+          "date": "2026-03-06",
+          "count": 1
+        },
+        {
+          "date": "2026-03-11",
+          "count": 10
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-14",
+          "dpd": 1653,
+          "installs": 36377
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 1520,
+          "installs": 36495
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 1653,
+      "dpd_change_pct": -8,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.sofish.screwhome.gp",
+      "emoji": "📈",
+      "tag": "НОВИНКА",
+      "name": "Screw Home: Color Sort",
+      "icon": "https://play-lh.googleusercontent.com/LS5oHa3aTQ8k2KKNfgCNomFGrD7Kuzd2bZ39yhufOopkRtoR-Rl1dmSZF9ObQzavGYuECo1iN5WgRM9GUnUknXw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/TtP9vf30BMnhhNDRWLHHExJ4H8Kle_M-0F6Rrl14rjPRfIrgFyfWupyaVbUJlS3jW49AsLo_ajOwRrF3HkmG3Q=w300",
+        "https://play-lh.googleusercontent.com/c6SDHHNvkc1h-n0rGz_raTR7hWAdaclp_-ZB4Y5GJmYQBUoUWXCDBZXh3YV08qia3yYoV4dI8eyEGIHutvr0=w300",
+        "https://play-lh.googleusercontent.com/epWbIcwbTScZ7HwVHF623Tvnw9puipDmXptURrCULQs8nXqBMrmw5FEDQlIVjV6NmREsLyWHSkP4UywNOr1yeZU=w300",
+        "https://play-lh.googleusercontent.com/_pyDROvc7UPW8S4MH3uqRXdh4MwSTWagrunvlkb8y4kpuiYtIbeaA8x37veHeAGlUBJ8a7Xe2Day3pHUkaKzeg=w300"
+      ],
+      "genre": "Casual",
+      "developer": "SOFISH GAMES",
+      "downloads": "10,000+",
+      "realInstalls": 42379,
+      "realInstallsStr": "42K",
+      "perDay": 1513,
+      "days": 28,
+      "score": 4.8,
+      "ratings": 598,
+      "ratingsStr": "598",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Feb 16, 2026",
+      "lastUpdated": "Mar 12, 2026",
+      "summary": "Sort colorful screws, solve relaxing puzzles, and build your cozy home!",
+      "url": "https://play.google.com/store/apps/details?id=com.sofish.screwhome.gp",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-18",
+          "count": 1
+        },
+        {
+          "date": "2026-02-19",
+          "count": 2
+        },
+        {
+          "date": "2026-02-22",
+          "count": 1
+        },
+        {
+          "date": "2026-02-23",
+          "count": 1
+        },
+        {
+          "date": "2026-02-26",
+          "count": 1
+        },
+        {
+          "date": "2026-02-27",
+          "count": 1
+        },
+        {
+          "date": "2026-02-28",
+          "count": 2
+        },
+        {
+          "date": "2026-03-01",
+          "count": 1
+        },
+        {
+          "date": "2026-03-03",
+          "count": 2
+        },
+        {
+          "date": "2026-03-04",
+          "count": 1
+        },
+        {
+          "date": "2026-03-05",
+          "count": 1
+        },
+        {
+          "date": "2026-03-06",
+          "count": 2
+        },
+        {
+          "date": "2026-03-08",
+          "count": 1
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1
+        },
+        {
+          "date": "2026-03-10",
+          "count": 3
+        },
+        {
+          "date": "2026-03-11",
+          "count": 1
+        },
+        {
+          "date": "2026-03-13",
+          "count": 3
+        },
+        {
+          "date": "2026-03-14",
+          "count": 5
+        },
+        {
+          "date": "2026-03-15",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 1707,
+          "installs": 39267
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 1650,
+          "installs": 39610
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 1645,
+          "installs": 41128
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 1609,
+          "installs": 41852
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 1513,
+          "installs": 42379
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 1609,
+      "dpd_change_pct": -6,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.spider.solitaire.classic.card.game",
+      "emoji": "📈",
+      "tag": "НОВИНКА",
+      "name": "Classic Card: Spider Solitaire",
+      "icon": "https://play-lh.googleusercontent.com/AStGyDpSqcIhvU8HzJm-puiBZM_QrGtU0-2eLg3zSTe99cN1ul_q11BbN8pi8pCshQd-Fy7CEvovaPdMhIHD6oo",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/R54tfxg6ZVpXL6eVAbT7Q9ayeqtYymJ_m6Y1iy9HlTbHY6_IjZnp6ia1lr00zCtjhlI8jlDhvQDW1YBVp9s2dA=w300",
+        "https://play-lh.googleusercontent.com/5imFdwF_bFLJbwHKrvXV2s7JgiSffEo3bw7r5gUGhCc71B6nmmWBAtXOdqp23Idi6bU0JT4i7SLVrFjzHTwZfw=w300",
+        "https://play-lh.googleusercontent.com/l--_i7YrHkckQ-_x5X3McXlnX0qZYwV4QZUzmf1lPez_rbOuSjVjexkoee75pzKkjxdIaZHu7rglyo6LEKf3=w300",
+        "https://play-lh.googleusercontent.com/eYvQes0XXIt7h0dpr-271oe0cjg-6l3gYoNyB-Y-K9o89LJesvdUiNA-5VQFvh8oTra7O1LcrRKm9PBvPTpYVQ=w300"
+      ],
+      "genre": "Card",
+      "developer": "ZenEcho Studio",
+      "downloads": "5,000+",
+      "realInstalls": 8584,
+      "realInstallsStr": "9K",
+      "perDay": 1073,
+      "days": 8,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Mar 8, 2026",
+      "lastUpdated": "Mar 9, 2026",
+      "summary": "Classic Card: Spider Solitaire, perfect game for relaxation and brain training!",
+      "url": "https://play.google.com/store/apps/details?id=com.spider.solitaire.classic.card.game",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-11",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-14",
+          "dpd": 1369,
+          "installs": 8219
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 1073,
+          "installs": 8584
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 1369,
+      "dpd_change_pct": -22,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.rvappstudios.find.differences.spot.difference.puzzle.game",
+      "emoji": "📈",
+      "tag": "НОВИНКА",
+      "name": "Spot the Differences - Find It",
+      "icon": "https://play-lh.googleusercontent.com/Xw-Vy1Jn9XA2fF2YxhjR0qX9aJEbf_zLHpq-Wqb7KCZe9lC2rbI92JeLI1bKkL2Ngz4aB5h-oHiu5PBoRT-TUAo",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/76pG-sZoosmIP0Sf2HXtb5rbjoOwTiBJ3wAPkrtf4YFO1UptkpErOzDPUFw0K8LKrZKMPsy5ckR_BkGJResG3O0=w300",
+        "https://play-lh.googleusercontent.com/se71u1z21dXEedkJdbag4l5c2uyK1KiXP0LhIPijeTil-lD7pkI13fXLn5tDFgsuAlHTjb9UuKUd_El9vXvL3Hw=w300",
+        "https://play-lh.googleusercontent.com/UFRCg_-Bj76RpuDfincHh4qToIz3pW_Vj0lJUFBKw8J43YFOck7O8zJPaKxRjfKrUZXH4CCemjBmiq7cK7wr0A=w300",
+        "https://play-lh.googleusercontent.com/i0ALPBLweNBeJedmJDifGmi4eQ_uCJUUjgfiCtDezFvVuOupMsMnpM-qujOKolLCdSv36SRtfWtCsTPzt3rsVh0=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "RV AppStudios",
+      "downloads": "10,000+",
+      "realInstalls": 10002,
+      "realInstallsStr": "10K",
+      "perDay": 769,
+      "days": 13,
+      "score": 4,
+      "ratings": 9,
+      "ratingsStr": "9",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 3, 2026",
+      "lastUpdated": "Mar 11, 2026",
+      "summary": "Spot the differences from pictures! Fun find the difference puzzle game for all",
+      "url": "https://play.google.com/store/apps/details?id=com.rvappstudios.find.differences.spot.difference.puzzle.game",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-06",
+          "count": 1
+        },
+        {
+          "date": "2026-03-11",
+          "count": 1
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-14",
+          "dpd": 909,
+          "installs": 10002
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 769,
+          "installs": 10002
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 909,
+      "dpd_change_pct": -15,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.devolverdigital.ReignsWitcher",
+      "emoji": "📈",
+      "tag": "НОВИНКА",
+      "name": "Reigns: The Witcher",
+      "icon": "https://play-lh.googleusercontent.com/shZ3aWi4idUoipcvPMduDGs_Lkzd3qwr8q6l4cM50NBPHt1eZKsOkoLtXILk402zs4QaEmhEyoCsZs69HeMsYg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/vdhwzVowQMCsdy8RV8uQhitEghKGgTi_k0sU7lVU7iVpPAbgT7I9i0wi62ZIlu1P1toc9cbOvcRvYVSBJGffnH4=w300",
+        "https://play-lh.googleusercontent.com/110j58Ey0-YTCzuYFHvRAUMpUBa3IKBD3r-7wE1wNItO0T7AS0UCjVT3w-8etNX_mxBbBFoPZ4w154qIza4U=w300",
+        "https://play-lh.googleusercontent.com/zm4kjlKJAchS-g9D7K9j91zBek6pde2uD89a_VvU4sP1d89r3E1afah3X2zkVD7XjZoTdAbSar2IDCih2siddxs=w300",
+        "https://play-lh.googleusercontent.com/VK6bq-omEt324AghSCTU-nRakay74Qs1_YOvl7mqAQJwvW64bYqGA-tFe7_XyeOfZp5wijK9zwgWG_eUmSklfxI=w300"
+      ],
+      "genre": "Card",
+      "developer": "DevolverDigital",
+      "downloads": "5,000+",
+      "realInstalls": 9502,
+      "realInstallsStr": "10K",
+      "perDay": 500,
+      "days": 19,
+      "score": 4.7,
+      "ratings": 713,
+      "ratingsStr": "713",
+      "contentRating": "Teen",
+      "offersIAP": false,
+      "releaseDate": "Feb 25, 2026",
+      "lastUpdated": "",
+      "summary": "Adventure as Geralt through the ballads of Dandelion in Reigns: The Witcher!",
+      "url": "https://play.google.com/store/apps/details?id=com.devolverdigital.ReignsWitcher",
+      "reviewsByDay": [
+        {
+          "date": "2026-02-25",
+          "count": 8
+        },
+        {
+          "date": "2026-02-26",
+          "count": 7
+        },
+        {
+          "date": "2026-02-27",
+          "count": 4
+        },
+        {
+          "date": "2026-02-28",
+          "count": 4
+        },
+        {
+          "date": "2026-03-01",
+          "count": 3
+        },
+        {
+          "date": "2026-03-02",
+          "count": 2
+        },
+        {
+          "date": "2026-03-03",
+          "count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "count": 5
+        },
+        {
+          "date": "2026-03-06",
+          "count": 2
+        },
+        {
+          "date": "2026-03-07",
+          "count": 2
+        },
+        {
+          "date": "2026-03-08",
+          "count": 1
+        },
+        {
+          "date": "2026-03-10",
+          "count": 1
+        },
+        {
+          "date": "2026-03-11",
+          "count": 2
+        },
+        {
+          "date": "2026-03-14",
+          "count": 2
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 633,
+          "installs": 8873
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 612,
+          "installs": 9184
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 579,
+          "installs": 9279
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 554,
+          "installs": 9427
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 500,
+          "installs": 9502
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 554,
+      "dpd_change_pct": -10,
       "isWatchlist": false
     }
   ],
   "watchlist": [
+    {
+      "id": "com.runawayplay.dragons",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Hatch Dragons",
+      "icon": "https://play-lh.googleusercontent.com/tWSpMMixH1mx7Yv5DnEZdRaiHK68V6tZGYpr7WvgiluvGmuuRY_RefxseSKMcg5oV4YBUAtJZONrExg1qFkn",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/-igf16Yp7I5zFRUCyPa32POZwlQeH9JFR67_o1Zb-0r3hGFhxvMGt_4atiP7vqOueMk=w300",
+        "https://play-lh.googleusercontent.com/tF2MXle2EiM8nRtOInXNK4QTF-q47CEEVfD04TaWdEE7z-_GDHUj17GRCs_aDjvGnr4=w300",
+        "https://play-lh.googleusercontent.com/6L5rAcmItK9lz2KK822D9znevPF80oXvRY5XjAfUy5otskpzee49pgQrTFsSREXys5r6=w300",
+        "https://play-lh.googleusercontent.com/wl1RxSp4eHrWctbCJL6G4MSJfjSoZQbHVVYTW8q0Fk_f3zcHkPPmV7P320mAp25KXg=w300"
+      ],
+      "genre": "Simulation",
+      "developer": "Runaway Play",
+      "downloads": "500,000+",
+      "realInstalls": 737549,
+      "realInstallsStr": "738K",
+      "perDay": 61462,
+      "days": 12,
+      "score": 4.7,
+      "ratings": 19786,
+      "ratingsStr": "19K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 4, 2026",
+      "lastUpdated": "Mar 13, 2026",
+      "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
+      "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
+      "reviewsByDay": [
+        {
+          "date": "2026-03-04",
+          "count": 413
+        },
+        {
+          "date": "2026-03-05",
+          "count": 408
+        },
+        {
+          "date": "2026-03-06",
+          "count": 240
+        },
+        {
+          "date": "2026-03-07",
+          "count": 223
+        },
+        {
+          "date": "2026-03-08",
+          "count": 197
+        },
+        {
+          "date": "2026-03-09",
+          "count": 171
+        },
+        {
+          "date": "2026-03-10",
+          "count": 160
+        },
+        {
+          "date": "2026-03-11",
+          "count": 154
+        },
+        {
+          "date": "2026-03-12",
+          "count": 132
+        },
+        {
+          "date": "2026-03-13",
+          "count": 156
+        },
+        {
+          "date": "2026-03-14",
+          "count": 125
+        },
+        {
+          "date": "2026-03-15",
+          "count": 65
+        }
+      ],
+      "dpdHistory": [
+        {
+          "date": "2026-03-11",
+          "dpd": 82946,
+          "installs": 580627
+        },
+        {
+          "date": "2026-03-12",
+          "dpd": 79029,
+          "installs": 632238
+        },
+        {
+          "date": "2026-03-13",
+          "dpd": 77188,
+          "installs": 694692
+        },
+        {
+          "date": "2026-03-14",
+          "dpd": 73754,
+          "installs": 737549
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 61462,
+          "installs": 737549
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 73754,
+      "dpd_change_pct": -17,
+      "isWatchlist": true
+    },
     {
       "id": "com.extreme.games.production.onehitpunch.games",
       "emoji": "🚀",
@@ -860,8 +2580,8 @@
       "downloads": "500,000+",
       "realInstalls": 538419,
       "realInstallsStr": "538K",
-      "perDay": 76917,
-      "days": 7,
+      "perDay": 59824,
+      "days": 9,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -892,132 +2612,40 @@
           "date": "2026-03-14",
           "dpd": 76898,
           "installs": 538292
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 59824,
+          "installs": 538419
         }
       ],
       "trend": "falling",
-      "dpd_prev": 89266,
-      "dpd_change_pct": -14,
-      "isWatchlist": true
-    },
-    {
-      "id": "com.runawayplay.dragons",
-      "emoji": "🚀",
-      "tag": "500K+",
-      "name": "Hatch Dragons",
-      "icon": "https://play-lh.googleusercontent.com/tWSpMMixH1mx7Yv5DnEZdRaiHK68V6tZGYpr7WvgiluvGmuuRY_RefxseSKMcg5oV4YBUAtJZONrExg1qFkn",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/-igf16Yp7I5zFRUCyPa32POZwlQeH9JFR67_o1Zb-0r3hGFhxvMGt_4atiP7vqOueMk=w300",
-        "https://play-lh.googleusercontent.com/tF2MXle2EiM8nRtOInXNK4QTF-q47CEEVfD04TaWdEE7z-_GDHUj17GRCs_aDjvGnr4=w300",
-        "https://play-lh.googleusercontent.com/6L5rAcmItK9lz2KK822D9znevPF80oXvRY5XjAfUy5otskpzee49pgQrTFsSREXys5r6=w300",
-        "https://play-lh.googleusercontent.com/wl1RxSp4eHrWctbCJL6G4MSJfjSoZQbHVVYTW8q0Fk_f3zcHkPPmV7P320mAp25KXg=w300"
-      ],
-      "genre": "Simulation",
-      "developer": "Runaway Play",
-      "downloads": "500,000+",
-      "realInstalls": 737549,
-      "realInstallsStr": "738K",
-      "perDay": 73754,
-      "days": 10,
-      "score": 4.8,
-      "ratings": 17397,
-      "ratingsStr": "17K",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Mar 4, 2026",
-      "lastUpdated": "Mar 13, 2026",
-      "summary": "Dragons like never before! Collect and care for hundreds of unique dragons.",
-      "url": "https://play.google.com/store/apps/details?id=com.runawayplay.dragons",
-      "reviewsByDay": [
-        {
-          "date": "2026-03-04",
-          "count": 413
-        },
-        {
-          "date": "2026-03-05",
-          "count": 410
-        },
-        {
-          "date": "2026-03-06",
-          "count": 240
-        },
-        {
-          "date": "2026-03-07",
-          "count": 224
-        },
-        {
-          "date": "2026-03-08",
-          "count": 198
-        },
-        {
-          "date": "2026-03-09",
-          "count": 172
-        },
-        {
-          "date": "2026-03-10",
-          "count": 161
-        },
-        {
-          "date": "2026-03-11",
-          "count": 155
-        },
-        {
-          "date": "2026-03-12",
-          "count": 134
-        },
-        {
-          "date": "2026-03-13",
-          "count": 39
-        }
-      ],
-      "dpdHistory": [
-        {
-          "date": "2026-03-11",
-          "dpd": 82946,
-          "installs": 580627
-        },
-        {
-          "date": "2026-03-12",
-          "dpd": 79029,
-          "installs": 632238
-        },
-        {
-          "date": "2026-03-13",
-          "dpd": 77188,
-          "installs": 694692
-        },
-        {
-          "date": "2026-03-14",
-          "dpd": 73754,
-          "installs": 737549
-        }
-      ],
-      "trend": "stable",
-      "dpd_prev": 77188,
-      "dpd_change_pct": -4,
+      "dpd_prev": 76898,
+      "dpd_change_pct": -22,
       "isWatchlist": true
     },
     {
       "id": "com.SpaghettiHouse.EscapeFromBlogger",
-      "emoji": "🚀",
+      "emoji": "⚡",
       "tag": "50K+ УСТАНОВОК",
       "name": "Escape from Vlogger: Runaway",
       "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
       "screenshots": [
-        "https://play-lh.googleusercontent.com/pQMuCHpS4CZ8CfFbgShrrIOycuY2im3AfQ5fgYi2M2O5AHjG5OzkChibg-lMR9D4sqFeNGUA-5bouU1fbklYjBA=w300",
-        "https://play-lh.googleusercontent.com/w4WI2vYTaHaIRZ-ToW3H16W4LM4tC0RNfnFZU5yroAOuVFobuYlmiQjMMEECsAIHN-50478jrG9bTJX8W0QRvr4=w300",
-        "https://play-lh.googleusercontent.com/0-uSbqpYVnEuKttKJr0reLaHo90CkFvGKvksOkI4x51sk_--C_Dmow2Ljj8N3Mv-fp1LP6oQiEm41cZE4uLB2w=w300",
-        "https://play-lh.googleusercontent.com/B6YPcTo1BmS3la_-uULKHGTUQeSVddXEiNiYkfyqtnIbqwCgfuJaXY7ZJeo8N0fSjrTJUoz_LIQ3oIENfuusbQ=w300"
+        "https://play-lh.googleusercontent.com/zkdibByLQ9Pw5AEJs8LjKxhSu2Jv-AoUnTtmyaRZV_meoF3zggsmfd5dU4TmOKVLgog=w300",
+        "https://play-lh.googleusercontent.com/Rbyc_A2hZQ-n7TwDH78lIckW70FBwRecarX4Wz3t-F9AjWfRm5zMw22YxXAOZE_R6w=w300",
+        "https://play-lh.googleusercontent.com/Br75T_hWKhiOhkupNvQ7uSk0AUqtWwAt50hsenGpPuwqMukVwIJxBExcKs9aANF1UTY=w300",
+        "https://play-lh.googleusercontent.com/lQkTqnM1RFQpaysU_z28-dIScsXjOiMDKMVsZaC1DqkEcsfDU594uHbPvtP5GEkNp3w=w300"
       ],
       "genre": "Action",
       "developer": "Spaghetti House",
       "downloads": "50,000+",
       "realInstalls": 91802,
       "realInstallsStr": "92K",
-      "perDay": 22950,
-      "days": 4,
+      "perDay": 15300,
+      "days": 6,
       "score": 4.9,
-      "ratings": 2914,
-      "ratingsStr": "2K",
+      "ratings": 4534,
+      "ratingsStr": "4K",
       "contentRating": "Teen",
       "offersIAP": false,
       "releaseDate": "Mar 10, 2026",
@@ -1032,6 +2660,14 @@
         {
           "date": "2026-03-12",
           "count": 5
+        },
+        {
+          "date": "2026-03-13",
+          "count": 1
+        },
+        {
+          "date": "2026-03-14",
+          "count": 2
         }
       ],
       "dpdHistory": [
@@ -1049,11 +2685,16 @@
           "date": "2026-03-14",
           "dpd": 15939,
           "installs": 63756
+        },
+        {
+          "date": "2026-03-16",
+          "dpd": 15300,
+          "installs": 91802
         }
       ],
       "trend": "stable",
-      "dpd_prev": 21252,
-      "dpd_change_pct": 8,
+      "dpd_prev": 15939,
+      "dpd_change_pct": -4,
       "isWatchlist": true
     }
   ]
