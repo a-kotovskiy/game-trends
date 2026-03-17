@@ -28,20 +28,21 @@ jobs:
       - name: Run parser
         id: parser
         run: |
-          cd scripts && python update_data.py
-          # Проверяем что парсер вернул данные
+          cd scripts && python update_data.py 2>&1
+          # Проверяем результат
           python3 - <<'PYEOF'
           import json, sys
           try:
               with open("../rockets.json") as f:
                   d = json.load(f)
               rockets = d.get("rockets", d) if isinstance(d, dict) else d
-              if len(rockets) == 0:
-                  print("❌ Парсер вернул 0 ракет — не публикуем")
+              count = len(rockets)
+              print(f"✅ Парсер нашёл {count} ракет")
+              if count == 0:
+                  print("❌ Ноль ракет — не публикуем")
                   sys.exit(1)
-              print(f"✅ Парсер нашёл {len(rockets)} ракет")
           except Exception as e:
-              print(f"❌ Ошибка чтения данных: {e}")
+              print(f"❌ Ошибка: {e}")
               sys.exit(1)
           PYEOF
         env:
@@ -51,7 +52,7 @@ jobs:
         if: always()
         run: |
           python3 - <<'PYEOF'
-          import json, os
+          import json
           from datetime import datetime, timezone
           rockets_count = 0
           try:
@@ -72,7 +73,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add rockets.json hype.json videos.json news.json ideas.json meta.json status.json all_rockets_history.json
-          git diff --cached --quiet || git commit -m "data: обновление $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet && echo "Нет изменений" && exit 0
+          git commit -m "data: обновление $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
