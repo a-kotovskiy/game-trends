@@ -1509,82 +1509,105 @@
 
   // REFRESH
   const WORKER_URL = "https://game-trends-trigger.kotteykkausa.workers.dev";
+  let _refreshTimers = null;
 
-  async function startRefresh() {
+  function clearRefreshTimers() {
+    if (_refreshTimers) {
+      clearInterval(_refreshTimers.timer);
+      clearInterval(_refreshTimers.poll);
+      clearTimeout(_refreshTimers.timeout);
+      _refreshTimers = null;
+    }
+  }
+
+  function setRefreshUI(iconText, labelText, disabled) {
     const btn = document.getElementById('refresh-btn');
     const icon = document.getElementById('refresh-icon');
     const label = document.getElementById('refresh-label');
-    btn.disabled = true;
-    icon.textContent = '⏳';
-    label.textContent = 'Запускаю парсер...';
+    if (btn) btn.disabled = disabled;
+    if (icon) icon.textContent = iconText;
+    if (label) label.textContent = labelText;
+  }
 
-    // Запоминаем время старта для таймера
-    const startTime = Date.now();
+  function startPolling(startTime) {
+    clearRefreshTimers();
+    setRefreshUI('⏳', 'Парсер работает...', true);
+
+    const timer = setInterval(() => {
+      const elapsed = Math.floor((Date.now() - startTime) / 1000);
+      const min = Math.floor(elapsed / 60);
+      const sec = elapsed % 60;
+      setRefreshUI('⏳', `Парсер работает ${min}:${sec.toString().padStart(2,'0')}`, true);
+    }, 1000);
+
+    const poll = setInterval(async () => {
+      try {
+        const s = await fetch(WORKER_URL + '/status').then(r => r.json());
+        if (s.state === 'idle' && s.last_run) {
+          const secAgo = (Date.now() - new Date(s.last_run).getTime()) / 1000;
+          if (secAgo < 300) {
+            clearRefreshTimers();
+            if (s.error) {
+              setRefreshUI('⚠️', 'Ошибка парсера', false);
+              setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 5000);
+            } else {
+              await loadData();
+              setRefreshUI('✅', 'Данные обновлены!', false);
+              setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 4000);
+            }
+          }
+        }
+      } catch(e) {}
+    }, 5000);
+
+    const timeout = setTimeout(() => {
+      clearRefreshTimers();
+      setRefreshUI('⚠️', 'Таймаут — обнови страницу', false);
+      setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 5000);
+    }, 600000);
+
+    _refreshTimers = { timer, poll, timeout };
+  }
+
+  async function startRefresh() {
+    setRefreshUI('⏳', 'Отправляю запрос...', true);
 
     try {
-      // Запускаем GitHub Actions через Worker
       const res = await fetch(WORKER_URL + '/trigger', { method: 'POST' });
       const body = await res.json().catch(() => ({}));
 
       if (!res.ok) {
-        // Rate limit или другая ошибка
-        if (body.wait_minutes) {
-          throw new Error(`Подожди ${body.wait_minutes} мин`);
-        }
-        if (body.running) {
-          throw new Error('Парсер уже работает');
+        if (body.state === 'pending' || body.state === 'running') {
+          startPolling(Date.now());
+          return;
         }
         throw new Error(body.error || 'Ошибка запуска');
       }
 
-      // Показываем таймер
-      const timerInterval = setInterval(() => {
-        const elapsed = Math.floor((Date.now() - startTime) / 1000);
-        const min = Math.floor(elapsed / 60);
-        const sec = elapsed % 60;
-        label.textContent = `Парсер работает ${min}:${sec.toString().padStart(2,'0')} (~2 мин)`;
-      }, 1000);
-
-      // Поллим статус каждые 20 сек
-      const pollInterval = setInterval(async () => {
-        try {
-          const s = await fetch(WORKER_URL + '/status').then(r => r.json());
-          const lastRun = s.last_run ? new Date(s.last_run) : null;
-          const secAgo = lastRun ? Math.floor((Date.now() - lastRun.getTime()) / 1000) : 999;
-
-          if (!s.running && secAgo < 120) {
-            clearInterval(pollInterval);
-            clearInterval(timerInterval);
-            await loadData();
-            icon.textContent = '✅';
-            label.textContent = 'Данные обновлены!';
-            setTimeout(() => { btn.disabled = false; icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 4000);
-          }
-        } catch(e) {}
-      }, 20000);
-
-      // Максимум 15 минут ждём
-      setTimeout(() => {
-        clearInterval(pollInterval);
-        clearInterval(timerInterval);
-        if (btn.disabled) {
-          btn.disabled = false;
-          icon.textContent = '⚠️';
-          label.textContent = 'Таймаут - обнови страницу';
-          setTimeout(() => { icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 5000);
-        }
-      }, 900000);
+      startPolling(Date.now());
 
     } catch(e) {
-      btn.disabled = false;
-      icon.textContent = '⚠️';
-      label.textContent = e.message || 'Ошибка';
-      setTimeout(() => { icon.textContent = '↻'; label.textContent = 'Обновить данные'; }, 4000);
+      setRefreshUI('⚠️', e.message || 'Ошибка', false);
+      setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 4000);
     }
   }
 
+  // On page load: check if update is in progress
+  async function checkUpdateStatus() {
+    try {
+      const s = await fetch(WORKER_URL + '/status').then(r => r.json());
+      if (s.state === 'pending' || s.state === 'running') {
+        const triggered = s.triggered_at ? new Date(s.triggered_at).getTime() : Date.now();
+        startPolling(triggered);
+      }
+    } catch(e) {}
+  }
+
   // INIT
-  document.addEventListener('DOMContentLoaded', loadData);
+  document.addEventListener('DOMContentLoaded', () => {
+    loadData();
+    checkUpdateStatus();
+  });
 </script>
 
 </body>
