@@ -20,8 +20,8 @@
       "perDay": 677831,
       "days": 19,
       "score": 4.8,
-      "ratings": 208874,
-      "ratingsStr": "208K",
+      "ratings": 209294,
+      "ratingsStr": "209K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Feb 25, 2026",
@@ -31,7 +31,7 @@
       "reviewsByDay": [
         {
           "date": "2026-03-06",
-          "count": 617
+          "count": 586
         },
         {
           "date": "2026-03-07",
@@ -51,7 +51,7 @@
         },
         {
           "date": "2026-03-11",
-          "count": 323
+          "count": 322
         },
         {
           "date": "2026-03-12",
@@ -63,11 +63,11 @@
         },
         {
           "date": "2026-03-14",
-          "count": 346
+          "count": 344
         },
         {
           "date": "2026-03-15",
-          "count": 191
+          "count": 225
         }
       ],
       "dpdHistory": [
@@ -122,7 +122,7 @@
       "perDay": 524307,
       "days": 21,
       "score": 4.5,
-      "ratings": 97154,
+      "ratings": 97292,
       "ratingsStr": "97K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -133,7 +133,7 @@
       "reviewsByDay": [
         {
           "date": "2026-02-28",
-          "count": 114
+          "count": 100
         },
         {
           "date": "2026-03-01",
@@ -169,7 +169,7 @@
         },
         {
           "date": "2026-03-09",
-          "count": 205
+          "count": 204
         },
         {
           "date": "2026-03-10",
@@ -177,7 +177,7 @@
         },
         {
           "date": "2026-03-11",
-          "count": 160
+          "count": 158
         },
         {
           "date": "2026-03-12",
@@ -193,7 +193,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 111
+          "count": 128
         }
       ],
       "dpdHistory": [
@@ -248,7 +248,7 @@
       "perDay": 257015,
       "days": 16,
       "score": 4.7,
-      "ratings": 44130,
+      "ratings": 44714,
       "ratingsStr": "44K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -311,7 +311,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 43
+          "count": 52
         }
       ],
       "dpdHistory": [
@@ -366,12 +366,12 @@
       "perDay": 195388,
       "days": 5,
       "score": 4.6,
-      "ratings": 556,
-      "ratingsStr": "556",
+      "ratings": 582,
+      "ratingsStr": "582",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 11, 2026",
-      "lastUpdated": "Mar 10, 2026",
+      "lastUpdated": "Mar 16, 2026",
       "summary": "Merge & solve cruise ship mystery! Renovate, puzzle, uncover thrilling secrets!",
       "url": "https://play.google.com/store/apps/details?id=com.peerplay.megamerge",
       "reviewsByDay": [
@@ -393,7 +393,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 2
+          "count": 4
         }
       ],
       "dpdHistory": [
@@ -503,9 +503,9 @@
       "realInstallsStr": "1.0M",
       "perDay": 103098,
       "days": 10,
-      "score": 4.8,
-      "ratings": 163,
-      "ratingsStr": "163",
+      "score": 4.5,
+      "ratings": 166,
+      "ratingsStr": "166",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 6, 2026",
@@ -597,7 +597,7 @@
       "perDay": 75246,
       "days": 26,
       "score": 4.2,
-      "ratings": 21103,
+      "ratings": 21120,
       "ratingsStr": "21K",
       "contentRating": "Mature 17+",
       "offersIAP": true,
@@ -608,7 +608,7 @@
       "reviewsByDay": [
         {
           "date": "2026-02-18",
-          "count": 703
+          "count": 701
         },
         {
           "date": "2026-02-19",
@@ -616,7 +616,7 @@
         },
         {
           "date": "2026-02-20",
-          "count": 684
+          "count": 683
         },
         {
           "date": "2026-02-21",
@@ -660,7 +660,7 @@
         },
         {
           "date": "2026-03-03",
-          "count": 37
+          "count": 36
         },
         {
           "date": "2026-03-04",
@@ -696,7 +696,7 @@
         },
         {
           "date": "2026-03-12",
-          "count": 37
+          "count": 36
         },
         {
           "date": "2026-03-13",
@@ -708,7 +708,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 11
+          "count": 16
         }
       ],
       "dpdHistory": [
@@ -744,6 +744,47 @@
       "isWatchlist": false
     },
     {
+      "id": "com.leyo.idleapartmenttycoon",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Idle Apartment Tycoon",
+      "icon": "https://play-lh.googleusercontent.com/BNa_YPtiSqyLl6ZzBvLpMpCj-8eHk_Sod6nRw8vEJMw59CssJMcf9EKLVA0iWFcjpg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/l8tYKvs2olMn2elTt4B9p0BEG3khDHqUgVj1-FIod_AdYWcJbp9O5tNdK4tIHzJQ0WrCdVGhqbjNoh74AbrEnw=w300",
+        "https://play-lh.googleusercontent.com/TnAS-dPvDFp0d0eTppSiZp6Aw_9QzPcJX9NUPBdYTnswOorU_adM6-dKtmsEcfDBDNCHI0cux6I6Sq444Xee6Q=w300",
+        "https://play-lh.googleusercontent.com/YJClzxh3Vy0DYMtZvD6yygJTnVa5njxdQrcafoKR9IWhTCR2xCt4WQZPwQYD84OWTIo2qnoZBjN5qfE69ldVVHs=w300",
+        "https://play-lh.googleusercontent.com/ralWqnZjlkg_oZ-WUhm88sFWEHyboZsFb_cY3AJnGqkHIwqwoVQZ6_-D13BcIaMBsl9-P_gCOH2Ch1MIeBwEfg=w300"
+      ],
+      "genre": "Simulation",
+      "developer": "LEYO",
+      "downloads": "100,000+",
+      "realInstalls": 137187,
+      "realInstallsStr": "137K",
+      "perDay": 45729,
+      "days": 3,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Mar 13, 2026",
+      "lastUpdated": "",
+      "summary": "Become the Ultimate Idle Landlord!",
+      "url": "https://play.google.com/store/apps/details?id=com.leyo.idleapartmenttycoon",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-03-16",
+          "dpd": 45729,
+          "installs": 137187
+        }
+      ],
+      "trend": "new",
+      "dpd_prev": 0,
+      "dpd_change_pct": 0,
+      "isWatchlist": false
+    },
+    {
       "id": "com.clovergames.avalonclient",
       "emoji": "🚀",
       "tag": "500K+",
@@ -763,7 +804,7 @@
       "perDay": 42417,
       "days": 12,
       "score": 4.3,
-      "ratings": 9065,
+      "ratings": 9084,
       "ratingsStr": "9K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -818,7 +859,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 12
+          "count": 13
         }
       ],
       "dpdHistory": [
@@ -868,8 +909,8 @@
       "perDay": 41521,
       "days": 17,
       "score": 4.5,
-      "ratings": 29998,
-      "ratingsStr": "29K",
+      "ratings": 30078,
+      "ratingsStr": "30K",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Feb 27, 2026",
@@ -931,7 +972,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 12
+          "count": 14
         }
       ],
       "dpdHistory": [
@@ -986,7 +1027,7 @@
       "perDay": 39349,
       "days": 5,
       "score": 4.7,
-      "ratings": 2342,
+      "ratings": 2393,
       "ratingsStr": "2K",
       "contentRating": "Teen",
       "offersIAP": true,
@@ -1009,7 +1050,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 14
+          "count": 21
         }
       ],
       "dpdHistory": [
@@ -1105,8 +1146,8 @@
       "perDay": 19204,
       "days": 12,
       "score": 4.9,
-      "ratings": 100,
-      "ratingsStr": "100",
+      "ratings": 104,
+      "ratingsStr": "104",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Mar 4, 2026",
@@ -1195,7 +1236,7 @@
       "perDay": 13274,
       "days": 20,
       "score": 4.3,
-      "ratings": 8206,
+      "ratings": 8220,
       "ratingsStr": "8K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
@@ -1278,7 +1319,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 2
+          "count": 3
         }
       ],
       "dpdHistory": [
@@ -1332,9 +1373,9 @@
       "realInstallsStr": "255K",
       "perDay": 9121,
       "days": 28,
-      "score": 3.8,
-      "ratings": 118,
-      "ratingsStr": "118",
+      "score": 3.5,
+      "ratings": 119,
+      "ratingsStr": "119",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Feb 16, 2026",
@@ -1411,8 +1452,8 @@
       "perDay": 8655,
       "days": 28,
       "score": 4.9,
-      "ratings": 386,
-      "ratingsStr": "386",
+      "ratings": 387,
+      "ratingsStr": "387",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Feb 16, 2026",
@@ -1557,7 +1598,7 @@
       "perDay": 8636,
       "days": 25,
       "score": 4.5,
-      "ratings": 2286,
+      "ratings": 2288,
       "ratingsStr": "2K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -1604,7 +1645,7 @@
         },
         {
           "date": "2026-03-05",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-03-06",
@@ -1772,8 +1813,8 @@
       "perDay": 4655,
       "days": 27,
       "score": 4.9,
-      "ratings": 691,
-      "ratingsStr": "691",
+      "ratings": 696,
+      "ratingsStr": "696",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Feb 17, 2026",
@@ -1956,8 +1997,8 @@
       "perDay": 3174,
       "days": 7,
       "score": 3.6,
-      "ratings": 208,
-      "ratingsStr": "208",
+      "ratings": 211,
+      "ratingsStr": "211",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Mar 9, 2026",
@@ -2109,8 +2150,8 @@
       "perDay": 1513,
       "days": 28,
       "score": 4.8,
-      "ratings": 598,
-      "ratingsStr": "598",
+      "ratings": 600,
+      "ratingsStr": "600",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Feb 16, 2026",
@@ -2353,8 +2394,8 @@
       "perDay": 500,
       "days": 19,
       "score": 4.7,
-      "ratings": 713,
-      "ratingsStr": "713",
+      "ratings": 715,
+      "ratingsStr": "715",
       "contentRating": "Teen",
       "offersIAP": false,
       "releaseDate": "Feb 25, 2026",
@@ -2417,6 +2458,10 @@
         {
           "date": "2026-03-14",
           "count": 2
+        },
+        {
+          "date": "2026-03-15",
+          "count": 1
         }
       ],
       "dpdHistory": [
@@ -2473,7 +2518,7 @@
       "perDay": 61462,
       "days": 12,
       "score": 4.7,
-      "ratings": 19786,
+      "ratings": 19881,
       "ratingsStr": "19K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -2512,7 +2557,7 @@
         },
         {
           "date": "2026-03-11",
-          "count": 154
+          "count": 153
         },
         {
           "date": "2026-03-12",
@@ -2528,7 +2573,7 @@
         },
         {
           "date": "2026-03-15",
-          "count": 65
+          "count": 77
         }
       ],
       "dpdHistory": [
@@ -2644,7 +2689,7 @@
       "perDay": 15300,
       "days": 6,
       "score": 4.9,
-      "ratings": 4534,
+      "ratings": 4552,
       "ratingsStr": "4K",
       "contentRating": "Teen",
       "offersIAP": false,
