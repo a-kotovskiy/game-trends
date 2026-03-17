@@ -1542,7 +1542,7 @@
         const elapsed = Math.floor((Date.now() - startTime) / 1000);
         const min = Math.floor(elapsed / 60);
         const sec = elapsed % 60;
-        label.textContent = `Парсер работает ${min}:${sec.toString().padStart(2,'0')} (~8 мин)`;
+        label.textContent = `Парсер работает ${min}:${sec.toString().padStart(2,'0')} (~2 мин)`;
       }, 1000);
 
       // Поллим статус каждые 20 сек
