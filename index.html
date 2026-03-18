@@ -852,7 +852,7 @@
       <div class="section-icon">🔥</div>
       <div>
         <div class="section-title">Хайп тренды</div>
-        <div class="section-subtitle">YouTube · вирусные видео 300K+ просмотров/день + Google Trends</div>
+        <div class="section-subtitle">Вирусные темы для мобильных игр · YouTube + Google Trends</div>
       </div>
       <div class="section-count" id="viral-count">...</div>
     </div>
@@ -1245,7 +1245,7 @@
     const grid = document.getElementById('viral-grid');
     document.getElementById('tab-count-viral').textContent = data.length;
 
-    // Сортируем: score=3 по vpd, score=2 по vpd, остальные по vpd
+    // Сортируем: hype_score DESC, vpd DESC
     const sorted = [...data].sort((a,b) => {
       const sa = (a.hype_score||1);
       const sb = (b.hype_score||1);
@@ -1254,122 +1254,90 @@
     });
 
     const videosHtml = sorted.map(v => {
-      const isQuad = v.hype_score >= 4;
-      const isTriple = v.hype_score === 3;
-      const isDouble = v.hype_score === 2;
-      const cardClass = isQuad ? 'hype-card triple' : isTriple ? 'hype-card triple' : isDouble ? 'hype-card double' : 'hype-card';
+      const score = v.hype_score || 1;
+      const cardClass = score >= 7 ? 'hype-card triple'
+                      : score >= 4 ? 'hype-card double'
+                      : 'hype-card';
 
-      // Форматируем VPD
+      // VPD
       const vpdStr = v.vpd >= 1000000 ? (v.vpd/1000000).toFixed(1)+'M/д'
                    : v.vpd >= 1000 ? Math.round(v.vpd/1000)+'K/д' : (v.vpd||0)+'/д';
 
+      // Thumbnail
       const thumbSrc = v.thumb || '';
       const thumbHtml = thumbSrc
         ? `<img class="hype-thumb" src="${thumbSrc}" loading="lazy" onerror="this.style.display='none'">`
         : '';
 
-      // Platform rows
-      const platforms = v.platforms || ['tiktok'];
-      const platRows = [];
-
-      // TikTok row
-      if (platforms.includes('tiktok') || v.source === 'tiktok_fyp') {
-        platRows.push(`<div class="hype-plat-row">
-          <span style="font-size:0.75rem">🎵</span>
-          <span class="hype-plat-text">TikTok</span>
-          <span class="hype-plat-views">${v.views_str||''}</span>
-          <a href="${v.url}" target="_blank" rel="noopener" class="pl-btn tiktok">↗</a>
-        </div>`);
-      }
-
-      // YouTube rows
-      const ytVids = v.yt_videos || [];
-      if (ytVids.length) {
-        ytVids.slice(0,2).forEach(y => {
-          const ytThumb = y.thumb || '';
-          const ytThumbHtml = ytThumb
-            ? `<img class="yt-thumb-small" src="${ytThumb}" loading="lazy" onerror="this.style.display='none'">`
-            : '';
-          const ageDays = y.age_days;
-          let ageBadge = '';
-          if (ageDays != null) {
-            if (ageDays <= 14) ageBadge = `<span style="color:#10b981;font-size:0.7rem;margin-left:4px">🟢 ${ageDays}д</span>`;
-            else if (ageDays <= 45) ageBadge = `<span style="color:#f59e0b;font-size:0.7rem;margin-left:4px">🟡 ${ageDays}д</span>`;
-            else ageBadge = `<span style="color:#94a3b8;font-size:0.7rem;margin-left:4px">(старое)</span>`;
-          }
-          platRows.push(`<div class="hype-plat-row">
-            <span style="font-size:0.75rem">▶</span>
-            ${ytThumbHtml}
-            <span class="hype-plat-text">${(y.title||'').slice(0,50)}</span>
-            <span class="hype-plat-views">${y.views_str||''}${ageBadge}</span>
-            <a href="${y.url}" target="_blank" rel="noopener" class="pl-btn youtube">↗</a>
-          </div>`);
-        });
-      }
-
-      // Google Trends row
-      if (platforms.includes('google_trends') || v.gt_url) {
-        const gtKw = v.gt_keyword || '';
-        const gtUrl = v.gt_url || `https://trends.google.com/trends/explore?q=${encodeURIComponent(gtKw||v.title||'')}&geo=US`;
-        platRows.push(`<div class="hype-plat-row">
-          <span style="font-size:0.75rem">🔍</span>
-          <span class="hype-plat-text">Google Trends: <b>${gtKw}</b></span>
-          <a href="${gtUrl}" target="_blank" rel="noopener" class="pl-btn gtrends">↗</a>
-        </div>`);
-      }
-
-      // Sound viral row
-      if (v.sound_viral && v.sound_video_count) {
-        const sc = v.sound_video_count;
-        const scStr = sc >= 1000000 ? (sc/1000000).toFixed(1)+'M' : sc >= 1000 ? Math.round(sc/1000)+'K' : sc;
-        const scColor = sc >= 100000 ? 'color:gold' : sc >= 10000 ? 'color:#10b981' : 'color:#94a3b8';
-        const soundTitle = v.sound_title || v.music || '';
-        const musicId = v.music_id || '';
-        const soundUrl = musicId ? `https://www.tiktok.com/music/${encodeURIComponent(soundTitle.replace(/\s+/g,'-'))}-${musicId}` : '';
-        const linkHtml = soundUrl ? `<a href="${soundUrl}" target="_blank" rel="noopener" class="pl-btn tiktok">↗</a>` : '';
-        platRows.push(`<div class="hype-plat-row">
-          <span style="font-size:0.75rem">🎵</span>
-          <span class="hype-plat-text" style="${scColor}">Звук: "${soundTitle.slice(0,40)}" — ${scStr} видео</span>
-          ${linkHtml}
-        </div>`);
-      }
-
-      // Keywords
-      const kws = v.keywords || [];
-      const kwsHtml = kws.length
-        ? `<div class="hype-keywords">${kws.map(k => `<span class="hype-kw">${k}</span>`).join('')}</div>`
+      // Тема
+      const topic = v.topic || '';
+      const topicHtml = topic
+        ? `<span style="background:var(--accent1);color:#fff;font-size:0.65rem;padding:2px 8px;border-radius:8px;margin-right:6px;text-transform:uppercase">${topic}</span>`
         : '';
+
+      // Hype score badge
+      const scoreColor = score >= 7 ? '#f59e0b' : score >= 4 ? '#8b5cf6' : '#64748b';
+      const scoreHtml = `<span style="background:${scoreColor};color:#fff;font-size:0.65rem;padding:2px 6px;border-radius:6px;font-weight:700">⭐${score}</span>`;
+
+      // Свежесть
+      const age = v.age_days || 30;
+      const ageBadge = age <= 3 ? '🟢 ' + age + 'д'
+                     : age <= 7 ? '🟢 ' + age + 'д'
+                     : age <= 14 ? '🟡 ' + age + 'д'
+                     : age + 'д';
+
+      // Есть ли игры
+      const gc = v.game_count || 0;
+      const gamesHtml = gc > 0
+        ? `<span style="color:#10b981;font-size:0.7rem">🎮 ${gc} игр в GP</span>`
+        : `<span style="color:#f59e0b;font-size:0.7rem">🎮 нет игр — возможность!</span>`;
+
+      // Related videos
+      const related = v.related_videos || 0;
+      const relatedHtml = related > 1
+        ? `<span style="color:#818cf8;font-size:0.7rem">📹 ${related} видео на тему</span>`
+        : '';
+
+      // Kind icon
+      const kindIcon = v.kind === 'Short' ? '🩳' : '▶';
 
       return `
       <div class="${cardClass}">
         <div class="hype-top">
           ${thumbHtml}
           <div class="hype-top-info">
-            <div class="hype-title">${v.title || '@'+(v.author||'—')}${v.joint_hype ? ' <span style="background:linear-gradient(135deg,#7c3aed,#2563eb);color:#fff;font-size:0.65rem;padding:2px 6px;border-radius:8px;margin-left:6px;white-space:nowrap">⚡ Синхронный хайп</span>' : ''}</div>
-            <div class="hype-author">@${v.author||''} · ${v.published||''}</div>
+            <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:4px">
+              ${topicHtml}${scoreHtml}
+            </div>
+            <div class="hype-title">
+              <a href="${v.url||'#'}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${kindIcon} ${v.title || ''}</a>
+            </div>
+            <div class="hype-author">${v.channel||''} · ${ageBadge}</div>
             <div class="hype-stats">
               <span class="hype-views">${v.views_str||''}</span>
-              <span class="hype-vpd">${vpdStr} 📈</span>
+              <span class="hype-vpd">${vpdStr}</span>
+            </div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:4px">
+              ${gamesHtml}${relatedHtml}
             </div>
           </div>
-        </div>
-        <div class="hype-platforms-section">
-          ${platRows.join('')}
-          ${kwsHtml}
         </div>
       </div>`;
     }).join('');
 
-    // Google Trends пилюли
-    const trendsHtml = (googleTrends||[]).length ? `
+    // Google Trends — только игровые
+    const gamingTrends = (googleTrends||[]).filter(t => t.is_gaming || t.hype_score >= 5);
+    const trendsHtml = gamingTrends.length ? `
       <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
-        <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em">🔍 Google Trends США прямо сейчас</div>
+        <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em">🔍 Игровые тренды Google</div>
         <div style="display:flex;flex-wrap:wrap;gap:6px">
-          ${(googleTrends||[]).map(t => `<a href="${t.url}" target="_blank" rel="noopener" class="gt-pill">🔥 ${t.title}</a>`).join('')}
+          ${gamingTrends.map(t => `<a href="${t.url}" target="_blank" rel="noopener" class="gt-pill">🔥 ${t.title}</a>`).join('')}
         </div>
       </div>` : '';
 
-    grid.innerHTML = `<div class="hype-list">${videosHtml}</div>${trendsHtml}`;
+    grid.innerHTML = videosHtml
+      ? `<div class="hype-list">${videosHtml}</div>${trendsHtml}`
+      : `<div style="color:var(--text-muted);text-align:center;padding:32px">Нет актуальных хайп-трендов. Нажми "Обновить данные" для поиска.</div>${trendsHtml}`;
   }
 
   function renderIdeas(data) {
