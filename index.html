@@ -109,6 +109,7 @@
 
     .btn-refresh:hover { opacity: 0.85; transform: scale(1.03); }
     .btn-refresh:active { transform: scale(0.98); }
+    .btn-refresh-hype { background: linear-gradient(135deg, #f59e0b, #ef4444); }
 
     /* MAIN */
     main {
@@ -762,9 +763,13 @@
         <div class="dot"></div>
         <span>Обновлено: <span id="updated-date">загрузка...</span></span>
       </div>
-      <button class="btn-refresh" id="refresh-btn" onclick="startRefresh()">
-        <span id="refresh-icon">↻</span>
-        <span id="refresh-label">Обновить данные</span>
+      <button class="btn-refresh" id="refresh-rockets-btn" onclick="startRefresh('rockets')">
+        <span id="refresh-rockets-icon">↻</span>
+        <span id="refresh-rockets-label">🚀 Обновить игры</span>
+      </button>
+      <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
+        <span id="refresh-hype-icon">↻</span>
+        <span id="refresh-hype-label">🔥 Обновить хайп</span>
       </button>
     </div>
   </div>
@@ -774,9 +779,6 @@
 <nav class="tab-nav">
   <button class="tab-btn active" onclick="switchTab('rockets', this)">
     🚀 Тренды игр <span class="tab-count" id="tab-count-rockets">…</span>
-  </button>
-  <button class="tab-btn" onclick="switchTab('videos', this)">
-    🎬 Видео тренды <span class="tab-count" id="tab-count-videos">…</span>
   </button>
   <button class="tab-btn" onclick="switchTab('viral', this)">
     🔥 Хайп <span class="tab-count" id="tab-count-viral">…</span>
@@ -827,21 +829,6 @@
       <div class="section-count" id="watchlist-count">...</div>
     </div>
     <div class="rockets-list" id="watchlist-grid">
-      <div class="loading"><div class="spinner"></div></div>
-    </div>
-  </section>
-
-  <!-- VIDEOS -->
-  <section class="tab-section" id="section-videos">
-    <div class="section-header">
-      <div class="section-icon">🔥</div>
-      <div>
-        <div class="section-title">Вирусные видео</div>
-        <div class="section-subtitle">500K+ просмотров, тренды последних 6 мес.</div>
-      </div>
-      <div class="section-count" id="videos-count">...</div>
-    </div>
-    <div class="grid-5" id="videos-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
   </section>
@@ -1190,38 +1177,6 @@
     }
   }
 
-  // RENDER VIDEOS
-  function renderVideos(data) {
-    const grid = document.getElementById('videos-grid');
-    document.getElementById('videos-count').textContent = data.length + ' видео';
-    document.getElementById('tab-count-videos').textContent = data.length;
-    grid.innerHTML = data.map(v => {
-      const viewsStr = v.views_str || (v.views >= 1000000 ? (v.views/1000000).toFixed(1)+'M' : Math.round(v.views/1000)+'K');
-      const thumb = v.thumb || '';
-      const grade = v.grade || '📈';
-      const channel = v.channel || '';
-      return `
-      <a class="card video-card" href="${v.url}" target="_blank" rel="noopener">
-        <img
-          class="video-thumb"
-          src="${thumb}"
-          alt="${v.title}"
-          loading="lazy"
-          onerror="this.style.background='#1e1e35';this.removeAttribute('src')"
-        />
-        <div class="video-body">
-          <div class="card-tag">${grade}</div>
-          <div class="video-title">${v.title}</div>
-          <div class="video-meta" style="font-size:0.75rem;color:var(--text2);margin-top:4px">${channel}</div>
-          <div>
-            <div class="video-views">${viewsStr}</div>
-            <div class="video-views-label">просмотров</div>
-          </div>
-        </div>
-      </a>`;
-    }).join('');
-  }
-
   // RENDER NEWS
   function renderNews(data) {
     const grid = document.getElementById('news-grid');
@@ -1364,8 +1319,7 @@
   }
 
   // RENDER STATS
-  function renderStats({rockets, videos, viral_trends}) {
-    const totalViews = videos.reduce((s, v) => s + (v.views || v.viewsNum || 0), 0);
+  function renderStats({rockets, viral_trends, watchlist}) {
     const maxDay = rockets.length ? Math.max(...rockets.map(r => r.perDay)) : 0;
     document.getElementById('stats-bar').innerHTML = `
       <div class="stat-item">
@@ -1379,18 +1333,13 @@
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
-        <div class="stat-num">${videos.length}</div>
-        <div class="stat-lbl">Вирусных видео</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${formatNum(totalViews)}</div>
-        <div class="stat-lbl">Суммарно просмотров</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
         <div class="stat-num">${viral_trends.length}</div>
         <div class="stat-lbl">Хайп-трендов</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">${watchlist.length}</div>
+        <div class="stat-lbl">Watchlist</div>
       </div>
     `;
   }
@@ -1400,10 +1349,9 @@
     const BASE = './';
     const t = Date.now();
     try {
-      const [rockets, hype, videos, news, ideas, meta] = await Promise.allSettled([
+      const [rockets, hype, news, ideas, meta] = await Promise.allSettled([
         fetch(`${BASE}rockets.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}hype.json?t=${t}`).then(r => r.ok ? r.json() : {}),
-        fetch(`${BASE}videos.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}news.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}ideas.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}meta.json?t=${t}`).then(r => r.ok ? r.json() : {}),
@@ -1416,7 +1364,6 @@
         ? rocketRaw.filter(r => r.isWatchlist)
         : (rocketRaw.watchlist || []);
       const hypeData   = hype.status === 'fulfilled'    ? hype.value    : {};
-      const videoData  = videos.status === 'fulfilled'  ? videos.value  : [];
       const newsData   = news.status === 'fulfilled'    ? news.value    : [];
       const ideasData  = ideas.status === 'fulfilled'   ? ideas.value   : [];
       const metaData   = meta.status === 'fulfilled'    ? meta.value    : {};
@@ -1460,9 +1407,8 @@
         return (b.vpd||0) - (a.vpd||0);
       });
 
-      renderStats({rockets: rocketData, videos: videoData, viral_trends: enrichedTrends});
+      renderStats({rockets: rocketData, viral_trends: enrichedTrends, watchlist: watchlistData});
       renderRockets(rocketData, watchlistData);
-      renderVideos(videoData);
       renderViralTrends(enrichedTrends, hypeData.google_trends || []);
       renderNews(newsData);
       renderIdeas(ideasData);
@@ -1477,51 +1423,53 @@
 
   // REFRESH
   const WORKER_URL = "https://game-trends-trigger.kotteykkausa.workers.dev";
-  let _refreshTimers = null;
+  let _refreshTimers = {};
 
-  function clearRefreshTimers() {
-    if (_refreshTimers) {
-      clearInterval(_refreshTimers.timer);
-      clearInterval(_refreshTimers.poll);
-      clearTimeout(_refreshTimers.timeout);
-      _refreshTimers = null;
+  function clearRefreshTimers(type) {
+    if (_refreshTimers[type]) {
+      clearInterval(_refreshTimers[type].timer);
+      clearInterval(_refreshTimers[type].poll);
+      clearTimeout(_refreshTimers[type].timeout);
+      delete _refreshTimers[type];
     }
   }
 
-  function setRefreshUI(iconText, labelText, disabled) {
-    const btn = document.getElementById('refresh-btn');
-    const icon = document.getElementById('refresh-icon');
-    const label = document.getElementById('refresh-label');
+  function setRefreshUI(type, iconText, labelText, disabled) {
+    const btn = document.getElementById(`refresh-${type}-btn`);
+    const icon = document.getElementById(`refresh-${type}-icon`);
+    const label = document.getElementById(`refresh-${type}-label`);
     if (btn) btn.disabled = disabled;
     if (icon) icon.textContent = iconText;
     if (label) label.textContent = labelText;
   }
 
-  function startPolling(startTime) {
-    clearRefreshTimers();
-    setRefreshUI('⏳', 'Парсер работает...', true);
+  function startPolling(type, startTime) {
+    clearRefreshTimers(type);
+    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : '🔥 Обновить хайп';
+    setRefreshUI(type, '⏳', type === 'rockets' ? 'Парсер работает...' : 'Собираю хайп...', true);
 
     const timer = setInterval(() => {
       const elapsed = Math.floor((Date.now() - startTime) / 1000);
       const min = Math.floor(elapsed / 60);
       const sec = elapsed % 60;
-      setRefreshUI('⏳', `Парсер работает ${min}:${sec.toString().padStart(2,'0')}`, true);
+      const prefix = type === 'rockets' ? 'Парсер' : 'Хайп';
+      setRefreshUI(type, '⏳', `${prefix} ${min}:${sec.toString().padStart(2,'0')}`, true);
     }, 1000);
 
     const poll = setInterval(async () => {
       try {
-        const s = await fetch(WORKER_URL + '/status').then(r => r.json());
+        const s = await fetch(WORKER_URL + '/status?type=' + type).then(r => r.json());
         if (s.state === 'idle' && s.last_run) {
           const secAgo = (Date.now() - new Date(s.last_run).getTime()) / 1000;
           if (secAgo < 300) {
-            clearRefreshTimers();
+            clearRefreshTimers(type);
             if (s.error) {
-              setRefreshUI('⚠️', 'Ошибка парсера', false);
-              setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 5000);
+              setRefreshUI(type, '⚠️', 'Ошибка', false);
+              setTimeout(() => setRefreshUI(type, '↻', defaultLabel, false), 5000);
             } else {
               await loadData();
-              setRefreshUI('✅', 'Данные обновлены!', false);
-              setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 4000);
+              setRefreshUI(type, '✅', 'Обновлено!', false);
+              setTimeout(() => setRefreshUI(type, '↻', defaultLabel, false), 4000);
             }
           }
         }
@@ -1529,46 +1477,53 @@
     }, 5000);
 
     const timeout = setTimeout(() => {
-      clearRefreshTimers();
-      setRefreshUI('⚠️', 'Таймаут — обнови страницу', false);
-      setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 5000);
+      clearRefreshTimers(type);
+      setRefreshUI(type, '⚠️', 'Таймаут', false);
+      setTimeout(() => setRefreshUI(type, '↻', defaultLabel, false), 5000);
     }, 600000);
 
-    _refreshTimers = { timer, poll, timeout };
+    _refreshTimers[type] = { timer, poll, timeout };
   }
 
-  async function startRefresh() {
-    setRefreshUI('⏳', 'Отправляю запрос...', true);
+  async function startRefresh(type) {
+    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : '🔥 Обновить хайп';
+    setRefreshUI(type, '⏳', 'Отправляю...', true);
 
     try {
-      const res = await fetch(WORKER_URL + '/trigger', { method: 'POST' });
+      const res = await fetch(WORKER_URL + '/trigger', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({type})
+      });
       const body = await res.json().catch(() => ({}));
 
       if (!res.ok) {
         if (body.state === 'pending' || body.state === 'running') {
-          startPolling(Date.now());
+          startPolling(type, Date.now());
           return;
         }
         throw new Error(body.error || 'Ошибка запуска');
       }
 
-      startPolling(Date.now());
+      startPolling(type, Date.now());
 
     } catch(e) {
-      setRefreshUI('⚠️', e.message || 'Ошибка', false);
-      setTimeout(() => setRefreshUI('↻', 'Обновить данные', false), 4000);
+      setRefreshUI(type, '⚠️', e.message || 'Ошибка', false);
+      setTimeout(() => setRefreshUI(type, '↻', defaultLabel, false), 4000);
     }
   }
 
   // On page load: check if update is in progress
   async function checkUpdateStatus() {
-    try {
-      const s = await fetch(WORKER_URL + '/status').then(r => r.json());
-      if (s.state === 'pending' || s.state === 'running') {
-        const triggered = s.triggered_at ? new Date(s.triggered_at).getTime() : Date.now();
-        startPolling(triggered);
-      }
-    } catch(e) {}
+    for (const type of ['rockets', 'hype']) {
+      try {
+        const s = await fetch(WORKER_URL + '/status?type=' + type).then(r => r.json());
+        if (s.state === 'pending' || s.state === 'running') {
+          const triggered = s.triggered_at ? new Date(s.triggered_at).getTime() : Date.now();
+          startPolling(type, triggered);
+        }
+      } catch(e) {}
+    }
   }
 
   // INIT
