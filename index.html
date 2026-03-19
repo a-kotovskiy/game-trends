@@ -111,6 +111,20 @@
     .btn-refresh:active { transform: scale(0.98); }
     .btn-refresh-hype { background: linear-gradient(135deg, #f59e0b, #ef4444); }
 
+    .refresh-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .refresh-time {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .refresh-time.stale { color: var(--yellow); }
+    .refresh-time.old { color: var(--red); }
+
     /* MAIN */
     main {
       max-width: 1400px;
@@ -663,6 +677,8 @@
     @media (max-width: 600px) {
       main { padding: 20px 12px; gap: 28px; }
       .header-title { font-size: 1.3rem; }
+      .refresh-group { flex-direction: column; gap: 2px; align-items: flex-start; }
+      .refresh-time { font-size: 0.65rem; }
       .stats-bar { gap: 16px; padding: 12px 16px; }
       .grid-3, .grid-5, .grid-2 { grid-template-columns: 1fr; }
 
@@ -759,18 +775,20 @@
   <div class="header-inner">
     <div class="header-title">🎮 Game Trends Dashboard</div>
     <div class="header-meta">
-      <div class="updated-badge">
-        <div class="dot"></div>
-        <span>Обновлено: <span id="updated-date">загрузка...</span></span>
+      <div class="refresh-group">
+        <button class="btn-refresh" id="refresh-rockets-btn" onclick="startRefresh('rockets')">
+          <span id="refresh-rockets-icon">↻</span>
+          <span id="refresh-rockets-label">🚀 Обновить игры</span>
+        </button>
+        <span class="refresh-time" id="rockets-time">—</span>
       </div>
-      <button class="btn-refresh" id="refresh-rockets-btn" onclick="startRefresh('rockets')">
-        <span id="refresh-rockets-icon">↻</span>
-        <span id="refresh-rockets-label">🚀 Обновить игры</span>
-      </button>
-      <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
-        <span id="refresh-hype-icon">↻</span>
-        <span id="refresh-hype-label">🔥 Обновить хайп</span>
-      </button>
+      <div class="refresh-group">
+        <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
+          <span id="refresh-hype-icon">↻</span>
+          <span id="refresh-hype-label">🔥 Обновить хайп</span>
+        </button>
+        <span class="refresh-time" id="hype-time">—</span>
+      </div>
     </div>
   </div>
 </header>
@@ -1345,6 +1363,33 @@
   }
 
   // LOAD DATA
+  function updateTimeLabel(elId, timeStr) {
+    const el = document.getElementById(elId);
+    if (!el || !timeStr) { if (el) el.textContent = '—'; return; }
+    const match = timeStr.match(/(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})/);
+    if (!match) { el.textContent = timeStr; return; }
+    const mskDate = new Date(match[1] + 'T' + match[2] + ':00+03:00');
+    const diffMin = Math.floor((Date.now() - mskDate.getTime()) / 60000);
+    let ago;
+    if (diffMin < 1) ago = 'только что';
+    else if (diffMin < 60) ago = `${diffMin} мин назад`;
+    else if (diffMin < 1440) ago = `${Math.floor(diffMin/60)} ч назад`;
+    else ago = `${Math.floor(diffMin/1440)} дн назад`;
+    el.textContent = ago;
+    el.classList.remove('stale', 'old');
+    if (diffMin > 1440) el.classList.add('old');
+    else if (diffMin > 360) el.classList.add('stale');
+  }
+
+  // Обновлять "X назад" каждую минуту
+  setInterval(() => {
+    const meta = window._lastMeta;
+    if (meta) {
+      updateTimeLabel('rockets-time', meta.rockets_updated);
+      updateTimeLabel('hype-time', meta.hype_updated);
+    }
+  }, 60000);
+
   async function loadData() {
     const BASE = './';
     const t = Date.now();
@@ -1368,24 +1413,10 @@
       const ideasData  = ideas.status === 'fulfilled'   ? ideas.value   : [];
       const metaData   = meta.status === 'fulfilled'    ? meta.value    : {};
 
-      // Обновляем updated date с "X назад"
-      const updStr = metaData.updated || '—';
-      const updEl = document.getElementById('updated-date');
-      updEl.textContent = updStr;
-      // Парсим "2026-03-17 04:25 МСК" → добавляем "X назад"
-      const match = updStr.match(/(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})/);
-      if (match) {
-        const mskDate = new Date(match[1] + 'T' + match[2] + ':00+03:00');
-        const diffMs = Date.now() - mskDate.getTime();
-        const diffMin = Math.floor(diffMs / 60000);
-        let ago = '';
-        if (diffMin < 1) ago = 'только что';
-        else if (diffMin < 60) ago = `${diffMin} мин назад`;
-        else if (diffMin < 1440) ago = `${Math.floor(diffMin/60)} ч назад`;
-        else ago = `${Math.floor(diffMin/1440)} дн назад`;
-        updEl.textContent = updStr + ' (' + ago + ')';
-        if (diffMin > 1440) updEl.style.color = '#f59e0b'; // жёлтый если >24ч
-      }
+      // Обновляем время рядом с кнопками
+      window._lastMeta = metaData;
+      updateTimeLabel('rockets-time', metaData.rockets_updated);
+      updateTimeLabel('hype-time', metaData.hype_updated);
 
       // Обогащаем viral_trends данными валидации
       const viralTrends = hypeData.viral_trends || [];
@@ -1416,7 +1447,8 @@
     } catch (err) {
       console.error('Load error:', err);
       document.getElementById('error-banner').style.display = 'block';
-      document.getElementById('updated-date').textContent = 'ошибка';
+      document.getElementById('rockets-time').textContent = 'ошибка';
+      document.getElementById('hype-time').textContent = 'ошибка';
       document.getElementById('stats-bar').innerHTML = '<div style="color:#fca5a5;font-size:0.85rem">⚠️ Ошибка загрузки данных</div>';
     }
   }
