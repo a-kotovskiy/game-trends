@@ -1,10 +1,12 @@
 {
-  "updated": "2026-03-19 08:23 МСК",
-  "rockets_count": 0,
-  "videos_count": 0,
+  "updated": "2026-03-19 12:20 МСК",
+  "rockets_count": 25,
+  "videos_count": 20,
   "news_count": 8,
-  "ideas_count": 0,
-  "hype_count": 3,
-  "google_trends_count": 10,
-  "hype_validated_count": 0
+  "ideas_count": 5,
+  "hype_count": 19,
+  "google_trends_count": 0,
+  "hype_validated_count": 0,
+  "watchlist_count": 3,
+  "rockets_updated": "2026-03-19 12:20 МСК"
 }
