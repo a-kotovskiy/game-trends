@@ -261,6 +261,12 @@
       width: 100%; height: 100%;
       object-fit: cover; border-radius: 9px;
     }
+    .steam-thumb {
+      width: 120px; height: 56px; border-radius: 6px; flex-shrink: 0;
+    }
+    .steam-thumb img {
+      width: 100%; height: 100%; object-fit: cover; border-radius: 6px;
+    }
 
     .rc-info { flex: 1; min-width: 0; }
     .game-name {
@@ -688,19 +694,42 @@
 
       .grid-3, .grid-5, .grid-2 { grid-template-columns: 1fr; }
 
-      /* Rocket cards mobile fix */
+      /* Rocket cards mobile — вертикальная раскладка */
       .rocket-card { padding: 10px 12px; }
-      .rc-head { gap: 8px; }
-      .game-emoji { width: 38px; height: 38px; flex-shrink: 0; }
-      .game-name { font-size: 0.82rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px; }
-      .rc-meta { gap: 4px; margin-top: 1px; }
-      .card-tag { font-size: 0.58rem; padding: 2px 5px; max-width: 90px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-      .game-genre { font-size: 0.62rem; }
+      .rc-head {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .game-emoji { width: 48px; height: 48px; flex-shrink: 0; border-radius: 8px; }
+      .game-emoji img { border-radius: 8px; }
+      .steam-thumb { width: 100px; height: 47px; border-radius: 6px; }
+      .steam-thumb img { border-radius: 6px; }
+      .rc-info { flex: 1; min-width: 120px; }
+      .game-name {
+        font-size: 0.9rem;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+        max-width: none;
+        line-height: 1.3;
+      }
+      .rc-meta { gap: 4px; margin-top: 2px; }
+      .card-tag { font-size: 0.6rem; padding: 2px 5px; }
+      .game-genre { font-size: 0.65rem; }
 
-      /* Stats на мобиле — компактнее */
-      .rc-inline-stats { gap: 8px; }
-      .rc-inline-val { font-size: 0.78rem; }
-      .rc-inline-lbl { font-size: 0.55rem; }
+      /* Метрики на отдельной строке под названием */
+      .rc-inline-stats {
+        width: 100%;
+        order: 3;
+        justify-content: space-between;
+        gap: 4px;
+        padding-top: 8px;
+        border-top: 1px solid var(--border);
+        margin-top: 4px;
+      }
+      .rc-inline-stat { text-align: center; flex: 1; }
+      .rc-inline-val { font-size: 0.82rem; }
+      .rc-inline-lbl { font-size: 0.58rem; }
       .rc-chevron { font-size: 0.6rem; margin-left: 4px; }
 
       /* Hype rows mobile */
@@ -1420,8 +1449,8 @@
       return `
     <div class="card rocket-card" onclick="this.classList.toggle('open')">
       <div class="rc-head">
-        <div class="game-emoji" style="width:60px;height:28px;border-radius:4px">
-          ${headerImg ? `<img src="${headerImg}" style="width:100%;height:100%;object-fit:cover;border-radius:4px">` : '🎮'}
+        <div class="game-emoji steam-thumb">
+          ${headerImg ? `<img src="${headerImg}">` : '🎮'}
         </div>
         <div class="rc-info">
           <div class="game-name">${g.name}</div>
