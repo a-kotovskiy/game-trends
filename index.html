@@ -652,43 +652,6 @@
     @keyframes spin { to { transform: rotate(360deg); } }
 
     /* STATS BAR */
-    .stats-bar {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 20px 28px;
-      display: flex;
-      gap: 32px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .stat-item { text-align: center; }
-
-    .stat-num {
-      font-size: 2rem;
-      font-weight: 900;
-      background: var(--gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      line-height: 1;
-    }
-
-    .stat-lbl {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-top: 4px;
-    }
-
-    .stat-divider {
-      width: 1px;
-      height: 40px;
-      background: var(--border);
-    }
-
     /* PROGRESS BAR */
     .progress-wrap {
       margin-top: 8px;
@@ -843,11 +806,6 @@
     ⚠️ Не удалось загрузить данные. Проверь что data.json доступен.
   </div>
 
-  <!-- STATS BAR -->
-  <div class="stats-bar" id="stats-bar">
-    <div class="loading"><div class="spinner"></div> Загружаю данные...</div>
-  </div>
-
   <!-- ROCKETS -->
   <section class="tab-section active" id="section-rockets">
     <div class="section-header">
@@ -859,7 +817,7 @@
       <div class="section-count" id="rockets-count">...</div>
       <div class="refresh-group" style="margin-left:auto">
         <button class="btn-refresh" id="refresh-rockets-btn" onclick="startRefresh('rockets')">
-          <span id="refresh-rockets-icon">↻</span> Обновить
+          <span id="refresh-rockets-icon">↻</span> <span id="refresh-rockets-label">Обновить</span>
         </button>
         <span class="refresh-time" id="rockets-time">—</span>
       </div>
@@ -899,7 +857,7 @@
       <div class="section-count" id="viral-count">...</div>
       <div class="refresh-group" style="margin-left:auto">
         <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
-          <span id="refresh-hype-icon">↻</span> Обновить
+          <span id="refresh-hype-icon">↻</span> <span id="refresh-hype-label">Обновить</span>
         </button>
         <span class="refresh-time" id="hype-time">—</span>
       </div>
@@ -920,7 +878,7 @@
       <div class="section-count" id="steam-count">...</div>
       <div class="refresh-group" style="margin-left:auto">
         <button class="btn-refresh btn-refresh-steam" id="refresh-steam-btn" onclick="startRefresh('steam')">
-          <span id="refresh-steam-icon">↻</span> Обновить
+          <span id="refresh-steam-icon">↻</span> <span id="refresh-steam-label">Обновить</span>
         </button>
         <span class="refresh-time" id="steam-time">—</span>
       </div>
@@ -1543,34 +1501,8 @@
   // ─── /STEAM ───────────────────────────────────────────────────────────────
 
   // RENDER STATS
-  function renderStats({rockets, viral_trends, watchlist, steamData}) {
-    const maxDay = rockets.length ? Math.max(...rockets.map(r => r.perDay)) : 0;
-    document.getElementById('stats-bar').innerHTML = `
-      <div class="stat-item">
-        <div class="stat-num">${rockets.length}</div>
-        <div class="stat-lbl">Ракет Play</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${maxDay.toLocaleString()}</div>
-        <div class="stat-lbl">Макс. скач./день</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${viral_trends.length}</div>
-        <div class="stat-lbl">Хайп-трендов</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${watchlist.length}</div>
-        <div class="stat-lbl">Watchlist</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">${(steamData||[]).length}</div>
-        <div class="stat-lbl">Steam ракет</div>
-      </div>
-    `;
+  function renderStats() {
+    // Stats bar removed — no-op
   }
 
   // LOAD DATA
@@ -1665,7 +1597,7 @@
       document.getElementById('error-banner').style.display = 'block';
       document.getElementById('rockets-time').textContent = 'ошибка';
       document.getElementById('hype-time').textContent = 'ошибка';
-      document.getElementById('stats-bar').innerHTML = '<div style="color:#fca5a5;font-size:0.85rem">⚠️ Ошибка загрузки данных</div>';
+      // stats bar removed
     }
   }
 
