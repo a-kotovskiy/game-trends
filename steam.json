@@ -20,6 +20,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/1062090",
     "grade": "⚡",
+    "growth_rate": 0.2,
+    "peak_ccu": 3884,
     "short_description": "Humans are long gone. In a world struck by droughts and toxic waste, will your lumberpunk beavers do any better? A city-building game featuring ingenious animals, vertical architecture, water physics,"
   },
   {
@@ -43,6 +45,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/2344320",
     "grade": "📈",
+    "growth_rate": 0.0,
+    "peak_ccu": 913,
     "short_description": "Legacy: Steel & Sorcery is an action-combat PvPvE extraction RPG set in the classic fantasy world of Mithrigarde, rich with expansive outdoor zones. Play solo or with friends to gather loot, slay crea"
   },
   {
@@ -66,6 +70,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/1766060",
     "grade": "📈",
+    "growth_rate": 0.78,
+    "peak_ccu": 740,
     "short_description": "HumanitZ is a co-op, isometric, open world survival game in a world ended by the zombie outbreak. As one of the few human survivors, try to last as long as “humanly” possible. The past can’t be change"
   },
   {
@@ -89,30 +95,9 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/1029780",
     "grade": "📈",
+    "growth_rate": 0.63,
+    "peak_ccu": 2167,
     "short_description": "Build and manage your own castle settlement in a land reclaimed by wilderness. With detailed management, survival strategy, and a moddable sandbox world, Going Medieval challenges you to build the mig"
-  },
-  {
-    "id": 1176470,
-    "name": "Terra Invicta",
-    "developer": "Pavonis Interactive",
-    "genre": "",
-    "release_date": "Jan 5, 2026",
-    "days": 74,
-    "ccu": 697,
-    "avg_2weeks": 2002,
-    "avg_forever": 4110,
-    "owners": "200,000 .. 500,000",
-    "owners_mid": 350000,
-    "positive": 5257,
-    "negative": 1303,
-    "review_score": 80,
-    "price": "23.99",
-    "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1176470/header.jpg",
-    "screenshots": [],
-    "tags": [],
-    "url": "https://store.steampowered.com/app/1176470",
-    "grade": "📈",
-    "short_description": "An alien invasion has fractured humanity into seven ideological factions each with a unique vision for the future. Lead your chosen faction to take control of Earth’s nations, expand across the Solar "
   },
   {
     "id": 2492040,
@@ -135,6 +120,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/2492040",
     "grade": "📈",
+    "growth_rate": 0.1,
+    "peak_ccu": 1513,
     "short_description": "26 years on, a brand-new entry in the Fatal Fury series is set to arrive on the scene! FATAL FURY: City of the Wolves features a unique art style that stimulates the senses and an innovative REV Syste"
   },
   {
@@ -158,30 +145,9 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/342940",
     "grade": "📈",
+    "growth_rate": 0.25,
+    "peak_ccu": 13158,
     "short_description": "Project: Gorgon is a fantasy MMORPG that allows you to forge your own path through exploration and discovery."
-  },
-  {
-    "id": 1963370,
-    "name": "No One Survived",
-    "developer": "Cat Play Studio",
-    "genre": "",
-    "release_date": "Dec 27, 2025",
-    "days": 83,
-    "ccu": 175,
-    "avg_2weeks": 0,
-    "avg_forever": 1874,
-    "owners": "200,000 .. 500,000",
-    "owners_mid": 350000,
-    "positive": 4668,
-    "negative": 2376,
-    "review_score": 66,
-    "price": "16.99",
-    "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1963370/header.jpg",
-    "screenshots": [],
-    "tags": [],
-    "url": "https://store.steampowered.com/app/1963370",
-    "grade": "📈",
-    "short_description": "This is a multiplayer cooperative open world construction survival sandbox game, where you and your friends must find supplies and build shelters in this world. You have to keep an eye on your charact"
   },
   {
     "id": 2890830,
@@ -204,6 +170,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/2890830",
     "grade": "📈",
+    "growth_rate": 0.0,
+    "peak_ccu": 464,
     "short_description": "In the second game of the series, competition has increased and now everyone wants to be a streamer. Are you ready to stream until your cpu burns out?"
   },
   {
@@ -227,6 +195,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/2015270",
     "grade": "📈",
+    "growth_rate": 0.68,
+    "peak_ccu": 680,
     "short_description": "The world has been thrown into chaos, and it's up to you and your friends to battle the corrupted beasts of the Rotwood. Upgrade your gear, choose your preferred weapon, and hone your skills to defend"
   },
   {
@@ -250,6 +220,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/1699480",
     "grade": "📈",
+    "growth_rate": 0.56,
+    "peak_ccu": 441,
     "short_description": "KLETKA is a co-op (up to 6 players) horror game about going down in an elevator that is trying to eat you. Feed the elevator, explore deadly floors and descend deeper."
   },
   {
@@ -273,6 +245,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/1991040",
     "grade": "📈",
+    "growth_rate": 0.85,
+    "peak_ccu": 1230,
     "short_description": "《学生时代》，一款高自由的校园养成游戏。夏日西瓜、午后吊扇和悸动的心拉你重回千禧年初。学习、锻炼、恋爱，你是要复刻曾经的成长之路，还是活出不一样的人生？12年后，你的未来如何，由你来决定！"
   },
   {
@@ -296,6 +270,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/1455910",
     "grade": "📈",
+    "growth_rate": 0.25,
+    "peak_ccu": 1240,
     "short_description": "From a small village of a dozen people to a small kingdom of thousands of people. Arrange for residents to work, gathering, fishing and hunting, farming and mining, processing and manufacturing. Trade"
   },
   {
@@ -319,6 +295,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/1863430",
     "grade": "📈",
+    "growth_rate": 0.92,
+    "peak_ccu": 609,
     "short_description": "The draconic threat is once again upon us. Legendary heroes rise up to face the legions from the depths. Tame your wyrmlings, create unique power builds with the Ancestral Grid, expand your city and d"
   },
   {
@@ -341,7 +319,9 @@
     "screenshots": [],
     "tags": [],
     "url": "https://store.steampowered.com/app/2001070",
-    "grade": "📈",
+    "grade": "⚡",
+    "growth_rate": 2.35,
+    "peak_ccu": 525,
     "short_description": "You are the first sentient AI, born into a city of opportunity. Transcend time and space in this strategy RPG to raise machine armies and defeat your foes, influence the world from the shadows, or pur"
   },
   {
@@ -364,7 +344,9 @@
     "screenshots": [],
     "tags": [],
     "url": "https://store.steampowered.com/app/1942110",
-    "grade": "📈",
+    "grade": "⚡",
+    "growth_rate": 3.28,
+    "peak_ccu": 518,
     "short_description": "Stranded in the 17th century after a brutal shipwreck, you awaken alone on a deadly tropical island. To survive, you’ll need to learn fast - facing wild beasts, nature’s wrath, and uncovering secrets "
   },
   {
@@ -388,6 +370,8 @@
     "tags": [],
     "url": "https://store.steampowered.com/app/2162820",
     "grade": "📈",
+    "growth_rate": 1.0,
+    "peak_ccu": 1297,
     "short_description": "In this exhilarating roguelike action game, the main character, Rustil, acquires abilities from the souls of various heroes in a huge and mysterious labyrinth castle, and aims to reach the top floor w"
   }
 ]

@@ -929,6 +929,7 @@
       <button class="sort-btn active" onclick="setSortSteam('ccu',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">🔥 По онлайну</button>
       <button class="sort-btn" onclick="setSortSteam('reviews',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">⭐ По отзывам</button>
       <button class="sort-btn" onclick="setSortSteam('new',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">🆕 По новизне</button>
+      <button class="sort-btn" onclick="setSortSteam('growth',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">📈 По росту</button>
     </div>
     <div class="rockets-list" id="steam-grid">
       <div class="loading"><div class="spinner"></div></div>
@@ -1421,6 +1422,7 @@
     if (mode === 'ccu')     return arr.sort((a,b) => (b.ccu||0) - (a.ccu||0));
     if (mode === 'reviews') return arr.sort((a,b) => (b.review_score||0) - (a.review_score||0));
     if (mode === 'new')     return arr.sort((a,b) => (a.days||999) - (b.days||999));
+    if (mode === 'growth')  return arr.sort((a,b) => (b.growth_rate||0) - (a.growth_rate||0));
     return arr;
   }
 
@@ -1443,6 +1445,13 @@
       const reviewColor = reviewPct >= 90 ? 'var(--green)' : reviewPct >= 70 ? 'var(--yellow)' : 'var(--red)';
       const priceStr    = g.price === '0' || g.price === 'Free' || g.price === '0.00' ? 'F2P' : ('$' + g.price);
       const ccuStr      = g.ccu >= 1000 ? Math.round(g.ccu/1000) + 'K' : g.ccu;
+      const growthRate  = g.growth_rate || 0;
+      const growthArrow = growthRate > 1.5 ? '↑↑' : growthRate > 1.0 ? '↑' : '↓';
+      const growthColor = growthRate > 1.0 ? 'var(--green)' : 'var(--red)';
+      const growthStr   = 'x' + growthRate.toFixed(1) + ' ' + growthArrow;
+      const peakCcu     = g.peak_ccu || g.ccu || 0;
+      const peakCcuStr  = peakCcu >= 1000 ? Math.round(peakCcu/1000) + 'K' : peakCcu;
+      const totalReviews = (g.positive || 0) + (g.negative || 0);
       const ownersStr   = g.owners_mid >= 1000000 ? (g.owners_mid/1000000).toFixed(1) + 'M'
                         : g.owners_mid >= 1000 ? Math.round(g.owners_mid/1000) + 'K' : (g.owners_mid || '?');
       const screens = (g.screenshots || []).map(s =>
@@ -1470,6 +1479,10 @@
             <div class="rc-inline-lbl">онлайн</div>
           </div>
           <div class="rc-inline-stat">
+            <div class="rc-inline-val" style="color:${growthColor}">${growthStr}</div>
+            <div class="rc-inline-lbl">рост</div>
+          </div>
+          <div class="rc-inline-stat">
             <div class="rc-inline-val" style="color:${reviewColor}">${reviewPct}%</div>
             <div class="rc-inline-lbl">отзывы</div>
           </div>
@@ -1491,12 +1504,24 @@
             <div class="rc-m-lbl">Онлайн сейчас</div>
           </div>
           <div class="rc-m">
+            <div class="rc-m-val">${peakCcuStr}</div>
+            <div class="rc-m-lbl">Пик онлайна</div>
+          </div>
+          <div class="rc-m">
             <div class="rc-m-val">${(g.avg_2weeks||0).toLocaleString()}</div>
             <div class="rc-m-lbl">Среднее 2 нед.</div>
           </div>
           <div class="rc-m">
+            <div class="rc-m-val" style="color:${growthColor}">${growthStr}</div>
+            <div class="rc-m-lbl">Рост</div>
+          </div>
+          <div class="rc-m">
             <div class="rc-m-val" style="-webkit-text-fill-color:${reviewColor}">${reviewPct}%</div>
-            <div class="rc-m-lbl">${(g.positive||0)+(g.negative||0)} отзывов</div>
+            <div class="rc-m-lbl">Рейтинг</div>
+          </div>
+          <div class="rc-m">
+            <div class="rc-m-val">${totalReviews.toLocaleString()}</div>
+            <div class="rc-m-lbl">Всего отзывов</div>
           </div>
           <div class="rc-m">
             <div class="rc-m-val yellow">${g.days}</div>
