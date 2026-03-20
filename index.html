@@ -110,6 +110,7 @@
     .btn-refresh:hover { opacity: 0.85; transform: scale(1.03); }
     .btn-refresh:active { transform: scale(0.98); }
     .btn-refresh-hype { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+    .btn-refresh-steam { background: linear-gradient(135deg, #1b2838, #2a475e); }
 
     .refresh-group {
       display: flex;
@@ -830,6 +831,13 @@
         </button>
         <span class="refresh-time" id="hype-time">—</span>
       </div>
+      <div class="refresh-group">
+        <button class="btn-refresh btn-refresh-steam" id="refresh-steam-btn" onclick="startRefresh('steam')">
+          <span id="refresh-steam-icon">↻</span>
+          <span id="refresh-steam-label">🎮 Обновить Steam</span>
+        </button>
+        <span class="refresh-time" id="steam-time">—</span>
+      </div>
     </div>
   </div>
 </header>
@@ -841,6 +849,9 @@
   </button>
   <button class="tab-btn" onclick="switchTab('viral', this)">
     🔥 Хайп <span class="tab-count" id="tab-count-viral">…</span>
+  </button>
+  <button class="tab-btn" onclick="switchTab('steam', this)">
+    🎮 Steam <span class="tab-count" id="tab-count-steam">…</span>
   </button>
 
 </nav>
@@ -903,6 +914,26 @@
       <div class="section-count" id="viral-count">...</div>
     </div>
     <div id="viral-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+  <!-- STEAM -->
+  <section class="tab-section" id="section-steam">
+    <div class="section-header">
+      <div class="section-icon">🎮</div>
+      <div>
+        <div class="section-title">Steam ракеты</div>
+        <div class="section-subtitle">Новинки Steam с быстрым ростом онлайна</div>
+      </div>
+      <div class="section-count" id="steam-count">...</div>
+    </div>
+    <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap">
+      <button class="sort-btn active" onclick="setSortSteam('ccu',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">🔥 По онлайну</button>
+      <button class="sort-btn" onclick="setSortSteam('reviews',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">⭐ По отзывам</button>
+      <button class="sort-btn" onclick="setSortSteam('new',this)" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:0.78rem;font-weight:600;transition:all 0.2s">🆕 По новизне</button>
+    </div>
+    <div class="rockets-list" id="steam-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
   </section>
@@ -1370,8 +1401,127 @@
     }).join('');
   }
 
+  // ─── STEAM ───────────────────────────────────────────────────────────────
+  let _steamData = [];
+  let _steamSort = 'ccu';
+
+  function setSortSteam(mode, btn) {
+    _steamSort = mode;
+    document.querySelectorAll('#section-steam .sort-btn').forEach(b => {
+      b.style.background = 'var(--bg3)';
+      b.style.borderColor = 'var(--border)';
+      b.style.color = 'var(--text-muted)';
+    });
+    btn.style.background = 'rgba(27,40,56,0.6)';
+    btn.style.borderColor = 'rgba(42,71,94,0.8)';
+    btn.style.color = '#7ecff5';
+    const sorted = sortSteam(_steamData, mode);
+    renderSteamCards(sorted, 'steam-grid');
+  }
+
+  function sortSteam(data, mode) {
+    const arr = [...data];
+    if (mode === 'ccu')     return arr.sort((a,b) => (b.ccu||0) - (a.ccu||0));
+    if (mode === 'reviews') return arr.sort((a,b) => (b.review_score||0) - (a.review_score||0));
+    if (mode === 'new')     return arr.sort((a,b) => (a.days||999) - (b.days||999));
+    return arr;
+  }
+
+  function renderSteam(data) {
+    _steamData = data || [];
+    document.getElementById('steam-count').textContent = _steamData.length + ' игр';
+    document.getElementById('tab-count-steam').textContent = _steamData.length;
+    renderSteamCards(_steamData, 'steam-grid');
+  }
+
+  function renderSteamCards(data, gridId) {
+    const grid = document.getElementById(gridId);
+    if (!data || !data.length) {
+      grid.innerHTML = '<div style="color:var(--text-muted);padding:20px">Нет данных</div>';
+      return;
+    }
+    grid.innerHTML = data.map((g) => {
+      const headerImg   = g.header_image || '';
+      const reviewPct   = g.review_score || 0;
+      const reviewColor = reviewPct >= 90 ? 'var(--green)' : reviewPct >= 70 ? 'var(--yellow)' : 'var(--red)';
+      const priceStr    = g.price === '0' || g.price === 'Free' || g.price === '0.00' ? 'F2P' : ('$' + g.price);
+      const ccuStr      = g.ccu >= 1000 ? Math.round(g.ccu/1000) + 'K' : g.ccu;
+      const ownersStr   = g.owners_mid >= 1000000 ? (g.owners_mid/1000000).toFixed(1) + 'M'
+                        : g.owners_mid >= 1000 ? Math.round(g.owners_mid/1000) + 'K' : (g.owners_mid || '?');
+      const screens = (g.screenshots || []).map(s =>
+        `<img src="${s}" loading="lazy" onerror="this.style.display='none'">`
+      ).join('');
+      const tags = (g.tags || []).slice(0, 5).map(t =>
+        `<span class="card-tag">${t}</span>`
+      ).join(' ');
+      return `
+    <div class="card rocket-card" onclick="this.classList.toggle('open')">
+      <div class="rc-head">
+        <div class="game-emoji" style="width:60px;height:28px;border-radius:4px">
+          ${headerImg ? `<img src="${headerImg}" style="width:100%;height:100%;object-fit:cover;border-radius:4px">` : '🎮'}
+        </div>
+        <div class="rc-info">
+          <div class="game-name">${g.name}</div>
+          <div class="rc-meta">
+            <span class="card-tag">${(g.genre||'').split(',')[0] || ''}</span>
+            <span class="game-genre">${g.developer || ''} · ${priceStr}</span>
+          </div>
+        </div>
+        <div class="rc-inline-stats">
+          <div class="rc-inline-stat">
+            <div class="rc-inline-val">${ccuStr}</div>
+            <div class="rc-inline-lbl">онлайн</div>
+          </div>
+          <div class="rc-inline-stat">
+            <div class="rc-inline-val" style="color:${reviewColor}">${reviewPct}%</div>
+            <div class="rc-inline-lbl">отзывы</div>
+          </div>
+          <div class="rc-inline-stat">
+            <div class="rc-inline-val white">${ownersStr}</div>
+            <div class="rc-inline-lbl">владельцев</div>
+          </div>
+          <div class="rc-inline-stat">
+            <div class="rc-inline-val yellow">${g.days}д</div>
+            <div class="rc-inline-lbl">${(g.release_date||'').slice(0,6) || ''}</div>
+          </div>
+        </div>
+        <div class="rc-chevron">▼</div>
+      </div>
+      <div class="rc-body">
+        <div class="rc-metrics">
+          <div class="rc-m">
+            <div class="rc-m-val green">${(g.ccu||0).toLocaleString()}</div>
+            <div class="rc-m-lbl">Онлайн сейчас</div>
+          </div>
+          <div class="rc-m">
+            <div class="rc-m-val">${(g.avg_2weeks||0).toLocaleString()}</div>
+            <div class="rc-m-lbl">Среднее 2 нед.</div>
+          </div>
+          <div class="rc-m">
+            <div class="rc-m-val" style="-webkit-text-fill-color:${reviewColor}">${reviewPct}%</div>
+            <div class="rc-m-lbl">${(g.positive||0)+(g.negative||0)} отзывов</div>
+          </div>
+          <div class="rc-m">
+            <div class="rc-m-val yellow">${g.days}</div>
+            <div class="rc-m-lbl">дней</div>
+            <div style="font-size:0.6rem;color:var(--text-muted);margin-top:2px">${g.release_date || ''}</div>
+          </div>
+        </div>
+        ${g.short_description ? `<div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:12px;line-height:1.5">${g.short_description}</div>` : ''}
+        ${tags ? `<div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:12px">${tags}</div>` : ''}
+        ${screens ? `<div class="rc-screenshots">${screens}</div>` : ''}
+        <div class="rc-footer">
+          <span>👤 ${g.owners || ''} владельцев</span>
+          <a class="play-link" href="${g.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Steam ↗</a>
+        </div>
+      </div>
+    </div>`;
+    }).join('');
+  }
+  // ─── /STEAM ───────────────────────────────────────────────────────────────
+
   // RENDER STATS
-  function renderStats({rockets, viral_trends, watchlist}) {
+  function renderStats({rockets, viral_trends, watchlist, steamData}) {
     const maxDay = rockets.length ? Math.max(...rockets.map(r => r.perDay)) : 0;
     document.getElementById('stats-bar').innerHTML = `
       <div class="stat-item">
@@ -1392,6 +1542,11 @@
       <div class="stat-item">
         <div class="stat-num">${watchlist.length}</div>
         <div class="stat-lbl">Watchlist</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">${(steamData||[]).length}</div>
+        <div class="stat-lbl">Steam ракет</div>
       </div>
     `;
   }
@@ -1421,6 +1576,7 @@
     if (meta) {
       updateTimeLabel('rockets-time', meta.rockets_updated);
       updateTimeLabel('hype-time', meta.hype_updated);
+      updateTimeLabel('steam-time', meta.steam_updated);
     }
   }, 60000);
 
@@ -1428,9 +1584,10 @@
     const BASE = './';
     const t = Date.now();
     try {
-      const [rockets, hype, news, ideas, meta] = await Promise.allSettled([
+      const [rockets, hype, steam, news, ideas, meta] = await Promise.allSettled([
         fetch(`${BASE}rockets.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}hype.json?t=${t}`).then(r => r.ok ? r.json() : {}),
+        fetch(`${BASE}steam.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}news.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}ideas.json?t=${t}`).then(r => r.ok ? r.json() : []),
         fetch(`${BASE}meta.json?t=${t}`).then(r => r.ok ? r.json() : {}),
@@ -1443,6 +1600,7 @@
         ? rocketRaw.filter(r => r.isWatchlist)
         : (rocketRaw.watchlist || []);
       const hypeData   = hype.status === 'fulfilled'    ? hype.value    : {};
+      const steamData  = steam.status === 'fulfilled'   ? steam.value   : [];
       const newsData   = news.status === 'fulfilled'    ? news.value    : [];
       const ideasData  = ideas.status === 'fulfilled'   ? ideas.value   : [];
       const metaData   = meta.status === 'fulfilled'    ? meta.value    : {};
@@ -1451,6 +1609,7 @@
       window._lastMeta = metaData;
       updateTimeLabel('rockets-time', metaData.rockets_updated);
       updateTimeLabel('hype-time', metaData.hype_updated);
+      updateTimeLabel('steam-time', metaData.steam_updated);
 
       // Обогащаем viral_trends данными валидации
       const viralTrends = hypeData.viral_trends || [];
@@ -1472,9 +1631,10 @@
         return (b.vpd||0) - (a.vpd||0);
       });
 
-      renderStats({rockets: rocketData, viral_trends: enrichedTrends, watchlist: watchlistData});
+      renderStats({rockets: rocketData, viral_trends: enrichedTrends, watchlist: watchlistData, steamData});
       renderRockets(rocketData, watchlistData);
       renderViralTrends(enrichedTrends, hypeData.google_trends || []);
+      renderSteam(steamData);
       renderNews(newsData);
       renderIdeas(ideasData);
 
@@ -1511,7 +1671,7 @@
 
   function startPolling(type, startTime) {
     clearRefreshTimers(type);
-    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : '🔥 Обновить хайп';
+    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : type === 'hype' ? '🔥 Обновить хайп' : '🎮 Обновить Steam';
     setRefreshUI(type, '⏳', type === 'rockets' ? 'Парсер работает...' : 'Собираю хайп...', true);
 
     const timer = setInterval(() => {
@@ -1552,7 +1712,7 @@
   }
 
   async function startRefresh(type) {
-    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : '🔥 Обновить хайп';
+    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : type === 'hype' ? '🔥 Обновить хайп' : '🎮 Обновить Steam';
     setRefreshUI(type, '⏳', 'Отправляю...', true);
 
     try {
@@ -1581,7 +1741,7 @@
 
   // On page load: check if update is in progress
   async function checkUpdateStatus() {
-    for (const type of ['rockets', 'hype']) {
+    for (const type of ['rockets', 'hype', 'steam']) {
       try {
         const s = await fetch(WORKER_URL + '/status?type=' + type).then(r => r.json());
         if (s.state === 'pending' || s.state === 'running') {
