@@ -732,6 +732,21 @@
       .rc-inline-lbl { font-size: 0.58rem; }
       .rc-chevron { font-size: 0.6rem; margin-left: 4px; }
 
+      /* Развёрнутая карточка — сетка 3 колонки */
+      .rc-metrics {
+        flex-wrap: wrap;
+        gap: 0;
+      }
+      .rc-m {
+        flex: 0 0 33.33%;
+        border-right: none !important;
+        border-bottom: 1px solid var(--border);
+        padding: 8px 4px;
+      }
+      .rc-m:nth-child(3n) { border-right: none; }
+      .rc-m-val { font-size: 0.9rem; }
+      .rc-m-lbl { font-size: 0.58rem; }
+
       /* Hype rows mobile */
       .hype-row { padding: 8px 10px; }
       .hype-title { font-size: 0.78rem; }
