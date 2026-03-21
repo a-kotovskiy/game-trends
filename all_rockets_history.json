@@ -3695,8 +3695,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.ares.baseball",
     "first_seen": "2026-03-20",
     "last_seen": "2026-03-21",
-    "peak_dpd": 6027,
-    "peak_date": "2026-03-20",
+    "peak_dpd": 10112,
+    "peak_date": "2026-03-21",
     "history": [
       {
         "date": "2026-03-20",
@@ -3709,6 +3709,25 @@
         "installs": 24111,
         "dpd": 4822,
         "score": 4.4
+      }
+    ]
+  },
+  "obby.wave.go": {
+    "id": "obby.wave.go",
+    "name": "Obby Run: from Wave",
+    "genre": "Arcade",
+    "icon": "https://play-lh.googleusercontent.com/Yb5eBvcF-Nfr_hFyykDmpd_An1VFT2Cgz32sfXS4QJn1byzsbmSNuS0bEOaxLu88ZFniQREtBmiSmtOs8F_asUM",
+    "url": "https://play.google.com/store/apps/details?id=obby.wave.go",
+    "first_seen": "2026-03-21",
+    "last_seen": "2026-03-21",
+    "peak_dpd": 522,
+    "peak_date": "2026-03-21",
+    "history": [
+      {
+        "date": "2026-03-21",
+        "installs": 11501,
+        "dpd": 522,
+        "score": 0
       }
     ]
   }
