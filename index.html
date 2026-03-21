@@ -1754,6 +1754,37 @@
     loadData();
     checkUpdateStatus();
   });
+
+  // При возврате на страницу (из свёрнутого) — проверить статус и обновить данные
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') {
+      // Сбросить зависшие таймеры
+      for (const type of ['rockets', 'hype', 'steam']) {
+        if (_refreshTimers[type]) {
+          // Проверяем реальный статус Worker
+          fetch(WORKER_URL + '/status?type=' + type)
+            .then(r => r.json())
+            .then(s => {
+              if (s.state === 'idle') {
+                // Обновление завершилось пока страница была свёрнута
+                clearRefreshTimers(type);
+                const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : type === 'hype' ? '🔥 Обновить хайп' : '🎮 Обновить Steam';
+                if (s.error) {
+                  setRefreshUI(type, '⚠️', 'Ошибка', false);
+                  setTimeout(() => setRefreshUI(type, '↻', defaultLabel, false), 3000);
+                } else {
+                  setRefreshUI(type, '✅', 'Обновлено!', false);
+                  setTimeout(() => setRefreshUI(type, '↻', defaultLabel, false), 3000);
+                }
+              }
+            })
+            .catch(() => {});
+        }
+      }
+      // Перезагрузить данные
+      loadData();
+    }
+  });
 </script>
 
 </body>
