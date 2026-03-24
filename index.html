@@ -781,10 +781,7 @@
     .watch-btn.watching {
       color: #a855f7;
     }
-    .watch-btn.server-watch {
-      color: #7c3aed;
-      cursor: default;
-    }
+    /* server-watch removed — all stars are toggleable */
 
     /* Watch badge */
     .watch-badge {
@@ -1131,26 +1128,19 @@
         `<img src="${s}" loading="lazy" onerror="this.style.display='none'">`
       ).join('');
 
-      // Watch state
-      const isServerWatch = !!g.isWatchlist;
-      const isUserWatch = userWatchlist.includes(g.id);
-      const isWatching = isServerWatch || isUserWatch;
+      // Watch state — all stars are equal and toggleable
+      const isWatching = !!g.isWatchlist || userWatchlist.includes(g.id);
 
       // Watch badge
       const watchBadgeHtml = isWatching
-        ? `<span class="watch-badge"${isUserWatch && !isServerWatch ? ' data-user-badge="1"' : ''}>👁 Слежу</span>`
+        ? `<span class="watch-badge" data-user-badge="1">👁 Слежу</span>`
         : '';
 
-      // Watch button
-      let watchBtnHtml;
-      if (isServerWatch) {
-        watchBtnHtml = `<button class="watch-btn server-watch watching" title="Отслеживается сервером" onclick="event.stopPropagation()">★</button>`;
-      } else {
-        const starChar = isUserWatch ? '★' : '☆';
-        const watchingClass = isUserWatch ? ' watching' : '';
-        const btnTitle = isUserWatch ? 'Снять с отслеживания' : 'Отслеживать';
-        watchBtnHtml = `<button class="watch-btn${watchingClass}" data-game-id="${g.id}" title="${btnTitle}" onclick="event.stopPropagation();toggleUserWatch('${g.id}',this)">${starChar}</button>`;
-      }
+      // Watch button — same for all games
+      const starChar = isWatching ? '★' : '☆';
+      const watchingClass = isWatching ? ' watching' : '';
+      const btnTitle = isWatching ? 'Снять с отслеживания' : 'Отслеживать';
+      const watchBtnHtml = `<button class="watch-btn${watchingClass}" data-game-id="${g.id}" title="${btnTitle}" onclick="event.stopPropagation();toggleUserWatch('${g.id}',this)">${starChar}</button>`;
 
       return `
         <div class="card rocket-card" data-rocket-idx="${idx}" onclick="toggleRocket(this)">
@@ -1235,14 +1225,23 @@
       }
     });
 
+    // Seed localStorage with server watchlist so they're toggleable
+    const userWatchlist = getUserWatchlist();
+    let changed = false;
+    watchlistArr.forEach(g => {
+      if (!userWatchlist.includes(g.id)) {
+        userWatchlist.push(g.id);
+        changed = true;
+      }
+    });
+    if (changed) saveUserWatchlist(userWatchlist);
+
     // Sort by dpd by default (current sort mode)
     _allRocketsData = merged;
     const sorted = sortRockets(merged, _currentSort);
     window._rocketData = sorted;
 
-    // Total count: rockets + watchlist (unique)
-    const userWatchlist = getUserWatchlist();
-    const userWatchExtra = userWatchlist.filter(id => !seenIds.has(id)).length;
+    // Total count
     const totalCount = merged.length;
     document.getElementById('rockets-count').textContent = totalCount + ' игр';
     document.getElementById('tab-count-rockets').textContent = totalCount;
