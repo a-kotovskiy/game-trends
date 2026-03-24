@@ -1177,8 +1177,8 @@
       const watchBtnHtml = `<button class="watch-btn${watchingClass}" data-game-id="${g.id}"${serverAttr} title="${btnTitle}" onclick="event.stopPropagation();toggleUserWatch('${g.id}',this)">${starChar}</button>`;
 
       return `
-        <div class="card rocket-card" data-rocket-idx="${idx}" onclick="toggleRocket(this)">
-          <div class="rc-head">
+        <div class="card rocket-card" data-rocket-idx="${idx}">
+          <div class="rc-head" onclick="toggleRocket(this.parentElement)" style="cursor:pointer">
             <div class="game-emoji">${iconHtml}</div>
             <div class="rc-info">
               <div class="game-name">${g.name}</div>
