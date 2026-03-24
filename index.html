@@ -1020,7 +1020,9 @@
   }
 
   // User watchlist (localStorage)
+  // Two keys: favorites (user added) and dismissed (user removed server watchlist)
   const USER_WATCHLIST_KEY = 'game-trends-user-watchlist';
+  const USER_DISMISSED_KEY = 'game-trends-dismissed-watchlist';
 
   function getUserWatchlist() {
     try {
@@ -1032,11 +1034,35 @@
     localStorage.setItem(USER_WATCHLIST_KEY, JSON.stringify(list));
   }
 
+  function getDismissedWatchlist() {
+    try {
+      return JSON.parse(localStorage.getItem(USER_DISMISSED_KEY) || '[]');
+    } catch(e) { return []; }
+  }
+
+  function saveDismissedWatchlist(list) {
+    localStorage.setItem(USER_DISMISSED_KEY, JSON.stringify(list));
+  }
+
+  function isGameWatched(gameId, isServerWatch) {
+    const userList = getUserWatchlist();
+    const dismissed = getDismissedWatchlist();
+    if (userList.includes(gameId)) return true;
+    if (isServerWatch && !dismissed.includes(gameId)) return true;
+    return false;
+  }
+
   function toggleUserWatch(gameId, btn) {
-    const list = getUserWatchlist();
-    const idx = list.indexOf(gameId);
-    if (idx === -1) {
-      list.push(gameId);
+    const userList = getUserWatchlist();
+    const dismissed = getDismissedWatchlist();
+    const isCurrentlyWatched = userList.includes(gameId) || (!dismissed.includes(gameId) && btn.dataset.serverWatch === '1');
+
+    if (!isCurrentlyWatched) {
+      // Add to favorites
+      if (!userList.includes(gameId)) userList.push(gameId);
+      // Remove from dismissed if it was there
+      const dIdx = dismissed.indexOf(gameId);
+      if (dIdx !== -1) dismissed.splice(dIdx, 1);
       btn.textContent = '★';
       btn.classList.add('watching');
       btn.title = 'Снять с отслеживания';
@@ -1052,7 +1078,11 @@
         }
       }
     } else {
-      list.splice(idx, 1);
+      // Remove from favorites
+      const uIdx = userList.indexOf(gameId);
+      if (uIdx !== -1) userList.splice(uIdx, 1);
+      // Add to dismissed (so server watchlist doesn't re-add)
+      if (!dismissed.includes(gameId)) dismissed.push(gameId);
       btn.textContent = '☆';
       btn.classList.remove('watching');
       btn.title = 'Отслеживать';
@@ -1065,7 +1095,8 @@
         }
       }
     }
-    saveUserWatchlist(list);
+    saveUserWatchlist(userList);
+    saveDismissedWatchlist(dismissed);
   }
 
   // Сортировка ракет
@@ -1085,7 +1116,8 @@
     const sorted = sortRockets(_allRocketsData, mode);
     window._rocketData = sorted;
     const userWatchlist = getUserWatchlist();
-    renderRocketCards(sorted, 'rockets-grid', 0, userWatchlist);
+    const dismissed = getDismissedWatchlist();
+    renderRocketCards(sorted, 'rockets-grid', 0, userWatchlist, dismissed);
   }
 
   function sortRockets(data, mode) {
@@ -1111,10 +1143,11 @@
     return '';
   }
 
-  function renderRocketCards(data, gridId, offset, userWatchlist) {
+  function renderRocketCards(data, gridId, offset, userWatchlist, dismissed) {
     const grid = document.getElementById(gridId);
     if (!data || !data.length) { grid.innerHTML = '<div style="color:var(--text-muted);padding:20px">Нет данных</div>'; return; }
     if (!userWatchlist) userWatchlist = getUserWatchlist();
+    if (!dismissed) dismissed = getDismissedWatchlist();
     const maxPerDay = Math.max(...data.map(r => r.perDay), 1);
     grid.innerHTML = data.map((g, i) => {
       const idx = offset + i;
@@ -1126,19 +1159,22 @@
         `<img src="${s}" loading="lazy" onerror="this.style.display='none'">`
       ).join('');
 
-      // Watch state — all stars are equal and toggleable
-      const isWatching = !!g.isWatchlist || userWatchlist.includes(g.id);
+      // Watch state: user favorites OR server watchlist (if not dismissed)
+      const isUserFav = userWatchlist.includes(g.id);
+      const isServerActive = !!g.isWatchlist && !dismissed.includes(g.id);
+      const isWatching = isUserFav || isServerActive;
 
       // Watch badge
       const watchBadgeHtml = isWatching
         ? `<span class="watch-badge" data-user-badge="1">👁 Слежу</span>`
         : '';
 
-      // Watch button — same for all games
+      // Watch button
       const starChar = isWatching ? '★' : '☆';
       const watchingClass = isWatching ? ' watching' : '';
       const btnTitle = isWatching ? 'Снять с отслеживания' : 'Отслеживать';
-      const watchBtnHtml = `<button class="watch-btn${watchingClass}" data-game-id="${g.id}" title="${btnTitle}" onclick="event.stopPropagation();toggleUserWatch('${g.id}',this)">${starChar}</button>`;
+      const serverAttr = g.isWatchlist ? ' data-server-watch="1"' : '';
+      const watchBtnHtml = `<button class="watch-btn${watchingClass}" data-game-id="${g.id}"${serverAttr} title="${btnTitle}" onclick="event.stopPropagation();toggleUserWatch('${g.id}',this)">${starChar}</button>`;
 
       return `
         <div class="card rocket-card" data-rocket-idx="${idx}" onclick="toggleRocket(this)">
@@ -1222,22 +1258,19 @@
       }
     });
 
-    // Seed localStorage with server watchlist so they're toggleable
+    // No seeding — user controls their own watchlist via stars
     const userWatchlist = getUserWatchlist();
-    let changed = false;
-    watchlistArr.forEach(g => {
-      if (!userWatchlist.includes(g.id)) {
-        userWatchlist.push(g.id);
-        changed = true;
-      }
-    });
-    if (changed) saveUserWatchlist(userWatchlist);
+    const dismissed = getDismissedWatchlist();
 
-    // Filter: show only ≥1000 dpd OR watched games (always visible)
+    // Filter: show only ≥1000 dpd OR actively watched games
     const MIN_DPD = 1000;
-    const filtered = merged.filter(g =>
-      (g.perDay >= MIN_DPD) || g.isWatchlist || userWatchlist.includes(g.id)
-    );
+    const filtered = merged.filter(g => {
+      if (g.perDay >= MIN_DPD) return true;
+      if (userWatchlist.includes(g.id)) return true;
+      // Server watchlist only if not dismissed by user
+      if (g.isWatchlist && !dismissed.includes(g.id)) return true;
+      return false;
+    });
 
     // Sort
     _allRocketsData = filtered;
