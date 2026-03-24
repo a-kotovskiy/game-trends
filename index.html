@@ -756,6 +756,45 @@
       .pl-link { font-size: 0.6rem; padding: 2px 5px; }
     }
 
+    /* Watch button */
+    .watch-btn {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 4px 6px;
+      border-radius: 6px;
+      color: var(--text-muted);
+      transition: color 0.2s, background 0.15s, transform 0.1s;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .watch-btn:hover {
+      background: rgba(124, 58, 237, 0.15);
+      color: var(--accent3);
+      transform: scale(1.15);
+    }
+    .watch-btn.watching {
+      color: #a855f7;
+    }
+    .watch-btn.server-watch {
+      color: #7c3aed;
+      cursor: default;
+    }
+
+    /* Watch badge */
+    .watch-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #7c3aed, #a855f7);
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
     /* ERROR */
     .error-banner {
       background: rgba(239,68,68,0.1);
@@ -876,18 +915,7 @@
       <div class="loading"><div class="spinner"></div></div>
     </div>
 
-    <!-- WATCHLIST -->
-    <div class="section-header watchlist-header" style="margin-top:32px">
-      <div class="section-icon">👁</div>
-      <div>
-        <div class="section-title">Слежу</div>
-        <div class="section-subtitle">Проекты на радаре — собираем статистику отдельно</div>
-      </div>
-      <div class="section-count" id="watchlist-count">...</div>
-    </div>
-    <div class="rockets-list" id="watchlist-grid">
-      <div class="loading"><div class="spinner"></div></div>
-    </div>
+
   </section>
 
   <!-- VIRAL TRENDS -->
@@ -991,14 +1019,64 @@
     btn.classList.add('active');
   }
 
+  // User watchlist (localStorage)
+  const USER_WATCHLIST_KEY = 'game-trends-user-watchlist';
+
+  function getUserWatchlist() {
+    try {
+      return JSON.parse(localStorage.getItem(USER_WATCHLIST_KEY) || '[]');
+    } catch(e) { return []; }
+  }
+
+  function saveUserWatchlist(list) {
+    localStorage.setItem(USER_WATCHLIST_KEY, JSON.stringify(list));
+  }
+
+  function toggleUserWatch(gameId, btn) {
+    const list = getUserWatchlist();
+    const idx = list.indexOf(gameId);
+    if (idx === -1) {
+      list.push(gameId);
+      btn.textContent = '★';
+      btn.classList.add('watching');
+      btn.title = 'Снять с отслеживания';
+      // Add badge if not present
+      const card = btn.closest('.rocket-card');
+      if (card) {
+        const meta = card.querySelector('.rc-meta');
+        if (meta && !meta.querySelector('.watch-badge')) {
+          const badge = document.createElement('span');
+          badge.className = 'watch-badge';
+          badge.setAttribute('data-user-badge', '1');
+          badge.textContent = '👁 Слежу';
+          meta.appendChild(badge);
+        }
+      }
+    } else {
+      list.splice(idx, 1);
+      btn.textContent = '☆';
+      btn.classList.remove('watching');
+      btn.title = 'Отслеживать';
+      // Remove user-added badge only
+      const card = btn.closest('.rocket-card');
+      if (card) {
+        const meta = card.querySelector('.rc-meta');
+        if (meta) {
+          const badge = meta.querySelector('.watch-badge[data-user-badge="1"]');
+          if (badge) badge.remove();
+        }
+      }
+    }
+    saveUserWatchlist(list);
+  }
+
   // Сортировка ракет
   let _currentSort = 'dpd';
-  let _rocketsData = [];
-  let _watchlistData = [];
+  let _allRocketsData = []; // combined array (rockets + watchlist)
 
   function setSortRockets(mode, btn) {
     _currentSort = mode;
-    document.querySelectorAll('.sort-btn').forEach(b => {
+    document.querySelectorAll('#section-rockets .sort-btn').forEach(b => {
       b.style.background = 'var(--bg3)';
       b.style.borderColor = 'var(--border)';
       b.style.color = 'var(--text-muted)';
@@ -1006,8 +1084,8 @@
     btn.style.background = 'rgba(124,58,237,0.25)';
     btn.style.borderColor = 'rgba(124,58,237,0.6)';
     btn.style.color = '#a855f7';
-    const sorted = sortRockets(_rocketsData, mode);
-    window._rocketData = sorted.concat(_watchlistData);
+    const sorted = sortRockets(_allRocketsData, mode);
+    window._rocketData = sorted;
     renderRocketCards(sorted, 'rockets-grid', 0);
   }
 
@@ -1038,6 +1116,7 @@
     const grid = document.getElementById(gridId);
     if (!data || !data.length) { grid.innerHTML = '<div style="color:var(--text-muted);padding:20px">Нет данных</div>'; return; }
     const maxPerDay = Math.max(...data.map(r => r.perDay), 1);
+    const userWatchlist = getUserWatchlist();
     grid.innerHTML = data.map((g, i) => {
       const idx = offset + i;
       const pct = Math.round((g.perDay / maxPerDay) * 100);
@@ -1047,6 +1126,28 @@
       const screens = (g.screenshots || []).map(s =>
         `<img src="${s}" loading="lazy" onerror="this.style.display='none'">`
       ).join('');
+
+      // Watch state
+      const isServerWatch = !!g.isWatchlist;
+      const isUserWatch = userWatchlist.includes(g.id);
+      const isWatching = isServerWatch || isUserWatch;
+
+      // Watch badge
+      const watchBadgeHtml = isWatching
+        ? `<span class="watch-badge"${isUserWatch && !isServerWatch ? ' data-user-badge="1"' : ''}>👁 Слежу</span>`
+        : '';
+
+      // Watch button
+      let watchBtnHtml;
+      if (isServerWatch) {
+        watchBtnHtml = `<button class="watch-btn server-watch watching" title="Отслеживается сервером" onclick="event.stopPropagation()">★</button>`;
+      } else {
+        const starChar = isUserWatch ? '★' : '☆';
+        const watchingClass = isUserWatch ? ' watching' : '';
+        const btnTitle = isUserWatch ? 'Снять с отслеживания' : 'Отслеживать';
+        watchBtnHtml = `<button class="watch-btn${watchingClass}" data-game-id="${g.id}" title="${btnTitle}" onclick="event.stopPropagation();toggleUserWatch('${g.id}',this)">${starChar}</button>`;
+      }
+
       return `
         <div class="card rocket-card" data-rocket-idx="${idx}" onclick="toggleRocket(this)">
           <div class="rc-head">
@@ -1056,6 +1157,7 @@
               <div class="rc-meta">
                 <span class="card-tag">${g.tag}</span>
                 ${newBadge(g.days)}
+                ${watchBadgeHtml}
                 <span class="game-genre">${g.genre}${g.score ? ' · ⭐' + g.score : ''}</span>
               </div>
             </div>
@@ -1073,6 +1175,7 @@
                 <div class="rc-inline-lbl">${g.releaseDate.slice(0,6)}</div>
               </div>
             </div>
+            ${watchBtnHtml}
             <div class="rc-chevron">▼</div>
           </div>
           <div class="rc-body">
@@ -1112,21 +1215,35 @@
   }
 
   function renderRockets(rockets, watchlist) {
-    // Сохраняем для сортировки
-    _rocketsData = rockets || [];
-    _watchlistData = watchlist || [];
+    const rocketArr = rockets || [];
+    const watchlistArr = (watchlist || []).map(g => Object.assign({}, g, {isWatchlist: true}));
 
-    // Топ
-    document.getElementById('rockets-count').textContent = (_rocketsData).length + ' игр';
-    document.getElementById('tab-count-rockets').textContent = (_rocketsData).length;
-    // Watchlist
-    const wlCount = document.getElementById('watchlist-count');
-    if (wlCount) wlCount.textContent = (_watchlistData).length + ' игр';
+    // Merge: watchlist games always included; deduplicate by id
+    const seenIds = new Set();
+    const merged = [];
+    rocketArr.forEach(g => { seenIds.add(g.id); merged.push(g); });
+    watchlistArr.forEach(g => {
+      if (!seenIds.has(g.id)) merged.push(g);
+      else {
+        // Mark existing entry as watchlist
+        const existing = merged.find(m => m.id === g.id);
+        if (existing) existing.isWatchlist = true;
+      }
+    });
 
-    // Единый массив для поиска по idx при toggleRocket
-    window._rocketData = (_rocketsData).concat(_watchlistData);
-    renderRocketCards(_rocketsData, 'rockets-grid', 0);
-    renderRocketCards(_watchlistData, 'watchlist-grid', (_rocketsData).length);
+    // Sort by dpd by default (current sort mode)
+    _allRocketsData = merged;
+    const sorted = sortRockets(merged, _currentSort);
+    window._rocketData = sorted;
+
+    // Total count: rockets + watchlist (unique)
+    const userWatchlist = getUserWatchlist();
+    const userWatchExtra = userWatchlist.filter(id => !seenIds.has(id)).length;
+    const totalCount = merged.length;
+    document.getElementById('rockets-count').textContent = totalCount + ' игр';
+    document.getElementById('tab-count-rockets').textContent = totalCount;
+
+    renderRocketCards(sorted, 'rockets-grid', 0);
   }
 
   const chartInstances = {};
@@ -1544,8 +1661,9 @@
   // ─── /STEAM ───────────────────────────────────────────────────────────────
 
   // RENDER STATS
-  function renderStats() {
+  function renderStats({rockets, watchlist, viral_trends, steamData} = {}) {
     // Stats bar removed — no-op
+    // (watchlist count = server watchlist + user watchlist stored in localStorage)
   }
 
   // LOAD DATA
