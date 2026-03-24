@@ -1236,9 +1236,15 @@
     });
     if (changed) saveUserWatchlist(userWatchlist);
 
+    // Filter: show only ≥1000 dpd OR watched games (always visible)
+    const MIN_DPD = 1000;
+    const filtered = merged.filter(g =>
+      (g.perDay >= MIN_DPD) || g.isWatchlist || userWatchlist.includes(g.id)
+    );
+
     // Sort by dpd by default (current sort mode)
-    _allRocketsData = merged;
-    const sorted = sortRockets(merged, _currentSort);
+    _allRocketsData = filtered;
+    const sorted = sortRockets(filtered, _currentSort);
     window._rocketData = sorted;
 
     // Total count

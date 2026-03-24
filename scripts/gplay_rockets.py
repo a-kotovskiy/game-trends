@@ -84,6 +84,31 @@ SEARCH_QUERIES = [
     ('skibidi game', 'us'),
     ('satisfying game', 'us'),
     ('asmr game', 'us'),
+    # Доп жанры и тренды
+    ('tycoon game new 2026', 'us'),
+    ('horror game mobile 2026', 'us'),
+    ('escape game new android', 'us'),
+    ('tower defense new 2026', 'us'),
+    ('roguelike mobile new', 'us'),
+    ('vampire survivors like', 'us'),
+    ('anime game new 2026', 'us'),
+    ('cooking game new 2026', 'us'),
+    ('farming game new 2026', 'us'),
+    ('zombie game new 2026', 'us'),
+    ('car game new 2026', 'us'),
+    ('FPS game new android', 'us'),
+    ('battle royale new 2026', 'us'),
+    ('card game new android 2026', 'us'),
+    ('base building game new', 'us'),
+    ('sandbox game new android', 'us'),
+    ('multiplayer game new 2026', 'us'),
+    ('offline game new 2026', 'us'),
+    # Регионы с активным мобайлом
+    ('new game 2026', 'jp'),
+    ('new game 2026', 'kr'),
+    ('new game 2026', 'mx'),
+    ('new game 2026', 'ph'),
+    ('new game 2026', 'th'),
 ]
 
 SKIP_KEYWORDS = [
@@ -300,6 +325,48 @@ with ThreadPoolExecutor(max_workers=8) as ex:
         if len(all_ids) > before:
             pass  # молча
 print(f"После категорий: {len(all_ids)} уникальных ids", file=sys.stderr)
+
+# 1.5. Внешние агрегаторы (AppBrain, AndroidRank и т.д.)
+EXTERNAL_URLS = [
+    # AppBrain - новинки, растущие, популярные бесплатные игры
+    "https://www.appbrain.com/stats/new-android-games",
+    "https://www.appbrain.com/stats/google-play-rankings/top_free/game",
+    "https://www.appbrain.com/stats/google-play-rankings/top_growing/game",
+    "https://www.appbrain.com/stats/google-play-rankings/top_new_free/game",
+    "https://www.appbrain.com/stats/google-play-rankings/topselling_new_free/game",
+    # AndroidRank - недавние хиты
+    "https://androidrank.org/android-most-popular-google-play-apps?category=GAME&sort=4&price=free",
+    "https://androidrank.org/android-most-popular-google-play-apps?category=GAME&sort=0&price=free",
+    # Google Play top charts прямые ссылки (больше регионов)
+    "https://play.google.com/store/games/collection/cluster?clp=0g4jCiEKG3RvcHNlbGxpbmdfZnJlZV9HQU1FX0FMTBAHUA%3D%3D:S:ANO1ljKcVIA&gsr=CibSDiMKIQobdG9wc2VsbGluZ19mcmVlX0dBTUVfQUxMEFBYAQ%3D%3D:S:ANO1ljIKCfQ",
+    "https://play.google.com/store/games/collection/cluster?clp=0g4nCiUKH3RvcHNlbGxpbmdfbmV3X2ZyZWVfR0FNRV9BTEwQUFgB:S:ANO1ljJIvJw&gsr=CirSDicKJQofdG9wc2VsbGluZ19uZXdfZnJlZV9HQU1FX0FMTBBQWAE%3D:S:ANO1ljIiVng",
+    # SimilarWeb top apps (если доступно)
+    "https://www.similarweb.com/apps/top/google/store-rank/us/games/top-free/",
+    "https://www.similarweb.com/apps/top/google/store-rank/us/games/new-apps/",
+]
+
+def get_ids_from_external(url):
+    """Парсит app ids из внешних агрегаторов."""
+    try:
+        cmd = f'curl -sL "{url}" -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36" --connect-timeout 10 --max-time 20'
+        html = subprocess.check_output(cmd, shell=True, timeout=25).decode('utf-8', errors='ignore')
+        # Ищем Google Play app ids в ссылках и тексте
+        ids = re.findall(r'(?:id=|details\?id=|/app/)([a-z][a-zA-Z0-9]*\.[a-zA-Z][a-zA-Z0-9.]{3,})', html)
+        # Также парсим стандартный формат пакетов
+        ids += re.findall(r'"([a-z][a-zA-Z0-9]*\.[a-zA-Z][a-zA-Z0-9.]{3,})"', html)
+        clean = [i for i in ids if '.' in i and not any(x in i for x in SKIP_KEYWORDS)]
+        return list(set(clean))
+    except:
+        return []
+
+print(f"Внешние агрегаторы ({len(EXTERNAL_URLS)} URL)...", file=sys.stderr)
+before_ext = len(all_ids)
+with ThreadPoolExecutor(max_workers=6) as ex:
+    futures = {ex.submit(get_ids_from_external, url): url for url in EXTERNAL_URLS}
+    for fut in as_completed(futures):
+        ids = fut.result()
+        all_ids.update(ids)
+print(f"После агрегаторов: +{len(all_ids) - before_ext} новых, итого {len(all_ids)}", file=sys.stderr)
 
 # 2. Поиск через search API (параллельно) - их ставим в приоритет
 print(f"Поиск через search API ({len(SEARCH_QUERIES)} запросов)...", file=sys.stderr)
