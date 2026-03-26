@@ -63,12 +63,36 @@ def get_validated_hype():
         log(f"Валидация хайпа: ошибка - {e}")
     return []
 
+def get_channel_hype():
+    log("Мониторинг gaming-каналов...")
+    try:
+        result = subprocess.run(
+            ["python3", f"{SCRIPTS}/monitor_channels.py"],
+            timeout=600, capture_output=True
+        )
+        tmp = "/tmp/channel_hype.json"
+        if os.path.exists(tmp):
+            with open(tmp) as f:
+                data = json.load(f)
+            log(f"Хайп каналов: {len(data)} видео")
+            return data
+    except Exception as e:
+        log(f"Мониторинг каналов: ошибка - {e}")
+    return []
+
 viral_trends = get_viral_trends()
 tiktok_hype = get_tiktok_hype()
+channel_hype = get_channel_hype()
 hype_validated = get_validated_hype()
 
-# Объединяем
-all_hype = tiktok_hype + [v for v in viral_trends if v.get('source') != 'google_trends']
+# Объединяем (дедупликация по video id)
+seen_ids = set()
+all_hype = []
+for v in tiktok_hype + channel_hype + [v for v in viral_trends if v.get('source') != 'google_trends']:
+    vid_id = v.get('id') or v.get('url', '')
+    if vid_id not in seen_ids:
+        seen_ids.add(vid_id)
+        all_hype.append(v)
 all_hype.sort(key=lambda x: x.get('vpd', 0), reverse=True)
 google_trends = [v for v in viral_trends if v.get('source') == 'google_trends']
 
