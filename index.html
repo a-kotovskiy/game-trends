@@ -930,11 +930,19 @@
         <div class="section-subtitle">Вирусные темы для мобильных игр · YouTube + Google Trends</div>
       </div>
       <div class="section-count" id="viral-count">...</div>
-      <div class="refresh-group" style="margin-left:auto">
-        <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
-          <span id="refresh-hype-icon">↻</span> <span id="refresh-hype-label">Обновить</span>
-        </button>
-        <span class="refresh-time" id="hype-time">—</span>
+      <div style="margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <div class="refresh-group">
+          <button class="btn-refresh btn-refresh-hype" id="refresh-channels-btn" onclick="startRefresh('channels')" style="font-size:0.75rem;padding:6px 10px">
+            <span id="refresh-channels-icon">↻</span> Каналы
+          </button>
+          <span class="refresh-time" id="channels-time">—</span>
+        </div>
+        <div class="refresh-group">
+          <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
+            <span id="refresh-hype-icon">↻</span> <span id="refresh-hype-label">Обновить</span>
+          </button>
+          <span class="refresh-time" id="hype-time">—</span>
+        </div>
       </div>
     </div>
     <div id="viral-grid">
@@ -951,6 +959,12 @@
         <div class="section-subtitle">Вирусные игровые видео · views/subs ratio</div>
       </div>
       <div class="section-count" id="tiktok-count">...</div>
+      <div class="refresh-group" style="margin-left:auto">
+        <button class="btn-refresh btn-refresh-hype" id="refresh-tiktok-btn" onclick="startRefresh('tiktok')">
+          <span id="refresh-tiktok-icon">↻</span> <span id="refresh-tiktok-label">Обновить</span>
+        </button>
+        <span class="refresh-time" id="tiktok-time">—</span>
+      </div>
     </div>
     <div id="tiktok-grid" class="hype-list">
       <div class="loading"><div class="spinner"></div></div>
@@ -1881,15 +1895,16 @@
 
   function startPolling(type, startTime) {
     clearRefreshTimers(type);
-    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : type === 'hype' ? '🔥 Обновить хайп' : '🎮 Обновить Steam';
-    setRefreshUI(type, '⏳', type === 'rockets' ? 'Парсер работает...' : 'Собираю хайп...', true);
+    const labels = {rockets:'🚀 Обновить игры', hype:'🔥 Обновить хайп', steam:'🎮 Обновить Steam', tiktok:'🎵 Обновить TikTok', channels:'📺 Обновить каналы'};
+    const defaultLabel = labels[type] || 'Обновить';
+    const prefixes = {rockets:'Парсер', hype:'Хайп', steam:'Steam', tiktok:'TikTok', channels:'Каналы'};
+    setRefreshUI(type, '⏳', prefixes[type] + ' запущен...', true);
 
     const timer = setInterval(() => {
       const elapsed = Math.floor((Date.now() - startTime) / 1000);
       const min = Math.floor(elapsed / 60);
       const sec = elapsed % 60;
-      const prefix = type === 'rockets' ? 'Парсер' : 'Хайп';
-      setRefreshUI(type, '⏳', `${prefix} ${min}:${sec.toString().padStart(2,'0')}`, true);
+      setRefreshUI(type, '⏳', `${prefixes[type]||type} ${min}:${sec.toString().padStart(2,'0')}`, true);
     }, 1000);
 
     const poll = setInterval(async () => {
@@ -1922,7 +1937,14 @@
   }
 
   async function startRefresh(type) {
-    const defaultLabel = type === 'rockets' ? '🚀 Обновить игры' : type === 'hype' ? '🔥 Обновить хайп' : '🎮 Обновить Steam';
+    const labels = {
+      rockets: '🚀 Обновить игры',
+      hype: '🔥 Обновить хайп',
+      steam: '🎮 Обновить Steam',
+      tiktok: '🎵 Обновить TikTok',
+      channels: '📺 Обновить каналы',
+    };
+    const defaultLabel = labels[type] || 'Обновить';
     setRefreshUI(type, '⏳', 'Отправляю...', true);
 
     try {
@@ -1951,7 +1973,7 @@
 
   // On page load: check if update is in progress
   async function checkUpdateStatus() {
-    for (const type of ['rockets', 'hype', 'steam']) {
+    for (const type of ['rockets', 'hype', 'steam', 'tiktok', 'channels']) {
       try {
         const s = await fetch(WORKER_URL + '/status?type=' + type).then(r => r.json());
         if (s.state === 'pending' || s.state === 'running') {
