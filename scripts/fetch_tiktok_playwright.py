@@ -127,6 +127,16 @@ def parse_video(video_obj):
 
 
 async def main():
+    # Сначала пробуем обновить токен из браузера
+    try:
+        import subprocess
+        subprocess.run(
+            [sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'refresh_tiktok_token.py')],
+            timeout=20, capture_output=True
+        )
+    except Exception:
+        pass  # не страшно, используем старый токен
+
     # Проверяем ms_token
     ms_token = None
     if os.path.exists(MS_TOKEN_FILE):
