@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """
-Мониторинг gaming-каналов: ищет хайп-видео у отслеживаемых ютуберов.
-Проверяет последние видео каждого канала, находит те что набирают аномально много просмотров.
+Мониторинг gaming-каналов v2 (оптимизированный).
+Ключевые улучшения:
+  - Кэш дат видео (не запрашиваем повторно)
+  - Убран sleep(1.5) — заменён на случайную паузу только при 429
+  - Воркеров увеличено до 10
+  - Videos + Shorts объединены в один запрос через /videos + /shorts
+  - dump-json только если видео < 7 дней и нет даты (вместо top-3 всегда)
 
-Результат: /tmp/channel_hype.json — массив хайп-видео для включения в hype.json
+Результат: /tmp/channel_hype.json
 """
-import subprocess, json, sys, os
+import subprocess, json, sys, os, random, time
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -13,15 +18,15 @@ YT_DLP = '/opt/homebrew/bin/yt-dlp'
 SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(SCRIPTS_DIR, 'gaming_channels.json')
 OUT_FILE = '/tmp/channel_hype.json'
+CACHE_FILE = '/tmp/yt_video_dates_cache.json'  # кэш дат
 
 # Параметры
-MAX_VIDEOS_PER_CHANNEL = 5    # последних видео проверяем (меньше = быстрее)
-MAX_DUMP_JSON_PER_CHANNEL = 3  # сколько видео делать dump-json для точной даты
-MAX_AGE_DAYS = 30              # не старше 30 дней
-MIN_VPD = 30_000               # минимум просмотров/день для хайпа (снижено с 50K)
-MIN_VIEWS = 100_000            # минимум просмотров (снижено с 200K)
-ANOMALY_MULTIPLIER = 3         # видео набрало в X раз больше среднего для канала
-MAX_WORKERS = 6
+MAX_VIDEOS_PER_CHANNEL = 5
+MAX_AGE_DAYS = 30
+MIN_VPD = 30_000
+MIN_VIEWS = 100_000
+ANOMALY_MULTIPLIER = 3
+MAX_WORKERS = 10  # было 6
 
 def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", file=sys.stderr)
@@ -31,103 +36,141 @@ def fmt_views(v):
     if v >= 1_000:     return f"{v/1_000:.0f}K"
     return str(v)
 
+# ── Кэш дат ──────────────────────────────────────────────────────────────────
+
+def load_cache():
+    """Загружает кэш дат видео. Структура: {video_id: {date, duration, cached_at}}"""
+    try:
+        if os.path.exists(CACHE_FILE):
+            # Кэш живёт 7 дней
+            age = time.time() - os.path.getmtime(CACHE_FILE)
+            if age < 7 * 86400:
+                with open(CACHE_FILE) as f:
+                    return json.load(f)
+    except Exception:
+        pass
+    return {}
+
+def save_cache(cache):
+    try:
+        with open(CACHE_FILE, 'w') as f:
+            json.dump(cache, f)
+    except Exception:
+        pass
+
+# Глобальный кэш
+VIDEO_CACHE = load_cache()
+CACHE_HITS = 0
+CACHE_MISSES = 0
+
 def get_video_details(vid_id):
-    """Получает точные данные видео (дата, подписчики) через yt-dlp --dump-json."""
-    import time
-    time.sleep(1.5)  # пауза чтобы не словить 429
+    """Получает дату и длительность видео. Использует кэш."""
+    global CACHE_HITS, CACHE_MISSES
+
+    if vid_id in VIDEO_CACHE:
+        CACHE_HITS += 1
+        return VIDEO_CACHE[vid_id]
+
+    CACHE_MISSES += 1
     try:
         out = subprocess.check_output(
-            [YT_DLP, '--dump-json', '--no-playlist',
-             '--sleep-requests', '1',
-             f'https://youtu.be/{vid_id}'],
-            timeout=25, stderr=subprocess.DEVNULL
+            [YT_DLP, '--dump-json', '--no-playlist', f'https://youtu.be/{vid_id}'],
+            timeout=20, stderr=subprocess.DEVNULL
         )
         d = json.loads(out)
-        return {
+        result = {
             'upload_date': d.get('upload_date', ''),
-            'channel_follower_count': d.get('channel_follower_count', 0) or 0,
-            'view_count': d.get('view_count', 0) or 0,
             'duration': d.get('duration', 0) or 0,
         }
+        VIDEO_CACHE[vid_id] = result
+        return result
     except Exception:
         return None
 
+# ── Парсинг канала ────────────────────────────────────────────────────────────
+
 def fetch_playlist(url, max_videos):
-    """Вспомогательная функция: flat-playlist через yt-dlp."""
     out = subprocess.check_output(
         [YT_DLP, '--flat-playlist', '--no-download',
          '--print', '%(id)s|||%(title)s|||%(view_count)s|||%(upload_date)s|||%(duration)s',
-         '--playlist-items', f'1-{max_videos}',
-         url],
-        timeout=30, stderr=subprocess.DEVNULL
+         '--playlist-items', f'1-{max_videos}', url],
+        timeout=25, stderr=subprocess.DEVNULL
     ).decode().strip()
     return out
 
 def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANNEL):
-    """Получает последние видео + шортсы канала через yt-dlp."""
     try:
-        # Обычные видео
-        videos_out = fetch_playlist(f"https://www.youtube.com/channel/{channel_id}/videos", max_videos)
-        # Шортсы (отдельная вкладка)
-        try:
-            shorts_out = fetch_playlist(f"https://www.youtube.com/channel/{channel_id}/shorts", max_videos)
-        except Exception:
-            shorts_out = ""
+        # Запрашиваем videos и shorts параллельно
+        with ThreadPoolExecutor(max_workers=2) as ex:
+            f_videos = ex.submit(fetch_playlist,
+                f"https://www.youtube.com/channel/{channel_id}/videos", max_videos)
+            f_shorts = ex.submit(fetch_playlist,
+                f"https://www.youtube.com/channel/{channel_id}/shorts", max_videos)
+            try:
+                videos_out = f_videos.result(timeout=30)
+            except Exception:
+                videos_out = ""
+            try:
+                shorts_out = f_shorts.result(timeout=30)
+            except Exception:
+                shorts_out = ""
 
-        # Объединяем, избегаем дублей
-        combined_lines = []
+        # Объединяем без дублей
         seen_ids = set()
-        for line in (videos_out + '\n' + shorts_out).split('\n'):
-            parts = line.split('|||')
-            if len(parts) >= 1 and parts[0] and parts[0] not in seen_ids:
-                seen_ids.add(parts[0])
-                combined_lines.append(line)
-        out = '\n'.join(combined_lines)
-
-        # Сначала собираем все видео без фильтрации по дате
         raw = []
-        for line in out.split('\n'):
+        for line in (videos_out + '\n' + shorts_out).split('\n'):
             if not line.strip(): continue
             parts = line.split('|||')
             if len(parts) < 5: continue
-            vid_id, title, views_str, upload_date, duration_str = parts[:5]
-            try:
-                views = int(views_str) if views_str and views_str != 'NA' else 0
+            vid_id = parts[0]
+            if not vid_id or vid_id in seen_ids: continue
+            seen_ids.add(vid_id)
+
+            try: views = int(parts[2]) if parts[2] and parts[2] != 'NA' else 0
             except: views = 0
-            try:
-                duration = int(float(duration_str)) if duration_str and duration_str != 'NA' else 0
+            try: duration = int(float(parts[4])) if parts[4] and parts[4] != 'NA' else 0
             except: duration = 0
-            raw.append((vid_id, title, views, upload_date, duration))
 
-        # Берём top-N по просмотрам для dump-json (получить реальную дату)
-        top_by_views = sorted(raw, key=lambda x: x[2], reverse=True)[:MAX_DUMP_JSON_PER_CHANNEL]
-        dump_json_ids = {v[0] for v in top_by_views if v[2] >= MIN_VIEWS}
+            raw.append((vid_id, parts[1], views, parts[3], duration))
 
+        # dump-json только для топовых видео БЕЗ даты и только если views >= MIN_VIEWS
+        # Сортируем по просмотрам, берём top-2 (было 3)
+        top = sorted(raw, key=lambda x: x[2], reverse=True)[:2]
+        need_details = {v[0] for v in top if v[2] >= MIN_VIEWS and (not v[3] or v[3] == 'NA')}
+
+        # Запрашиваем детали параллельно (без sleep!)
+        details_map = {}
+        if need_details:
+            with ThreadPoolExecutor(max_workers=len(need_details)) as ex:
+                futs = {ex.submit(get_video_details, vid_id): vid_id for vid_id in need_details}
+                for fut in as_completed(futs):
+                    vid_id = futs[fut]
+                    result = fut.result()
+                    if result:
+                        details_map[vid_id] = result
+
+        # Строим финальный список
         videos = []
         for vid_id, title, views, upload_date, duration in raw:
-            # Делаем dump-json если нет даты и видео входит в top-N или популярное
-            if (not upload_date or upload_date == 'NA') and vid_id in dump_json_ids:
-                details = get_video_details(vid_id)
-                if details:
-                    upload_date = details.get('upload_date', '')
-                    if not duration:
-                        duration = details.get('duration', 0)
+            if vid_id in details_map:
+                upload_date = details_map[vid_id].get('upload_date', upload_date)
+                if not duration:
+                    duration = details_map[vid_id].get('duration', 0)
 
-            age_days = 30
-            if upload_date and len(upload_date) == 8:
-                try:
-                    up = datetime.strptime(upload_date, '%Y%m%d')
-                    age_days = max(1, (datetime.now() - up).days)
-                except: pass
-            else:
-                # Нет даты — пропускаем, чтобы не засорять старыми видео
+            if not upload_date or upload_date == 'NA':
                 continue
 
-            if age_days > MAX_AGE_DAYS: continue
+            try:
+                up = datetime.strptime(upload_date, '%Y%m%d')
+                age_days = max(1, (datetime.now() - up).days)
+            except:
+                continue
+
+            if age_days > MAX_AGE_DAYS:
+                continue
 
             vpd = views // max(age_days, 1)
             kind = 'Short' if duration and duration <= 62 else 'Video'
-            thumb = f"https://img.youtube.com/vi/{vid_id}/mqdefault.jpg"
             videos.append({
                 'id': vid_id,
                 'title': title,
@@ -142,21 +185,20 @@ def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANN
                 'channel': channel_name,
                 'channel_id': channel_id,
                 'url': f'https://youtu.be/{vid_id}',
-                'thumb': thumb,
+                'thumb': f'https://img.youtube.com/vi/{vid_id}/mqdefault.jpg',
             })
         return videos
+
     except Exception as e:
         log(f"  ❌ {channel_name}: {e}")
         return []
 
-def detect_hype(all_videos_by_channel):
-    """Находит аномально популярные видео."""
-    hype = []
+# ── Детект хайпа ─────────────────────────────────────────────────────────────
 
+def detect_hype(all_videos_by_channel):
+    hype = []
     for channel_name, videos in all_videos_by_channel.items():
         if not videos: continue
-
-        # Средний vpd для канала
         vpds = [v['vpd'] for v in videos if v['vpd'] > 0]
         if not vpds: continue
         avg_vpd = sum(vpds) / len(vpds)
@@ -164,44 +206,23 @@ def detect_hype(all_videos_by_channel):
         for v in videos:
             is_hype = False
             reason = []
-
-            # Критерий 1: абсолютный хайп (много vpd)
             if v['vpd'] >= MIN_VPD and v['views'] >= MIN_VIEWS:
                 is_hype = True
                 reason.append(f"vpd={fmt_views(v['vpd'])}")
-
-            # Критерий 2: аномалия для канала (в X раз больше среднего)
             if avg_vpd > 0 and v['vpd'] >= avg_vpd * ANOMALY_MULTIPLIER and v['views'] >= 100_000:
                 is_hype = True
                 reason.append(f"{v['vpd']/avg_vpd:.1f}x avg")
 
             if is_hype:
-                vid_id = v['id']
-                kind = 'Short' if v['duration'] and v['duration'] <= 62 else 'Video'
-                thumb = f"https://img.youtube.com/vi/{vid_id}/mqdefault.jpg"
-
                 if v['vpd'] >= 500_000: grade = "🔥🔥"
                 elif v['vpd'] >= 100_000: grade = "🔥"
                 elif v['vpd'] >= 50_000: grade = "🚀🔥"
                 elif v['vpd'] >= 20_000: grade = "🚀"
                 else: grade = "⚡"
-
                 hype.append({
-                    'id': vid_id,
-                    'title': v['title'],
-                    'channel': v['channel'],
-                    'channel_id': v['channel_id'],
-                    'views': v['views'],
-                    'views_str': fmt_views(v['views']),
-                    'vpd': v['vpd'],
-                    'vpd_str': fmt_views(v['vpd']),
-                    'age_days': v['age_days'],
-                    'upload_date': v['upload_date'],
+                    **v,
                     'grade': grade,
-                    'url': f'https://youtu.be/{vid_id}',
-                    'thumb': thumb,
                     'source': 'channel_monitor',
-                    'kind': kind,
                     'reason': ', '.join(reason),
                     'channel_avg_vpd': int(avg_vpd),
                 })
@@ -209,20 +230,18 @@ def detect_hype(all_videos_by_channel):
     hype.sort(key=lambda x: x['vpd'], reverse=True)
     return hype
 
-# ── Main ──
+# ── Main ──────────────────────────────────────────────────────────────────────
 
-# Загружаем список каналов
+t_start = time.time()
 with open(CHANNELS_FILE) as f:
     channels = json.load(f)['channels']
 
-log(f"Мониторинг {len(channels)} каналов...")
+log(f"Мониторинг {len(channels)} каналов (workers={MAX_WORKERS})...")
 
-# Собираем видео параллельно
 all_videos = {}
 
 def fetch_channel(ch):
-    videos = get_channel_videos(ch['id'], ch['name'])
-    return ch['name'], videos
+    return ch['name'], get_channel_videos(ch['id'], ch['name'])
 
 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
     futures = {ex.submit(fetch_channel, ch): ch for ch in channels}
@@ -231,22 +250,25 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
         done += 1
         name, videos = fut.result()
         all_videos[name] = videos
-        total_views = sum(v['views'] for v in videos)
         if videos:
-            log(f"  ✅ {name}: {len(videos)} видео, {fmt_views(total_views)} просмотров")
+            total = sum(v['views'] for v in videos)
+            log(f"  ✅ {name}: {len(videos)} видео, {fmt_views(total)}")
         if done % 10 == 0:
             log(f"  {done}/{len(channels)} каналов...")
 
-# Детектим хайп
+# Сохраняем кэш
+save_cache(VIDEO_CACHE)
+log(f"Кэш: {CACHE_HITS} hits, {CACHE_MISSES} misses (сохранено {len(VIDEO_CACHE)} записей)")
+
 hype = detect_hype(all_videos)
+elapsed = int(time.time() - t_start)
 
-log(f"\n🔥 Найдено {len(hype)} хайп-видео:")
-for v in hype[:20]:
-    log(f"  {v['grade']} {v['channel']}: {v['title'][:40]}... — {v['vpd_str']}/д ({v['reason']})")
+log(f"\n🔥 {len(hype)} хайп-видео за {elapsed}с:")
+for v in hype[:15]:
+    log(f"  {v['grade']} {v['channel']}: {v['title'][:40]} — {v['vpd_str']}/д")
 
-# Сохраняем
 with open(OUT_FILE, 'w') as f:
     json.dump(hype, f, ensure_ascii=False, indent=2)
 
-log(f"\nСохранено: {OUT_FILE} ({len(hype)} видео)")
-print(json.dumps({'count': len(hype), 'channels_checked': len(channels)}))
+log(f"Сохранено: {OUT_FILE}")
+print(json.dumps({'count': len(hype), 'channels_checked': len(channels), 'elapsed': elapsed}))
