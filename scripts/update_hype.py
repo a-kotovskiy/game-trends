@@ -63,6 +63,23 @@ def get_validated_hype():
         log(f"Валидация хайпа: ошибка - {e}")
     return []
 
+def get_tiktok_playwright():
+    log("TikTok через Playwright...")
+    try:
+        subprocess.run(
+            ["python3", f"{SCRIPTS}/fetch_tiktok_playwright.py"],
+            timeout=300, stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL
+        )
+        tmp = "/tmp/tiktok_playwright.json"
+        if os.path.exists(tmp):
+            with open(tmp) as f:
+                data = json.load(f)
+            log(f"TikTok Playwright: {len(data)} хайп-видео")
+            return data
+    except Exception as e:
+        log(f"TikTok Playwright: ошибка - {e}")
+    return []
+
 def get_channel_hype():
     log("Мониторинг gaming-каналов...")
     try:
@@ -82,6 +99,7 @@ def get_channel_hype():
 
 viral_trends = get_viral_trends()
 tiktok_hype = get_tiktok_hype()
+tiktok_playwright_data = get_tiktok_playwright()
 channel_hype = get_channel_hype()
 hype_validated = get_validated_hype()
 
@@ -101,6 +119,7 @@ hype_data = {
     "viral_trends": all_hype[:30],
     "google_trends": google_trends,
     "hype_validated": hype_validated,
+    "tiktok": tiktok_playwright_data[:30],
 }
 
 path = f"{DASHBOARD}/hype.json"

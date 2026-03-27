@@ -876,6 +876,9 @@
   <button class="tab-btn" onclick="switchTab('viral', this)">
     🔥 Хайп <span class="tab-count" id="tab-count-viral">…</span>
   </button>
+  <button class="tab-btn" onclick="switchTab('tiktok', this)">
+    🎵 TikTok <span class="tab-count" id="tab-count-tiktok">…</span>
+  </button>
   <button class="tab-btn" onclick="switchTab('steam', this)">
     🎮 Steam <span class="tab-count" id="tab-count-steam">…</span>
   </button>
@@ -935,6 +938,24 @@
       </div>
     </div>
     <div id="viral-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+  <!-- TIKTOK -->
+  <section class="tab-section" id="section-tiktok">
+    <div class="section-header">
+      <div class="section-icon">🎵</div>
+      <div>
+        <div class="section-title">TikTok хайп</div>
+        <div class="section-subtitle">Вирусные игровые видео TikTok · views/subs ratio</div>
+      </div>
+      <div class="section-count" id="tiktok-count">...</div>
+      <div class="refresh-group" style="margin-left:auto">
+        <span class="refresh-time" id="tiktok-time">—</span>
+      </div>
+    </div>
+    <div id="tiktok-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
   </section>
@@ -1534,6 +1555,52 @@
       : `<div style="color:var(--text-muted);text-align:center;padding:32px">Нет актуальных хайп-трендов. Нажми "Обновить данные" для поиска.</div>${trendsHtml}`;
   }
 
+  function renderTikTok(data) {
+    const grid = document.getElementById('tiktok-grid');
+    if (!grid) return;
+    const count = (data || []).length;
+    document.getElementById('tab-count-tiktok').textContent = count;
+    document.getElementById('tiktok-count').textContent = count + ' видео';
+
+    if (!count) {
+      grid.innerHTML = '<div style="color:var(--text-muted);text-align:center;padding:32px">Нет TikTok данных. Запусти update_hype.py для сбора.</div>';
+      return;
+    }
+
+    const sorted = [...data].sort((a,b) => (b.vpd||0) - (a.vpd||0));
+    grid.innerHTML = '<div class="hype-list">' + sorted.map(v => {
+      const vpdStr = v.vpd_str || (v.vpd >= 1000000 ? (v.vpd/1000000).toFixed(1)+'M' : v.vpd >= 1000 ? Math.round(v.vpd/1000)+'K' : String(v.vpd||0));
+      const age = v.age_days || 0;
+      const ageColor = age <= 3 ? 'var(--green)' : age <= 7 ? 'var(--green)' : age <= 14 ? 'var(--yellow)' : 'var(--text-muted)';
+      const thumbHtml = v.thumb
+        ? `<a href="${v.url||'#'}" target="_blank" rel="noopener" class="hype-thumb-wrap">
+            <img class="hype-thumb" src="${v.thumb}" loading="lazy" onerror="this.parentElement.style.display='none'">
+            <span class="hype-kind-badge">🎵 TikTok</span>
+          </a>` : '';
+      const ratioStr = v.ratio > 0 ? `${v.ratio}x` : '—';
+      const likesStr = v.likes >= 1000000 ? (v.likes/1000000).toFixed(1)+'M' : v.likes >= 1000 ? Math.round(v.likes/1000)+'K' : String(v.likes||0);
+      return `
+      <div class="hype-card">
+        ${thumbHtml}
+        <div class="hype-info">
+          <div class="hype-title"><a href="${v.url||'#'}" target="_blank" rel="noopener">${v.title || '(без описания)'}</a></div>
+          <div class="hype-author">${v.channel||''} · <span style="color:${ageColor}">${age}д назад</span></div>
+          <div class="hype-metrics">
+            <div class="hype-metric"><span class="val">${v.views_str||''}</span><span class="lbl">просм.</span></div>
+            <div class="hype-metric green"><span class="val">▲${vpdStr}</span><span class="lbl">/день</span></div>
+            <div class="hype-metric"><span class="val">❤️${likesStr}</span><span class="lbl">лайки</span></div>
+            <div class="hype-metric"><span class="val">${ratioStr}</span><span class="lbl">ratio</span></div>
+          </div>
+          <div class="hype-tags">
+            <span class="hype-tag" style="background:#161823;color:#fff;border:1px solid #333">🎵 TikTok</span>
+            <span class="hype-tag" style="background:var(--bg3)">${v.grade||''}</span>
+          </div>
+          <a class="hype-link" href="${v.url||'#'}" target="_blank" rel="noopener">Смотреть на TikTok ↗</a>
+        </div>
+      </div>`;
+    }).join('') + '</div>';
+  }
+
   function renderIdeas(data) {
     const grid = document.getElementById('ideas-grid');
     document.getElementById('ideas-count').textContent = data.length + ' идеи';
@@ -1787,6 +1854,7 @@
       renderStats({rockets: rocketData, viral_trends: enrichedTrends, watchlist: watchlistData, steamData});
       renderRockets(rocketData, watchlistData);
       renderViralTrends(enrichedTrends, hypeData.google_trends || []);
+      renderTikTok(hypeData.tiktok || []);
       renderSteam(steamData);
       renderNews(newsData);
       renderIdeas(ideasData);
