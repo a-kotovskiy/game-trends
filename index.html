@@ -876,6 +876,9 @@
   <button class="tab-btn" onclick="switchTab('viral', this)">
     🔥 Хайп <span class="tab-count" id="tab-count-viral">…</span>
   </button>
+  <button class="tab-btn" onclick="switchTab('tiktok', this)">
+    🎵 TikTok <span class="tab-count" id="tab-count-tiktok">…</span>
+  </button>
   <button class="tab-btn" onclick="switchTab('steam', this)">
     🎮 Steam <span class="tab-count" id="tab-count-steam">…</span>
   </button>
@@ -935,6 +938,21 @@
       </div>
     </div>
     <div id="viral-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </section>
+
+  <!-- TIKTOK -->
+  <section class="tab-section" id="section-tiktok">
+    <div class="section-header">
+      <div class="section-icon">🎵</div>
+      <div>
+        <div class="section-title">TikTok хайп</div>
+        <div class="section-subtitle">Вирусные игровые видео · views/subs ratio</div>
+      </div>
+      <div class="section-count" id="tiktok-count">...</div>
+    </div>
+    <div id="tiktok-grid" class="hype-list">
       <div class="loading"><div class="spinner"></div></div>
     </div>
   </section>
@@ -1584,6 +1602,46 @@
     return arr;
   }
 
+  function renderTikTok(data) {
+    const grid = document.getElementById('tiktok-grid');
+    if (!grid) return;
+    const count = (data || []).length;
+    const tabCount = document.getElementById('tab-count-tiktok');
+    const secCount = document.getElementById('tiktok-count');
+    if (tabCount) tabCount.textContent = count;
+    if (secCount) secCount.textContent = count + ' видео';
+
+    if (!count) {
+      grid.innerHTML = '<div style="color:var(--text-muted);text-align:center;padding:32px">Нет TikTok данных — нажми Обновить хайп</div>';
+      return;
+    }
+
+    grid.innerHTML = data.map(v => {
+      const vpd = v.vpd >= 1000000 ? (v.vpd/1000000).toFixed(1)+'M' : v.vpd >= 1000 ? Math.round(v.vpd/1000)+'K' : (v.vpd||0);
+      const ratio = v.ratio ? Math.round(v.ratio) + 'x' : '?';
+      const age = v.age_days || '?';
+      const thumb = v.thumb || '';
+      return `
+      <div class="hype-card">
+        ${thumb ? `<a href="${v.url||'#'}" target="_blank" rel="noopener" class="hype-thumb-wrap">
+          <img class="hype-thumb" src="${thumb}" loading="lazy" onerror="this.parentElement.style.display='none'">
+          <span class="hype-kind-badge">🎵 TikTok</span>
+        </a>` : ''}
+        <div class="hype-info">
+          <div class="hype-title"><a href="${v.url||'#'}" target="_blank" rel="noopener">${v.title||''}</a></div>
+          <div class="hype-author">${v.channel||''} · ${age}д назад</div>
+          <div class="hype-metrics">
+            <div class="hype-metric"><span class="val">${v.views_str||''}</span><span class="lbl">просм.</span></div>
+            <div class="hype-metric green"><span class="val">▲${vpd}</span><span class="lbl">/день</span></div>
+            <div class="hype-metric"><span class="val">${ratio}</span><span class="lbl">ratio</span></div>
+            <div class="hype-metric"><span style="font-size:1.1rem">${v.grade||''}</span></div>
+          </div>
+          <a class="hype-link" href="${v.url||'#'}" target="_blank" rel="noopener">Смотреть на TikTok ↗</a>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
   function renderSteam(data) {
     _steamData = data || [];
     document.getElementById('steam-count').textContent = _steamData.length + ' игр';
@@ -1787,6 +1845,7 @@
       renderStats({rockets: rocketData, viral_trends: enrichedTrends, watchlist: watchlistData, steamData});
       renderRockets(rocketData, watchlistData);
       renderViralTrends(enrichedTrends, hypeData.google_trends || []);
+      renderTikTok(hypeData.tiktok || []);
       renderSteam(steamData);
       renderNews(newsData);
       renderIdeas(ideasData);
