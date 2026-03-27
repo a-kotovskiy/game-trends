@@ -30,6 +30,23 @@ def fmt_views(v):
     if v >= 1_000:     return f"{v/1_000:.0f}K"
     return str(v)
 
+def get_video_details(vid_id):
+    """Получает точные данные видео (дата, подписчики) через yt-dlp --dump-json."""
+    try:
+        out = subprocess.check_output(
+            [YT_DLP, '--dump-json', '--no-playlist', f'https://youtu.be/{vid_id}'],
+            timeout=20, stderr=subprocess.DEVNULL
+        )
+        d = json.loads(out)
+        return {
+            'upload_date': d.get('upload_date', ''),
+            'channel_follower_count': d.get('channel_follower_count', 0) or 0,
+            'view_count': d.get('view_count', 0) or 0,
+            'duration': d.get('duration', 0) or 0,
+        }
+    except Exception:
+        return None
+
 def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANNEL):
     """Получает последние видео канала через yt-dlp."""
     try:
@@ -52,8 +69,16 @@ def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANN
                 views = int(views_str) if views_str and views_str != 'NA' else 0
             except: views = 0
             try:
-                duration = int(duration_str) if duration_str and duration_str != 'NA' else 0
+                duration = int(float(duration_str)) if duration_str and duration_str != 'NA' else 0
             except: duration = 0
+
+            # flat-playlist часто не отдаёт дату — делаем точный запрос для популярных видео
+            if (not upload_date or upload_date == 'NA') and views >= 50_000:
+                details = get_video_details(vid_id)
+                if details:
+                    upload_date = details.get('upload_date', '')
+                    if not duration:
+                        duration = details.get('duration', 0)
 
             age_days = 30
             if upload_date and len(upload_date) == 8:
@@ -61,6 +86,9 @@ def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANN
                     up = datetime.strptime(upload_date, '%Y%m%d')
                     age_days = max(1, (datetime.now() - up).days)
                 except: pass
+            elif not upload_date or upload_date == 'NA':
+                # Нет даты — пропускаем, чтобы не засорять старыми видео
+                continue
 
             if age_days > MAX_AGE_DAYS: continue
 
