@@ -14,8 +14,9 @@ OUT_FILE = '/tmp/tg_signals.json'
 
 # Telegram каналы-радары
 TG_CHANNELS = [
-    'memolodjiya',   # истории мемов, вирусные тренды TikTok
-    'internetculture',  # западные интернет-тренды
+    'memolodjiya',    # 2.8K - истории мемов, вирусные тренды TikTok (рус)
+    'memepedia_ru',   # 10.8K - проводник в мире интернет-трендов, статьи про мемы (рус)
+    'internetculture', # 10.6K - западные интернет-тренды, поведение Gen Z (рус)
 ]
 
 # Ключевые слова что нам интересно
