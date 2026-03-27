@@ -473,6 +473,19 @@
     }
     .pl-btn:hover { opacity:.8; }
     .pl-btn.tiktok  { background:#161823; color:#fff; border:1px solid #333; }
+    .signals-list { display:flex; flex-direction:column; gap:12px; padding:4px 0; }
+    .signal-card { background:var(--bg2); border:1px solid var(--border); border-radius:10px; padding:14px 16px; }
+    .signal-header { display:flex; align-items:center; gap:10px; margin-bottom:8px; flex-wrap:wrap; }
+    .signal-source { font-size:0.72rem; color:var(--text-muted); }
+    .signal-topic { font-weight:700; font-size:0.9rem; color:var(--accent1); }
+    .signal-tg-link { margin-left:auto; font-size:0.72rem; color:var(--text-muted); text-decoration:none; }
+    .signal-tg-link:hover { color:var(--accent3); }
+    .signal-text { font-size:0.8rem; color:var(--text-muted); margin-bottom:10px; line-height:1.4; }
+    .signal-videos { display:flex; flex-direction:column; gap:6px; }
+    .signal-video { display:flex; align-items:center; gap:8px; text-decoration:none; color:var(--text); padding:6px; border-radius:6px; background:var(--bg1); }
+    .signal-video:hover { background:var(--bg2); border:1px solid var(--accent1); margin:-1px; }
+    .signal-video-title { font-size:0.78rem; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .signal-video-views { font-size:0.72rem; color:var(--text-muted); flex-shrink:0; }
     .pl-btn.youtube { background:#ff0000; color:#fff; }
     .pl-btn.gtrends { background:#1a73e8; color:#fff; }
 
@@ -879,6 +892,9 @@
   <button class="tab-btn" onclick="switchTab('tiktok', this)">
     🎵 TikTok <span class="tab-count" id="tab-count-tiktok">…</span>
   </button>
+  <button class="tab-btn" onclick="switchTab('signals', this)">
+    📡 Сигналы <span class="tab-count" id="tab-count-signals">…</span>
+  </button>
   <button class="tab-btn" onclick="switchTab('steam', this)">
     🎮 Steam <span class="tab-count" id="tab-count-steam">…</span>
   </button>
@@ -958,6 +974,19 @@
     <div id="tiktok-grid">
       <div class="loading"><div class="spinner"></div></div>
     </div>
+  </section>
+
+  <!-- SIGNALS -->
+  <section class="tab-section" id="section-signals" style="display:none">
+    <div class="section-header">
+      <div class="section-icon">📡</div>
+      <div>
+        <div class="section-title">TG Сигналы</div>
+        <div class="section-subtitle">Темы из Telegram → видео на YouTube</div>
+      </div>
+      <div class="section-count" id="signals-count">...</div>
+    </div>
+    <div id="signals-grid" class="signals-list"></div>
   </section>
 
   <!-- STEAM -->
@@ -1651,6 +1680,44 @@
     return arr;
   }
 
+  function renderSignals(data) {
+    const grid = document.getElementById('signals-grid');
+    if (!grid) return;
+    const count = (data || []).length;
+    const tabCount = document.getElementById('tab-count-signals');
+    const sigCount = document.getElementById('signals-count');
+    if (tabCount) tabCount.textContent = count;
+    if (sigCount) sigCount.textContent = count + ' сигналов';
+
+    if (!count) {
+      grid.innerHTML = '<div style="color:var(--text-muted);text-align:center;padding:32px">Нет сигналов. Запусти обновление хайпа.</div>';
+      return;
+    }
+
+    grid.innerHTML = data.map(s => {
+      const videos = (s.youtube_videos || []).slice(0, 3);
+      const videosHtml = videos.map(v => `
+        <a href="${v.url}" target="_blank" rel="noopener" class="signal-video">
+          <img src="${v.thumb}" loading="lazy" onerror="this.style.display='none'" style="width:80px;height:45px;object-fit:cover;border-radius:4px;flex-shrink:0">
+          <span class="signal-video-title">${v.title || ''}</span>
+          <span class="signal-video-views">${v.views_text || ''}</span>
+        </a>`).join('');
+
+      const src = s.tg_channel === 'memolodjiya' ? '🎭 Мемолоджия' : `📱 ${s.tg_channel}`;
+
+      return `
+      <div class="signal-card">
+        <div class="signal-header">
+          <span class="signal-source">${src}</span>
+          <span class="signal-topic">💡 ${s.topic || ''}</span>
+          <a href="${s.tg_post_url}" target="_blank" rel="noopener" class="signal-tg-link">TG ↗</a>
+        </div>
+        <div class="signal-text">${(s.tg_text || '').slice(0, 120)}…</div>
+        ${videos.length ? `<div class="signal-videos">${videosHtml}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+
   function renderSteam(data) {
     _steamData = data || [];
     document.getElementById('steam-count').textContent = _steamData.length + ' игр';
@@ -1855,6 +1922,7 @@
       renderRockets(rocketData, watchlistData);
       renderViralTrends(enrichedTrends, hypeData.google_trends || []);
       renderTikTok(hypeData.tiktok || []);
+      renderSignals(hypeData.tg_signals || []);
       renderSteam(steamData);
       renderNews(newsData);
       renderIdeas(ideasData);

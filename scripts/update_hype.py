@@ -80,6 +80,23 @@ def get_tiktok_playwright():
         log(f"TikTok Playwright: ошибка - {e}")
     return []
 
+def get_tg_signals():
+    log("Сигналы из Telegram каналов...")
+    try:
+        subprocess.run(
+            ["python3", f"{SCRIPTS}/fetch_tg_signals.py"],
+            timeout=120, stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL
+        )
+        tmp = "/tmp/tg_signals.json"
+        if os.path.exists(tmp):
+            with open(tmp) as f:
+                data = json.load(f)
+            log(f"TG сигналы: {len(data)} тем")
+            return data
+    except Exception as e:
+        log(f"TG сигналы: ошибка - {e}")
+    return []
+
 def get_channel_hype():
     log("Мониторинг gaming-каналов...")
     try:
@@ -102,6 +119,7 @@ tiktok_hype = get_tiktok_hype()
 tiktok_playwright_data = get_tiktok_playwright()
 channel_hype = get_channel_hype()
 hype_validated = get_validated_hype()
+tg_signals = get_tg_signals()
 
 # Объединяем (дедупликация по video id)
 seen_ids = set()
@@ -120,6 +138,7 @@ hype_data = {
     "google_trends": google_trends,
     "hype_validated": hype_validated,
     "tiktok": tiktok_playwright_data[:30],
+    "tg_signals": tg_signals,
 }
 
 path = f"{DASHBOARD}/hype.json"
