@@ -21,6 +21,7 @@ MIN_VIEWS = 50_000
 MAX_AGE_DAYS = 30
 MIN_RATIO = 5.0
 MAX_PER_HASHTAG = 30
+MAX_TRENDING = 50  # сколько видео брать из раздела "Популярное"
 
 
 def fmt_views(v):
@@ -91,7 +92,9 @@ def parse_video(video_obj):
         vpd = views // max(age_days, 1)
         ratio = views / max(subs, 1)
 
-        if ratio < MIN_RATIO:
+        if ratio < MIN_RATIO and views < 1_000_000:
+            # Для trending снижаем планку - там могут быть большие каналы
+            # Но если >1M просмотров - берём в любом случае
             return None
 
         # Thumbnail
@@ -168,6 +171,21 @@ async def main():
             )
             print("Сессия создана!", file=sys.stderr)
 
+            # 1. Раздел "Популярное" (Trending) — главная страница TikTok
+            print("Собираю Trending (Популярное)...", file=sys.stderr)
+            try:
+                trend_count = 0
+                async for video in api.trending().videos(count=MAX_TRENDING):
+                    v = parse_video(video)
+                    if v:
+                        v['source'] = 'tiktok_trending'
+                        all_videos.append(v)
+                        trend_count += 1
+                print(f"  Trending: {trend_count} видео прошли фильтр", file=sys.stderr)
+            except Exception as e:
+                print(f"  Trending ошибка: {e}", file=sys.stderr)
+
+            # 2. По хэштегам (игровые)
             for hashtag in HASHTAGS:
                 print(f"Собираю #{hashtag}...", file=sys.stderr)
                 try:
@@ -176,6 +194,7 @@ async def main():
                     async for video in tag.videos(count=MAX_PER_HASHTAG):
                         v = parse_video(video)
                         if v:
+                            v['source'] = f'tiktok_#{hashtag}'
                             all_videos.append(v)
                             count += 1
                     print(f"  #{hashtag}: {count} видео прошли фильтр", file=sys.stderr)
