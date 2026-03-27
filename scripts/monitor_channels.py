@@ -15,12 +15,13 @@ CHANNELS_FILE = os.path.join(SCRIPTS_DIR, 'gaming_channels.json')
 OUT_FILE = '/tmp/channel_hype.json'
 
 # Параметры
-MAX_VIDEOS_PER_CHANNEL = 10   # последних видео проверяем
+MAX_VIDEOS_PER_CHANNEL = 5    # последних видео проверяем (меньше = быстрее)
+MAX_DUMP_JSON_PER_CHANNEL = 3  # сколько видео делать dump-json для точной даты
 MAX_AGE_DAYS = 30              # не старше 30 дней
-MIN_VPD = 50_000               # минимум просмотров/день для хайпа
-MIN_VIEWS = 200_000            # минимум просмотров
+MIN_VPD = 30_000               # минимум просмотров/день для хайпа (снижено с 50K)
+MIN_VIEWS = 100_000            # минимум просмотров (снижено с 200K)
 ANOMALY_MULTIPLIER = 3         # видео набрало в X раз больше среднего для канала
-MAX_WORKERS = 8
+MAX_WORKERS = 6
 
 def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", file=sys.stderr)
@@ -32,10 +33,14 @@ def fmt_views(v):
 
 def get_video_details(vid_id):
     """Получает точные данные видео (дата, подписчики) через yt-dlp --dump-json."""
+    import time
+    time.sleep(1.5)  # пауза чтобы не словить 429
     try:
         out = subprocess.check_output(
-            [YT_DLP, '--dump-json', '--no-playlist', f'https://youtu.be/{vid_id}'],
-            timeout=20, stderr=subprocess.DEVNULL
+            [YT_DLP, '--dump-json', '--no-playlist',
+             '--sleep-requests', '1',
+             f'https://youtu.be/{vid_id}'],
+            timeout=25, stderr=subprocess.DEVNULL
         )
         d = json.loads(out)
         return {
@@ -59,7 +64,8 @@ def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANN
             timeout=30, stderr=subprocess.DEVNULL
         ).decode().strip()
 
-        videos = []
+        # Сначала собираем все видео без фильтрации по дате
+        raw = []
         for line in out.split('\n'):
             if not line.strip(): continue
             parts = line.split('|||')
@@ -71,9 +77,16 @@ def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANN
             try:
                 duration = int(float(duration_str)) if duration_str and duration_str != 'NA' else 0
             except: duration = 0
+            raw.append((vid_id, title, views, upload_date, duration))
 
-            # flat-playlist часто не отдаёт дату — делаем точный запрос для популярных видео
-            if (not upload_date or upload_date == 'NA') and views >= 50_000:
+        # Берём top-N по просмотрам для dump-json (получить реальную дату)
+        top_by_views = sorted(raw, key=lambda x: x[2], reverse=True)[:MAX_DUMP_JSON_PER_CHANNEL]
+        dump_json_ids = {v[0] for v in top_by_views if v[2] >= MIN_VIEWS}
+
+        videos = []
+        for vid_id, title, views, upload_date, duration in raw:
+            # Делаем dump-json если нет даты и видео входит в top-N или популярное
+            if (not upload_date or upload_date == 'NA') and vid_id in dump_json_ids:
                 details = get_video_details(vid_id)
                 if details:
                     upload_date = details.get('upload_date', '')
@@ -86,7 +99,7 @@ def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANN
                     up = datetime.strptime(upload_date, '%Y%m%d')
                     age_days = max(1, (datetime.now() - up).days)
                 except: pass
-            elif not upload_date or upload_date == 'NA':
+            else:
                 # Нет даты — пропускаем, чтобы не засорять старыми видео
                 continue
 
