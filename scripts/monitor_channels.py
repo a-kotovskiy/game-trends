@@ -52,17 +52,37 @@ def get_video_details(vid_id):
     except Exception:
         return None
 
+def fetch_playlist(url, max_videos):
+    """Вспомогательная функция: flat-playlist через yt-dlp."""
+    out = subprocess.check_output(
+        [YT_DLP, '--flat-playlist', '--no-download',
+         '--print', '%(id)s|||%(title)s|||%(view_count)s|||%(upload_date)s|||%(duration)s',
+         '--playlist-items', f'1-{max_videos}',
+         url],
+        timeout=30, stderr=subprocess.DEVNULL
+    ).decode().strip()
+    return out
+
 def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANNEL):
-    """Получает последние видео канала через yt-dlp."""
+    """Получает последние видео + шортсы канала через yt-dlp."""
     try:
-        url = f"https://www.youtube.com/channel/{channel_id}/videos"
-        out = subprocess.check_output(
-            [YT_DLP, '--flat-playlist', '--no-download',
-             '--print', '%(id)s|||%(title)s|||%(view_count)s|||%(upload_date)s|||%(duration)s',
-             '--playlist-items', f'1-{max_videos}',
-             url],
-            timeout=30, stderr=subprocess.DEVNULL
-        ).decode().strip()
+        # Обычные видео
+        videos_out = fetch_playlist(f"https://www.youtube.com/channel/{channel_id}/videos", max_videos)
+        # Шортсы (отдельная вкладка)
+        try:
+            shorts_out = fetch_playlist(f"https://www.youtube.com/channel/{channel_id}/shorts", max_videos)
+        except Exception:
+            shorts_out = ""
+
+        # Объединяем, избегаем дублей
+        combined_lines = []
+        seen_ids = set()
+        for line in (videos_out + '\n' + shorts_out).split('\n'):
+            parts = line.split('|||')
+            if len(parts) >= 1 and parts[0] and parts[0] not in seen_ids:
+                seen_ids.add(parts[0])
+                combined_lines.append(line)
+        out = '\n'.join(combined_lines)
 
         # Сначала собираем все видео без фильтрации по дате
         raw = []
@@ -106,16 +126,23 @@ def get_channel_videos(channel_id, channel_name, max_videos=MAX_VIDEOS_PER_CHANN
             if age_days > MAX_AGE_DAYS: continue
 
             vpd = views // max(age_days, 1)
+            kind = 'Short' if duration and duration <= 62 else 'Video'
+            thumb = f"https://img.youtube.com/vi/{vid_id}/mqdefault.jpg"
             videos.append({
                 'id': vid_id,
                 'title': title,
                 'views': views,
+                'views_str': fmt_views(views),
                 'vpd': vpd,
+                'vpd_str': fmt_views(vpd),
                 'age_days': age_days,
                 'upload_date': upload_date,
                 'duration': duration,
+                'kind': kind,
                 'channel': channel_name,
                 'channel_id': channel_id,
+                'url': f'https://youtu.be/{vid_id}',
+                'thumb': thumb,
             })
         return videos
     except Exception as e:
