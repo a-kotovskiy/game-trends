@@ -4667,8 +4667,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.ares.baseball",
     "first_seen": "2026-03-20",
     "last_seen": "2026-03-28",
-    "peak_dpd": 15313,
-    "peak_date": "2026-03-27",
+    "peak_dpd": 15650,
+    "peak_date": "2026-03-28",
     "history": [
       {
         "date": "2026-03-20",
@@ -4908,6 +4908,25 @@
         "installs": 15366,
         "dpd": 853,
         "score": 0
+      }
+    ]
+  },
+  "com.cyphergames.cityclash": {
+    "id": "com.cyphergames.cityclash",
+    "name": "Match Squad",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/lfNnCA93ayb9sWFRyrOVdAjMdjAp286z5kClnXu-CNM4uh2Xr3LmnLmr--uTulNVg7uVjI1XrBZ0_kXr8EjlCC4",
+    "url": "https://play.google.com/store/apps/details?id=com.cyphergames.cityclash",
+    "first_seen": "2026-03-28",
+    "last_seen": "2026-03-28",
+    "peak_dpd": 17033,
+    "peak_date": "2026-03-28",
+    "history": [
+      {
+        "date": "2026-03-28",
+        "installs": 255499,
+        "dpd": 17033,
+        "score": 4.7
       }
     ]
   }
