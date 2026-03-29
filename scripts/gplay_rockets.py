@@ -412,11 +412,42 @@ if _os.path.exists(_watchlist_path):
     except Exception as _e:
         print(f"Watchlist ошибка: {_e}", file=sys.stderr)
 
-# Search ids первыми, потом watchlist, потом остальные
-priority_ids = list(search_ids) + [i for i in all_ids if i not in search_ids]
-MAX_IDS_TO_CHECK = 600  # лимит: не больше 600 приложений за раз
-ids_list = priority_ids[:MAX_IDS_TO_CHECK]
-print(f"Проверяю {len(ids_list)} из {len(priority_ids)} игр (search-приоритет, 20 потоков)...", file=sys.stderr)
+# Smart batching: приоритетные (search + watchlist) + ротация остальных
+PRIORITY_LIMIT = 300   # search + watchlist - всегда проверяем
+ROTATION_BATCH = 200   # из остальных берём порцию с ротацией
+ROTATION_FILE = '/tmp/gplay_rotation_offset.txt'
+
+priority_ids = list(search_ids)
+# Добавляем watchlist в приоритет
+watchlist_ids = set()
+try:
+    import json as _j, os as _o
+    _wl = _j.load(open(_o.join(SCRIPTS_DIR, 'watchlist.json')))
+    watchlist_ids = set(_wl.get('apps', []))
+    priority_ids = list(watchlist_ids) + priority_ids
+except: pass
+
+priority_ids = list(dict.fromkeys(priority_ids))[:PRIORITY_LIMIT]  # дедупликация
+
+# Остальные IDs - берём ротационную порцию
+rest_ids = [i for i in all_ids if i not in set(priority_ids)]
+try:
+    offset = int(open(ROTATION_FILE).read().strip()) if os.path.exists(ROTATION_FILE) else 0
+    offset = offset % max(len(rest_ids), 1)
+except: offset = 0
+rotation_ids = rest_ids[offset:offset + ROTATION_BATCH]
+# Если дошли до конца - добираем с начала
+if len(rotation_ids) < ROTATION_BATCH:
+    rotation_ids += rest_ids[:ROTATION_BATCH - len(rotation_ids)]
+# Сохраняем следующий offset
+try:
+    with open(ROTATION_FILE, 'w') as _f:
+        _f.write(str((offset + ROTATION_BATCH) % max(len(rest_ids), 1)))
+except: pass
+
+ids_list = list(dict.fromkeys(priority_ids + rotation_ids))
+print(f"Проверяю {len(ids_list)} игр: {len(priority_ids)} приоритетных + {len(rotation_ids)} ротация "
+      f"(offset={offset}/{len(rest_ids)}, всего {len(all_ids)} в пуле)...", file=sys.stderr)
 
 # === ФИЛЬТРАЦИЯ ПО ДАТЕ И DL/DAY ===
 rockets = []
