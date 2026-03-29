@@ -930,19 +930,11 @@
         <div class="section-subtitle">Вирусные темы для мобильных игр · YouTube + Google Trends</div>
       </div>
       <div class="section-count" id="viral-count">...</div>
-      <div style="margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-        <div class="refresh-group">
-          <button class="btn-refresh btn-refresh-hype" id="refresh-channels-btn" onclick="startRefresh('channels')" style="font-size:0.75rem;padding:6px 10px">
-            <span id="refresh-channels-icon">↻</span> Каналы
-          </button>
-          <span class="refresh-time" id="channels-time">—</span>
-        </div>
-        <div class="refresh-group">
-          <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
-            <span id="refresh-hype-icon">↻</span> <span id="refresh-hype-label">Обновить</span>
-          </button>
-          <span class="refresh-time" id="hype-time">—</span>
-        </div>
+      <div class="refresh-group" style="margin-left:auto">
+        <button class="btn-refresh btn-refresh-hype" id="refresh-hype-btn" onclick="startRefresh('hype')">
+          <span id="refresh-hype-icon">↻</span> <span id="refresh-hype-label">Обновить</span>
+        </button>
+        <span class="refresh-time" id="hype-time">—</span>
       </div>
     </div>
     <div id="viral-grid">
