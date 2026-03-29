@@ -412,10 +412,11 @@ if _os.path.exists(_watchlist_path):
     except Exception as _e:
         print(f"Watchlist ошибка: {_e}", file=sys.stderr)
 
-# Search ids первыми, потом watchlist, потом остальные - без лимита
+# Search ids первыми, потом watchlist, потом остальные
 priority_ids = list(search_ids) + [i for i in all_ids if i not in search_ids]
-ids_list = priority_ids  # проверяем все
-print(f"Проверяю {len(ids_list)} игр (search-приоритет, 20 потоков)...", file=sys.stderr)
+MAX_IDS_TO_CHECK = 600  # лимит: не больше 600 приложений за раз
+ids_list = priority_ids[:MAX_IDS_TO_CHECK]
+print(f"Проверяю {len(ids_list)} из {len(priority_ids)} игр (search-приоритет, 20 потоков)...", file=sys.stderr)
 
 # === ФИЛЬТРАЦИЯ ПО ДАТЕ И DL/DAY ===
 rockets = []
