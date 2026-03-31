@@ -3331,7 +3331,7 @@
     "icon": "https://play-lh.googleusercontent.com/HPR1HCSj2yz7i4jV0dUece2qswOgkxXKgrqZnQF9lWVTLzeFhKpajuUQwTABne39Iiht4QNglnaDDJD0f8iw",
     "url": "https://play.google.com/store/apps/details?id=com.peerplay.megamerge",
     "first_seen": "2026-03-12",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-31",
     "peak_dpd": 969281,
     "peak_date": "2026-03-12",
     "history": [
@@ -3429,6 +3429,12 @@
         "date": "2026-03-28",
         "installs": 1070120,
         "dpd": 62948,
+        "score": 4.6
+      },
+      {
+        "date": "2026-03-31",
+        "installs": 1081721,
+        "dpd": 54086,
         "score": 4.6
       }
     ]
