@@ -5110,5 +5110,119 @@
         "score": 4.3
       }
     ]
+  },
+  "com.sprunki.mod.horror.incredibox.monster.beats.music.phase": {
+    "id": "com.sprunki.mod.horror.incredibox.monster.beats.music.phase",
+    "name": "Sprunki All Phases Beat Maker",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/PFbae478kE9n9DK-RBnypnEB3ERvVi4Y1nWr6WJifqCTo86n-HqxYoFaaTWlW11vYrQ",
+    "url": "https://play.google.com/store/apps/details?id=com.sprunki.mod.horror.incredibox.monster.beats.music.phase",
+    "first_seen": "2026-03-31",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 750819,
+    "peak_date": "2026-03-31",
+    "history": [
+      {
+        "date": "2026-03-31",
+        "installs": 10511475,
+        "dpd": 750819,
+        "score": 0
+      }
+    ]
+  },
+  "com.mnogoteams.quizblitz": {
+    "id": "com.mnogoteams.quizblitz",
+    "name": "Quiz Blitz: Викторина для ума",
+    "genre": "Викторины",
+    "icon": "https://play-lh.googleusercontent.com/yTK5sIl_LbHIQQvB0q-NVvod5gLZCrEl8gkLdz3ODLvsYGoFk0nvOMRr7XJ5_32lu5I",
+    "url": "https://play.google.com/store/apps/details?id=com.mnogoteams.quizblitz",
+    "first_seen": "2026-03-31",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 11387,
+    "peak_date": "2026-03-31",
+    "history": [
+      {
+        "date": "2026-03-31",
+        "installs": 136650,
+        "dpd": 11387,
+        "score": 4.9
+      }
+    ]
+  },
+  "com.murder.hill": {
+    "id": "com.murder.hill",
+    "name": "Murderhill",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/bOqggEXmKZ2XtJftAH5ucX1wSI0vcOugcwTXdb8gByzCBkcWj9sSq8siLsGINCbiiM139O8mlpxNKcVbefKRAHQ",
+    "url": "https://play.google.com/store/apps/details?id=com.murder.hill",
+    "first_seen": "2026-03-31",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 6876,
+    "peak_date": "2026-03-31",
+    "history": [
+      {
+        "date": "2026-03-31",
+        "installs": 123777,
+        "dpd": 6876,
+        "score": 4.4
+      }
+    ]
+  },
+  "com.xplay.cricket.smash.championship": {
+    "id": "com.xplay.cricket.smash.championship",
+    "name": "Cricket Smash Championship",
+    "genre": "Sports",
+    "icon": "https://play-lh.googleusercontent.com/n8SqSYi57380GI_STpTmVLkMSjTcCNuj5FrKz8jH89tlARswtjhzS06Otg4Xelb6_X0LokRM_EoSw0WpNLAzOg",
+    "url": "https://play.google.com/store/apps/details?id=com.xplay.cricket.smash.championship",
+    "first_seen": "2026-03-31",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 3334,
+    "peak_date": "2026-03-31",
+    "history": [
+      {
+        "date": "2026-03-31",
+        "installs": 50022,
+        "dpd": 3334,
+        "score": 0
+      }
+    ]
+  },
+  "com.Spirit45Studio.DanurGame": {
+    "id": "com.Spirit45Studio.DanurGame",
+    "name": "Danur The Last Chapter Game",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/HF7yJOl1HwAf5ZW_6ZlJ9RannCCz-TfEhbPmaHFPqQR0-cvr5BiHo7CftImdgvM2K6sgUeK3Svw8emClhRmnlw",
+    "url": "https://play.google.com/store/apps/details?id=com.Spirit45Studio.DanurGame",
+    "first_seen": "2026-03-31",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 890,
+    "peak_date": "2026-03-31",
+    "history": [
+      {
+        "date": "2026-03-31",
+        "installs": 13355,
+        "dpd": 890,
+        "score": 0
+      }
+    ]
+  },
+  "com.bangsawan.cookie": {
+    "id": "com.bangsawan.cookie",
+    "name": "Cookie Jam Frenzy",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/3R4C7cRGsThXiUgvLEjrms06TNMte9CgH9EnmAfRp2IDTl56izchOZZHN4zkQzIwIUx1THeURgVt4TV5WWKfvQ",
+    "url": "https://play.google.com/store/apps/details?id=com.bangsawan.cookie",
+    "first_seen": "2026-03-31",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 547,
+    "peak_date": "2026-03-31",
+    "history": [
+      {
+        "date": "2026-03-31",
+        "installs": 14776,
+        "dpd": 547,
+        "score": 0
+      }
+    ]
   }
 }
