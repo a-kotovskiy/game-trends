@@ -6,7 +6,7 @@
     "icon": "https://play-lh.googleusercontent.com/ybQE_kXyTZV7co0NVzhy64hQ8iZr9lJCfBGgBhd4KAaudTmBVHuOcomyy8tlCbqmY0dGk4SLHsgWMkI9n7JxdJc",
     "url": "https://play.google.com/store/apps/details?id=com.extreme.games.production.onehitpunch.games",
     "first_seen": "2026-03-11",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-30",
     "peak_dpd": 131508,
     "peak_date": "2026-03-11",
     "history": [
@@ -110,6 +110,12 @@
         "date": "2026-03-28",
         "installs": 570362,
         "dpd": 27160,
+        "score": 0
+      },
+      {
+        "date": "2026-03-30",
+        "installs": 572761,
+        "dpd": 24902,
         "score": 0
       }
     ]
@@ -3091,7 +3097,7 @@
     "icon": "https://play-lh.googleusercontent.com/fSxoePMhMV9cP9UzAL5MIEUDFZf8Gc00233n3L8uWoz9TsD8Og9RTgEPxDe50fOUykxqEQO_2jLg718Tj-81",
     "url": "https://play.google.com/store/apps/details?id=com.TeamSparta.SpaceMinions",
     "first_seen": "2026-03-11",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-31",
     "peak_dpd": 8652,
     "peak_date": "2026-03-26",
     "history": [
@@ -3195,6 +3201,12 @@
         "date": "2026-03-28",
         "installs": 153834,
         "dpd": 8096,
+        "score": 3.9
+      },
+      {
+        "date": "2026-03-31",
+        "installs": 161755,
+        "dpd": 7352,
         "score": 3.9
       }
     ]
@@ -3410,7 +3422,7 @@
     "icon": "https://play-lh.googleusercontent.com/wN9JX-ctnrfLys9dVUkzs4gWRBLVPMFAlvBtydnqeLdWuP9HFUQ1Mwieu4xqZ9bSoHtIr44yJMVM0vIv2h2TGdk",
     "url": "https://play.google.com/store/apps/details?id=com.clovergames.avalonclient",
     "first_seen": "2026-03-12",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-31",
     "peak_dpd": 59781,
     "peak_date": "2026-03-12",
     "history": [
@@ -3509,6 +3521,18 @@
         "installs": 546799,
         "dpd": 22783,
         "score": 4
+      },
+      {
+        "date": "2026-03-30",
+        "installs": 552281,
+        "dpd": 21241,
+        "score": 4.1
+      },
+      {
+        "date": "2026-03-31",
+        "installs": 552281,
+        "dpd": 20454,
+        "score": 4.0
       }
     ]
   },
@@ -3519,7 +3543,7 @@
     "icon": "https://play-lh.googleusercontent.com/E3a1WWvY5mdlCf3cv07MvHSotCeTJD9Bh1-1b2m8TxTCvrZ3nW3OmPXLTOxGTnBhDsepENedVLSXX1EcPSFdgA",
     "url": "https://play.google.com/store/apps/details?id=com.Deliciousgames.NGI",
     "first_seen": "2026-03-12",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-29",
     "peak_dpd": 11925,
     "peak_date": "2026-03-12",
     "history": [
@@ -3618,6 +3642,12 @@
         "installs": 84310,
         "dpd": 3665,
         "score": 2.1
+      },
+      {
+        "date": "2026-03-29",
+        "installs": 84352,
+        "dpd": 3514,
+        "score": 2.1
       }
     ]
   },
@@ -3628,9 +3658,9 @@
     "icon": "https://play-lh.googleusercontent.com/9l7yBAREEQ-jdnkqI_wtMjIeOmVU6jcddN_YdMP3WIglto-l6u5KfpO8kTglmzeNVg8",
     "url": "https://play.google.com/store/apps/details?id=com.SpaghettiHouse.EscapeFromBlogger",
     "first_seen": "2026-03-12",
-    "last_seen": "2026-03-28",
-    "peak_dpd": 45197,
-    "peak_date": "2026-03-25",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 50127,
+    "peak_date": "2026-03-30",
     "history": [
       {
         "date": "2026-03-12",
@@ -3726,6 +3756,18 @@
         "date": "2026-03-28",
         "installs": 758921,
         "dpd": 42162,
+        "score": 4.9
+      },
+      {
+        "date": "2026-03-30",
+        "installs": 1002543,
+        "dpd": 50127,
+        "score": 4.9
+      },
+      {
+        "date": "2026-03-31",
+        "installs": 1002543,
+        "dpd": 47740,
         "score": 4.9
       }
     ]
@@ -4447,7 +4489,7 @@
     "icon": "https://play-lh.googleusercontent.com/Fke_AocHJy8x7Qi_oJZT1mnAeDKfGQkbBEDhPViQyL5dNFHgI6dSinM_POoKR0zkMI_5",
     "url": "https://play.google.com/store/apps/details?id=com.eastsidegames.tpbmatch",
     "first_seen": "2026-03-19",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-31",
     "peak_dpd": 2709,
     "peak_date": "2026-03-19",
     "history": [
@@ -4510,6 +4552,12 @@
         "installs": 12837,
         "dpd": 1069,
         "score": 2.4
+      },
+      {
+        "date": "2026-03-31",
+        "installs": 14813,
+        "dpd": 987,
+        "score": 2.2
       }
     ]
   },
@@ -4794,9 +4842,9 @@
     "icon": "https://play-lh.googleusercontent.com/s4ANEt4WEOyiY27xRDtakfBHPTB7lGUeYVub0-o69YiBXkP6U4P6JzDm1rJjPAL1n0M",
     "url": "https://play.google.com/store/apps/details?id=com.coregames.darklordrising",
     "first_seen": "2026-03-26",
-    "last_seen": "2026-03-28",
-    "peak_dpd": 4109,
-    "peak_date": "2026-03-26",
+    "last_seen": "2026-03-31",
+    "peak_dpd": 14828,
+    "peak_date": "2026-03-29",
     "history": [
       {
         "date": "2026-03-26",
@@ -4815,6 +4863,24 @@
         "installs": 8232,
         "dpd": 2058,
         "score": 4.4
+      },
+      {
+        "date": "2026-03-29",
+        "installs": 74142,
+        "dpd": 14828,
+        "score": 4.5
+      },
+      {
+        "date": "2026-03-30",
+        "installs": 74191,
+        "dpd": 12365,
+        "score": 4.5
+      },
+      {
+        "date": "2026-03-31",
+        "installs": 74191,
+        "dpd": 10598,
+        "score": 4.5
       }
     ]
   },
@@ -4825,7 +4891,7 @@
     "icon": "https://play-lh.googleusercontent.com/UiSDupKVwV4Kpd1i1UZXCfH_SvMHuRqbzGuT9MLcgUDHgRzzFFXRx_ljuirQI7_vdS_-usRClFSqAIvITK6PKA",
     "url": "https://play.google.com/store/apps/details?id=com.studiobside.starMain",
     "first_seen": "2026-03-26",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-30",
     "peak_dpd": 96323,
     "peak_date": "2026-03-26",
     "history": [
@@ -4846,6 +4912,12 @@
         "installs": 888780,
         "dpd": 80798,
         "score": 3.3
+      },
+      {
+        "date": "2026-03-30",
+        "installs": 979730,
+        "dpd": 75363,
+        "score": 3.3
       }
     ]
   },
@@ -4856,7 +4928,7 @@
     "icon": "https://play-lh.googleusercontent.com/iBQo85ZjEHmdTQw-q49IRVrJ0Iv73XNdeX7vet8Yrzj3hxpQXcBtK4Y6sP267i0IDKvMF3mLUE-aPgGv6iZtEw",
     "url": "https://play.google.com/store/apps/details?id=com.hg.delicacy.Notes.mergegames",
     "first_seen": "2026-03-26",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-30",
     "peak_dpd": 7199,
     "peak_date": "2026-03-26",
     "history": [
@@ -4877,6 +4949,12 @@
         "installs": 95896,
         "dpd": 6393,
         "score": 4.9
+      },
+      {
+        "date": "2026-03-30",
+        "installs": 97211,
+        "dpd": 5718,
+        "score": 4.9
       }
     ]
   },
@@ -4887,9 +4965,9 @@
     "icon": "https://play-lh.googleusercontent.com/XYKw-xqLIrzDZhh0I0NI4XOH_OmZ41okQ2mW52PLbJlKpMwpWLnK0hI_ZzFI-Ka24dJNZY6W6Xn3KiIprRydjw",
     "url": "https://play.google.com/store/apps/details?id=obby.lucky.go",
     "first_seen": "2026-03-26",
-    "last_seen": "2026-03-28",
-    "peak_dpd": 903,
-    "peak_date": "2026-03-27",
+    "last_seen": "2026-03-30",
+    "peak_dpd": 1333,
+    "peak_date": "2026-03-30",
     "history": [
       {
         "date": "2026-03-26",
@@ -4907,6 +4985,12 @@
         "date": "2026-03-28",
         "installs": 15366,
         "dpd": 853,
+        "score": 0
+      },
+      {
+        "date": "2026-03-30",
+        "installs": 26671,
+        "dpd": 1333,
         "score": 0
       }
     ]
