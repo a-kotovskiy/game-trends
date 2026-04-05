@@ -4978,7 +4978,7 @@
     "icon": "https://play-lh.googleusercontent.com/9f7lKDR9pKcIr5O7h5xIWuV9Zr23jd7lHSWuGfZ7eg2lygmGvl4EduK_H9j0nuxBa-iNSut0UJJFlta_H9HV",
     "url": "https://play.google.com/store/apps/details?id=com.ares.baseball",
     "first_seen": "2026-03-20",
-    "last_seen": "2026-04-03",
+    "last_seen": "2026-04-04",
     "peak_dpd": 15961,
     "peak_date": "2026-03-31",
     "history": [
@@ -5053,6 +5053,12 @@
         "installs": 239420,
         "dpd": 13301,
         "score": 4.5
+      },
+      {
+        "date": "2026-04-04",
+        "installs": 239420,
+        "dpd": 12601,
+        "score": 4.6
       }
     ]
   },
@@ -5709,8 +5715,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.zigzagame.paranoize",
     "first_seen": "2026-04-03",
     "last_seen": "2026-04-04",
-    "peak_dpd": 108671,
-    "peak_date": "2026-04-03",
+    "peak_dpd": 117614,
+    "peak_date": "2026-04-04",
     "history": [
       {
         "date": "2026-04-03",
