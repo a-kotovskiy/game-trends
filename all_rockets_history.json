@@ -9705,5 +9705,24 @@
         "score": 0
       }
     ]
+  },
+  "com.catchpowery.blockgame": {
+    "id": "com.catchpowery.blockgame",
+    "name": "Wood Block Puzzle: Maple Fall‌",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/VSAwOyBIrXM6P1YybTDutsdr5INiFLJiZh6NSjwckRoRa0AnVX9XSv8Zu9rzTGttLCOOJqXXmp_azgrjCbu5Bpk",
+    "url": "https://play.google.com/store/apps/details?id=com.catchpowery.blockgame",
+    "first_seen": "2026-04-08",
+    "last_seen": "2026-04-08",
+    "peak_dpd": 7541,
+    "peak_date": "2026-04-08",
+    "history": [
+      {
+        "date": "2026-04-08",
+        "installs": 52791,
+        "dpd": 7541,
+        "score": 4.8
+      }
+    ]
   }
 }
