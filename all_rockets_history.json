@@ -6622,5 +6622,100 @@
         "score": 4.5
       }
     ]
+  },
+  "com.funnyvideo.cgame.fruitblast": {
+    "id": "com.funnyvideo.cgame.fruitblast",
+    "name": "Fruit Blast: Match-3 Puzzle",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/RNMPpJHRe0z0JFIqiyudSn9PVSen8DLVRMTZZoJvom6yGyBzquSRFPhng_qNfxb3dGuUSye07mbUUICWAfKL",
+    "url": "https://play.google.com/store/apps/details?id=com.funnyvideo.cgame.fruitblast",
+    "first_seen": "2026-04-07",
+    "last_seen": "2026-04-07",
+    "peak_dpd": 55406,
+    "peak_date": "2026-04-07",
+    "history": [
+      {
+        "date": "2026-04-07",
+        "installs": 1440560,
+        "dpd": 55406,
+        "score": 5.0
+      }
+    ]
+  },
+  "gem.sort.color.match.puzzle.paint": {
+    "id": "gem.sort.color.match.puzzle.paint",
+    "name": "Gem Coloring Match",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/WcPr9RVV4UXndQ_BUf63-U6Uw04VMhRCJj93Hw8iXcbaMHCqjzuGdT-8edBr-P9ABl1M18FeJsQvJ5hXz7sA",
+    "url": "https://play.google.com/store/apps/details?id=gem.sort.color.match.puzzle.paint",
+    "first_seen": "2026-04-07",
+    "last_seen": "2026-04-07",
+    "peak_dpd": 11396,
+    "peak_date": "2026-04-07",
+    "history": [
+      {
+        "date": "2026-04-07",
+        "installs": 296321,
+        "dpd": 11396,
+        "score": 4.9
+      }
+    ]
+  },
+  "com.loadcomplete.minitales": {
+    "id": "com.loadcomplete.minitales",
+    "name": "Mini Tales",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/fH2m1_bENbEMwcGSzHVS33uf4L8mSCt0p2rJAI80PeQ5hQUWyggmTQFPyJtSIPBIlSqu",
+    "url": "https://play.google.com/store/apps/details?id=com.loadcomplete.minitales",
+    "first_seen": "2026-04-07",
+    "last_seen": "2026-04-07",
+    "peak_dpd": 5748,
+    "peak_date": "2026-04-07",
+    "history": [
+      {
+        "date": "2026-04-07",
+        "installs": 80481,
+        "dpd": 5748,
+        "score": 4.5
+      }
+    ]
+  },
+  "com.gplay.her.forest.puzzle": {
+    "id": "com.gplay.her.forest.puzzle",
+    "name": "Her Forest Puzzle",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/10l_avvOSnPyjbDQO4bnfRNoWF5i72WpFEogyiIdFLEZb7aiwdVxX-Oa2leLV74rK51Tzb3q_tOFb1jMc5sR",
+    "url": "https://play.google.com/store/apps/details?id=com.gplay.her.forest.puzzle",
+    "first_seen": "2026-04-07",
+    "last_seen": "2026-04-07",
+    "peak_dpd": 5015,
+    "peak_date": "2026-04-07",
+    "history": [
+      {
+        "date": "2026-04-07",
+        "installs": 125377,
+        "dpd": 5015,
+        "score": 2.9
+      }
+    ]
+  },
+  "com.jz3d.tr.google": {
+    "id": "com.jz3d.tr.google",
+    "name": "Demon God: Efsaneler Çağı",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/zt3IbO2hTaMMPZ0kXQesQKXAUhmNm37neDZnaLoRSaVzZjAgpItPvIQYlsM6pzpQ3Nw6MK0ZQPKEakYGYEYmrA",
+    "url": "https://play.google.com/store/apps/details?id=com.jz3d.tr.google",
+    "first_seen": "2026-04-07",
+    "last_seen": "2026-04-07",
+    "peak_dpd": 583,
+    "peak_date": "2026-04-07",
+    "history": [
+      {
+        "date": "2026-04-07",
+        "installs": 8174,
+        "dpd": 583,
+        "score": 0
+      }
+    ]
   }
 }
