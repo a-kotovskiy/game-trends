@@ -6765,7 +6765,7 @@
     "icon": "https://play-lh.googleusercontent.com/Rjb9tTrJkcvKE11RZvh98C-n9TlF4RBCbR0yTwT9D_m-04gQ7xhkdxpPbmkoo70z5EkqLLqD1OzUPy4m_-OwEg",
     "url": "https://play.google.com/store/apps/details?id=com.playwith.sealm.g.googl",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-04-07",
+    "last_seen": "2026-04-08",
     "peak_dpd": 13543,
     "peak_date": "2026-04-06",
     "history": [
@@ -6779,6 +6779,12 @@
         "date": "2026-04-07",
         "installs": 285597,
         "dpd": 12981,
+        "score": 2
+      },
+      {
+        "date": "2026-04-08",
+        "installs": 288149,
+        "dpd": 12528,
         "score": 2
       }
     ]
@@ -8017,7 +8023,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.lsdny.gp",
     "first_seen": "2026-04-08",
     "last_seen": "2026-04-08",
-    "peak_dpd": 4928,
+    "peak_dpd": 5365,
     "peak_date": "2026-04-08",
     "history": [
       {
@@ -9658,6 +9664,44 @@
         "date": "2026-04-08",
         "installs": 2521,
         "dpd": 315,
+        "score": 0
+      }
+    ]
+  },
+  "dressup.fashion.game.princess": {
+    "id": "dressup.fashion.game.princess",
+    "name": "Fashion Style: Anime Dress Up",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/5iQxZmKxSDJB-vxfHltXctvV254bvgFJSCZcs1q6jWm-WWPiF1RufwlJ_SJ-X8UAEV0ZRqt2W80xjczENDkcqQ",
+    "url": "https://play.google.com/store/apps/details?id=dressup.fashion.game.princess",
+    "first_seen": "2026-04-08",
+    "last_seen": "2026-04-08",
+    "peak_dpd": 8072,
+    "peak_date": "2026-04-08",
+    "history": [
+      {
+        "date": "2026-04-08",
+        "installs": 242177,
+        "dpd": 8072,
+        "score": 4.2
+      }
+    ]
+  },
+  "com.onmobi.imposter": {
+    "id": "com.onmobi.imposter",
+    "name": "Imposter: Party Word Game",
+    "genre": "Word",
+    "icon": "https://play-lh.googleusercontent.com/anK7bNlUkiSAY_tRGQ9Wgg0RbnrWJSN0Y3oTjHyUgxbAtkFKQrWY-fYqTk5ZW2w0NLFtQw5gA-eKU-WPwvvHG8M",
+    "url": "https://play.google.com/store/apps/details?id=com.onmobi.imposter",
+    "first_seen": "2026-04-08",
+    "last_seen": "2026-04-08",
+    "peak_dpd": 880,
+    "peak_date": "2026-04-08",
+    "history": [
+      {
+        "date": "2026-04-08",
+        "installs": 14960,
+        "dpd": 880,
         "score": 0
       }
     ]
