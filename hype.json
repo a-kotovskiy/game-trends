@@ -3,9 +3,9 @@
     {
       "id": "P38povvExqA",
       "title": "The Anything Slab",
-      "views": 4500000,
-      "views_str": "4.5M",
-      "vpd": 1500000,
+      "views": 4600000,
+      "views_str": "4.6M",
+      "vpd": 1533333,
       "vpd_str": "1.5M",
       "age_days": 3,
       "upload_date": "20260411",
@@ -18,15 +18,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=1.5M",
-      "channel_avg_vpd": 1500000
+      "channel_avg_vpd": 1533333
     },
     {
       "id": "VpzN3poVcWE",
       "title": "😂A FRIEND WILL ALWAYS HELP YOU IN 99 NIGHTS IN THE FOREST IN ROBLOX!",
-      "views": 850000,
-      "views_str": "850K",
-      "vpd": 850000,
-      "vpd_str": "850K",
+      "views": 1000000,
+      "views_str": "1.0M",
+      "vpd": 1000000,
+      "vpd_str": "1.0M",
       "age_days": 1,
       "upload_date": "20260413",
       "duration": 15,
@@ -37,16 +37,16 @@
       "thumb": "https://img.youtube.com/vi/VpzN3poVcWE/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=850K",
-      "channel_avg_vpd": 549500
+      "reason": "vpd=1.0M",
+      "channel_avg_vpd": 708500
     },
     {
       "id": "rWiQHXfO-Qk",
       "title": "i added physics to minecraft",
-      "views": 9300000,
-      "views_str": "9.3M",
-      "vpd": 715384,
-      "vpd_str": "715K",
+      "views": 9400000,
+      "views_str": "9.4M",
+      "vpd": 723076,
+      "vpd_str": "723K",
       "age_days": 13,
       "upload_date": "20260401",
       "duration": 60,
@@ -57,28 +57,8 @@
       "thumb": "https://img.youtube.com/vi/rWiQHXfO-Qk/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=715K",
-      "channel_avg_vpd": 538942
-    },
-    {
-      "id": "iYdiKMW8R2o",
-      "title": "ROBLOX MAKEUP UPDATE -_-",
-      "views": 1356013,
-      "views_str": "1.4M",
-      "vpd": 678006,
-      "vpd_str": "678K",
-      "age_days": 2,
-      "upload_date": "20260412",
-      "duration": 972,
-      "kind": "Video",
-      "channel": "Flamingo",
-      "channel_id": "UCm-X6o81nRsXQTmqpyArkBQ",
-      "url": "https://youtu.be/iYdiKMW8R2o",
-      "thumb": "https://img.youtube.com/vi/iYdiKMW8R2o/mqdefault.jpg",
-      "grade": "🔥🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=678K",
-      "channel_avg_vpd": 678006
+      "reason": "vpd=723K",
+      "channel_avg_vpd": 542788
     },
     {
       "id": "cUZI8gnyKFY",
@@ -101,6 +81,26 @@
       "channel_avg_vpd": 431428
     },
     {
+      "id": "c4o3ffRe83I",
+      "title": "😱 WE DID IT WRONG IN 99 NIGHTS IN THE WOODS IN ROBLOX!",
+      "views": 834000,
+      "views_str": "834K",
+      "vpd": 417000,
+      "vpd_str": "417K",
+      "age_days": 2,
+      "upload_date": "20260412",
+      "duration": 15,
+      "kind": "Short",
+      "channel": "GADOSTI",
+      "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
+      "url": "https://youtu.be/c4o3ffRe83I",
+      "thumb": "https://img.youtube.com/vi/c4o3ffRe83I/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=417K",
+      "channel_avg_vpd": 708500
+    },
+    {
       "id": "XvLKTLwsSIA",
       "title": "Minecraft, But I Can’t Touch Colors…",
       "views": 8700000,
@@ -118,7 +118,7 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=378K",
-      "channel_avg_vpd": 247463
+      "channel_avg_vpd": 249130
     },
     {
       "id": "qzAuJw4BdGQ",
@@ -138,7 +138,7 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=362K",
-      "channel_avg_vpd": 538942
+      "channel_avg_vpd": 542788
     },
     {
       "id": "0ytjxx17mBo",
@@ -183,10 +183,10 @@
     {
       "id": "2Kjw2z7iYHQ",
       "title": "goodbye 😔",
-      "views": 3400000,
-      "views_str": "3.4M",
-      "vpd": 309090,
-      "vpd_str": "309K",
+      "views": 3500000,
+      "views_str": "3.5M",
+      "vpd": 318181,
+      "vpd_str": "318K",
       "age_days": 11,
       "upload_date": "20260403",
       "duration": 40,
@@ -197,8 +197,8 @@
       "thumb": "https://img.youtube.com/vi/2Kjw2z7iYHQ/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=309K",
-      "channel_avg_vpd": 244545
+      "reason": "vpd=318K",
+      "channel_avg_vpd": 249090
     },
     {
       "id": "-c5Vr75_qv8",
@@ -219,26 +219,6 @@
       "source": "channel_monitor",
       "reason": "vpd=300K",
       "channel_avg_vpd": 316666
-    },
-    {
-      "id": "11kjBc67i7I",
-      "title": "😂 WHEN YOUR FRIEND IS RANDOM IN 99 NIGHTS IN THE WOODS IN ROBLOX!",
-      "views": 996000,
-      "views_str": "996K",
-      "vpd": 249000,
-      "vpd_str": "249K",
-      "age_days": 4,
-      "upload_date": "20260410",
-      "duration": 19,
-      "kind": "Short",
-      "channel": "GADOSTI",
-      "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
-      "url": "https://youtu.be/11kjBc67i7I",
-      "thumb": "https://img.youtube.com/vi/11kjBc67i7I/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=249K",
-      "channel_avg_vpd": 549500
     },
     {
       "id": "aUQnUXz9Q2A",
@@ -263,10 +243,10 @@
     {
       "id": "3UbQRNC3ut8",
       "title": "I Added a 1 in 9,346,807 Weapon in Minecraft",
-      "views": 415912,
-      "views_str": "416K",
-      "vpd": 207956,
-      "vpd_str": "208K",
+      "views": 436550,
+      "views_str": "437K",
+      "vpd": 218275,
+      "vpd_str": "218K",
       "age_days": 2,
       "upload_date": "20260412",
       "duration": 1379,
@@ -277,8 +257,8 @@
       "thumb": "https://img.youtube.com/vi/3UbQRNC3ut8/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=208K",
-      "channel_avg_vpd": 147553
+      "reason": "vpd=218K",
+      "channel_avg_vpd": 152892
     },
     {
       "id": "nmX1z72ABV8",
@@ -318,15 +298,15 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=180K",
-      "channel_avg_vpd": 244545
+      "channel_avg_vpd": 249090
     },
     {
       "id": "S9m6DopP2e4",
       "title": "IShowSpeed leaked Mr beast's Number 💀💀",
-      "views": 690000,
-      "views_str": "690K",
-      "vpd": 172500,
-      "vpd_str": "172K",
+      "views": 698000,
+      "views_str": "698K",
+      "vpd": 174500,
+      "vpd_str": "174K",
       "age_days": 4,
       "upload_date": "20260410",
       "duration": 20,
@@ -337,16 +317,16 @@
       "thumb": "https://img.youtube.com/vi/S9m6DopP2e4/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=172K",
-      "channel_avg_vpd": 143650
+      "reason": "vpd=174K",
+      "channel_avg_vpd": 144750
     },
     {
       "id": "6vVuNiTXC_0",
       "title": "I Busted 24 SCARIEST MYTHS in GTA 5!",
-      "views": 792282,
-      "views_str": "792K",
-      "vpd": 158456,
-      "vpd_str": "158K",
+      "views": 804833,
+      "views_str": "805K",
+      "vpd": 160966,
+      "vpd_str": "161K",
       "age_days": 5,
       "upload_date": "20260409",
       "duration": 1445,
@@ -357,28 +337,8 @@
       "thumb": "https://img.youtube.com/vi/6vVuNiTXC_0/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=158K",
-      "channel_avg_vpd": 158456
-    },
-    {
-      "id": "oYE9hm9iLWs",
-      "title": "ЖИВУ КАК КОРЕЕЦ 24 ЧАСА ЧЕЛЛЕНДЖ! ЛАЙФ РОЛИК",
-      "views": 1379735,
-      "views_str": "1.4M",
-      "vpd": 153303,
-      "vpd_str": "153K",
-      "age_days": 9,
-      "upload_date": "20260405",
-      "duration": 5245,
-      "kind": "Video",
-      "channel": "ГЛЕНТ",
-      "channel_id": "UCBYvr4SqfGQd5fTmOXVQ4Zw",
-      "url": "https://youtu.be/oYE9hm9iLWs",
-      "thumb": "https://img.youtube.com/vi/oYE9hm9iLWs/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=153K",
-      "channel_avg_vpd": 153303
+      "reason": "vpd=161K",
+      "channel_avg_vpd": 160966
     },
     {
       "id": "M6RwmvEGWAQ",
@@ -403,10 +363,10 @@
     {
       "id": "YsjeRfPUQLQ",
       "title": "Minecraft, But Any Mob You Say, I Turn Into…",
-      "views": 3500000,
-      "views_str": "3.5M",
-      "vpd": 116666,
-      "vpd_str": "117K",
+      "views": 3600000,
+      "views_str": "3.6M",
+      "vpd": 120000,
+      "vpd_str": "120K",
       "age_days": 30,
       "upload_date": "20260315",
       "duration": 57,
@@ -417,15 +377,15 @@
       "thumb": "https://img.youtube.com/vi/YsjeRfPUQLQ/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=117K",
-      "channel_avg_vpd": 247463
+      "reason": "vpd=120K",
+      "channel_avg_vpd": 249130
     },
     {
       "id": "tTYf_4JgJHw",
       "title": "\"just naturally\" 💀💀",
-      "views": 574000,
-      "views_str": "574K",
-      "vpd": 114800,
+      "views": 575000,
+      "views_str": "575K",
+      "vpd": 115000,
       "vpd_str": "115K",
       "age_days": 5,
       "upload_date": "20260409",
@@ -438,14 +398,14 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=115K",
-      "channel_avg_vpd": 143650
+      "channel_avg_vpd": 144750
     },
     {
       "id": "X7bCBNj4GI8",
       "title": "Testing Insane Minecraft Things You CAN'T UNSEE",
-      "views": 2019176,
+      "views": 2022488,
       "views_str": "2.0M",
-      "vpd": 106272,
+      "vpd": 106446,
       "vpd_str": "106K",
       "age_days": 19,
       "upload_date": "20260326",
@@ -458,14 +418,14 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=106K",
-      "channel_avg_vpd": 106272
+      "channel_avg_vpd": 106446
     },
     {
       "id": "m5VCOQzvltY",
       "title": "How to escape Holibam in \"Escape From Blogger\"🚀",
-      "views": 955000,
-      "views_str": "955K",
-      "vpd": 95500,
+      "views": 963000,
+      "views_str": "963K",
+      "vpd": 96300,
       "vpd_str": "96K",
       "age_days": 10,
       "upload_date": "20260404",
@@ -478,7 +438,7 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=96K",
-      "channel_avg_vpd": 93204
+      "channel_avg_vpd": 93604
     },
     {
       "id": "h4XbK-cIbcg",
@@ -498,15 +458,15 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=91K",
-      "channel_avg_vpd": 93204
+      "channel_avg_vpd": 93604
     },
     {
       "id": "AIBX6eW7YCI",
       "title": "Spending $325,189,381 in Roblox Brainrot Heroes",
-      "views": 522902,
-      "views_str": "523K",
-      "vpd": 87150,
-      "vpd_str": "87K",
+      "views": 525062,
+      "views_str": "525K",
+      "vpd": 87510,
+      "vpd_str": "88K",
       "age_days": 6,
       "upload_date": "20260408",
       "duration": 1172,
@@ -517,16 +477,36 @@
       "thumb": "https://img.youtube.com/vi/AIBX6eW7YCI/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=87K",
-      "channel_avg_vpd": 147553
+      "reason": "vpd=88K",
+      "channel_avg_vpd": 152892
+    },
+    {
+      "id": "fR69YTvfrbg",
+      "title": "МОЯ РЕАКЦИЯ НА БЕРЕМЕННОСТЬ ЖЕНЫ !",
+      "views": 1200000,
+      "views_str": "1.2M",
+      "vpd": 80000,
+      "vpd_str": "80K",
+      "age_days": 15,
+      "upload_date": "20260330",
+      "duration": 87,
+      "kind": "Video",
+      "channel": "ГЛЕНТ",
+      "channel_id": "UCBYvr4SqfGQd5fTmOXVQ4Zw",
+      "url": "https://youtu.be/fR69YTvfrbg",
+      "thumb": "https://img.youtube.com/vi/fR69YTvfrbg/mqdefault.jpg",
+      "grade": "🚀🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=80K",
+      "channel_avg_vpd": 67500
     },
     {
       "id": "mBYDbwACvwI",
       "title": "The most terrifying backroom is subliminal.",
-      "views": 774977,
-      "views_str": "775K",
-      "vpd": 77497,
-      "vpd_str": "77K",
+      "views": 777801,
+      "views_str": "778K",
+      "vpd": 77780,
+      "vpd_str": "78K",
       "age_days": 10,
       "upload_date": "20260404",
       "duration": 1695,
@@ -537,15 +517,15 @@
       "thumb": "https://img.youtube.com/vi/mBYDbwACvwI/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=77K",
-      "channel_avg_vpd": 66842
+      "reason": "vpd=78K",
+      "channel_avg_vpd": 67103
     },
     {
       "id": "ATAMSYmxC-g",
       "title": "43 SCARIEST TikToks That Will Give You Nightmares..",
-      "views": 1487889,
+      "views": 1490223,
       "views_str": "1.5M",
-      "vpd": 61995,
+      "vpd": 62092,
       "vpd_str": "62K",
       "age_days": 24,
       "upload_date": "20260321",
@@ -558,14 +538,14 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=62K",
-      "channel_avg_vpd": 61995
+      "channel_avg_vpd": 62092
     },
     {
       "id": "RnJ0U_qFxPI",
       "title": "I Went Hunting (and it's scary...) - 2 horror films in 1",
-      "views": 730456,
-      "views_str": "730K",
-      "vpd": 56188,
+      "views": 733546,
+      "views_str": "734K",
+      "vpd": 56426,
       "vpd_str": "56K",
       "age_days": 13,
       "upload_date": "20260401",
@@ -578,14 +558,34 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=56K",
-      "channel_avg_vpd": 66842
+      "channel_avg_vpd": 67103
+    },
+    {
+      "id": "M9OfIeY06y4",
+      "title": "ЭТО ЛУЧШИЙ ЧЕХОЛ НА ПЛАНЕТЕ 🌍 #телефон #чехол #юмор",
+      "views": 1100000,
+      "views_str": "1.1M",
+      "vpd": 55000,
+      "vpd_str": "55K",
+      "age_days": 20,
+      "upload_date": "20260325",
+      "duration": 13,
+      "kind": "Short",
+      "channel": "ГЛЕНТ",
+      "channel_id": "UCBYvr4SqfGQd5fTmOXVQ4Zw",
+      "url": "https://youtu.be/M9OfIeY06y4",
+      "thumb": "https://img.youtube.com/vi/M9OfIeY06y4/mqdefault.jpg",
+      "grade": "🚀🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=55K",
+      "channel_avg_vpd": 67500
     },
     {
       "id": "-oSOJxkmzzI",
       "title": "СТРОЮ БУНКЕР ПОД ЗЕМЛЁЙ, ЧТОБЫ ЗАЩИТИТЬ МАЛЫША АЛЁНУ ОТ ПРОТОТИПА В БРУКХЕЙВЕН в ROBLOX!",
-      "views": 498104,
-      "views_str": "498K",
-      "vpd": 49810,
+      "views": 499653,
+      "views_str": "500K",
+      "vpd": 49965,
       "vpd_str": "50K",
       "age_days": 10,
       "upload_date": "20260404",
@@ -598,10 +598,36 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=50K",
-      "channel_avg_vpd": 47650
+      "channel_avg_vpd": 47823
     }
   ],
-  "google_trends": [],
+  "google_trends": [
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "animal crossing playstation",
+      "topic": "animal crossing playstation",
+      "channel": "Google Trends US",
+      "author": "Google Trends",
+      "views": 200,
+      "views_str": "200+",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 200,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "thumb": "",
+      "published": "сейчас",
+      "hype_score": 7,
+      "related_videos": 0,
+      "channel_count": 0,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false,
+      "is_gaming": true
+    }
+  ],
   "hype_validated": [],
   "tiktok": [
     {
@@ -924,38 +950,29 @@
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/971",
-      "tg_text": "🎧Неделю назад музыкант по имени: НЕКОРОТКОВ опубликовал в ТикТок трек: 💪 «Качаю бицепс»БИСВИДИ🧨 быстро среагировал и сделал пародию❓Чей трек лучше? 👍-БИСВИДИ🧨♥️ОРИГИНАЛ",
-      "topic": "Качаю бицепс",
-      "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/974",
       "tg_text": "🇺🇸 В Англоязычном ТикТок завирусился мем: «7×7=49» и «&amp;»🧮Математическое выражение 7×7=49 и символ«&amp;» стали мемом в апреле 2026 года, утверждающих, что &quot;7×7=49&quot; якобы привлекательно. 💁‍♂️Идея возникла из вирусного видео одного TikTokера: где формула показана в слайд-шоу как «доказат",
       "topic": "7×7=49",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/981",
-      "tg_text": "🆕Вышло моё Новое большое видео на Ютуб про:😺 «Котость: история мема»♥️ Приятного просмотра👇🔗https://youtu.be/PqyEcku-xlY?si=txCZusG1wK1-MiKO 1❤17🤮1 729 views13:58",
+      "tg_text": "🆕Вышло моё Новое большое видео на Ютуб про:😺 «Котость: история мема»♥️ Приятного просмотра👇🔗https://youtu.be/PqyEcku-xlY?si=txCZusG1wK1-MiKO 1❤17🤮1 752 views13:58",
       "topic": "Котость: история мема",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/982",
-      "tg_text": "💭Обсуждение мема:🐿️ «Я не могу больше бухать»🦠В ТикТок полно подобных мемов, хотите обзор? Мой друг создал Ютуб канал, туда он будет публиковать качественные мемные шаблоны поддержите пожалуйста подпиской: https://youtube.com/@memesampl-c5l?si=NpbL-fOqv5WRG77C 👍-Обзор👎-Позор 👍46👎3❤2 647 viewsedited ",
+      "tg_text": "💭Обсуждение мема:🐿️ «Я не могу больше бухать»🦠В ТикТок полно подобных мемов, хотите обзор? Мой друг создал Ютуб канал, туда он будет публиковать качественные мемные шаблоны поддержите пожалуйста подпиской: https://youtube.com/@memesampl-c5l?si=NpbL-fOqv5WRG77C 👍-Обзор👎-Позор 👍47👎3❤2 675 viewsedited ",
       "topic": "Я не могу больше бухать",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
@@ -964,43 +981,61 @@
       "tg_text": "💁‍♂️Шаблон и полная серия мема:👂«Слышь услышь»🔥Разбирайте братва",
       "topic": "Слышь услышь",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/985",
-      "tg_text": "👂 «Слышь услышь» Откуда мем? ♥️Приятного просмотра😺Поддержите любой реакцией пожалуйста ❤18🤝2🦄2🔥1 635 views15:56",
+      "tg_text": "👂 «Слышь услышь» Откуда мем? ♥️Приятного просмотра😺Поддержите любой реакцией пожалуйста ❤20🤝2🦄2🔥1 668 views15:56",
       "topic": "Слышь услышь",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/986",
-      "tg_text": "😹 «Котость» Откуда мем? ❌Для тех, у кого Ютуб не работает Приятного просмотра♥️Поддержите любой реакцией пожалуйста🥰 👍15❤4💘1 521 viewsedited &nbsp;08:31",
+      "tg_text": "😹 «Котость» Откуда мем? ❌Для тех, у кого Ютуб не работает Приятного просмотра♥️Поддержите любой реакцией пожалуйста🥰 👍17❤4💘1 580 viewsedited &nbsp;08:31",
       "topic": "Котость",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/987",
-      "tg_text": "🦠В ТикТок вирусится видео с танцем мальчика в синей футболке❓Вам попадались подобные ролики, и вообще надо обзор? 👍-Обзор👎Позор 👎42👍8🤡2🤮1🆒1 470 views10:27",
+      "tg_text": "🦠В ТикТок вирусится видео с танцем мальчика в синей футболке❓Вам попадались подобные ролики, и вообще надо обзор? 👍-Обзор👎Позор 👎47👍8🤡2🤮1🆒1 536 views10:27",
       "topic": "видео с танцем мальчика в синей футболке",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/990",
-      "tg_text": "🌒 Ночная ностальгия🌌❓Как сложилась судьба Герои мема: «Минут 5,1015»♥️Приятного просмотра 😭21😢4😱2💔2 276 views17:40",
+      "tg_text": "🌒 Ночная ностальгия🌌❓Как сложилась судьба Герои мема: «Минут 5,1015»♥️Приятного просмотра 😭26😢4😱2💔2 439 views17:40",
       "topic": "Минут 5,1015",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/991",
+      "tg_text": "💭Обсуждение мема: 🩸«Вампир крадется»🦠В ТикТок постепенно набирает мем с данной анимацией❓Вам попадались подобные мемы? И хотите обзор? 👍-Обзор👎No name meme 👍28👎20 298 views08:37",
+      "topic": "Вампир крадется",
+      "youtube_videos": [],
+      "detected_at": "2026-04-14 07:04"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/992",
+      "tg_text": "🍽️ СТОЛ ЗАКАЗОВ МЕМОВ:❓Про какой АКТУАЛЬНЫЙ мем рассказать?✍️Обязательно напишите в комментариях 🔥3 172 viewsedited &nbsp;12:37",
+      "topic": "рассказать",
+      "youtube_videos": [],
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
@@ -1009,7 +1044,7 @@
       "tg_text": "Мем с пингвином-нигилистом настаивался годами и наконец достиг прайма. Добро пожаловать в 2026 годhttps://memepedia.ru/pingvin-idet-k-gore/ ❤43😢22😱5😁1💩1 7.4K views11:00",
       "topic": "с пингвином-нигилистом настаивался годам",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
@@ -1018,7 +1053,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁48👎11❤3👍3 7.92K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     },
     {
       "source": "tg_signal",
@@ -1027,7 +1062,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-04-14 00:22"
+      "detected_at": "2026-04-14 07:04"
     }
   ]
 }
