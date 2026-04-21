@@ -12491,7 +12491,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.jump.steal.brz2026",
     "first_seen": "2026-04-08",
     "last_seen": "2026-04-21",
-    "peak_dpd": 4515,
+    "peak_dpd": 4682,
     "peak_date": "2026-04-21",
     "history": [
       {
@@ -18963,8 +18963,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.bounce.betano.ballet",
     "first_seen": "2026-04-09",
     "last_seen": "2026-04-21",
-    "peak_dpd": 931,
-    "peak_date": "2026-04-20",
+    "peak_dpd": 1051,
+    "peak_date": "2026-04-21",
     "history": [
       {
         "date": "2026-04-09",
@@ -26210,6 +26210,25 @@
         "installs": 6563,
         "dpd": 312,
         "score": 4.7
+      }
+    ]
+  },
+  "com.gimica.nonocross": {
+    "id": "com.gimica.nonocross",
+    "name": "Nonocross",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/vxPUm1ccjMeC6QOwdshd8s581PNiqWDntUdWcFG4LOqW26sVkoTa5ZS0lWm-ffy7YpDrYS-TxZGdECQhnJdN7A",
+    "url": "https://play.google.com/store/apps/details?id=com.gimica.nonocross",
+    "first_seen": "2026-04-21",
+    "last_seen": "2026-04-21",
+    "peak_dpd": 1567,
+    "peak_date": "2026-04-21",
+    "history": [
+      {
+        "date": "2026-04-21",
+        "installs": 20380,
+        "dpd": 1567,
+        "score": 0
       }
     ]
   }
