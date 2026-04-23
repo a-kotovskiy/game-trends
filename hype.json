@@ -23,10 +23,10 @@
     {
       "id": "JfAIFkx_nRk",
       "title": "how to duplicate the dragon egg",
-      "views": 9000000,
-      "views_str": "9.0M",
-      "vpd": 2250000,
-      "vpd_str": "2.2M",
+      "views": 9100000,
+      "views_str": "9.1M",
+      "vpd": 2275000,
+      "vpd_str": "2.3M",
       "age_days": 4,
       "upload_date": "20260419",
       "duration": 28,
@@ -37,8 +37,8 @@
       "thumb": "https://img.youtube.com/vi/JfAIFkx_nRk/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=2.2M",
-      "channel_avg_vpd": 2125000
+      "reason": "vpd=2.3M",
+      "channel_avg_vpd": 2137500
     },
     {
       "id": "lLe06QE83jY",
@@ -58,15 +58,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=2.0M",
-      "channel_avg_vpd": 2125000
+      "channel_avg_vpd": 2137500
     },
     {
       "id": "w-0ytbU4dts",
       "title": "3д принтер это офигенно! #3d #глент",
-      "views": 3400000,
-      "views_str": "3.4M",
-      "vpd": 1133333,
-      "vpd_str": "1.1M",
+      "views": 3500000,
+      "views_str": "3.5M",
+      "vpd": 1166666,
+      "vpd_str": "1.2M",
       "age_days": 3,
       "upload_date": "20260420",
       "duration": 45,
@@ -77,16 +77,16 @@
       "thumb": "https://img.youtube.com/vi/w-0ytbU4dts/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=1.1M",
-      "channel_avg_vpd": 608967
+      "reason": "vpd=1.2M",
+      "channel_avg_vpd": 612499
     },
     {
       "id": "EeKlDUAJGZU",
       "title": "You Can’t Touch a Random Block in Minecraft!",
-      "views": 3800000,
-      "views_str": "3.8M",
-      "vpd": 633333,
-      "vpd_str": "633K",
+      "views": 4000000,
+      "views_str": "4.0M",
+      "vpd": 666666,
+      "vpd_str": "667K",
       "age_days": 6,
       "upload_date": "20260417",
       "duration": 57,
@@ -97,8 +97,8 @@
       "thumb": "https://img.youtube.com/vi/EeKlDUAJGZU/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=633K",
-      "channel_avg_vpd": 416666
+      "reason": "vpd=667K",
+      "channel_avg_vpd": 433333
     },
     {
       "id": "jr7cDitoTVc",
@@ -118,15 +118,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=550K",
-      "channel_avg_vpd": 412500
+      "channel_avg_vpd": 477500
     },
     {
       "id": "PCZdfxoZjq4",
       "title": "I Survived 100 Days as PROTOTYPE in Minecraft",
-      "views": 4951837,
+      "views": 5017250,
       "views_str": "5.0M",
-      "vpd": 412653,
-      "vpd_str": "413K",
+      "vpd": 418104,
+      "vpd_str": "418K",
       "age_days": 12,
       "upload_date": "20260411",
       "duration": 1766,
@@ -137,28 +137,28 @@
       "thumb": "https://img.youtube.com/vi/PCZdfxoZjq4/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=413K",
-      "channel_avg_vpd": 412653
+      "reason": "vpd=418K",
+      "channel_avg_vpd": 418104
     },
     {
-      "id": "2juP8tYcXp4",
-      "title": "😱THE DEVELOPER STOLE ALL THE UPDATES IN 99 NIGHTS IN THE WOODS IN ROBLOX!",
-      "views": 1100000,
-      "views_str": "1.1M",
-      "vpd": 275000,
-      "vpd_str": "275K",
-      "age_days": 4,
-      "upload_date": "20260419",
+      "id": "4DJTVbMT9Hw",
+      "title": "😱GOOD BAG AT THE BEGINNING OF THE GAME IN 99 NIGHTS IN THE WOODS IN ROBLOX!",
+      "views": 810000,
+      "views_str": "810K",
+      "vpd": 405000,
+      "vpd_str": "405K",
+      "age_days": 2,
+      "upload_date": "20260421",
       "duration": 21,
       "kind": "Short",
       "channel": "GADOSTI",
       "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
-      "url": "https://youtu.be/2juP8tYcXp4",
-      "thumb": "https://img.youtube.com/vi/2juP8tYcXp4/mqdefault.jpg",
+      "url": "https://youtu.be/4DJTVbMT9Hw",
+      "thumb": "https://img.youtube.com/vi/4DJTVbMT9Hw/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=275K",
-      "channel_avg_vpd": 412500
+      "reason": "vpd=405K",
+      "channel_avg_vpd": 477500
     },
     {
       "id": "cUZI8gnyKFY",
@@ -201,6 +201,26 @@
       "channel_avg_vpd": 160000
     },
     {
+      "id": "z144MH5jwtc",
+      "title": "ИДЕАЛЬНЫЙ ИНДИ-ХОРРОР ► Creepy Shift: House For Sale",
+      "views": 422088,
+      "views_str": "422K",
+      "vpd": 211044,
+      "vpd_str": "211K",
+      "age_days": 2,
+      "upload_date": "20260421",
+      "duration": 6515,
+      "kind": "Video",
+      "channel": "Kuplinov Play",
+      "channel_id": "UCdKuE7a2QZeHPhDntXVZ91w",
+      "url": "https://youtu.be/z144MH5jwtc",
+      "thumb": "https://img.youtube.com/vi/z144MH5jwtc/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=211K",
+      "channel_avg_vpd": 170396
+    },
+    {
       "id": "aUQnUXz9Q2A",
       "title": "You Can Make Anything Realistic in Minecraft…",
       "views": 5600000,
@@ -218,27 +238,7 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=200K",
-      "channel_avg_vpd": 416666
-    },
-    {
-      "id": "z144MH5jwtc",
-      "title": "ИДЕАЛЬНЫЙ ИНДИ-ХОРРОР ► Creepy Shift: House For Sale",
-      "views": 391790,
-      "views_str": "392K",
-      "vpd": 195895,
-      "vpd_str": "196K",
-      "age_days": 2,
-      "upload_date": "20260421",
-      "duration": 6515,
-      "kind": "Video",
-      "channel": "Kuplinov Play",
-      "channel_id": "UCdKuE7a2QZeHPhDntXVZ91w",
-      "url": "https://youtu.be/z144MH5jwtc",
-      "thumb": "https://img.youtube.com/vi/z144MH5jwtc/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=196K",
-      "channel_avg_vpd": 161111
+      "channel_avg_vpd": 433333
     },
     {
       "id": "zxU5otTsW70",
@@ -259,6 +259,26 @@
       "source": "channel_monitor",
       "reason": "vpd=194K",
       "channel_avg_vpd": 184722
+    },
+    {
+      "id": "uIIdRGc1B1c",
+      "title": "best minecraft illusion",
+      "views": 2700000,
+      "views_str": "2.7M",
+      "vpd": 180000,
+      "vpd_str": "180K",
+      "age_days": 15,
+      "upload_date": "20260408",
+      "duration": 19,
+      "kind": "Short",
+      "channel": "aCookieGod",
+      "channel_id": "UCIVSqoHCUN1XdEpiVItxfoQ",
+      "url": "https://youtu.be/uIIdRGc1B1c",
+      "thumb": "https://img.youtube.com/vi/uIIdRGc1B1c/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=180K",
+      "channel_avg_vpd": 115034
     },
     {
       "id": "-c5Vr75_qv8",
@@ -301,24 +321,44 @@
       "channel_avg_vpd": 216071
     },
     {
-      "id": "uIIdRGc1B1c",
-      "title": "best minecraft illusion",
-      "views": 2600000,
-      "views_str": "2.6M",
-      "vpd": 173333,
-      "vpd_str": "173K",
-      "age_days": 15,
-      "upload_date": "20260408",
-      "duration": 19,
-      "kind": "Short",
-      "channel": "aCookieGod",
-      "channel_id": "UCIVSqoHCUN1XdEpiVItxfoQ",
-      "url": "https://youtu.be/uIIdRGc1B1c",
-      "thumb": "https://img.youtube.com/vi/uIIdRGc1B1c/mqdefault.jpg",
+      "id": "iYdiKMW8R2o",
+      "title": "ROBLOX MAKEUP UPDATE -_-",
+      "views": 1718432,
+      "views_str": "1.7M",
+      "vpd": 156221,
+      "vpd_str": "156K",
+      "age_days": 11,
+      "upload_date": "20260412",
+      "duration": 972,
+      "kind": "Video",
+      "channel": "Flamingo",
+      "channel_id": "UCm-X6o81nRsXQTmqpyArkBQ",
+      "url": "https://youtu.be/iYdiKMW8R2o",
+      "thumb": "https://img.youtube.com/vi/iYdiKMW8R2o/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=173K",
-      "channel_avg_vpd": 111659
+      "reason": "vpd=156K",
+      "channel_avg_vpd": 156221
+    },
+    {
+      "id": "Kzg5WD8haR8",
+      "title": "Cutting Grass for $4,893,671 in Roblox",
+      "views": 432613,
+      "views_str": "433K",
+      "vpd": 144204,
+      "vpd_str": "144K",
+      "age_days": 3,
+      "upload_date": "20260420",
+      "duration": 1246,
+      "kind": "Video",
+      "channel": "SSundee",
+      "channel_id": "UCke6I9N4KfC968-yRcd5YRg",
+      "url": "https://youtu.be/Kzg5WD8haR8",
+      "thumb": "https://img.youtube.com/vi/Kzg5WD8haR8/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=144K",
+      "channel_avg_vpd": 131013
     },
     {
       "id": "nmX1z72ABV8",
@@ -343,10 +383,10 @@
     {
       "id": "VkqYQOPU2dQ",
       "title": "ФИНАЛЬНОЕ ДОПОЛНЕНИЕ ► Atomic Heart - Кровь на Хрустале #1",
-      "views": 505310,
-      "views_str": "505K",
-      "vpd": 126327,
-      "vpd_str": "126K",
+      "views": 518998,
+      "views_str": "519K",
+      "vpd": 129749,
+      "vpd_str": "130K",
       "age_days": 4,
       "upload_date": "20260419",
       "duration": 3314,
@@ -357,8 +397,28 @@
       "thumb": "https://img.youtube.com/vi/VkqYQOPU2dQ/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=126K",
-      "channel_avg_vpd": 161111
+      "reason": "vpd=130K",
+      "channel_avg_vpd": 170396
+    },
+    {
+      "id": "djomKjuRxZ0",
+      "title": "Get FAT and SPLASH in Roblox",
+      "views": 471291,
+      "views_str": "471K",
+      "vpd": 117822,
+      "vpd_str": "118K",
+      "age_days": 4,
+      "upload_date": "20260419",
+      "duration": 1193,
+      "kind": "Video",
+      "channel": "SSundee",
+      "channel_id": "UCke6I9N4KfC968-yRcd5YRg",
+      "url": "https://youtu.be/djomKjuRxZ0",
+      "thumb": "https://img.youtube.com/vi/djomKjuRxZ0/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=118K",
+      "channel_avg_vpd": 131013
     },
     {
       "id": "M6RwmvEGWAQ",
@@ -381,6 +441,46 @@
       "channel_avg_vpd": 114285
     },
     {
+      "id": "u9dckDE6P7Q",
+      "title": "Don't Play This.. (FULL GAME)",
+      "views": 409426,
+      "views_str": "409K",
+      "vpd": 102356,
+      "vpd_str": "102K",
+      "age_days": 4,
+      "upload_date": "20260419",
+      "duration": 2849,
+      "kind": "Video",
+      "channel": "Caylus",
+      "channel_id": "UCVAYy7_zddIx6USjXscV9Vg",
+      "url": "https://youtu.be/u9dckDE6P7Q",
+      "thumb": "https://img.youtube.com/vi/u9dckDE6P7Q/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=102K",
+      "channel_avg_vpd": 99447
+    },
+    {
+      "id": "5hT7uWG14xs",
+      "title": "Speed said “Not today”  💀🔥",
+      "views": 203000,
+      "views_str": "203K",
+      "vpd": 101500,
+      "vpd_str": "102K",
+      "age_days": 2,
+      "upload_date": "20260421",
+      "duration": 31,
+      "kind": "Short",
+      "channel": "Speedy Boykins",
+      "channel_id": "UCd09ztChTkJ9dlY6RLawSog",
+      "url": "https://youtu.be/5hT7uWG14xs",
+      "thumb": "https://img.youtube.com/vi/5hT7uWG14xs/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=102K",
+      "channel_avg_vpd": 97083
+    },
+    {
       "id": "vD-0vxEWF7o",
       "title": "I'm the smarest person alive! 🧠",
       "views": 1900000,
@@ -401,31 +501,11 @@
       "channel_avg_vpd": 160000
     },
     {
-      "id": "u9dckDE6P7Q",
-      "title": "Don't Play This.. (FULL GAME)",
-      "views": 398137,
-      "views_str": "398K",
-      "vpd": 99534,
-      "vpd_str": "100K",
-      "age_days": 4,
-      "upload_date": "20260419",
-      "duration": 2849,
-      "kind": "Video",
-      "channel": "Caylus",
-      "channel_id": "UCVAYy7_zddIx6USjXscV9Vg",
-      "url": "https://youtu.be/u9dckDE6P7Q",
-      "thumb": "https://img.youtube.com/vi/u9dckDE6P7Q/mqdefault.jpg",
-      "grade": "🚀🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=100K",
-      "channel_avg_vpd": 96854
-    },
-    {
       "id": "9dDJTa1bpd4",
       "title": "Searching For a Player That Isn’t Real…",
-      "views": 1840451,
+      "views": 1849614,
       "views_str": "1.8M",
-      "vpd": 96865,
+      "vpd": 97348,
       "vpd_str": "97K",
       "age_days": 19,
       "upload_date": "20260404",
@@ -438,15 +518,15 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=97K",
-      "channel_avg_vpd": 96865
+      "channel_avg_vpd": 97348
     },
     {
       "id": "L7CBu8kBqJo",
       "title": "TREES HATE YOU.. (Full Game)",
-      "views": 470878,
-      "views_str": "471K",
-      "vpd": 94175,
-      "vpd_str": "94K",
+      "views": 482697,
+      "views_str": "483K",
+      "vpd": 96539,
+      "vpd_str": "97K",
       "age_days": 5,
       "upload_date": "20260418",
       "duration": 1265,
@@ -457,36 +537,16 @@
       "thumb": "https://img.youtube.com/vi/L7CBu8kBqJo/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=94K",
-      "channel_avg_vpd": 96854
-    },
-    {
-      "id": "5hT7uWG14xs",
-      "title": "Speed said “Not today”  💀🔥",
-      "views": 182000,
-      "views_str": "182K",
-      "vpd": 91000,
-      "vpd_str": "91K",
-      "age_days": 2,
-      "upload_date": "20260421",
-      "duration": 31,
-      "kind": "Short",
-      "channel": "Speedy Boykins",
-      "channel_id": "UCd09ztChTkJ9dlY6RLawSog",
-      "url": "https://youtu.be/5hT7uWG14xs",
-      "thumb": "https://img.youtube.com/vi/5hT7uWG14xs/mqdefault.jpg",
-      "grade": "🚀🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=91K",
-      "channel_avg_vpd": 88333
+      "reason": "vpd=97K",
+      "channel_avg_vpd": 99447
     },
     {
       "id": "sPS9QD1BcEM",
       "title": "Every child deserves a dad like this  ❤️‍🩹❤️‍🩹",
-      "views": 257000,
-      "views_str": "257K",
-      "vpd": 85666,
-      "vpd_str": "86K",
+      "views": 278000,
+      "views_str": "278K",
+      "vpd": 92666,
+      "vpd_str": "93K",
       "age_days": 3,
       "upload_date": "20260420",
       "duration": 25,
@@ -497,36 +557,16 @@
       "thumb": "https://img.youtube.com/vi/sPS9QD1BcEM/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=86K",
-      "channel_avg_vpd": 88333
-    },
-    {
-      "id": "oYE9hm9iLWs",
-      "title": "ЖИВУ КАК КОРЕЕЦ 24 ЧАСА ЧЕЛЛЕНДЖ! ЛАЙФ РОЛИК",
-      "views": 1522839,
-      "views_str": "1.5M",
-      "vpd": 84602,
-      "vpd_str": "85K",
-      "age_days": 18,
-      "upload_date": "20260405",
-      "duration": 5245,
-      "kind": "Video",
-      "channel": "ГЛЕНТ",
-      "channel_id": "UCBYvr4SqfGQd5fTmOXVQ4Zw",
-      "url": "https://youtu.be/oYE9hm9iLWs",
-      "thumb": "https://img.youtube.com/vi/oYE9hm9iLWs/mqdefault.jpg",
-      "grade": "🚀🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=85K",
-      "channel_avg_vpd": 608967
+      "reason": "vpd=93K",
+      "channel_avg_vpd": 97083
     },
     {
       "id": "1oDm1vdHhLU",
       "title": "УШЛА ИЗ ДОМА В БРУКХЕЙВЕН в ROBLOX! С АЛЁНОЙ",
-      "views": 565648,
-      "views_str": "566K",
-      "vpd": 80806,
-      "vpd_str": "81K",
+      "views": 573914,
+      "views_str": "574K",
+      "vpd": 81987,
+      "vpd_str": "82K",
       "age_days": 7,
       "upload_date": "20260416",
       "duration": 1163,
@@ -537,8 +577,8 @@
       "thumb": "https://img.youtube.com/vi/1oDm1vdHhLU/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=81K",
-      "channel_avg_vpd": 62887
+      "reason": "vpd=82K",
+      "channel_avg_vpd": 63575
     },
     {
       "id": "C24zZm-PDpM",
@@ -558,50 +598,61 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=59K",
-      "channel_avg_vpd": 58358
-    },
-    {
-      "id": "m5VCOQzvltY",
-      "title": "How to escape Holibam in \"Escape From Blogger\"🚀",
-      "views": 1100000,
-      "views_str": "1.1M",
-      "vpd": 57894,
-      "vpd_str": "58K",
-      "age_days": 19,
-      "upload_date": "20260404",
-      "duration": 50,
-      "kind": "Short",
-      "channel": "Holy Baam",
-      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
-      "url": "https://youtu.be/m5VCOQzvltY",
-      "thumb": "https://img.youtube.com/vi/m5VCOQzvltY/mqdefault.jpg",
-      "grade": "🚀🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=58K",
-      "channel_avg_vpd": 58358
-    },
-    {
-      "id": "q39R6O1pAaE",
-      "title": "playing minecraft how it’s meant to be played",
-      "views": 1349605,
-      "views_str": "1.3M",
-      "vpd": 49985,
-      "vpd_str": "50K",
-      "age_days": 27,
-      "upload_date": "20260327",
-      "duration": 6865,
-      "kind": "Video",
-      "channel": "aCookieGod",
-      "channel_id": "UCIVSqoHCUN1XdEpiVItxfoQ",
-      "url": "https://youtu.be/q39R6O1pAaE",
-      "thumb": "https://img.youtube.com/vi/q39R6O1pAaE/mqdefault.jpg",
-      "grade": "🚀",
-      "source": "channel_monitor",
-      "reason": "vpd=50K",
-      "channel_avg_vpd": 111659
+      "channel_avg_vpd": 52328
     }
   ],
-  "google_trends": [],
+  "google_trends": [
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "pearl abyss crimson desert patch notes",
+      "topic": "pearl abyss crimson desert patch notes",
+      "channel": "Google Trends US",
+      "author": "Google Trends",
+      "views": 10000,
+      "views_str": "10000+",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 10000,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "thumb": "",
+      "published": "сейчас",
+      "hype_score": 7,
+      "related_videos": 0,
+      "channel_count": 0,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false,
+      "is_gaming": true
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "microsoft gaming",
+      "topic": "microsoft gaming",
+      "channel": "Google Trends US",
+      "author": "Google Trends",
+      "views": 200,
+      "views_str": "200+",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 200,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "thumb": "",
+      "published": "сейчас",
+      "hype_score": 7,
+      "related_videos": 0,
+      "channel_count": 0,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false,
+      "is_gaming": true
+    }
+  ],
   "hype_validated": [],
   "tiktok": [
     {
@@ -925,28 +976,28 @@
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1015",
-      "tg_text": "💁‍♂️Для Вас мои дорогие зрители решил сново снять про: ❓«Черемша откуда мем?» Приятного просмотра♥️🙏Поддержите любой реакцией пожалуйста ❤16🔥2🆒1 774 views16:34",
+      "tg_text": "💁‍♂️Для Вас мои дорогие зрители решил сново снять про: ❓«Черемша откуда мем?» Приятного просмотра♥️🙏Поддержите любой реакцией пожалуйста ❤17🔥2🆒1 790 views16:34",
       "topic": "Черемша откуда мем?",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1017",
-      "tg_text": "⌛️Завтра в 18:00 по Советскому времени выходит долгожданный ролик на Ютуб: 🤫«В СССР: Тихо, не спеша, без суеты» Откуда мем?С лёгкой иронией для Вас готовлю ролик♥️❓Ждете?👍-Дооо👎-Неее 👍36❤1🗿1 731 viewsedited &nbsp;11:19",
+      "tg_text": "⌛️Завтра в 18:00 по Советскому времени выходит долгожданный ролик на Ютуб: 🤫«В СССР: Тихо, не спеша, без суеты» Откуда мем?С лёгкой иронией для Вас готовлю ролик♥️❓Ждете?👍-Дооо👎-Неее 👍39❤2🗿1 755 viewsedited &nbsp;11:19",
       "topic": "В СССР: Тихо, не спеша, без суеты",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1023",
-      "tg_text": "🆕 «Вампир крадется»откуда мем? ♥️Приятного просмотра🙏поддержите пожалуйста любой реакцией ❤35👍3🔥2 813 views15:49",
+      "tg_text": "🆕 «Вампир крадется»откуда мем? ♥️Приятного просмотра🙏поддержите пожалуйста любой реакцией ❤37👍3🔥2🌭1 852 views15:49",
       "topic": "Вампир крадется",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
@@ -955,7 +1006,7 @@
       "tg_text": "🇺🇸В Англоязычном ТикТок набирает популярность мем:«🚘Discipline Car Meme»(«мем про машину, которая “воспитывает”)💁‍♂️Мем пошёл с видео «Redlight» у ютубера Макса Форреста: там мужик останавливается на красный свет, а в соседней машине другой начинает «начищать свой банан» 😬и пялиться на него.Затем в ",
       "topic": "🚘Discipline Car Meme",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
@@ -964,25 +1015,34 @@
       "tg_text": "🧠Один Гений в ТикТок публикует «нейро видео» в которых показывает разные мемные игрушки включая Меллстроя😆♥️Мне прям зашло, Респект автору❓Вам нравится подобное? 👍-До👎-Нит Автор: https://www.tiktok.com/@mueheheheheh0?_r=1&amp;_t=ZN-95kbeNCpfVe",
       "topic": "нейро видео",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1032",
-      "tg_text": "🆕Новое видео на YouTube:❓«Тихо не спеша без суеты». откуда мем?♥️Приятного просмотра👇📎 https://youtu.be/1CsFo2QksjI?si=pJx2k8Owhs4zeagl ❤8 470 views14:37",
+      "tg_text": "🆕Новое видео на YouTube:❓«Тихо не спеша без суеты». откуда мем?♥️Приятного просмотра👇📎 https://youtu.be/1CsFo2QksjI?si=pJx2k8Owhs4zeagl ❤10 533 views14:37",
       "topic": "Тихо не спеша без суеты",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1033",
-      "tg_text": "🌒Ночная ностальгия🌌❓Как сложилась судьба героя мема: «Шампунь жумайсынба»♥️приятного просмотра ❤11 387 viewsedited &nbsp;16:02",
+      "tg_text": "🌒Ночная ностальгия🌌❓Как сложилась судьба героя мема: «Шампунь жумайсынба»♥️приятного просмотра ❤16🤮1 470 viewsedited &nbsp;16:02",
       "topic": "Шампунь жумайсынба",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1034",
+      "tg_text": "🦠В ТикТок достиг пика популярности мем: «Папайя»💁‍♂️ Люди делают самые разные мемы. ❓Как думаете, сделать обзор? Ели да, у кого есть какая информация по данному мему, давайте обсудим💭❓Обзор нужен? 👍-Обзор👎-Нет 👍12 59 viewsedited &nbsp;13:57",
+      "topic": "Папайя",
+      "youtube_videos": [],
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
@@ -991,7 +1051,7 @@
       "tg_text": "Мем с пингвином-нигилистом настаивался годами и наконец достиг прайма. Добро пожаловать в 2026 годhttps://memepedia.ru/pingvin-idet-k-gore/ ❤43😢22😱5😁1💩1 7.43K views11:00",
       "topic": "с пингвином-нигилистом настаивался годам",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
@@ -1000,7 +1060,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁48👎11❤3👍3 7.97K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     },
     {
       "source": "tg_signal",
@@ -1009,7 +1069,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-04-23 00:22"
+      "detected_at": "2026-04-23 07:04"
     }
   ]
 }
