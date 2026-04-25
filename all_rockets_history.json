@@ -19674,7 +19674,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.art.pixel.tribal.games.paint.color.by.numbers",
     "first_seen": "2026-04-09",
     "last_seen": "2026-04-24",
-    "peak_dpd": 2203,
+    "peak_dpd": 2328,
     "peak_date": "2026-04-24",
     "history": [
       {
@@ -29589,7 +29589,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.echorunebix.educationzopnle",
     "first_seen": "2026-04-21",
     "last_seen": "2026-04-24",
-    "peak_dpd": 1397,
+    "peak_dpd": 1774,
     "peak_date": "2026-04-24",
     "history": [
       {
@@ -30889,7 +30889,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.fireludo.twa",
     "first_seen": "2026-04-23",
     "last_seen": "2026-04-24",
-    "peak_dpd": 702,
+    "peak_dpd": 834,
     "peak_date": "2026-04-24",
     "history": [
       {
@@ -31385,7 +31385,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.collapse.tower",
     "first_seen": "2026-04-24",
     "last_seen": "2026-04-24",
-    "peak_dpd": 565,
+    "peak_dpd": 1013,
     "peak_date": "2026-04-24",
     "history": [
       {
@@ -31450,6 +31450,25 @@
         "installs": 5612,
         "dpd": 350,
         "score": 4
+      }
+    ]
+  },
+  "com.suncitygame.suncity": {
+    "id": "com.suncitygame.suncity",
+    "name": "SunCity Online: RolePlay",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/gRfhtsuL8HvgeV58Df5SGCm2t_T7cJF17Hl_0QwDruqyuK0WrfVT_7zwLYvNlamr2YLCI18qA9ivL1fwoDKZdA",
+    "url": "https://play.google.com/store/apps/details?id=com.suncitygame.suncity",
+    "first_seen": "2026-04-24",
+    "last_seen": "2026-04-24",
+    "peak_dpd": 552,
+    "peak_date": "2026-04-24",
+    "history": [
+      {
+        "date": "2026-04-24",
+        "installs": 2761,
+        "dpd": 552,
+        "score": 0
       }
     ]
   }
