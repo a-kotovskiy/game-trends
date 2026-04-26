@@ -35039,5 +35039,24 @@
         "score": 0
       }
     ]
+  },
+  "com.egp.heavytrucksimulator.transportertruckgames": {
+    "id": "com.egp.heavytrucksimulator.transportertruckgames",
+    "name": "Heavy Truck Driving Cargo Game",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/U0M-yhx-4L7cEelk0jtmALqMi35lY85x0ik9JU5oANe7luCPwHGp22OPb6EomCU0evo34IyFHNJj8nqXqSuQ",
+    "url": "https://play.google.com/store/apps/details?id=com.egp.heavytrucksimulator.transportertruckgames",
+    "first_seen": "2026-04-26",
+    "last_seen": "2026-04-26",
+    "peak_dpd": 7225,
+    "peak_date": "2026-04-26",
+    "history": [
+      {
+        "date": "2026-04-26",
+        "installs": 21676,
+        "dpd": 7225,
+        "score": 0
+      }
+    ]
   }
 }
