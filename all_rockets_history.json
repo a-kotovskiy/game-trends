@@ -6314,14 +6314,14 @@
   },
   "com.mnogoteams.quizblitz": {
     "id": "com.mnogoteams.quizblitz",
-    "name": "Quiz Blitz: Викторина для ума",
+    "name": "Quiz Blitz: Test Brain Game",
     "genre": "Викторины",
     "icon": "https://play-lh.googleusercontent.com/yTK5sIl_LbHIQQvB0q-NVvod5gLZCrEl8gkLdz3ODLvsYGoFk0nvOMRr7XJ5_32lu5I",
     "url": "https://play.google.com/store/apps/details?id=com.mnogoteams.quizblitz",
     "first_seen": "2026-03-31",
-    "last_seen": "2026-04-18",
-    "peak_dpd": 11387,
-    "peak_date": "2026-03-31",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 46486,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-03-31",
@@ -6418,6 +6418,12 @@
         "installs": 153719,
         "dpd": 5123,
         "score": 4.9
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 185944,
+        "dpd": 46486,
+        "score": 0
       }
     ]
   },
@@ -18847,7 +18853,7 @@
     "icon": "https://play-lh.googleusercontent.com/8VJphpkVMZg5v_sr_pKoLFKsPxiow8_Ha6GdihUcB3g1-feQALdLKrvWSJ_75OOGxGPUSP_E8ALKRjs9_rzJ_w",
     "url": "https://play.google.com/store/apps/details?id=com.game.happycrush.blockmatch",
     "first_seen": "2026-04-09",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 57713,
     "peak_date": "2026-04-09",
     "history": [
@@ -18952,6 +18958,12 @@
         "installs": 159877,
         "dpd": 5921,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 162712,
+        "dpd": 5811,
+        "score": 0
       }
     ]
   },
@@ -18962,7 +18974,7 @@
     "icon": "https://play-lh.googleusercontent.com/Y2Gu-VYVjm3fjicEAjTATFtXOPttIiJ_opevCB_c6vPlaGLLc2IrnLD_5WgcVUwioDvDDJ2DQSc_4a75O136mg",
     "url": "https://play.google.com/store/apps/details?id=com.vgi.van.simulator.game.minibus",
     "first_seen": "2026-04-09",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 43150,
     "peak_date": "2026-04-09",
     "history": [
@@ -19060,6 +19072,12 @@
         "date": "2026-04-26",
         "installs": 174534,
         "dpd": 8726,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 224902,
+        "dpd": 7755,
         "score": 0
       }
     ]
@@ -19180,7 +19198,7 @@
     "icon": "https://play-lh.googleusercontent.com/nl1p1R9g4vAZfj_h1dzcqRRnumzC8ZnRkSeXCVee3Ljjxu15SLE_leuzfwHye18lnvwYOs7BzG4ZdD8LrEhK",
     "url": "https://play.google.com/store/apps/details?id=com.magic.relaxing.water.sort.colorgame.puzzle",
     "first_seen": "2026-04-09",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 18636,
     "peak_date": "2026-04-09",
     "history": [
@@ -19279,6 +19297,12 @@
         "installs": 54153,
         "dpd": 3008,
         "score": 4.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 80977,
+        "dpd": 2999,
+        "score": 4.7
       }
     ]
   },
@@ -19289,7 +19313,7 @@
     "icon": "https://play-lh.googleusercontent.com/Yn6bQ9HW0bZep32P1EJUUhFsVKrnTs2kLvkk254xhO2RO8bHFIbBTzjw20dx2kh1aw",
     "url": "https://play.google.com/store/apps/details?id=com.linegames.pak",
     "first_seen": "2026-04-09",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 32795,
     "peak_date": "2026-04-14",
     "history": [
@@ -19388,6 +19412,12 @@
         "installs": 313720,
         "dpd": 15686,
         "score": 4.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 323990,
+        "dpd": 11172,
+        "score": 4.4
       }
     ]
   },
@@ -19489,7 +19519,7 @@
     "icon": "https://play-lh.googleusercontent.com/at9lmvzpMhqRstvgFcpjoISufQSmprTyb2DLUrxjilWjx442-HyjsBQemSEYCXibDuDTch0Hk3upDWgs5WqjlUc",
     "url": "https://play.google.com/store/apps/details?id=com.fleckslabs.kabaddi",
     "first_seen": "2026-04-09",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 13339,
     "peak_date": "2026-04-09",
     "history": [
@@ -19587,6 +19617,12 @@
         "date": "2026-04-26",
         "installs": 75794,
         "dpd": 3789,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 93901,
+        "dpd": 3237,
         "score": 0
       }
     ]
@@ -20633,9 +20669,9 @@
     "icon": "https://play-lh.googleusercontent.com/SoKjrzfJ0H7_lbSwSmNn1ZatwSsVdj37y7ye2zPtLwi-XT_fpHG-jEUDmkMfTw4StLaB8iWWsChLRMcfdqnAFA",
     "url": "https://play.google.com/store/apps/details?id=com.voxelabsllc.ramadhancraftsman",
     "first_seen": "2026-04-09",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1460,
-    "peak_date": "2026-04-24",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1701,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-09",
@@ -20731,6 +20767,12 @@
         "date": "2026-04-26",
         "installs": 28008,
         "dpd": 1400,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 49349,
+        "dpd": 1701,
         "score": 0
       }
     ]
@@ -21016,7 +21058,7 @@
     "icon": "https://play-lh.googleusercontent.com/Y0legigwHCKFyG6IdK3MjOMfZHpePUtXFzxaLpTBAPCVpTdHNJfibcm19eAGqt_qKn7ubOwwRov7ho3JzsjfRw",
     "url": "https://play.google.com/store/apps/details?id=com.fg.flick.hero",
     "first_seen": "2026-04-10",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 51335,
     "peak_date": "2026-04-10",
     "history": [
@@ -21108,6 +21150,12 @@
         "date": "2026-04-26",
         "installs": 165726,
         "dpd": 9207,
+        "score": 4.6
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 177900,
+        "dpd": 6588,
         "score": 4.6
       }
     ]
@@ -21665,7 +21713,7 @@
     "icon": "https://play-lh.googleusercontent.com/lBxmAkhCuu6LVkU9kFwxLwP5FOs7k3rLygpir6BChjlU_Be8AninaII8tf-7KrxldM2A",
     "url": "https://play.google.com/store/apps/details?id=com.gamehouse.solitaire.klondike.classic.card.game.free",
     "first_seen": "2026-04-10",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1752,
     "peak_date": "2026-04-15",
     "history": [
@@ -21757,6 +21805,12 @@
         "date": "2026-04-26",
         "installs": 13749,
         "dpd": 763,
+        "score": 4.1
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 14057,
+        "dpd": 520,
         "score": 4.1
       }
     ]
@@ -22071,7 +22125,7 @@
     "icon": "https://play-lh.googleusercontent.com/v9d7Qxz62rdV4-aiZaoA5FBTj3VY2vp3-tzC3xBRxhncDAalc4o4nLlmNg62oqnE1XNYffOrKPnb2B265iH-hg",
     "url": "https://play.google.com/store/apps/details?id=com.fumbgames.minersofbitcoin",
     "first_seen": "2026-04-11",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1855320,
     "peak_date": "2026-04-11",
     "history": [
@@ -22158,6 +22212,12 @@
         "installs": 1864664,
         "dpd": 116541,
         "score": 3.7
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1873640,
+        "dpd": 74945,
+        "score": 3.7
       }
     ]
   },
@@ -22168,7 +22228,7 @@
     "icon": "https://play-lh.googleusercontent.com/AOXzTJaOrutZ5aR-5T73FYzbd5TBcL1vZXA3AZEtnQMiixgE2Jbek2QuEPrMs4cpshUxjrwnq0nAd4CY0IjDutw",
     "url": "https://play.google.com/store/apps/details?id=com.Parkour.Escape.Night.Forest",
     "first_seen": "2026-04-11",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 248549,
     "peak_date": "2026-04-11",
     "history": [
@@ -22255,6 +22315,12 @@
         "installs": 925983,
         "dpd": 51443,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1048142,
+        "dpd": 38820,
+        "score": 3.8
       }
     ]
   },
@@ -22758,7 +22824,7 @@
     "icon": "https://play-lh.googleusercontent.com/q-kVznxlXXVnaOvgbTE8i6NaVQzwohE03-6z_PjIEc2-JwXhMCz2EjbzzB8oWTzJHg3RYhBQ0voGbVGaoNADtw",
     "url": "https://play.google.com/store/apps/details?id=com.capybara.jump.challenge",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 3393791,
     "peak_date": "2026-04-15",
     "history": [
@@ -22838,6 +22904,12 @@
         "date": "2026-04-26",
         "installs": 12167359,
         "dpd": 675964,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 12239315,
+        "dpd": 453307,
         "score": 0
       }
     ]
@@ -22937,10 +23009,10 @@
     "id": "com.ag.satisfying.clean.perfect.makeover.asmr",
     "name": "Lawn Care ASMR Cleaning",
     "genre": "Casual",
-    "icon": "https://play-lh.googleusercontent.com/_07CVMMBR5QPpMY5A2Z-zxshrs7Vwxe4UNvG_HRYwZspIO26tRyyD8BlxRkBmqiJLQ",
+    "icon": "https://play-lh.googleusercontent.com/zOTedn1XZ3tUmoEVucI50uHV_Vwk2xv4CVjUxpkHlr8oLdfdUgluQ8p-8MyzW2-9YTo",
     "url": "https://play.google.com/store/apps/details?id=com.ag.satisfying.clean.perfect.makeover.asmr",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 22572,
     "peak_date": "2026-04-17",
     "history": [
@@ -23021,6 +23093,12 @@
         "installs": 369278,
         "dpd": 18463,
         "score": 4.2
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 574872,
+        "dpd": 19823,
+        "score": 3.8
       }
     ]
   },
@@ -23031,7 +23109,7 @@
     "icon": "https://play-lh.googleusercontent.com/p6OsKKBCtlVC9zRBxqfiseV04t7_JdNPz6CIiOptJF3eN9ykpwS8YToPefFHy7eV-kONSIJwY5fXCsxKV7dwBQ",
     "url": "https://play.google.com/store/apps/details?id=com.cmsj.immortalpath.google",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 16451,
     "peak_date": "2026-04-15",
     "history": [
@@ -23106,6 +23184,12 @@
         "installs": 182985,
         "dpd": 9630,
         "score": 4.4
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 195341,
+        "dpd": 6976,
+        "score": 4.5
       }
     ]
   },
@@ -23232,7 +23316,7 @@
     "icon": "https://play-lh.googleusercontent.com/DTz4b0Q20hMC9YCAm72ou474o7YQK_j1UumwnEbzz4w9C264C0XgOC8HYCOotsN6Ah1NPp6QnySLkhIXABbvYGE",
     "url": "https://play.google.com/store/apps/details?id=com.wheelie.soccer.moto.bike.football.league",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 12449,
     "peak_date": "2026-04-15",
     "history": [
@@ -23313,6 +23397,12 @@
         "installs": 206194,
         "dpd": 11455,
         "score": 4.3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 276047,
+        "dpd": 10223,
+        "score": 4.4
       }
     ]
   },
@@ -23414,7 +23504,7 @@
     "icon": "https://play-lh.googleusercontent.com/qUsxCNAO96ZmgZ0Cx8VGLmxzsG1CX-V-xCNBFFqoo50U5_d_DnzL5O7XuqH2CbY7WxgL2UGND9BgrFN1yL-D",
     "url": "https://play.google.com/store/apps/details?id=com.tailormadegames.eow",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 9551,
     "peak_date": "2026-04-15",
     "history": [
@@ -23495,6 +23585,12 @@
         "installs": 45692,
         "dpd": 2404,
         "score": 4.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 48077,
+        "dpd": 1717,
+        "score": 4.5
       }
     ]
   },
@@ -23505,7 +23601,7 @@
     "icon": "https://play-lh.googleusercontent.com/uZCla3mPuEDvIOQ_4Q4nqqr1Lr9B2aVe1E5ZUcfF2_itX8dufK_Tb0TTExAfPhsdfAWhHifGNpaI8D0cyUKh",
     "url": "https://play.google.com/store/apps/details?id=com.feelingtouch.rush",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 19198,
     "peak_date": "2026-04-15",
     "history": [
@@ -23586,6 +23682,12 @@
         "installs": 214512,
         "dpd": 12618,
         "score": 4.3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 235704,
+        "dpd": 9065,
+        "score": 4.3
       }
     ]
   },
@@ -23596,7 +23698,7 @@
     "icon": "https://play-lh.googleusercontent.com/UyYl2_oAkNlp2Ev32kyecu44z0ZXb0wkhM8cvBYLyis8FvJ8512XGZKR1gv7ioTvUiQDs-SGVPpx68lN7svHKP0",
     "url": "https://play.google.com/store/apps/details?id=com.wood.puzzle.screw.lovely",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 4625,
     "peak_date": "2026-04-24",
     "history": [
@@ -23677,6 +23779,12 @@
         "installs": 91926,
         "dpd": 4377,
         "score": 3.7
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 122075,
+        "dpd": 4069,
+        "score": 3.4
       }
     ]
   },
@@ -23815,9 +23923,9 @@
     "icon": "https://play-lh.googleusercontent.com/IhVv5emEyKP66qyRNVdVKjgvvn_EIytkxl1kJble-Eeb8dsG4lM4LqfAahkhvqyBdn-mAib5t9eLsb3rffHtwA",
     "url": "https://play.google.com/store/apps/details?id=com.stickman.legends.fight.go.game",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 5394,
-    "peak_date": "2026-04-22",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 6097,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-14",
@@ -23896,6 +24004,12 @@
         "installs": 86745,
         "dpd": 5102,
         "score": 3.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 158543,
+        "dpd": 6097,
+        "score": 3.6
       }
     ]
   },
@@ -24113,7 +24227,7 @@
     "icon": "https://play-lh.googleusercontent.com/I8Dz3PuyQatxjsyz8eNzlhNNhpIxXJHg863NJNmfBqOF7ugjuR7YxmYG8iIo_DigwopiKKWaDgkT3lo5svw",
     "url": "https://play.google.com/store/apps/details?id=com.CellXU.RyotaroStudio.Tengu.HidingTheMoon",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 2300,
     "peak_date": "2026-04-15",
     "history": [
@@ -24199,6 +24313,12 @@
         "date": "2026-05-04",
         "installs": 9581,
         "dpd": 354,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 9581,
+        "dpd": 342,
         "score": 0
       }
     ]
@@ -24419,7 +24539,7 @@
     "icon": "https://play-lh.googleusercontent.com/uDEHrQzy85R6gdlYSdn3eAvpQqYZWtvHiX6BBF7GLsiGir3Nls3AHO03kQxomfKA39eSIZ9dClT0nwnAkjFNdQ",
     "url": "https://play.google.com/store/apps/details?id=com.appliculture.tahmin_et",
     "first_seen": "2026-04-14",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 760,
     "peak_date": "2026-04-15",
     "history": [
@@ -24499,6 +24619,12 @@
         "date": "2026-04-26",
         "installs": 2044,
         "dpd": 146,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 2878,
+        "dpd": 125,
         "score": 0
       }
     ]
@@ -24927,7 +25053,7 @@
     "icon": "https://play-lh.googleusercontent.com/Ect69XzzMSl73fM2xcIBbgbS0g9Dng3Iq10wOAUW0JAeebi-zs8JdZPXCAVW3eVrhnM",
     "url": "https://play.google.com/store/apps/details?id=com.liteorange.hometopia",
     "first_seen": "2026-04-15",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 50381,
     "peak_date": "2026-04-15",
     "history": [
@@ -25002,6 +25128,12 @@
         "installs": 329548,
         "dpd": 16477,
         "score": 4.9
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 427378,
+        "dpd": 14737,
+        "score": 4.7
       }
     ]
   },
@@ -25134,7 +25266,7 @@
     "icon": "https://play-lh.googleusercontent.com/4mFaV0sxtt1OSJmdZd5kBztSTHecsc9DxQDQdQcSNiYyvBSimWw5r-Ab-HsAgIhi-ELbliwOHmNv2d5sQKsV3RI",
     "url": "https://play.google.com/store/apps/details?id=com.ATI.PlushraidBlaze",
     "first_seen": "2026-04-15",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 4880,
     "peak_date": "2026-04-16",
     "history": [
@@ -25208,6 +25340,12 @@
         "date": "2026-04-26",
         "installs": 55434,
         "dpd": 2917,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 55475,
+        "dpd": 1981,
         "score": 0
       }
     ]
@@ -25770,7 +25908,7 @@
     "icon": "https://play-lh.googleusercontent.com/XAYdy8UpC-8YB4iB1k1W9mZTOboJbd5iOodPlciiprQEi4s3VFwSA4_5yBiHhzx0UZMSVvijpSR5hvg_BsPrcQ",
     "url": "https://play.google.com/store/apps/details?id=com.TheHerdsmanAndTheWeaver.DropBlast",
     "first_seen": "2026-04-15",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 953,
     "peak_date": "2026-04-18",
     "history": [
@@ -25844,6 +25982,12 @@
         "date": "2026-04-26",
         "installs": 11454,
         "dpd": 572,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 11456,
+        "dpd": 395,
         "score": 0
       }
     ]
@@ -25977,7 +26121,7 @@
     "icon": "https://play-lh.googleusercontent.com/hzueOraiEXcQ8fJp1iHSTxgbnFsMB76eNc6lraGQ0FQ8kedZrkMNwchQS36c-1-7rzdaVP71kd7uBqqigm2kmw",
     "url": "https://play.google.com/store/apps/details?id=com.moraksoft.catsfishfarm",
     "first_seen": "2026-04-15",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 536,
     "peak_date": "2026-04-21",
     "history": [
@@ -26052,6 +26196,12 @@
         "installs": 8260,
         "dpd": 434,
         "score": 4.2
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 11288,
+        "dpd": 403,
+        "score": 4.1
       }
     ]
   },
@@ -26270,9 +26420,9 @@
     "icon": "https://play-lh.googleusercontent.com/uKuz23rbNcebhzohG7TeLvEEMoBB87LNUCceaQwvszg6-siBwIh_S8T2GBp-a6gTQZ8",
     "url": "https://play.google.com/store/apps/details?id=com.craftworld.block3d.battle",
     "first_seen": "2026-04-16",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 33459,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 46275,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-16",
@@ -26339,6 +26489,12 @@
         "installs": 568807,
         "dpd": 31600,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1249448,
+        "dpd": 46275,
+        "score": 3.7
       }
     ]
   },
@@ -26346,10 +26502,10 @@
     "id": "com.candle.subway_run",
     "name": "Endless Escape: Subway Running",
     "genre": "Arcade",
-    "icon": "https://play-lh.googleusercontent.com/Z6aJAn_nXjtWkXff6lQoc_HA5K9BjobpzMhO38TDH8TJmwTsmQd8u8er2kSIOPphwdE",
+    "icon": "https://play-lh.googleusercontent.com/miBwe24WkAICp1MI6eca1r8TfR2Y3m5Qr3O1XJ6RCSRvAwHHkjmPHZ1cMMajbVmn3bAC",
     "url": "https://play.google.com/store/apps/details?id=com.candle.subway_run",
     "first_seen": "2026-04-16",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 21730,
     "peak_date": "2026-04-20",
     "history": [
@@ -26418,6 +26574,12 @@
         "installs": 318667,
         "dpd": 16771,
         "score": 3.4
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 393151,
+        "dpd": 14041,
+        "score": 3.4
       }
     ]
   },
@@ -26428,7 +26590,7 @@
     "icon": "https://play-lh.googleusercontent.com/CxP6FvrH-wIZP3-A1bYKN8-YyzsQHNB5rkvA0NgrQeMd2Gu3SKU1a4YIJOQ9aHolm07XtDBuMMFlz6l6iv4QXg",
     "url": "https://play.google.com/store/apps/details?id=com.awesomepiece.isekaigate",
     "first_seen": "2026-04-16",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 13429,
     "peak_date": "2026-04-20",
     "history": [
@@ -26497,6 +26659,12 @@
         "installs": 108137,
         "dpd": 8318,
         "score": 2.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 123817,
+        "dpd": 5628,
+        "score": 3.2
       }
     ]
   },
@@ -26507,7 +26675,7 @@
     "icon": "https://play-lh.googleusercontent.com/9C1wTuZdibAyCQ85gfDycj4sh8mw0YH-OY4N5cUs1PaNW9Mv88xy-rHoGmTnGMqOOA",
     "url": "https://play.google.com/store/apps/details?id=jp.goodsmile.nekoconne",
     "first_seen": "2026-04-16",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 11214,
     "peak_date": "2026-04-18",
     "history": [
@@ -26570,6 +26738,12 @@
         "installs": 128197,
         "dpd": 8012,
         "score": 2.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 140178,
+        "dpd": 5607,
+        "score": 2.3
       }
     ]
   },
@@ -26580,7 +26754,7 @@
     "icon": "https://play-lh.googleusercontent.com/ACRWLVOLPMDEHjfrKiUbLsSAYhfzyn15uMQ2Q_MsEunWUcxNWtx8pXGwf_E1kX6-yW0wuJ_uZ_B8nhBU8YOB",
     "url": "https://play.google.com/store/apps/details?id=com.daeri.TenValkyrie",
     "first_seen": "2026-04-16",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 5315,
     "peak_date": "2026-04-19",
     "history": [
@@ -26649,6 +26823,12 @@
         "installs": 53804,
         "dpd": 3362,
         "score": 4.0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 55522,
+        "dpd": 2220,
+        "score": 3.9
       }
     ]
   },
@@ -27054,10 +27234,10 @@
     "id": "com.merge.match3mystery",
     "name": "Mistfall Match: Design & Blast",
     "genre": "Casual",
-    "icon": "https://play-lh.googleusercontent.com/30mGbTZC9iSauR83xO77w0e9HkHGO-XYggaHOh8BX_n9cIQ5HaXu1yPa2ukJWqU4yg",
+    "icon": "https://play-lh.googleusercontent.com/r_1jrMpw34SSdmlc1pa-GzZwkxU3z1E_yYvtwAShz2de7PNrkIjEeyB-D6lmLivvgs4",
     "url": "https://play.google.com/store/apps/details?id=com.merge.match3mystery",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 435597,
     "peak_date": "2026-04-17",
     "history": [
@@ -27120,6 +27300,12 @@
         "installs": 500981,
         "dpd": 45543,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 517694,
+        "dpd": 25884,
+        "score": 5
       }
     ]
   },
@@ -27222,7 +27408,7 @@
     "icon": "https://play-lh.googleusercontent.com/v3pbvtq0opWpTG4tMimTP5ydpn42Bi-eN_8pFvNGkD-npdPj5u7kzctiuqR9AZohYIo",
     "url": "https://play.google.com/store/apps/details?id=com.bailing.lark.roll.dev",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 122666,
     "peak_date": "2026-04-22",
     "history": [
@@ -27285,6 +27471,12 @@
         "installs": 543577,
         "dpd": 90596,
         "score": 4.1
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 938603,
+        "dpd": 62573,
+        "score": 3.3
       }
     ]
   },
@@ -27295,7 +27487,7 @@
     "icon": "https://play-lh.googleusercontent.com/ptw5YXYGdRZJIVS1kCPCL-lt5jMjU6DKPtsUFjKsbeVkysdmP_OBUStR76wg_y1QLJZuwiC2R8FtQ9n77-aOmPc",
     "url": "https://play.google.com/store/apps/details?id=pics.karaage.damekoico",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 24740,
     "peak_date": "2026-04-17",
     "history": [
@@ -27358,6 +27550,12 @@
         "installs": 87047,
         "dpd": 7253,
         "score": 2.1
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 92419,
+        "dpd": 4400,
+        "score": 2.1
       }
     ]
   },
@@ -27368,7 +27566,7 @@
     "icon": "https://play-lh.googleusercontent.com/eUqA9sR7Zdvp1Al1c2_nW6krX2ITMq9Of_QghA4SReXheHDJ3PXqDx4ZbvcUfmPWbjd40jvgbgRRJc0KWFJH6w",
     "url": "https://play.google.com/store/apps/details?id=com.ws.city.tazi.driving.car.games",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 7373,
     "peak_date": "2026-04-17",
     "history": [
@@ -27431,6 +27629,12 @@
         "installs": 110593,
         "dpd": 5820,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 176847,
+        "dpd": 6315,
+        "score": 0
       }
     ]
   },
@@ -27441,7 +27645,7 @@
     "icon": "https://play-lh.googleusercontent.com/PwQhWty5ZmuUvrPiWvZ1K9NJSWnRDFvKtMX2e1SGClKrqzHiutGIvsv8uYGhE-XtPVV3k_HjnNKW7IHf74r2OeY",
     "url": "https://play.google.com/store/apps/details?id=onetap.game.monopoly",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 5247,
     "peak_date": "2026-04-17",
     "history": [
@@ -27504,6 +27708,12 @@
         "installs": 27619,
         "dpd": 2301,
         "score": 3.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 39783,
+        "dpd": 1894,
+        "score": 3.9
       }
     ]
   },
@@ -27514,7 +27724,7 @@
     "icon": "https://play-lh.googleusercontent.com/1npnjrSWxUN2wlrWNmhEzWE8euUGxhtjeK21fI3QXR4utffkusJuEG6wtOfeXOdQ_9GgDNqwZASf442F1q3f",
     "url": "https://play.google.com/store/apps/details?id=games.burny.sortica.card.sort.solitaire",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 3751,
     "peak_date": "2026-04-17",
     "history": [
@@ -27576,6 +27786,12 @@
         "date": "2026-04-26",
         "installs": 9315,
         "dpd": 846,
+        "score": 4.3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 10169,
+        "dpd": 508,
         "score": 4.3
       }
     ]
@@ -27881,7 +28097,7 @@
     "icon": "https://play-lh.googleusercontent.com/KfnrUS7-7bYYQrvUTjfNRwX-gccPUIL-NfTHCGee2qnJ_Use-J1eO9Z5Vfe5WC751CM",
     "url": "https://play.google.com/store/apps/details?id=com.abi.block.gem.sort",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 5129,
     "peak_date": "2026-04-18",
     "history": [
@@ -27944,6 +28160,12 @@
         "installs": 40234,
         "dpd": 2873,
         "score": 4.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 46704,
+        "dpd": 2030,
+        "score": 4.4
       }
     ]
   },
@@ -28059,12 +28281,12 @@
   },
   "com.smg.real.gangster.crime.game": {
     "id": "com.smg.real.gangster.crime.game",
-    "name": "Real Miami Gangster Game 3D",
+    "name": "Gangster Game Mafia Open World",
     "genre": "Action",
-    "icon": "https://play-lh.googleusercontent.com/-iEiniCM8hZMzd3y07D_zi3M-vU6v2_wHWvjEoAhhAPL6SRbP0UD1MwkV9Ltx0Ob03E",
+    "icon": "https://play-lh.googleusercontent.com/7yUxQ5hMQRMGqVm1_4PMa3NYCqWeqlguU_dzPQVWQlTJCUq91VKikO1cPZhdsuGm07ZSVUWcEpB4udVaH91vqj8",
     "url": "https://play.google.com/store/apps/details?id=com.smg.real.gangster.crime.game",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1132513,
     "peak_date": "2026-04-18",
     "history": [
@@ -28121,6 +28343,12 @@
         "installs": 2435300,
         "dpd": 243530,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 2528656,
+        "dpd": 133087,
+        "score": 4
       }
     ]
   },
@@ -28131,7 +28359,7 @@
     "icon": "https://play-lh.googleusercontent.com/QSP-BEIZaQs6a5g-cPamOARNw7TqI2xlaGGaRlezXG7lsi67fHtZdf5su7US3-Sq6ak5CilPne8QwWhN-V8",
     "url": "https://play.google.com/store/apps/details?id=com.pixelmotion.car.drifting.driving.racing.simulator.games",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1132454,
     "peak_date": "2026-04-18",
     "history": [
@@ -28188,6 +28416,12 @@
         "installs": 1237444,
         "dpd": 137493,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1320529,
+        "dpd": 73362,
+        "score": 0
       }
     ]
   },
@@ -28198,7 +28432,7 @@
     "icon": "https://play-lh.googleusercontent.com/cjDSyrhTFt_cq5wO3GOtDOWoiGO2vfxKxRcSUT66Cx8eo-JhYC6FAdvreQIFTXjN9--gWGA46LMJZ9kPRFjFiA",
     "url": "https://play.google.com/store/apps/details?id=com.netmarble.monster2",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 148622,
     "peak_date": "2026-04-19",
     "history": [
@@ -28255,6 +28489,12 @@
         "installs": 2335833,
         "dpd": 122938,
         "score": 4.4
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 2493036,
+        "dpd": 89037,
+        "score": 4.0
       }
     ]
   },
@@ -28265,7 +28505,7 @@
     "icon": "https://play-lh.googleusercontent.com/RREUuhHXGtRpK7Ts3K9ORXNJjc60cBFqvj-6AHnk1sCrJqXDS6uhYBEXSG7xqxvb74qMkooxL_jT9tcOn6W8bw",
     "url": "https://play.google.com/store/apps/details?id=com.hkgame.NEWBrainPuzzle",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 86698,
     "peak_date": "2026-04-18",
     "history": [
@@ -28322,6 +28562,12 @@
         "installs": 601192,
         "dpd": 46245,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 862995,
+        "dpd": 39227,
+        "score": 3.7
       }
     ]
   },
@@ -28332,7 +28578,7 @@
     "icon": "https://play-lh.googleusercontent.com/OSJjfGrP_quhzdYqlTPUHId_1mb2scF-95nCULIJL3R5lq44sjI914BEOljyWGVUCIsXs_d6jC2t03T-b5E5",
     "url": "https://play.google.com/store/apps/details?id=com.qrgame.coinjump",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 29722,
     "peak_date": "2026-04-24",
     "history": [
@@ -28389,6 +28635,12 @@
         "installs": 326845,
         "dpd": 27237,
         "score": 3.1
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 488053,
+        "dpd": 23240,
+        "score": 3
       }
     ]
   },
@@ -28399,7 +28651,7 @@
     "icon": "https://play-lh.googleusercontent.com/7OadMdvAOH3cyiQboDKJDSshTaR0IL2xztLH7BhRVkb0ZxRPRRX_habvOYVEplms6cLQ",
     "url": "https://play.google.com/store/apps/details?id=com.hoolai.weijia.heroesgo",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 21873,
     "peak_date": "2026-04-19",
     "history": [
@@ -28456,6 +28708,12 @@
         "installs": 84616,
         "dpd": 8461,
         "score": 4
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 103540,
+        "dpd": 5449,
+        "score": 3.6
       }
     ]
   },
@@ -28795,7 +29053,7 @@
     "icon": "https://play-lh.googleusercontent.com/MZq9X10tY0H6XHWY_WcPPhKb_ozU03aTi9KAGgB_K2klNrHEtnBSU1vkyZQdiv5h93-1cNnVbMo-7qGL28FiBg",
     "url": "https://play.google.com/store/apps/details?id=com.worqichatian.wcgame",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 858,
     "peak_date": "2026-04-20",
     "history": [
@@ -28852,6 +29110,12 @@
         "installs": 6375,
         "dpd": 579,
         "score": 4.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 8952,
+        "dpd": 447,
+        "score": 4.6
       }
     ]
   },
@@ -28881,7 +29145,7 @@
     "icon": "https://play-lh.googleusercontent.com/gbctOnyloL4_9EFGuCJVMjcOqfkvATVpcVyxrpVOA2hChPeFD6IdhbeNqivJYMHfrm2k24YNHCR0nKH6OIhGUA",
     "url": "https://play.google.com/store/apps/details?id=com.yyjlcs.az",
     "first_seen": "2026-04-18",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1005,
     "peak_date": "2026-04-21",
     "history": [
@@ -28937,6 +29201,12 @@
         "date": "2026-04-26",
         "installs": 6154,
         "dpd": 559,
+        "score": 4.6
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 6327,
+        "dpd": 316,
         "score": 4.6
       }
     ]
@@ -29383,7 +29653,7 @@
     "icon": "https://play-lh.googleusercontent.com/TAFwbCOoB96F_HjPUwjiT2DaBqR9iIK9gjqkQGaiRHP6zxf1KRyV-RCHBtKM4JbPqw",
     "url": "https://play.google.com/store/apps/details?id=casual.soundboard.ar.trending",
     "first_seen": "2026-04-19",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 125269,
     "peak_date": "2026-04-19",
     "history": [
@@ -29434,6 +29704,12 @@
         "installs": 1011497,
         "dpd": 72249,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1117247,
+        "dpd": 48575,
+        "score": 0
       }
     ]
   },
@@ -29444,7 +29720,7 @@
     "icon": "https://play-lh.googleusercontent.com/uCbUOzXOikdQKyqYc3cfZS9vLgI1mhWBfgYVqxZjoP5KTuBXS6vnOxlY4ftY0EujsMYz605JzOuD8dT8y_o",
     "url": "https://play.google.com/store/apps/details?id=com.tindagames.diy.mobile.phone.cover.maker.makeover.offline",
     "first_seen": "2026-04-19",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 26537,
     "peak_date": "2026-04-19",
     "history": [
@@ -29495,6 +29771,12 @@
         "installs": 149515,
         "dpd": 13592,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 164606,
+        "dpd": 8230,
+        "score": 0
       }
     ]
   },
@@ -29505,7 +29787,7 @@
     "icon": "https://play-lh.googleusercontent.com/JZcgYuG8JOW-_ZcwjdthTd88jxBv9rlvW4u37WV8ATXe7dOyXuql8FNRuZ0XiBfnlw",
     "url": "https://play.google.com/store/apps/details?id=com.eyestorm.grabkpop",
     "first_seen": "2026-04-19",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 9922,
     "peak_date": "2026-04-19",
     "history": [
@@ -29556,6 +29838,12 @@
         "installs": 108177,
         "dpd": 8321,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 209010,
+        "dpd": 9500,
+        "score": 0
       }
     ]
   },
@@ -29566,7 +29854,7 @@
     "icon": "https://play-lh.googleusercontent.com/zrt6OpA3euFMbANod2A7yuYiGoVvPR1q-hA_FbGjbWav2ivqcxdzTEhzseSUZ2kTd9-QQxV_yoPVt5MCpbtlDU4",
     "url": "https://play.google.com/store/apps/details?id=com.cookapps.bouncedefense",
     "first_seen": "2026-04-19",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 4472,
     "peak_date": "2026-04-19",
     "history": [
@@ -29617,6 +29905,12 @@
         "installs": 25074,
         "dpd": 2279,
         "score": 2.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 31765,
+        "dpd": 1588,
+        "score": 2.9
       }
     ]
   },
@@ -29685,10 +29979,10 @@
     "id": "com.zoo.sound.land.game",
     "name": "Zoo Sound Land",
     "genre": "Casual",
-    "icon": "https://play-lh.googleusercontent.com/NhuAArkn3TY8cydDFcnTZO7RkYKzcyVtLkZZkcjUN-ElTcc-ND2aIAWsX9RFvKXxChzSqVLITPOF7NHbeM6OjA",
+    "icon": "https://play-lh.googleusercontent.com/buC8P9-S3YC-TjavD7R0nRVnLKkp3utmw7ke2lBuXU3IMtjei0mdIUBN8Oi5BPbmxxZKTqG91MCs1nohuCCReQ",
     "url": "https://play.google.com/store/apps/details?id=com.zoo.sound.land.game",
     "first_seen": "2026-04-19",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 100949,
     "peak_date": "2026-04-25",
     "history": [
@@ -29739,6 +30033,12 @@
         "installs": 1110439,
         "dpd": 92536,
         "score": 4.4
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1463731,
+        "dpd": 69701,
+        "score": 4.5
       }
     ]
   },
@@ -29792,9 +30092,9 @@
     "icon": "https://play-lh.googleusercontent.com/CYjcswu4LPV_F9nYqZPPV4izOYiv-aJf3A2-2VBMDCgiKYR077ULlTy8lX67ik2dgGyE_UDAvsvg2-Xv0JmcVg",
     "url": "https://play.google.com/store/apps/details?id=com.enter.head.brain2026",
     "first_seen": "2026-04-19",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 4434,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 5599,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-19",
@@ -29842,6 +30142,12 @@
         "date": "2026-04-26",
         "installs": 79829,
         "dpd": 4434,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 151198,
+        "dpd": 5599,
         "score": 0
       }
     ]
@@ -29914,9 +30220,9 @@
     "icon": "https://play-lh.googleusercontent.com/mb-9IMrbSQrcH6XmLnH_2V3jgOmq5hhW0CmhqaD7C6PbfOsEotLJ8mVRc4huntNeC3pob4E_osA8qOM04kCIJQ",
     "url": "https://play.google.com/store/apps/details?id=com.pinpathflow.and",
     "first_seen": "2026-04-19",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 2241,
-    "peak_date": "2026-04-24",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2527,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-19",
@@ -29965,6 +30271,12 @@
         "installs": 38359,
         "dpd": 2131,
         "score": 3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 68237,
+        "dpd": 2527,
+        "score": 2.7
       }
     ]
   },
@@ -30250,7 +30562,7 @@
     "icon": "https://play-lh.googleusercontent.com/4FgORXl0pBaOBJsHwsnUOjG0PZPGXlHcuTxaXEhtOYFCbZjvOk-Vnl5xgx6FJFqGgTU",
     "url": "https://play.google.com/store/apps/details?id=com.real.gangster.mafia.world.simulator",
     "first_seen": "2026-04-20",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 419204,
     "peak_date": "2026-04-20",
     "history": [
@@ -30295,6 +30607,12 @@
         "installs": 1300089,
         "dpd": 144454,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1343422,
+        "dpd": 74634,
+        "score": 0
       }
     ]
   },
@@ -30305,7 +30623,7 @@
     "icon": "https://play-lh.googleusercontent.com/Qr2U5jv4qD4auUGdg0_ImrrN71IY0hHvOKxuHaK3z1J8KZvk6Gt8_iEcacfkdPx8nTU",
     "url": "https://play.google.com/store/apps/details?id=com.schoolboy.houseescape.runawaygames",
     "first_seen": "2026-04-20",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 396278,
     "peak_date": "2026-04-20",
     "history": [
@@ -30350,6 +30668,12 @@
         "installs": 1607237,
         "dpd": 160723,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1651416,
+        "dpd": 86916,
+        "score": 0
       }
     ]
   },
@@ -30360,7 +30684,7 @@
     "icon": "https://play-lh.googleusercontent.com/4MzCyGWM-k-_cZwqQ1WCVWIaSuEj2OioHv_5wIGqwp-02V09svxvmYDI9su8uWYOWQLS",
     "url": "https://play.google.com/store/apps/details?id=com.FutureRun.RiotBall",
     "first_seen": "2026-04-20",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 21176,
     "peak_date": "2026-04-20",
     "history": [
@@ -30404,6 +30728,12 @@
         "date": "2026-04-26",
         "installs": 72816,
         "dpd": 8090,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 73070,
+        "dpd": 4059,
         "score": 0
       }
     ]
@@ -30551,7 +30881,7 @@
     "icon": "https://play-lh.googleusercontent.com/glafANmLx4e8EHecgBDoCNXn-E4bEN_B8eDYC7RKxXhrGnWat1ggQI1f4v2t_F7m5N9eqbAzgUhwqjOfPtaf-w",
     "url": "https://play.google.com/store/apps/details?id=com.easybrain.word.stories.game",
     "first_seen": "2026-04-20",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 834,
     "peak_date": "2026-04-20",
     "history": [
@@ -30601,6 +30931,12 @@
         "date": "2026-05-04",
         "installs": 9284,
         "dpd": 371,
+        "score": 4.6
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 9284,
+        "dpd": 357,
         "score": 4.6
       }
     ]
@@ -30926,7 +31262,7 @@
     "icon": "https://play-lh.googleusercontent.com/sJy_izJfDeTLxElfINGAzY8ZP30YbsgnoQqkovKpZdqvyh-rbbDKvuhzXgGC15ebcrI",
     "url": "https://play.google.com/store/apps/details?id=com.sparklingsociety.animalfarmlife",
     "first_seen": "2026-04-20",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 14861,
     "peak_date": "2026-04-20",
     "history": [
@@ -30977,6 +31313,12 @@
         "installs": 60670,
         "dpd": 4044,
         "score": 4.2
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 62354,
+        "dpd": 3897,
+        "score": 4.2
       }
     ]
   },
@@ -30987,7 +31329,7 @@
     "icon": "https://play-lh.googleusercontent.com/4M6pW8IrsS0pQecECzcv0ORmk7xP9jpn0dBAX2YFSMhywlbRBiuR4OswdaBjbZxIS3U",
     "url": "https://play.google.com/store/apps/details?id=com.smg.mini.bus.driving.euro.bus.game",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 80887,
     "peak_date": "2026-04-22",
     "history": [
@@ -31026,6 +31368,12 @@
         "installs": 335714,
         "dpd": 47959,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 565289,
+        "dpd": 35330,
+        "score": 0
       }
     ]
   },
@@ -31036,7 +31384,7 @@
     "icon": "https://play-lh.googleusercontent.com/6bzUcvt69zrgmreeiQcXikKrKhQIIvXhumgdjauiryHkr47MzqIuZ2csYXZbXULsaZSHjX3Nf8g_ZED_1YX_Tw",
     "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dqsgw",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 16827,
     "peak_date": "2026-04-23",
     "history": [
@@ -31075,6 +31423,12 @@
         "installs": 266779,
         "dpd": 14821,
         "score": 3.7
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 346134,
+        "dpd": 12819,
+        "score": 3.2
       }
     ]
   },
@@ -31227,9 +31581,9 @@
     "icon": "https://play-lh.googleusercontent.com/SxLjtN0VPISKRQMri0_mqNhlySNi5e4KCQBEhTZShwZTDTL1b-hG4LgTSDZJ1nZEE9_VL8OFkoWMfF6MZ8Sd",
     "url": "https://play.google.com/store/apps/details?id=com.beauty.and.encountermahjong",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1794,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2669,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-21",
@@ -31266,6 +31620,12 @@
         "installs": 32297,
         "dpd": 1794,
         "score": 4.3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 72071,
+        "dpd": 2669,
+        "score": 3.4
       }
     ]
   },
@@ -31350,9 +31710,9 @@
     "icon": "https://play-lh.googleusercontent.com/o6hhp74Wq1r_8F-tXSTmRmHH0IHxqYANYAisJUlr2DctK23FltEsESqGtvfUBkIZnNlTwI9QTjb3zM3v_nzc",
     "url": "https://play.google.com/store/apps/details?id=jpvh.aiuew.vgnkaj.eppq",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 625,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 980,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-21",
@@ -31389,6 +31749,12 @@
         "installs": 10640,
         "dpd": 625,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 25493,
+        "dpd": 980,
+        "score": 0
       }
     ]
   },
@@ -31424,9 +31790,9 @@
     "icon": "https://play-lh.googleusercontent.com/dVVa5cN6LV_JzWe5_jIH9T4YzK7uwjuiGrb6bKBzYHizVL1HeFxyA6jDoIV0yKqvUznNQXrbfo0J-Y2-v2gz",
     "url": "https://play.google.com/store/apps/details?id=com.echorunebix.educationzopnle",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1899,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 3761,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-21",
@@ -31463,6 +31829,12 @@
         "installs": 28490,
         "dpd": 1899,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 90287,
+        "dpd": 3761,
+        "score": 0
       }
     ]
   },
@@ -31473,9 +31845,9 @@
     "icon": "https://play-lh.googleusercontent.com/J9GWMSYfDQM0WPvWM1qzqcO59iCA_1nCu9x-R6rTm8CO8yEa4fkmJ4zW_ZEL4j2wLKVQl6eNYLQlvX2grLVAL04",
     "url": "https://play.google.com/store/apps/details?id=com.milandroid.hexgomoku",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 371,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 398,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-21",
@@ -31511,6 +31883,12 @@
         "date": "2026-04-26",
         "installs": 7802,
         "dpd": 371,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 11945,
+        "dpd": 398,
         "score": 0
       }
     ]
@@ -31620,9 +31998,9 @@
     "icon": "https://play-lh.googleusercontent.com/vxPUm1ccjMeC6QOwdshd8s581PNiqWDntUdWcFG4LOqW26sVkoTa5ZS0lWm-ffy7YpDrYS-TxZGdECQhnJdN7A",
     "url": "https://play.google.com/store/apps/details?id=com.gimica.nonocross",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 2015,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2069,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-21",
@@ -31659,6 +32037,12 @@
         "installs": 34257,
         "dpd": 1903,
         "score": 2.4
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 55877,
+        "dpd": 2069,
+        "score": 2.1
       }
     ]
   },
@@ -31669,7 +32053,7 @@
     "icon": "https://play-lh.googleusercontent.com/z_r15tt1IgsNdiYrhxDDkPdyhLt3Pj1SI-92WW7bPLRtWUWdfEDwNBxYsjwZFHFm-YQLjXLLCQp4aeNM6ZxkbBg",
     "url": "https://play.google.com/store/apps/details?id=com.ge.grand.gangster.vegas.crime.mafia.citygames",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1935291,
     "peak_date": "2026-04-22",
     "history": [
@@ -31702,6 +32086,12 @@
         "installs": 2163056,
         "dpd": 432611,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 2863396,
+        "dpd": 204528,
+        "score": 3.2
       }
     ]
   },
@@ -31712,7 +32102,7 @@
     "icon": "https://play-lh.googleusercontent.com/uH-37JWXEqAuJd2QNNgAL9qY4zjIyZybhlMvCh2yQpQ_rOEs4Par9xjP7MtJk54YfBc",
     "url": "https://play.google.com/store/apps/details?id=com.merge.shooter",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 25701,
     "peak_date": "2026-04-22",
     "history": [
@@ -31745,6 +32135,12 @@
         "installs": 80412,
         "dpd": 11487,
         "score": 4.6
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 93044,
+        "dpd": 5815,
+        "score": 4.5
       }
     ]
   },
@@ -31755,7 +32151,7 @@
     "icon": "https://play-lh.googleusercontent.com/KdZfCOIzAxHLDe9H0aJ76NhUNi0ev1pupFOsTXbKNr80gTMqcEr3h2xlCsuuPXqIPxvyhIyoIy5gSfO_7kgf",
     "url": "https://play.google.com/store/apps/details?id=bingocash.bonus.moneyslot.cardpuzzle",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 12449,
     "peak_date": "2026-04-22",
     "history": [
@@ -31788,6 +32184,12 @@
         "installs": 64934,
         "dpd": 7214,
         "score": 4.7
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 71308,
+        "dpd": 3961,
+        "score": 4.5
       }
     ]
   },
@@ -31798,7 +32200,7 @@
     "icon": "https://play-lh.googleusercontent.com/sqoos9LPtWJqE93RR_JHdz_ExoUeWwYpQhDK3HkwVWHldUxkVnnzbWLC2GM4nSdzneLjfOydU8aRDBFCP67B",
     "url": "https://play.google.com/store/apps/details?id=com.idle.fishing.club.hooking.resort.tycoon",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 10297,
     "peak_date": "2026-04-22",
     "history": [
@@ -31831,6 +32233,12 @@
         "installs": 77714,
         "dpd": 7064,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 114750,
+        "dpd": 5737,
+        "score": 0
       }
     ]
   },
@@ -31841,9 +32249,9 @@
     "icon": "https://play-lh.googleusercontent.com/_teIccE9QYkRt7iY5sYjn_7b1-Sf2D45TabbGe5-Jr0tw_UzO7Ey4rJ8INzCBs3WKE2lQIuIIHOp16DLiiXs",
     "url": "https://play.google.com/store/apps/details?id=com.um.dop.fun.complete.part.game",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 7877,
-    "peak_date": "2026-04-22",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 8970,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -31874,19 +32282,25 @@
         "installs": 107695,
         "dpd": 7179,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 215287,
+        "dpd": 8970,
+        "score": 0
       }
     ]
   },
   "com.apex.anime.high.school.games": {
     "id": "com.apex.anime.high.school.games",
-    "name": "Anime Life High School Games",
+    "name": "Anime Life High School Sim 3d",
     "genre": "Role Playing",
     "icon": "https://play-lh.googleusercontent.com/CsbKMTbh187Ue1rRQZ1vesW-pbDoFKUmgFjEYKeIcGZV4VD1A9tEdLsjwYpEvzQij6bxkV-pc-rtr6PqS0AH0g",
     "url": "https://play.google.com/store/apps/details?id=com.apex.anime.high.school.games",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 3200,
-    "peak_date": "2026-04-24",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 4325,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -31917,6 +32331,12 @@
         "installs": 62026,
         "dpd": 3101,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 125430,
+        "dpd": 4325,
+        "score": 0
       }
     ]
   },
@@ -31927,7 +32347,7 @@
     "icon": "https://play-lh.googleusercontent.com/NdY6mrGLHtFsq39fo-aXmvua9HBpoPYeZ97bchv4Ws9wZmwn6DpO5tYEePOfbA2mPjMiCKc7t3Mzg1mxsLTb6Kg",
     "url": "https://play.google.com/store/apps/details?id=com.oathran.ilors",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1962,
     "peak_date": "2026-04-23",
     "history": [
@@ -31960,6 +32380,12 @@
         "installs": 13395,
         "dpd": 1488,
         "score": 3.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 15879,
+        "dpd": 882,
+        "score": 3
       }
     ]
   },
@@ -31970,9 +32396,9 @@
     "icon": "https://play-lh.googleusercontent.com/Ubw-tJC7EIq8AxpKXfIj9cLeUsv54HceTSjwIJJHZpESbCchrtkenpfGShP9Jx0d1Grn73KEnHXn7EXosnakyQ",
     "url": "https://play.google.com/store/apps/details?id=com.gungamefire.sucos",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 2841,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2889,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -32002,6 +32428,12 @@
         "date": "2026-04-26",
         "installs": 51140,
         "dpd": 2841,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 78003,
+        "dpd": 2889,
         "score": 0
       }
     ]
@@ -32143,9 +32575,9 @@
     "icon": "https://play-lh.googleusercontent.com/E2cdeQ9XPbTWa-n0ED_BaynqftHxHTSZw3QNwqVBwkRUa1EwqUnITlnq3EqCEzTULK0Sw-8wrpvZBZIGfPESKA",
     "url": "https://play.google.com/store/apps/details?id=com.jijijay.games.gravityorbit",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 675,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 688,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -32176,6 +32608,12 @@
         "installs": 10813,
         "dpd": 636,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 17901,
+        "dpd": 688,
+        "score": 0
       }
     ]
   },
@@ -32205,9 +32643,9 @@
     "icon": "https://play-lh.googleusercontent.com/WH7hDR72RtSWKRDZ3oS7Jf1kxl7LhG5A_7rBRNrlejZsXRdDPt-jC8i_Y59hkUk2FZ0Nqn5XIwZsIFHoMpmW",
     "url": "https://play.google.com/store/apps/details?id=org.nbkgmv.huzoz.izpizb",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 694,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1006,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -32238,6 +32676,12 @@
         "installs": 11107,
         "dpd": 653,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 26168,
+        "dpd": 1006,
+        "score": 0
       }
     ]
   },
@@ -32248,7 +32692,7 @@
     "icon": "https://play-lh.googleusercontent.com/f8t4iScG6JaDMrfzXBDCFJ8uIS2IUK8EwfaYfQyjG8rG1ak9mhOA6O4hlep5KyvwERtbnoqBx7T70QiGfnF7anA",
     "url": "https://play.google.com/store/apps/details?id=com.takasimapon.MyCottage",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 450,
     "peak_date": "2026-04-26",
     "history": [
@@ -32281,6 +32725,12 @@
         "installs": 5408,
         "dpd": 450,
         "score": 4.6
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 8347,
+        "dpd": 397,
+        "score": 4.7
       }
     ]
   },
@@ -32291,9 +32741,9 @@
     "icon": "https://play-lh.googleusercontent.com/tiZR2Y6UmJIPbQpVIX52F7WZflNbV11k4pB7R61WPIA_9jASfT2wHrBFR_Hp0cfNpet1T9ib3NnsUCXQMRtLBg",
     "url": "https://play.google.com/store/apps/details?id=com.ayamdev.craft3",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-05-04",
-    "peak_dpd": 1080,
-    "peak_date": "2026-05-04",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1247,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -32329,6 +32779,12 @@
         "date": "2026-05-04",
         "installs": 27000,
         "dpd": 1080,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 32444,
+        "dpd": 1247,
         "score": 0
       }
     ]
@@ -32383,9 +32839,9 @@
     "icon": "https://play-lh.googleusercontent.com/QIahQKvvsRcPm7VRXjr-TLrfX3_gfKWQIPMuhveJjqhF6xNBcBm7YL7Q5L7Z0LkK6wsh-A69pUnY0HYM-VIqABw",
     "url": "https://play.google.com/store/apps/details?id=role.ruin.survivor.shoot.defense.game",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 429,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 508,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -32416,6 +32872,12 @@
         "installs": 8158,
         "dpd": 429,
         "score": 4.3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 14246,
+        "dpd": 508,
+        "score": 4.0
       }
     ]
   },
@@ -32469,9 +32931,9 @@
     "icon": "https://play-lh.googleusercontent.com/ddExDWvQ4Kf9Goanh9PaY4CuoVyARhAIpdorY4q01bxExmkH4OdvMmDARsoQR4VV3mu9ollXjYbeqksfJtAOJg",
     "url": "https://play.google.com/store/apps/details?id=com.sonugetyonorummy.app",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 361,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 652,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-22",
@@ -32501,6 +32963,12 @@
         "date": "2026-04-26",
         "installs": 5423,
         "dpd": 338,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 16309,
+        "dpd": 652,
         "score": 0
       }
     ]
@@ -32574,7 +33042,7 @@
     "icon": "https://play-lh.googleusercontent.com/nTFXHGfkMmSRucWKIdy0oqODWL-9E5oYosJXkvwx3yoST_V4Ft4933fu92uOhTXuDhEiEOlbfByatgCVXhSO3RA",
     "url": "https://play.google.com/store/apps/details?id=com.batcave.farming.simulator.game",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 514304,
     "peak_date": "2026-04-23",
     "history": [
@@ -32601,6 +33069,12 @@
         "installs": 541854,
         "dpd": 135463,
         "score": 2.7
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 756339,
+        "dpd": 58179,
+        "score": 2.9
       }
     ]
   },
@@ -32611,7 +33085,7 @@
     "icon": "https://play-lh.googleusercontent.com/Ph4OD6Pd-QPggQJXkKAlfeM4poQobIEVOu7VqDu20P8HtqnP3Z-JHEXNPrfxFzTJTdQ",
     "url": "https://play.google.com/store/apps/details?id=com.GamePlot.Crcket2025",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 309927,
     "peak_date": "2026-04-23",
     "history": [
@@ -32638,6 +33112,12 @@
         "installs": 624722,
         "dpd": 124944,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 655780,
+        "dpd": 46841,
+        "score": 0
       }
     ]
   },
@@ -32648,7 +33128,7 @@
     "icon": "https://play-lh.googleusercontent.com/dDrHD7_53M0888hBS2__MM3azbXKu-jz9_YbEhERA--dbR71UgrYQ0V03TmLgF8QqfAY4fnPI2SinRCd9povFg",
     "url": "https://play.google.com/store/apps/details?id=com.sgs.i.am.silly.bird.game",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 244171,
     "peak_date": "2026-04-23",
     "history": [
@@ -32675,6 +33155,12 @@
         "installs": 1720480,
         "dpd": 172048,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1751947,
+        "dpd": 92207,
+        "score": 0
       }
     ]
   },
@@ -32685,7 +33171,7 @@
     "icon": "https://play-lh.googleusercontent.com/pgrcsNnnnuyifCsfn6s0DyCLg0lax_WfT1yhAyqQXXd8oNSK6BdgMHCeaYzEGpIGGA",
     "url": "https://play.google.com/store/apps/details?id=com.antiboom.puzzle.monster.clear.game",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 91034,
     "peak_date": "2026-04-23",
     "history": [
@@ -32712,6 +33198,12 @@
         "installs": 372783,
         "dpd": 53254,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 414527,
+        "dpd": 25907,
+        "score": 0
       }
     ]
   },
@@ -32722,7 +33214,7 @@
     "icon": "https://play-lh.googleusercontent.com/VeSk2-NZk9qngNJTlr0-Yz04bLcLqA84V_-ilQgk9bgE1x7DLj15Jd_z4KMqN-FspW_prjKAzTw0uDpWnzixFA",
     "url": "https://play.google.com/store/apps/details?id=com.mechanist.dream2.aos",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 81102,
     "peak_date": "2026-04-23",
     "history": [
@@ -32749,6 +33241,12 @@
         "installs": 329326,
         "dpd": 47046,
         "score": 4.2
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 344333,
+        "dpd": 21520,
+        "score": 4.0
       }
     ]
   },
@@ -32759,7 +33257,7 @@
     "icon": "https://play-lh.googleusercontent.com/jKf3qqQHb0lEZ9FDpXtlpfl7gpgHkOwYYknCcPX5L-Dhux3D1AkAlpG8uXh9ecKr6Vs",
     "url": "https://play.google.com/store/apps/details?id=com.mc.bowling.ball.bowling.games.sportsgames.bowlingchallenge.ten.pin.bowling",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 58827,
     "peak_date": "2026-04-23",
     "history": [
@@ -32786,6 +33284,12 @@
         "installs": 765835,
         "dpd": 47864,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 769423,
+        "dpd": 30776,
+        "score": 3.9
       }
     ]
   },
@@ -32852,7 +33356,7 @@
     "icon": "https://play-lh.googleusercontent.com/CDwzpwIj5optJEqnpGRysAmeAZrk8UoShi_XpfxWm6NO_MQhOVwK0ctgp59LJvF-vVo1zrYVn5pbqH13z4h_jQ",
     "url": "https://play.google.com/store/apps/details?id=homecleaning.makeover.asmr",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 15876,
     "peak_date": "2026-04-23",
     "history": [
@@ -32879,6 +33383,12 @@
         "installs": 105700,
         "dpd": 13212,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 169688,
+        "dpd": 9981,
+        "score": 4.2
       }
     ]
   },
@@ -32926,9 +33436,9 @@
     "icon": "https://play-lh.googleusercontent.com/IB9r_JKQAuNvnPz_AjXJ68TYRyykQRsH04q3YcGJPkNoRQLUPrarFR9Svqm794c6YuleIsoZBRS5Z84auIymHEQ",
     "url": "https://play.google.com/store/apps/details?id=com.screw.sort.goddesses.game",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 4892,
-    "peak_date": "2026-04-23",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 5739,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -32953,6 +33463,12 @@
         "installs": 30933,
         "dpd": 3437,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 103310,
+        "dpd": 5739,
+        "score": 0
       }
     ]
   },
@@ -32963,7 +33479,7 @@
     "icon": "https://play-lh.googleusercontent.com/fQueH1QvZMlH0U_SVdztxbXNjpKes6Mq0iL4VQk5akhYaShaxYDHc_vvUGm7Ic0Qojyof2Gxu5N-kjefJ--J8g",
     "url": "https://play.google.com/store/apps/details?id=com.meow.threekingdoms.gp",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1610,
     "peak_date": "2026-04-23",
     "history": [
@@ -32989,6 +33505,12 @@
         "date": "2026-04-26",
         "installs": 1741,
         "dpd": 435,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 2630,
+        "dpd": 202,
         "score": 0
       }
     ]
@@ -33031,7 +33553,7 @@
     "icon": "https://play-lh.googleusercontent.com/_74NlvLIum7jM3YP1uDl5ksQfd1P_b5f01mqSUwh1M9Nb_OQLNbsS3BFk9d7jhRPww_ylnstwAuJmqw1v3Q6ldU",
     "url": "https://play.google.com/store/apps/details?id=jp.co.dalcomsoft.superstarldh",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1296,
     "peak_date": "2026-04-23",
     "history": [
@@ -33058,6 +33580,12 @@
         "installs": 5750,
         "dpd": 958,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 8379,
+        "dpd": 558,
+        "score": 0
       }
     ]
   },
@@ -33068,9 +33596,9 @@
     "icon": "https://play-lh.googleusercontent.com/MS7mouS4NxYN6lVUAi5bRhF6sh3ptRlRZ1qphz1iTNfCW3PIVaTOHAGH1SfauVpofK04WGrpNdGuxgz6SuZ_dM0",
     "url": "https://play.google.com/store/apps/details?id=com.esprit.rpg.cntrctfft",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1137,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2832,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -33095,6 +33623,12 @@
         "installs": 18207,
         "dpd": 1137,
         "score": 4.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 70813,
+        "dpd": 2832,
+        "score": 4.6
       }
     ]
   },
@@ -33186,7 +33720,7 @@
     "icon": "https://play-lh.googleusercontent.com/8e8q5nnCwWYTXBY7GckaohlL_G894-6RMqMqV0L5xuY4tA-OysP6JxliqytjMe69JuolAsoLHZy0uktHBKEmE2w",
     "url": "https://play.google.com/store/apps/details?id=com.fireludo.twa",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 834,
     "peak_date": "2026-04-24",
     "history": [
@@ -33213,6 +33747,12 @@
         "installs": 10036,
         "dpd": 716,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 10052,
+        "dpd": 437,
+        "score": 0
       }
     ]
   },
@@ -33223,9 +33763,9 @@
     "icon": "https://play-lh.googleusercontent.com/vlEpgz8AGTgXRknN3j5HsMnHc3o540tzn2kZVOarsLRI-RNegSDmLXc9R1MpdAR-hhb5aCws6YU6JdBHCcB6hw",
     "url": "https://play.google.com/store/apps/details?id=wild.card.nomercy.card.bombayplay.games",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 522,
-    "peak_date": "2026-04-24",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 582,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -33250,6 +33790,12 @@
         "installs": 8108,
         "dpd": 506,
         "score": 4.3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 14569,
+        "dpd": 582,
+        "score": 3.9
       }
     ]
   },
@@ -33260,9 +33806,9 @@
     "icon": "https://play-lh.googleusercontent.com/p_6-dwHy0_21IvoAx78SQaEmlzrKlho1LJlp0Ptaugw_VR92YYV43j75SU84YQwPRypQBMWIW86OylFP3MUWEA",
     "url": "https://play.google.com/store/apps/details?id=com.ovilex.racingzone",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 559,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 583,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -33287,6 +33833,12 @@
         "installs": 5599,
         "dpd": 509,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 11666,
+        "dpd": 583,
+        "score": 4.8
       }
     ]
   },
@@ -33365,9 +33917,9 @@
     "icon": "https://play-lh.googleusercontent.com/1vk7MJ5tE-vHW5pdAG3mT6BUk9eLtpJcnoK5vu3_kBqrUNqYjdYbyjlJTA713Vy3cY3kT3ZDfbzqBrHMG7v_OA",
     "url": "https://play.google.com/store/apps/details?id=com.dongbasiki.ninja.assasssin.hero",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 2660,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 3166,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -33391,6 +33943,12 @@
         "date": "2026-04-26",
         "installs": 50551,
         "dpd": 2527,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 91833,
+        "dpd": 3166,
         "score": 0
       }
     ]
@@ -33439,9 +33997,9 @@
     "icon": "https://play-lh.googleusercontent.com/kJS0UV-SyT_LQSpQLXG2cN6stBjlZfFvlrFWfjdX7zV83AMI67u452nJShATgxawglFG-43IaeqlbjaMhVxIeA",
     "url": "https://play.google.com/store/apps/details?id=com.comgames.bouncykey",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1218,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1463,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -33465,6 +34023,12 @@
         "date": "2026-04-26",
         "installs": 15843,
         "dpd": 1218,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 32200,
+        "dpd": 1463,
         "score": 0
       }
     ]
@@ -33581,9 +34145,9 @@
     "icon": "https://play-lh.googleusercontent.com/7i1gUaChSopvbVXg6cyQeLjtVCBZEAZEkbWJkfIMaMacD7gpNXVWbCRbU9_tFo138HzhhgdHms5QIqpuTjpaUw",
     "url": "https://play.google.com/store/apps/details?id=org.whedzzw.ahty",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 402,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 456,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -33607,6 +34171,12 @@
         "date": "2026-04-26",
         "installs": 6433,
         "dpd": 378,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 11858,
+        "dpd": 456,
         "score": 0
       }
     ]
@@ -33637,9 +34207,9 @@
     "icon": "https://play-lh.googleusercontent.com/KCIJj6q5-5cRMIYUjA8BiSVt0ZgBc6Fqx2wKmhYJzMd2gMGDZivtoCOxsUZ00uribQUB-_wcStqNSGdJoDq7KA",
     "url": "https://play.google.com/store/apps/details?id=com.inkwall.cricket.t20league3d",
     "first_seen": "2026-04-23",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 486,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 524,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-23",
@@ -33664,6 +34234,12 @@
         "installs": 6810,
         "dpd": 486,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 12060,
+        "dpd": 524,
+        "score": 0
       }
     ]
   },
@@ -33674,7 +34250,7 @@
     "icon": "https://play-lh.googleusercontent.com/4M3uzTz0y3YQdCUfORWRsrH0vgqRz779q6HgyuRXkrH8KQwl4xHdxwIUJtOcVVAGTFIJL4wA34qmRG1-WUNSww",
     "url": "https://play.google.com/store/apps/details?id=com.gzh.car.driving.drifting.games",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 113143,
     "peak_date": "2026-04-24",
     "history": [
@@ -33695,6 +34271,12 @@
         "installs": 354819,
         "dpd": 70963,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 508775,
+        "dpd": 36341,
+        "score": 0
       }
     ]
   },
@@ -33705,7 +34287,7 @@
     "icon": "https://play-lh.googleusercontent.com/XLLZJxmDCk8PRHQ88UWvN8Wu8HHWngxIiD6jmloaHhSu32jXGGQNEOSv0Iksqm16Xw",
     "url": "https://play.google.com/store/apps/details?id=com.f5.battlezonesaga",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 9238,
     "peak_date": "2026-04-24",
     "history": [
@@ -33726,6 +34308,12 @@
         "installs": 69114,
         "dpd": 7679,
         "score": 4.1
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 93617,
+        "dpd": 5200,
+        "score": 3.6
       }
     ]
   },
@@ -33736,7 +34324,7 @@
     "icon": "https://play-lh.googleusercontent.com/cZgTAx8vjlLrm85eoL2YkYqKu8ZfncVXewuZ61ipnU70R2djEPBB6_3j6csqWm3-294NY-hsDu6uZuU_cGY3nQ",
     "url": "https://play.google.com/store/apps/details?id=com.xyhw.ms.gp",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 7045,
     "peak_date": "2026-04-24",
     "history": [
@@ -33757,6 +34345,12 @@
         "installs": 35787,
         "dpd": 5112,
         "score": 4.7
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 37850,
+        "dpd": 2365,
+        "score": 4.8
       }
     ]
   },
@@ -33767,7 +34361,7 @@
     "icon": "https://play-lh.googleusercontent.com/TOlgPzzbHfnOG0c53MXYaskFzbccq5JJ6ALfV53PND7n7rXTjcJkyvdMkdpV82mkWNzouLH7qifX4Yw6jnui5Q",
     "url": "https://play.google.com/store/apps/details?id=com.badbeans.legendofmarmot",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 3253,
     "peak_date": "2026-04-24",
     "history": [
@@ -33787,6 +34381,12 @@
         "date": "2026-04-26",
         "installs": 3680,
         "dpd": 1226,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 5332,
+        "dpd": 444,
         "score": 0
       }
     ]
@@ -33848,9 +34448,9 @@
     "icon": "https://play-lh.googleusercontent.com/9EJ8OAe8qex90p2eYyyaThvW-vzaOn8ozJZgAF27ez9tjH_ZTv-gluhN9HrniVglYu46rDH4Abb76ounId_fl-E",
     "url": "https://play.google.com/store/apps/details?id=com.ekkorr.ef2.gb",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 834,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1824,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-24",
@@ -33869,6 +34469,12 @@
         "installs": 5008,
         "dpd": 715,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 29184,
+        "dpd": 1824,
+        "score": 1.9
       }
     ]
   },
@@ -33879,9 +34485,9 @@
     "icon": "https://play-lh.googleusercontent.com/L31bDWEeL7yl08AD32Y35RGsFihjI0uuxVGcYgPcHEaGXfccKaV6N_LAjKjmrAQIrC1Z9MBZewSOD2GtTf60",
     "url": "https://play.google.com/store/apps/details?id=com.orb.merge.rush",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 910,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1780,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-24",
@@ -33899,6 +34505,12 @@
         "date": "2026-04-26",
         "installs": 11835,
         "dpd": 845,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 40951,
+        "dpd": 1780,
         "score": 0
       }
     ]
@@ -34003,9 +34615,9 @@
     "icon": "https://play-lh.googleusercontent.com/_4uzGaXZpwG0KZ2ajKn6wHmE2kac9tBwsIEKQKx-SB-sZn84rcKEg179YqrG5JrjE5sRCq8rE_K81BuO4cFBhA",
     "url": "https://play.google.com/store/apps/details?id=com.HiboshiPanda.OmoideNight",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 350,
-    "peak_date": "2026-04-24",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 399,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-24",
@@ -34024,6 +34636,12 @@
         "installs": 6290,
         "dpd": 349,
         "score": 4.2
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 10799,
+        "dpd": 399,
+        "score": 4.3
       }
     ]
   },
@@ -34034,9 +34652,9 @@
     "icon": "https://play-lh.googleusercontent.com/gRfhtsuL8HvgeV58Df5SGCm2t_T7cJF17Hl_0QwDruqyuK0WrfVT_7zwLYvNlamr2YLCI18qA9ivL1fwoDKZdA",
     "url": "https://play.google.com/store/apps/details?id=com.suncitygame.suncity",
     "first_seen": "2026-04-24",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1200,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2150,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-24",
@@ -34055,6 +34673,12 @@
         "installs": 8406,
         "dpd": 1200,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 34406,
+        "dpd": 2150,
+        "score": 4.2
       }
     ]
   },
@@ -34065,7 +34689,7 @@
     "icon": "https://play-lh.googleusercontent.com/pPLG_4rp7ptp_mGmHyx_Sidsa_Rw-fFhBLq52o9RWuR2JR-bnImf1ILXY5d1Zjmn5oo",
     "url": "https://play.google.com/store/apps/details?id=com.ge.police.car.chase.drift.games",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 320159,
     "peak_date": "2026-04-25",
     "history": [
@@ -34080,6 +34704,12 @@
         "installs": 1313324,
         "dpd": 262664,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 1590486,
+        "dpd": 113606,
+        "score": 3.2
       }
     ]
   },
@@ -34090,7 +34720,7 @@
     "icon": "https://play-lh.googleusercontent.com/uN_t-2mzcFsYss2Z7lX3xJvL2VYZp2QtePo0MtyxSsKezVU_FFD0vN7fTIHvzAIDzBw",
     "url": "https://play.google.com/store/apps/details?id=com.omndev.tapgame.kittymatch",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 91279,
     "peak_date": "2026-04-25",
     "history": [
@@ -34105,6 +34735,12 @@
         "installs": 367038,
         "dpd": 73407,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 384138,
+        "dpd": 27438,
+        "score": 0
       }
     ]
   },
@@ -34115,7 +34751,7 @@
     "icon": "https://play-lh.googleusercontent.com/MiBQqQf_--CAIVVCZ5uou1OLLyP0E_XgfM9H_gDulAhdvmADRskUTffURazsavyCR-ixb1xdZ4ZBmdVXMIPyT6s",
     "url": "https://play.google.com/store/apps/details?id=com.dragonest.artifacts.google",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 5014,
     "peak_date": "2026-04-25",
     "history": [
@@ -34130,6 +34766,12 @@
         "installs": 15044,
         "dpd": 3761,
         "score": 1.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 40412,
+        "dpd": 3108,
+        "score": 2.1
       }
     ]
   },
@@ -34140,9 +34782,9 @@
     "icon": "https://play-lh.googleusercontent.com/ShtEAbZzn7gUv2I5GLKPwwXtJhf2SkZpqHjhdIyiMsK0TfXG9gf0mH2JMtD3UVwk01p0",
     "url": "https://play.google.com/store/apps/details?id=com.ztc.bus.driving.game.bus.simulator",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 3260,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 6520,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34155,19 +34797,25 @@
         "installs": 58680,
         "dpd": 3260,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 176042,
+        "dpd": 6520,
+        "score": 0
       }
     ]
   },
   "com.brain.tricky.puzzle.games.test.quest": {
     "id": "com.brain.tricky.puzzle.games.test.quest",
-    "name": "Brain Puzzle Game: Brainy Boxy",
+    "name": "Brain Riddle: Tricky Box",
     "genre": "Puzzle",
     "icon": "https://play-lh.googleusercontent.com/jaoowwLNpYZiC89fL9iw2XxDEEH1CMBDjoacDhX31KaSTItlUyA26GM-Eb1bUW_eSegFkg2SMJY6D0WsdHRPYzE",
     "url": "https://play.google.com/store/apps/details?id=com.brain.tricky.puzzle.games.test.quest",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 2502,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 3175,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34180,6 +34828,12 @@
         "installs": 25020,
         "dpd": 2502,
         "score": 4.9
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 60327,
+        "dpd": 3175,
+        "score": 4.8
       }
     ]
   },
@@ -34240,9 +34894,9 @@
     "icon": "https://play-lh.googleusercontent.com/UV31-jpsaZFl8byXFTERfLeJxd1aAXDtRuT8JMDFbDUzuL7twEq_QjW10Byg7NOX3X9oaCeBgXcPq0n0QmnWNAc",
     "url": "https://play.google.com/store/apps/details?id=com.tranquility.seven.tiles.gp",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1295,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2346,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34255,6 +34909,12 @@
         "installs": 20727,
         "dpd": 1219,
         "score": 4.4
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 61002,
+        "dpd": 2346,
+        "score": 3.1
       }
     ]
   },
@@ -34265,7 +34925,7 @@
     "icon": "https://play-lh.googleusercontent.com/BjXzjlw9kUDgqzClug01mngZRB2v9LVC5Jbk05uZPLKYgXAJbBA4BdnGm-vUWTmwbjatyLbe5UwoVZwsrqTTS2M",
     "url": "https://play.google.com/store/apps/details?id=com.MI.HavenraidEndure",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 2470,
     "peak_date": "2026-04-26",
     "history": [
@@ -34280,6 +34940,12 @@
         "installs": 12350,
         "dpd": 2470,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 12639,
+        "dpd": 902,
+        "score": 0
       }
     ]
   },
@@ -34290,9 +34956,9 @@
     "icon": "https://play-lh.googleusercontent.com/oWCNLZTP1qHBQmNUGKp6u2IVR892xwHn7r9tg5bJTkyHH7safqbEK-CaPxgV6FHmO2GTg1pxLvC0anEI8CT5tw",
     "url": "https://play.google.com/store/apps/details?id=com.RustyLake.ServantOfTheLakeLite",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1153,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1520,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34305,6 +34971,12 @@
         "installs": 6922,
         "dpd": 1153,
         "score": 5.0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 22812,
+        "dpd": 1520,
+        "score": 5.0
       }
     ]
   },
@@ -34315,9 +34987,9 @@
     "icon": "https://play-lh.googleusercontent.com/y8Q5DNYihi5wT-yAcPbBczvZrMlajnuIDNoCv5hxGFNgO4RkjTOWSoD1Unqp_lDebwkcXTYu0iQCWWaaHNv0AA",
     "url": "https://play.google.com/store/apps/details?id=com.gems.adventure.journey",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 671,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2285,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34330,6 +35002,12 @@
         "installs": 12093,
         "dpd": 636,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 63980,
+        "dpd": 2285,
+        "score": 0
       }
     ]
   },
@@ -34340,9 +35018,9 @@
     "icon": "https://play-lh.googleusercontent.com/z1lk5b_8-44kz0ZNdnFwQQQN-NaGt0s8fQyc0NwpfO-1uq8W-ZtW05OToiU7gT4MLRjvTMlgg_MDECcIV5SrAg",
     "url": "https://play.google.com/store/apps/details?id=com.sweetmeow.app",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 585,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1158,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34355,6 +35033,12 @@
         "installs": 11715,
         "dpd": 585,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 33590,
+        "dpd": 1158,
+        "score": 2.6
       }
     ]
   },
@@ -34440,9 +35124,9 @@
     "icon": "https://play-lh.googleusercontent.com/SL0cX1K4-U8Kt811760nukAOR6wzKVTuPbj5IjGtmYPfAihLy0xuC6RXksLNChEd0HAxQOuovymFYdF5azpt4Qk",
     "url": "https://play.google.com/store/apps/details?id=com.petalfoldzzy.edupuzzleqwerty",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 782,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1172,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34454,6 +35138,12 @@
         "date": "2026-04-26",
         "installs": 11730,
         "dpd": 782,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 28129,
+        "dpd": 1172,
         "score": 0
       }
     ]
@@ -34484,9 +35174,9 @@
     "icon": "https://play-lh.googleusercontent.com/9Pmqxdx6WpAqpt5xeLSNq9119M_C__QjDQ39Jw0QIhk_8y9rjjoRtyC417HGine8BTzfO5ng_cOUAkjV7C7J-nQ",
     "url": "https://play.google.com/store/apps/details?id=com.SRRC.dzdsz",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 590,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1108,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34498,6 +35188,12 @@
         "date": "2026-04-26",
         "installs": 11213,
         "dpd": 590,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 31038,
+        "dpd": 1108,
         "score": 0
       }
     ]
@@ -34534,9 +35230,9 @@
     "icon": "https://play-lh.googleusercontent.com/axeCqaizW0Kh-BFuWNgxQj0p3cpOELip-EwrV_wZwMxcZaDc7GDVUtAD_XIPlcg_NRrgEqyWsZdXbGuyviNh",
     "url": "https://play.google.com/store/apps/details?id=com.woson.nbbnso.xnaoe",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 346,
-    "peak_date": "2026-04-25",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 673,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34549,6 +35245,12 @@
         "installs": 6233,
         "dpd": 328,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 18870,
+        "dpd": 673,
+        "score": 0
       }
     ]
   },
@@ -34559,9 +35261,9 @@
     "icon": "https://play-lh.googleusercontent.com/l2HFQ7tSBtOc6QM802IuHxzTwV9Gfg8Z0oxPPoZxhxtqOtetEMM0N-TFqXNUWaaGvUs10EGqSWqpmTBkxLG8MA",
     "url": "https://play.google.com/store/apps/details?id=com.sparkwoods.sort",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 672,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 979,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34574,6 +35276,12 @@
         "installs": 7398,
         "dpd": 672,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 19585,
+        "dpd": 979,
+        "score": 0
       }
     ]
   },
@@ -34584,9 +35292,9 @@
     "icon": "https://play-lh.googleusercontent.com/R2P1XMJtsseF-7T-OYN4rzMfyly1GiZwqJ3DzrWtKKwJGyU8xP3SItSLOfs_YUIUp3HqdYyrnET2t7vNi6AT6A",
     "url": "https://play.google.com/store/apps/details?id=com.lazyastronaut.AngryNeighborStories2",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 349,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 548,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34599,6 +35307,12 @@
         "installs": 6287,
         "dpd": 349,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 14819,
+        "dpd": 548,
+        "score": 0
       }
     ]
   },
@@ -34609,7 +35323,7 @@
     "icon": "https://play-lh.googleusercontent.com/Cwf-10itk_sD410XUhpTeJGi9eL8j1anEnHqIewODrB-4E5yyrotUFEpusslDBMbiG72oXxE87cySwBV3uAYYw",
     "url": "https://play.google.com/store/apps/details?id=com.novayongmu.rus",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 934,
     "peak_date": "2026-05-04",
     "history": [
@@ -34630,6 +35344,12 @@
         "installs": 16819,
         "dpd": 934,
         "score": 4.8
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 16819,
+        "dpd": 885,
+        "score": 4.9
       }
     ]
   },
@@ -34640,9 +35360,9 @@
     "icon": "https://play-lh.googleusercontent.com/w9ZS5q8k1kKae_Gz6bT1nD7wYX8x_bxSzW9nKopwClplrFO7_egOPiAQKhdEa3lsDlk2Lo5THFMiAxfS9A2p_nc",
     "url": "https://play.google.com/store/apps/details?id=com.block.box.strange",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 350,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 353,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-25",
@@ -34655,6 +35375,12 @@
         "installs": 7014,
         "dpd": 350,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 10256,
+        "dpd": 353,
+        "score": 0
       }
     ]
   },
@@ -34665,7 +35391,7 @@
     "icon": "https://play-lh.googleusercontent.com/6IUZCSyzk27Frug762ol5KTN2cE03oW-fj_ZkqR3kHjHOgm-lvYJI1kqOuTURA5cc1RBanlsLs3wW94FTMuldA",
     "url": "https://play.google.com/store/apps/details?id=com.happygogame.ASMRMakeupBeautySalon",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 251354,
     "peak_date": "2026-04-26",
     "history": [
@@ -34680,6 +35406,12 @@
         "installs": 883419,
         "dpd": 80310,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 914654,
+        "dpd": 76221,
+        "score": 0
       }
     ]
   },
@@ -34690,9 +35422,9 @@
     "icon": "https://play-lh.googleusercontent.com/4VG72Y8jbmaylwbF95A2dgaCU7Pl2wIL8TNq5tiUcoF1prMlzazw7bcZPDG8hjMpohmmYljYcup6SjIQ4urZag",
     "url": "https://play.google.com/store/apps/details?id=com.whoyaho.pendeco",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-05-04",
-    "peak_dpd": 21711,
-    "peak_date": "2026-05-04",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 23403,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
@@ -34705,6 +35437,12 @@
         "installs": 260540,
         "dpd": 21711,
         "score": 4.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 304247,
+        "dpd": 23403,
+        "score": 4.5
       }
     ]
   },
@@ -34715,15 +35453,21 @@
     "icon": "https://play-lh.googleusercontent.com/xi5pFhGRv7KiJ3dxDTodCxhXyQO8b1DCv2MZ1MW-KF0xonvaPVIUp0E9BZWMnA8b3x4KojpxPGFoohSUZD2zGg",
     "url": "https://play.google.com/store/apps/details?id=com.sofish.soeasymahjong.gp",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 2350,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 12554,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 21157,
         "dpd": 2350,
         "score": 5.0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 225984,
+        "dpd": 12554,
+        "score": 4.9
       }
     ]
   },
@@ -34734,7 +35478,7 @@
     "icon": "https://play-lh.googleusercontent.com/2XnElBsgxWY-96x0GG54luK708l664ttER6faeL-1gHh14Ik7c5ILCvP8HOqxsgDM4fYyqbyqCnlPnpeeMTz1g",
     "url": "https://play.google.com/store/apps/details?id=com.tg.fallenland",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1697,
     "peak_date": "2026-04-26",
     "history": [
@@ -34743,6 +35487,12 @@
         "installs": 5092,
         "dpd": 1697,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 10129,
+        "dpd": 844,
+        "score": 1.9
       }
     ]
   },
@@ -34753,15 +35503,21 @@
     "icon": "https://play-lh.googleusercontent.com/HvcBHIYHg9pvuSYdcD1Qm8usTbwPx_0tQzYudqCmVMTR8FUEdUMi0HzFmDO3cxfP2TNtPXtBDngtVXSb--QeQXI",
     "url": "https://play.google.com/store/apps/details?id=com.easybrain.water.sorting.game",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 1108,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 4602,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 6648,
         "dpd": 1108,
         "score": 4.3
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 69032,
+        "dpd": 4602,
+        "score": 4.4
       }
     ]
   },
@@ -34791,14 +35547,20 @@
     "icon": "https://play-lh.googleusercontent.com/B1T1PzcXkKzcyzgvNq97TYifYNvoLo4Feyk3eMB7avj8RA_HG-WZo-gnpur9nZrQekwjoeea-5t642ywTdtESW8",
     "url": "https://play.google.com/store/apps/details?id=com.vurrion.oneblockcraft.adventure",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 844,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1099,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 16039,
         "dpd": 844,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 30772,
+        "dpd": 1099,
         "score": 0
       }
     ]
@@ -34829,15 +35591,21 @@
     "icon": "https://play-lh.googleusercontent.com/g7f7geytdDj6mjHmkQ9CqUkKBy2Fahk6hwcTpw3SY4zs850R6kq058-wibjGgdXt_MBXQXEt2Dh_-H7lzUl7",
     "url": "https://play.google.com/store/apps/details?id=com.gogomahjongtt.majiangkk.com",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 743,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1327,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 12647,
         "dpd": 743,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 34512,
+        "dpd": 1327,
+        "score": 3.4
       }
     ]
   },
@@ -34848,14 +35616,20 @@
     "icon": "https://play-lh.googleusercontent.com/gRstHxm98iiRtdWUAqTLAVlaEP20nRUe717mj5xa7sn5U7XlDDgffsWYy2HtVIIgivb1Uz_ZH5Xn7invaXbXzgw",
     "url": "https://play.google.com/store/apps/details?id=com.nivalogic.canjam",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 684,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2840,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 11641,
         "dpd": 684,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 73863,
+        "dpd": 2840,
         "score": 0
       }
     ]
@@ -34886,9 +35660,9 @@
     "icon": "https://play-lh.googleusercontent.com/Y8SLjAdXCg_IRVcf8HJYxEKXfHtVRlx5bH5Cr8sgf3IApRr-x_ddIBl2ADp1mcgCMadcN5g9Gj01zvzxaewQ-Q",
     "url": "https://play.google.com/store/apps/details?id=com.daerigame.girladriftrm",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-05-04",
-    "peak_dpd": 1398,
-    "peak_date": "2026-05-04",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1725,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
@@ -34900,6 +35674,12 @@
         "date": "2026-05-04",
         "installs": 23772,
         "dpd": 1398,
+        "score": 4.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 31050,
+        "dpd": 1725,
         "score": 4.5
       }
     ]
@@ -34968,14 +35748,20 @@
     "icon": "https://play-lh.googleusercontent.com/v-7JaMleoi4PznPoNyeX2mWBPlUyW7Io87TUeJD5OSMs2ZoilMucWy2BLdYi0x8tZ_xbZvMqWhJvHEbCmX7w6g",
     "url": "https://play.google.com/store/apps/details?id=com.hw1thb.googlelb",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 465,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1041,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 6976,
         "dpd": 465,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 25005,
+        "dpd": 1041,
         "score": 0
       }
     ]
@@ -35044,15 +35830,21 @@
     "icon": "https://play-lh.googleusercontent.com/aPqWflsACiWNRpA1mimGYj5vFtZ3OpSAKBCmF1zR1vTz4Gp1eoHHAhgrFZZUhB4Mw84Mg-SfjTibVDKSpuyN",
     "url": "https://play.google.com/store/apps/details?id=com.Just2D.DrovaMobile",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 392,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 767,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 6287,
         "dpd": 392,
         "score": 3.5
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 19190,
+        "dpd": 767,
+        "score": 3.4
       }
     ]
   },
@@ -35063,15 +35855,21 @@
     "icon": "https://play-lh.googleusercontent.com/X1mb0TlN3sxZoj4EK0PBVHBSziIybtMug1QRQzSVmrDez8D6xKu3xM9MmkLwjLfL3CGkweSqAOXErgrYolMLKw",
     "url": "https://play.google.com/store/apps/details?id=com.camelgames.xcity",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
-    "peak_dpd": 348,
-    "peak_date": "2026-04-26",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 613,
+    "peak_date": "2026-05-05",
     "history": [
       {
         "date": "2026-04-26",
         "installs": 2791,
         "dpd": 348,
         "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 10436,
+        "dpd": 613,
+        "score": 4
       }
     ]
   },
@@ -35101,7 +35899,7 @@
     "icon": "https://play-lh.googleusercontent.com/U0M-yhx-4L7cEelk0jtmALqMi35lY85x0ik9JU5oANe7luCPwHGp22OPb6EomCU0evo34IyFHNJj8nqXqSuQ",
     "url": "https://play.google.com/store/apps/details?id=com.egp.heavytrucksimulator.transportertruckgames",
     "first_seen": "2026-04-26",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-05",
     "peak_dpd": 7225,
     "peak_date": "2026-04-26",
     "history": [
@@ -35109,6 +35907,12 @@
         "date": "2026-04-26",
         "installs": 21676,
         "dpd": 7225,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 78383,
+        "dpd": 6531,
         "score": 0
       }
     ]
@@ -35120,7 +35924,7 @@
     "icon": "https://play-lh.googleusercontent.com/-8vdUqtd9l0Y-fk-XCy7p5h6Lqs7RI78zUKj439ahgjhPGOWkEugSbmgL_hUgm1bnDrJflCetwtsJmVZObIJ7A",
     "url": "https://play.google.com/store/apps/details?id=com.ccs.tractor_farming_driver_simulator_game.Indian_Farming_Game_3D",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 59352,
     "peak_date": "2026-05-04",
     "history": [
@@ -35128,6 +35932,12 @@
         "date": "2026-05-04",
         "installs": 415469,
         "dpd": 59352,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 415469,
+        "dpd": 51933,
         "score": 0
       }
     ]
@@ -35139,7 +35949,7 @@
     "icon": "https://play-lh.googleusercontent.com/Jpb1AzjOmdlVq7AASOqK-JLywtM2Tgi824qWSI4QVjDATnmU9tajp_-M4oJgUmVqiXQ",
     "url": "https://play.google.com/store/apps/details?id=com.gb.football.soccer.league3d.game",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 3225,
     "peak_date": "2026-05-04",
     "history": [
@@ -35147,6 +35957,12 @@
         "date": "2026-05-04",
         "installs": 61279,
         "dpd": 3225,
+        "score": 3.7
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 61279,
+        "dpd": 3063,
         "score": 3.7
       }
     ]
@@ -35158,7 +35974,7 @@
     "icon": "https://play-lh.googleusercontent.com/nIzCMZ5oxypZ1AqlDc1oCA5npomfX1qBeM5rhht3P0R9-pnITstjTaa_eqFmmYKqUsJqHqiHcRjS4kNlrnfwzg",
     "url": "https://play.google.com/store/apps/details?id=com.casual.goldplus",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "last_seen": "2026-05-05",
     "peak_dpd": 1743,
     "peak_date": "2026-05-04",
     "history": [
@@ -35166,6 +35982,1684 @@
         "date": "2026-05-04",
         "installs": 33127,
         "dpd": 1743,
+        "score": 0
+      },
+      {
+        "date": "2026-05-05",
+        "installs": 33127,
+        "dpd": 1656,
+        "score": 0
+      }
+    ]
+  },
+  "com.indusgame.play": {
+    "id": "com.indusgame.play",
+    "name": "Prime Rush",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/5GZdAI6Ke7o64k_xjnzIYbCiVUsY-09TcnVc5tgnNab5vjCyuAWscWxxzGK_laJTy4OnZ8Lq4vdKFOW-kRHG1w",
+    "url": "https://play.google.com/store/apps/details?id=com.indusgame.play",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1500987,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 7504938,
+        "dpd": 1500987,
+        "score": 3.1
+      }
+    ]
+  },
+  "com.hottagames.nte": {
+    "id": "com.hottagames.nte",
+    "name": "NTE: Neverness to Everness",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/TGl3DdDbi4hty6ooOhEvv_2s5tkpGLbL6derP8y5hK-_Bw--Ve375b08ba9HHQ9ueRpoQ9oye1T_T24BJriLUmw",
+    "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 359707,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 3956785,
+        "dpd": 359707,
+        "score": 4.0
+      }
+    ]
+  },
+  "isaac.valter.termo": {
+    "id": "isaac.valter.termo",
+    "name": "Termo Jogo de Palavras",
+    "genre": "Word",
+    "icon": "https://play-lh.googleusercontent.com/HMqznNZmnuR2wmipfZUaPcqrZnkWT9xOoV7QepkuMM5F7NiMviYzqmC-IWlzwFbUew",
+    "url": "https://play.google.com/store/apps/details?id=isaac.valter.termo",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 192171,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 1537370,
+        "dpd": 192171,
+        "score": 0
+      }
+    ]
+  },
+  "com.flower.forest.word.puzzle": {
+    "id": "com.flower.forest.word.puzzle",
+    "name": "Flower Forest - Word Puzzle",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc",
+    "url": "https://play.google.com/store/apps/details?id=com.flower.forest.word.puzzle",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 161739,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 323479,
+        "dpd": 161739,
+        "score": 3
+      }
+    ]
+  },
+  "com.tfv.line.drawing.games.allinone": {
+    "id": "com.tfv.line.drawing.games.allinone",
+    "name": "Line Drawing Puzzle-Mini Games",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/tgzmxpqw9EFV3p4l6AS4IldTvt2SnpMZ9ZBEAn9y0rnfcL2ZnuKpOBXggL2Qo5peJ3_ARBM5D3yeDp_d46ZFDQ",
+    "url": "https://play.google.com/store/apps/details?id=com.tfv.line.drawing.games.allinone",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 99743,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 498715,
+        "dpd": 99743,
+        "score": 0
+      }
+    ]
+  },
+  "com.ptg.bridal.dressup.wedding.makeup.games": {
+    "id": "com.ptg.bridal.dressup.wedding.makeup.games",
+    "name": "Bridal Dress up Wedding Makeup",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/oM4XgCvaZLsgaSa8pVV5roCJ_gDRF0L7Y7KYYskfQ922TAcE1E5lNqLASx0X_D7QnKu1",
+    "url": "https://play.google.com/store/apps/details?id=com.ptg.bridal.dressup.wedding.makeup.games",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 94391,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 849519,
+        "dpd": 94391,
+        "score": 0
+      }
+    ]
+  },
+  "it.panini.fifacollection": {
+    "id": "it.panini.fifacollection",
+    "name": "FIFA Panini Collection",
+    "genre": "Sports",
+    "icon": "https://play-lh.googleusercontent.com/akRT1j7dYsrZLVxP5Gn4Xem7noULwmdy7AM7uEtuvjHdGe67UWYB8EAu4Honsh_c8vuveDa4kIjJtQ_PuQgYsw",
+    "url": "https://play.google.com/store/apps/details?id=it.panini.fifacollection",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 76129,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 1370335,
+        "dpd": 76129,
+        "score": 4.4
+      }
+    ]
+  },
+  "com.pgs.tractor.farming.driving.simulator.game": {
+    "id": "com.pgs.tractor.farming.driving.simulator.game",
+    "name": "Real Indian Tractor Farming 3D",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/98NzaUgMXK091azNlqjKjK4H_QiEG9ghfVEmFvnHMIJykzSQbjV_UOStV7EnuO58FkZZ5C4615cYCGk96loEkOQ",
+    "url": "https://play.google.com/store/apps/details?id=com.pgs.tractor.farming.driving.simulator.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 41617,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 249707,
+        "dpd": 41617,
+        "score": 0
+      }
+    ]
+  },
+  "com.streetpro.real3d.cardriving": {
+    "id": "com.streetpro.real3d.cardriving",
+    "name": "Car Driving City: StreetPro",
+    "genre": "Racing",
+    "icon": "https://play-lh.googleusercontent.com/ggNsVpC1Rz-uqKL3Krm_jEWWYxSqMwjdvzYQK3o3wj81h4taaC6_FBIRLh910YXTVRNnP2r1kn7cyfisef0jBw",
+    "url": "https://play.google.com/store/apps/details?id=com.streetpro.real3d.cardriving",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 29665,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 415323,
+        "dpd": 29665,
+        "score": 0
+      }
+    ]
+  },
+  "com.dt.city.coach.bus.driving.simulator.bus.driving.game": {
+    "id": "com.dt.city.coach.bus.driving.simulator.bus.driving.game",
+    "name": "Ultimate Bus Driving 3d Game",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/qq7_zsdFEvyB-dfbGXrd9HLub3EkUZJ4VTrMbl5cTO7AFB_QumRMoh5vi_QuYbmgmfL1c9veg5yNcOV8f8hKsnM",
+    "url": "https://play.google.com/store/apps/details?id=com.dt.city.coach.bus.driving.simulator.bus.driving.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 28608,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 257478,
+        "dpd": 28608,
+        "score": 0
+      }
+    ]
+  },
+  "com.ogs.miami.gangster.game.mafia.crime.city.openworldgames": {
+    "id": "com.ogs.miami.gangster.game.mafia.crime.city.openworldgames",
+    "name": "Gangster Mafia Crime City 3D",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/i5Jq2J90T3BlAfH36EFoQLC01pqEYYUMIfCHEbdNhaF-uuSH4hS2_CqXH-7Ta7vv9a0",
+    "url": "https://play.google.com/store/apps/details?id=com.ogs.miami.gangster.game.mafia.crime.city.openworldgames",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 24055,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 216500,
+        "dpd": 24055,
+        "score": 0
+      }
+    ]
+  },
+  "com.linegames.gmg": {
+    "id": "com.linegames.gmg",
+    "name": "Genesis War",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/P2JiAUfRk54cTbJoWf5v_Gk9U0ttcnNHf_y9TNGeo_z8PbsI3q5UhdFZJPfkQ3kBoZy01_8ZNo9A-lP48FuD0mY",
+    "url": "https://play.google.com/store/apps/details?id=com.linegames.gmg",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 24013,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 264151,
+        "dpd": 24013,
+        "score": 3
+      }
+    ]
+  },
+  "com.haegin.lasthunterk": {
+    "id": "com.haegin.lasthunterk",
+    "name": "Last Hunter K: Seoul",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/dVfWi62o5tyVEuuAMlABqR2djMlUuAO7JQGwe89mstsLsHgqwJJaiVVwrnLu0Eper_ohdeoYBtsMIqXzM8xP5A",
+    "url": "https://play.google.com/store/apps/details?id=com.haegin.lasthunterk",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 23454,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 187635,
+        "dpd": 23454,
+        "score": 3.6
+      }
+    ]
+  },
+  "com.yzlmkr.google": {
+    "id": "com.yzlmkr.google",
+    "name": "우와 모험단",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/b2k3Ake-SLynjnA4T7f5IzdqKUVVMDcPlpbw3tmsfTHBApbUuxvDypQv3xBwhPSr2OM",
+    "url": "https://play.google.com/store/apps/details?id=com.yzlmkr.google",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 22535,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 202822,
+        "dpd": 22535,
+        "score": 0
+      }
+    ]
+  },
+  "com.ntrance.dkr.and": {
+    "id": "com.ntrance.dkr.and",
+    "name": "DK모바일 리본",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/MtKGnLTsV4ruVpYZAu9B_Es6zcqPAZKpDqu_HedIC22FFFgR30V-f9akB947CH132w",
+    "url": "https://play.google.com/store/apps/details?id=com.ntrance.dkr.and",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 18452,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 129165,
+        "dpd": 18452,
+        "score": 0
+      }
+    ]
+  },
+  "com.wsts.bridal.dressup.wedding.stylist.makeupgamesforgirls": {
+    "id": "com.wsts.bridal.dressup.wedding.stylist.makeupgamesforgirls",
+    "name": "Bridal Makeup Wedding Dress up",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/O0ZAiyRdN5PAjKJ8P3dHQYvBxjj3iGpXeMfxX9psA5_6KB4G1-okxfj5SasPwX1FNLW_",
+    "url": "https://play.google.com/store/apps/details?id=com.wsts.bridal.dressup.wedding.stylist.makeupgamesforgirls",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 17694,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 106167,
+        "dpd": 17694,
+        "score": 0
+      }
+    ]
+  },
+  "com.moonlabs.arrowtorich": {
+    "id": "com.moonlabs.arrowtorich",
+    "name": "Arrow To Rich",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/iHXJ457oa5wEJiUHQBX0msaW9bfq4es1epq-FWRsXKHsl86XMtKURoJphNlS8mIV84zDY39uED07bVgX4oCf2A",
+    "url": "https://play.google.com/store/apps/details?id=com.moonlabs.arrowtorich",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 16205,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 113435,
+        "dpd": 16205,
+        "score": 0
+      }
+    ]
+  },
+  "com.cp.euro.bus.driving.simulator.games": {
+    "id": "com.cp.euro.bus.driving.simulator.games",
+    "name": "Real Bus Driver Game 3d",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/4TEkgQd8_m52HWrsclD4ZXgWIZf2SHy0P_4l7exo5L5PhjsgHZT5VlXN9613bORW7GEB0N_q6UDYMcCyl2-l",
+    "url": "https://play.google.com/store/apps/details?id=com.cp.euro.bus.driving.simulator.games",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 12838,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 154061,
+        "dpd": 12838,
+        "score": 0
+      }
+    ]
+  },
+  "com.studiosinfinity.gef": {
+    "id": "com.studiosinfinity.gef",
+    "name": "Grau e Fuga: Online",
+    "genre": "Racing",
+    "icon": "https://play-lh.googleusercontent.com/O-RQ5NgeNVbG2FLzAe8hIwERt_45jAc30lUYsHt5nSnuJnXFEY6swD2itYCWphs-Au5ZlPq0upeyTY7oEmKn",
+    "url": "https://play.google.com/store/apps/details?id=com.studiosinfinity.gef",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 12730,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 101842,
+        "dpd": 12730,
+        "score": 0
+      }
+    ]
+  },
+  "com.eb.railway.construction.game": {
+    "id": "com.eb.railway.construction.game",
+    "name": "Heavy Construction JCB Sim 3D",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/xVtN-snqrk07lEQfZZMMOJgpc9H92aeeHVVcLAZH4Mv1pe66_e8Taa2-HX2CWKKj5gM",
+    "url": "https://play.google.com/store/apps/details?id=com.eb.railway.construction.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 11114,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 200061,
+        "dpd": 11114,
+        "score": 0
+      }
+    ]
+  },
+  "com.gear2.letsgolegends": {
+    "id": "com.gear2.letsgolegends",
+    "name": "Let's Go Legends!",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/X1vx6vKvVj-KxOodTx-gCS5SSpUdekh2BcGhUajo0B7z7ly0VAgcOoAEbqzEs3HhlgijmMChM7pUkKZOvLHWYA",
+    "url": "https://play.google.com/store/apps/details?id=com.gear2.letsgolegends",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 11073,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 77514,
+        "dpd": 11073,
+        "score": 0
+      }
+    ]
+  },
+  "dress.up.fashion.makeup.style.makeover.girl.rebel.queen": {
+    "id": "dress.up.fashion.makeup.style.makeover.girl.rebel.queen",
+    "name": "Rebel Queen: Dress Up Games",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/GRC7LBjTcSoM4bk3OEVfYKDiON9P_GcrrnO6TWg36zdrIGCRP4w2De9YXmenu2RoE-jUW4nbzM4vN7wntz5b",
+    "url": "https://play.google.com/store/apps/details?id=dress.up.fashion.makeup.style.makeover.girl.rebel.queen",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 10906,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 130872,
+        "dpd": 10906,
+        "score": 4.7
+      }
+    ]
+  },
+  "puzzle.color.beads.drop": {
+    "id": "puzzle.color.beads.drop",
+    "name": "Color Beads Drop",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/Xy090xM25Or1zi3xtItVKpjlobWHbYJ8-n3TcYuqMlOd5bvkhPnb2ohhE_wqgqLpkW1E4wfH-qxr048laoOy6s8",
+    "url": "https://play.google.com/store/apps/details?id=puzzle.color.beads.drop",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 8394,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 92339,
+        "dpd": 8394,
+        "score": 2.6
+      }
+    ]
+  },
+  "com.fmglobal.engg": {
+    "id": "com.fmglobal.engg",
+    "name": "Eternal Rebirth:Oversouler",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/jFjAFQzRh_-SHvly5zXTy2uFi9riOvmwxdCRIXC_5p-vzW2usViJthxdDIuT7c86SEBI",
+    "url": "https://play.google.com/store/apps/details?id=com.fmglobal.engg",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 6695,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 127221,
+        "dpd": 6695,
+        "score": 2.6
+      }
+    ]
+  },
+  "com.sc.football.soccer.games.offline": {
+    "id": "com.sc.football.soccer.games.offline",
+    "name": "Super Football Soccer Games",
+    "genre": "Sports",
+    "icon": "https://play-lh.googleusercontent.com/371a5FWapOk4wONvXaXV7eD_wcMrnP6TTXMXfUE9lkm3m0XLzxQToL9RYvlTnPD1L-aqamcnrPn70Im_KSlO",
+    "url": "https://play.google.com/store/apps/details?id=com.sc.football.soccer.games.offline",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 6297,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 94462,
+        "dpd": 6297,
+        "score": 0
+      }
+    ]
+  },
+  "com.hgh.bus.simulator2026.games": {
+    "id": "com.hgh.bus.simulator2026.games",
+    "name": "Euro Bus Driving 2026 Bus Game",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/BYGs8NhWvzZ0QGA2adxuKlhCIQVwmPMqDFBcqG51TLgsZ3xlSB4rZRmHekTq_DPjIU5CggNJYIUUhLdXlTYa",
+    "url": "https://play.google.com/store/apps/details?id=com.hgh.bus.simulator2026.games",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 5786,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 115733,
+        "dpd": 5786,
+        "score": 0
+      }
+    ]
+  },
+  "com.gt.crazy.taxi.prank.taxi.driving.game": {
+    "id": "com.gt.crazy.taxi.prank.taxi.driving.game",
+    "name": "City Car Driving Drift Racing",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/d5XrOwT8OXFNYrm0_yL-4SH4fNAb2nUJN-Hkgjp3fnCy_sGFLBsn2IscG4C12TQYnFjTBYQCsDTB8Gy-_bGgE6U",
+    "url": "https://play.google.com/store/apps/details?id=com.gt.crazy.taxi.prank.taxi.driving.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 5577,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 89243,
+        "dpd": 5577,
+        "score": 0
+      }
+    ]
+  },
+  "com.gspell.real.car.simulator.city.driver": {
+    "id": "com.gspell.real.car.simulator.city.driver",
+    "name": "Real Car Simulator City Driver",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/s8yiJMtsOnWnEkVuD7CLbxOwCwhCgFsQAdu9yzibLKdTN3bu_iaLySdPidMnbHbec_Je",
+    "url": "https://play.google.com/store/apps/details?id=com.gspell.real.car.simulator.city.driver",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 5027,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 35193,
+        "dpd": 5027,
+        "score": 0
+      }
+    ]
+  },
+  "com.f5game.ag": {
+    "id": "com.f5game.ag",
+    "name": "Alchemy Guardians",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/bj3Frc3GMckxjqRmWYQcLLdamKCl95a8SOYbkotBXJiQQGEXdM_aJOSCvtpEDYJHpwl-VJhwMAUYaZrZHcTF1A",
+    "url": "https://play.google.com/store/apps/details?id=com.f5game.ag",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 4479,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 80631,
+        "dpd": 4479,
+        "score": 3.7
+      }
+    ]
+  },
+  "com.skincare.makeup.makeover.asmr.game": {
+    "id": "com.skincare.makeup.makeover.asmr.game",
+    "name": "Skincare ASMR: Makeover Game",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/cPiZyL3M6d7J5ywBAYcVKvXNh4gMNpFldhgrkzGSP9QVa609yG-huSIUVWd8UHg9N5tQ_5WnJElXxWEITdzzlg",
+    "url": "https://play.google.com/store/apps/details?id=com.skincare.makeup.makeover.asmr.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 3984,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 103588,
+        "dpd": 3984,
+        "score": 3
+      }
+    ]
+  },
+  "com.fusionmind.schoolboyvsgranny": {
+    "id": "com.fusionmind.schoolboyvsgranny",
+    "name": "Schoolboy Chaos Escape",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/h77PUqi-ZnIeNPX6IEkSvZV6BTSuhP0rw6Xa0QRSZ8iUvZwADAwfq43Mx_S9RJodUR-4dv5qlAaMXQX9Vhl9",
+    "url": "https://play.google.com/store/apps/details?id=com.fusionmind.schoolboyvsgranny",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 3812,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 45746,
+        "dpd": 3812,
+        "score": 0
+      }
+    ]
+  },
+  "com.vc.wild.animal.sniper.hunting.game": {
+    "id": "com.vc.wild.animal.sniper.hunting.game",
+    "name": "Wild Animal Sniper Shooting 3D",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/lBPB0n6Cz2a1Srz8oMyngcRV27a8HHvzErtJESyFqVLzSO16wzs6I6H7XmNTLH-VExCZ",
+    "url": "https://play.google.com/store/apps/details?id=com.vc.wild.animal.sniper.hunting.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 3459,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 51886,
+        "dpd": 3459,
+        "score": 0
+      }
+    ]
+  },
+  "com.valofe.chaosm": {
+    "id": "com.valofe.chaosm",
+    "name": "CHAOS WORLD",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/HOXc_9V7CpyJ-THrNTCfze25_iDrVSUa5vN17aWIVnGc-3ad5iRYcgC2afzuY0BQ1zkSU8kRcXYmgU7V7leG_K8",
+    "url": "https://play.google.com/store/apps/details?id=com.valofe.chaosm",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2969,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 44535,
+        "dpd": 2969,
+        "score": 4.4
+      }
+    ]
+  },
+  "hidden.objects.spot.find.it.real.picture.out.seek.puzzle.games.free": {
+    "id": "hidden.objects.spot.find.it.real.picture.out.seek.puzzle.games.free",
+    "name": "Hidden Quest:Seek & Spot Pro",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/YuujnAdMBah9dJXEQs-k9U6UU7eBg3F_xmmMTKOigqKThk8fczlONmgJVwv0BfRVQvb8TdcE08PKcmsArlLmQA",
+    "url": "https://play.google.com/store/apps/details?id=hidden.objects.spot.find.it.real.picture.out.seek.puzzle.games.free",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2545,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 45826,
+        "dpd": 2545,
+        "score": 4.8
+      }
+    ]
+  },
+  "com.cortexstudio.animalescape": {
+    "id": "com.cortexstudio.animalescape",
+    "name": "Animal Escape: Tower Defense",
+    "genre": "Card",
+    "icon": "https://play-lh.googleusercontent.com/OGzFhCtrM3FiB94J1d8O4BXMMBH1PIUE9o6i0Dl9wysMPjeUZ5Y3SASGGc6MkrFjCJ1JLQkupvvIFTH0f5pv-EQ",
+    "url": "https://play.google.com/store/apps/details?id=com.cortexstudio.animalescape",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2420,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 4841,
+        "dpd": 2420,
+        "score": 0
+      }
+    ]
+  },
+  "com.thd.pureblossom": {
+    "id": "com.thd.pureblossom",
+    "name": "PureBlossom",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/rzW51Ax46jYWU4IiblXNr_RwU4IOBYK0GL_W_nX-darHzFXknLfoVFanMytu26otPawWotwT_3KaE6V5eHMmRQ",
+    "url": "https://play.google.com/store/apps/details?id=com.thd.pureblossom",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 2245,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 42668,
+        "dpd": 2245,
+        "score": 0
+      }
+    ]
+  },
+  "com.bb.football.soccer.league": {
+    "id": "com.bb.football.soccer.league",
+    "name": "Football 2026-Soccer League",
+    "genre": "Sports",
+    "icon": "https://play-lh.googleusercontent.com/oxefwSrgNJsZO2jgbFyNaHzNvnbPNHFXmcWnchhC8J_7kgB18CFaDf-1yQVyYxWgPyY",
+    "url": "https://play.google.com/store/apps/details?id=com.bb.football.soccer.league",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1540,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 21569,
+        "dpd": 1540,
+        "score": 0
+      }
+    ]
+  },
+  "com.gs.rooftop.parkour.game.going.up": {
+    "id": "com.gs.rooftop.parkour.game.going.up",
+    "name": "Only Up Sky Rooftop Parkour 3D",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/siXZv7QyiFaD7b8UXn2ReJEnvSl7mRxyile6b9xOJeKtweOBpAFEz5mPHT3SaVK2thktXrZD5pWcoQ76oKrbqIs",
+    "url": "https://play.google.com/store/apps/details?id=com.gs.rooftop.parkour.game.going.up",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1483,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 11869,
+        "dpd": 1483,
+        "score": 0
+      }
+    ]
+  },
+  "com.formula.racing.league.road": {
+    "id": "com.formula.racing.league.road",
+    "name": "Speed Racing League",
+    "genre": "Sports",
+    "icon": "https://play-lh.googleusercontent.com/QBa91uCUfnTCkONr-onO2C4sa4I4ynF4Q67kHy4arPaKPT1Gcr-OtmytpGlc_1RxaNtGlqkiplFVX_yqbKFRtg",
+    "url": "https://play.google.com/store/apps/details?id=com.formula.racing.league.road",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1475,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 16226,
+        "dpd": 1475,
+        "score": 0
+      }
+    ]
+  },
+  "com.tlgs.offroad.suv.driving.simulator": {
+    "id": "com.tlgs.offroad.suv.driving.simulator",
+    "name": "4x4 Jeep Offroad Adventure 3d",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/Z1_IFYCggsrZYzi4qSCNDDT8o70Y4CBNft4LtfJMp3YrzSptgnQVXBmtuvetEqhET0FM4ZsJoQFHTtEjMvIIXA",
+    "url": "https://play.google.com/store/apps/details?id=com.tlgs.offroad.suv.driving.simulator",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1353,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 24367,
+        "dpd": 1353,
+        "score": 0
+      }
+    ]
+  },
+  "com.glamjw.puzzle": {
+    "id": "com.glamjw.puzzle",
+    "name": "Glam Jigsaw",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/nSu5r496lCqda3CggyqHIy1t5mTYqRVmnuQfV2EsfYkRRtFgbwjlyYU3NVe8zCIhUtfUBG_h4RAV2d7Qo2XgHw8",
+    "url": "https://play.google.com/store/apps/details?id=com.glamjw.puzzle",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1308,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 18315,
+        "dpd": 1308,
+        "score": 3.6
+      }
+    ]
+  },
+  "com.honeyva.tapfactory.beefactory": {
+    "id": "com.honeyva.tapfactory.beefactory",
+    "name": "Cash Jar - Win Real Money Easy",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/izKGOALbKh93lJ3roSQDD7gcxQT9b6z4zyg2mbbg9_cdLn2c10yqO9alSuLfX6J4QdgNv58MCdt4-x2gAX-z5fo",
+    "url": "https://play.google.com/store/apps/details?id=com.honeyva.tapfactory.beefactory",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1292,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 32316,
+        "dpd": 1292,
+        "score": 4.8
+      }
+    ]
+  },
+  "com.zivcmiake6153.smojwepr": {
+    "id": "com.zivcmiake6153.smojwepr",
+    "name": "Smooth Jewel Pearl",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/N0jFHAHj3soZQm-mVcQtPc4Imjz4yo8FyXjqti25Z17KAgMl8_R4eOKN3r7Ygqj_u9U-Fcf9RKjcd6PCSC9s",
+    "url": "https://play.google.com/store/apps/details?id=com.zivcmiake6153.smojwepr",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1188,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 24956,
+        "dpd": 1188,
+        "score": 0
+      }
+    ]
+  },
+  "com.psaindcjasnd.Aurorawhisper": {
+    "id": "com.psaindcjasnd.Aurorawhisper",
+    "name": "Aurorawhisper",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/4j17MBbx67vNWxxDKl94FDoomSMPx4MMVG8dJs1MJLEGxzfT_VWw1LjNtQPF7nYewjzOKPqGClwRSMWjEJU4",
+    "url": "https://play.google.com/store/apps/details?id=com.psaindcjasnd.Aurorawhisper",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1154,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 21929,
+        "dpd": 1154,
+        "score": 0
+      }
+    ]
+  },
+  "com.spnioie.ephebe": {
+    "id": "com.spnioie.ephebe",
+    "name": "777 Rxd Htin",
+    "genre": "Casino",
+    "icon": "https://play-lh.googleusercontent.com/MG7CT-13DbB1S_0ZVuwF99WgYXjPjZNN-fbJ4Cu-ubmMKdMM42NpIiP2tuSfY9lFlTvmU2Vbd3y7SyCdPXl99A",
+    "url": "https://play.google.com/store/apps/details?id=com.spnioie.ephebe",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1104,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 16571,
+        "dpd": 1104,
+        "score": 0
+      }
+    ]
+  },
+  "com.cyber.dash17": {
+    "id": "com.cyber.dash17",
+    "name": "Cyber Dash",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/L7zW03HU-Ll6BMsyOuLS0QhlRQCMHcrMFC-mPOmb3h-0N_r7ZyKg_NpbCiDXlzYsA9-ej5FyR5UHGKmFSyGg",
+    "url": "https://play.google.com/store/apps/details?id=com.cyber.dash17",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 1077,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 18322,
+        "dpd": 1077,
+        "score": 0
+      }
+    ]
+  },
+  "com.fr.talkinganimal": {
+    "id": "com.fr.talkinganimal",
+    "name": "My Talking Animal 2",
+    "genre": "Music",
+    "icon": "https://play-lh.googleusercontent.com/0Ly4i8owojMdr1BjTMKy7xIr_xt3fM4AlL4mudceSAWIDXJ8bIgklpMFvLt7r20kXWRGG2BMB38PgYj4rIcI",
+    "url": "https://play.google.com/store/apps/details?id=com.fr.talkinganimal",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 994,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 11930,
+        "dpd": 994,
+        "score": 0
+      }
+    ]
+  },
+  "com.apnabankshop.soda": {
+    "id": "com.apnabankshop.soda",
+    "name": "Color Soda Pack",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/3mS6yDI0T7NsPLnbcCGGMlSDXeeysJSG9ftw0vML34bbVDJdyktcysCfY83aRWqDoleUb1opWN9FFqdwvwPS",
+    "url": "https://play.google.com/store/apps/details?id=com.apnabankshop.soda",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 937,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 13125,
+        "dpd": 937,
+        "score": 0
+      }
+    ]
+  },
+  "com.moskgdyasa.poskaread": {
+    "id": "com.moskgdyasa.poskaread",
+    "name": "Elite Level Slots 777",
+    "genre": "Casino",
+    "icon": "https://play-lh.googleusercontent.com/_88x0htnz6vz0lbXLd1w7buARo_DYx7HlTL0ohb15eIaTl1X9XFQpRr4p2_bNwDR_11qeWgs0ptOX56SAV8k",
+    "url": "https://play.google.com/store/apps/details?id=com.moskgdyasa.poskaread",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 929,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 12078,
+        "dpd": 929,
+        "score": 0
+      }
+    ]
+  },
+  "com.kigle.cocobi.safetyhero": {
+    "id": "com.kigle.cocobi.safetyhero",
+    "name": "Cocobi Little Safety Hero -kid",
+    "genre": "Educational",
+    "icon": "https://play-lh.googleusercontent.com/te3c2I4Qb8cA6aISNC5fBPzRlRAgakWXHwa_qJIhDmoJTbuNX9V-xAhgGE_34If9jgEL47xKqRgtIuD4HdxK",
+    "url": "https://play.google.com/store/apps/details?id=com.kigle.cocobi.safetyhero",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 914,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 20129,
+        "dpd": 914,
+        "score": 0
+      }
+    ]
+  },
+  "com.wdookd.poisvnka": {
+    "id": "com.wdookd.poisvnka",
+    "name": "Casual Star Candy Crush",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/4UQyeYOj7_AgF7WPTTUGC44ESs7lOVWf9H_w1IITqL45qWdQpzQISJka3SxIO4-9oKZjYxoO9SQKMtESpp0KDg",
+    "url": "https://play.google.com/store/apps/details?id=com.wdookd.poisvnka",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 902,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 13542,
+        "dpd": 902,
+        "score": 0
+      }
+    ]
+  },
+  "com.unmishd.ubyidal": {
+    "id": "com.unmishd.ubyidal",
+    "name": "777 Thder Mein",
+    "genre": "Casino",
+    "icon": "https://play-lh.googleusercontent.com/mUhvo_hjYIh5mLRP5kZk1l4TY6qVGClwIcFbVa-niMwoEKi8U7IvPc3xiZrLJzX3ewZmzsSGpeE6DijysfKy",
+    "url": "https://play.google.com/store/apps/details?id=com.unmishd.ubyidal",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 900,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 13512,
+        "dpd": 900,
+        "score": 0
+      }
+    ]
+  },
+  "com.gamingengine.grand.gangster.vegas.crime.jungle.mafia.citygames": {
+    "id": "com.gamingengine.grand.gangster.vegas.crime.jungle.mafia.citygames",
+    "name": "Gangster City_ Jungle War 2026",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/3vRN0gbFOCVizwoI_r7gpuVXY-BEMt_kFLv_i6M8kAjEjfQW26cp3VhpG0z0p_NEIYgvG6PRqMN9hPiKcR74",
+    "url": "https://play.google.com/store/apps/details?id=com.gamingengine.grand.gangster.vegas.crime.jungle.mafia.citygames",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 897,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 2692,
+        "dpd": 897,
+        "score": 0
+      }
+    ]
+  },
+  "com.deepcorp.deda": {
+    "id": "com.deepcorp.deda",
+    "name": "DEDA",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/KyQuISwr4be82tRw6L04VNjca3xC_G48vY4XauI5eM2MYazkfrZiDAu1HoGp34Y4lXbtSPXJNZnSPMS0GQpEmQ",
+    "url": "https://play.google.com/store/apps/details?id=com.deepcorp.deda",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 865,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 15586,
+        "dpd": 865,
+        "score": 5
+      }
+    ]
+  },
+  "com.tidefoldqwe.puzzlezxcvasd": {
+    "id": "com.tidefoldqwe.puzzlezxcvasd",
+    "name": "6EETideFold",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/iTYTdxw2Y8hSBAly8YxzPcahK7ZXSqySXnKggTHETefafxSxH_YkF10D_u_V6Q5RcDgzROegN3g4ajjcPdge",
+    "url": "https://play.google.com/store/apps/details?id=com.tidefoldqwe.puzzlezxcvasd",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 831,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 10808,
+        "dpd": 831,
+        "score": 0
+      }
+    ]
+  },
+  "com.funcell.projectevagame": {
+    "id": "com.funcell.projectevagame",
+    "name": "Project Eva",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/unWvH2PQ45TQjTb0z_NWTrZ05RJxQE3NwylCC8tMple8DmqWhNHLounnOAYJ9LTRdl4t48ItHd2RJoTsrddpqRI",
+    "url": "https://play.google.com/store/apps/details?id=com.funcell.projectevagame",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 823,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 10711,
+        "dpd": 823,
+        "score": 3.7
+      }
+    ]
+  },
+  "com.tidalsortvbn.casualgmeaxcfz": {
+    "id": "com.tidalsortvbn.casualgmeaxcfz",
+    "name": "K456Sort",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/b6a8jM-pUQs9bJg_kO_5_ojqsf3lTXk5qIpX8E5GhVLXt6eiwaZEZf7LH7skAan8G6GJPNSGCo53zQYaYaqf",
+    "url": "https://play.google.com/store/apps/details?id=com.tidalsortvbn.casualgmeaxcfz",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 784,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 10985,
+        "dpd": 784,
+        "score": 0
+      }
+    ]
+  },
+  "org.sbqzlkx.ebsmcrq": {
+    "id": "org.sbqzlkx.ebsmcrq",
+    "name": "Lucky 3 Patti jova",
+    "genre": "Card",
+    "icon": "https://play-lh.googleusercontent.com/Ms-dOOETvSlfmkJW_qEGGK94mEZjU02mTSp9ny9yn_lKIN3dY7evOF7wqIbB6ViGNmgLNzRyPD89RFew6WiAwA",
+    "url": "https://play.google.com/store/apps/details?id=org.sbqzlkx.ebsmcrq",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 743,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 8918,
+        "dpd": 743,
+        "score": 0
+      }
+    ]
+  },
+  "com.spirit.animal.happy.paint.by.number.coloring.game": {
+    "id": "com.spirit.animal.happy.paint.by.number.coloring.game",
+    "name": "Spirit Animal Coloring Book",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/5441Pjn74dfWEyj6CV7IV51AqgpnDmScWuu9N4t2BtoDHwOTAoK_rw9q6vQ0_RI4fJrTRcLTqJorPP5wzlaLQGo",
+    "url": "https://play.google.com/store/apps/details?id=com.spirit.animal.happy.paint.by.number.coloring.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 724,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 13047,
+        "dpd": 724,
+        "score": 4.7
+      }
+    ]
+  },
+  "com.pzs.indian.bridal.dressup.games.fashion": {
+    "id": "com.pzs.indian.bridal.dressup.games.fashion",
+    "name": "Bridal Dress Up- Fashion Game",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/9gwtM_cT9dO4DqLEcVbYbRJGtIEtADqJvIBeJvDMESjW7q8_jgNti-ebhensQDq8LNWcuactK7FKTtnG8XGZqA",
+    "url": "https://play.google.com/store/apps/details?id=com.pzs.indian.bridal.dressup.games.fashion",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 711,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 13518,
+        "dpd": 711,
+        "score": 0
+      }
+    ]
+  },
+  "com.play.carparkjam.game": {
+    "id": "com.play.carparkjam.game",
+    "name": "Car Park Jam",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/W2HNJ68fssFgZKFu7lCXbv0T5So-cCeDd4pVTmck_kODACcxCICJeMBaNOPee7PVToM_eFKAy5VIfzPNV7fB",
+    "url": "https://play.google.com/store/apps/details?id=com.play.carparkjam.game",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 704,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 19721,
+        "dpd": 704,
+        "score": 0
+      }
+    ]
+  },
+  "com.lyjru.eeu": {
+    "id": "com.lyjru.eeu",
+    "name": "Celestia: Immortal path",
+    "genre": "Ролевые",
+    "icon": "https://play-lh.googleusercontent.com/QvoohNRuWOd-nQB2JMnjPvg-EJ9tMIZsmopUfNOQi0hHefpzJr1gN_UaRDdAnpKhHef20irWBBoRyqW0BYEk",
+    "url": "https://play.google.com/store/apps/details?id=com.lyjru.eeu",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 680,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 13610,
+        "dpd": 680,
+        "score": 3.6
+      }
+    ]
+  },
+  "com.split.money.cut.clip.factory.cash.make": {
+    "id": "com.split.money.cut.clip.factory.cash.make",
+    "name": "Money Idle Factory: Earn Cash",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/aplSdiX4RxDQFcfmhyGrla3uxhXA5PQH7A7phmaCYwpGC16gCNO-RHdpcM3H9jFSVK4LhuatiDEy6aGr6tmSSA",
+    "url": "https://play.google.com/store/apps/details?id=com.split.money.cut.clip.factory.cash.make",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 658,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 11849,
+        "dpd": 658,
+        "score": 4.6
+      }
+    ]
+  },
+  "com.leanflowxyz.leisureabcde": {
+    "id": "com.leanflowxyz.leisureabcde",
+    "name": "LeanFlow",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/W1KinLfkP7-YDVohdhChPf8YZ99IQBUgRNF_3c5_re3ecLZ0Lf4iIFz9wHSKHTc3n_jy2fp028Ijp_EZowUVTsQ",
+    "url": "https://play.google.com/store/apps/details?id=com.leanflowxyz.leisureabcde",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 626,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 18155,
+        "dpd": 626,
+        "score": 0
+      }
+    ]
+  },
+  "com.absdqys.AcornBashQuest": {
+    "id": "com.absdqys.AcornBashQuest",
+    "name": "Acorn Bash Quest",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/sZk7bFsxK_SsguG1YLltUqolVLlB2T94PUdlxD2k-2mCvkojpX0NCoHceTZwX4rSCyZbE1OLruheKynt5K9y4A",
+    "url": "https://play.google.com/store/apps/details?id=com.absdqys.AcornBashQuest",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 601,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 10834,
+        "dpd": 601,
+        "score": 0
+      }
+    ]
+  },
+  "com.sweet.jungle12": {
+    "id": "com.sweet.jungle12",
+    "name": "Sweet Jungle",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/s_F7me0yL-i1EytsE-8Q8JfVWTmsbcw7g_KVLo1UcrC3V1ngi8SiiXTMWEFI_CQz3XkHLEO0Tcj_QCFH9fogPrI",
+    "url": "https://play.google.com/store/apps/details?id=com.sweet.jungle12",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 587,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 8220,
+        "dpd": 587,
+        "score": 0
+      }
+    ]
+  },
+  "com.zenjoy.tour": {
+    "id": "com.zenjoy.tour",
+    "name": "My Journey - Puzzles & Stories",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/5MKK3BNMy5xvGCTkmNiOkNJmD_YwZ-EBuf306zu2zbUSHH46tNY7PI1oOQTDqr8jwJAbEl5ArzlFOLq-FN6G",
+    "url": "https://play.google.com/store/apps/details?id=com.zenjoy.tour",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 563,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 11262,
+        "dpd": 563,
+        "score": 4.9
+      }
+    ]
+  },
+  "com.beautygirl.puzzle": {
+    "id": "com.beautygirl.puzzle",
+    "name": "Beauty girl Puzzle",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/bz4rGbi2wNeTRsTFdGWbI4LBZM8seoJlFKaWDbgZDlS2ARERDaM1g7JG6W1juoGbkL05a8CAbfO8ksddIS9eFR8",
+    "url": "https://play.google.com/store/apps/details?id=com.beautygirl.puzzle",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 561,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 7856,
+        "dpd": 561,
+        "score": 0
+      }
+    ]
+  },
+  "com.art.pixel.polygon.games.paint.color.by.numbers": {
+    "id": "com.art.pixel.polygon.games.paint.color.by.numbers",
+    "name": "Polygon  Color",
+    "genre": "Board",
+    "icon": "https://play-lh.googleusercontent.com/-6Xnle-0Sa6P9_RRcFYIxHqxNZFH-jXQg35_KhFbTPs0byZ5NxcTX9MUlmUMjo_fvXycKlPSzLV7v0gQHL7u5A",
+    "url": "https://play.google.com/store/apps/details?id=com.art.pixel.polygon.games.paint.color.by.numbers",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 543,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 8690,
+        "dpd": 543,
+        "score": 4.9
+      }
+    ]
+  },
+  "com.thd.probemalach": {
+    "id": "com.thd.probemalach",
+    "name": "ProbeMalach",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/ELNfx-paoRgIRVTvGmHEj-6nIpPpFDW9UvcrHyX-v0eHpUu8CPsBIwXpv-3IjrtJMFOh0qz7-Th6gVzFfIX8WmA",
+    "url": "https://play.google.com/store/apps/details?id=com.thd.probemalach",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 489,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 9293,
+        "dpd": 489,
+        "score": 0
+      }
+    ]
+  },
+  "com.thd.peonyholo": {
+    "id": "com.thd.peonyholo",
+    "name": "PeonyHolo",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/DnT5nuu5HaW-l1ksgCLbL25PphcCXceKGwOIpJZUaYfTmaKNbzdpuU5t9a1jd_d791wIAsSUfYz6-ZcUcz6j",
+    "url": "https://play.google.com/store/apps/details?id=com.thd.peonyholo",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 482,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 9173,
+        "dpd": 482,
+        "score": 0
+      }
+    ]
+  },
+  "com.vitastudio.mahjongwood": {
+    "id": "com.vitastudio.mahjongwood",
+    "name": "Vita Mahjong Wood",
+    "genre": "Board",
+    "icon": "https://play-lh.googleusercontent.com/KX8jaCrBdmxRODNbGeLYADVJrNhbpf484DrjAsh-bvRx8pNBOGZtArdxJpKxVMMuauvJv56pnySYmtcGrBY28Q",
+    "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjongwood",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 474,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 6162,
+        "dpd": 474,
+        "score": 4.6
+      }
+    ]
+  },
+  "com.qwefaz.amjili": {
+    "id": "com.qwefaz.amjili",
+    "name": "AMJILI",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/5ApAoULcyUdG5cYjT7CfjfDPATlxM2HI3QuXHZvpbYGZcA7nHyxFzpgqAFFG5_7rMPTu3zRAOoVvpkXpknkj",
+    "url": "https://play.google.com/store/apps/details?id=com.qwefaz.amjili",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 431,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 5177,
+        "dpd": 431,
+        "score": 0
+      }
+    ]
+  },
+  "com.satorisysplay.ginrummyni": {
+    "id": "com.satorisysplay.ginrummyni",
+    "name": "Gin Rummy Classic",
+    "genre": "Card",
+    "icon": "https://play-lh.googleusercontent.com/e_nu55nOTOD0nJlbrPk_AD7VUAnsKpruSmUOUXJpmNI2JzcXHz78ZrvJ_IKAnNd1xdX47ATxJ_m_N-cVa3Ey9FU",
+    "url": "https://play.google.com/store/apps/details?id=com.satorisysplay.ginrummyni",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 429,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 11155,
+        "dpd": 429,
+        "score": 4.7
+      }
+    ]
+  },
+  "com.marlingleichner.raymonschulist.mserafahey": {
+    "id": "com.marlingleichner.raymonschulist.mserafahey",
+    "name": "Turbo Arena",
+    "genre": "Racing",
+    "icon": "https://play-lh.googleusercontent.com/uQdmRxabfxqZOVawGPRUvVB56iwAXiVJYyPRIRfvfskPbaoRGeDxZuZTkbth4iZrkuz0iuSIHOg-Tt46VRnRbw",
+    "url": "https://play.google.com/store/apps/details?id=com.marlingleichner.raymonschulist.mserafahey",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 399,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 7186,
+        "dpd": 399,
+        "score": 0
+      }
+    ]
+  },
+  "com.lazyastronaut.AngryNeighbor3": {
+    "id": "com.lazyastronaut.AngryNeighbor3",
+    "name": "Hello Angry Neighbor Stories 3",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/J9KFJsoIwp5qKvJhyORVeHl4op5tixoeCX-8o4ysQdwtSrqMu9btxBdMaSx9M6kMmui3USNqw-Qz8wZAU1JVXQ",
+    "url": "https://play.google.com/store/apps/details?id=com.lazyastronaut.AngryNeighbor3",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 397,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 5567,
+        "dpd": 397,
+        "score": 0
+      }
+    ]
+  },
+  "air.jp.co.fujitv.fodvie": {
+    "id": "air.jp.co.fujitv.fodvie",
+    "name": "Frenzy Fiesta",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/Mc8MdU-S8cufzTz2HvUVR_EhysxWF4jH3PTEaZIjnwF3VI8G4853XCI3ruyFceuOwz9TPgZpSvTtI_4Q7K4l9Q",
+    "url": "https://play.google.com/store/apps/details?id=air.jp.co.fujitv.fodvie",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 390,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 8192,
+        "dpd": 390,
+        "score": 0
+      }
+    ]
+  },
+  "com.ttt.bowcore": {
+    "id": "com.ttt.bowcore",
+    "name": "BowCore",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/CstL-KvlAp332RTIYDnoFl1Vksv92OPgHgyqZyoD6_zqJGKU5NvlxOIfHk9KEuMQ5PTrskPhKf6T5nc_KTV81w",
+    "url": "https://play.google.com/store/apps/details?id=com.ttt.bowcore",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 387,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 10454,
+        "dpd": 387,
+        "score": 0
+      }
+    ]
+  },
+  "com.tszz.tszzru": {
+    "id": "com.tszz.tszzru",
+    "name": "Битва Ангелов",
+    "genre": "Ролевые",
+    "icon": "https://play-lh.googleusercontent.com/OMdzGk2j11ad0ycXKoubTeiCVGjBM54OytQKiv5O_lYGj5ysrUr-Y7ZZoelWCe0CGbh-ujKmWOZpJEwXRyW4",
+    "url": "https://play.google.com/store/apps/details?id=com.tszz.tszzru",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 362,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 5804,
+        "dpd": 362,
+        "score": 4.6
+      }
+    ]
+  },
+  "com.lksdhgew.lksdhgew": {
+    "id": "com.lksdhgew.lksdhgew",
+    "name": "Teen Patti Yono Ace",
+    "genre": "Card",
+    "icon": "https://play-lh.googleusercontent.com/jYoqlyYaQFfb8Pr1oat9SEpR4n0QoyZjjp5MTfj29KRpRKzBk9DszI1Dz22TCwXzgfStL0c_RN9sR4RqTMal",
+    "url": "https://play.google.com/store/apps/details?id=com.lksdhgew.lksdhgew",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 355,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 9955,
+        "dpd": 355,
+        "score": 0
+      }
+    ]
+  },
+  "com.fantyfuture.os.gb.gp": {
+    "id": "com.fantyfuture.os.gb.gp",
+    "name": "Onsen and Girls",
+    "genre": "Card",
+    "icon": "https://play-lh.googleusercontent.com/puRCkkj_rt_jBykESs-8F2JAhSbMUSVZ4LokZqli1dHC0YQwMa_wk61yrOc79SwdQTIc2JNm-CZY_twRPuWVOg",
+    "url": "https://play.google.com/store/apps/details?id=com.fantyfuture.os.gb.gp",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 350,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 2803,
+        "dpd": 350,
+        "score": 0
+      }
+    ]
+  },
+  "com.mkf.msh.eooq": {
+    "id": "com.mkf.msh.eooq",
+    "name": "Super Ace King",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/0gbCgABk6hrk4ZcFO3BaxwTw4RYGqB7XNnTg5k7PSgB2khh0rv2BcEhQrYf-G_7jBLjz8If1uNSjzfwF76--PE8",
+    "url": "https://play.google.com/store/apps/details?id=com.mkf.msh.eooq",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 344,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 7242,
+        "dpd": 344,
+        "score": 0
+      }
+    ]
+  },
+  "com.yxjyru.gamegp": {
+    "id": "com.yxjyru.gamegp",
+    "name": "Эпоха Героев: Истоки Магии",
+    "genre": "Ролевые",
+    "icon": "https://play-lh.googleusercontent.com/SgPfiBBPb3f47MDC-zcnv1e0j9BmB-FwUgoSYEXOzG8uq5x-nonFMQ_B4ZpDPsM02RkUQbXCZBk-8GEj1suh",
+    "url": "https://play.google.com/store/apps/details?id=com.yxjyru.gamegp",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 337,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 5730,
+        "dpd": 337,
+        "score": 4.5
+      }
+    ]
+  },
+  "com.Chodun.CatGunner": {
+    "id": "com.Chodun.CatGunner",
+    "name": "Idle Cat Gunner",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/cQ3VMFg45zoJKZjUWw7TY0xSZNkB0hf7vRCKjrqtd9_qoc3bGFomLLI5kmn0bDcl7muER-PVVItLd-73qP20cw",
+    "url": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 321,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 5458,
+        "dpd": 321,
+        "score": 0
+      }
+    ]
+  },
+  "com.MitchellRoom.CustardPudding": {
+    "id": "com.MitchellRoom.CustardPudding",
+    "name": "Escape Game Custard Pudding",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/pplnyGlYk4lFplFIEJatgzJHvaUVkr7OCl9iNJYsblOuEzQVg40nEcbNz0xdEnax4OdG54VoxzsKBu7vdaFIG-s",
+    "url": "https://play.google.com/store/apps/details?id=com.MitchellRoom.CustardPudding",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 309,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 2788,
+        "dpd": 309,
+        "score": 4.8
+      }
+    ]
+  },
+  "com.giantminer.superdrill": {
+    "id": "com.giantminer.superdrill",
+    "name": "FateDrill - RealCash",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/Z7KbHlzu4dUHiZFIxTqlTI-yjSACeMEHH7qH94c0F7qMT9FmclNRxsexKDLZGATZrXk4tSjjMexOjNCIBqE1zQ",
+    "url": "https://play.google.com/store/apps/details?id=com.giantminer.superdrill",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 305,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 5811,
+        "dpd": 305,
+        "score": 4.8
+      }
+    ]
+  },
+  "com.lutagames.aodartofdefence": {
+    "id": "com.lutagames.aodartofdefence",
+    "name": "AOD: Tower Defense Offline",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/FkUuBQIszXNmdYO0_qFpu1R8NCBPqrD3qG7nUNb-6c_xxz57w38coywOwQYY96DhuRVGykgM2d6mlr6sl-m4Ug",
+    "url": "https://play.google.com/store/apps/details?id=com.lutagames.aodartofdefence",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 304,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 7299,
+        "dpd": 304,
+        "score": 0
+      }
+    ]
+  },
+  "com.sonugetspin777.app": {
+    "id": "com.sonugetspin777.app",
+    "name": "Spin 777",
+    "genre": "Card",
+    "icon": "https://play-lh.googleusercontent.com/CTGkBF9cZTXlORhX0zp-px-SG7-yZsh8mQqdM6h7rIP1_fQFoMOwBcVo586FZCy8OVs29zt-i_UVmJbK17Azzg",
+    "url": "https://play.google.com/store/apps/details?id=com.sonugetspin777.app",
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "peak_dpd": 303,
+    "peak_date": "2026-05-05",
+    "history": [
+      {
+        "date": "2026-05-05",
+        "installs": 7592,
+        "dpd": 303,
         "score": 0
       }
     ]
