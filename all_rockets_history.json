@@ -26855,7 +26855,7 @@
     "icon": "https://play-lh.googleusercontent.com/9C1wTuZdibAyCQ85gfDycj4sh8mw0YH-OY4N5cUs1PaNW9Mv88xy-rHoGmTnGMqOOA",
     "url": "https://play.google.com/store/apps/details?id=jp.goodsmile.nekoconne",
     "first_seen": "2026-04-16",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-05-07",
     "peak_dpd": 11214,
     "peak_date": "2026-04-18",
     "history": [
@@ -26930,6 +26930,12 @@
         "installs": 140313,
         "dpd": 5396,
         "score": 2.3
+      },
+      {
+        "date": "2026-05-07",
+        "installs": 140890,
+        "dpd": 5218,
+        "score": 2.4
       }
     ]
   },
@@ -32663,7 +32669,7 @@
     "icon": "https://play-lh.googleusercontent.com/_teIccE9QYkRt7iY5sYjn_7b1-Sf2D45TabbGe5-Jr0tw_UzO7Ey4rJ8INzCBs3WKE2lQIuIIHOp16DLiiXs",
     "url": "https://play.google.com/store/apps/details?id=com.um.dop.fun.complete.part.game",
     "first_seen": "2026-04-22",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-05-07",
     "peak_dpd": 8970,
     "peak_date": "2026-05-05",
     "history": [
@@ -32707,6 +32713,12 @@
         "date": "2026-05-06",
         "installs": 215482,
         "dpd": 8619,
+        "score": 0
+      },
+      {
+        "date": "2026-05-07",
+        "installs": 229665,
+        "dpd": 8833,
         "score": 0
       }
     ]
@@ -39311,6 +39323,25 @@
         "date": "2026-05-07",
         "installs": 11160,
         "dpd": 797,
+        "score": 0
+      }
+    ]
+  },
+  "com.D_One_Games.HorrorShawarmaPatience": {
+    "id": "com.D_One_Games.HorrorShawarmaPatience",
+    "name": "Horror Shawarma & Patience",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/iVM74NZN3K-WzESA31bFWrHz0W97Dmcv63Tv2NTm854nTmdhek-qc8G5c4F1A6j7P50",
+    "url": "https://play.google.com/store/apps/details?id=com.D_One_Games.HorrorShawarmaPatience",
+    "first_seen": "2026-05-07",
+    "last_seen": "2026-05-07",
+    "peak_dpd": 10784,
+    "peak_date": "2026-05-07",
+    "history": [
+      {
+        "date": "2026-05-07",
+        "installs": 75491,
+        "dpd": 10784,
         "score": 0
       }
     ]
