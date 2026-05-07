@@ -35485,9 +35485,9 @@
     "icon": "https://play-lh.googleusercontent.com/jaoowwLNpYZiC89fL9iw2XxDEEH1CMBDjoacDhX31KaSTItlUyA26GM-Eb1bUW_eSegFkg2SMJY6D0WsdHRPYzE",
     "url": "https://play.google.com/store/apps/details?id=com.brain.tricky.puzzle.games.test.quest",
     "first_seen": "2026-04-25",
-    "last_seen": "2026-05-06",
-    "peak_dpd": 3175,
-    "peak_date": "2026-05-05",
+    "last_seen": "2026-05-07",
+    "peak_dpd": 3347,
+    "peak_date": "2026-05-07",
     "history": [
       {
         "date": "2026-04-25",
@@ -35511,6 +35511,12 @@
         "date": "2026-05-06",
         "installs": 60572,
         "dpd": 3028,
+        "score": 4.8
+      },
+      {
+        "date": "2026-05-07",
+        "installs": 70288,
+        "dpd": 3347,
         "score": 4.8
       }
     ]
@@ -36957,7 +36963,7 @@
     "icon": "https://play-lh.googleusercontent.com/tgzmxpqw9EFV3p4l6AS4IldTvt2SnpMZ9ZBEAn9y0rnfcL2ZnuKpOBXggL2Qo5peJ3_ARBM5D3yeDp_d46ZFDQ",
     "url": "https://play.google.com/store/apps/details?id=com.tfv.line.drawing.games.allinone",
     "first_seen": "2026-05-05",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-05-07",
     "peak_dpd": 99743,
     "peak_date": "2026-05-05",
     "history": [
@@ -36972,6 +36978,12 @@
         "installs": 499790,
         "dpd": 83298,
         "score": 0
+      },
+      {
+        "date": "2026-05-07",
+        "installs": 505589,
+        "dpd": 72227,
+        "score": 0
       }
     ]
   },
@@ -36982,7 +36994,7 @@
     "icon": "https://play-lh.googleusercontent.com/oM4XgCvaZLsgaSa8pVV5roCJ_gDRF0L7Y7KYYskfQ922TAcE1E5lNqLASx0X_D7QnKu1",
     "url": "https://play.google.com/store/apps/details?id=com.ptg.bridal.dressup.wedding.makeup.games",
     "first_seen": "2026-05-05",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-05-07",
     "peak_dpd": 94391,
     "peak_date": "2026-05-05",
     "history": [
@@ -36996,6 +37008,12 @@
         "date": "2026-05-06",
         "installs": 849994,
         "dpd": 84999,
+        "score": 0
+      },
+      {
+        "date": "2026-05-07",
+        "installs": 849994,
+        "dpd": 77272,
         "score": 0
       }
     ]
@@ -37332,7 +37350,7 @@
     "icon": "https://play-lh.googleusercontent.com/xVtN-snqrk07lEQfZZMMOJgpc9H92aeeHVVcLAZH4Mv1pe66_e8Taa2-HX2CWKKj5gM",
     "url": "https://play.google.com/store/apps/details?id=com.eb.railway.construction.game",
     "first_seen": "2026-05-05",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-05-07",
     "peak_dpd": 11114,
     "peak_date": "2026-05-05",
     "history": [
@@ -37346,6 +37364,12 @@
         "date": "2026-05-06",
         "installs": 200160,
         "dpd": 10534,
+        "score": 0
+      },
+      {
+        "date": "2026-05-07",
+        "installs": 200160,
+        "dpd": 10008,
         "score": 0
       }
     ]
@@ -39268,6 +39292,25 @@
         "date": "2026-05-06",
         "installs": 4080,
         "dpd": 340,
+        "score": 0
+      }
+    ]
+  },
+  "com.silkstroke.serpent.fun": {
+    "id": "com.silkstroke.serpent.fun",
+    "name": "Silkstroke Serpent",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/pFtQKqQNvZIEi0fqt8ojBHD4lyqMD_6m1opZkD12nNX1drlQB4nIrO_zLps3yT0u3a0LCTM23Fa8sug9Q5Ce",
+    "url": "https://play.google.com/store/apps/details?id=com.silkstroke.serpent.fun",
+    "first_seen": "2026-05-07",
+    "last_seen": "2026-05-07",
+    "peak_dpd": 797,
+    "peak_date": "2026-05-07",
+    "history": [
+      {
+        "date": "2026-05-07",
+        "installs": 11160,
+        "dpd": 797,
         "score": 0
       }
     ]

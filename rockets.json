@@ -1,1 +1,382 @@
-{"rockets": [{"id": "com.hottagames.nte", "emoji": "🚀🔥", "tag": "1M+", "name": "NTE: Neverness to Everness", "icon": "https://play-lh.googleusercontent.com/TGl3DdDbi4hty6ooOhEvv_2s5tkpGLbL6derP8y5hK-_Bw--Ve375b08ba9HHQ9ueRpoQ9oye1T_T24BJriLUmw", "screenshots": ["https://play-lh.googleusercontent.com/kPbuoflxFoAfsbEZ8i0Lqh10vDPJg_LQuCSFG4oXG7ykpAPgSsXi_Ueur-2ooH6XLcuenEfVn3McVzFy2Q3jbg=w300", "https://play-lh.googleusercontent.com/Qc_PMUG7Q_DZ8JBnpsh35bRvWCR1Vv8072YS8auuVS5hwxIOfr46vLFWGhEMWIQkcu5XLS36P6CBOUKfkm6R=w300", "https://play-lh.googleusercontent.com/-_P-VM4GErmXcU29MXqQFnmhch1jicCCGKBriTf5Dt7ertrqfKP2uPyt135WDsNKXeAu8iQSK5GCjDZ0UBzjlA=w300", "https://play-lh.googleusercontent.com/3ytgnH8NdbUDrjJpfxY1QToBf2oISCPWSZPRERdNmnspeSCkDQ61fUz-rnZfR9fznBzVUCQQtAqyar5319tlXws=w300"], "genre": "Role Playing", "developer": "N2E", "downloads": "1,000,000+", "realInstalls": 3980244, "realInstallsStr": "4.0M", "perDay": 306172, "days": 13, "score": 4.2, "ratings": 37690, "ratingsStr": "37K", "contentRating": "Teen", "offersIAP": true, "releaseDate": "Apr 24, 2026", "lastUpdated": "", "summary": "Hunt Anomalies. Roam the City. Own Every Moment.", "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte", "reviewsByDay": [{"date": "2026-05-04", "count": 80}, {"date": "2026-05-05", "count": 375}, {"date": "2026-05-06", "count": 145}], "dpdHistory": [{"date": "2026-05-05", "dpd": 359707, "installs": 3956785}, {"date": "2026-05-06", "dpd": 330860, "installs": 3970325}, {"date": "2026-05-07", "dpd": 306172, "installs": 3980244}], "trend": "stable", "dpd_prev": 330860, "dpd_change_pct": -7, "isWatchlist": false}, {"id": "com.batcave.farming.simulator.game", "emoji": "🚀", "tag": "500K+", "name": "Farm Simulator 3D Farm Life 25", "icon": "https://play-lh.googleusercontent.com/nTFXHGfkMmSRucWKIdy0oqODWL-9E5oYosJXkvwx3yoST_V4Ft4933fu92uOhTXuDhEiEOlbfByatgCVXhSO3RA", "screenshots": ["https://play-lh.googleusercontent.com/1eRUbEoItOXDhe6fLmzq__v7rXiK0NRuo6kbuOaMVfxlzn4ZzkFKgizXJJaZ1UUDjmGv=w300", "https://play-lh.googleusercontent.com/yeAlIh98tGEpM3u7BQ5lA_SynCE4fgrUf_-hQkX5Dyv9dpYIwiAM8sum59l5KDag1g=w300", "https://play-lh.googleusercontent.com/wdtxiJ_CaUsZjjcQ6dVQEMA3gUXKilbloe6lYsFVUIc6qcGE2a8LLfKAZRM0zmfXqY8=w300", "https://play-lh.googleusercontent.com/j-Shk8XU6YXPUnbidkp3D8JyecVyh4f3mYGf7-vzzKQB60JBQaUWVaXF_L63KVYNJwk=w300"], "genre": "Simulation", "developer": "Bat Cave Studio", "downloads": "500,000+", "realInstalls": 757478, "realInstallsStr": "757K", "perDay": 50498, "days": 15, "score": 2.8, "ratings": 255, "ratingsStr": "255", "contentRating": "Everyone", "offersIAP": true, "releaseDate": "Apr 22, 2026", "lastUpdated": "Apr 22, 2026", "summary": "Enjoy farming simulator to grow and learn ultimate farming life simulator game", "url": "https://play.google.com/store/apps/details?id=com.batcave.farming.simulator.game", "reviewsByDay": [{"date": "2026-04-22", "count": 1}, {"date": "2026-04-23", "count": 2}, {"date": "2026-04-24", "count": 2}, {"date": "2026-04-25", "count": 1}, {"date": "2026-04-26", "count": 3}, {"date": "2026-04-27", "count": 1}, {"date": "2026-04-28", "count": 2}, {"date": "2026-04-30", "count": 2}, {"date": "2026-05-01", "count": 3}, {"date": "2026-05-02", "count": 3}, {"date": "2026-05-03", "count": 1}, {"date": "2026-05-05", "count": 1}], "dpdHistory": [{"date": "2026-04-23", "dpd": 487982, "installs": 487982}, {"date": "2026-04-24", "dpd": 257152, "installs": 514304}, {"date": "2026-04-25", "dpd": 180618, "installs": 541854}, {"date": "2026-04-26", "dpd": 135463, "installs": 541854}, {"date": "2026-05-05", "dpd": 58179, "installs": 756339}, {"date": "2026-05-06", "dpd": 54105, "installs": 757478}, {"date": "2026-05-07", "dpd": 50498, "installs": 757478}], "trend": "stable", "dpd_prev": 54105, "dpd_change_pct": -7, "isWatchlist": false}, {"id": "com.feelingtouch.rush", "emoji": "⚡", "tag": "100K+", "name": "Zombie World War: Storm", "icon": "https://play-lh.googleusercontent.com/0LQuWqvp3bNk2qP2djtsdjptw1PaYIcxMC7o0qbifKTnmHP8hos2nrYGw2ljpYNVqaus", "screenshots": ["https://play-lh.googleusercontent.com/BsBu5v6t494QCE67JXj99F_90LMPYTFAVQkPSDbcZJfpUpSKyouiH1h0xsq5aEtaoPM=w300", "https://play-lh.googleusercontent.com/283BZpjksXl81X1EkDs6ybPWnrJGZzF5oiFoUEIQH5wrP3GEfg3oDsR618lw8tpTWlA=w300", "https://play-lh.googleusercontent.com/X7ZVEClQUHA8okWxJcR126swM9jJxeU-nAqGFIz-66EDxGYzk7Oi0dYa34YJJUTIBA=w300", "https://play-lh.googleusercontent.com/YxMjq_z8l2dauVVyygLvfUR7xnH77EkH_XMD2aWO-2TeX3Ul7VKh6m6kr5Fder0Otsk=w300"], "genre": "Casual", "developer": "FT Games", "downloads": "100,000+", "realInstalls": 236683, "realInstallsStr": "237K", "perDay": 8452, "days": 28, "score": 4.2, "ratings": 2016, "ratingsStr": "2K", "contentRating": "Teen", "offersIAP": true, "releaseDate": "Apr 9, 2026", "lastUpdated": "May 6, 2026", "summary": "Storm! Vertical roguelike shooter with hero-cannon combos & co-op survival!", "url": "https://play.google.com/store/apps/details?id=com.feelingtouch.rush", "reviewsByDay": [{"date": "2026-04-09", "count": 4}, {"date": "2026-04-10", "count": 10}, {"date": "2026-04-11", "count": 3}, {"date": "2026-04-12", "count": 4}, {"date": "2026-04-13", "count": 5}, {"date": "2026-04-14", "count": 3}, {"date": "2026-04-15", "count": 4}, {"date": "2026-04-16", "count": 2}, {"date": "2026-04-17", "count": 3}, {"date": "2026-04-18", "count": 3}, {"date": "2026-04-19", "count": 1}, {"date": "2026-04-20", "count": 2}, {"date": "2026-04-21", "count": 3}, {"date": "2026-04-22", "count": 1}, {"date": "2026-04-23", "count": 1}, {"date": "2026-04-24", "count": 1}, {"date": "2026-04-25", "count": 2}, {"date": "2026-04-26", "count": 1}, {"date": "2026-04-27", "count": 2}, {"date": "2026-04-28", "count": 2}, {"date": "2026-04-29", "count": 1}, {"date": "2026-05-02", "count": 2}, {"date": "2026-05-03", "count": 1}, {"date": "2026-05-04", "count": 2}, {"date": "2026-05-06", "count": 1}], "dpdHistory": [{"date": "2026-04-14", "dpd": 3408, "installs": 17043}, {"date": "2026-04-15", "dpd": 19198, "installs": 115190}, {"date": "2026-04-16", "dpd": 16455, "installs": 115190}, {"date": "2026-04-17", "dpd": 18088, "installs": 144711}, {"date": "2026-04-18", "dpd": 16289, "installs": 146601}, {"date": "2026-04-19", "dpd": 14689, "installs": 146892}, {"date": "2026-04-20", "dpd": 15949, "installs": 175441}, {"date": "2026-04-21", "dpd": 14636, "installs": 175641}, {"date": "2026-04-22", "dpd": 14214, "installs": 184791}, {"date": "2026-04-23", "dpd": 13199, "installs": 184791}, {"date": "2026-04-24", "dpd": 13684, "installs": 205273}, {"date": "2026-04-25", "dpd": 12829, "installs": 205273}, {"date": "2026-04-26", "dpd": 12618, "installs": 214512}, {"date": "2026-05-05", "dpd": 9065, "installs": 235704}, {"date": "2026-05-06", "dpd": 8730, "installs": 235718}, {"date": "2026-05-07", "dpd": 8452, "installs": 236683}], "trend": "stable", "dpd_prev": 8730, "dpd_change_pct": -3, "isWatchlist": false}, {"id": "pics.karaage.damekoico", "emoji": "📈", "tag": "50K+ УСТАНОВОК", "name": "Toxic Love: Dark Boyfriends", "icon": "https://play-lh.googleusercontent.com/ptw5YXYGdRZJIVS1kCPCL-lt5jMjU6DKPtsUFjKsbeVkysdmP_OBUStR76wg_y1QLJZuwiC2R8FtQ9n77-aOmPc", "screenshots": ["https://play-lh.googleusercontent.com/gBMesAOUvZGf1Pn4iX2YsYe4i2VftfHO9Bi_06VyUCBBTw_kn3GEOsYG_u08TNpGAGxONCA6DMaxZAELjSRK=w300", "https://play-lh.googleusercontent.com/E3bhi_53FKF-Ou4nqGftt8eZgTf_rIJ3lHoyC1o6xtxFRTy7StlHFQvp3qEyvO-bjcn5rPJdE4JGyaKa69PH=w300", "https://play-lh.googleusercontent.com/QegK5BGA_XqU9VIvfDGARmWPtIW5kvY6hzYFUoNqHEPZpHgYKkLgnFFN2TQ1KHikS3NT9x4PqA0yoF5jOMDcp7E=w300", "https://play-lh.googleusercontent.com/pZ1R-uqynXCn2oWimlUM5NOAI_el_z9DTn5CmWUxNTebAnHB36fKTuTFqygGymjXcVnImLbIkp5xKqqU9sreE0w=w300"], "genre": "Simulation", "developer": "KARAAGE GAMES LLC.", "downloads": "50,000+", "realInstalls": 92472, "realInstallsStr": "92K", "perDay": 4020, "days": 23, "score": 2.1, "ratings": 713, "ratingsStr": "713", "contentRating": "Mature 17+", "offersIAP": true, "releaseDate": "Apr 14, 2026", "lastUpdated": "Apr 28, 2026", "summary": "Hot guys... all with secrets!?", "url": "https://play.google.com/store/apps/details?id=pics.karaage.damekoico", "reviewsByDay": [{"date": "2026-04-17", "count": 8}, {"date": "2026-04-19", "count": 5}], "dpdHistory": [{"date": "2026-04-17", "dpd": 24740, "installs": 74221}, {"date": "2026-04-18", "dpd": 15249, "installs": 60997}, {"date": "2026-04-19", "dpd": 15698, "installs": 78490}, {"date": "2026-04-20", "dpd": 13836, "installs": 83021}, {"date": "2026-04-21", "dpd": 12100, "installs": 84700}, {"date": "2026-04-22", "dpd": 10587, "installs": 84700}, {"date": "2026-04-23", "dpd": 9411, "installs": 84700}, {"date": "2026-04-24", "dpd": 8638, "installs": 86380}, {"date": "2026-04-25", "dpd": 7855, "installs": 86405}, {"date": "2026-04-26", "dpd": 7253, "installs": 87047}, {"date": "2026-05-05", "dpd": 4400, "installs": 92419}, {"date": "2026-05-06", "dpd": 4203, "installs": 92472}, {"date": "2026-05-07", "dpd": 4020, "installs": 92472}], "trend": "stable", "dpd_prev": 4203, "dpd_change_pct": -4, "isWatchlist": false}, {"id": "com.daerigame.girladriftrm", "emoji": "📈", "tag": "НОВИНКА", "name": "A Girl Adrift: Reunited", "icon": "https://play-lh.googleusercontent.com/Y8SLjAdXCg_IRVcf8HJYxEKXfHtVRlx5bH5Cr8sgf3IApRr-x_ddIBl2ADp1mcgCMadcN5g9Gj01zvzxaewQ-Q", "screenshots": ["https://play-lh.googleusercontent.com/wby8n8k2I2TLnux-2renBBGaUnfJ2Ys9k974StWa7d8yguL7NK5WgjI3gUnmik_VCo7c-uPNzCba4ZoMzPC9Dg=w300", "https://play-lh.googleusercontent.com/aHbVB3PSBmgHxon7BDzAgDwipvuY9jqOx8oRiZSloSkNJVv0uKdY4IIW2pO0LJCSfae4eMS4nZoXu-Lq_CoGNQ=w300", "https://play-lh.googleusercontent.com/scuGWVsy8y0fSe2W3CoF0gwyx91ML2kUUS2o9W3V_-owbGs9OkiEUxNySnPrs9nwxD4Gl-JNaVALnsDcvHrS=w300", "https://play-lh.googleusercontent.com/P1mrvrhsO5LNif_C9OgjqJitrIFO8BDLei4PwtgbUpkC1SmrmINyX8VYOnf3KvCdA96VetZXld2fkV_2JExX2m4=w300"], "genre": "Simulation", "developer": "DAERI SOFT Inc", "downloads": "10,000+", "realInstalls": 41725, "realInstallsStr": "42K", "perDay": 2086, "days": 20, "score": 4.6, "ratings": 669, "ratingsStr": "669", "contentRating": "Everyone", "offersIAP": true, "releaseDate": "Apr 17, 2026", "lastUpdated": "May 2, 2026", "summary": "Return of the Healing Game", "url": "https://play.google.com/store/apps/details?id=com.daerigame.girladriftrm", "reviewsByDay": [{"date": "2026-04-22", "count": 2}, {"date": "2026-04-23", "count": 2}, {"date": "2026-04-24", "count": 5}, {"date": "2026-04-25", "count": 3}, {"date": "2026-04-26", "count": 4}, {"date": "2026-04-27", "count": 3}, {"date": "2026-04-28", "count": 3}, {"date": "2026-04-29", "count": 2}, {"date": "2026-04-30", "count": 2}, {"date": "2026-05-01", "count": 5}, {"date": "2026-05-02", "count": 3}, {"date": "2026-05-03", "count": 3}, {"date": "2026-05-04", "count": 2}, {"date": "2026-05-05", "count": 2}, {"date": "2026-05-06", "count": 3}], "dpdHistory": [{"date": "2026-04-26", "dpd": 593, "installs": 5344}, {"date": "2026-05-04", "dpd": 1398, "installs": 23772}, {"date": "2026-05-05", "dpd": 1725, "installs": 31050}, {"date": "2026-05-06", "dpd": 1869, "installs": 35518}, {"date": "2026-05-07", "dpd": 2086, "installs": 41725}], "trend": "rising", "dpd_prev": 1869, "dpd_change_pct": 12, "isWatchlist": false}, {"id": "com.ekkorr.ef2.gb", "emoji": "📈", "tag": "НОВИНКА", "name": "Endless Frontier 2: Idle RPG", "icon": "https://play-lh.googleusercontent.com/9EJ8OAe8qex90p2eYyyaThvW-vzaOn8ozJZgAF27ez9tjH_ZTv-gluhN9HrniVglYu46rDH4Abb76ounId_fl-E", "screenshots": ["https://play-lh.googleusercontent.com/CKhIi2RDO34i4xHQyVtVJyn7vFuU7NYpkwKmRt92BW-w9iQKoOqlgsw4IAXP7nQgwDeVZ7S7i1v6ezo8_zvabpw=w300", "https://play-lh.googleusercontent.com/YHkHcWfxhjvysNwM35XuUyWid9LD9HcI5lHtjsKJVjjZNmVYnVnKGRv3NxviPlFihMjqDXV0IdOXqk8RiahM600=w300", "https://play-lh.googleusercontent.com/6sOmEXVrI0R47k3VfIqW05e3cxbKsvXKN3sLwogjwHPwNahi8m5QFN61m6LepXh0xWJt3U-R0jMAlxfy9h-E=w300", "https://play-lh.googleusercontent.com/y4oXoFq4bdfwTPWxcBZ46krVAu9qd8npgKxDpiTWbylRXbNw7dJVS-TQX38VruINY4O4d0J-5_ldq4HmllaqiK0=w300"], "genre": "Simulation", "developer": "ekkorr", "downloads": "10,000+", "realInstalls": 29342, "realInstallsStr": "29K", "perDay": 1630, "days": 18, "score": 2.5, "ratings": 200, "ratingsStr": "200", "contentRating": "Everyone", "offersIAP": true, "releaseDate": "Apr 19, 2026", "lastUpdated": "May 5, 2026", "summary": "Build your team and battle endless waves in an idle defense RPG.", "url": "https://play.google.com/store/apps/details?id=com.ekkorr.ef2.gb", "reviewsByDay": [{"date": "2026-04-20", "count": 1}, {"date": "2026-04-21", "count": 1}, {"date": "2026-04-22", "count": 1}, {"date": "2026-04-24", "count": 2}, {"date": "2026-04-25", "count": 1}, {"date": "2026-04-26", "count": 1}, {"date": "2026-04-27", "count": 2}, {"date": "2026-04-28", "count": 1}, {"date": "2026-04-29", "count": 1}, {"date": "2026-04-30", "count": 1}, {"date": "2026-05-01", "count": 3}, {"date": "2026-05-02", "count": 2}, {"date": "2026-05-03", "count": 4}, {"date": "2026-05-04", "count": 2}, {"date": "2026-05-05", "count": 2}, {"date": "2026-05-06", "count": 3}], "dpdHistory": [{"date": "2026-04-24", "dpd": 676, "installs": 3380}, {"date": "2026-04-25", "dpd": 834, "installs": 5008}, {"date": "2026-04-26", "dpd": 715, "installs": 5008}, {"date": "2026-05-05", "dpd": 1824, "installs": 29184}, {"date": "2026-05-06", "dpd": 1726, "installs": 29342}, {"date": "2026-05-07", "dpd": 1630, "installs": 29342}], "trend": "stable", "dpd_prev": 1726, "dpd_change_pct": -6, "isWatchlist": false}, {"id": "com.tailormadegames.eow", "emoji": "📈", "tag": "НОВИНКА", "name": "End of Winter", "icon": "https://play-lh.googleusercontent.com/qUsxCNAO96ZmgZ0Cx8VGLmxzsG1CX-V-xCNBFFqoo50U5_d_DnzL5O7XuqH2CbY7WxgL2UGND9BgrFN1yL-D", "screenshots": ["https://play-lh.googleusercontent.com/I1OpzTwc5Vui9yohAbMDwxiGzjGI2X9W-ljk5l7LngF23MZt6rVVVY4UjgWS-zzdkn5bqUSQYkld27cCzmlWnw=w300", "https://play-lh.googleusercontent.com/6A3O0LTdoIaJ_CwkubEOnz13UOg-6X-tRHBVNfK7ZLTJLka4iG5wU7WDp9aeiUC4AEn4RtQrPjQHRnyY0KP0nQ=w300", "https://play-lh.googleusercontent.com/VOLvFCrZibw3MZPZwznc7bWZ9uhDT3NEwNtbeURt9Pwr61nxmlCPrZlObHOpAdTHGqm9JlvbEXVh13yOWSqrPNg=w300", "https://play-lh.googleusercontent.com/SyFtboFTRchSf0REAeL9U99A9C8tB9qt6nBgfdgt8mZ2snLMD3Ig76ylF3h59pfJ-r1xkcewV2GFTinFXR0w=w300"], "genre": "Role Playing", "developer": "Tailormade Games", "downloads": "10,000+", "realInstalls": 48434, "realInstallsStr": "48K", "perDay": 1614, "days": 30, "score": 4.5, "ratings": 2215, "ratingsStr": "2K", "contentRating": "Teen", "offersIAP": true, "releaseDate": "Apr 7, 2026", "lastUpdated": "Apr 22, 2026", "summary": "Choose your destiny in a dark fantasy world. A thrilling text roguelike RPG.", "url": "https://play.google.com/store/apps/details?id=com.tailormadegames.eow", "reviewsByDay": [{"date": "2026-04-08", "count": 3}, {"date": "2026-04-09", "count": 6}, {"date": "2026-04-10", "count": 11}, {"date": "2026-04-11", "count": 11}, {"date": "2026-04-12", "count": 9}, {"date": "2026-04-13", "count": 9}, {"date": "2026-04-14", "count": 8}, {"date": "2026-04-15", "count": 2}, {"date": "2026-04-16", "count": 4}, {"date": "2026-04-17", "count": 9}, {"date": "2026-04-18", "count": 9}, {"date": "2026-04-19", "count": 5}, {"date": "2026-04-20", "count": 4}, {"date": "2026-04-21", "count": 4}, {"date": "2026-04-22", "count": 14}, {"date": "2026-04-23", "count": 3}, {"date": "2026-04-24", "count": 8}, {"date": "2026-04-25", "count": 6}, {"date": "2026-04-26", "count": 8}, {"date": "2026-04-27", "count": 5}, {"date": "2026-04-28", "count": 1}, {"date": "2026-04-29", "count": 7}, {"date": "2026-04-30", "count": 2}, {"date": "2026-05-01", "count": 5}, {"date": "2026-05-02", "count": 1}, {"date": "2026-05-03", "count": 4}, {"date": "2026-05-04", "count": 4}, {"date": "2026-05-05", "count": 5}, {"date": "2026-05-06", "count": 1}], "dpdHistory": [{"date": "2026-04-14", "dpd": 5413, "installs": 37896}, {"date": "2026-04-15", "dpd": 9551, "installs": 76409}, {"date": "2026-04-16", "dpd": 8489, "installs": 76409}, {"date": "2026-04-17", "dpd": 7800, "installs": 78006}, {"date": "2026-04-18", "dpd": 3445, "installs": 37896}, {"date": "2026-04-19", "dpd": 3530, "installs": 42369}, {"date": "2026-04-20", "dpd": 3321, "installs": 43181}, {"date": "2026-04-21", "dpd": 3145, "installs": 44036}, {"date": "2026-04-22", "dpd": 2935, "installs": 44036}, {"date": "2026-04-23", "dpd": 2772, "installs": 44355}, {"date": "2026-04-24", "dpd": 2632, "installs": 44755}, {"date": "2026-04-25", "dpd": 2486, "installs": 44757}, {"date": "2026-04-26", "dpd": 2404, "installs": 45692}, {"date": "2026-05-05", "dpd": 1717, "installs": 48077}, {"date": "2026-05-06", "dpd": 1670, "installs": 48434}, {"date": "2026-05-07", "dpd": 1614, "installs": 48434}], "trend": "stable", "dpd_prev": 1670, "dpd_change_pct": -3, "isWatchlist": false}, {"id": "com.ayamdev.craft3", "emoji": "📈", "tag": "НОВИНКА", "name": "YOUCRAFT 3: Horror Crafting", "icon": "https://play-lh.googleusercontent.com/tiZR2Y6UmJIPbQpVIX52F7WZflNbV11k4pB7R61WPIA_9jASfT2wHrBFR_Hp0cfNpet1T9ib3NnsUCXQMRtLBg", "screenshots": ["https://play-lh.googleusercontent.com/HQz12Q-AusYhaLDUyEfwjgOOT0Bxs0fJlpM2WWRdi7hMk_EU94qacpnwGMksaMzvqzl9Kae_orkRQrKO-Wa_=w300", "https://play-lh.googleusercontent.com/z8mapeWUFjKiWDmrQv87DG6RFl_cQ0JnMjp-zBz7cUJT2o6ZsrF6SVnplh3P4N4iYQGY7PcdZ35oEWEkKSBj=w300", "https://play-lh.googleusercontent.com/1Lr8YUfomQBnvcMwWus8ZO80N5U0N6_9YlhclwWlv_3nR-Vh3Y23VNdS5InfDPk3yYZv8QmwWuSmZpmquGoG=w300", "https://play-lh.googleusercontent.com/BVTj-RXtUvfr7742luUhGu8rA1Tjc8u-hx33KpViA6PE9UIGsghLkLl4FmpJUhOtPvcsCabcU3g8Y3j6Q6s1Pg=w300"], "genre": "Приключения", "developer": "Ayamdev", "downloads": "10 000+", "realInstalls": 32535, "realInstallsStr": "33K", "perDay": 1161, "days": 28, "score": null, "ratings": 0, "ratingsStr": "0", "contentRating": "12+", "offersIAP": false, "releaseDate": "9 апр. 2026 г.", "lastUpdated": "9 апр. 2026 г.", "summary": "Уникальная игра по созданию предметов из блоков с элементами хоррор-выживания.", "url": "https://play.google.com/store/apps/details?id=com.ayamdev.craft3", "reviewsByDay": [{"date": "2026-04-24", "count": 1}], "dpdHistory": [{"date": "2026-04-22", "dpd": 357, "installs": 4648}, {"date": "2026-04-23", "dpd": 423, "installs": 5934}, {"date": "2026-04-24", "dpd": 492, "installs": 7393}, {"date": "2026-04-25", "dpd": 463, "installs": 7417}, {"date": "2026-04-26", "dpd": 680, "installs": 11569}, {"date": "2026-05-04", "dpd": 1080, "installs": 27000}, {"date": "2026-05-05", "dpd": 1247, "installs": 32444}, {"date": "2026-05-06", "dpd": 1205, "installs": 32535}, {"date": "2026-05-07", "dpd": 1161, "installs": 32535}], "trend": "stable", "dpd_prev": 1205, "dpd_change_pct": -4, "isWatchlist": false}, {"id": "com.appliculture.tahmin_et", "emoji": "📈", "tag": "НОВИНКА", "name": "Tahmin Et! - Ben Kimim?", "icon": "https://play-lh.googleusercontent.com/uDEHrQzy85R6gdlYSdn3eAvpQqYZWtvHiX6BBF7GLsiGir3Nls3AHO03kQxomfKA39eSIZ9dClT0nwnAkjFNdQ", "screenshots": ["https://play-lh.googleusercontent.com/IUqXj9EdcQ1ZboXK0wBOba_Q0lFip4btUEzU_LNx9ch1qoesSGY-hOqViPSpQkaKHXrkz79flZE5LrHjY42hwg=w300", "https://play-lh.googleusercontent.com/1-TrWtRZyxWr2DY_9aKrSTRhaTL_E2HXR7SqwTF6wU_hS9T5Bd7sLqch060BXHs8_ulI3nQzXjaydANMbODkkm0=w300", "https://play-lh.googleusercontent.com/jTZmqR5vtn0SdVaj6WvN9wR596QQlPF0zibUmQOjG0IC9E2UosLMtmu00hGSEhPPj7qRCdxwww9afqLkR5xqqA=w300", "https://play-lh.googleusercontent.com/q7KOTHzMlabTA0SwukQeXpqG_k9JQCMXuQfLYQULqhmyfZmoasXjcJhz4ltSxXK2YCqCrK81LCR0aCgqrD69xpY=w300"], "genre": "Trivia", "developer": "Ramor Studio", "downloads": "1,000+", "realInstalls": 2889, "realInstallsStr": "3K", "perDay": 115, "days": 25, "score": null, "ratings": 0, "ratingsStr": "0", "contentRating": "Everyone", "offersIAP": true, "releaseDate": "Apr 12, 2026", "lastUpdated": "", "summary": "Put the phone to your forehead, guess, let the fun begin!", "url": "https://play.google.com/store/apps/details?id=com.appliculture.tahmin_et", "reviewsByDay": [], "dpdHistory": [{"date": "2026-04-14", "dpd": 705, "installs": 1410}, {"date": "2026-04-15", "dpd": 760, "installs": 2282}, {"date": "2026-04-16", "dpd": 576, "installs": 2305}, {"date": "2026-04-17", "dpd": 282, "installs": 1410}, {"date": "2026-04-18", "dpd": 235, "installs": 1410}, {"date": "2026-04-19", "dpd": 230, "installs": 1611}, {"date": "2026-04-20", "dpd": 215, "installs": 1724}, {"date": "2026-04-21", "dpd": 201, "installs": 1812}, {"date": "2026-04-22", "dpd": 187, "installs": 1878}, {"date": "2026-04-23", "dpd": 176, "installs": 1945}, {"date": "2026-04-24", "dpd": 165, "installs": 1987}, {"date": "2026-04-25", "dpd": 152, "installs": 1987}, {"date": "2026-04-26", "dpd": 146, "installs": 2044}, {"date": "2026-05-05", "dpd": 125, "installs": 2878}, {"date": "2026-05-06", "dpd": 120, "installs": 2889}, {"date": "2026-05-07", "dpd": 115, "installs": 2889}], "trend": "stable", "dpd_prev": 120, "dpd_change_pct": -4, "isWatchlist": false}], "watchlist": []}
+{
+  "rockets": [
+    {
+      "id": "com.hottagames.nte",
+      "emoji": "🚀🔥",
+      "tag": "1M+",
+      "name": "NTE: Neverness to Everness",
+      "icon": "https://play-lh.googleusercontent.com/TGl3DdDbi4hty6ooOhEvv_2s5tkpGLbL6derP8y5hK-_Bw--Ve375b08ba9HHQ9ueRpoQ9oye1T_T24BJriLUmw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/kPbuoflxFoAfsbEZ8i0Lqh10vDPJg_LQuCSFG4oXG7ykpAPgSsXi_Ueur-2ooH6XLcuenEfVn3McVzFy2Q3jbg=w300",
+        "https://play-lh.googleusercontent.com/Qc_PMUG7Q_DZ8JBnpsh35bRvWCR1Vv8072YS8auuVS5hwxIOfr46vLFWGhEMWIQkcu5XLS36P6CBOUKfkm6R=w300",
+        "https://play-lh.googleusercontent.com/-_P-VM4GErmXcU29MXqQFnmhch1jicCCGKBriTf5Dt7ertrqfKP2uPyt135WDsNKXeAu8iQSK5GCjDZ0UBzjlA=w300",
+        "https://play-lh.googleusercontent.com/3ytgnH8NdbUDrjJpfxY1QToBf2oISCPWSZPRERdNmnspeSCkDQ61fUz-rnZfR9fznBzVUCQQtAqyar5319tlXws=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "N2E",
+      "downloads": "1,000,000+",
+      "realInstalls": 3980244,
+      "realInstallsStr": "4.0M",
+      "perDay": 306172,
+      "days": 13,
+      "score": 4.2,
+      "ratings": 37683,
+      "ratingsStr": "37K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Apr 24, 2026",
+      "lastUpdated": "",
+      "summary": "Hunt Anomalies. Roam the City. Own Every Moment.",
+      "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-05-05",
+          "dpd": 359707,
+          "installs": 3956785
+        },
+        {
+          "date": "2026-05-06",
+          "dpd": 330860,
+          "installs": 3970325
+        },
+        {
+          "date": "2026-05-07",
+          "dpd": 306172,
+          "installs": 3980244
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 330860,
+      "dpd_change_pct": -7,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.ptg.bridal.dressup.wedding.makeup.games",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Bridal Dress up Wedding Makeup",
+      "icon": "https://play-lh.googleusercontent.com/oM4XgCvaZLsgaSa8pVV5roCJ_gDRF0L7Y7KYYskfQ922TAcE1E5lNqLASx0X_D7QnKu1",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/q_MbE_C98QEQbPifHBoQMksxjYvi9F-ELZCUq4teVyEVrxqZSP_u6DtCE63Xw5OK403HoWvY1DjCSXCSq-64E3g=w300",
+        "https://play-lh.googleusercontent.com/xcjsZlrpBeiXmUWMKx-CYPNnyHDhhgt_hBrkpFx0xnoCCxwrNCkVhQz8m2xLpoSeBDN-Z8dwIUFD8J6_DT0e=w300",
+        "https://play-lh.googleusercontent.com/wGXjPEA0NxOuMTXykFE7w2DQ_ky8Bk8_RueZIeIpAmTgE9F7FlfWEWxfJ1Lbj8JNMgA=w300",
+        "https://play-lh.googleusercontent.com/qwBG_JCNrM509IDvy96EAtIiAygh_Am1w5D1NI4EvN-3cZAz3ejc76N4hUGlUk8VcQar-VH8Qwvx7FwbIr7rIj4=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "PlayTime Global",
+      "downloads": "500,000+",
+      "realInstalls": 849994,
+      "realInstallsStr": "850K",
+      "perDay": 77272,
+      "days": 11,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Apr 26, 2026",
+      "lastUpdated": "Apr 30, 2026",
+      "summary": "Enjoy bridal dress up and wedding makeup in a stylish Indian wedding games!",
+      "url": "https://play.google.com/store/apps/details?id=com.ptg.bridal.dressup.wedding.makeup.games",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-05-05",
+          "dpd": 94391,
+          "installs": 849519
+        },
+        {
+          "date": "2026-05-06",
+          "dpd": 84999,
+          "installs": 849994
+        },
+        {
+          "date": "2026-05-07",
+          "dpd": 77272,
+          "installs": 849994
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 84999,
+      "dpd_change_pct": -9,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.tfv.line.drawing.games.allinone",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Line Drawing Puzzle-Mini Games",
+      "icon": "https://play-lh.googleusercontent.com/tgzmxpqw9EFV3p4l6AS4IldTvt2SnpMZ9ZBEAn9y0rnfcL2ZnuKpOBXggL2Qo5peJ3_ARBM5D3yeDp_d46ZFDQ",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/Ba_GpqIthMDXTzfNT3Am1gBdUtnDDtSHJl8vNN6xKtOe9_pv1jC_arBp0iTCaT7SqJwMBO-P975smHGwLXhc1w=w300",
+        "https://play-lh.googleusercontent.com/yC0Wj5O4m8-jgB1KyrF8UKAMWiSgxN0KuGsnUWjnDIhww4e0YbBDulsrS7oQewDCZyxfK2OaTK3pztSqY_s4vQ=w300",
+        "https://play-lh.googleusercontent.com/i1RxcxsNnqhV-U0DwORLQcS1upgb4JHI3iqc5TNfsxOji-VJwzZU7b_IB1tv3eqluzH_Jv7EGs-2Thf-z1Sb=w300",
+        "https://play-lh.googleusercontent.com/hJmDCzWHwaAuhmdIS31x_fIyEM4FFCy9WsJNRlrcbMmTbLfgZq5zZB0hQ0H2zTNOTlp_Rw7emEA5VH3aVYqkVSk=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "The Fashion Valley",
+      "downloads": "500,000+",
+      "realInstalls": 505589,
+      "realInstallsStr": "506K",
+      "perDay": 72227,
+      "days": 7,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Apr 30, 2026",
+      "lastUpdated": "Apr 30, 2026",
+      "summary": "Draw One Part, Block Fill Puzzle, One Line Draw and many more line drawing games",
+      "url": "https://play.google.com/store/apps/details?id=com.tfv.line.drawing.games.allinone",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-05-05",
+          "dpd": 99743,
+          "installs": 498715
+        },
+        {
+          "date": "2026-05-06",
+          "dpd": 83298,
+          "installs": 499790
+        },
+        {
+          "date": "2026-05-07",
+          "dpd": 72227,
+          "installs": 505589
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 83298,
+      "dpd_change_pct": -13,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.batcave.farming.simulator.game",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Farm Simulator 3D Farm Life 25",
+      "icon": "https://play-lh.googleusercontent.com/nTFXHGfkMmSRucWKIdy0oqODWL-9E5oYosJXkvwx3yoST_V4Ft4933fu92uOhTXuDhEiEOlbfByatgCVXhSO3RA",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/1eRUbEoItOXDhe6fLmzq__v7rXiK0NRuo6kbuOaMVfxlzn4ZzkFKgizXJJaZ1UUDjmGv=w300",
+        "https://play-lh.googleusercontent.com/yeAlIh98tGEpM3u7BQ5lA_SynCE4fgrUf_-hQkX5Dyv9dpYIwiAM8sum59l5KDag1g=w300",
+        "https://play-lh.googleusercontent.com/wdtxiJ_CaUsZjjcQ6dVQEMA3gUXKilbloe6lYsFVUIc6qcGE2a8LLfKAZRM0zmfXqY8=w300",
+        "https://play-lh.googleusercontent.com/j-Shk8XU6YXPUnbidkp3D8JyecVyh4f3mYGf7-vzzKQB60JBQaUWVaXF_L63KVYNJwk=w300"
+      ],
+      "genre": "Simulation",
+      "developer": "Bat Cave Studio",
+      "downloads": "500,000+",
+      "realInstalls": 757478,
+      "realInstallsStr": "757K",
+      "perDay": 50498,
+      "days": 15,
+      "score": 2.8,
+      "ratings": 255,
+      "ratingsStr": "255",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Apr 22, 2026",
+      "lastUpdated": "Apr 22, 2026",
+      "summary": "Enjoy farming simulator to grow and learn ultimate farming life simulator game",
+      "url": "https://play.google.com/store/apps/details?id=com.batcave.farming.simulator.game",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-04-23",
+          "dpd": 487982,
+          "installs": 487982
+        },
+        {
+          "date": "2026-04-24",
+          "dpd": 257152,
+          "installs": 514304
+        },
+        {
+          "date": "2026-04-25",
+          "dpd": 180618,
+          "installs": 541854
+        },
+        {
+          "date": "2026-04-26",
+          "dpd": 135463,
+          "installs": 541854
+        },
+        {
+          "date": "2026-05-05",
+          "dpd": 58179,
+          "installs": 756339
+        },
+        {
+          "date": "2026-05-06",
+          "dpd": 54105,
+          "installs": 757478
+        },
+        {
+          "date": "2026-05-07",
+          "dpd": 50498,
+          "installs": 757478
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 54105,
+      "dpd_change_pct": -7,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.eb.railway.construction.game",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Heavy Construction JCB Sim 3D",
+      "icon": "https://play-lh.googleusercontent.com/xVtN-snqrk07lEQfZZMMOJgpc9H92aeeHVVcLAZH4Mv1pe66_e8Taa2-HX2CWKKj5gM",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/7BO2LKDT7I8jA4ylLXEkrhQuN3WndJdt_looBYVdeqV33RV76KGTsbhCGpmFiBIoS2pHcWHLZuO_LstzRm5ybE8=w300",
+        "https://play-lh.googleusercontent.com/YuoDnsOK2IUGw2oRfcwrnGcNzjKVGZjX2FrPCLDjmjVjO9wyktvQ8Y4A-UePM4VPlyVAbi8bqjK8Q3C21qF268Q=w300",
+        "https://play-lh.googleusercontent.com/T_w4bBJcoJloW1rK9j_iMyAoeaZURe7GOpg2hSJGxUydFOa0Ro9JC0_kIHCSr9-4uhd5LZdRDXofd8levRh6=w300",
+        "https://play-lh.googleusercontent.com/HjJz3o1kBJXmVfquAGmSYNedaxQGmZhD8Wn5Ug392yatYj6TvbdyGyBUV4N-gA_bDEXdHWt5kMMRXsC5e00SYQ=w300"
+      ],
+      "genre": "Strategy",
+      "developer": "Ecno Byte",
+      "downloads": "100,000+",
+      "realInstalls": 200160,
+      "realInstallsStr": "200K",
+      "perDay": 10008,
+      "days": 20,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Apr 17, 2026",
+      "lastUpdated": "",
+      "summary": "Drive jcb and make the railway, bridge,and road in this construction game",
+      "url": "https://play.google.com/store/apps/details?id=com.eb.railway.construction.game",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-05-05",
+          "dpd": 11114,
+          "installs": 200061
+        },
+        {
+          "date": "2026-05-06",
+          "dpd": 10534,
+          "installs": 200160
+        },
+        {
+          "date": "2026-05-07",
+          "dpd": 10008,
+          "installs": 200160
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 10534,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.brain.tricky.puzzle.games.test.quest",
+      "emoji": "📈",
+      "tag": "50K+ УСТАНОВОК",
+      "name": "Brain Riddle: Tricky Box",
+      "icon": "https://play-lh.googleusercontent.com/jaoowwLNpYZiC89fL9iw2XxDEEH1CMBDjoacDhX31KaSTItlUyA26GM-Eb1bUW_eSegFkg2SMJY6D0WsdHRPYzE",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/eGXvDBgTvGlkVgNafRpuo_1k99YgxlCVrdOtlNz6k-nW4NOX_QI4qzdXiCOJ218mrpzBKAcxP7yqp6pmLFcv=w300",
+        "https://play-lh.googleusercontent.com/Zjz8UIwtdpW8YnLfF7DeK21D9JJbksEZOsWoh1Ifk-NBdSNq8nfHi7-JuakDVo1vAgs6-jWgb5M7C7JPUHA=w300",
+        "https://play-lh.googleusercontent.com/oecuTa7Al9yEizRWbyTWJ2AvAbiJhlOPXaiXHshrpDqQ-7_UdMKFz27rBpDLJ2TJBJtznXwroM__-1sFhsfLb38=w300",
+        "https://play-lh.googleusercontent.com/mxSKFiroPmkrCSTGWsVbJZvYUqHX0XHLEEXPG_F8lmWCvQUjw_AWH5OIPjIJKq6F9oQbCnEIkH9Ngcdxrd_p4KA=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Brainteaser Puzzle Game Studio",
+      "downloads": "50,000+",
+      "realInstalls": 70288,
+      "realInstallsStr": "70K",
+      "perDay": 3347,
+      "days": 21,
+      "score": 4.8,
+      "ratings": 199,
+      "ratingsStr": "199",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Apr 16, 2026",
+      "lastUpdated": "Apr 29, 2026",
+      "summary": "Tricky brain puzzles & funny riddles! Test your IQ in Boxy's brain puzzle world.",
+      "url": "https://play.google.com/store/apps/details?id=com.brain.tricky.puzzle.games.test.quest",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-04-25",
+          "dpd": 2475,
+          "installs": 22282
+        },
+        {
+          "date": "2026-04-26",
+          "dpd": 2502,
+          "installs": 25020
+        },
+        {
+          "date": "2026-05-05",
+          "dpd": 3175,
+          "installs": 60327
+        },
+        {
+          "date": "2026-05-06",
+          "dpd": 3028,
+          "installs": 60572
+        },
+        {
+          "date": "2026-05-07",
+          "dpd": 3347,
+          "installs": 70288
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 3028,
+      "dpd_change_pct": 11,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.silkstroke.serpent.fun",
+      "emoji": "📈",
+      "tag": "НОВИНКА",
+      "name": "Silkstroke Serpent",
+      "icon": "https://play-lh.googleusercontent.com/pFtQKqQNvZIEi0fqt8ojBHD4lyqMD_6m1opZkD12nNX1drlQB4nIrO_zLps3yT0u3a0LCTM23Fa8sug9Q5Ce",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/Xl-EsMuumjrdY-Lg_TIfsej6zA8SLhl4po8mqrmdlWpYM2VHiSAaoCC6uD1Uju3uU6gWo4N2V1tVnrdObiX4=w300",
+        "https://play-lh.googleusercontent.com/fE60HB9NvBARowL22lXaOICX_hk09os2GNi1Fwc-2Uhxt3RfEsgfoOJztExWhtlmnNNLPVAfoSkcpyvAMMP5xw=w300",
+        "https://play-lh.googleusercontent.com/2bvNV8mOC5FIfo6GocwoRpLTiLvdzVcZ1nL017UXZYiDJwqKA3qYmYTMkVLg0EFhQeWvVWkRd7j3LRBMtlec7Q=w300",
+        "https://play-lh.googleusercontent.com/0wWjQSfZAjXJCcwAvzA2oI3D-CIzso8t2aAuANcz3b3PH2COap79p8lZBnv0BHv8OIaaar_r2yxzhmsQwJJ4d74=w300"
+      ],
+      "genre": "Casual",
+      "developer": "DTYF CO., LIMITED",
+      "downloads": "10,000+",
+      "realInstalls": 11160,
+      "realInstallsStr": "11K",
+      "perDay": 797,
+      "days": 14,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Apr 23, 2026",
+      "lastUpdated": "",
+      "summary": "Ink-wash pixel snake: swipe, collect seals, and chase high scores.",
+      "url": "https://play.google.com/store/apps/details?id=com.silkstroke.serpent.fun",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-05-07",
+          "dpd": 797,
+          "installs": 11160
+        }
+      ],
+      "trend": "new",
+      "dpd_prev": 0,
+      "dpd_change_pct": 0,
+      "isWatchlist": false
+    }
+  ],
+  "watchlist": []
+}
