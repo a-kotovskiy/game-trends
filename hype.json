@@ -18,15 +18,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=2.0M",
-      "channel_avg_vpd": 1700000
+      "channel_avg_vpd": 1733333
     },
     {
       "id": "Z99ncqZngkM",
       "title": "i just realized there's no words that rhyme with sulfur",
-      "views": 4200000,
-      "views_str": "4.2M",
-      "vpd": 1400000,
-      "vpd_str": "1.4M",
+      "views": 4400000,
+      "views_str": "4.4M",
+      "vpd": 1466666,
+      "vpd_str": "1.5M",
       "age_days": 3,
       "upload_date": "20260506",
       "duration": 28,
@@ -37,16 +37,16 @@
       "thumb": "https://img.youtube.com/vi/Z99ncqZngkM/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=1.4M",
-      "channel_avg_vpd": 1700000
+      "reason": "vpd=1.5M",
+      "channel_avg_vpd": 1733333
     },
     {
       "id": "fiHaU_WywTA",
       "title": "😂THE DEVELOPER FORGOT EVERYTHING IN 99 NIGHTS IN THE WOODS IN ROBLOX!",
-      "views": 1000000,
-      "views_str": "1.0M",
-      "vpd": 1000000,
-      "vpd_str": "1.0M",
+      "views": 1300000,
+      "views_str": "1.3M",
+      "vpd": 1300000,
+      "vpd_str": "1.3M",
       "age_days": 1,
       "upload_date": "20260508",
       "duration": 12,
@@ -57,16 +57,16 @@
       "thumb": "https://img.youtube.com/vi/fiHaU_WywTA/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=1.0M",
-      "channel_avg_vpd": 683333
+      "reason": "vpd=1.3M",
+      "channel_avg_vpd": 833333
     },
     {
       "id": "1Eq6JB0fjW4",
       "title": "gifting new pc to a fan",
-      "views": 783000,
-      "views_str": "783K",
-      "vpd": 783000,
-      "vpd_str": "783K",
+      "views": 1200000,
+      "views_str": "1.2M",
+      "vpd": 1200000,
+      "vpd_str": "1.2M",
       "age_days": 1,
       "upload_date": "20260508",
       "duration": 56,
@@ -77,8 +77,8 @@
       "thumb": "https://img.youtube.com/vi/1Eq6JB0fjW4/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=783K",
-      "channel_avg_vpd": 641500
+      "reason": "vpd=1.2M",
+      "channel_avg_vpd": 850000
     },
     {
       "id": "oD7jYbeRAio",
@@ -101,32 +101,52 @@
       "channel_avg_vpd": 727272
     },
     {
-      "id": "ckLXOZ5po-0",
-      "title": "ОТКРЫТИЕ ПРИЗ ХАОСОВ В БРАВЛ СТАРС/BRAWL START #brawlstars #бравлстарс",
-      "views": 4100000,
-      "views_str": "4.1M",
-      "vpd": 512500,
-      "vpd_str": "512K",
-      "age_days": 8,
-      "upload_date": "20260501",
-      "duration": 97,
-      "kind": "Video",
-      "channel": "EroxBlox",
-      "channel_id": "UCMDSzea8f4CC53mZC3ViZug",
-      "url": "https://youtu.be/ckLXOZ5po-0",
-      "thumb": "https://img.youtube.com/vi/ckLXOZ5po-0/mqdefault.jpg",
+      "id": "Urvul4zdnao",
+      "title": "КВИНКА СТАЛА БРАВЛСТАРСЕРШЕЙ😱РОБЛОКС В ПРОШЛОМ🥺Или нет🤔До конца😂#роблокс #игры #смешное #квинка",
+      "views": 713000,
+      "views_str": "713K",
+      "vpd": 713000,
+      "vpd_str": "713K",
+      "age_days": 1,
+      "upload_date": "20260508",
+      "duration": 59,
+      "kind": "Short",
+      "channel": "i_roblox_queen (Квинка)",
+      "channel_id": "UC6HKWohA11bBbyob7ieP-0g",
+      "url": "https://youtu.be/Urvul4zdnao",
+      "thumb": "https://img.youtube.com/vi/Urvul4zdnao/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=512K",
-      "channel_avg_vpd": 512500
+      "reason": "vpd=713K",
+      "channel_avg_vpd": 416166
+    },
+    {
+      "id": "q7Mdlm1KiIE",
+      "title": "AURA MOMENT IN BRAWL STARS💀",
+      "views": 609000,
+      "views_str": "609K",
+      "vpd": 609000,
+      "vpd_str": "609K",
+      "age_days": 1,
+      "upload_date": "20260508",
+      "duration": 51,
+      "kind": "Short",
+      "channel": "Holy Baam",
+      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
+      "url": "https://youtu.be/q7Mdlm1KiIE",
+      "thumb": "https://img.youtube.com/vi/q7Mdlm1KiIE/mqdefault.jpg",
+      "grade": "🔥🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=609K",
+      "channel_avg_vpd": 336000
     },
     {
       "id": "yWB_vjBZUNk",
       "title": "Minecraft Sounds 2012 vs. 2026 😱 #shorts",
-      "views": 2000000,
-      "views_str": "2.0M",
-      "vpd": 500000,
-      "vpd_str": "500K",
+      "views": 2100000,
+      "views_str": "2.1M",
+      "vpd": 525000,
+      "vpd_str": "525K",
       "age_days": 4,
       "upload_date": "20260505",
       "duration": 41,
@@ -137,8 +157,28 @@
       "thumb": "https://img.youtube.com/vi/yWB_vjBZUNk/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=500K",
-      "channel_avg_vpd": 500000
+      "reason": "vpd=525K",
+      "channel_avg_vpd": 525000
+    },
+    {
+      "id": "ckLXOZ5po-0",
+      "title": "ОТКРЫТИЕ ПРИЗ ХАОСОВ В БРАВЛ СТАРС/BRAWL START #brawlstars #бравлстарс",
+      "views": 4200000,
+      "views_str": "4.2M",
+      "vpd": 525000,
+      "vpd_str": "525K",
+      "age_days": 8,
+      "upload_date": "20260501",
+      "duration": 97,
+      "kind": "Video",
+      "channel": "EroxBlox",
+      "channel_id": "UCMDSzea8f4CC53mZC3ViZug",
+      "url": "https://youtu.be/ckLXOZ5po-0",
+      "thumb": "https://img.youtube.com/vi/ckLXOZ5po-0/mqdefault.jpg",
+      "grade": "🔥🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=525K",
+      "channel_avg_vpd": 525000
     },
     {
       "id": "AQawHODuX_U",
@@ -158,35 +198,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=500K",
-      "channel_avg_vpd": 641500
-    },
-    {
-      "id": "Urvul4zdnao",
-      "title": "КВИНКА СТАЛА БРАВЛСТАРСЕРШЕЙ😱РОБЛОКС В ПРОШЛОМ🥺Или нет🤔До конца😂#роблокс #игры #смешное #квинка",
-      "views": 457000,
-      "views_str": "457K",
-      "vpd": 457000,
-      "vpd_str": "457K",
-      "age_days": 1,
-      "upload_date": "20260508",
-      "duration": 59,
-      "kind": "Short",
-      "channel": "i_roblox_queen (Квинка)",
-      "channel_id": "UC6HKWohA11bBbyob7ieP-0g",
-      "url": "https://youtu.be/Urvul4zdnao",
-      "thumb": "https://img.youtube.com/vi/Urvul4zdnao/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=457K",
-      "channel_avg_vpd": 311833
+      "channel_avg_vpd": 850000
     },
     {
       "id": "w-0ytbU4dts",
       "title": "3д принтер это офигенно! #3d #глент",
-      "views": 7600000,
-      "views_str": "7.6M",
-      "vpd": 400000,
-      "vpd_str": "400K",
+      "views": 7700000,
+      "views_str": "7.7M",
+      "vpd": 405263,
+      "vpd_str": "405K",
       "age_days": 19,
       "upload_date": "20260420",
       "duration": 45,
@@ -197,28 +217,8 @@
       "thumb": "https://img.youtube.com/vi/w-0ytbU4dts/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=400K",
-      "channel_avg_vpd": 320000
-    },
-    {
-      "id": "q7Mdlm1KiIE",
-      "title": "AURA MOMENT IN BRAWL STARS💀",
-      "views": 392000,
-      "views_str": "392K",
-      "vpd": 392000,
-      "vpd_str": "392K",
-      "age_days": 1,
-      "upload_date": "20260508",
-      "duration": 51,
-      "kind": "Short",
-      "channel": "Holy Baam",
-      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
-      "url": "https://youtu.be/q7Mdlm1KiIE",
-      "thumb": "https://img.youtube.com/vi/q7Mdlm1KiIE/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=392K",
-      "channel_avg_vpd": 227000
+      "reason": "vpd=405K",
+      "channel_avg_vpd": 332631
     },
     {
       "id": "Q-i8FB6ATJs",
@@ -238,7 +238,7 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=367K",
-      "channel_avg_vpd": 683333
+      "channel_avg_vpd": 833333
     },
     {
       "id": "OAnSftuCpI8",
@@ -258,15 +258,15 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=347K",
-      "channel_avg_vpd": 302878
+      "channel_avg_vpd": 305151
     },
     {
       "id": "EeKlDUAJGZU",
       "title": "You Can’t Touch a Random Block in Minecraft!",
-      "views": 5700000,
-      "views_str": "5.7M",
-      "vpd": 259090,
-      "vpd_str": "259K",
+      "views": 5800000,
+      "views_str": "5.8M",
+      "vpd": 263636,
+      "vpd_str": "264K",
       "age_days": 22,
       "upload_date": "20260417",
       "duration": 57,
@@ -277,16 +277,16 @@
       "thumb": "https://img.youtube.com/vi/EeKlDUAJGZU/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=259K",
-      "channel_avg_vpd": 302878
+      "reason": "vpd=264K",
+      "channel_avg_vpd": 305151
     },
     {
       "id": "PVYtLnEeK4c",
       "title": "ЭТИ ПОСЫЛКИ СТОЯТ 5.000$! ОБЗОР ТОП 5 ВЕЩЕЙ #товары #посылки #глент #топ",
-      "views": 1200000,
-      "views_str": "1.2M",
-      "vpd": 240000,
-      "vpd_str": "240K",
+      "views": 1300000,
+      "views_str": "1.3M",
+      "vpd": 260000,
+      "vpd_str": "260K",
       "age_days": 5,
       "upload_date": "20260504",
       "duration": 60,
@@ -297,36 +297,16 @@
       "thumb": "https://img.youtube.com/vi/PVYtLnEeK4c/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=240K",
-      "channel_avg_vpd": 320000
-    },
-    {
-      "id": "PK0zO5m3t_k",
-      "title": "МУЖ УГАДЫВАЕТ БРАВЛЕРОВ😱КВИНКА ОБЪЯСНЯЕТ ХОЛИ БАМУ😂(до конца) #роблокс #игры #смешное #квинка",
-      "views": 1000000,
-      "views_str": "1.0M",
-      "vpd": 166666,
-      "vpd_str": "167K",
-      "age_days": 6,
-      "upload_date": "20260503",
-      "duration": 43,
-      "kind": "Short",
-      "channel": "i_roblox_queen (Квинка)",
-      "channel_id": "UC6HKWohA11bBbyob7ieP-0g",
-      "url": "https://youtu.be/PK0zO5m3t_k",
-      "thumb": "https://img.youtube.com/vi/PK0zO5m3t_k/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=167K",
-      "channel_avg_vpd": 311833
+      "reason": "vpd=260K",
+      "channel_avg_vpd": 332631
     },
     {
       "id": "qSwehy8ZTzg",
       "title": "im NOT going to be late 😭 #roblox #funny #memes #meme #gaming #trolling #comedy",
-      "views": 840000,
-      "views_str": "840K",
-      "vpd": 140000,
-      "vpd_str": "140K",
+      "views": 853000,
+      "views_str": "853K",
+      "vpd": 142166,
+      "vpd_str": "142K",
       "age_days": 6,
       "upload_date": "20260503",
       "duration": 8,
@@ -337,16 +317,36 @@
       "thumb": "https://img.youtube.com/vi/qSwehy8ZTzg/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=140K",
-      "channel_avg_vpd": 111500
+      "reason": "vpd=142K",
+      "channel_avg_vpd": 114208
+    },
+    {
+      "id": "D_LDf1cUWyU",
+      "title": "SASHKA STOLE QUINKIE'S SONG😱💔WHICH VERSION IS BETTER🤔You decide🥺(until the end)#roblox #games #fu...",
+      "views": 358000,
+      "views_str": "358K",
+      "vpd": 119333,
+      "vpd_str": "119K",
+      "age_days": 3,
+      "upload_date": "20260506",
+      "duration": 43,
+      "kind": "Short",
+      "channel": "i_roblox_queen (Квинка)",
+      "channel_id": "UC6HKWohA11bBbyob7ieP-0g",
+      "url": "https://youtu.be/D_LDf1cUWyU",
+      "thumb": "https://img.youtube.com/vi/D_LDf1cUWyU/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=119K",
+      "channel_avg_vpd": 416166
     },
     {
       "id": "_dumxKnObVI",
       "title": "trolling as parrots on roblox voice chat 🦜😂 #roblox #funny #trolling #memes #meme #gaming",
-      "views": 332000,
-      "views_str": "332K",
-      "vpd": 83000,
-      "vpd_str": "83K",
+      "views": 345000,
+      "views_str": "345K",
+      "vpd": 86250,
+      "vpd_str": "86K",
       "age_days": 4,
       "upload_date": "20260505",
       "duration": 43,
@@ -357,16 +357,16 @@
       "thumb": "https://img.youtube.com/vi/_dumxKnObVI/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=83K",
-      "channel_avg_vpd": 111500
+      "reason": "vpd=86K",
+      "channel_avg_vpd": 114208
     },
     {
       "id": "uLlkW2v0Vko",
       "title": "WIFE GUESSES THE CHARACTERS FROM THE OSD",
-      "views": 372000,
-      "views_str": "372K",
-      "vpd": 62000,
-      "vpd_str": "62K",
+      "views": 378000,
+      "views_str": "378K",
+      "vpd": 63000,
+      "vpd_str": "63K",
       "age_days": 6,
       "upload_date": "20260503",
       "duration": 49,
@@ -377,8 +377,32 @@
       "thumb": "https://img.youtube.com/vi/uLlkW2v0Vko/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=62K",
-      "channel_avg_vpd": 227000
+      "reason": "vpd=63K",
+      "channel_avg_vpd": 336000
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "ОН СТАЛ В 2 РАЗА БЫСТРЕЕ😨 СПИДРАН ЧЕЛЛЕНДЖ В ПОБЕГ ОТ БЛОГЕРА🏃‍♂️‍➡️",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/z0wYls9fsMk",
+      "thumb": "https://img.youtube.com/vi/z0wYls9fsMk/mqdefault.jpg",
+      "published": "2026-05-09T08:01:06+00:00",
+      "hype_score": 5,
+      "related_videos": 125,
+      "channel_count": 12,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -398,7 +422,7 @@
       "thumb": "https://img.youtube.com/vi/q7Mdlm1KiIE/mqdefault.jpg",
       "published": "2026-05-08T15:01:27+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 125,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -422,7 +446,7 @@
       "thumb": "https://img.youtube.com/vi/L0ogCkwVf2s/mqdefault.jpg",
       "published": "2026-05-08T14:00:39+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 125,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -439,14 +463,14 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/uGInXvkPph4",
       "thumb": "https://img.youtube.com/vi/uGInXvkPph4/mqdefault.jpg",
       "published": "2026-05-07T14:01:35+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 125,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -470,31 +494,7 @@
       "thumb": "https://img.youtube.com/vi/ThNsRfOL90I/mqdefault.jpg",
       "published": "2026-05-06T15:00:50+00:00",
       "hype_score": 5,
-      "related_videos": 123,
-      "channel_count": 12,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "СКАЧАЛ “ЧИТЫ” В ПОБЕГ ОТ БЛОГЕРА 😱 Я ПОЛУЧИЛ АДМИН ПАНЕЛЬ?!",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 2,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/6KKTNcclpIY",
-      "thumb": "https://img.youtube.com/vi/6KKTNcclpIY/mqdefault.jpg",
-      "published": "2026-05-06T14:00:08+00:00",
-      "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 125,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -1094,56 +1094,47 @@
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1073",
-      "tg_text": "🦠В ТикТок набирает популярность очередной нейро мем:«Брдыщ»💁‍♂️Хотя форс был еще в 2025 году, в этом году пришла вторая волна 🌊 ❓Вам попадались подобные мемы? 👍-До👎-No name meme",
-      "topic": "Брдыщ",
-      "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1078",
-      "tg_text": "💵 «Говорящий Доллар» Откуда мем? ♥️приятного просмотра 🙏Поддержите пожалуйста любой реакцией 👍16❤7🔥3🤮2❤‍🔥1🌚1💋1🤗1 713 views16:31",
+      "tg_text": "💵 «Говорящий Доллар» Откуда мем? ♥️приятного просмотра 🙏Поддержите пожалуйста любой реакцией 👍16❤7🔥3🤮2❤‍🔥1🌚1💋1🤗1 721 views16:31",
       "topic": "Говорящий Доллар",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1080",
-      "tg_text": "🦠В ТикТок набирает популярность очередной мем: «Я не хочу делать то, что я не хочу»❓Вам попадались подобные мемы?👍-Видел👎-Еще нет 👎60👍40❤2🤮2🔥1🌚1 704 views13:29",
+      "tg_text": "🦠В ТикТок набирает популярность очередной мем: «Я не хочу делать то, что я не хочу»❓Вам попадались подобные мемы?👍-Видел👎-Еще нет 👎60👍41❤2🤮2🔥1🌚1 720 views13:29",
       "topic": "Я не хочу делать то, что я не хочу",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1082",
-      "tg_text": "🦠В ТикТок хорошо вирусится мем со звуком:⛰️«Гора Эверест»❓Хотите обзор на этот мем👍-Го👎-Но 👍41👎13😱1🤮1 632 views10:01",
+      "tg_text": "🦠В ТикТок хорошо вирусится мем со звуком:⛰️«Гора Эверест»❓Хотите обзор на этот мем👍-Го👎-Но 👍42👎13😱1🤮1 646 views10:01",
       "topic": "Гора Эверест",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1083",
-      "tg_text": "🦠В ТикТок набирает популярность мем из фильма «Жмурки»🥤🍟🍔«Колу, картошку и гамбургер» ❓Вам уже попадались подобные мемы? 👍-Видел(-а)👎-Нее 👎54👍5🔥1🤮1 623 views14:18",
+      "tg_text": "🦠В ТикТок набирает популярность мем из фильма «Жмурки»🥤🍟🍔«Колу, картошку и гамбургер» ❓Вам уже попадались подобные мемы? 👍-Видел(-а)👎-Нее 👎54👍6🔥1🤮1 680 views14:18",
       "topic": "Жмурки",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1084",
-      "tg_text": "🇺🇸В Англоязычном ТикТок пришла вторая волна мемов из мультфильма:🏠«Дом-монстр»(2006)💁‍♂️Герой мема персонаж по имени Реджинальд Скулински, который забавно кушает и убегает, что в принципе и стало поводом для различных мемов❓Вам нравится этот мем?👍-До👎Нит 👍34👎8🤮1🥱1 571 views06:02",
+      "tg_text": "🇺🇸В Англоязычном ТикТок пришла вторая волна мемов из мультфильма:🏠«Дом-монстр»(2006)💁‍♂️Герой мема персонаж по имени Реджинальд Скулински, который забавно кушает и убегает, что в принципе и стало поводом для различных мемов❓Вам нравится этот мем?👍-До👎Нит 👍34👎8🤮1🥱1 589 views06:02",
       "topic": "Дом-монстр",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
@@ -1152,25 +1143,25 @@
       "tg_text": "🇺🇸В Англоязычном ТикТок завирусился мем:🪄“Pure Aura Girl” («Девушка с чистой аурой»)💁‍♂️Это мем из стрима 2025 года от I show Speed где он спрашивает девушку, знает ли она его имя, а она отвечает «Даррен Уоткинс-младший» и пожимает плечами. 🙌Мем строится на том, что эта девушка максимально спокойная",
       "topic": "Девушка с чистой аурой",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1086",
-      "tg_text": "🍽️Стол заказов мемов:❓Про какой АКТУАЛЬНЫЙ мем рассказать?✍️Пишите, спасибо заранее♥️ ❤17👍1 543 views14:55",
+      "tg_text": "🍽️Стол заказов мемов:❓Про какой АКТУАЛЬНЫЙ мем рассказать?✍️Пишите, спасибо заранее♥️ ❤17👍1 560 views14:55",
       "topic": "рассказать",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1088",
-      "tg_text": "🦠В ТикТок достиг пика популярности нейро мем с песней:⛰️ «За горами, за лесами»❓Нравится данный мем? 👍-Да👎-Нет🔗Автор мемного трека: https://vm.tiktok.com/ZNRpE7qTY/ 👎41👍12🤮2🤔1🤣1 476 viewsedited &nbsp;11:07",
+      "tg_text": "🦠В ТикТок достиг пика популярности нейро мем с песней:⛰️ «За горами, за лесами»❓Нравится данный мем? 👍-Да👎-Нет🔗Автор мемного трека: https://vm.tiktok.com/ZNRpE7qTY/ 👎44👍13🤮2🤔1🤣1 508 viewsedited &nbsp;11:07",
       "topic": "За горами, за лесами",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
@@ -1179,25 +1170,25 @@
       "tg_text": "🦠В ТикТок набирает популярность очередной нейро мем с непонятным животным.💁‍♂️Первые упоминания были еще в 2025 году, мем называется: «Сёмга»❓Хотели бы обзор на данный мем? 👍-Обзор👎-Нет",
       "topic": "с непонятным животным",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1091",
-      "tg_text": "💭Обсуждение мема:«Покачану» 🦠В ТикТок набирает популярность данный мем.✍️Кто что знает, пишите в комментариях, буду благодарен любой информации, спасибо заранее♥️❓И вообще обзор надо? 👍-Го👎-Но 👍51👎3🤡1 474 views15:35",
+      "tg_text": "💭Обсуждение мема:«Покачану» 🦠В ТикТок набирает популярность данный мем.✍️Кто что знает, пишите в комментариях, буду благодарен любой информации, спасибо заранее♥️❓И вообще обзор надо? 👍-Го👎-Но 👍54👎3🤡1 511 views15:35",
       "topic": "Покачану",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1092",
-      "tg_text": "⛰️ «Гора Эверест»Откуда мем? ♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией 🔥11❤6👍1🤮1 488 viewsedited &nbsp;16:51",
+      "tg_text": "⛰️ «Гора Эверест»Откуда мем? ♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией 🔥11❤6👍1🤮1 543 viewsedited &nbsp;16:51",
       "topic": "Гора Эверест",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
@@ -1206,7 +1197,16 @@
       "tg_text": "🦠В Сети вирусится мем из фильма от Нетфликс под названием «Вершина»:💁‍♂️Герой мема главный антагонист, который и делает такие движения❓Вам попадались подобные мемы? 👍-Да👎-Нет",
       "topic": "Вершина",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1095",
+      "tg_text": "💭 Обсуждение мема:🦠 В TikTok уже не первый день вирусится мем:🍕 «25&#036; за пиццу» 🍕💁‍♂️ Пользователи делают разные мемы.❓ У кого есть какая-либо информация по данному мему?✍️ Пишите в комментариях.И вообще, нужен обзор?👍 — Обзор👎 —Нее",
+      "topic": "25&#036; за пиццу",
+      "youtube_videos": [],
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
@@ -1215,7 +1215,7 @@
       "tg_text": "Мем с пингвином-нигилистом настаивался годами и наконец достиг прайма. Добро пожаловать в 2026 годhttps://memepedia.ru/pingvin-idet-k-gore/ ❤43😢22😱5😁1💩1 7.52K views11:00",
       "topic": "с пингвином-нигилистом настаивался годам",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
@@ -1224,7 +1224,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁48👎11❤3👍3 8.14K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
@@ -1233,7 +1233,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     },
     {
       "source": "tg_signal",
@@ -1242,7 +1242,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-05-09 00:21"
+      "detected_at": "2026-05-09 07:23"
     }
   ]
 }
