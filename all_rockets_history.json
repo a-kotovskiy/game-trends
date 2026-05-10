@@ -40215,7 +40215,7 @@
     "url": "https://play.google.com/store/apps/details?id=dress.up.fashion.makeup.style.makeover.girl.rebel.queen",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-10",
-    "peak_dpd": 24927,
+    "peak_dpd": 29686,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -40944,7 +40944,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.bb.football.soccer.league",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-10",
-    "peak_dpd": 1936,
+    "peak_dpd": 2811,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -41411,7 +41411,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.apnabankshop.soda",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-10",
-    "peak_dpd": 2337,
+    "peak_dpd": 2842,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -41724,7 +41724,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.tidefoldqwe.puzzlezxcvasd",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-10",
-    "peak_dpd": 1350,
+    "peak_dpd": 2973,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -42687,7 +42687,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.lazyastronaut.AngryNeighbor3",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-10",
-    "peak_dpd": 502,
+    "peak_dpd": 548,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -43681,7 +43681,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.yg.gorilla.sim",
     "first_seen": "2026-05-06",
     "last_seen": "2026-05-10",
-    "peak_dpd": 1572,
+    "peak_dpd": 2117,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -44983,8 +44983,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.amazingstair.runstair",
     "first_seen": "2026-05-09",
     "last_seen": "2026-05-10",
-    "peak_dpd": 418,
-    "peak_date": "2026-05-09",
+    "peak_dpd": 699,
+    "peak_date": "2026-05-10",
     "history": [
       {
         "date": "2026-05-09",
@@ -45177,7 +45177,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.vibetap.rhythm.mnbvcx",
     "first_seen": "2026-05-09",
     "last_seen": "2026-05-10",
-    "peak_dpd": 409,
+    "peak_dpd": 566,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -45227,7 +45227,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.vortextap.gameoeggu",
     "first_seen": "2026-05-09",
     "last_seen": "2026-05-10",
-    "peak_dpd": 417,
+    "peak_dpd": 504,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -45327,8 +45327,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.uemaist.reprove",
     "first_seen": "2026-05-09",
     "last_seen": "2026-05-10",
-    "peak_dpd": 563,
-    "peak_date": "2026-05-09",
+    "peak_dpd": 959,
+    "peak_date": "2026-05-10",
     "history": [
       {
         "date": "2026-05-09",
@@ -45377,8 +45377,8 @@
     "url": "https://play.google.com/store/apps/details?id=net.pixelrabbit.jh2",
     "first_seen": "2026-05-09",
     "last_seen": "2026-05-10",
-    "peak_dpd": 3651,
-    "peak_date": "2026-05-09",
+    "peak_dpd": 10767,
+    "peak_date": "2026-05-10",
     "history": [
       {
         "date": "2026-05-09",
@@ -45440,7 +45440,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.gamovation.wordtiles",
     "first_seen": "2026-05-10",
     "last_seen": "2026-05-10",
-    "peak_dpd": 580,
+    "peak_dpd": 864,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -45478,7 +45478,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.dg.brush.cat",
     "first_seen": "2026-05-10",
     "last_seen": "2026-05-10",
-    "peak_dpd": 337,
+    "peak_dpd": 1182,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -45535,7 +45535,7 @@
     "url": "https://play.google.com/store/apps/details?id=org.jnp.kfno.jkyoa",
     "first_seen": "2026-05-10",
     "last_seen": "2026-05-10",
-    "peak_dpd": 315,
+    "peak_dpd": 421,
     "peak_date": "2026-05-10",
     "history": [
       {
@@ -45600,6 +45600,234 @@
         "installs": 8186,
         "dpd": 303,
         "score": 5
+      }
+    ]
+  },
+  "com.onemb.shadowborn": {
+    "id": "com.onemb.shadowborn",
+    "name": "Shadowborn",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/M_WIs6F9Sho0PgSZP79e6bmOp4cJKrx41hFeEfwbgyEnEfMF9aZfARF4WZhHss52lA55lwhcETXlyMIiZDZDXVs",
+    "url": "https://play.google.com/store/apps/details?id=com.onemb.shadowborn",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 271636,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 814910,
+        "dpd": 271636,
+        "score": 4.8
+      }
+    ]
+  },
+  "com.ygtech.tod": {
+    "id": "com.ygtech.tod",
+    "name": "Kingdom of Desert",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/CyOodqqHnotwDWOFjpMKCJOnq7AFawg2i29BGBIaR7gGM6m5cbaQk9dREqDIKvELA8RQnEgf31EK-ElCu8Cj6w",
+    "url": "https://play.google.com/store/apps/details?id=com.ygtech.tod",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 138374,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 553498,
+        "dpd": 138374,
+        "score": 0
+      }
+    ]
+  },
+  "com.piano.music.rhythm.tiles.games": {
+    "id": "com.piano.music.rhythm.tiles.games",
+    "name": "Rhythm Tiles：Pop Songs",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/37AfBr9dajP_6Hd8xi3O6d98Xq8UuzuWrDeZk1bS2QbkWPHzzNu4Uz9mbl32GwX5J92C-83z_qRBTp-4ccXsqg",
+    "url": "https://play.google.com/store/apps/details?id=com.piano.music.rhythm.tiles.games",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 131300,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 525200,
+        "dpd": 131300,
+        "score": 4.3
+      }
+    ]
+  },
+  "com.slg.policewar": {
+    "id": "com.slg.policewar",
+    "name": "Police Chief",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/w33GZBYhYKwUwUzkNcIcw-EruqdrCciVN5UhCmyn1Z8BDGLDyKeqBrU8IXVKz6P1R5tX1NT6H2sX75YADW4Lug",
+    "url": "https://play.google.com/store/apps/details?id=com.slg.policewar",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 40094,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 160376,
+        "dpd": 40094,
+        "score": 4.7
+      }
+    ]
+  },
+  "com.suncity.game": {
+    "id": "com.suncity.game",
+    "name": "SunCity: Role Play Online",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/j-GACsZ0o_9RdUdA2aUcj6jEu4ABYGEFdJqqrLJHuXUUNmcmwqrsOeYRoaIcEqjKpTyUA7A3RPk9wUVr_KCchA",
+    "url": "https://play.google.com/store/apps/details?id=com.suncity.game",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 5079,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 20317,
+        "dpd": 5079,
+        "score": 3.4
+      }
+    ]
+  },
+  "com.m2en.and": {
+    "id": "com.m2en.and",
+    "name": "Astral:New Fantasy",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/ryB5GcDj0i9fCKyRgWkMhE9x2yf7PddJuuSzTXbWqVtQoDeXzpbEHJvxjNH487BnvkuEeqg2aKwPzeWSe-SJ",
+    "url": "https://play.google.com/store/apps/details?id=com.m2en.and",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 1132,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 14724,
+        "dpd": 1132,
+        "score": 4.6
+      }
+    ]
+  },
+  "com.wave.link10": {
+    "id": "com.wave.link10",
+    "name": "Wave Link",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/sftI-lcFBG7nKzZ-rWu7C5_HNIodE555znrGpYatKee_6Dl3vbQFk5S_Dgb0ihv9nTcRRaIUY7I0AvGu0mSYA9g",
+    "url": "https://play.google.com/store/apps/details?id=com.wave.link10",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 789,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 10264,
+        "dpd": 789,
+        "score": 0
+      }
+    ]
+  },
+  "com.signal.path8": {
+    "id": "com.signal.path8",
+    "name": "Signal Path",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/TKFIvEBSksqOm3nvyR_9rOLsJtKnl7zis8LReuRZxZLlTe9EZ-bF5MuZDp7n3kulS1bKVQQhugaTpEM2SPJNt60",
+    "url": "https://play.google.com/store/apps/details?id=com.signal.path8",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 518,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 6744,
+        "dpd": 518,
+        "score": 0
+      }
+    ]
+  },
+  "com.PoxelStudios.Cros": {
+    "id": "com.PoxelStudios.Cros",
+    "name": "Volcano Drop",
+    "genre": "Аркады",
+    "icon": "https://play-lh.googleusercontent.com/N7A6SWEILRMAE8PqrUJs6ko9ge4fnFG0K7tCbwxkLEuesAhETtJN1FU3Q21MLIEo0sMp6euG63BXwqYaCwjzsk0",
+    "url": "https://play.google.com/store/apps/details?id=com.PoxelStudios.Cros",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 417,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 11267,
+        "dpd": 417,
+        "score": 0
+      }
+    ]
+  },
+  "com.tzero.seventyfive.waterrr.gp": {
+    "id": "com.tzero.seventyfive.waterrr.gp",
+    "name": "Water Sort Dream",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/ZQYl47-cOWK2dC1PxXLwAlLvZ1A1-F84JUK0slVRfhdioltU-wBnu_x_VAr2QUevtf2oaebHWatlkifgtQh4",
+    "url": "https://play.google.com/store/apps/details?id=com.tzero.seventyfive.waterrr.gp",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 403,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 6448,
+        "dpd": 403,
+        "score": 2.6
+      }
+    ]
+  },
+  "com.orbitmerge.puzzle.dxqyzt": {
+    "id": "com.orbitmerge.puzzle.dxqyzt",
+    "name": "OrbitMerge",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/S1vC6p49ekY7BOrUOyWWe8Os8yI_NuridWnn4UjIQsSTyrRXowRUcDTs2L9-7-Reqzy-0aZ6O5yJgVVIHVh3",
+    "url": "https://play.google.com/store/apps/details?id=com.orbitmerge.puzzle.dxqyzt",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 375,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 6001,
+        "dpd": 375,
+        "score": 0
+      }
+    ]
+  },
+  "net.waystargames.crossword.zen.word": {
+    "id": "net.waystargames.crossword.zen.word",
+    "name": "Words of Zen: Crossword",
+    "genre": "Word",
+    "icon": "https://play-lh.googleusercontent.com/aJN36gjSOIkmSEsU7BTc-V2hFhF8ARCNz1i8tslHYUeq5zQCKO_uUhtXYJCWt7vd5A-qJliRFHmeHZT4WE6m",
+    "url": "https://play.google.com/store/apps/details?id=net.waystargames.crossword.zen.word",
+    "first_seen": "2026-05-10",
+    "last_seen": "2026-05-10",
+    "peak_dpd": 312,
+    "peak_date": "2026-05-10",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "installs": 5633,
+        "dpd": 312,
+        "score": 4.8
       }
     ]
   }
