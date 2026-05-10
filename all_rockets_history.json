@@ -24170,8 +24170,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.stickman.legends.fight.go.game",
     "first_seen": "2026-04-14",
     "last_seen": "2026-05-09",
-    "peak_dpd": 6097,
-    "peak_date": "2026-05-05",
+    "peak_dpd": 6922,
+    "peak_date": "2026-05-09",
     "history": [
       {
         "date": "2026-04-14",
@@ -41878,7 +41878,7 @@
     "url": "https://play.google.com/store/apps/details?id=air.jp.co.fujitv.fodvie",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-09",
-    "peak_dpd": 468,
+    "peak_dpd": 676,
     "peak_date": "2026-05-09",
     "history": [
       {
@@ -43087,8 +43087,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.MasterEstdios.InovaoGrau",
     "first_seen": "2026-05-07",
     "last_seen": "2026-05-09",
-    "peak_dpd": 2465,
-    "peak_date": "2026-05-07",
+    "peak_dpd": 3051,
+    "peak_date": "2026-05-09",
     "history": [
       {
         "date": "2026-05-07",
@@ -43719,7 +43719,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.axlgp.findout.girl",
     "first_seen": "2026-05-09",
     "last_seen": "2026-05-09",
-    "peak_dpd": 746,
+    "peak_dpd": 822,
     "peak_date": "2026-05-09",
     "history": [
       {
@@ -44088,6 +44088,25 @@
         "installs": 5643,
         "dpd": 376,
         "score": 3.9
+      }
+    ]
+  },
+  "net.pixelrabbit.jh2": {
+    "id": "net.pixelrabbit.jh2",
+    "name": "Don't Exfil Late",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/AQkkasP962RiZYESO10xzyerZd9iqhKTW85XzxAIAqDg337h3lnu3CIS0_Qp1UsnEPefehqLv2PwbVgbn1Dd",
+    "url": "https://play.google.com/store/apps/details?id=net.pixelrabbit.jh2",
+    "first_seen": "2026-05-09",
+    "last_seen": "2026-05-09",
+    "peak_dpd": 3651,
+    "peak_date": "2026-05-09",
+    "history": [
+      {
+        "date": "2026-05-09",
+        "installs": 7302,
+        "dpd": 3651,
+        "score": 4.2
       }
     ]
   }
