@@ -42198,7 +42198,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.bb.football.soccer.league",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-12",
-    "peak_dpd": 3254,
+    "peak_dpd": 3257,
     "peak_date": "2026-05-12",
     "history": [
       {
@@ -46191,7 +46191,7 @@
     "icon": "https://play-lh.googleusercontent.com/0k9Ve2ySdiuBrNCtgLuijF__wjYpIdPb52GNFj_7jb3XVYRSvwapfGwqD1CBBG7BDShZIu5qzRxTVry-5F5Qkg",
     "url": "https://play.google.com/store/apps/details?id=com.terracoderuins.artcrns",
     "first_seen": "2026-05-07",
-    "last_seen": "2026-05-11",
+    "last_seen": "2026-05-12",
     "peak_dpd": 1899,
     "peak_date": "2026-05-09",
     "history": [
@@ -46223,6 +46223,12 @@
         "date": "2026-05-11",
         "installs": 13640,
         "dpd": 1515,
+        "score": 0
+      },
+      {
+        "date": "2026-05-12",
+        "installs": 13843,
+        "dpd": 1384,
         "score": 0
       }
     ]
@@ -47128,9 +47134,9 @@
     "icon": "https://play-lh.googleusercontent.com/b-joxwhBJZfXGd4Yyn8q4rV1rvcCzg33pafYCE2Ty9r4RAqz_y4QG4pkVDkb3I4zZL4AKTasVh6ZVs8k7_Oh3g",
     "url": "https://play.google.com/store/apps/details?id=com.riverstone.scholar.quest",
     "first_seen": "2026-05-09",
-    "last_seen": "2026-05-11",
-    "peak_dpd": 823,
-    "peak_date": "2026-05-11",
+    "last_seen": "2026-05-12",
+    "peak_dpd": 977,
+    "peak_date": "2026-05-12",
     "history": [
       {
         "date": "2026-05-09",
@@ -47148,6 +47154,12 @@
         "date": "2026-05-11",
         "installs": 13993,
         "dpd": 823,
+        "score": 0
+      },
+      {
+        "date": "2026-05-12",
+        "installs": 17599,
+        "dpd": 977,
         "score": 0
       }
     ]
@@ -47914,7 +47926,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.dg.brush.cat",
     "first_seen": "2026-05-10",
     "last_seen": "2026-05-12",
-    "peak_dpd": 1853,
+    "peak_dpd": 1866,
     "peak_date": "2026-05-12",
     "history": [
       {
@@ -48274,7 +48286,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.m2en.and",
     "first_seen": "2026-05-10",
     "last_seen": "2026-05-12",
-    "peak_dpd": 1536,
+    "peak_dpd": 1555,
     "peak_date": "2026-05-12",
     "history": [
       {
@@ -49014,6 +49026,25 @@
         "date": "2026-05-12",
         "installs": 6436,
         "dpd": 306,
+        "score": 0
+      }
+    ]
+  },
+  "com.fresh.veggie.pop": {
+    "id": "com.fresh.veggie.pop",
+    "name": "Fresh Veggie Pop",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/Ye0QpvWTHwa_jBpX7hQhDHJY1jCi6Yy9RNURWP6bbU21sCJ05qROcsuX4FLErNIYPfvYnDbKApgwFnvkxfWPskk",
+    "url": "https://play.google.com/store/apps/details?id=com.fresh.veggie.pop",
+    "first_seen": "2026-05-12",
+    "last_seen": "2026-05-12",
+    "peak_dpd": 352,
+    "peak_date": "2026-05-12",
+    "history": [
+      {
+        "date": "2026-05-12",
+        "installs": 4577,
+        "dpd": 352,
         "score": 0
       }
     ]
