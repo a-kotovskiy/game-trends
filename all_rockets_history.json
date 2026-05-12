@@ -42536,7 +42536,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.tidalsortvbn.casualgmeaxcfz",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-11",
-    "peak_dpd": 1127,
+    "peak_dpd": 1318,
     "peak_date": "2026-05-11",
     "history": [
       {
@@ -47164,8 +47164,8 @@
     "url": "https://play.google.com/store/apps/details?id=net.waystargames.crossword.zen.word",
     "first_seen": "2026-05-10",
     "last_seen": "2026-05-11",
-    "peak_dpd": 312,
-    "peak_date": "2026-05-10",
+    "peak_dpd": 351,
+    "peak_date": "2026-05-11",
     "history": [
       {
         "date": "2026-05-10",
@@ -47425,6 +47425,25 @@
         "installs": 3848,
         "dpd": 349,
         "score": 0
+      }
+    ]
+  },
+  "com.mechakotik.tailsadventure": {
+    "id": "com.mechakotik.tailsadventure",
+    "name": "Tails Adventure",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/aeNu_AIG5Jz3VgrxtjSl51xnocwbpOzkQzT5QBavZVmI9uUSr33o6HWN7Qrb0dQtjR8",
+    "url": "https://play.google.com/store/apps/details?id=com.mechakotik.tailsadventure",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
+    "peak_dpd": 14054,
+    "peak_date": "2026-05-11",
+    "history": [
+      {
+        "date": "2026-05-11",
+        "installs": 267030,
+        "dpd": 14054,
+        "score": 4.2
       }
     ]
   }
