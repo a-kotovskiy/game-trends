@@ -44759,8 +44759,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjongwood",
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-13",
-    "peak_dpd": 2645,
-    "peak_date": "2026-05-11",
+    "peak_dpd": 3302,
+    "peak_date": "2026-05-13",
     "history": [
       {
         "date": "2026-05-05",
@@ -46260,8 +46260,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.color.gem.block.challenge.jungle",
     "first_seen": "2026-05-06",
     "last_seen": "2026-05-13",
-    "peak_dpd": 1151,
-    "peak_date": "2026-05-12",
+    "peak_dpd": 1162,
+    "peak_date": "2026-05-13",
     "history": [
       {
         "date": "2026-05-06",
@@ -46884,8 +46884,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.stamp.solit",
     "first_seen": "2026-05-07",
     "last_seen": "2026-05-13",
-    "peak_dpd": 11095,
-    "peak_date": "2026-05-11",
+    "peak_dpd": 12388,
+    "peak_date": "2026-05-13",
     "history": [
       {
         "date": "2026-05-07",
@@ -46994,8 +46994,8 @@
     "url": "https://play.google.com/store/apps/details?id=bubble.shooter.game.match.pop.puzzle",
     "first_seen": "2026-05-07",
     "last_seen": "2026-05-13",
-    "peak_dpd": 2600,
-    "peak_date": "2026-05-11",
+    "peak_dpd": 2760,
+    "peak_date": "2026-05-13",
     "history": [
       {
         "date": "2026-05-07",
@@ -48752,8 +48752,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.strayfawnstudio.gambonanza",
     "first_seen": "2026-05-09",
     "last_seen": "2026-05-13",
-    "peak_dpd": 1812,
-    "peak_date": "2026-05-11",
+    "peak_dpd": 1846,
+    "peak_date": "2026-05-13",
     "history": [
       {
         "date": "2026-05-09",
@@ -49920,8 +49920,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.oakever.gemcoloring",
     "first_seen": "2026-05-11",
     "last_seen": "2026-05-13",
-    "peak_dpd": 523,
-    "peak_date": "2026-05-11",
+    "peak_dpd": 654,
+    "peak_date": "2026-05-13",
     "history": [
       {
         "date": "2026-05-11",
@@ -50479,11 +50479,11 @@
     "id": "com.craft.zombie.apocalypse.survival.mod",
     "name": "ZombieCraft: Zombie Apocalypse",
     "genre": "Simulation",
-    "icon": "https://play-lh.googleusercontent.com/H2xYk0MjQjW5a9rbAohm2I-8YBQlQUqZUJ9LTRAvWOuseCv_QlwMwzEKi8DhasdEkFZ-7UXw3uvT39dth9NeeQ",
+    "icon": "https://play-lh.googleusercontent.com/CPSEmeo1LlIqgFY0ygwcDG8kFmU_km64JPSZLCK5r7MhggPV1d7uAJHh59EjI7XCd2M6vCpStYj6X_lTic0jSA",
     "url": "https://play.google.com/store/apps/details?id=com.craft.zombie.apocalypse.survival.mod",
     "first_seen": "2026-05-13",
     "last_seen": "2026-05-13",
-    "peak_dpd": 824,
+    "peak_dpd": 1437,
     "peak_date": "2026-05-13",
     "history": [
       {
@@ -50567,6 +50567,44 @@
         "installs": 10565,
         "dpd": 377,
         "score": 4.9
+      }
+    ]
+  },
+  "com.mimi.bsz": {
+    "id": "com.mimi.bsz",
+    "name": "Rotten Streamer",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/FsO2wslEKy2_86cmPO0difXPCXWMe5LcGuvr8UqG3eL9zOeDf__iCvcwGzmLplikVMidE8voesKZ-SP4PmFv",
+    "url": "https://play.google.com/store/apps/details?id=com.mimi.bsz",
+    "first_seen": "2026-05-13",
+    "last_seen": "2026-05-13",
+    "peak_dpd": 5071,
+    "peak_date": "2026-05-13",
+    "history": [
+      {
+        "date": "2026-05-13",
+        "installs": 35499,
+        "dpd": 5071,
+        "score": 0
+      }
+    ]
+  },
+  "com.likeme.mango.cons": {
+    "id": "com.likeme.mango.cons",
+    "name": "Mango Coins – Games & Rewards",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/bqJnBa20A7nSJmoH9wZBawSMRC4OTTqi_D8I6yLF9txUXrGh7nbxpoTEuG8DNI7w-ZsAJVt4Wt7Xff1vfg0O",
+    "url": "https://play.google.com/store/apps/details?id=com.likeme.mango.cons",
+    "first_seen": "2026-05-13",
+    "last_seen": "2026-05-13",
+    "peak_dpd": 324,
+    "peak_date": "2026-05-13",
+    "history": [
+      {
+        "date": "2026-05-13",
+        "installs": 4213,
+        "dpd": 324,
+        "score": 0
       }
     ]
   }
