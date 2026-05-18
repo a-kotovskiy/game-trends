@@ -55922,7 +55922,7 @@
     "icon": "https://play-lh.googleusercontent.com/v7bkyRJZIC67yGZP1p1MkS8J79VUMevPtIl-sKTD5pgNAbq47PIT2lLa34ZcoZkCCNw",
     "url": "https://play.google.com/store/apps/details?id=com.wkg.open.world.car.simulator",
     "first_seen": "2026-05-15",
-    "last_seen": "2026-05-16",
+    "last_seen": "2026-05-17",
     "peak_dpd": 1064132,
     "peak_date": "2026-05-15",
     "history": [
@@ -55936,6 +55936,12 @@
         "date": "2026-05-16",
         "installs": 2128264,
         "dpd": 709421,
+        "score": 0
+      },
+      {
+        "date": "2026-05-17",
+        "installs": 2147634,
+        "dpd": 536908,
         "score": 0
       }
     ]
@@ -57072,6 +57078,25 @@
         "date": "2026-05-17",
         "installs": 3979,
         "dpd": 306,
+        "score": 0
+      }
+    ]
+  },
+  "com.aag.indian.cricket.league.game26": {
+    "id": "com.aag.indian.cricket.league.game26",
+    "name": "Indian Cricket Game 26",
+    "genre": "Sports",
+    "icon": "https://play-lh.googleusercontent.com/ek7Xkq7TH_aumnWTDSIVCu9GxSmdzpbC_J6YKIEdcP9K40vwnlAxb9dAvkTL6CN4DZaoKG_VRMjS5Q8SaKJQ0w",
+    "url": "https://play.google.com/store/apps/details?id=com.aag.indian.cricket.league.game26",
+    "first_seen": "2026-05-17",
+    "last_seen": "2026-05-17",
+    "peak_dpd": 810,
+    "peak_date": "2026-05-17",
+    "history": [
+      {
+        "date": "2026-05-17",
+        "installs": 6483,
+        "dpd": 810,
         "score": 0
       }
     ]
