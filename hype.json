@@ -1,6 +1,26 @@
 {
   "viral_trends": [
     {
+      "id": "eabg9goEfYg",
+      "title": "ccamm an18 vidoeo",
+      "views": 3400000,
+      "views_str": "3.4M",
+      "vpd": 3400000,
+      "vpd_str": "3.4M",
+      "age_days": 1,
+      "upload_date": "20260522",
+      "duration": 36,
+      "kind": "Short",
+      "channel": "camman18",
+      "channel_id": "UCiZ2z8F8ilr6SC7lOaxAQ4g",
+      "url": "https://youtu.be/eabg9goEfYg",
+      "thumb": "https://img.youtube.com/vi/eabg9goEfYg/mqdefault.jpg",
+      "grade": "🔥🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=3.4M",
+      "channel_avg_vpd": 2020000
+    },
+    {
       "id": "wqSbGoWmmUs",
       "title": "SUPRISING ROBLOX PLAYERS WITH THEIR FAVORITE YOUTUBERS 😂❤️ #roblox #funny #memes #comedy #gaming",
       "views": 19000000,
@@ -18,15 +38,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=3.2M",
-      "channel_avg_vpd": 2303333
+      "channel_avg_vpd": 2323333
     },
     {
       "id": "elZoCcaClTk",
       "title": "SUPRISING PLAYERS WITH THEIR FAVORITE YOUTUBERS 😭❤️ #roblox #funny #memes #trolling #comedy #gaming",
-      "views": 7200000,
-      "views_str": "7.2M",
-      "vpd": 1440000,
-      "vpd_str": "1.4M",
+      "views": 7400000,
+      "views_str": "7.4M",
+      "vpd": 1480000,
+      "vpd_str": "1.5M",
       "age_days": 5,
       "upload_date": "20260518",
       "duration": 64,
@@ -37,16 +57,16 @@
       "thumb": "https://img.youtube.com/vi/elZoCcaClTk/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=1.4M",
-      "channel_avg_vpd": 2303333
+      "reason": "vpd=1.5M",
+      "channel_avg_vpd": 2323333
     },
     {
       "id": "5cU_Gr3svDs",
       "title": "😂POV: ALL STUDENTS ON VACATION",
-      "views": 1000000,
-      "views_str": "1.0M",
-      "vpd": 1000000,
-      "vpd_str": "1.0M",
+      "views": 1100000,
+      "views_str": "1.1M",
+      "vpd": 1100000,
+      "vpd_str": "1.1M",
       "age_days": 1,
       "upload_date": "20260522",
       "duration": 11,
@@ -57,28 +77,28 @@
       "thumb": "https://img.youtube.com/vi/5cU_Gr3svDs/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=1.0M",
-      "channel_avg_vpd": 612666
+      "reason": "vpd=1.1M",
+      "channel_avg_vpd": 921000
     },
     {
-      "id": "IfYT7UHY3FU",
-      "title": "START TORCHING YOUR SAPLINGS!!!!",
-      "views": 2900000,
-      "views_str": "2.9M",
-      "vpd": 966666,
-      "vpd_str": "967K",
-      "age_days": 3,
-      "upload_date": "20260520",
-      "duration": 26,
+      "id": "LU-akXDMTno",
+      "title": "😱SURVIVED 55546 DAYS IN 99 NIGHTS IN THE FOREST IN ROBLOX!",
+      "views": 742000,
+      "views_str": "742K",
+      "vpd": 742000,
+      "vpd_str": "742K",
+      "age_days": 1,
+      "upload_date": "20260522",
+      "duration": 15,
       "kind": "Short",
-      "channel": "camman18",
-      "channel_id": "UCiZ2z8F8ilr6SC7lOaxAQ4g",
-      "url": "https://youtu.be/IfYT7UHY3FU",
-      "thumb": "https://img.youtube.com/vi/IfYT7UHY3FU/mqdefault.jpg",
+      "channel": "GADOSTI",
+      "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
+      "url": "https://youtu.be/LU-akXDMTno",
+      "thumb": "https://img.youtube.com/vi/LU-akXDMTno/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=967K",
-      "channel_avg_vpd": 803333
+      "reason": "vpd=742K",
+      "channel_avg_vpd": 921000
     },
     {
       "id": "jJ_s1lgoimw",
@@ -98,15 +118,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=640K",
-      "channel_avg_vpd": 803333
+      "channel_avg_vpd": 2020000
     },
     {
       "id": "7_DfJNlKUdw",
       "title": "I am a professional chef 👨‍🍳",
-      "views": 1700000,
-      "views_str": "1.7M",
-      "vpd": 566666,
-      "vpd_str": "567K",
+      "views": 1800000,
+      "views_str": "1.8M",
+      "vpd": 600000,
+      "vpd_str": "600K",
       "age_days": 3,
       "upload_date": "20260520",
       "duration": 51,
@@ -117,16 +137,16 @@
       "thumb": "https://img.youtube.com/vi/7_DfJNlKUdw/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=567K",
-      "channel_avg_vpd": 566666
+      "reason": "vpd=600K",
+      "channel_avg_vpd": 600000
     },
     {
       "id": "7zV_kF9YzSw",
       "title": "67 in minecraft",
-      "views": 1900000,
-      "views_str": "1.9M",
-      "vpd": 380000,
-      "vpd_str": "380K",
+      "views": 2000000,
+      "views_str": "2.0M",
+      "vpd": 400000,
+      "vpd_str": "400K",
       "age_days": 5,
       "upload_date": "20260518",
       "duration": 12,
@@ -137,8 +157,8 @@
       "thumb": "https://img.youtube.com/vi/7zV_kF9YzSw/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=380K",
-      "channel_avg_vpd": 380000
+      "reason": "vpd=400K",
+      "channel_avg_vpd": 400000
     },
     {
       "id": "m9bteMVEvcc",
@@ -159,6 +179,26 @@
       "source": "channel_monitor",
       "reason": "vpd=362K",
       "channel_avg_vpd": 247916
+    },
+    {
+      "id": "yAfyzqq_jwE",
+      "title": "How to find Holibam's Secret Room in Escape from the Blogger",
+      "views": 347000,
+      "views_str": "347K",
+      "vpd": 347000,
+      "vpd_str": "347K",
+      "age_days": 1,
+      "upload_date": "20260522",
+      "duration": 46,
+      "kind": "Short",
+      "channel": "Holy Baam",
+      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
+      "url": "https://youtu.be/yAfyzqq_jwE",
+      "thumb": "https://img.youtube.com/vi/yAfyzqq_jwE/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=347K",
+      "channel_avg_vpd": 254750
     },
     {
       "id": "ckLXOZ5po-0",
@@ -198,35 +238,15 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=275K",
-      "channel_avg_vpd": 214100
-    },
-    {
-      "id": "yAfyzqq_jwE",
-      "title": "How to find Holibam's Secret Room in Escape from the Blogger",
-      "views": 266000,
-      "views_str": "266K",
-      "vpd": 266000,
-      "vpd_str": "266K",
-      "age_days": 1,
-      "upload_date": "20260522",
-      "duration": 46,
-      "kind": "Short",
-      "channel": "Holy Baam",
-      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
-      "url": "https://youtu.be/yAfyzqq_jwE",
-      "thumb": "https://img.youtube.com/vi/yAfyzqq_jwE/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=266K",
-      "channel_avg_vpd": 209500
+      "channel_avg_vpd": 215500
     },
     {
       "id": "ChrFQOJhwvY",
       "title": "what if iron golems had armor",
-      "views": 706000,
-      "views_str": "706K",
-      "vpd": 235333,
-      "vpd_str": "235K",
+      "views": 738000,
+      "views_str": "738K",
+      "vpd": 246000,
+      "vpd_str": "246K",
       "age_days": 3,
       "upload_date": "20260520",
       "duration": 38,
@@ -237,36 +257,16 @@
       "thumb": "https://img.youtube.com/vi/ChrFQOJhwvY/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=235K",
-      "channel_avg_vpd": 148366
-    },
-    {
-      "id": "hElD46XmjCQ",
-      "title": "😂THESE BUGS AGAIN IN 99 NIGHTS IN THE WOODS IN ROBLOX!",
-      "views": 676000,
-      "views_str": "676K",
-      "vpd": 225333,
-      "vpd_str": "225K",
-      "age_days": 3,
-      "upload_date": "20260520",
-      "duration": 11,
-      "kind": "Short",
-      "channel": "GADOSTI",
-      "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
-      "url": "https://youtu.be/hElD46XmjCQ",
-      "thumb": "https://img.youtube.com/vi/hElD46XmjCQ/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=225K",
-      "channel_avg_vpd": 612666
+      "reason": "vpd=246K",
+      "channel_avg_vpd": 154500
     },
     {
       "id": "yWB_vjBZUNk",
       "title": "Minecraft Sounds 2012 vs. 2026 😱 #shorts",
-      "views": 3500000,
-      "views_str": "3.5M",
-      "vpd": 194444,
-      "vpd_str": "194K",
+      "views": 3600000,
+      "views_str": "3.6M",
+      "vpd": 200000,
+      "vpd_str": "200K",
       "age_days": 18,
       "upload_date": "20260505",
       "duration": 41,
@@ -277,36 +277,16 @@
       "thumb": "https://img.youtube.com/vi/yWB_vjBZUNk/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=194K",
-      "channel_avg_vpd": 194444
-    },
-    {
-      "id": "rEBAbmHZ03I",
-      "title": "ХОЛИ БАМ И КВИНКА УГАДЫВАЮТ ПЕСНИ НАОБОРОТ😱СМОТРИ ДО КОНЦА!😂#роблокс #игры #смешное #квинка",
-      "views": 766000,
-      "views_str": "766K",
-      "vpd": 153200,
-      "vpd_str": "153K",
-      "age_days": 5,
-      "upload_date": "20260518",
-      "duration": 96,
-      "kind": "Video",
-      "channel": "i_roblox_queen (Квинка)",
-      "channel_id": "UC6HKWohA11bBbyob7ieP-0g",
-      "url": "https://youtu.be/rEBAbmHZ03I",
-      "thumb": "https://img.youtube.com/vi/rEBAbmHZ03I/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=153K",
-      "channel_avg_vpd": 214100
+      "reason": "vpd=200K",
+      "channel_avg_vpd": 200000
     },
     {
       "id": "uBSkNGbFcCs",
       "title": "😱Found a secret room in Blogger Escape",
-      "views": 306000,
-      "views_str": "306K",
-      "vpd": 153000,
-      "vpd_str": "153K",
+      "views": 325000,
+      "views_str": "325K",
+      "vpd": 162500,
+      "vpd_str": "162K",
       "age_days": 2,
       "upload_date": "20260521",
       "duration": 33,
@@ -317,8 +297,28 @@
       "thumb": "https://img.youtube.com/vi/uBSkNGbFcCs/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=153K",
-      "channel_avg_vpd": 209500
+      "reason": "vpd=162K",
+      "channel_avg_vpd": 254750
+    },
+    {
+      "id": "rEBAbmHZ03I",
+      "title": "ХОЛИ БАМ И КВИНКА УГАДЫВАЮТ ПЕСНИ НАОБОРОТ😱СМОТРИ ДО КОНЦА!😂#роблокс #игры #смешное #квинка",
+      "views": 780000,
+      "views_str": "780K",
+      "vpd": 156000,
+      "vpd_str": "156K",
+      "age_days": 5,
+      "upload_date": "20260518",
+      "duration": 96,
+      "kind": "Video",
+      "channel": "i_roblox_queen (Квинка)",
+      "channel_id": "UC6HKWohA11bBbyob7ieP-0g",
+      "url": "https://youtu.be/rEBAbmHZ03I",
+      "thumb": "https://img.youtube.com/vi/rEBAbmHZ03I/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=156K",
+      "channel_avg_vpd": 215500
     },
     {
       "id": "KxOjCwelbxA",
@@ -343,10 +343,10 @@
     {
       "id": "ba1FBDETOG0",
       "title": "Minecraft, But The Block You Touch, You Become…",
-      "views": 1600000,
-      "views_str": "1.6M",
-      "vpd": 123076,
-      "vpd_str": "123K",
+      "views": 1700000,
+      "views_str": "1.7M",
+      "vpd": 130769,
+      "vpd_str": "131K",
       "age_days": 13,
       "upload_date": "20260510",
       "duration": 64,
@@ -357,8 +357,8 @@
       "thumb": "https://img.youtube.com/vi/ba1FBDETOG0/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=123K",
-      "channel_avg_vpd": 123076
+      "reason": "vpd=131K",
+      "channel_avg_vpd": 130769
     },
     {
       "id": "PVYtLnEeK4c",
@@ -383,10 +383,10 @@
     {
       "id": "ANeZ0jYJMFI",
       "title": "stealing mob abilities",
-      "views": 307000,
-      "views_str": "307K",
-      "vpd": 61400,
-      "vpd_str": "61K",
+      "views": 315000,
+      "views_str": "315K",
+      "vpd": 63000,
+      "vpd_str": "63K",
       "age_days": 5,
       "upload_date": "20260518",
       "duration": 55,
@@ -397,8 +397,56 @@
       "thumb": "https://img.youtube.com/vi/ANeZ0jYJMFI/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=61K",
-      "channel_avg_vpd": 148366
+      "reason": "vpd=63K",
+      "channel_avg_vpd": 154500
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "67",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/Wff-SvZ7Xpw",
+      "thumb": "https://img.youtube.com/vi/Wff-SvZ7Xpw/mqdefault.jpg",
+      "published": "2026-05-23T13:00:26+00:00",
+      "hype_score": 5,
+      "related_videos": 122,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "ОСВОБОДИЛ НЕПОСЛУШНУЮ МАРТЫШКУ И ПОЖАЛЕЛ ОБ ЭТОМ 😱🐵",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/4aAXbLMSfp0",
+      "thumb": "https://img.youtube.com/vi/4aAXbLMSfp0/mqdefault.jpg",
+      "published": "2026-05-23T08:00:15+00:00",
+      "hype_score": 5,
+      "related_videos": 122,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -418,7 +466,7 @@
       "thumb": "https://img.youtube.com/vi/_Ctwcw9zrJY/mqdefault.jpg",
       "published": "2026-05-22T16:00:12+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 122,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -442,7 +490,7 @@
       "thumb": "https://img.youtube.com/vi/yAfyzqq_jwE/mqdefault.jpg",
       "published": "2026-05-22T15:00:25+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 122,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -466,7 +514,7 @@
       "thumb": "https://img.youtube.com/vi/EcNLbivti_Q/mqdefault.jpg",
       "published": "2026-05-22T14:00:17+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 122,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -475,55 +523,7 @@
     {
       "source": "rss",
       "kind": "Video",
-      "title": "😱ЧунгаЧанга вырубил Холибама и утащил его...",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 1,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/KYR8G_KNojw",
-      "thumb": "https://img.youtube.com/vi/KYR8G_KNojw/mqdefault.jpg",
-      "published": "2026-05-21T16:00:23+00:00",
-      "hype_score": 5,
-      "related_videos": 123,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "😱Нашел тайную комнату в Побег от Блогер",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 1,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/uBSkNGbFcCs",
-      "thumb": "https://img.youtube.com/vi/uBSkNGbFcCs/mqdefault.jpg",
-      "published": "2026-05-21T15:00:32+00:00",
-      "hype_score": 5,
-      "related_videos": 123,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "Metro Exodus",
+      "title": "10 hours Boris hangout corner (Horizon 6 / GTA4 / Metro Exodus)",
       "topic": "minecraft",
       "channel": "Life of Boris",
       "author": "Life of Boris",
@@ -555,7 +555,7 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/IbNTMOR1bXM",
@@ -579,7 +579,7 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/N9ge8BVMfg0",
@@ -1279,29 +1279,11 @@
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1133",
-      "tg_text": "📹Видео про: «Запрет мема 67 в России»♥️Приятного просмотра ❤18😱4🗿1 744 views08:26",
-      "topic": "Запрет мема 67 в России",
-      "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1134",
-      "tg_text": "🇺🇸В Англоязычном TikTok вирусится мем из аниме:«Невероятные приключения ДжоДжо»💥Сцена взята из эпизода, где герой в панике кричит:«Все в машину, мы уезжаем из этого города&#33;»😳Но спустя секунду оказывается, что это вовсе не машина, а опасная ловушка❓Вам нравится этот мем?👍-До👎-Но#западныемемы 👍31👎",
-      "topic": "Невероятные приключения ДжоДжо",
-      "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1137",
       "tg_text": "🇺🇸В англоязычном ТикТок завирусился мем: 🐕”Scooby Doo Creepy Run”(Скуби-Ду Жуткий Бег)🎮Это браузерная флеш-игра, в которой игрок управляет Шегги из «Скуби-Ду» и должен как можно быстрее убежать от скелета, добравшись до конца уровня.💁‍♂️С этим люди делают разные мемы, пародии и т.д❓Вам нравится данн",
       "topic": "Скуби-Ду",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1310,16 +1292,16 @@
       "tg_text": "(Trollface Aura / Tom aura)&nbsp;&nbsp; - Oни строятся на демонстрации запредельной уверенности, жутковатого стиля и «альфа-ауры» под тяжелый бразильский фонк.Общая суть: Оба тренда берут классических персонажей детства (кота Тома и старый интернет-комикс Trollface) и превращают их в пафосных идолов",
       "topic": "альфа-ауры",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1141",
-      "tg_text": "💁‍♂️Оригинальная серия из мема: «У МЕНЯ КОНЪЮНКТИВИТ»♥️Приятного просмотра🔗Ссылка на их ютуб:https://youtu.be/eqgn2LjeanI?si=8KOYb-6yY7P8509F ❤7😁2👍1🤮1 534 views13:06",
+      "tg_text": "💁‍♂️Оригинальная серия из мема: «У МЕНЯ КОНЪЮНКТИВИТ»♥️Приятного просмотра🔗Ссылка на их ютуб:https://youtu.be/eqgn2LjeanI?si=8KOYb-6yY7P8509F ❤7😁2👍1🤮1 549 views13:06",
       "topic": "У МЕНЯ КОНЪЮНКТИВИТ",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1328,7 +1310,7 @@
       "tg_text": "🇺🇸В Англоязычном ТикТок завирусился мем с котом Томом из «Том и Джерри»😺Мем так же добирается до Рунета❓Вам нравится этот мем? 👍-Доо👎-Нит",
       "topic": "Том и Джерри",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1337,16 +1319,16 @@
       "tg_text": "#западныемемыЗнакомьтесь с Lupa — новейшим вирусным персонажем brainrot, который захватывает TikTok. Видео с участием Lupa стабильно набирают миллионы , а новый контент загружается на TikTok каждый день. Рост персонажа был взрывным: за примерно неделю он набрал более 40 тысяч подписчиков, быстро рас",
       "topic": "продолжает набирать обороты",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1150",
-      "tg_text": "🇺🇸🦠В Англоязычном ТикТок и у нас вирусится мем с песней из сериала пацаны: «Простите Сэр» ❓Вам попадались уже подобные мемы?👍-До👎-Нн 👎33👍12😐1 403 views08:31",
+      "tg_text": "🇺🇸🦠В Англоязычном ТикТок и у нас вирусится мем с песней из сериала пацаны: «Простите Сэр» ❓Вам попадались уже подобные мемы?👍-До👎-Нн 👎34👍12😐1 444 views08:31",
       "topic": "Простите Сэр",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1355,25 +1337,34 @@
       "tg_text": "⚽️Во время вручения награды Криштиану Роналду спародировал танец Токсиса? 📞Из мема: «Возьми телефон детка»😆Я сам хз, но многие говорят, что это отсылка на мем❓А Вы как думаете это правда?👍-Да Роналду сделал пародию 👎-Нет",
       "topic": "Возьми телефон детка",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1153",
-      "tg_text": "#западныемемы«The Folk Cat » Это новейший вирусный мем. Существует множество вариантов и он очень популярен в качестве мема. В последние несколько дней он набирает очень хорошие обороты в TikTok.❓Вам попадалась уже эта пушистая сладость ?Yes - 👍No - 👎 👍18👎18 316 views13:22",
+      "tg_text": "#западныемемы«The Folk Cat » Это новейший вирусный мем. Существует множество вариантов и он очень популярен в качестве мема. В последние несколько дней он набирает очень хорошие обороты в TikTok.❓Вам попадалась уже эта пушистая сладость ?Yes - 👍No - 👎 👎23👍18 392 views13:22",
       "topic": "The Folk Cat",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1154",
-      "tg_text": "🆕 «У меня конъюнктивит же»Откуда мем? ♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией ❤11 265 views17:15",
+      "tg_text": "🆕 «У меня конъюнктивит же»Откуда мем? ♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией ❤13 377 views17:15",
       "topic": "У меня конъюнктивит же",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1156",
+      "tg_text": "🦠В ТикТок постепенно набирает обороты мем про тортик:🍰 «Санчо Панчо»🔈Со звуком люди публикуют разные пародийные мемы👨‍🍳В общем кулинарный мем весны 2026 года уже есть✔️❓Вам попадались подобные мемы? 👍-Да👎-Неа",
+      "topic": "Санчо Панчо",
+      "youtube_videos": [],
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1382,7 +1373,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁48👎11❤3👍3 8.19K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1391,7 +1382,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1400,7 +1391,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1409,7 +1400,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     },
     {
       "source": "tg_signal",
@@ -1418,7 +1409,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-05-23 00:29"
+      "detected_at": "2026-05-23 07:27"
     }
   ]
 }
