@@ -3,10 +3,10 @@
     {
       "id": "c6uwSoKUjZU",
       "title": "WHAT KIND OF WILD GARLIC IS THIS?!😱",
-      "views": 848000,
-      "views_str": "848K",
-      "vpd": 282666,
-      "vpd_str": "283K",
+      "views": 897000,
+      "views_str": "897K",
+      "vpd": 299000,
+      "vpd_str": "299K",
       "age_days": 3,
       "upload_date": "20260527",
       "duration": 30,
@@ -17,8 +17,56 @@
       "thumb": "https://img.youtube.com/vi/c6uwSoKUjZU/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=283K",
-      "channel_avg_vpd": 282666
+      "reason": "vpd=299K",
+      "channel_avg_vpd": 299000
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "Холибам изменил Серёге с Черемшою😭",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/__YZLz6BqHc",
+      "thumb": "https://img.youtube.com/vi/__YZLz6BqHc/mqdefault.jpg",
+      "published": "2026-05-30T10:00:24+00:00",
+      "hype_score": 5,
+      "related_videos": 125,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "Я СКАЧАЛ ХАКЕР МОД в SCHOOLBOY RUNAWAY... И СЛОМАЛ ИГРУ!",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/HN-qRRNmTPI",
+      "thumb": "https://img.youtube.com/vi/HN-qRRNmTPI/mqdefault.jpg",
+      "published": "2026-05-30T08:00:35+00:00",
+      "hype_score": 5,
+      "related_videos": 125,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -38,7 +86,7 @@
       "thumb": "https://img.youtube.com/vi/_bKK95qab50/mqdefault.jpg",
       "published": "2026-05-29T15:00:18+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 125,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -62,7 +110,7 @@
       "thumb": "https://img.youtube.com/vi/Z4OcoAttxaE/mqdefault.jpg",
       "published": "2026-05-29T14:00:15+00:00",
       "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 125,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -86,55 +134,7 @@
       "thumb": "https://img.youtube.com/vi/nJmatO_8huM/mqdefault.jpg",
       "published": "2026-05-28T15:00:08+00:00",
       "hype_score": 5,
-      "related_videos": 123,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "СБЕЖАЛ ОТ ШКОЛЬНОГО ХУЛИГАНА В СИМУЛЯТОРЕ БОТАНИКА!😱",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 1,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/tYdo1AUPzBE",
-      "thumb": "https://img.youtube.com/vi/tYdo1AUPzBE/mqdefault.jpg",
-      "published": "2026-05-28T14:00:26+00:00",
-      "hype_score": 5,
-      "related_videos": 123,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "ЭТО ЧЁ ЗА ЧЕРЕМША?!😱",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 2,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/c6uwSoKUjZU",
-      "thumb": "https://img.youtube.com/vi/c6uwSoKUjZU/mqdefault.jpg",
-      "published": "2026-05-27T15:00:23+00:00",
-      "hype_score": 5,
-      "related_videos": 123,
+      "related_videos": 125,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -278,7 +278,7 @@
       "thumb": "https://img.youtube.com/vi/8Txy5jKUErk/mqdefault.jpg",
       "published": "2026-05-16T20:00:09+00:00",
       "hype_score": 2,
-      "related_videos": 6,
+      "related_videos": 5,
       "channel_count": 3,
       "has_games": true,
       "game_count": 5,
@@ -302,7 +302,7 @@
       "thumb": "https://img.youtube.com/vi/AwUJuWIQ-kg/mqdefault.jpg",
       "published": "2026-05-22T21:18:07+00:00",
       "hype_score": 2,
-      "related_videos": 6,
+      "related_videos": 5,
       "channel_count": 3,
       "has_games": true,
       "game_count": 5,
@@ -326,7 +326,7 @@
       "thumb": "https://img.youtube.com/vi/05vM0OQTc3I/mqdefault.jpg",
       "published": "2026-05-16T19:36:06+00:00",
       "hype_score": 2,
-      "related_videos": 6,
+      "related_videos": 5,
       "channel_count": 3,
       "has_games": true,
       "game_count": 5,
@@ -457,16 +457,41 @@
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "cody haddon",
-      "topic": "cody haddon",
+      "title": "fortnite server status",
+      "topic": "fortnite server status",
       "channel": "Google Trends US",
       "author": "Google Trends",
-      "views": 100,
-      "views_str": "100+",
+      "views": 500,
+      "views_str": "500+",
       "subs": 0,
       "subs_str": "",
       "age_days": 1,
-      "vpd": 100,
+      "vpd": 500,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "thumb": "",
+      "published": "сейчас",
+      "hype_score": 7,
+      "related_videos": 0,
+      "channel_count": 0,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false,
+      "is_gaming": true
+    },
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "minecraft live",
+      "topic": "minecraft live",
+      "channel": "Google Trends US",
+      "author": "Google Trends",
+      "views": 200,
+      "views_str": "200+",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 200,
       "grade": "🔥",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "thumb": "",
@@ -487,37 +512,37 @@
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1170",
-      "tg_text": "🇺🇸В Англоязычном ТикТок достиг пика популярности мем с обновленной версией ТроллФейса💁‍♂️Подробнее об этом Вы узнаете завтра в моем Новом видео на Ютуб ❓Вам нравится Новая версия ТроллФейса? 👍-До👎-Неа 👎61👍16🤮3 711 views11:41",
+      "tg_text": "🇺🇸В Англоязычном ТикТок достиг пика популярности мем с обновленной версией ТроллФейса💁‍♂️Подробнее об этом Вы узнаете завтра в моем Новом видео на Ютуб ❓Вам нравится Новая версия ТроллФейса? 👍-До👎-Неа 👎61👍16🤮3 743 views11:41",
       "topic": "с обновленной версией ТроллФейса",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1171",
-      "tg_text": "🦠В ТикТок набирает популярность мем с этим парнишкой:«Нет сейчас»💁‍♂️С каждым днем мемов все больше и больше❓Вам попадались подобные видео?👍-Видел(-а)👎-Неа 👎30👍29❤6 651 views11:30",
+      "tg_text": "🦠В ТикТок набирает популярность мем с этим парнишкой:«Нет сейчас»💁‍♂️С каждым днем мемов все больше и больше❓Вам попадались подобные видео?👍-Видел(-а)👎-Неа 👎32👍29❤6 678 views11:30",
       "topic": "Нет сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1172",
-      "tg_text": "🆕Новое видео на Ютуб:🙌«Том аура и Троллфейс откуда мем?»👇Смотреть тут👇https://youtu.be/cJS0AIU5mBY?si=T2s6xYYV7BCKifWj ❤13 630 views15:08",
+      "tg_text": "🆕Новое видео на Ютуб:🙌«Том аура и Троллфейс откуда мем?»👇Смотреть тут👇https://youtu.be/cJS0AIU5mBY?si=T2s6xYYV7BCKifWj ❤13 670 views15:08",
       "topic": "Том аура и Троллфейс откуда мем?",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1173",
-      "tg_text": "📹«Том аура и Троллфейс» откуда мем? ♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией 👏12🤡1🍌1 548 views09:17",
+      "tg_text": "📹«Том аура и Троллфейс» откуда мем? ♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией 👏12🤡1🍌1 587 views09:17",
       "topic": "Том аура и Троллфейс",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
@@ -526,7 +551,7 @@
       "tg_text": "🦠В ТикТок набирает популярность мем: 👀 «Я вижу город Афины»❓Вам уже попадались подобные мемы?👍-Видел(-а)👎-НН",
       "topic": "Я вижу город Афины",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
@@ -535,25 +560,25 @@
       "tg_text": "💁‍♂️Лучшие мемные шаблоны: «Том аура и Троллфейс»📇А так же ссылка на оригинальный трек и клип, под который делают мемы: 🔗https://youtu.be/sErngyjY5fI?si=GXHPWFORcMybWcYa🔗Ссылки на оригинальные видео из ТикТок:✔️ МЕМ с которого все началось:https://vm.tiktok.com/ZNRWYMCVp/✔️Ориг: «Том и Троллфейс»htt",
       "topic": "Том аура и Троллфейс",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1179",
-      "tg_text": "🎵Для тех кому лень переходит по ссылке:💁‍♂️Вот полный клип, на ту самую песню из мема: «Том Аура»♥️Приятного просмотра ❤6 548 views17:40",
+      "tg_text": "🎵Для тех кому лень переходит по ссылке:💁‍♂️Вот полный клип, на ту самую песню из мема: «Том Аура»♥️Приятного просмотра ❤7 582 views17:40",
       "topic": "Том Аура",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1181",
-      "tg_text": "#западныемемыRAVIOLIВ социальных сетях формируется новый вирусный мем и культ, вызывающий помрачение рассудка. МЫ — RAVIOLI.Этот культ становится всё больше и больше&#33;&#33;Вам нравится этот новый мем ?Yes- 👍No - 👎 1👎38👍15❤1🔥1🤮1 451 views16:48",
+      "tg_text": "#западныемемыRAVIOLIВ социальных сетях формируется новый вирусный мем и культ, вызывающий помрачение рассудка. МЫ — RAVIOLI.Этот культ становится всё больше и больше&#33;&#33;Вам нравится этот новый мем ?Yes- 👍No - 👎 1👎40👍15❤1🔥1🤮1 502 views16:48",
       "topic": "мем и культ",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
@@ -562,25 +587,43 @@
       "tg_text": "#западныемемыpeigengooВ TikTok сейчас набирает популярность новый вирусный персонаж &quot; peigengoo &quot;Видели уже этот мем?Yes - 👍No&nbsp; - 👎",
       "topic": "персонаж",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1188",
-      "tg_text": "🦠В ТикТок набирает популярность мем:🤗«Ты хоть и толстый, но империя тебя любит»💁‍♂️Мем из мультфильма: «Неуязвимый»❓Вам уже попадались подобные мемы?👍-Да👎-Нет 👎8👍3 73 views07:00",
+      "tg_text": "🦠В ТикТок набирает популярность мем:🤗«Ты хоть и толстый, но империя тебя любит»💁‍♂️Мем из мультфильма: «Неуязвимый»❓Вам уже попадались подобные мемы?👍-Да👎-Нет 👎31👍8❤2 321 views07:00",
       "topic": "Ты хоть и толстый, но империя тебя любит",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1189",
+      "tg_text": "🦠В Рунете вирусится мем:«С днём Рождения Данил»❓Вам уже попадались подобные мемы? 👍-До👎-Не 👎27 176 views12:51",
+      "topic": "С днём Рождения Данил",
+      "youtube_videos": [],
+      "detected_at": "2026-05-30 07:22"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1190",
+      "tg_text": "🆕Новое видео на Ютуб:«Простите Сэр история мема»👇Смотерть тут👇https://youtu.be/TZYNC9sqXzc?si=zBefRq9gsf0hznUg ❤4 99 views13:38",
+      "topic": "Простите Сэр история мема",
+      "youtube_videos": [],
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memepedia_ru",
       "tg_post_url": "https://t.me/memepedia_ru",
-      "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁48👎11❤3👍3 8.21K views17:15",
+      "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁49👎11❤3👍3 8.21K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
@@ -589,7 +632,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
@@ -598,7 +641,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
@@ -607,7 +650,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     },
     {
       "source": "tg_signal",
@@ -616,7 +659,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-05-30 00:22"
+      "detected_at": "2026-05-30 07:22"
     }
   ]
 }
