@@ -1,9 +1,9 @@
 {
   "source": "yandex-games-console",
-  "generatedAt": "2026-06-03T18:00:09.830+03:00",
+  "generatedAt": "2026-06-04T04:00:59.384+03:00",
   "dateRange": {
-    "from": "2026-02-03",
-    "to": "2026-06-03",
+    "from": "2026-02-04",
+    "to": "2026-06-04",
     "days": 120
   },
   "games": [
@@ -13,84 +13,84 @@
       "consoleUrl": "https://games.yandex.ru/console/application/506125#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 3391.64,
-          "last7": 40830.64,
-          "prev7": 54034.89,
-          "change7": -24.4,
-          "last30": 212346.21,
-          "total": 590769.19
+          "latest": 94.23,
+          "last7": 35672.59,
+          "prev7": 54850.55,
+          "change7": -35,
+          "last30": 208820.66,
+          "total": 592738.09
         },
         "arpu": {
           "latest": 0.24,
           "last7": 0.26,
-          "prev7": 0.27,
-          "change7": -3.7,
+          "prev7": 0.28,
+          "change7": -7.2,
           "last30": 0.26,
           "total": 0.23
         },
         "players": {
-          "latest": 31785,
-          "last7": 36369.86,
-          "prev7": 39595.71,
-          "change7": -8.1,
-          "last30": 40803.7,
-          "total": 47846.31
+          "latest": 31782,
+          "last7": 35380.43,
+          "prev7": 39933.14,
+          "change7": -11.4,
+          "last30": 40208.6,
+          "total": 47640.36
         },
         "play_time_for_player": {
-          "latest": 16.37,
+          "latest": 16.61,
           "last7": 17.01,
-          "prev7": 15.96,
-          "change7": 6.6,
-          "last30": 16.53,
-          "total": 17.48
+          "prev7": 16.18,
+          "change7": 5.1,
+          "last30": 16.46,
+          "total": 17.46
         },
         "sticky": {
-          "latest": 5.67,
-          "last7": 6.01,
-          "prev7": 5.8,
-          "change7": 3.6,
-          "last30": 5.91,
-          "total": 6.13
+          "latest": 5.83,
+          "last7": 5.99,
+          "prev7": 5.85,
+          "change7": 2.5,
+          "last30": 5.89,
+          "total": 6.12
         },
         "interstitial": {
-          "latest": 2.55,
-          "last7": 2.7,
-          "prev7": 2.63,
-          "change7": 2.3,
-          "last30": 2.67,
+          "latest": 2.59,
+          "last7": 2.68,
+          "prev7": 2.65,
+          "change7": 1.2,
+          "last30": 2.66,
           "total": 2.61
         },
         "rewarded": {
-          "latest": 0.62,
+          "latest": 0.64,
           "last7": 0.64,
-          "prev7": 0.6,
-          "change7": 5.4,
+          "prev7": 0.61,
+          "change7": 4.4,
           "last30": 0.63,
           "total": 0.72
         },
         "rsya_revenue": {
-          "latest": 3393.22,
-          "last7": 38296.19,
-          "prev7": 50063.6,
-          "change7": -23.5,
-          "last30": 196574.9,
-          "total": 541553.17
+          "latest": 94.3,
+          "last7": 33220.15,
+          "prev7": 50853.4,
+          "change7": -34.7,
+          "last30": 193150.66,
+          "total": 543100.47
         },
         "rsya_cpmv": {
-          "latest": 146.36,
-          "last7": 143.79,
-          "prev7": 138.47,
-          "change7": 3.8,
-          "last30": 126.31,
-          "total": 104.19
+          "latest": 113.78,
+          "last7": 138.78,
+          "prev7": 139.26,
+          "change7": -0.3,
+          "last30": 126.64,
+          "total": 104.26
         },
         "rsya_shows": {
-          "latest": 95497,
-          "last7": 1070650,
-          "prev7": 1304269,
-          "change7": -17.9,
-          "last30": 5391708,
-          "total": 17702377
+          "latest": 2776,
+          "last7": 943969,
+          "prev7": 1328765,
+          "change7": -29,
+          "last30": 5285405,
+          "total": 17749776
         }
       },
       "series": {
@@ -381,11 +381,15 @@
           },
           {
             "date": "2026-06-02",
-            "y": 4856.020735
+            "y": 5276.11240563869
           },
           {
             "date": "2026-06-03",
-            "y": 3391.64488
+            "y": 4846.226714
+          },
+          {
+            "date": "2026-06-04",
+            "y": 94.233229
           }
         ],
         "arpu": [
@@ -696,6 +700,10 @@
           {
             "date": "2026-06-01",
             "y": 0.24479000890076658
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.24067659910768588
           }
         ],
         "players": [
@@ -1006,6 +1014,10 @@
           {
             "date": "2026-06-01",
             "y": 31785
+          },
+          {
+            "date": "2026-06-02",
+            "y": 31782
           }
         ]
       },
@@ -1020,27 +1032,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 3536.67,
-          "last30": 17144.36,
-          "total": 49217.6
+          "last7": 3423.31,
+          "last30": 16753.63,
+          "total": 49637.69
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 38294.61,
-          "last30": 196573.32,
-          "total": 541551.59
+          "last7": 33220.09,
+          "last30": 193150.59,
+          "total": 543100.4
         }
       ],
       "kpi": {
-        "revenueDay": 3391.64,
-        "revenue7": 40830.64,
-        "revenue30": 212346.21,
-        "revenueChange7": -24.4,
+        "revenueDay": 94.23,
+        "revenue7": 35672.59,
+        "revenue30": 208820.66,
+        "revenueChange7": -35,
         "arpdau7": 0.26,
-        "players7": 36369.86,
+        "players7": 35380.43,
         "playtime7": 17.01,
-        "rsya7": 38296.19
+        "rsya7": 33220.15
       }
     },
     {
@@ -1049,92 +1061,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/484285#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 681.52,
-          "last7": 8951.33,
-          "prev7": 11608.38,
-          "change7": -22.9,
-          "last30": 48973.59,
-          "total": 190592.46
+          "latest": 15.45,
+          "last7": 7849.33,
+          "prev7": 11461.06,
+          "change7": -31.5,
+          "last30": 48002.41,
+          "total": 189497.82
         },
         "arpu": {
-          "latest": 0.31,
+          "latest": 0.3,
           "last7": 0.31,
           "prev7": 0.31,
-          "change7": 2.3,
+          "change7": -0.1,
           "last30": 0.3,
           "total": 0.26
         },
         "players": {
-          "latest": 6037,
-          "last7": 6767,
-          "prev7": 8515.43,
-          "change7": -20.5,
-          "last30": 8771.63,
-          "total": 9457.91
+          "latest": 5878,
+          "last7": 6665.86,
+          "prev7": 8199.86,
+          "change7": -18.7,
+          "last30": 8642.67,
+          "total": 9398.61
         },
         "play_time_for_player": {
-          "latest": 19.58,
-          "last7": 19.34,
-          "prev7": 17.37,
-          "change7": 11.4,
-          "last30": 17.92,
-          "total": 18.99
+          "latest": 18.39,
+          "last7": 19.32,
+          "prev7": 17.61,
+          "change7": 9.7,
+          "last30": 17.9,
+          "total": 19
         },
         "sticky": {
-          "latest": 6.36,
+          "latest": 6.09,
           "last7": 6.28,
-          "prev7": 5.76,
-          "change7": 8.9,
+          "prev7": 5.82,
+          "change7": 8,
           "last30": 5.85,
           "total": 6.32
         },
         "interstitial": {
-          "latest": 4.75,
-          "last7": 4.86,
-          "prev7": 4.48,
-          "change7": 8.5,
+          "latest": 4.65,
+          "last7": 4.83,
+          "prev7": 4.54,
+          "change7": 6.4,
           "last30": 4.54,
-          "total": 4.58
+          "total": 4.59
         },
         "rewarded": {
-          "latest": 1.09,
-          "last7": 1.11,
-          "prev7": 0.98,
-          "change7": 12.8,
+          "latest": 1.07,
+          "last7": 1.1,
+          "prev7": 1,
+          "change7": 10.5,
           "last30": 1.01,
           "total": 1.14
         },
         "rsya_revenue": {
-          "latest": 681.76,
-          "last7": 8046.77,
-          "prev7": 10232.82,
-          "change7": -21.4,
-          "last30": 43366.11,
-          "total": 160819.14
+          "latest": 15.45,
+          "last7": 6976.67,
+          "prev7": 10068.92,
+          "change7": -30.7,
+          "last30": 42438.51,
+          "total": 159797.46
         },
         "rsya_cpmv": {
-          "latest": 123.14,
-          "last7": 135.71,
-          "prev7": 139.62,
-          "change7": -2.8,
-          "last30": 122.73,
-          "total": 88.72
+          "latest": 135.72,
+          "last7": 136.82,
+          "prev7": 135.5,
+          "change7": 1,
+          "last30": 123.56,
+          "total": 89.26
         },
         "rsya_shows": {
-          "latest": 19158,
-          "last7": 237270,
-          "prev7": 277674,
-          "change7": -14.6,
-          "last30": 1227396,
-          "total": 5942256
+          "latest": 373,
+          "last7": 208432,
+          "prev7": 277236,
+          "change7": -24.8,
+          "last30": 1201282,
+          "total": 5893045
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 1505.791111588012
-          },
           {
             "date": "2026-02-04",
             "y": 1513.316767147337
@@ -1609,18 +1617,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 1016.262637
+            "y": 1177.4167959518102
           },
           {
             "date": "2026-06-03",
-            "y": 681.517714
+            "y": 916.060224
+          },
+          {
+            "date": "2026-06-04",
+            "y": 15.449247
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.17894130856660867
-          },
           {
             "date": "2026-02-04",
             "y": 0.17392446467616793
@@ -2092,13 +2100,13 @@
           {
             "date": "2026-06-01",
             "y": 0.3146149539324025
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.29732747372520457
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 12934
-          },
           {
             "date": "2026-02-04",
             "y": 13526
@@ -2570,6 +2578,10 @@
           {
             "date": "2026-06-01",
             "y": 6037
+          },
+          {
+            "date": "2026-06-02",
+            "y": 5878
           }
         ]
       },
@@ -2584,27 +2596,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 1225.83,
-          "last30": 6072.7,
-          "total": 29773.57
+          "last7": 1220.29,
+          "last30": 5946.59,
+          "total": 29700.35
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 8046.53,
-          "last30": 43365.87,
-          "total": 160818.89
+          "last7": 6976.67,
+          "last30": 42438.51,
+          "total": 159797.46
         }
       ],
       "kpi": {
-        "revenueDay": 681.52,
-        "revenue7": 8951.33,
-        "revenue30": 48973.59,
-        "revenueChange7": -22.9,
+        "revenueDay": 15.45,
+        "revenue7": 7849.33,
+        "revenue30": 48002.41,
+        "revenueChange7": -31.5,
         "arpdau7": 0.31,
-        "players7": 6767,
-        "playtime7": 19.34,
-        "rsya7": 8046.77
+        "players7": 6665.86,
+        "playtime7": 19.32,
+        "rsya7": 6976.67
       }
     },
     {
@@ -2613,92 +2625,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/409564#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 697.99,
-          "last7": 8536.54,
-          "prev7": 10186.82,
-          "change7": -16.2,
-          "last30": 47849.59,
-          "total": 315208.27
+          "latest": 14.24,
+          "last7": 7629.37,
+          "prev7": 10296.64,
+          "change7": -25.9,
+          "last30": 46309.95,
+          "total": 311989.8
         },
         "arpu": {
-          "latest": 0.33,
+          "latest": 0.34,
           "last7": 0.31,
-          "prev7": 0.33,
-          "change7": -5.2,
+          "prev7": 0.34,
+          "change7": -8.5,
           "last30": 0.31,
           "total": 0.27
         },
         "players": {
-          "latest": 5457,
-          "last7": 5810,
-          "prev7": 6175.86,
-          "change7": -5.9,
-          "last30": 7821.63,
-          "total": 14575.09
+          "latest": 5837,
+          "last7": 5861,
+          "prev7": 6138.29,
+          "change7": -4.5,
+          "last30": 7626.17,
+          "total": 14421.45
         },
         "play_time_for_player": {
-          "latest": 20.82,
-          "last7": 20.92,
-          "prev7": 19.31,
-          "change7": 8.3,
-          "last30": 19.28,
-          "total": 19.05
+          "latest": 21.2,
+          "last7": 21.06,
+          "prev7": 19.64,
+          "change7": 7.3,
+          "last30": 19.34,
+          "total": 19.07
         },
         "sticky": {
-          "latest": 6.32,
-          "last7": 6.55,
-          "prev7": 6.16,
-          "change7": 6.3,
-          "last30": 6.14,
-          "total": 6.41
+          "latest": 6.71,
+          "last7": 6.6,
+          "prev7": 6.26,
+          "change7": 5.3,
+          "last30": 6.16,
+          "total": 6.42
         },
         "interstitial": {
-          "latest": 3.7,
-          "last7": 3.74,
-          "prev7": 3.57,
-          "change7": 4.7,
+          "latest": 3.87,
+          "last7": 3.77,
+          "prev7": 3.62,
+          "change7": 4.1,
           "last30": 3.61,
           "total": 3.63
         },
         "rewarded": {
-          "latest": 0.55,
-          "last7": 0.53,
-          "prev7": 0.48,
-          "change7": 9.1,
-          "last30": 0.46,
+          "latest": 0.56,
+          "last7": 0.54,
+          "prev7": 0.5,
+          "change7": 8.5,
+          "last30": 0.47,
           "total": 0.42
         },
         "rsya_revenue": {
-          "latest": 698.1,
-          "last7": 7776.59,
-          "prev7": 8958.66,
-          "change7": -13.2,
-          "last30": 42916.76,
-          "total": 283342.28
+          "latest": 14.24,
+          "last7": 6845.93,
+          "prev7": 9123.26,
+          "change7": -25,
+          "last30": 41424.72,
+          "total": 280320.57
         },
         "rsya_cpmv": {
-          "latest": 127.89,
-          "last7": 178.5,
-          "prev7": 166.14,
-          "change7": 7.4,
-          "last30": 153.71,
-          "total": 118.74
+          "latest": 109.34,
+          "last7": 168.95,
+          "prev7": 168.9,
+          "change7": 0,
+          "last30": 152.79,
+          "total": 118.86
         },
         "rsya_shows": {
-          "latest": 18218,
-          "last7": 191500,
-          "prev7": 197040,
-          "change7": -2.8,
-          "last30": 990261,
-          "total": 8285845
+          "latest": 395,
+          "last7": 170752,
+          "prev7": 200547,
+          "change7": -14.9,
+          "last30": 956391,
+          "total": 8185416
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 3645.2457841546943
-          },
           {
             "date": "2026-02-04",
             "y": 3679.8636169524743
@@ -3173,18 +3181,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 1250.023266
+            "y": 1389.6601424780524
           },
           {
             "date": "2026-06-03",
-            "y": 697.993496
+            "y": 970.891642
+          },
+          {
+            "date": "2026-06-04",
+            "y": 14.242397
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.21814756338448202
-          },
           {
             "date": "2026-02-04",
             "y": 0.21365985118460631
@@ -3656,13 +3664,13 @@
           {
             "date": "2026-06-01",
             "y": 0.32613305977930834
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.3375419340485918
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 24120
-          },
           {
             "date": "2026-02-04",
             "y": 25501
@@ -4134,6 +4142,10 @@
           {
             "date": "2026-06-01",
             "y": 5457
+          },
+          {
+            "date": "2026-06-02",
+            "y": 5837
           }
         ]
       },
@@ -4148,27 +4160,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 1023.1,
-          "last30": 5345.64,
-          "total": 31866.09
+          "last7": 1028.38,
+          "last30": 5238.22,
+          "total": 31669.23
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 7776.48,
-          "last30": 42916.65,
-          "total": 283342.17
+          "last7": 6845.93,
+          "last30": 41424.72,
+          "total": 280320.57
         }
       ],
       "kpi": {
-        "revenueDay": 697.99,
-        "revenue7": 8536.54,
-        "revenue30": 47849.59,
-        "revenueChange7": -16.2,
+        "revenueDay": 14.24,
+        "revenue7": 7629.37,
+        "revenue30": 46309.95,
+        "revenueChange7": -25.9,
         "arpdau7": 0.31,
-        "players7": 5810,
-        "playtime7": 20.92,
-        "rsya7": 7776.59
+        "players7": 5861,
+        "playtime7": 21.06,
+        "rsya7": 6845.93
       }
     },
     {
@@ -4177,84 +4189,84 @@
       "consoleUrl": "https://games.yandex.ru/console/application/374315#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 753.79,
-          "last7": 9748.75,
-          "prev7": 10134.22,
-          "change7": -3.8,
-          "last30": 31949.3,
-          "total": 31949.3
+          "latest": 14.71,
+          "last7": 8681.11,
+          "prev7": 10476.89,
+          "change7": -17.1,
+          "last30": 32447.74,
+          "total": 32447.74
         },
         "arpu": {
           "latest": 0.22,
           "last7": 0.23,
           "prev7": 0.25,
-          "change7": -9.6,
+          "change7": -10.6,
           "last30": 0.25,
           "total": 0.25
         },
         "players": {
-          "latest": 9007,
-          "last7": 9960,
-          "prev7": 8052.14,
-          "change7": 23.7,
-          "last30": 8564.1,
-          "total": 8564.1
+          "latest": 9169,
+          "last7": 9981.43,
+          "prev7": 8313.57,
+          "change7": 20.1,
+          "last30": 8591.59,
+          "total": 8591.59
         },
         "play_time_for_player": {
-          "latest": 15.2,
-          "last7": 15.21,
-          "prev7": 14.6,
-          "change7": 4.2,
+          "latest": 14.74,
+          "last7": 15.15,
+          "prev7": 14.78,
+          "change7": 2.5,
           "last30": 14.82,
           "total": 14.82
         },
         "sticky": {
-          "latest": 5.34,
-          "last7": 5.4,
+          "latest": 5.09,
+          "last7": 5.36,
           "prev7": 5.4,
-          "change7": -0.1,
-          "last30": 5.35,
-          "total": 5.35
+          "change7": -0.8,
+          "last30": 5.34,
+          "total": 5.34
         },
         "interstitial": {
-          "latest": 2.4,
-          "last7": 2.44,
-          "prev7": 2.37,
-          "change7": 3.2,
+          "latest": 2.3,
+          "last7": 2.43,
+          "prev7": 2.38,
+          "change7": 2,
           "last30": 2.32,
           "total": 2.32
         },
         "rewarded": {
-          "latest": 0.56,
+          "latest": 0.5,
           "last7": 0.52,
           "prev7": 0.5,
-          "change7": 4.4,
+          "change7": 3.5,
           "last30": 0.5,
           "total": 0.5
         },
         "rsya_revenue": {
-          "latest": 753.95,
-          "last7": 8490.77,
-          "prev7": 8314.16,
-          "change7": 2.1,
-          "last30": 27159.35,
-          "total": 27159.35
+          "latest": 14.73,
+          "last7": 7416.74,
+          "prev7": 8610.29,
+          "change7": -13.9,
+          "last30": 27437.2,
+          "total": 27437.2
         },
         "rsya_cpmv": {
-          "latest": 122.44,
-          "last7": 134.88,
-          "prev7": 145.91,
-          "change7": -7.6,
-          "last30": 143.52,
-          "total": 143.52
+          "latest": 112.48,
+          "last7": 128.49,
+          "prev7": 144.82,
+          "change7": -11.3,
+          "last30": 141.9,
+          "total": 141.9
         },
         "rsya_shows": {
-          "latest": 22118,
-          "last7": 240528,
-          "prev7": 221096,
-          "change7": 8.8,
-          "last30": 692704,
-          "total": 692704
+          "latest": 504,
+          "last7": 214575,
+          "prev7": 230993,
+          "change7": -7.1,
+          "last30": 702445,
+          "total": 702445
         }
       },
       "series": {
@@ -4345,11 +4357,15 @@
           },
           {
             "date": "2026-06-02",
-            "y": 1124.777095
+            "y": 1345.228205704204
           },
           {
             "date": "2026-06-03",
-            "y": 753.79043
+            "y": 1017.067168
+          },
+          {
+            "date": "2026-06-04",
+            "y": 14.711397
           }
         ],
         "arpu": [
@@ -4436,6 +4452,10 @@
           {
             "date": "2026-06-01",
             "y": 0.22398888241782391
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.22118188189809337
           }
         ],
         "players": [
@@ -4522,6 +4542,10 @@
           {
             "date": "2026-06-01",
             "y": 9007
+          },
+          {
+            "date": "2026-06-02",
+            "y": 9169
           }
         ]
       },
@@ -4536,27 +4560,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 1753,
-          "last30": 4790.1,
-          "total": 4790.1
+          "last7": 1725.53,
+          "last30": 5010.56,
+          "total": 5010.56
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 8490.61,
-          "last30": 27159.2,
-          "total": 27159.2
+          "last7": 7416.73,
+          "last30": 27437.19,
+          "total": 27437.19
         }
       ],
       "kpi": {
-        "revenueDay": 753.79,
-        "revenue7": 9748.75,
-        "revenue30": 31949.3,
-        "revenueChange7": -3.8,
+        "revenueDay": 14.71,
+        "revenue7": 8681.11,
+        "revenue30": 32447.74,
+        "revenueChange7": -17.1,
         "arpdau7": 0.23,
-        "players7": 9960,
-        "playtime7": 15.21,
-        "rsya7": 8490.77
+        "players7": 9981.43,
+        "playtime7": 15.15,
+        "rsya7": 7416.74
       }
     },
     {
@@ -4565,92 +4589,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/449680#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 107.03,
-          "last7": 1393.89,
-          "prev7": 1728.31,
-          "change7": -19.3,
-          "last30": 9440.2,
-          "total": 57784.59
+          "latest": 2.45,
+          "last7": 1269,
+          "prev7": 1714.53,
+          "change7": -26,
+          "last30": 9112,
+          "total": 57137.13
         },
         "arpu": {
-          "latest": 0.24,
+          "latest": 0.23,
           "last7": 0.21,
           "prev7": 0.21,
-          "change7": 1.6,
+          "change7": 0.1,
           "last30": 0.2,
           "total": 0.18
         },
         "players": {
-          "latest": 1466,
-          "last7": 1548.43,
-          "prev7": 1873.71,
-          "change7": -17.4,
-          "last30": 2714.1,
-          "total": 4426.55
+          "latest": 1489,
+          "last7": 1558.14,
+          "prev7": 1840.57,
+          "change7": -15.3,
+          "last30": 2589.07,
+          "total": 4370.45
         },
         "play_time_for_player": {
-          "latest": 17.33,
-          "last7": 16.75,
-          "prev7": 14.9,
-          "change7": 12.4,
-          "last30": 15.04,
-          "total": 14.96
+          "latest": 17.61,
+          "last7": 16.91,
+          "prev7": 15.12,
+          "change7": 11.8,
+          "last30": 15.12,
+          "total": 14.98
         },
         "sticky": {
-          "latest": 6.03,
-          "last7": 5.77,
-          "prev7": 5.32,
-          "change7": 8.4,
-          "last30": 5.26,
-          "total": 5.45
+          "latest": 6.5,
+          "last7": 5.83,
+          "prev7": 5.35,
+          "change7": 9,
+          "last30": 5.31,
+          "total": 5.46
         },
         "interstitial": {
-          "latest": 3.82,
-          "last7": 3.83,
-          "prev7": 3.53,
-          "change7": 8.6,
-          "last30": 3.57,
+          "latest": 4.04,
+          "last7": 3.85,
+          "prev7": 3.57,
+          "change7": 7.8,
+          "last30": 3.58,
           "total": 3.5
         },
         "rewarded": {
-          "latest": 0.5,
+          "latest": 0.44,
           "last7": 0.44,
-          "prev7": 0.39,
-          "change7": 11.7,
+          "prev7": 0.4,
+          "change7": 11.1,
           "last30": 0.4,
           "total": 0.46
         },
         "rsya_revenue": {
-          "latest": 107.06,
-          "last7": 1239.96,
-          "prev7": 1442.8,
-          "change7": -14.1,
-          "last30": 8306.08,
-          "total": 50044.45
+          "latest": 2.45,
+          "last7": 1114.87,
+          "prev7": 1432.75,
+          "change7": -22.2,
+          "last30": 7999.75,
+          "total": 49445.34
         },
         "rsya_cpmv": {
-          "latest": 82.87,
-          "last7": 97.8,
-          "prev7": 113.23,
-          "change7": -13.6,
-          "last30": 100.82,
-          "total": 80.63
+          "latest": 131.41,
+          "last7": 97.41,
+          "prev7": 115.72,
+          "change7": -15.8,
+          "last30": 102.22,
+          "total": 81.08
         },
         "rsya_shows": {
-          "latest": 4386,
-          "last7": 45906,
-          "prev7": 48582,
-          "change7": -5.5,
-          "last30": 279225,
-          "total": 2119629
+          "latest": 85,
+          "last7": 41604,
+          "prev7": 48889,
+          "change7": -14.9,
+          "last30": 268364,
+          "total": 2091733
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 725.5010884346876
-          },
           {
             "date": "2026-02-04",
             "y": 625.5758458947271
@@ -5125,18 +5145,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 194.148215
+            "y": 222.65781840718228
           },
           {
             "date": "2026-06-03",
-            "y": 107.028616
+            "y": 154.107033
+          },
+          {
+            "date": "2026-06-04",
+            "y": 2.449798
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.14343635595782672
-          },
           {
             "date": "2026-02-04",
             "y": 0.13886256290670967
@@ -5608,13 +5628,13 @@
           {
             "date": "2026-06-01",
             "y": 0.23872701233590432
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.22766648098893894
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 8166
-          },
           {
             "date": "2026-02-04",
             "y": 7198
@@ -6086,6 +6106,10 @@
           {
             "date": "2026-06-01",
             "y": 1466
+          },
+          {
+            "date": "2026-06-02",
+            "y": 1489
           }
         ]
       },
@@ -6100,27 +6124,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 215.41,
-          "last30": 1262.41,
-          "total": 7740.16
+          "last7": 214.34,
+          "last30": 1208.5,
+          "total": 7691.79
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 1239.93,
-          "last30": 8306.05,
-          "total": 50044.43
+          "last7": 1114.87,
+          "last30": 7999.75,
+          "total": 49445.34
         }
       ],
       "kpi": {
-        "revenueDay": 107.03,
-        "revenue7": 1393.89,
-        "revenue30": 9440.2,
-        "revenueChange7": -19.3,
+        "revenueDay": 2.45,
+        "revenue7": 1269,
+        "revenue30": 9112,
+        "revenueChange7": -26,
         "arpdau7": 0.21,
-        "players7": 1548.43,
-        "playtime7": 16.75,
-        "rsya7": 1239.96
+        "players7": 1558.14,
+        "playtime7": 16.91,
+        "rsya7": 1114.87
       }
     },
     {
@@ -6129,92 +6153,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/444508#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 49.41,
-          "last7": 853.35,
-          "prev7": 1254.17,
-          "change7": -32,
-          "last30": 5463.52,
-          "total": 35998.9
+          "latest": 0.54,
+          "last7": 766.55,
+          "prev7": 1249.19,
+          "change7": -38.6,
+          "last30": 5308.28,
+          "total": 35838.57
         },
         "arpu": {
-          "latest": 0.12,
+          "latest": 0.13,
           "last7": 0.15,
           "prev7": 0.15,
-          "change7": 3.6,
+          "change7": -4.7,
           "last30": 0.14,
           "total": 0.13
         },
         "players": {
-          "latest": 1458,
-          "last7": 1517.14,
-          "prev7": 1817.57,
+          "latest": 1427,
+          "last7": 1512.71,
+          "prev7": 1811.29,
           "change7": -16.5,
-          "last30": 2166.9,
-          "total": 3750.23
+          "last30": 2093.5,
+          "total": 3729.7
         },
         "play_time_for_player": {
-          "latest": 15.03,
-          "last7": 15.96,
-          "prev7": 14.71,
-          "change7": 8.5,
-          "last30": 14.73,
-          "total": 14.03
+          "latest": 15.04,
+          "last7": 15.82,
+          "prev7": 14.77,
+          "change7": 7.1,
+          "last30": 14.74,
+          "total": 14.06
         },
         "sticky": {
-          "latest": 4.59,
-          "last7": 5.06,
-          "prev7": 4.57,
-          "change7": 10.8,
+          "latest": 4.82,
+          "last7": 4.95,
+          "prev7": 4.65,
+          "change7": 6.5,
           "last30": 4.65,
           "total": 4.72
         },
         "interstitial": {
-          "latest": 2.27,
-          "last7": 2.47,
-          "prev7": 2.27,
-          "change7": 8.5,
-          "last30": 2.26,
-          "total": 2.07
+          "latest": 2.39,
+          "last7": 2.46,
+          "prev7": 2.31,
+          "change7": 6.5,
+          "last30": 2.27,
+          "total": 2.08
         },
         "rewarded": {
           "latest": 0.38,
           "last7": 0.38,
           "prev7": 0.36,
-          "change7": 6.5,
+          "change7": 2.8,
           "last30": 0.34,
           "total": 0.32
         },
         "rsya_revenue": {
-          "latest": 49.41,
-          "last7": 610.39,
-          "prev7": 799.37,
-          "change7": -23.6,
-          "last30": 3903.61,
-          "total": 26051.02
+          "latest": 0.54,
+          "last7": 529.68,
+          "prev7": 794.48,
+          "change7": -33.3,
+          "last30": 3756.95,
+          "total": 25925.09
         },
         "rsya_cpmv": {
-          "latest": 88.18,
-          "last7": 93.58,
-          "prev7": 112.28,
-          "change7": -16.7,
-          "last30": 95.65,
-          "total": 81.96
+          "latest": 137.19,
+          "last7": 96.54,
+          "prev7": 113.85,
+          "change7": -15.2,
+          "last30": 97.03,
+          "total": 82.52
         },
         "rsya_shows": {
-          "latest": 2095,
-          "last7": 26682,
-          "prev7": 31421,
-          "change7": -15.1,
-          "last30": 159345,
-          "total": 1233053
+          "latest": 23,
+          "last7": 23373,
+          "prev7": 32052,
+          "change7": -27.1,
+          "last30": 153732,
+          "total": 1226189
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 225.79156155747796
-          },
           {
             "date": "2026-02-04",
             "y": 224.58945202553076
@@ -6689,18 +6709,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 79.362749
+            "y": 123.77997721896416
           },
           {
             "date": "2026-06-03",
-            "y": 49.412109
+            "y": 69.909868
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.537994
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.09242388929900858
-          },
           {
             "date": "2026-02-04",
             "y": 0.09456397980022348
@@ -7172,13 +7192,13 @@
           {
             "date": "2026-06-01",
             "y": 0.12487317470667937
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.13266878587241604
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 3870
-          },
           {
             "date": "2026-02-04",
             "y": 3723
@@ -7650,6 +7670,10 @@
           {
             "date": "2026-06-01",
             "y": 1458
+          },
+          {
+            "date": "2026-06-02",
+            "y": 1427
           }
         ]
       },
@@ -7664,27 +7688,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 355.47,
-          "last30": 1687.64,
-          "total": 9947.88
+          "last7": 342.42,
+          "last30": 1653.79,
+          "total": 9913.48
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 610.39,
-          "last30": 3903.61,
-          "total": 26051.02
+          "last7": 529.68,
+          "last30": 3756.95,
+          "total": 25925.09
         }
       ],
       "kpi": {
-        "revenueDay": 49.41,
-        "revenue7": 853.35,
-        "revenue30": 5463.52,
-        "revenueChange7": -32,
+        "revenueDay": 0.54,
+        "revenue7": 766.55,
+        "revenue30": 5308.28,
+        "revenueChange7": -38.6,
         "arpdau7": 0.15,
-        "players7": 1517.14,
-        "playtime7": 15.96,
-        "rsya7": 610.39
+        "players7": 1512.71,
+        "playtime7": 15.82,
+        "rsya7": 529.68
       }
     },
     {
@@ -7693,92 +7717,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/430340#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 27.13,
-          "last7": 360.7,
+          "latest": 34.64,
+          "last7": 400.57,
           "prev7": 593.15,
-          "change7": -39.2,
-          "last30": 4845.21,
-          "total": 27481.56
+          "change7": -32.5,
+          "last30": 4885.08,
+          "total": 27259.91
         },
         "arpu": {
-          "latest": 0.26,
-          "last7": 0.21,
-          "prev7": 0.25,
-          "change7": -15.6,
+          "latest": 0.25,
+          "last7": 0.22,
+          "prev7": 0.24,
+          "change7": -9.1,
           "last30": 0.24,
           "total": 0.23
         },
         "players": {
-          "latest": 367,
-          "last7": 374.14,
-          "prev7": 559.57,
-          "change7": -33.1,
-          "last30": 1083.97,
-          "total": 1489.03
+          "latest": 350,
+          "last7": 368.86,
+          "prev7": 536.57,
+          "change7": -31.3,
+          "last30": 1037.57,
+          "total": 1474.9
         },
         "play_time_for_player": {
-          "latest": 18.03,
-          "last7": 17.1,
-          "prev7": 16.77,
-          "change7": 1.9,
-          "last30": 16.79,
+          "latest": 16.29,
+          "last7": 17.17,
+          "prev7": 16.45,
+          "change7": 4.3,
+          "last30": 16.77,
           "total": 17.13
         },
         "sticky": {
-          "latest": 5.91,
-          "last7": 5.33,
-          "prev7": 5.65,
-          "change7": -5.6,
-          "last30": 5.53,
-          "total": 6.06
+          "latest": 6.24,
+          "last7": 5.39,
+          "prev7": 5.62,
+          "change7": -4,
+          "last30": 5.55,
+          "total": 6.07
         },
         "interstitial": {
-          "latest": 3.62,
-          "last7": 3.4,
-          "prev7": 3.4,
-          "change7": -0.1,
-          "last30": 3.49,
+          "latest": 3.4,
+          "last7": 3.42,
+          "prev7": 3.35,
+          "change7": 2.2,
+          "last30": 3.48,
           "total": 3.65
         },
         "rewarded": {
-          "latest": 0.71,
-          "last7": 0.74,
-          "prev7": 0.62,
-          "change7": 20,
-          "last30": 0.65,
+          "latest": 1.01,
+          "last7": 0.78,
+          "prev7": 0.64,
+          "change7": 23.3,
+          "last30": 0.67,
           "total": 0.65
         },
         "rsya_revenue": {
-          "latest": 27.14,
-          "last7": 260.96,
+          "latest": 34.64,
+          "last7": 268.46,
           "prev7": 387.02,
-          "change7": -32.6,
-          "last30": 3657.61,
-          "total": 19756.4
+          "change7": -30.6,
+          "last30": 3665.11,
+          "total": 19589.47
         },
         "rsya_cpmv": {
-          "latest": 118.97,
-          "last7": 106.98,
+          "latest": 109.21,
+          "last7": 105.58,
           "prev7": 124.07,
-          "change7": -13.8,
-          "last30": 113,
-          "total": 98.79
+          "change7": -14.9,
+          "last30": 112.67,
+          "total": 98.88
         },
         "rsya_shows": {
-          "latest": 862,
-          "last7": 9096,
+          "latest": 1233,
+          "last7": 9467,
           "prev7": 11902,
-          "change7": -23.6,
-          "last30": 115927,
-          "total": 749561
+          "change7": -20.5,
+          "last30": 116298,
+          "total": 742616
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 261.52524521445605
-          },
           {
             "date": "2026-02-04",
             "y": 294.01041502936704
@@ -8253,18 +8273,14 @@
           },
           {
             "date": "2026-06-02",
-            "y": 31.901221
+            "y": 64.26586505329567
           },
           {
             "date": "2026-06-03",
-            "y": 27.129365
+            "y": 34.635029
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.1975266202526103
-          },
           {
             "date": "2026-02-04",
             "y": 0.1977205212033403
@@ -8736,13 +8752,13 @@
           {
             "date": "2026-06-01",
             "y": 0.26218760902832344
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.24909250020657236
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 2032
-          },
           {
             "date": "2026-02-04",
             "y": 2303
@@ -9214,6 +9230,10 @@
           {
             "date": "2026-06-01",
             "y": 367
+          },
+          {
+            "date": "2026-06-02",
+            "y": 350
           }
         ]
       },
@@ -9228,27 +9248,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 141.53,
-          "last30": 1321.22,
-          "total": 7725.17
+          "last7": 151.79,
+          "last30": 1274.13,
+          "total": 7670.44
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 260.95,
-          "last30": 3657.6,
-          "total": 19756.39
+          "last7": 268.46,
+          "last30": 3665.11,
+          "total": 19589.47
         }
       ],
       "kpi": {
-        "revenueDay": 27.13,
-        "revenue7": 360.7,
-        "revenue30": 4845.21,
-        "revenueChange7": -39.2,
-        "arpdau7": 0.21,
-        "players7": 374.14,
-        "playtime7": 17.1,
-        "rsya7": 260.96
+        "revenueDay": 34.64,
+        "revenue7": 400.57,
+        "revenue30": 4885.08,
+        "revenueChange7": -32.5,
+        "arpdau7": 0.22,
+        "players7": 368.86,
+        "playtime7": 17.17,
+        "rsya7": 268.46
       }
     },
     {
@@ -9257,92 +9277,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/345805#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 63.1,
-          "last7": 1221.43,
-          "prev7": 1399.44,
-          "change7": -12.7,
-          "last30": 4697.25,
-          "total": 12737.06
+          "latest": 3.45,
+          "last7": 1098.13,
+          "prev7": 1464.48,
+          "change7": -25,
+          "last30": 4741.42,
+          "total": 12763.63
         },
         "arpu": {
-          "latest": 0.24,
+          "latest": 0.22,
           "last7": 0.25,
           "prev7": 0.27,
-          "change7": -5.5,
-          "last30": 0.26,
+          "change7": -8.8,
+          "last30": 0.25,
           "total": 0.24
         },
         "players": {
-          "latest": 1111,
-          "last7": 1404.86,
-          "prev7": 1118.29,
-          "change7": 25.6,
-          "last30": 1010.23,
-          "total": 719.45
+          "latest": 1025,
+          "last7": 1342.29,
+          "prev7": 1168.14,
+          "change7": 14.9,
+          "last30": 1016.97,
+          "total": 722.89
         },
         "play_time_for_player": {
-          "latest": 13.78,
+          "latest": 12.89,
           "last7": 13.59,
-          "prev7": 13.21,
-          "change7": 2.9,
-          "last30": 13.61,
+          "prev7": 13.35,
+          "change7": 1.8,
+          "last30": 13.57,
           "total": 13.98
         },
         "sticky": {
-          "latest": 4.14,
-          "last7": 4.27,
+          "latest": 4.23,
+          "last7": 4.31,
           "prev7": 4.4,
-          "change7": -3.1,
-          "last30": 4.22,
-          "total": 4.35
+          "change7": -2.1,
+          "last30": 4.23,
+          "total": 4.36
         },
         "interstitial": {
-          "latest": 2.76,
-          "last7": 2.64,
-          "prev7": 2.66,
-          "change7": -0.7,
+          "latest": 2.58,
+          "last7": 2.65,
+          "prev7": 2.67,
+          "change7": -0.9,
           "last30": 2.63,
           "total": 2.63
         },
         "rewarded": {
-          "latest": 0.75,
-          "last7": 0.71,
-          "prev7": 0.68,
-          "change7": 4,
+          "latest": 0.63,
+          "last7": 0.7,
+          "prev7": 0.69,
+          "change7": 0.4,
           "last30": 0.69,
           "total": 0.77
         },
         "rsya_revenue": {
-          "latest": 63.1,
-          "last7": 809.55,
-          "prev7": 907.46,
-          "change7": -10.8,
-          "last30": 2923.35,
-          "total": 6238.96
+          "latest": 3.45,
+          "last7": 703.2,
+          "prev7": 936.68,
+          "change7": -24.9,
+          "last30": 2937.58,
+          "total": 6231.17
         },
         "rsya_cpmv": {
-          "latest": 112.58,
-          "last7": 139.63,
-          "prev7": 162.69,
-          "change7": -14.2,
-          "last30": 140.32,
-          "total": 96.42
+          "latest": 125.47,
+          "last7": 131.98,
+          "prev7": 168.09,
+          "change7": -21.5,
+          "last30": 141.17,
+          "total": 96.77
         },
         "rsya_shows": {
-          "latest": 1705,
-          "last7": 17327,
-          "prev7": 17438,
-          "change7": -0.6,
-          "last30": 61109,
-          "total": 161626
+          "latest": 81,
+          "last7": 15879,
+          "prev7": 17410,
+          "change7": -8.8,
+          "last30": 61376,
+          "total": 161283
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 69.93497579300617
-          },
           {
             "date": "2026-02-04",
             "y": 75.56843817725337
@@ -9817,18 +9833,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 88.134177
+            "y": 146.39772376749366
           },
           {
             "date": "2026-06-03",
-            "y": 63.104346
+            "y": 97.904555
+          },
+          {
+            "date": "2026-06-04",
+            "y": 3.449219
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.19107916883335022
-          },
           {
             "date": "2026-02-04",
             "y": 0.25022661648097144
@@ -10300,13 +10316,13 @@
           {
             "date": "2026-06-01",
             "y": 0.23514197503648937
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.224192532568903
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 615
-          },
           {
             "date": "2026-02-04",
             "y": 502
@@ -10778,6 +10794,10 @@
           {
             "date": "2026-06-01",
             "y": 1111
+          },
+          {
+            "date": "2026-06-02",
+            "y": 1025
           }
         ]
       },
@@ -10792,27 +10812,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 576.09,
-          "last30": 1870.78,
-          "total": 6249.95
+          "last7": 554.43,
+          "last30": 1863.07,
+          "total": 6284.33
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 809.55,
-          "last30": 2923.35,
-          "total": 6238.96
+          "last7": 703.2,
+          "last30": 2937.58,
+          "total": 6231.17
         }
       ],
       "kpi": {
-        "revenueDay": 63.1,
-        "revenue7": 1221.43,
-        "revenue30": 4697.25,
-        "revenueChange7": -12.7,
+        "revenueDay": 3.45,
+        "revenue7": 1098.13,
+        "revenue30": 4741.42,
+        "revenueChange7": -25,
         "arpdau7": 0.25,
-        "players7": 1404.86,
+        "players7": 1342.29,
         "playtime7": 13.59,
-        "rsya7": 809.55
+        "rsya7": 703.2
       }
     },
     {
@@ -10821,52 +10841,52 @@
       "consoleUrl": "https://games.yandex.ru/console/application/306615#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 35.16,
-          "last7": 561.82,
-          "prev7": 816.4,
-          "change7": -31.2,
-          "last30": 3323.2,
-          "total": 14233.57
+          "latest": 0.35,
+          "last7": 522.57,
+          "prev7": 753.27,
+          "change7": -30.6,
+          "last30": 3288.39,
+          "total": 13897.21
         },
         "arpu": {
-          "latest": 0.17,
+          "latest": 0.23,
           "last7": 0.29,
-          "prev7": 0.28,
-          "change7": 3.5,
+          "prev7": 0.29,
+          "change7": 0.9,
           "last30": 0.26,
           "total": 0.2
         },
         "players": {
-          "latest": 490,
-          "last7": 468.14,
-          "prev7": 756.43,
-          "change7": -38.1,
-          "last30": 748.63,
-          "total": 1041.87
+          "latest": 447,
+          "last7": 462.86,
+          "prev7": 692,
+          "change7": -33.1,
+          "last30": 729.63,
+          "total": 1022.47
         },
         "play_time_for_player": {
-          "latest": 18.55,
-          "last7": 20.65,
-          "prev7": 19.72,
-          "change7": 4.7,
-          "last30": 20.07,
-          "total": 19.82
+          "latest": 17.76,
+          "last7": 20.42,
+          "prev7": 19.87,
+          "change7": 2.8,
+          "last30": 19.98,
+          "total": 19.79
         },
         "sticky": {
-          "latest": 5.13,
+          "latest": 5.51,
           "last7": 6.06,
-          "prev7": 5.95,
-          "change7": 1.9,
-          "last30": 6.02,
+          "prev7": 5.96,
+          "change7": 1.7,
+          "last30": 5.99,
           "total": 6.42
         },
         "interstitial": {
-          "latest": 2.04,
-          "last7": 2.39,
-          "prev7": 2.5,
+          "latest": 2.05,
+          "last7": 2.35,
+          "prev7": 2.46,
           "change7": -4.3,
-          "last30": 2.44,
-          "total": 2.38
+          "last30": 2.42,
+          "total": 2.37
         },
         "rewarded": {
           "latest": 0,
@@ -10877,36 +10897,32 @@
           "total": 0
         },
         "rsya_revenue": {
-          "latest": 35.18,
-          "last7": 525.2,
-          "prev7": 712.26,
-          "change7": -26.3,
-          "last30": 2962.52,
-          "total": 11887.56
+          "latest": 0.35,
+          "last7": 473.53,
+          "prev7": 662.47,
+          "change7": -28.5,
+          "last30": 2917.67,
+          "total": 11571.88
         },
         "rsya_cpmv": {
-          "latest": 87.22,
-          "last7": 370.25,
-          "prev7": 153.67,
-          "change7": 140.9,
-          "last30": 194.32,
-          "total": 113.1
+          "latest": 42.82,
+          "last7": 353.87,
+          "prev7": 155.19,
+          "change7": 128,
+          "last30": 192.42,
+          "total": 112.59
         },
         "rsya_shows": {
-          "latest": 1507,
-          "last7": 11150,
-          "prev7": 16455,
-          "change7": -32.2,
-          "last30": 73899,
-          "total": 433886
+          "latest": 19,
+          "last7": 10138,
+          "prev7": 15445,
+          "change7": -34.4,
+          "last30": 72564,
+          "total": 425151
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 373.82614920220317
-          },
           {
             "date": "2026-02-04",
             "y": 197.35126544418065
@@ -11381,18 +11397,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 45.698932
+            "y": 62.580610278348644
           },
           {
             "date": "2026-06-03",
-            "y": 35.164306
+            "y": 55.406113
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.347463
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.23262361493603184
-          },
           {
             "date": "2026-02-04",
             "y": 0.15298547708851212
@@ -11864,13 +11880,13 @@
           {
             "date": "2026-06-01",
             "y": 0.16685945654889853
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.22592278078826225
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 2756
-          },
           {
             "date": "2026-02-04",
             "y": 2154
@@ -12342,6 +12358,10 @@
           {
             "date": "2026-06-01",
             "y": 490
+          },
+          {
+            "date": "2026-06-02",
+            "y": 447
           }
         ]
       },
@@ -12356,27 +12376,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 60.65,
-          "last30": 407.38,
-          "total": 2346.03
+          "last7": 62.24,
+          "last30": 398.52,
+          "total": 2325.33
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 525.18,
-          "last30": 2962.5,
-          "total": 11887.54
+          "last7": 473.53,
+          "last30": 2917.67,
+          "total": 11571.88
         }
       ],
       "kpi": {
-        "revenueDay": 35.16,
-        "revenue7": 561.82,
-        "revenue30": 3323.2,
-        "revenueChange7": -31.2,
+        "revenueDay": 0.35,
+        "revenue7": 522.57,
+        "revenue30": 3288.39,
+        "revenueChange7": -30.6,
         "arpdau7": 0.29,
-        "players7": 468.14,
-        "playtime7": 20.65,
-        "rsya7": 525.2
+        "players7": 462.86,
+        "playtime7": 20.42,
+        "rsya7": 473.53
       }
     },
     {
@@ -12385,92 +12405,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/296900#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 7.34,
-          "last7": 208.04,
-          "prev7": 343.78,
-          "change7": -39.5,
-          "last30": 1742.13,
-          "total": 9205.74
+          "latest": 0.1,
+          "last7": 201.01,
+          "prev7": 339.02,
+          "change7": -40.7,
+          "last30": 1673.36,
+          "total": 9191.6
         },
         "arpu": {
-          "latest": 0.23,
+          "latest": 0.16,
           "last7": 0.2,
           "prev7": 0.2,
-          "change7": 3.5,
+          "change7": 1.5,
           "last30": 0.22,
           "total": 0.24
         },
         "players": {
-          "latest": 223,
-          "last7": 289.29,
-          "prev7": 389.29,
-          "change7": -25.7,
-          "last30": 438.63,
-          "total": 480.83
+          "latest": 251,
+          "last7": 281.86,
+          "prev7": 382.71,
+          "change7": -26.4,
+          "last30": 420.97,
+          "total": 479.66
         },
         "play_time_for_player": {
-          "latest": 15.7,
-          "last7": 15.44,
-          "prev7": 13.6,
-          "change7": 13.5,
-          "last30": 14.43,
-          "total": 14.98
+          "latest": 15.13,
+          "last7": 15.11,
+          "prev7": 14.16,
+          "change7": 6.7,
+          "last30": 14.42,
+          "total": 14.95
         },
         "sticky": {
-          "latest": 3.24,
-          "last7": 3.8,
-          "prev7": 4.02,
-          "change7": -5.6,
-          "last30": 4.12,
-          "total": 4.72
+          "latest": 3.92,
+          "last7": 3.74,
+          "prev7": 4.04,
+          "change7": -7.4,
+          "last30": 4.11,
+          "total": 4.7
         },
         "interstitial": {
-          "latest": 2.8,
-          "last7": 2.72,
-          "prev7": 2.63,
-          "change7": 3.3,
+          "latest": 2.58,
+          "last7": 2.62,
+          "prev7": 2.72,
+          "change7": -3.6,
           "last30": 2.68,
           "total": 2.79
         },
         "rewarded": {
-          "latest": 1.11,
+          "latest": 1.02,
           "last7": 0.99,
           "prev7": 1,
-          "change7": -1.4,
+          "change7": -1.2,
           "last30": 0.99,
           "total": 1.06
         },
         "rsya_revenue": {
-          "latest": 7.34,
-          "last7": 96.65,
-          "prev7": 145.52,
-          "change7": -33.6,
-          "last30": 664.74,
-          "total": 3444.35
+          "latest": 0.1,
+          "last7": 94.68,
+          "prev7": 135.8,
+          "change7": -30.3,
+          "last30": 638.6,
+          "total": 3441.11
         },
         "rsya_cpmv": {
-          "latest": 66.93,
-          "last7": 102.68,
-          "prev7": 97.67,
-          "change7": 5.1,
-          "last30": 90.87,
-          "total": 83.18
+          "latest": 33.11,
+          "last7": 97.71,
+          "prev7": 97.86,
+          "change7": -0.2,
+          "last30": 90.36,
+          "total": 83.17
         },
         "rsya_shows": {
-          "latest": 283,
-          "last7": 3555,
-          "prev7": 5906,
-          "change7": -39.8,
-          "last30": 25988,
-          "total": 137993
+          "latest": 6,
+          "last7": 3317,
+          "prev7": 5382,
+          "change7": -38.4,
+          "last30": 24960,
+          "total": 137603
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 39.95384247712853
-          },
           {
             "date": "2026-02-04",
             "y": 54.71100316776525
@@ -12945,18 +12961,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 13.018311
+            "y": 26.795175999114065
           },
           {
             "date": "2026-06-03",
-            "y": 7.343982
+            "y": 19.27389
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.101348
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.16175644727582403
-          },
           {
             "date": "2026-02-04",
             "y": 0.22796251319902186
@@ -13428,13 +13444,13 @@
           {
             "date": "2026-06-01",
             "y": 0.2292020957178159
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.1643875828166507
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 390
-          },
           {
             "date": "2026-02-04",
             "y": 359
@@ -13906,6 +13922,10 @@
           {
             "date": "2026-06-01",
             "y": 223
+          },
+          {
+            "date": "2026-06-02",
+            "y": 251
           }
         ]
       },
@@ -13920,27 +13940,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 151.98,
-          "last30": 1222.44,
-          "total": 5761.39
+          "last7": 146.02,
+          "last30": 1143.69,
+          "total": 5750.49
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 96.65,
-          "last30": 664.74,
-          "total": 3444.35
+          "last7": 94.68,
+          "last30": 638.6,
+          "total": 3441.11
         }
       ],
       "kpi": {
-        "revenueDay": 7.34,
-        "revenue7": 208.04,
-        "revenue30": 1742.13,
-        "revenueChange7": -39.5,
+        "revenueDay": 0.1,
+        "revenue7": 201.01,
+        "revenue30": 1673.36,
+        "revenueChange7": -40.7,
         "arpdau7": 0.2,
-        "players7": 289.29,
-        "playtime7": 15.44,
-        "rsya7": 96.65
+        "players7": 281.86,
+        "playtime7": 15.11,
+        "rsya7": 94.68
       }
     },
     {
@@ -13949,92 +13969,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/359775#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 15.6,
-          "last7": 290.05,
-          "prev7": 334.72,
-          "change7": -13.3,
-          "last30": 1232.66,
-          "total": 5024.4
+          "latest": 0.31,
+          "last7": 243.69,
+          "prev7": 343.5,
+          "change7": -29.1,
+          "last30": 1221.23,
+          "total": 4958.34
         },
         "arpu": {
           "latest": 0.1,
           "last7": 0.1,
-          "prev7": 0.1,
-          "change7": -2,
+          "prev7": 0.11,
+          "change7": -7.2,
           "last30": 0.1,
           "total": 0.11
         },
         "players": {
-          "latest": 580,
-          "last7": 707.57,
-          "prev7": 694,
-          "change7": 2,
-          "last30": 639.1,
-          "total": 619.47
+          "latest": 650,
+          "last7": 694.86,
+          "prev7": 712.57,
+          "change7": -2.5,
+          "last30": 644.47,
+          "total": 615.81
         },
         "play_time_for_player": {
-          "latest": 7.27,
-          "last7": 7.62,
-          "prev7": 6.81,
-          "change7": 12,
-          "last30": 7.21,
-          "total": 7.34
+          "latest": 7.11,
+          "last7": 7.59,
+          "prev7": 6.89,
+          "change7": 10.2,
+          "last30": 7.19,
+          "total": 7.33
         },
         "sticky": {
-          "latest": 3.34,
-          "last7": 3.58,
-          "prev7": 3.24,
-          "change7": 10.6,
-          "last30": 3.27,
-          "total": 3.38
+          "latest": 3.15,
+          "last7": 3.54,
+          "prev7": 3.26,
+          "change7": 8.7,
+          "last30": 3.26,
+          "total": 3.39
         },
         "interstitial": {
-          "latest": 1.7,
-          "last7": 1.8,
-          "prev7": 1.71,
-          "change7": 4.9,
+          "latest": 1.67,
+          "last7": 1.77,
+          "prev7": 1.72,
+          "change7": 2.5,
           "last30": 1.78,
           "total": 1.76
         },
         "rewarded": {
-          "latest": 0.07,
+          "latest": 0.12,
           "last7": 0.1,
-          "prev7": 0.09,
-          "change7": 17.4,
+          "prev7": 0.1,
+          "change7": 6.6,
           "last30": 0.1,
           "total": 0.12
         },
         "rsya_revenue": {
-          "latest": 15.61,
-          "last7": 284.72,
-          "prev7": 321.03,
-          "change7": -11.3,
-          "last30": 1201.23,
-          "total": 4873.13
+          "latest": 0.31,
+          "last7": 238.74,
+          "prev7": 330.5,
+          "change7": -27.8,
+          "last30": 1189.85,
+          "total": 4809.22
         },
         "rsya_cpmv": {
-          "latest": 79.43,
-          "last7": 103.35,
-          "prev7": 140.88,
-          "change7": -26.6,
-          "last30": 112.79,
-          "total": 102.12
+          "latest": 60.71,
+          "last7": 93.02,
+          "prev7": 139.69,
+          "change7": -33.4,
+          "last30": 112.45,
+          "total": 101.89
         },
         "rsya_shows": {
-          "latest": 693,
-          "last7": 10045,
-          "prev7": 10718,
-          "change7": -6.3,
-          "last30": 41514,
-          "total": 165340
+          "latest": 34,
+          "last7": 8814,
+          "prev7": 11044,
+          "change7": -20.2,
+          "last30": 41219,
+          "total": 163478
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 74.09302451412717
-          },
           {
             "date": "2026-02-04",
             "y": 54.68290716016432
@@ -14509,18 +14525,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 40.198326
+            "y": 40.89817464485935
           },
           {
             "date": "2026-06-03",
-            "y": 15.602091
+            "y": 22.630382
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.306232
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.11523020919770943
-          },
           {
             "date": "2026-02-04",
             "y": 0.10914751928176511
@@ -14992,13 +15008,13 @@
           {
             "date": "2026-06-01",
             "y": 0.09646897340086023
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.10148430432967581
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 1086
-          },
           {
             "date": "2026-02-04",
             "y": 793
@@ -15470,6 +15486,10 @@
           {
             "date": "2026-06-01",
             "y": 580
+          },
+          {
+            "date": "2026-06-02",
+            "y": 650
           }
         ]
       },
@@ -15484,27 +15504,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 11.94,
-          "last30": 34.29,
-          "total": 151.27
+          "last7": 7.19,
+          "last30": 33.48,
+          "total": 149.12
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 284.72,
-          "last30": 1201.22,
-          "total": 4873.13
+          "last7": 238.74,
+          "last30": 1189.85,
+          "total": 4809.22
         }
       ],
       "kpi": {
-        "revenueDay": 15.6,
-        "revenue7": 290.05,
-        "revenue30": 1232.66,
-        "revenueChange7": -13.3,
+        "revenueDay": 0.31,
+        "revenue7": 243.69,
+        "revenue30": 1221.23,
+        "revenueChange7": -29.1,
         "arpdau7": 0.1,
-        "players7": 707.57,
-        "playtime7": 7.62,
-        "rsya7": 284.72
+        "players7": 694.86,
+        "playtime7": 7.59,
+        "rsya7": 238.74
       }
     },
     {
@@ -15513,84 +15533,84 @@
       "consoleUrl": "https://games.yandex.ru/console/application/292503#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 38.43,
-          "last7": 280.42,
-          "prev7": 303.74,
-          "change7": -7.7,
-          "last30": 682.85,
-          "total": 682.85
+          "latest": 3.03,
+          "last7": 271.7,
+          "prev7": 312.46,
+          "change7": -13,
+          "last30": 707.87,
+          "total": 707.87
         },
         "arpu": {
-          "latest": 0.3,
-          "last7": 0.24,
-          "prev7": 0.26,
-          "change7": -6,
+          "latest": 0.28,
+          "last7": 0.25,
+          "prev7": 0.28,
+          "change7": -10.2,
           "last30": 0.23,
           "total": 0.23
         },
         "players": {
-          "latest": 288,
-          "last7": 338.14,
-          "prev7": 184.43,
-          "change7": 83.3,
-          "last30": 205,
-          "total": 205
+          "latest": 298,
+          "last7": 304.43,
+          "prev7": 244.57,
+          "change7": 24.5,
+          "last30": 209.23,
+          "total": 209.23
         },
         "play_time_for_player": {
-          "latest": 8.93,
-          "last7": 9.74,
-          "prev7": 9.58,
-          "change7": 1.7,
-          "last30": 9.76,
-          "total": 9.76
+          "latest": 10.23,
+          "last7": 9.96,
+          "prev7": 9.56,
+          "change7": 4.2,
+          "last30": 9.78,
+          "total": 9.78
         },
         "sticky": {
-          "latest": 3.07,
-          "last7": 3.49,
-          "prev7": 2.99,
-          "change7": 16.7,
-          "last30": 3.23,
-          "total": 3.23
+          "latest": 4.14,
+          "last7": 3.58,
+          "prev7": 3.12,
+          "change7": 14.5,
+          "last30": 3.27,
+          "total": 3.27
         },
         "interstitial": {
-          "latest": 3.37,
-          "last7": 3.73,
-          "prev7": 3.64,
-          "change7": 2.4,
-          "last30": 3.72,
-          "total": 3.72
+          "latest": 3.98,
+          "last7": 3.82,
+          "prev7": 3.6,
+          "change7": 6.2,
+          "last30": 3.74,
+          "total": 3.74
         },
         "rewarded": {
-          "latest": 2.01,
-          "last7": 2.01,
-          "prev7": 1.86,
-          "change7": 8.1,
-          "last30": 1.96,
-          "total": 1.96
+          "latest": 1.72,
+          "last7": 1.99,
+          "prev7": 1.85,
+          "change7": 7.6,
+          "last30": 1.95,
+          "total": 1.95
         },
         "rsya_revenue": {
-          "latest": 38.43,
-          "last7": 268.93,
-          "prev7": 290.09,
-          "change7": -7.3,
-          "last30": 641.26,
-          "total": 641.26
+          "latest": 3.03,
+          "last7": 261.84,
+          "prev7": 298.33,
+          "change7": -12.2,
+          "last30": 665.5,
+          "total": 665.5
         },
         "rsya_cpmv": {
-          "latest": 108.16,
-          "last7": 128.29,
-          "prev7": 147.9,
-          "change7": -13.3,
-          "last30": 120.44,
-          "total": 120.44
+          "latest": 95.87,
+          "last7": 126.37,
+          "prev7": 142.3,
+          "change7": -11.2,
+          "last30": 119.11,
+          "total": 119.11
         },
         "rsya_shows": {
-          "latest": 1027,
-          "last7": 7171,
-          "prev7": 6525,
-          "change7": 9.9,
-          "last30": 16422,
-          "total": 16422
+          "latest": 106,
+          "last7": 6912,
+          "prev7": 6995,
+          "change7": -1.2,
+          "last30": 17165,
+          "total": 17165
         }
       },
       "series": {
@@ -15681,11 +15701,15 @@
           },
           {
             "date": "2026-06-02",
-            "y": 46.177926
+            "y": 46.9583689056
           },
           {
             "date": "2026-06-03",
-            "y": 38.427559
+            "y": 59.635231
+          },
+          {
+            "date": "2026-06-04",
+            "y": 3.031887
           }
         ],
         "arpu": [
@@ -15772,6 +15796,10 @@
           {
             "date": "2026-06-01",
             "y": 0.30466833783790087
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.2762256994447059
           }
         ],
         "players": [
@@ -15858,6 +15886,10 @@
           {
             "date": "2026-06-01",
             "y": 288
+          },
+          {
+            "date": "2026-06-02",
+            "y": 298
           }
         ]
       },
@@ -15872,27 +15904,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 14.26,
-          "last30": 41.59,
-          "total": 41.59
+          "last7": 13.37,
+          "last30": 42.37,
+          "total": 42.37
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 268.93,
-          "last30": 641.26,
-          "total": 641.26
+          "last7": 261.84,
+          "last30": 665.5,
+          "total": 665.5
         }
       ],
       "kpi": {
-        "revenueDay": 38.43,
-        "revenue7": 280.42,
-        "revenue30": 682.85,
-        "revenueChange7": -7.7,
-        "arpdau7": 0.24,
-        "players7": 338.14,
-        "playtime7": 9.74,
-        "rsya7": 268.93
+        "revenueDay": 3.03,
+        "revenue7": 271.7,
+        "revenue30": 707.87,
+        "revenueChange7": -13,
+        "arpdau7": 0.25,
+        "players7": 304.43,
+        "playtime7": 9.96,
+        "rsya7": 261.84
       }
     },
     {
@@ -15901,51 +15933,51 @@
       "consoleUrl": "https://games.yandex.ru/console/application/303904#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 1.28,
-          "last7": 144.29,
-          "prev7": 177.34,
-          "change7": -18.6,
-          "last30": 474.99,
-          "total": 1853.95
+          "latest": 0.4,
+          "last7": 133.58,
+          "prev7": 176.93,
+          "change7": -24.5,
+          "last30": 482.19,
+          "total": 1862.45
         },
         "arpu": {
           "latest": 0.11,
-          "last7": 0.14,
-          "prev7": 0.17,
-          "change7": -15.5,
+          "last7": 0.13,
+          "prev7": 0.18,
+          "change7": -25.1,
           "last30": 0.14,
           "total": 0.13
         },
         "players": {
-          "latest": 261,
-          "last7": 331.43,
-          "prev7": 203.14,
-          "change7": 63.2,
-          "last30": 194.27,
-          "total": 197.95
+          "latest": 216,
+          "last7": 321.71,
+          "prev7": 226,
+          "change7": 42.4,
+          "last30": 193.7,
+          "total": 198.82
         },
         "play_time_for_player": {
-          "latest": 9.6,
-          "last7": 10.81,
-          "prev7": 10.03,
-          "change7": 7.8,
+          "latest": 10.2,
+          "last7": 10.42,
+          "prev7": 10.76,
+          "change7": -3.1,
           "last30": 10.2,
-          "total": 9.97
+          "total": 9.99
         },
         "sticky": {
-          "latest": 3.01,
-          "last7": 3.37,
-          "prev7": 3.37,
-          "change7": 0.1,
+          "latest": 3.26,
+          "last7": 3.33,
+          "prev7": 3.46,
+          "change7": -3.9,
           "last30": 3.53,
-          "total": 3.19
+          "total": 3.2
         },
         "interstitial": {
-          "latest": 2.05,
-          "last7": 2.32,
-          "prev7": 2.31,
-          "change7": 0.5,
-          "last30": 2.34,
+          "latest": 1.8,
+          "last7": 2.21,
+          "prev7": 2.42,
+          "change7": -8.7,
+          "last30": 2.31,
           "total": 2.22
         },
         "rewarded": {
@@ -15957,36 +15989,32 @@
           "total": 0
         },
         "rsya_revenue": {
-          "latest": 1.28,
-          "last7": 27.51,
-          "prev7": 54.16,
-          "change7": -49.2,
-          "last30": 126.63,
-          "total": 574.23
+          "latest": 0.4,
+          "last7": 27.52,
+          "prev7": 40.41,
+          "change7": -31.9,
+          "last30": 126.29,
+          "total": 575.28
         },
         "rsya_cpmv": {
-          "latest": 20.7,
-          "last7": 66.72,
-          "prev7": 118.06,
-          "change7": -43.5,
-          "last30": 86.34,
-          "total": 67.84
+          "latest": 200.55,
+          "last7": 91.07,
+          "prev7": 88.5,
+          "change7": 2.9,
+          "last30": 90.75,
+          "total": 69.38
         },
         "rsya_shows": {
-          "latest": 109,
-          "last7": 1060,
-          "prev7": 1227,
-          "change7": -13.6,
-          "last30": 3765,
-          "total": 18332
+          "latest": 2,
+          "last7": 1027,
+          "prev7": 1137,
+          "change7": -9.7,
+          "last30": 3781,
+          "total": 18328
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 4.760612147
-          },
           {
             "date": "2026-02-04",
             "y": 10.433325487620879
@@ -16461,18 +16489,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 3.37099
+            "y": 14.351973887739241
           },
           {
             "date": "2026-06-03",
-            "y": 1.280586
+            "y": 3.158157
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.401108
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.074384564796875
-          },
           {
             "date": "2026-02-04",
             "y": 0.13376058317462666
@@ -16944,13 +16972,13 @@
           {
             "date": "2026-06-01",
             "y": 0.11072646436259886
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.10552921976278853
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 113
-          },
           {
             "date": "2026-02-04",
             "y": 139
@@ -17422,6 +17450,10 @@
           {
             "date": "2026-06-01",
             "y": 261
+          },
+          {
+            "date": "2026-06-02",
+            "y": 216
           }
         ]
       },
@@ -17436,27 +17468,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 165.13,
-          "last30": 372.7,
-          "total": 1279.72
+          "last7": 149.53,
+          "last30": 369.21,
+          "total": 1287.17
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 27.51,
-          "last30": 126.63,
-          "total": 574.23
+          "last7": 27.52,
+          "last30": 126.29,
+          "total": 575.28
         }
       ],
       "kpi": {
-        "revenueDay": 1.28,
-        "revenue7": 144.29,
-        "revenue30": 474.99,
-        "revenueChange7": -18.6,
-        "arpdau7": 0.14,
-        "players7": 331.43,
-        "playtime7": 10.81,
-        "rsya7": 27.51
+        "revenueDay": 0.4,
+        "revenue7": 133.58,
+        "revenue30": 482.19,
+        "revenueChange7": -24.5,
+        "arpdau7": 0.13,
+        "players7": 321.71,
+        "playtime7": 10.42,
+        "rsya7": 27.52
       }
     },
     {
@@ -17465,50 +17497,50 @@
       "consoleUrl": "https://games.yandex.ru/console/application/327219#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 1.62,
-          "last7": 51.5,
+          "latest": 2.16,
+          "last7": 58.48,
           "prev7": 70.48,
-          "change7": -26.9,
-          "last30": 373.38,
-          "total": 1775.61
+          "change7": -17,
+          "last30": 380.36,
+          "total": 1758.31
         },
         "arpu": {
-          "latest": 0.12,
-          "last7": 0.13,
-          "prev7": 0.17,
-          "change7": -22.4,
+          "latest": 0.17,
+          "last7": 0.14,
+          "prev7": 0.15,
+          "change7": -8.4,
           "last30": 0.15,
           "total": 0.18
         },
         "players": {
-          "latest": 86,
-          "last7": 103,
-          "prev7": 133.86,
-          "change7": -23.1,
-          "last30": 150.5,
-          "total": 140.64
+          "latest": 76,
+          "last7": 100.29,
+          "prev7": 133.71,
+          "change7": -25,
+          "last30": 144.93,
+          "total": 139.5
         },
         "play_time_for_player": {
-          "latest": 13.73,
-          "last7": 12.78,
-          "prev7": 13.64,
-          "change7": -6.3,
-          "last30": 13.35,
-          "total": 14.4
+          "latest": 18.32,
+          "last7": 13.65,
+          "prev7": 13.01,
+          "change7": 4.9,
+          "last30": 13.49,
+          "total": 14.42
         },
         "sticky": {
-          "latest": 4.19,
-          "last7": 3.64,
-          "prev7": 4.14,
-          "change7": -12.2,
-          "last30": 3.74,
+          "latest": 4.79,
+          "last7": 3.7,
+          "prev7": 4.1,
+          "change7": -9.7,
+          "last30": 3.8,
           "total": 4.21
         },
         "interstitial": {
-          "latest": 3.21,
-          "last7": 3.34,
-          "prev7": 3.26,
-          "change7": 2.2,
+          "latest": 3.29,
+          "last7": 3.38,
+          "prev7": 3.16,
+          "change7": 6.9,
           "last30": 3.29,
           "total": 3.48
         },
@@ -17521,36 +17553,32 @@
           "total": 0
         },
         "rsya_revenue": {
-          "latest": 1.62,
-          "last7": 21.33,
+          "latest": 2.16,
+          "last7": 21.87,
           "prev7": 37.18,
-          "change7": -42.6,
-          "last30": 179.73,
-          "total": 585.29
+          "change7": -41.2,
+          "last30": 180.27,
+          "total": 583.73
         },
         "rsya_cpmv": {
-          "latest": 35.27,
-          "last7": 51.82,
+          "latest": 35.43,
+          "last7": 51.85,
           "prev7": 55.91,
           "change7": -7.3,
           "last30": 61.1,
-          "total": 47.57
+          "total": 47.61
         },
         "rsya_shows": {
-          "latest": 97,
-          "last7": 1004,
+          "latest": 138,
+          "last7": 1045,
           "prev7": 1539,
-          "change7": -34.8,
-          "last30": 7151,
-          "total": 25225
+          "change7": -32.1,
+          "last30": 7192,
+          "total": 25175
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 24.275858828672856
-          },
           {
             "date": "2026-02-04",
             "y": 20.420609258457542
@@ -18025,18 +18053,14 @@
           },
           {
             "date": "2026-06-02",
-            "y": 1.697111
+            "y": 8.135631778077283
           },
           {
             "date": "2026-06-03",
-            "y": 1.623672
+            "y": 2.15952
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.1867373756051758
-          },
           {
             "date": "2026-02-04",
             "y": 0.15126377228487067
@@ -18508,13 +18532,13 @@
           {
             "date": "2026-06-01",
             "y": 0.11952105231205605
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.16949232870994338
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 212
-          },
           {
             "date": "2026-02-04",
             "y": 217
@@ -18986,6 +19010,10 @@
           {
             "date": "2026-06-01",
             "y": 86
+          },
+          {
+            "date": "2026-06-02",
+            "y": 76
           }
         ]
       },
@@ -19000,27 +19028,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 36.67,
-          "last30": 218.18,
-          "total": 1190.32
+          "last7": 38.49,
+          "last30": 207.52,
+          "total": 1174.58
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 21.33,
-          "last30": 179.73,
-          "total": 585.29
+          "last7": 21.87,
+          "last30": 180.27,
+          "total": 583.73
         }
       ],
       "kpi": {
-        "revenueDay": 1.62,
-        "revenue7": 51.5,
-        "revenue30": 373.38,
-        "revenueChange7": -26.9,
-        "arpdau7": 0.13,
-        "players7": 103,
-        "playtime7": 12.78,
-        "rsya7": 21.33
+        "revenueDay": 2.16,
+        "revenue7": 58.48,
+        "revenue30": 380.36,
+        "revenueChange7": -17,
+        "arpdau7": 0.14,
+        "players7": 100.29,
+        "playtime7": 13.65,
+        "rsya7": 21.87
       }
     },
     {
@@ -19029,92 +19057,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/278753#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 4.65,
-          "last7": 61.95,
-          "prev7": 74.06,
-          "change7": -16.4,
-          "last30": 334.68,
-          "total": 1732.41
+          "latest": 0.09,
+          "last7": 60.95,
+          "prev7": 77.04,
+          "change7": -20.9,
+          "last30": 333.98,
+          "total": 1724.9
         },
         "arpu": {
-          "latest": 0.27,
-          "last7": 0.18,
+          "latest": 0.17,
+          "last7": 0.19,
           "prev7": 0.22,
-          "change7": -14.7,
+          "change7": -15.9,
           "last30": 0.22,
           "total": 0.23
         },
         "players": {
-          "latest": 91,
-          "last7": 74.57,
-          "prev7": 76.29,
-          "change7": -2.2,
-          "last30": 85,
-          "total": 101.16
+          "latest": 103,
+          "last7": 80.86,
+          "prev7": 74.57,
+          "change7": 8.4,
+          "last30": 83.3,
+          "total": 100.96
         },
         "play_time_for_player": {
-          "latest": 27.39,
-          "last7": 17.15,
-          "prev7": 15.97,
-          "change7": 7.4,
-          "last30": 17.52,
-          "total": 18.92
+          "latest": 18.15,
+          "last7": 17.17,
+          "prev7": 16.57,
+          "change7": 3.7,
+          "last30": 17.55,
+          "total": 18.89
         },
         "sticky": {
-          "latest": 5.42,
-          "last7": 4.47,
-          "prev7": 6.09,
-          "change7": -26.6,
-          "last30": 5.25,
-          "total": 6.07
+          "latest": 4.79,
+          "last7": 4.62,
+          "prev7": 5.93,
+          "change7": -22.1,
+          "last30": 5.2,
+          "total": 6.06
         },
         "interstitial": {
-          "latest": 4.36,
-          "last7": 3.74,
-          "prev7": 4.18,
-          "change7": -10.4,
-          "last30": 4.45,
+          "latest": 4.62,
+          "last7": 3.87,
+          "prev7": 4.19,
+          "change7": -7.6,
+          "last30": 4.49,
           "total": 4.7
         },
         "rewarded": {
-          "latest": 1.35,
-          "last7": 0.76,
-          "prev7": 0.62,
-          "change7": 23.1,
-          "last30": 0.59,
+          "latest": 0.26,
+          "last7": 0.79,
+          "prev7": 0.58,
+          "change7": 36,
+          "last30": 0.57,
           "total": 0.62
         },
         "rsya_revenue": {
-          "latest": 4.65,
-          "last7": 46.69,
-          "prev7": 56.25,
-          "change7": -17,
-          "last30": 238.58,
-          "total": 913.05
+          "latest": 0.09,
+          "last7": 42.83,
+          "prev7": 59.54,
+          "change7": -28.1,
+          "last30": 236.81,
+          "total": 904.16
         },
         "rsya_cpmv": {
-          "latest": 107.85,
-          "last7": 112.81,
-          "prev7": 200.78,
-          "change7": -43.8,
-          "last30": 125.75,
-          "total": 90.5
+          "latest": 91.6,
+          "last7": 106.04,
+          "prev7": 204.78,
+          "change7": -48.2,
+          "last30": 126.15,
+          "total": 90.45
         },
         "rsya_shows": {
-          "latest": 307,
-          "last7": 1696,
-          "prev7": 1495,
+          "latest": 2,
+          "last7": 1680,
+          "prev7": 1482,
           "change7": 13.4,
-          "last30": 7682,
-          "total": 36804
+          "last30": 7641,
+          "total": 36605
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 13.259494198940407
-          },
           {
             "date": "2026-02-04",
             "y": 10.25222397736793
@@ -19589,18 +19613,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 6.156217
+            "y": 10.296077387628344
           },
           {
             "date": "2026-06-03",
-            "y": 4.648151
+            "y": 6.165613
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.091598
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.16784169872076465
-          },
           {
             "date": "2026-02-04",
             "y": 0.14646034253382756
@@ -20072,13 +20096,13 @@
           {
             "date": "2026-06-01",
             "y": 0.2733788835018392
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.16878815389554663
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 127
-          },
           {
             "date": "2026-02-04",
             "y": 110
@@ -20550,6 +20574,10 @@
           {
             "date": "2026-06-01",
             "y": 91
+          },
+          {
+            "date": "2026-06-02",
+            "y": 103
           }
         ]
       },
@@ -20564,27 +20592,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 16.93,
-          "last30": 103.84,
-          "total": 819.37
+          "last7": 20.05,
+          "last30": 103.34,
+          "total": 820.74
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 46.69,
-          "last30": 238.58,
-          "total": 913.05
+          "last7": 42.83,
+          "last30": 236.81,
+          "total": 904.16
         }
       ],
       "kpi": {
-        "revenueDay": 4.65,
-        "revenue7": 61.95,
-        "revenue30": 334.68,
-        "revenueChange7": -16.4,
-        "arpdau7": 0.18,
-        "players7": 74.57,
-        "playtime7": 17.15,
-        "rsya7": 46.69
+        "revenueDay": 0.09,
+        "revenue7": 60.95,
+        "revenue30": 333.98,
+        "revenueChange7": -20.9,
+        "arpdau7": 0.19,
+        "players7": 80.86,
+        "playtime7": 17.17,
+        "rsya7": 42.83
       }
     },
     {
@@ -20593,51 +20621,51 @@
       "consoleUrl": "https://games.yandex.ru/console/application/271584#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 2.76,
-          "last7": 61.51,
-          "prev7": 98.55,
-          "change7": -37.6,
-          "last30": 322.5,
-          "total": 902.62
+          "latest": 0.01,
+          "last7": 57.62,
+          "prev7": 87.09,
+          "change7": -33.8,
+          "last30": 325.21,
+          "total": 905.86
         },
         "arpu": {
-          "latest": 0.18,
-          "last7": 0.14,
-          "prev7": 0.17,
-          "change7": -17.8,
+          "latest": 0.1,
+          "last7": 0.12,
+          "prev7": 0.18,
+          "change7": -32.6,
           "last30": 0.15,
           "total": 0.13
         },
         "players": {
-          "latest": 117,
-          "last7": 134.86,
-          "prev7": 138.29,
-          "change7": -2.5,
-          "last30": 122.07,
-          "total": 94.89
+          "latest": 111,
+          "last7": 132.71,
+          "prev7": 143.29,
+          "change7": -7.4,
+          "last30": 122.7,
+          "total": 95.47
         },
         "play_time_for_player": {
-          "latest": 9.17,
-          "last7": 9.82,
-          "prev7": 9.41,
-          "change7": 4.4,
+          "latest": 11.38,
+          "last7": 9.51,
+          "prev7": 10.18,
+          "change7": -6.6,
           "last30": 9.5,
-          "total": 10
+          "total": 10.03
         },
         "sticky": {
-          "latest": 2.32,
-          "last7": 2.72,
-          "prev7": 4.13,
-          "change7": -34.1,
-          "last30": 3.41,
-          "total": 3.36
+          "latest": 4.66,
+          "last7": 2.92,
+          "prev7": 4.1,
+          "change7": -28.8,
+          "last30": 3.44,
+          "total": 3.38
         },
         "interstitial": {
-          "latest": 2.54,
-          "last7": 2.39,
-          "prev7": 2.41,
-          "change7": -0.8,
-          "last30": 2.39,
+          "latest": 2.39,
+          "last7": 2.37,
+          "prev7": 2.48,
+          "change7": -4.5,
+          "last30": 2.37,
           "total": 2.43
         },
         "rewarded": {
@@ -20649,36 +20677,32 @@
           "total": 0
         },
         "rsya_revenue": {
-          "latest": 2.76,
-          "last7": 33.51,
-          "prev7": 52.23,
-          "change7": -35.8,
-          "last30": 180.11,
-          "total": 392.4
+          "latest": 0.01,
+          "last7": 28.98,
+          "prev7": 48.46,
+          "change7": -40.2,
+          "last30": 179.45,
+          "total": 392.8
         },
         "rsya_cpmv": {
-          "latest": 52.46,
-          "last7": 78.49,
-          "prev7": 87.49,
-          "change7": -10.3,
-          "last30": 85.27,
-          "total": 51
+          "latest": 7.48,
+          "last7": 68.62,
+          "prev7": 81.51,
+          "change7": -15.8,
+          "last30": 84.07,
+          "total": 50.86
         },
         "rsya_shows": {
-          "latest": 141,
-          "last7": 1099,
-          "prev7": 1393,
-          "change7": -21.1,
-          "last30": 5157,
-          "total": 14837
+          "latest": 4,
+          "last7": 948,
+          "prev7": 1405,
+          "change7": -32.5,
+          "last30": 5107,
+          "total": 14847
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 1.8952008836954273
-          },
           {
             "date": "2026-02-04",
             "y": 2.4817037991
@@ -21153,18 +21177,18 @@
           },
           {
             "date": "2026-06-02",
-            "y": 2.756891
+            "y": 7.193334825839102
           },
           {
             "date": "2026-06-03",
-            "y": 2.758742
+            "y": 3.443267
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.014957
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.07019262532205287
-          },
           {
             "date": "2026-02-04",
             "y": 0.11817637138571428
@@ -21636,13 +21660,13 @@
           {
             "date": "2026-06-01",
             "y": 0.18173364665110664
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.10131457501181834
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 42
-          },
           {
             "date": "2026-02-04",
             "y": 33
@@ -22114,6 +22138,10 @@
           {
             "date": "2026-06-01",
             "y": 117
+          },
+          {
+            "date": "2026-06-02",
+            "y": 111
           }
         ]
       },
@@ -22128,27 +22156,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 36.34,
-          "last30": 147.8,
-          "total": 510.22
+          "last7": 34.82,
+          "last30": 149.76,
+          "total": 513.06
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 33.51,
-          "last30": 180.11,
-          "total": 392.4
+          "last7": 28.98,
+          "last30": 179.45,
+          "total": 392.8
         }
       ],
       "kpi": {
-        "revenueDay": 2.76,
-        "revenue7": 61.51,
-        "revenue30": 322.5,
-        "revenueChange7": -37.6,
-        "arpdau7": 0.14,
-        "players7": 134.86,
-        "playtime7": 9.82,
-        "rsya7": 33.51
+        "revenueDay": 0.01,
+        "revenue7": 57.62,
+        "revenue30": 325.21,
+        "revenueChange7": -33.8,
+        "arpdau7": 0.12,
+        "players7": 132.71,
+        "playtime7": 9.51,
+        "rsya7": 28.98
       }
     },
     {
@@ -22157,52 +22185,52 @@
       "consoleUrl": "https://games.yandex.ru/console/application/277884#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 3.31,
-          "last7": 68.88,
+          "latest": 3.8,
+          "last7": 73.93,
           "prev7": 63.9,
-          "change7": 7.8,
-          "last30": 253.61,
-          "total": 762.72
+          "change7": 15.7,
+          "last30": 258.65,
+          "total": 765.81
         },
         "arpu": {
-          "latest": 0.15,
+          "latest": 0.11,
           "last7": 0.14,
-          "prev7": 0.14,
-          "change7": 3.1,
+          "prev7": 0.13,
+          "change7": 4.8,
           "last30": 0.17,
           "total": 0.15
         },
         "players": {
-          "latest": 137,
-          "last7": 132.57,
-          "prev7": 115.29,
-          "change7": 15,
-          "last30": 95.23,
-          "total": 72.55
+          "latest": 112,
+          "last7": 134.14,
+          "prev7": 115.71,
+          "change7": 15.9,
+          "last30": 96.6,
+          "total": 73.09
         },
         "play_time_for_player": {
-          "latest": 8.39,
-          "last7": 8.1,
-          "prev7": 9.57,
-          "change7": -15.3,
-          "last30": 9.15,
-          "total": 9.27
+          "latest": 9.02,
+          "last7": 8.25,
+          "prev7": 9.64,
+          "change7": -14.4,
+          "last30": 9.07,
+          "total": 9.3
         },
         "sticky": {
-          "latest": 2.33,
-          "last7": 2.75,
-          "prev7": 2.72,
-          "change7": 1.1,
-          "last30": 2.92,
-          "total": 3.19
+          "latest": 2.85,
+          "last7": 2.73,
+          "prev7": 2.8,
+          "change7": -2.4,
+          "last30": 2.83,
+          "total": 3.2
         },
         "interstitial": {
-          "latest": 2.62,
-          "last7": 2.45,
+          "latest": 2.64,
+          "last7": 2.46,
           "prev7": 2.68,
-          "change7": -8.6,
+          "change7": -8.2,
           "last30": 2.58,
-          "total": 2.71
+          "total": 2.72
         },
         "rewarded": {
           "latest": 0,
@@ -22213,36 +22241,32 @@
           "total": 0
         },
         "rsya_revenue": {
-          "latest": 3.31,
-          "last7": 30.94,
+          "latest": 3.8,
+          "last7": 31.44,
           "prev7": 19.73,
-          "change7": 56.8,
-          "last30": 112.39,
-          "total": 311.48
+          "change7": 59.3,
+          "last30": 112.89,
+          "total": 311.74
         },
         "rsya_cpmv": {
-          "latest": 73.08,
-          "last7": 71.03,
+          "latest": 62,
+          "last7": 69.45,
           "prev7": 61.82,
-          "change7": 14.9,
-          "last30": 77.99,
-          "total": 62.04
+          "change7": 12.3,
+          "last30": 77.62,
+          "total": 62.31
         },
         "rsya_shows": {
-          "latest": 89,
-          "last7": 920,
+          "latest": 121,
+          "last7": 952,
           "prev7": 767,
-          "change7": 19.9,
-          "last30": 3017,
-          "total": 9267
+          "change7": 24.1,
+          "last30": 3049,
+          "total": 9273
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 1.9619184285217393
-          },
           {
             "date": "2026-02-04",
             "y": 2.4609207862608695
@@ -22717,18 +22741,14 @@
           },
           {
             "date": "2026-06-02",
-            "y": 2.747438
+            "y": 7.298718564111068
           },
           {
             "date": "2026-06-03",
-            "y": 3.305006
+            "y": 3.799679
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.07266364550080516
-          },
           {
             "date": "2026-02-04",
             "y": 0.13671782145893718
@@ -23200,13 +23220,13 @@
           {
             "date": "2026-06-01",
             "y": 0.14864920328960735
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.11058664491077376
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 48
-          },
           {
             "date": "2026-02-04",
             "y": 33
@@ -23678,6 +23698,10 @@
           {
             "date": "2026-06-01",
             "y": 137
+          },
+          {
+            "date": "2026-06-02",
+            "y": 112
           }
         ]
       },
@@ -23692,27 +23716,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 47.44,
-          "last30": 144.95,
-          "total": 451.24
+          "last7": 46.74,
+          "last30": 147.76,
+          "total": 454.06
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 30.94,
-          "last30": 112.39,
-          "total": 311.48
+          "last7": 31.44,
+          "last30": 112.89,
+          "total": 311.74
         }
       ],
       "kpi": {
-        "revenueDay": 3.31,
-        "revenue7": 68.88,
-        "revenue30": 253.61,
-        "revenueChange7": 7.8,
+        "revenueDay": 3.8,
+        "revenue7": 73.93,
+        "revenue30": 258.65,
+        "revenueChange7": 15.7,
         "arpdau7": 0.14,
-        "players7": 132.57,
-        "playtime7": 8.1,
-        "rsya7": 30.94
+        "players7": 134.14,
+        "playtime7": 8.25,
+        "rsya7": 31.44
       }
     },
     {
@@ -23721,52 +23745,52 @@
       "consoleUrl": "https://games.yandex.ru/console/application/347680#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 1.53,
-          "last7": 39.44,
-          "prev7": 32.72,
-          "change7": 20.5,
-          "last30": 116.09,
-          "total": 116.09
+          "latest": 0.06,
+          "last7": 36.56,
+          "prev7": 33.94,
+          "change7": 7.7,
+          "last30": 118.12,
+          "total": 118.12
         },
         "arpu": {
           "latest": 0.07,
           "last7": 0.08,
-          "prev7": 0.08,
-          "change7": -1.8,
+          "prev7": 0.07,
+          "change7": 10.2,
           "last30": 0.08,
           "total": 0.08
         },
         "players": {
-          "latest": 109,
-          "last7": 124.14,
-          "prev7": 103.29,
-          "change7": 20.2,
-          "last30": 107.95,
-          "total": 107.95
+          "latest": 91,
+          "last7": 123.29,
+          "prev7": 104.86,
+          "change7": 17.6,
+          "last30": 107.18,
+          "total": 107.18
         },
         "play_time_for_player": {
-          "latest": 14.07,
-          "last7": 12.61,
-          "prev7": 12.22,
-          "change7": 3.2,
-          "last30": 11.86,
-          "total": 11.86
+          "latest": 12.7,
+          "last7": 12.74,
+          "prev7": 12.24,
+          "change7": 4.1,
+          "last30": 11.9,
+          "total": 11.9
         },
         "sticky": {
-          "latest": 6.78,
-          "last7": 3.49,
-          "prev7": 3.84,
-          "change7": -9,
-          "last30": 3.98,
-          "total": 3.98
+          "latest": 4.49,
+          "last7": 3.86,
+          "prev7": 3.48,
+          "change7": 11.1,
+          "last30": 4.01,
+          "total": 4.01
         },
         "interstitial": {
-          "latest": 1.38,
-          "last7": 1.2,
-          "prev7": 1.12,
-          "change7": 7.5,
-          "last30": 1.09,
-          "total": 1.09
+          "latest": 1.32,
+          "last7": 1.24,
+          "prev7": 1.1,
+          "change7": 12.5,
+          "last30": 1.1,
+          "total": 1.1
         },
         "rewarded": {
           "latest": 0,
@@ -23777,28 +23801,28 @@
           "total": 0
         },
         "rsya_revenue": {
-          "latest": 1.53,
-          "last7": 32.06,
-          "prev7": 23.04,
-          "change7": 39.2,
-          "last30": 89.3,
-          "total": 89.3
+          "latest": 0.06,
+          "last7": 29.31,
+          "prev7": 23.61,
+          "change7": 24.1,
+          "last30": 89.92,
+          "total": 89.92
         },
         "rsya_cpmv": {
-          "latest": 55.53,
-          "last7": 63.91,
-          "prev7": 67.78,
-          "change7": -5.7,
-          "last30": 71.53,
-          "total": 71.53
+          "latest": 7.98,
+          "last7": 53.8,
+          "prev7": 65.54,
+          "change7": -17.9,
+          "last30": 68.26,
+          "total": 68.26
         },
         "rsya_shows": {
-          "latest": 103,
-          "last7": 1480,
-          "prev7": 834,
-          "change7": 77.5,
-          "last30": 3552,
-          "total": 3552
+          "latest": 7,
+          "last7": 1348,
+          "prev7": 941,
+          "change7": 43.3,
+          "last30": 3611,
+          "total": 3611
         }
       },
       "series": {
@@ -23889,11 +23913,15 @@
           },
           {
             "date": "2026-06-02",
-            "y": 2.071885
+            "y": 3.490528506744681
           },
           {
             "date": "2026-06-03",
-            "y": 1.527102
+            "y": 2.084126
+          },
+          {
+            "date": "2026-06-04",
+            "y": 0.05583
           }
         ],
         "arpu": [
@@ -23980,6 +24008,10 @@
           {
             "date": "2026-06-01",
             "y": 0.0668848282024421
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.06585902842914493
           }
         ],
         "players": [
@@ -24066,6 +24098,10 @@
           {
             "date": "2026-06-01",
             "y": 109
+          },
+          {
+            "date": "2026-06-02",
+            "y": 91
           }
         ]
       },
@@ -24080,27 +24116,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 9.53,
-          "last30": 26.78,
-          "total": 26.78
+          "last7": 10.04,
+          "last30": 28.2,
+          "total": 28.2
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 32.06,
-          "last30": 89.3,
-          "total": 89.3
+          "last7": 29.31,
+          "last30": 89.92,
+          "total": 89.92
         }
       ],
       "kpi": {
-        "revenueDay": 1.53,
-        "revenue7": 39.44,
-        "revenue30": 116.09,
-        "revenueChange7": 20.5,
+        "revenueDay": 0.06,
+        "revenue7": 36.56,
+        "revenue30": 118.12,
+        "revenueChange7": 7.7,
         "arpdau7": 0.08,
-        "players7": 124.14,
-        "playtime7": 12.61,
-        "rsya7": 32.06
+        "players7": 123.29,
+        "playtime7": 12.74,
+        "rsya7": 29.31
       }
     },
     {
@@ -24109,92 +24145,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/258226#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 0.18,
-          "last7": 21.58,
+          "latest": 1.38,
+          "last7": 23.98,
           "prev7": 34.14,
-          "change7": -36.8,
-          "last30": 113.64,
-          "total": 478.54
+          "change7": -29.8,
+          "last30": 116.03,
+          "total": 473.55
         },
         "arpu": {
-          "latest": 0.11,
-          "last7": 0.11,
-          "prev7": 0.11,
-          "change7": -3.1,
+          "latest": 0.06,
+          "last7": 0.1,
+          "prev7": 0.12,
+          "change7": -19,
           "last30": 0.11,
           "total": 0.13
         },
         "players": {
-          "latest": 56,
-          "last7": 69.57,
-          "prev7": 75.57,
-          "change7": -7.9,
-          "last30": 61.4,
-          "total": 55.91
+          "latest": 54,
+          "last7": 68.86,
+          "prev7": 75.43,
+          "change7": -8.7,
+          "last30": 61.47,
+          "total": 55.66
         },
         "play_time_for_player": {
-          "latest": 8.39,
-          "last7": 8.52,
-          "prev7": 8.15,
-          "change7": 4.6,
-          "last30": 8.85,
-          "total": 9.3
+          "latest": 6.31,
+          "last7": 8.46,
+          "prev7": 8,
+          "change7": 5.8,
+          "last30": 8.73,
+          "total": 9.28
         },
         "sticky": {
-          "latest": 2.07,
-          "last7": 2.94,
-          "prev7": 2.98,
-          "change7": -1.4,
-          "last30": 2.9,
-          "total": 3.27
+          "latest": 2.48,
+          "last7": 3.04,
+          "prev7": 2.74,
+          "change7": 11,
+          "last30": 2.87,
+          "total": 3.26
         },
         "interstitial": {
-          "latest": 2.1,
-          "last7": 2.46,
-          "prev7": 2.73,
-          "change7": -9.9,
-          "last30": 2.75,
-          "total": 2.98
+          "latest": 2.03,
+          "last7": 2.45,
+          "prev7": 2.6,
+          "change7": -5.7,
+          "last30": 2.71,
+          "total": 2.97
         },
         "rewarded": {
-          "latest": 0.07,
+          "latest": 0.06,
           "last7": 0.06,
           "prev7": 0.05,
-          "change7": 30.3,
-          "last30": 0.06,
+          "change7": 27.6,
+          "last30": 0.07,
           "total": 0.08
         },
         "rsya_revenue": {
-          "latest": 0.18,
-          "last7": 9.46,
+          "latest": 1.38,
+          "last7": 10.67,
           "prev7": 21.44,
-          "change7": -55.9,
-          "last30": 68.27,
-          "total": 275.99
+          "change7": -50.2,
+          "last30": 69.48,
+          "total": 276.21
         },
         "rsya_cpmv": {
-          "latest": 52.77,
-          "last7": 62.9,
+          "latest": 119.7,
+          "last7": 72.46,
           "prev7": 95.93,
-          "change7": -34.4,
-          "last30": 84.08,
-          "total": 89.29
+          "change7": -24.5,
+          "last30": 86.31,
+          "total": 90.14
         },
         "rsya_shows": {
-          "latest": 12,
-          "last7": 435,
+          "latest": 22,
+          "last7": 445,
           "prev7": 583,
-          "change7": -25.4,
-          "last30": 2124,
-          "total": 9463
+          "change7": -23.7,
+          "last30": 2134,
+          "total": 9438
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 7.3803762526285706
-          },
           {
             "date": "2026-02-04",
             "y": 3.2635389019061227
@@ -24669,18 +24701,14 @@
           },
           {
             "date": "2026-06-02",
-            "y": 0.596357
+            "y": 1.7809916975
           },
           {
             "date": "2026-06-03",
-            "y": 0.177627
+            "y": 1.384497
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.16044296201366456
-          },
           {
             "date": "2026-02-04",
             "y": 0.07959850980258835
@@ -25152,13 +25180,13 @@
           {
             "date": "2026-06-01",
             "y": 0.10960600613333332
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.05745134508064516
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 84
-          },
           {
             "date": "2026-02-04",
             "y": 67
@@ -25630,6 +25658,10 @@
           {
             "date": "2026-06-01",
             "y": 56
+          },
+          {
+            "date": "2026-06-02",
+            "y": 54
           }
         ]
       },
@@ -25644,27 +25676,27 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 17.5,
-          "last30": 46.56,
-          "total": 202.55
+          "last7": 14.43,
+          "last30": 46.78,
+          "total": 197.34
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 9.46,
-          "last30": 68.27,
-          "total": 275.99
+          "last7": 10.67,
+          "last30": 69.48,
+          "total": 276.21
         }
       ],
       "kpi": {
-        "revenueDay": 0.18,
-        "revenue7": 21.58,
-        "revenue30": 113.64,
-        "revenueChange7": -36.8,
-        "arpdau7": 0.11,
-        "players7": 69.57,
-        "playtime7": 8.52,
-        "rsya7": 9.46
+        "revenueDay": 1.38,
+        "revenue7": 23.98,
+        "revenue30": 116.03,
+        "revenueChange7": -29.8,
+        "arpdau7": 0.1,
+        "players7": 68.86,
+        "playtime7": 8.46,
+        "rsya7": 10.67
       }
     },
     {
@@ -25673,92 +25705,88 @@
       "consoleUrl": "https://games.yandex.ru/console/application/262380#metrics/adv",
       "metrics": {
         "purchase_amount": {
-          "latest": 0.81,
-          "last7": 66.75,
+          "latest": 1,
+          "last7": 67.92,
           "prev7": 10.6,
-          "change7": 529.9,
-          "last30": 112.72,
-          "total": 497.15
+          "change7": 541,
+          "last30": 113.89,
+          "total": 492.6
         },
         "arpu": {
-          "latest": 0.18,
-          "last7": 0.44,
-          "prev7": 0.08,
-          "change7": 441.8,
-          "last30": 0.19,
+          "latest": 0.08,
+          "last7": 0.43,
+          "prev7": 0.09,
+          "change7": 383.7,
+          "last30": 0.18,
           "total": 0.13
         },
         "players": {
-          "latest": 45,
-          "last7": 37.86,
-          "prev7": 22.43,
-          "change7": 68.8,
-          "last30": 34.43,
-          "total": 60.91
+          "latest": 39,
+          "last7": 38.57,
+          "prev7": 25.29,
+          "change7": 52.5,
+          "last30": 33.33,
+          "total": 60.34
         },
         "play_time_for_player": {
-          "latest": 4.8,
-          "last7": 6.12,
-          "prev7": 6.8,
-          "change7": -10,
-          "last30": 6.18,
-          "total": 6.3
+          "latest": 5.8,
+          "last7": 6.16,
+          "prev7": 6.46,
+          "change7": -4.5,
+          "last30": 6.21,
+          "total": 6.29
         },
         "sticky": {
-          "latest": 2.46,
-          "last7": 2.38,
-          "prev7": 2.06,
-          "change7": 15.3,
-          "last30": 2.91,
-          "total": 3.81
+          "latest": 1.64,
+          "last7": 2.31,
+          "prev7": 2.03,
+          "change7": 14,
+          "last30": 2.85,
+          "total": 3.78
         },
         "interstitial": {
-          "latest": 1.54,
-          "last7": 1.86,
-          "prev7": 1.81,
-          "change7": 2.9,
-          "last30": 1.81,
+          "latest": 1.41,
+          "last7": 1.68,
+          "prev7": 1.85,
+          "change7": -9.1,
+          "last30": 1.8,
           "total": 1.86
         },
         "rewarded": {
-          "latest": 1.04,
-          "last7": 1.09,
-          "prev7": 0.73,
-          "change7": 49.5,
-          "last30": 0.73,
-          "total": 0.67
+          "latest": 0.82,
+          "last7": 1.1,
+          "prev7": 0.72,
+          "change7": 53.1,
+          "last30": 0.72,
+          "total": 0.68
         },
         "rsya_revenue": {
-          "latest": 0.81,
-          "last7": 63.61,
+          "latest": 1,
+          "last7": 63.8,
           "prev7": 7.38,
-          "change7": 762.5,
-          "last30": 91.75,
-          "total": 221.28
+          "change7": 765.1,
+          "last30": 91.94,
+          "total": 219.93
         },
         "rsya_cpmv": {
-          "latest": 74.91,
-          "last7": 717.96,
+          "latest": 80.01,
+          "last7": 718.69,
           "prev7": 96.2,
-          "change7": 646.3,
-          "last30": 253.35,
-          "total": 120.95
+          "change7": 647.1,
+          "last30": 253.52,
+          "total": 121.68
         },
         "rsya_shows": {
-          "latest": 36,
-          "last7": 266,
+          "latest": 40,
+          "last7": 270,
           "prev7": 242,
-          "change7": 9.9,
-          "last30": 931,
-          "total": 6513
+          "change7": 11.6,
+          "last30": 935,
+          "total": 6386
         }
       },
       "series": {
         "purchase_amount": [
-          {
-            "date": "2026-02-03",
-            "y": 5.723374979114766
-          },
           {
             "date": "2026-02-04",
             "y": 5.7872879703883
@@ -26233,18 +26261,14 @@
           },
           {
             "date": "2026-06-02",
-            "y": 0.76976
+            "y": 1.7504847296
           },
           {
             "date": "2026-06-03",
-            "y": 0.812006
+            "y": 1.002625
           }
         ],
         "arpu": [
-          {
-            "date": "2026-02-03",
-            "y": 0.09382581932975026
-          },
           {
             "date": "2026-02-04",
             "y": 0.11574575940776599
@@ -26716,13 +26740,13 @@
           {
             "date": "2026-06-01",
             "y": 0.18112673869023901
+          },
+          {
+            "date": "2026-06-02",
+            "y": 0.0795674877090909
           }
         ],
         "players": [
-          {
-            "date": "2026-02-03",
-            "y": 106
-          },
           {
             "date": "2026-02-04",
             "y": 88
@@ -27194,6 +27218,10 @@
           {
             "date": "2026-06-01",
             "y": 45
+          },
+          {
+            "date": "2026-06-02",
+            "y": 39
           }
         ]
       },
@@ -27208,36 +27236,36 @@
         {
           "id": "int",
           "title": "Внешние рекламные сети",
-          "last7": 4.18,
-          "last30": 29.54,
-          "total": 275.87
+          "last7": 4.64,
+          "last30": 27.17,
+          "total": 272.67
         },
         {
           "id": "mixedpartnerprice",
           "title": "Рекламная сеть Яндекса",
-          "last7": 63.61,
-          "last30": 91.75,
-          "total": 221.28
+          "last7": 63.8,
+          "last30": 91.94,
+          "total": 219.93
         }
       ],
       "kpi": {
-        "revenueDay": 0.81,
-        "revenue7": 66.75,
-        "revenue30": 112.72,
-        "revenueChange7": 529.9,
-        "arpdau7": 0.44,
-        "players7": 37.86,
-        "playtime7": 6.12,
-        "rsya7": 63.61
+        "revenueDay": 1,
+        "revenue7": 67.92,
+        "revenue30": 113.89,
+        "revenueChange7": 541,
+        "arpdau7": 0.43,
+        "players7": 38.57,
+        "playtime7": 6.16,
+        "rsya7": 63.8
       }
     }
   ],
   "totals": {
     "games": 20,
-    "revenueDay": 5884.28,
-    "revenue7": 73752.86,
-    "revenue30": 374647.32,
-    "rsya7": 66971.79
+    "revenueDay": 192.4,
+    "revenue7": 65118.64,
+    "revenue30": 368646.82,
+    "rsya7": 58400.91
   },
   "warnings": []
 }
