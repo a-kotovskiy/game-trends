@@ -1,11 +1,31 @@
 {
   "viral_trends": [
     {
+      "id": "6yfUZCLSzco",
+      "title": "SURPRISING ROBLOX PLAYERS WITH THEIR FAVORITE YOUTUBERS! ❤️😭 #roblox #funny #trolling #memes",
+      "views": 3200000,
+      "views_str": "3.2M",
+      "vpd": 1600000,
+      "vpd_str": "1.6M",
+      "age_days": 2,
+      "upload_date": "20260603",
+      "duration": 61,
+      "kind": "Short",
+      "channel": "nobrainjames",
+      "channel_id": "UCHCwb6dKt4534vxX3F9OHKQ",
+      "url": "https://youtu.be/6yfUZCLSzco",
+      "thumb": "https://img.youtube.com/vi/6yfUZCLSzco/mqdefault.jpg",
+      "grade": "🔥🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=1.6M",
+      "channel_avg_vpd": 1233333
+    },
+    {
       "id": "Q5GLTg0prWE",
       "title": "how i almost lost my 5 year hardcore world...",
-      "views": 7400000,
-      "views_str": "7.4M",
-      "vpd": 1233333,
+      "views": 7500000,
+      "views_str": "7.5M",
+      "vpd": 1250000,
       "vpd_str": "1.2M",
       "age_days": 6,
       "upload_date": "20260530",
@@ -18,7 +38,7 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=1.2M",
-      "channel_avg_vpd": 712820
+      "channel_avg_vpd": 721153
     },
     {
       "id": "rbpYXgARpMs",
@@ -63,10 +83,10 @@
     {
       "id": "G9owQWzk0L8",
       "title": "SURPRISING ROBLOX PLAYERS WITH THEIR FAVORITE YOUTUBERS ❤️🤣 #roblox #funny #memes #trolling",
-      "views": 5100000,
-      "views_str": "5.1M",
-      "vpd": 850000,
-      "vpd_str": "850K",
+      "views": 5200000,
+      "views_str": "5.2M",
+      "vpd": 866666,
+      "vpd_str": "867K",
       "age_days": 6,
       "upload_date": "20260530",
       "duration": 63,
@@ -77,8 +97,28 @@
       "thumb": "https://img.youtube.com/vi/G9owQWzk0L8/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=850K",
-      "channel_avg_vpd": 850000
+      "reason": "vpd=867K",
+      "channel_avg_vpd": 1233333
+    },
+    {
+      "id": "u1fQ-XwGSrE",
+      "title": "😱NEW DLC ITEMS IN 99 NIGHTS IN THE FOREST IN ROBLOX!",
+      "views": 1100000,
+      "views_str": "1.1M",
+      "vpd": 550000,
+      "vpd_str": "550K",
+      "age_days": 2,
+      "upload_date": "20260603",
+      "duration": 15,
+      "kind": "Short",
+      "channel": "GADOSTI",
+      "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
+      "url": "https://youtu.be/u1fQ-XwGSrE",
+      "thumb": "https://img.youtube.com/vi/u1fQ-XwGSrE/mqdefault.jpg",
+      "grade": "🔥🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=550K",
+      "channel_avg_vpd": 475000
     },
     {
       "id": "DweiVMFHmw4",
@@ -98,15 +138,15 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=500K",
-      "channel_avg_vpd": 346000
+      "channel_avg_vpd": 348500
     },
     {
       "id": "vNdyJnDiMfQ",
       "title": "😱300-SHELF TOWER IN 99 NIGHTS IN THE FOREST IN ROBLOX!",
-      "views": 1100000,
-      "views_str": "1.1M",
-      "vpd": 366666,
-      "vpd_str": "367K",
+      "views": 1200000,
+      "views_str": "1.2M",
+      "vpd": 400000,
+      "vpd_str": "400K",
       "age_days": 3,
       "upload_date": "20260602",
       "duration": 24,
@@ -117,8 +157,8 @@
       "thumb": "https://img.youtube.com/vi/vNdyJnDiMfQ/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=367K",
-      "channel_avg_vpd": 366666
+      "reason": "vpd=400K",
+      "channel_avg_vpd": 475000
     },
     {
       "id": "7_DfJNlKUdw",
@@ -143,10 +183,10 @@
     {
       "id": "_bKK95qab50",
       "title": "SERYOGA, YOU GOT IT ALL WRONG😭",
-      "views": 2300000,
-      "views_str": "2.3M",
-      "vpd": 328571,
-      "vpd_str": "329K",
+      "views": 2400000,
+      "views_str": "2.4M",
+      "vpd": 342857,
+      "vpd_str": "343K",
       "age_days": 7,
       "upload_date": "20260529",
       "duration": 17,
@@ -157,8 +197,28 @@
       "thumb": "https://img.youtube.com/vi/_bKK95qab50/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=329K",
-      "channel_avg_vpd": 328571
+      "reason": "vpd=343K",
+      "channel_avg_vpd": 342857
+    },
+    {
+      "id": "dRmbGCXHQ40",
+      "title": "One LAYER of FLOATING GRAVEL! #minecraft #shorts",
+      "views": 985000,
+      "views_str": "985K",
+      "vpd": 197000,
+      "vpd_str": "197K",
+      "age_days": 5,
+      "upload_date": "20260531",
+      "duration": 49,
+      "kind": "Short",
+      "channel": "Cash",
+      "channel_id": "UC0eLBYhxW9HC0P9PXQ73mpQ",
+      "url": "https://youtu.be/dRmbGCXHQ40",
+      "thumb": "https://img.youtube.com/vi/dRmbGCXHQ40/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=197K",
+      "channel_avg_vpd": 348500
     },
     {
       "id": "090aEVgLfJU",
@@ -178,27 +238,7 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=192K",
-      "channel_avg_vpd": 712820
-    },
-    {
-      "id": "dRmbGCXHQ40",
-      "title": "One LAYER of FLOATING GRAVEL! #minecraft #shorts",
-      "views": 960000,
-      "views_str": "960K",
-      "vpd": 192000,
-      "vpd_str": "192K",
-      "age_days": 5,
-      "upload_date": "20260531",
-      "duration": 49,
-      "kind": "Short",
-      "channel": "Cash",
-      "channel_id": "UC0eLBYhxW9HC0P9PXQ73mpQ",
-      "url": "https://youtu.be/dRmbGCXHQ40",
-      "thumb": "https://img.youtube.com/vi/dRmbGCXHQ40/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=192K",
-      "channel_avg_vpd": 346000
+      "channel_avg_vpd": 721153
     },
     {
       "id": "m9bteMVEvcc",
@@ -218,7 +258,27 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=176K",
-      "channel_avg_vpd": 176190
+      "channel_avg_vpd": 170237
+    },
+    {
+      "id": "KsLiI3nTCJw",
+      "title": "What Will Milo Pick in Minecraft?",
+      "views": 2300000,
+      "views_str": "2.3M",
+      "vpd": 164285,
+      "vpd_str": "164K",
+      "age_days": 14,
+      "upload_date": "20260522",
+      "duration": 10,
+      "kind": "Short",
+      "channel": "Milo and Chip",
+      "channel_id": "UC_NqVr5AA1vziN0ZLR-QiLw",
+      "url": "https://youtu.be/KsLiI3nTCJw",
+      "thumb": "https://img.youtube.com/vi/KsLiI3nTCJw/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=164K",
+      "channel_avg_vpd": 170237
     },
     {
       "id": "7zV_kF9YzSw",
@@ -243,10 +303,10 @@
     {
       "id": "1ATCEPjWn1U",
       "title": "THIS IS ME IN THE PAST😳KVINKA RECREATED HER OLD VIDEO😂(watch until the end) #roblox #games #funny...",
-      "views": 1800000,
-      "views_str": "1.8M",
-      "vpd": 105882,
-      "vpd_str": "106K",
+      "views": 1900000,
+      "views_str": "1.9M",
+      "vpd": 111764,
+      "vpd_str": "112K",
       "age_days": 17,
       "upload_date": "20260519",
       "duration": 60,
@@ -257,8 +317,8 @@
       "thumb": "https://img.youtube.com/vi/1ATCEPjWn1U/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=106K",
-      "channel_avg_vpd": 95248
+      "reason": "vpd=112K",
+      "channel_avg_vpd": 98189
     },
     {
       "id": "VD1sJBDvqdM",
@@ -283,9 +343,9 @@
     {
       "id": "6bcC6U5-LjI",
       "title": "NOOB TROLLED PRO WITH NEW MINECRAFT SLIMES",
-      "views": 826000,
-      "views_str": "826K",
-      "vpd": 91777,
+      "views": 831000,
+      "views_str": "831K",
+      "vpd": 92333,
       "vpd_str": "92K",
       "age_days": 9,
       "upload_date": "20260527",
@@ -298,7 +358,7 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=92K",
-      "channel_avg_vpd": 91777
+      "channel_avg_vpd": 92333
     },
     {
       "id": "lR28gArL5go",
@@ -318,15 +378,15 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=85K",
-      "channel_avg_vpd": 95248
+      "channel_avg_vpd": 98189
     },
     {
       "id": "ba1FBDETOG0",
       "title": "Minecraft, But The Block You Touch, You Become…",
-      "views": 2100000,
-      "views_str": "2.1M",
-      "vpd": 80769,
-      "vpd_str": "81K",
+      "views": 2200000,
+      "views_str": "2.2M",
+      "vpd": 84615,
+      "vpd_str": "85K",
       "age_days": 26,
       "upload_date": "20260510",
       "duration": 64,
@@ -337,15 +397,15 @@
       "thumb": "https://img.youtube.com/vi/ba1FBDETOG0/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=81K",
-      "channel_avg_vpd": 80769
+      "reason": "vpd=85K",
+      "channel_avg_vpd": 84615
     },
     {
       "id": "N3lt5fBhtBE",
       "title": "Я разбил МОНИТОР! Вот ДО ЧЕГО доводит РАСТ! Это было грустно :( CheZee. Rust | Раст",
-      "views": 507000,
-      "views_str": "507K",
-      "vpd": 31687,
+      "views": 508000,
+      "views_str": "508K",
+      "vpd": 31750,
       "vpd_str": "32K",
       "age_days": 16,
       "upload_date": "20260520",
@@ -358,14 +418,14 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=32K",
-      "channel_avg_vpd": 31687
+      "channel_avg_vpd": 31750
     },
     {
       "id": "auFZ029gEEs",
       "title": "Speed is lucky to have a dad like this ❤️‍🩹❤️‍🩹",
-      "views": 250000,
-      "views_str": "250K",
-      "vpd": 31250,
+      "views": 251000,
+      "views_str": "251K",
+      "vpd": 31375,
       "vpd_str": "31K",
       "age_days": 8,
       "upload_date": "20260528",
@@ -378,7 +438,31 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=31K",
-      "channel_avg_vpd": 25715
+      "channel_avg_vpd": 25823
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "У ЭТОГО МИШКИ ЕСТЬ СЕКРЕТИК...",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/mRHHi-4tBVk",
+      "thumb": "https://img.youtube.com/vi/mRHHi-4tBVk/mqdefault.jpg",
+      "published": "2026-06-05T14:00:06+00:00",
+      "hype_score": 5,
+      "related_videos": 108,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -398,7 +482,7 @@
       "thumb": "https://img.youtube.com/vi/7s9_PvUmGNQ/mqdefault.jpg",
       "published": "2026-06-04T15:00:12+00:00",
       "hype_score": 5,
-      "related_videos": 109,
+      "related_videos": 108,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -422,7 +506,7 @@
       "thumb": "https://img.youtube.com/vi/kM3q7QL7WZ8/mqdefault.jpg",
       "published": "2026-06-04T14:00:08+00:00",
       "hype_score": 5,
-      "related_videos": 109,
+      "related_videos": 108,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -439,14 +523,14 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/tOKcocSrr-4",
       "thumb": "https://img.youtube.com/vi/tOKcocSrr-4/mqdefault.jpg",
       "published": "2026-06-03T14:09:08+00:00",
       "hype_score": 5,
-      "related_videos": 109,
+      "related_videos": 108,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -463,38 +547,14 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/NxX4CL1ZUGA",
       "thumb": "https://img.youtube.com/vi/NxX4CL1ZUGA/mqdefault.jpg",
       "published": "2026-06-03T12:00:36+00:00",
       "hype_score": 5,
-      "related_videos": 109,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "НЕ СОСИ ЕГО СОСКУ! 😱 Dark Pals ПОЛНОЕ ПРОХОЖДЕНИЕ",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 2,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/t8X_tCFEdXE",
-      "thumb": "https://img.youtube.com/vi/t8X_tCFEdXE/mqdefault.jpg",
-      "published": "2026-06-02T13:00:17+00:00",
-      "hype_score": 5,
-      "related_videos": 109,
+      "related_videos": 108,
       "channel_count": 11,
       "has_games": true,
       "game_count": 5,
@@ -518,7 +578,7 @@
       "thumb": "https://img.youtube.com/vi/MzeuvUGouLg/mqdefault.jpg",
       "published": "2026-06-03T21:08:43+00:00",
       "hype_score": 4,
-      "related_videos": 19,
+      "related_videos": 17,
       "channel_count": 5,
       "has_games": true,
       "game_count": 5,
@@ -542,7 +602,7 @@
       "thumb": "https://img.youtube.com/vi/_clZCGtiQKo/mqdefault.jpg",
       "published": "2026-06-02T19:54:03+00:00",
       "hype_score": 4,
-      "related_videos": 19,
+      "related_videos": 17,
       "channel_count": 5,
       "has_games": true,
       "game_count": 5,
@@ -566,115 +626,60 @@
       "thumb": "https://img.youtube.com/vi/F_xBkqUczGA/mqdefault.jpg",
       "published": "2026-06-02T18:33:34+00:00",
       "hype_score": 4,
-      "related_videos": 19,
+      "related_videos": 17,
       "channel_count": 5,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "The Vodka Cooled PC v2 - The Unpacking",
-      "topic": "minecraft",
-      "channel": "Life of Boris",
-      "author": "Life of Boris",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 3,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/lPVWxornG64",
-      "thumb": "https://img.youtube.com/vi/lPVWxornG64/mqdefault.jpg",
-      "published": "2026-06-01T13:27:19+00:00",
-      "hype_score": 4,
-      "related_videos": 19,
-      "channel_count": 5,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "SUMMER IS HERE BLIN, Road to Vostok will help",
-      "topic": "minecraft",
-      "channel": "Life of Boris",
-      "author": "Life of Boris",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 3,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/-7_u2b0WabM",
-      "thumb": "https://img.youtube.com/vi/-7_u2b0WabM/mqdefault.jpg",
-      "published": "2026-06-01T10:56:49+00:00",
-      "hype_score": 4,
-      "related_videos": 19,
-      "channel_count": 5,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "I Became THE RICHEST PLAYER in Build an RNG Farm",
-      "topic": "became",
-      "channel": "SSundee",
-      "author": "SSundee",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 2,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/8ihIabZrwGk",
-      "thumb": "https://img.youtube.com/vi/8ihIabZrwGk/mqdefault.jpg",
-      "published": "2026-06-02T21:00:22+00:00",
-      "hype_score": 2,
-      "related_videos": 3,
-      "channel_count": 3,
       "has_games": true,
       "game_count": 5,
       "niche_free": false
     }
   ],
-  "google_trends": [],
+  "google_trends": [
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "when is the fortnite live event",
+      "topic": "when is the fortnite live event",
+      "channel": "Google Trends US",
+      "author": "Google Trends",
+      "views": 200,
+      "views_str": "200+",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 200,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "thumb": "",
+      "published": "сейчас",
+      "hype_score": 7,
+      "related_videos": 0,
+      "channel_count": 0,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false,
+      "is_gaming": true
+    }
+  ],
   "hype_validated": [],
   "tiktok": [],
   "tg_signals": [
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1191",
-      "tg_text": "Смысл трека из мема : Простите сэр &#33;Главная тема песни — лицемерие «правильной» жизни и абсурдность бюрократии.​Вот о чем трек, если разложить его по сути и без лишних слов:​Жизнь Чарли (Иллюзия праведности): Песня описывает Чарли как образцового гражданина: он экономил воду, принимая холодный д",
-      "topic": "правильной",
-      "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1194",
-      "tg_text": "🆕Новое видео про «Лучшие мемы мая»♥️Приятного просмотра, желаю всем провести хорошо лето.👇смотреть тут👇🔗 https://youtu.be/MrIW-V5a_0I?si=Y5GOKc9H3f95cUnl ❤13👍3👌2👎1 553 views15:28",
+      "tg_text": "🆕Новое видео про «Лучшие мемы мая»♥️Приятного просмотра, желаю всем провести хорошо лето.👇смотреть тут👇🔗 https://youtu.be/MrIW-V5a_0I?si=Y5GOKc9H3f95cUnl ❤13👍3👌2👎1 566 views15:28",
       "topic": "Лучшие мемы мая",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1196",
-      "tg_text": "📹 «Лучшие мемы мая» от меня и моего друга по Мемам: https://t.me/meme_expert17💁‍♂️Для тех, у кого Ютуб не работает♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией 👍5❤1 554 viewsedited &nbsp;06:59",
+      "tg_text": "📹 «Лучшие мемы мая» от меня и моего друга по Мемам: https://t.me/meme_expert17💁‍♂️Для тех, у кого Ютуб не работает♥️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией 👍5❤1 570 viewsedited &nbsp;06:59",
       "topic": "Лучшие мемы мая",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -683,7 +688,7 @@
       "tg_text": "#западныемемыSherbert The Tree — Говорящее дерево, которое сейчас штурмует западные рекомендации.​В комментариях его массово называют «младшим братом» легендарного Мудрого Старого Дерева (Wise Old Tree).Вам уже попадалось это дерево ? Yes - 👍No - 👎",
       "topic": "младшим братом",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -692,7 +697,7 @@
       "tg_text": "🦠В ТикТок достиг пика популярности мем: «Села-дала»🏍️Изначально тренд был взят от «мотоциклистов» а затем заполонил рекомендации, в общем на сегодняшний день, про него уже забывают, но ранее форс был хороший.❓Вы видели подобные мемы? 👍-Да👎-Нет",
       "topic": "Села-дала",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -701,43 +706,43 @@
       "tg_text": "🎧Инстасамка выпустит Новый трек посвященный мему: ⛰️«Гора Эверест на фоне меня»😆Это как бы круто, но уже будто бы поздно.❓-Поздно уже? 👍-Поздно ♥️-нет, еще актуально",
       "topic": "Гора Эверест на фоне меня",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1204",
-      "tg_text": "🍽️Стол заказов мемов:❓Про какой актуальный мем рассказать?✍️Пишите в комментариях ⚡18❤2 496 views13:06",
+      "tg_text": "🍽️Стол заказов мемов:❓Про какой актуальный мем рассказать?✍️Пишите в комментариях ⚡18❤2 512 views13:06",
       "topic": "рассказать",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1206",
-      "tg_text": "🦠В ТикТок вирусится детская песня: «Почему»🎙️От юной певицы по имени Кира Бурундук 😳За неделю сняли почти 40к клипов❓Вам попадались подобные видео? 👍-Да👎-НетОриг: Посмотрите эту публикацию в TikTok&#33; https://vm.tiktok.com/ZNR7q7c2y/ 👎39👍18❤5🤮2 427 viewsedited &nbsp;11:43",
+      "tg_text": "🦠В ТикТок вирусится детская песня: «Почему»🎙️От юной певицы по имени Кира Бурундук 😳За неделю сняли почти 40к клипов❓Вам попадались подобные видео? 👍-Да👎-НетОриг: Посмотрите эту публикацию в TikTok&#33; https://vm.tiktok.com/ZNR7q7c2y/ 👎40👍18❤5🤮2 450 viewsedited &nbsp;11:43",
       "topic": "Почему",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1207",
-      "tg_text": "💭Обсуждение мема:«Класс прямо как во втором «Тим Фортресс»💁‍♂️Планирую снять обзор на этот мем❓Кто что знает про эту игру, фразу персонажа, пожалуйста напишите в комментариях, спасибо заранее♥️ 👍22🤮6❤1👎1 395 views13:05",
+      "tg_text": "💭Обсуждение мема:«Класс прямо как во втором «Тим Фортресс»💁‍♂️Планирую снять обзор на этот мем❓Кто что знает про эту игру, фразу персонажа, пожалуйста напишите в комментариях, спасибо заранее♥️ 👍22🤮6❤1👎1 425 views13:05",
       "topic": "Класс прямо как во втором «Тим Фортресс",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1209",
-      "tg_text": "☀️Ребята, забыл всех поздравить с приходом этого чудесного лета.♥️Всем желаю хороших каникул и отпусков.❓КАКОЙ ПЕРВЫЙ МЕМ ЛЕТА УЖЕ ВЫ ВИДЕЛИ? ✍️Напишите в комментариях, давайте обсудим 🥰6❤2🤮1 283 views13:20",
+      "tg_text": "☀️Ребята, забыл всех поздравить с приходом этого чудесного лета.♥️Всем желаю хороших каникул и отпусков.❓КАКОЙ ПЕРВЫЙ МЕМ ЛЕТА УЖЕ ВЫ ВИДЕЛИ? ✍️Напишите в комментариях, давайте обсудим 🥰7❤2🤮1 348 views13:20",
       "topic": "ЛЕТА УЖЕ ВЫ ВИДЕЛИ",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -746,7 +751,16 @@
       "tg_text": "#западныемемыSherbert The Tree — Говорящее дерево, которое сейчас штурмует западные рекомендации.​В комментариях его массово называют «младшим братом» легендарного Мудрого Старого Дерева (Wise Old Tree).Вам уже попадалось это дерево ? Yes - 👍No - 👎",
       "topic": "младшим братом",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1213",
+      "tg_text": "🆕Новое видео:🔥«Класс, прямо как во 2 Тим Фортресс» Откуда мем? ❓Как вам мой Новый летний стиль? 😆👍-Имба👎-Неоч 👍9👎1👏1 91 views13:51",
+      "topic": "Класс, прямо как во 2 Тим Фортресс",
+      "youtube_videos": [],
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -755,7 +769,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁49👎11❤3👍3 8.24K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -764,7 +778,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -773,7 +787,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -782,7 +796,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     },
     {
       "source": "tg_signal",
@@ -791,7 +805,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-06-05 00:35"
+      "detected_at": "2026-06-05 07:27"
     }
   ]
 }
