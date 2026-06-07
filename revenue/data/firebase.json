@@ -1,0 +1,64 @@
+{
+  "source": "firebase-console-browser",
+  "generatedAt": "2026-06-07T16:10:54+03:00",
+  "dateRange": {
+    "from": "2026-05-31",
+    "to": "2026-06-06",
+    "days": 7,
+    "timezone": "Firebase console shows UTC-7"
+  },
+  "projects": [
+    {
+      "id": "blogger-escape",
+      "name": "Blogger Escape",
+      "appName": "Escape from Blogger",
+      "consoleUrl": "https://console.firebase.google.com/project/blogger-escape/overview",
+      "plan": "Spark plan",
+      "platforms": ["android"],
+      "metrics": {
+        "usersLast30Minutes": {
+          "value": 7232,
+          "label": "Users in last 30 minutes"
+        },
+        "dailyActiveUsers": {
+          "value": 142000,
+          "display": "142K",
+          "change": -25.9,
+          "period": "current week latest point",
+          "range": { "min": 140000, "max": 217000 },
+          "lastWeekEndpoints": [217000, 191000],
+          "thisWeekEndpoints": [179000, 142000]
+        },
+        "day1Retention": {
+          "value": 39.8,
+          "display": "39.8%",
+          "change": -0.3,
+          "period": "current week latest point",
+          "range": { "min": 36.5, "max": 41.0 },
+          "lastWeekEndpoints": [41.0, 39.9],
+          "thisWeekEndpoints": [38.2, 39.8]
+        },
+        "revenue": {
+          "value": 19.26,
+          "currency": "USD",
+          "display": "$19.26",
+          "change": -58.3,
+          "period": "current week total/selected Firebase card",
+          "range": { "min": 0, "max": 15.794 },
+          "lastWeekEndpoints": [6.293, 12.077],
+          "thisWeekEndpoints": [0.883, 3.932]
+        }
+      },
+      "warnings": [
+        "Данные сняты из Firebase Console через залогиненный браузерный профиль, не через официальный GA4 API.",
+        "Для полноценной ежедневной истории нужен service account или отдельный браузерный collector с обходом Firebase UI."
+      ]
+    }
+  ],
+  "totals": {
+    "projects": 1,
+    "usersLast30Minutes": 7232,
+    "dailyActiveUsers": 142000,
+    "revenue7CardUsd": 19.26
+  }
+}

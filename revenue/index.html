@@ -24,9 +24,43 @@
     <div><div class="title">Revenue Cockpit</div><div class="sub" id="subtitle">Загружаю данные…</div></div>
     <div class="actions"></div></header>
 
-  <nav class="source-tabs" id="sourceTabs"><button class="source-tab active" data-source-tab="overview">Общая сводка</button><button class="source-tab" data-source-tab="yandex">Яндекс Игры</button><button class="source-tab" data-source-tab="cas">CAS.ai</button></nav>
+  <nav class="source-tabs" id="sourceTabs"><button class="source-tab active" data-source-tab="overview">Общая сводка</button><button class="source-tab" data-source-tab="analytics">Аналитика</button><button class="source-tab" data-source-tab="projects">Проекты</button><button class="source-tab" data-source-tab="yandex">Яндекс Игры</button><button class="source-tab" data-source-tab="cas">CAS.ai</button><button class="source-tab" data-source-tab="firebase">Firebase</button></nav>
 
-  <section class="source-view active" id="view-overview"><div class="overview-grid"><div class="card overview-card"><div class="panel-title">Яндекс Игры</div><div class="side-list" id="overviewYandex" style="margin-top:12px"></div></div><div class="card overview-card"><div class="panel-title">CAS.ai</div><div class="side-list" id="overviewCas" style="margin-top:12px"></div></div></div></section>
+  <section class="source-view active" id="view-overview"><div class="overview-grid"><div class="card overview-card"><div class="panel-title">Яндекс Игры</div><div class="side-list" id="overviewYandex" style="margin-top:12px"></div></div><div class="card overview-card"><div class="panel-title">CAS.ai</div><div class="side-list" id="overviewCas" style="margin-top:12px"></div></div><div class="card overview-card"><div class="panel-title">Firebase</div><div class="side-list" id="overviewFirebase" style="margin-top:12px"></div></div></div></section>
+
+  <section class="source-view" id="view-analytics">
+    <section class="grid-kpi cas-kpis" id="analyticsKpis"></section>
+    <section class="split" style="margin-top:14px">
+      <div class="card"><div class="panel-title">Сводка по компании</div><div class="side-list" id="analyticsSnapshot" style="margin-top:12px"></div></div>
+      <div class="card"><div class="panel-title">Что смотреть сейчас</div><div class="side-list" id="analyticsActions" style="margin-top:12px"></div></div>
+    </section>
+    <section class="split" style="margin-top:14px">
+      <div class="card"><div class="panel-title">Blogger / Escape — сквозной срез</div><div class="side-list" id="analyticsBlogger" style="margin-top:12px"></div></div>
+      <div class="card"><div class="panel-title">Источники и свежесть данных</div><div class="side-list" id="analyticsFreshness" style="margin-top:12px"></div></div>
+    </section>
+    <section class="card table-card" style="margin-top:14px">
+      <div class="panel-head"><div><div class="panel-title">Топ активов по источникам</div><div class="mini">Яндекс доходы в ₽, CAS/Firebase в $ — валюты не смешиваются</div></div></div>
+      <div class="table-wrap"><table class="table"><thead><tr><th>#</th><th>Источник</th><th>Актив</th><th>Период</th><th>Доход</th><th>Аудитория / показы</th><th>Динамика</th></tr></thead><tbody id="analyticsRows"></tbody></table></div>
+    </section>
+  </section>
+
+  <section class="source-view" id="view-projects">
+    <section class="card" style="margin-top:14px">
+      <div class="panel-head">
+        <div><div class="panel-title">Проекты — сквозная аналитика</div><div class="mini" id="projectsSubtitle">Выбери проект и смотри его по всем площадкам</div></div>
+        <div class="filters" style="grid-template-columns:260px;margin:0"><select id="projectSelect"></select></div>
+      </div>
+      <div class="grid-kpi cas-kpis" id="projectKpis" style="margin-top:14px"></div>
+    </section>
+    <section class="split" style="margin-top:14px">
+      <div class="card"><div class="panel-title">Сводка проекта</div><div class="side-list" id="projectSummary" style="margin-top:12px"></div></div>
+      <div class="card"><div class="panel-title">Сигналы и выводы</div><div class="side-list" id="projectInsights" style="margin-top:12px"></div></div>
+    </section>
+    <section class="card table-card" style="margin-top:14px">
+      <div class="panel-head"><div><div class="panel-title">Площадки проекта</div><div class="mini">Доходы показываются в родной валюте источника; ₽ и $ не суммируются</div></div></div>
+      <div class="table-wrap"><table class="table"><thead><tr><th>Площадка</th><th>Статус</th><th>Доход</th><th>Аудитория / показы</th><th>Качество</th><th>Динамика</th></tr></thead><tbody id="projectPlatformRows"></tbody></table></div>
+    </section>
+  </section>
 
   <section class="source-view" id="view-yandex">
   <section class="grid-kpi" id="kpis"></section>
@@ -83,6 +117,11 @@
     <div class="chips cas-mode-tabs"><span id="casModeTotal" class="chip active">Всего</span><span id="casModeCompare" class="chip">Сравнить приложения</span></div>
     <div class="filters cas-filters"><select id="casPeriod"><option value="7">7 дней</option><option value="30" selected>30 дней</option><option value="90">90 дней</option><option value="all">Весь период</option></select></div>
     <div class="grid-kpi cas-kpis" id="casKpis"></div>
+    <div class="card" id="casAccountsCard" style="margin-top:14px;display:none">
+      <div class="panel-title">CAS.ai — аккаунты, live 7 дней</div>
+      <div class="side-list" id="casAccountsSummary" style="margin-top:12px"></div>
+      <div class="table-wrap" style="margin-top:12px"><table class="table"><thead><tr><th>Аккаунт</th><th>Email</th><th>Revenue 7д</th><th>Impressions</th><th>eCPM</th><th>Приложений</th><th>Топ-приложение</th></tr></thead><tbody id="casAccountsRows"></tbody></table></div>
+    </div>
     <div class="chart-tools">
       <div class="zoom-buttons"><button id="casZoomOut">− Дальше</button><button id="casZoomReset">Сброс</button><button id="casZoomIn">+ Ближе</button></div>
       <div class="zoom-label" id="casZoomLabel">По умолчанию показаны последние 30 дней</div>
@@ -96,6 +135,20 @@
   </section>
 
 
+  </section>
+
+  <section class="source-view" id="view-firebase">
+    <section class="card table-card" id="firebaseSection" style="margin-top:14px">
+      <div class="panel-head">
+        <div><div class="panel-title">Firebase — игровые метрики</div><div class="mini" id="firebaseSubtitle">Загружаю Firebase…</div></div>
+      </div>
+      <div class="grid-kpi cas-kpis" id="firebaseKpis"></div>
+      <div class="split" style="margin-top:14px">
+        <div class="card"><div class="panel-title">Blogger Escape</div><div class="side-list" id="firebaseBlogger" style="margin-top:12px"></div></div>
+        <div class="card"><div class="panel-title">Примечания</div><div class="side-list" id="firebaseWarnings" style="margin-top:12px"></div></div>
+      </div>
+      <div class="table-wrap" style="margin-top:14px"><table class="table"><thead><tr><th>#</th><th>Проект</th><th>Приложение</th><th>Users 30m</th><th>DAU</th><th>Retention D1</th><th>Revenue</th><th>Динамика</th></tr></thead><tbody id="firebaseRows"></tbody></table></div>
+    </section>
   </section>
   <div class="warn">Данные: Яндекс Игры. CTR пока не показываю: в текущем JSON нет кликов/CTR, есть показы, CPMV, rewarded/interstitial и доход РСЯ.</div>
 </div>
@@ -135,15 +188,16 @@ function renderAll(){ renderKpis(); renderControls(); drawChart(); renderInsight
 function bind(){ document.addEventListener('click',e=>{const mb=e.target.closest('[data-metric]'); if(mb){state.metric=mb.dataset.metric; state.selectedDate=null; renderAll()} const mo=e.target.closest('[data-mode]'); if(mo){state.mode=mo.dataset.mode; state.selectedDate=null; renderAll()}}); $('gameSelect').onchange=e=>{state.selected=e.target.value; state.mode='single'; state.selectedDate=null; renderAll()}; $('periodSelect').onchange=e=>{state.period=e.target.value; state.zoom=1; state.selectedDate=null; renderAll()}; $('normalizeSelect').onchange=e=>{state.normalize=e.target.value; renderAll()}; $('compareList').onchange=e=>{state.compare=[...$('compareList').querySelectorAll('input:checked')].map(x=>x.value).slice(0,6); state.selectedDate=null; renderAll()}; $('q').oninput=renderRows; $('sort').onchange=renderRows; $('zoomIn').onclick=()=>{state.zoom=Math.min(12,state.zoom*1.6); state.selectedDate=null; drawChart()}; $('zoomOut').onclick=()=>{state.zoom=Math.max(1,state.zoom/1.6); state.selectedDate=null; drawChart()}; $('zoomReset').onclick=()=>{state.zoom=1; state.selectedDate=null; drawChart()}; $('mainChart').addEventListener('click',e=>{if(!LAST_CHART||!LAST_CHART.dates.length)return; const r=e.currentTarget.getBoundingClientRect(),x=e.clientX-r.left; let best=LAST_CHART.dates[0],dist=1e9; for(const d of LAST_CHART.dates){const dx=Math.abs(LAST_CHART.xFor(d)-x); if(dx<dist){dist=dx;best=d}} state.selectedDate=best; drawChart();}); window.addEventListener('resize',()=>{drawChart(); drawCasChart();}); }
 
 
-function setSourceTab(tab){ document.querySelectorAll('.source-tab').forEach(b=>b.classList.toggle('active', b.dataset.sourceTab===tab)); document.querySelectorAll('.source-view').forEach(v=>v.classList.toggle('active', v.id==='view-'+tab)); if(['overview','yandex','cas'].includes(tab) && location.hash!=='#'+tab) history.replaceState(null,'','#'+tab); if(tab==='yandex') setTimeout(drawChart,50); if(tab==='cas') setTimeout(drawCasChart,50); }
-function bindSourceTabs(){ document.querySelectorAll('[data-source-tab]').forEach(b=>b.onclick=()=>setSourceTab(b.dataset.sourceTab)); const initial=location.hash.replace('#',''); if(['overview','yandex','cas'].includes(initial)) setSourceTab(initial); }
+function setSourceTab(tab){ document.querySelectorAll('.source-tab').forEach(b=>b.classList.toggle('active', b.dataset.sourceTab===tab)); document.querySelectorAll('.source-view').forEach(v=>v.classList.toggle('active', v.id==='view-'+tab)); if(['overview','analytics','projects','yandex','cas','firebase'].includes(tab) && location.hash!=='#'+tab) history.replaceState(null,'','#'+tab); if(tab==='yandex') setTimeout(drawChart,50); if(tab==='cas') setTimeout(drawCasChart,50); }
+function bindSourceTabs(){ document.querySelectorAll('[data-source-tab]').forEach(b=>b.onclick=()=>setSourceTab(b.dataset.sourceTab)); const initial=location.hash.replace('#',''); if(['overview','analytics','projects','yandex','cas','firebase'].includes(initial)) setSourceTab(initial); }
 function renderOverview(){
   if(DATA){ const top=[...DATA.games].sort((a,b)=>kpi(b,'revenue30')-kpi(a,'revenue30'))[0]; $('overviewYandex').innerHTML=[insight('30 дней',fmtRub(DATA.totals.revenue30),'pos'),insight('7 дней',fmtRub(DATA.totals.revenue7),'neu'),insight('Топ-игра',`${top?.name||'—'} · ${fmtRub(kpi(top,'revenue30'))}`,'pos'),insight('Игр',String(DATA.games.length),'neu')].join(''); }
   if(CAS_DATA){ const top=CAS_DATA.apps[0]; $('overviewCas').innerHTML=[insight('Весь период',fmtUsd(CAS_DATA.totals.revenue),'pos'),insight('30 дней',fmtUsd(CAS_DATA.totals.revenue30),'neu'),insight('Топ-приложение',`${top?.name||'—'} · ${fmtUsd(top?.revenue||0)}`,'pos'),insight('Приложений',String(CAS_DATA.apps.length),'neu')].join(''); }
+  if(FIREBASE_DATA){ const p=FIREBASE_DATA.projects[0],m=p?.metrics||{}; $('overviewFirebase').innerHTML=[insight('Blogger DAU',m.dailyActiveUsers?.display||'—',m.dailyActiveUsers?.change!=null?pct(m.dailyActiveUsers.change):'Firebase','neu'),insight('Users 30m',fmtNum(m.usersLast30Minutes?.value),'live-ish','pos'),insight('Retention D1',m.day1Retention?.display||'—',m.day1Retention?.change!=null?pct(m.day1Retention.change):'','neu'),insight('Revenue',m.revenue?.display||'—',m.revenue?.change!=null?pct(m.revenue.change):'','neg')].join(''); }
 }
 
 
-let CAS_DATA=null, casMetric='revenue', casState={period:'30',zoom:1,selectedDate:null,mode:'total'};
+let CAS_DATA=null, CAS_ACCOUNTS=null, casMetric='revenue', casState={period:'30',zoom:1,selectedDate:null,mode:'total'};
 let LAST_CAS_CHART=null;
 const fmtUsd=n=>'$'+num(n).toLocaleString('ru-RU',{maximumFractionDigits:2});
 const fmtUsdShort=n=>{n=num(n); if(Math.abs(n)>=1000000) return '$'+(n/1000000).toLocaleString('ru-RU',{maximumFractionDigits:1})+'M'; if(Math.abs(n)>=1000) return '$'+(n/1000).toLocaleString('ru-RU',{maximumFractionDigits:1})+'K'; return fmtUsd(n)};
@@ -157,9 +211,112 @@ function renderCasDetail(lines){ const el=$('casChartDetail'); if(!el) return; i
 function drawCasChart(){ if(!CAS_DATA) return; const canvas=$('casChart'); if(!canvas) return; const {ctx,W,H}=resizeCanvas(canvas),isMob=W<620,padL=isMob?54:66,padR=14,padT=18,padB=isMob?58:42; ctx.clearRect(0,0,W,H); const lines=getCasLines(); const dates=[...new Set(lines.flatMap(l=>l.points.map(p=>p.date)))].sort(); const vals=lines.flatMap(l=>l.points.map(p=>p.y)); const max=Math.max(...vals,1),min=Math.min(0,...vals); const plotW=W-padL-padR, plotH=H-padT-padB; const xFor=date=>{const i=dates.indexOf(date); return padL+i*plotW/Math.max(1,dates.length-1)}; const yFor=v=>H-padB-(v-min)/(max-min||1)*plotH; ctx.strokeStyle='rgba(255,255,255,.08)';ctx.lineWidth=1;ctx.fillStyle='#62666d';ctx.font=(isMob?'10':'12')+'px Inter, sans-serif'; const yTicks=isMob?4:5; for(let i=0;i<yTicks;i++){const y=padT+i*plotH/(yTicks-1);ctx.beginPath();ctx.moveTo(padL,y);ctx.lineTo(W-padR,y);ctx.stroke(); const val=max-(max-min)*i/(yTicks-1); ctx.fillText(casFmtFor(casMetric,val,true),6,y+4)} lines.forEach((l,idx)=>{ctx.strokeStyle=COLORS[idx%COLORS.length];ctx.lineWidth=(idx===0?3.2:2);ctx.beginPath(); l.points.forEach((p,i)=>{const x=xFor(p.date),y=yFor(p.y); i?ctx.lineTo(x,y):ctx.moveTo(x,y)});ctx.stroke(); l.points.forEach(p=>{if(dates.length<=45 || p.date===casState.selectedDate){ctx.fillStyle=COLORS[idx%COLORS.length];ctx.beginPath();ctx.arc(xFor(p.date),yFor(p.y),p.date===casState.selectedDate?5:2.4,0,Math.PI*2);ctx.fill();}});}); if(casState.selectedDate&&dates.includes(casState.selectedDate)){const x=xFor(casState.selectedDate);ctx.strokeStyle='rgba(255,255,255,.34)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x,padT);ctx.lineTo(x,H-padB);ctx.stroke();ctx.fillStyle='#f7f8f8';ctx.fillText(casState.selectedDate,Math.min(W-112,Math.max(padL,x-42)),padT+14)} ctx.fillStyle='#62666d'; if(dates.length){const step=Math.max(1,Math.ceil(dates.length/(isMob?3:5))); for(let i=0;i<dates.length;i+=step){const x=xFor(dates[i]);ctx.save();ctx.translate(x,H-14);if(isMob){ctx.rotate(-Math.PI/5);ctx.fillText(dates[i].slice(5),-18,0)}else ctx.fillText(dates[i],-28,0);ctx.restore();} if(!isMob && dates.length>1 && dates.at(-1)!==dates[Math.floor((dates.length-1)/step)*step]) ctx.fillText(dates.at(-1),W-105,H-12)} $('casLegend').innerHTML=lines.map((l,i)=>`<span><i class="dot" style="background:${COLORS[i%COLORS.length]}"></i><span class="label">${l.name}</span></span>`).join(''); $('casZoomLabel').textContent=`Показано дней: ${dates.length} · масштаб ${casState.zoom.toLocaleString('ru-RU',{maximumFractionDigits:1})}×`; LAST_CAS_CHART={dates,xFor,lines}; renderCasDetail(lines); }
 function renderCas(){ if(!CAS_DATA) return; $('casSubtitle').textContent=`Обновлено: ${CAS_DATA.generatedAt} · данные ${CAS_DATA.dateRange.from}—${CAS_DATA.dateRange.to} · ${CAS_DATA.apps.length} приложений`; $('casKpis').innerHTML=[['Всего',fmtUsdShort(CAS_DATA.totals.revenue),fmtUsd(CAS_DATA.totals.revenue)],['30 дней',fmtUsdShort(CAS_DATA.totals.revenue30),fmtUsd(CAS_DATA.totals.revenue30)],['7 дней',fmtUsdShort(CAS_DATA.totals.revenue7),fmtUsd(CAS_DATA.totals.revenue7)],['Показы',fmtShortNum(CAS_DATA.totals.impressions),fmtNum(CAS_DATA.totals.impressions)],['eCPM',fmtUsd(CAS_DATA.totals.ecpm),'средний']].map(x=>`<div class="card metric-card"><div class="k">${x[0]}</div><div class="v" title="${x[2]}">${x[1]}</div><div class="delta neu">${x[2]}</div></div>`).join(''); $('casRows').innerHTML=CAS_DATA.apps.map((a,i)=>`<tr><td class="rank">${i+1}</td><td><div class="game-name">${a.name}</div><div class="id">${a.id}</div></td><td><b>${fmtUsd(a.revenue)}</b></td><td>${fmtUsd(a.revenue30)}</td><td>${fmtUsd(a.revenue7)}</td><td>${fmtNum(a.impressions)}</td><td>${fmtUsd(a.ecpm)}</td><td class="${a.change7>=0?'pos':'neg'}">${pct(a.change7)}</td></tr>`).join(''); $('casCards').innerHTML=CAS_DATA.apps.map((a,i)=>`<div class="cas-app-card"><div class="cas-app-name">${i+1}. ${a.name}</div><div class="cas-app-id">${a.id}</div><div class="cas-app-metrics"><div><span>Всего</span><b>${fmtUsdShort(a.revenue)}</b></div><div><span>30 дней</span><b>${fmtUsdShort(a.revenue30)}</b></div><div><span>7 дней</span><b>${fmtUsdShort(a.revenue7)}</b></div><div><span>Рост 7д</span><b class="${a.change7>=0?'pos':'neg'}">${pct(a.change7)}</b></div></div></div>`).join(''); drawCasChart(); renderOverview(); }
 function bindCas(){ ['Revenue','Impressions','Ecpm'].forEach(name=>{const el=$('casMetric'+name); if(el) el.onclick=()=>{casMetric=name==='Revenue'?'revenue':name==='Impressions'?'impressions':'ecpm'; casState.selectedDate=null; ['Revenue','Impressions','Ecpm'].forEach(n=>$('casMetric'+n)?.classList.toggle('active', n===name)); drawCasChart();};}); $('casPeriod').onchange=e=>{casState.period=e.target.value; casState.zoom=1; casState.selectedDate=null; drawCasChart();}; $('casZoomIn').onclick=()=>{casState.zoom=Math.min(12,casState.zoom*1.6); casState.selectedDate=null; drawCasChart();}; $('casZoomOut').onclick=()=>{casState.zoom=Math.max(1,casState.zoom/1.6); casState.selectedDate=null; drawCasChart();}; $('casZoomReset').onclick=()=>{casState.zoom=1; casState.selectedDate=null; drawCasChart();}; $('casModeTotal').onclick=()=>{casState.mode='total'; casState.selectedDate=null; $('casModeTotal').classList.add('active'); $('casModeCompare').classList.remove('active'); drawCasChart();}; $('casModeCompare').onclick=()=>{casState.mode='compare'; casState.selectedDate=null; $('casModeCompare').classList.add('active'); $('casModeTotal').classList.remove('active'); drawCasChart();}; $('casChart').addEventListener('click',e=>{if(!LAST_CAS_CHART||!LAST_CAS_CHART.dates.length)return; const r=e.currentTarget.getBoundingClientRect(),x=e.clientX-r.left; let best=LAST_CAS_CHART.dates[0],dist=1e9; for(const d of LAST_CAS_CHART.dates){const dx=Math.abs(LAST_CAS_CHART.xFor(d)-x); if(dx<dist){dist=dx;best=d}} casState.selectedDate=best; drawCasChart();}); }
-fetch('data/cas_ai_all.json?ts='+Date.now()).then(r=>r.json()).then(d=>{CAS_DATA=d; bindCas(); renderCas();}).catch(e=>{const el=$('casSubtitle'); if(el) el.textContent='CAS.ai не загружен: '+e.message});
 
-fetch('data/revenue.json?ts='+Date.now()).then(r=>r.json()).then(d=>{DATA=d; DATA.games.sort((a,b)=>kpi(b,'revenue30')-kpi(a,'revenue30')); state.selected=DATA.games[0]?.id; state.compare=DATA.games.slice(0,5).map(g=>g.id); $('subtitle').textContent=`Обновлено: ${DATA.generatedAt} · период ${DATA.dateRange.from}—${DATA.dateRange.to} · ${DATA.games.length} игр`; bind(); bindSourceTabs(); renderAll(); renderOverview();}).catch(e=>{$('subtitle').textContent='Не удалось загрузить data/revenue.json: '+e.message});
+let FIREBASE_DATA=null, PROJECTS_DATA=null, projectState={selected:null};
+function renderFirebase(){ if(!FIREBASE_DATA) return; const p=FIREBASE_DATA.projects[0],m=p?.metrics||{}; $('firebaseSubtitle').textContent=`Обновлено: ${FIREBASE_DATA.generatedAt} · ${FIREBASE_DATA.dateRange.from}—${FIREBASE_DATA.dateRange.to} · ${FIREBASE_DATA.projects.length} проект`; $('firebaseKpis').innerHTML=[['Users 30m',fmtNum(m.usersLast30Minutes?.value),'последние 30 минут','pos'],['DAU',m.dailyActiveUsers?.display||'—',m.dailyActiveUsers?.change!=null?pct(m.dailyActiveUsers.change):'','neu'],['Retention D1',m.day1Retention?.display||'—',m.day1Retention?.change!=null?pct(m.day1Retention.change):'','neu'],['Revenue',m.revenue?.display||'—',m.revenue?.change!=null?pct(m.revenue.change):'','neg']].map(x=>`<div class="card metric-card"><div class="k">${x[0]}</div><div class="v">${x[1]}</div><div class="delta ${x[3]}">${x[2]}</div></div>`).join(''); $('firebaseBlogger').innerHTML=[insight('Проект',`${p.name} · ${p.id}`,'neu'),insight('Приложение',p.appName||'—','neu'),insight('DAU диапазон',`${fmtShortNum(m.dailyActiveUsers?.range?.min)}—${fmtShortNum(m.dailyActiveUsers?.range?.max)}`,'neu'),insight('Revenue range',`$${num(m.revenue?.range?.min).toLocaleString('ru-RU',{maximumFractionDigits:2})}—$${num(m.revenue?.range?.max).toLocaleString('ru-RU',{maximumFractionDigits:2})}`,'neu')].join(''); $('firebaseWarnings').innerHTML=(p.warnings||FIREBASE_DATA.warnings||[]).map(w=>insight('Важно',w,'neu')).join('')||'<div class="empty">Нет предупреждений</div>'; $('firebaseRows').innerHTML=FIREBASE_DATA.projects.map((p,i)=>{const m=p.metrics||{}; return `<tr><td class="rank">${i+1}</td><td><div class="game-name">${p.name}</div><div class="id">${p.id}</div></td><td>${p.appName||'—'}</td><td>${fmtNum(m.usersLast30Minutes?.value)}</td><td><b>${m.dailyActiveUsers?.display||fmtShortNum(m.dailyActiveUsers?.value)}</b></td><td>${m.day1Retention?.display||'—'}</td><td>${m.revenue?.display||'—'}</td><td><span class="${num(m.dailyActiveUsers?.change)>=0?'pos':'neg'}">DAU ${pct(m.dailyActiveUsers?.change)}</span> · <span class="${num(m.revenue?.change)>=0?'pos':'neg'}">Rev ${pct(m.revenue?.change)}</span></td></tr>`}).join(''); renderOverview(); }
+
+
+function esc(s){return String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+function projectAliases(p){return [p.title,...(p.aliases||[]),p.platforms?.yandex?.gameId,p.platforms?.cas?.appId,p.platforms?.firebase?.projectId].filter(Boolean).map(x=>String(x).toLowerCase());}
+function textMatchesAliases(text, aliases){text=String(text||'').toLowerCase(); return aliases.some(a=>a && text.includes(a));}
+function findProjectYandex(p){const id=p.platforms?.yandex?.gameId; const aliases=projectAliases(p); return (DATA?.games||[]).find(g=>String(g.id)===String(id)) || (DATA?.games||[]).find(g=>textMatchesAliases(g.name,aliases));}
+function findProjectCasLive(p){const appId=String(p.platforms?.cas?.appId||'').toLowerCase(); const aliases=projectAliases(p); const apps=(CAS_ACCOUNTS?.accounts||[]).flatMap(a=>(a.apps||[]).map(app=>({...app,account:a.email,label:a.label}))); return apps.find(a=>String(a.app).toLowerCase().includes(appId)) || apps.find(a=>textMatchesAliases(a.app,aliases));}
+function findProjectCasAll(p){const appId=String(p.platforms?.cas?.appId||'').toLowerCase(); const aliases=projectAliases(p); return (CAS_DATA?.apps||[]).find(a=>String(a.id||'').toLowerCase()===appId || String(a.name||'').toLowerCase().includes(appId)) || (CAS_DATA?.apps||[]).find(a=>textMatchesAliases((a.name||'')+' '+(a.id||''),aliases));}
+function findProjectFirebase(p){const id=p.platforms?.firebase?.projectId; const aliases=projectAliases(p); return (FIREBASE_DATA?.projects||[]).find(x=>x.id===id) || (FIREBASE_DATA?.projects||[]).find(x=>textMatchesAliases((x.name||'')+' '+(x.appName||'')+' '+(x.id||''),aliases));}
+function renderProjectControls(){ if(!PROJECTS_DATA) return; const sel=$('projectSelect'); if(!sel) return; const ps=PROJECTS_DATA.projects||[]; if(!projectState.selected) projectState.selected=ps[0]?.id; sel.innerHTML=ps.map(p=>`<option value="${esc(p.id)}" ${p.id===projectState.selected?'selected':''}>${esc(p.title)}</option>`).join(''); sel.onchange=e=>{projectState.selected=e.target.value; renderProjects();}; }
+function renderProjects(){
+  const root=$('projectKpis'); if(!root||!PROJECTS_DATA) return; renderProjectControls();
+  const p=(PROJECTS_DATA.projects||[]).find(x=>x.id===projectState.selected) || PROJECTS_DATA.projects?.[0]; if(!p) return;
+  const yg=findProjectYandex(p), cl=findProjectCasLive(p), ca=findProjectCasAll(p), fp=findProjectFirebase(p), fm=fp?.metrics||{};
+  $('projectsSubtitle').textContent=`${p.title}: Яндекс / CAS.ai / Firebase / Google Play в одной карточке`;
+  root.innerHTML=[
+    ['Яндекс 30д', yg?fmtRub(kpi(yg,'revenue30')):'—', yg?`7д ${fmtRub(kpi(yg,'revenue7'))} · ${pct(kpi(yg,'revenueChange7'))}`:'нет матча', yg&&kpi(yg,'revenueChange7')>=0?'pos':'neg'],
+    ['CAS live 7д', cl?fmtUsd(cl.earnings):'—', cl?`${fmtNum(cl.impressions)} показов · eCPM ${fmtUsd(cl.ecpm)}`:'нет live-матча', 'pos'],
+    ['CAS 30д', ca?fmtUsd(ca.revenue30):'—', ca?`всего ${fmtUsd(ca.revenue)} · 7д ${fmtUsd(ca.revenue7)}`:'нет истории', 'neu'],
+    ['Firebase DAU', fp?(fm.dailyActiveUsers?.display||fmtShortNum(fm.dailyActiveUsers?.value)):'—', fp?`Users 30m ${fmtNum(fm.usersLast30Minutes?.value)} · D1 ${fm.day1Retention?.display||'—'}`:'не подключен', num(fm.dailyActiveUsers?.change)>=0?'pos':'neg'],
+    ['Google Play', p.platforms?.googlePlay?.status==='connected'?'подключен':'—', p.platforms?.googlePlay?.note||'ещё нет данных', 'neu']
+  ].map(x=>`<div class="card metric-card"><div class="k">${x[0]}</div><div class="v" title="${esc(x[1])}">${esc(x[1])}</div><div class="delta ${x[3]}">${esc(x[2])}</div></div>`).join('');
+  $('projectSummary').innerHTML=[
+    insight('Проект',`${p.title} · id ${p.id}`,'neu'),
+    insight('Яндекс Игры',yg?`ID ${yg.id}; 30д ${fmtRub(kpi(yg,'revenue30'))}, РСЯ 7д ${fmtRub(kpi(yg,'rsya7'))}, DAU 7д ${fmtNum(kpi(yg,'players7'))}`:'данные не найдены','neu'),
+    insight('CAS.ai',cl?`${cl.app}: ${fmtUsd(cl.earnings)} за live 7д; аккаунт ${cl.account}`:'данные не найдены','neu'),
+    insight('Firebase',fp?`${fp.name}: DAU ${fm.dailyActiveUsers?.display||fmtShortNum(fm.dailyActiveUsers?.value)}, D1 ${fm.day1Retention?.display||'—'}, revenue ${fm.revenue?.display||'—'}`:'данные не найдены','neu'),
+    insight('Google Play',p.platforms?.googlePlay?.note||'не подключен','neu')
+  ].join('');
+  const insights=[];
+  if(yg) insights.push(insight(kpi(yg,'revenueChange7')<0?'Яндекс проседает':'Яндекс растёт',`${pct(kpi(yg,'revenueChange7'))} за неделю; 7д ${fmtRub(kpi(yg,'revenue7'))}`,kpi(yg,'revenueChange7')<0?'neg':'pos'));
+  if(fp && num(fm.dailyActiveUsers?.change)<0) insights.push(insight('Firebase аудитория падает',`DAU ${pct(fm.dailyActiveUsers.change)}, но D1 ${fm.day1Retention?.display||'—'} — проблема может быть в трафике, не в удержании`,'neg'));
+  if(cl && ca) insights.push(insight('CAS сильный источник',`live 7д ${fmtUsd(cl.earnings)}, история 30д ${fmtUsd(ca.revenue30)}, всего ${fmtUsd(ca.revenue)}`,'pos'));
+  if(yg && cl) insights.push(insight('Сравнить каналы',`Яндекс: ${fmtRub(kpi(yg,'revenue7'))} за 7д; CAS: ${fmtUsd(cl.earnings)} за live 7д — валюты отдельно`,'neu'));
+  if(p.platforms?.googlePlay?.status!=='connected') insights.push(insight('Хвост данных',`Google Play Console пока не подключён, поэтому доходы/инсталлы Play не входят в раскладку`,'neu'));
+  $('projectInsights').innerHTML=insights.join('')||'<div class="empty">Недостаточно данных</div>';
+  const rows=[];
+  rows.push(['Яндекс Игры', yg?'найдено':'нет данных', yg?`30д ${fmtRub(kpi(yg,'revenue30'))}<br>7д ${fmtRub(kpi(yg,'revenue7'))}<br>день ${fmtRub(kpi(yg,'revenueDay'))}`:'—', yg?`DAU 7д ${fmtNum(kpi(yg,'players7'))}`:'—', yg?`ARPDAU ${fmtRub2(kpi(yg,'arpdau7'))}<br>РСЯ 7д ${fmtRub(kpi(yg,'rsya7'))}`:'—', yg?pct(kpi(yg,'revenueChange7')):'—', yg&&kpi(yg,'revenueChange7')>=0?'pos':'neg']);
+  rows.push(['CAS.ai live', cl?'найдено':'нет данных', cl?`7д ${fmtUsd(cl.earnings)}`:'—', cl?`${fmtNum(cl.impressions)} показов`:'—', cl?`eCPM ${fmtUsd(cl.ecpm)}<br>${esc(cl.account)}`:'—', 'live 7 дней', 'neu']);
+  rows.push(['CAS.ai история', ca?'найдено':'нет данных', ca?`всего ${fmtUsd(ca.revenue)}<br>30д ${fmtUsd(ca.revenue30)}<br>7д ${fmtUsd(ca.revenue7)}`:'—', ca?`${fmtNum(ca.impressions)} показов`:'—', ca?`eCPM ${fmtUsd(ca.ecpm)}`:'—', ca?pct(ca.change7):'—', num(ca?.change7)>=0?'pos':'neg']);
+  rows.push(['Firebase', fp?'найдено':'нет данных', fp?(fm.revenue?.display||'—'):'—', fp?`DAU ${fm.dailyActiveUsers?.display||fmtShortNum(fm.dailyActiveUsers?.value)}<br>Users 30m ${fmtNum(fm.usersLast30Minutes?.value)}`:'—', fp?`D1 ${fm.day1Retention?.display||'—'}`:'—', fp?`DAU ${pct(fm.dailyActiveUsers?.change)}<br>Revenue ${pct(fm.revenue?.change)}`:'—', num(fm.dailyActiveUsers?.change)>=0?'pos':'neg']);
+  rows.push(['Google Play', p.platforms?.googlePlay?.status==='connected'?'подключено':'не подключено', '—', '—', esc(p.platforms?.googlePlay?.packageCandidate||'—'), esc(p.platforms?.googlePlay?.note||'нет данных'), 'neu']);
+  $('projectPlatformRows').innerHTML=rows.map(r=>`<tr><td><b>${r[0]}</b></td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td>${r[4]}</td><td class="${r[6]}">${r[5]}</td></tr>`).join('');
+}
+
+function renderCasAccounts(){ if(!CAS_ACCOUNTS) return; const card=$('casAccountsCard'); if(card) card.style.display='block'; const acc=CAS_ACCOUNTS.accounts||[], total=CAS_ACCOUNTS.totals||{}; $('casAccountsSummary').innerHTML=[insight('Всего 7д',fmtUsd(total.revenue7||0),'pos'),insight('Показы 7д',fmtNum(total.impressions7||0),'neu'),insight('eCPM общий',fmtUsd(total.ecpm7||0),'neu'),insight('Аккаунтов',String(acc.length),'neu')].join(''); $('casAccountsRows').innerHTML=acc.map(a=>{const top=[...(a.apps||[])].sort((x,y)=>num(y.earnings)-num(x.earnings))[0]||{}; return `<tr><td><b>${a.label}</b></td><td>${a.email}</td><td><b>${fmtUsd(a.totals?.revenue)}</b></td><td>${fmtNum(a.totals?.impressions)}</td><td>${fmtUsd(a.totals?.ecpm)}</td><td>${(a.apps||[]).length}</td><td>${top.app||'—'} · ${fmtUsd(top.earnings||0)}</td></tr>`}).join(''); }
+
+function includesAny(text, terms){ text=String(text||'').toLowerCase(); return terms.some(t=>text.includes(t)); }
+function renderAnalytics(){
+  const kpis=$('analyticsKpis'); if(!kpis) return;
+  const yGames=DATA?.games||[], yTop=[...yGames].sort((a,b)=>kpi(b,'revenue30')-kpi(a,'revenue30'))[0];
+  const yGrow=[...yGames].filter(g=>kpi(g,'revenue7')>50).sort((a,b)=>kpi(b,'revenueChange7')-kpi(a,'revenueChange7'))[0];
+  const yDrop=[...yGames].sort((a,b)=>kpi(a,'revenueChange7')-kpi(b,'revenueChange7'))[0];
+  const casAccounts=CAS_ACCOUNTS?.accounts||[], casTotals=CAS_ACCOUNTS?.totals||{};
+  const casApps=casAccounts.flatMap(a=>(a.apps||[]).map(app=>({...app,account:a.email,label:a.label})));
+  const casTop=[...casApps].sort((a,b)=>num(b.earnings)-num(a.earnings))[0];
+  const fbProject=FIREBASE_DATA?.projects?.[0], fbm=fbProject?.metrics||{};
+  kpis.innerHTML=[
+    ['Яндекс 30д', DATA?fmtRub(DATA.totals.revenue30):'—', DATA?`${yGames.length} игр · 7д ${fmtRub(DATA.totals.revenue7)}`:'загрузка', 'pos'],
+    ['CAS live 7д', CAS_ACCOUNTS?fmtUsd(casTotals.revenue7):'—', CAS_ACCOUNTS?`${fmtNum(casTotals.impressions7)} показов · eCPM ${fmtUsd(casTotals.ecpm7)}`:'загрузка', 'pos'],
+    ['Firebase DAU', FIREBASE_DATA?(fbm.dailyActiveUsers?.display||fmtShortNum(fbm.dailyActiveUsers?.value)):'—', FIREBASE_DATA?`Blogger · ${pct(fbm.dailyActiveUsers?.change)}`:'загрузка', num(fbm.dailyActiveUsers?.change)>=0?'pos':'neg'],
+    ['Firebase 30m', FIREBASE_DATA?fmtNum(fbm.usersLast30Minutes?.value):'—', 'активные за 30 минут', 'neu'],
+    ['Топ Яндекс', yTop?.name||'—', yTop?fmtRub(kpi(yTop,'revenue30')):'нет данных', 'pos'],
+    ['Топ CAS', casTop?.app||'—', casTop?fmtUsd(casTop.earnings):'нет данных', 'pos']
+  ].map(x=>`<div class="card metric-card"><div class="k">${x[0]}</div><div class="v" title="${x[1]}">${x[1]}</div><div class="delta ${x[3]}">${x[2]}</div></div>`).join('');
+  $('analyticsSnapshot').innerHTML=[
+    insight('Деньги не смешиваю',`Яндекс в ₽: 30д ${DATA?fmtRub(DATA.totals.revenue30):'—'}; CAS в $: live 7д ${CAS_ACCOUNTS?fmtUsd(casTotals.revenue7):'—'}`,'neu'),
+    insight('Главный актив Яндекс',yTop?`${yTop.name}: ${fmtRub(kpi(yTop,'revenue30'))} за 30д`:'—','pos'),
+    insight('Главный актив CAS',casTop?`${casTop.app}: ${fmtUsd(casTop.earnings)} за 7д`:'—','pos'),
+    insight('Аудитория Firebase',FIREBASE_DATA?`${fbProject.name}: DAU ${fbm.dailyActiveUsers?.display||fmtShortNum(fbm.dailyActiveUsers?.value)}, users 30m ${fmtNum(fbm.usersLast30Minutes?.value)}`:'—','neu')
+  ].join('');
+  const actions=[];
+  if(yDrop) actions.push(insight('Просадка Яндекс',`${yDrop.name}: ${pct(kpi(yDrop,'revenueChange7'))}, проверить источники трафика/монетизацию`,'neg'));
+  if(yGrow) actions.push(insight('Рост Яндекс',`${yGrow.name}: ${pct(kpi(yGrow,'revenueChange7'))}, можно масштабировать гипотезы`,'pos'));
+  if(num(fbm.dailyActiveUsers?.change)<0) actions.push(insight('Firebase сигнал',`Blogger DAU ${pct(fbm.dailyActiveUsers.change)} — сверить с CAS и Яндекс по Blogger/Escape`,'neg'));
+  if(num(fbm.day1Retention?.value)>35) actions.push(insight('Retention хороший',`D1 ${fbm.day1Retention.display||fbm.day1Retention.value+'%'} — продукт удерживает, проблема скорее в трафике/выручке`,'pos'));
+  if(casTop) actions.push(insight('CAS концентрация',`${casTop.app} даёт ${fmtUsd(casTop.earnings)} из ${fmtUsd(casTotals.revenue7||0)} за 7д`,'neu'));
+  $('analyticsActions').innerHTML=actions.join('')||'<div class="empty">Жду загрузки данных</div>';
+  const bloggerY=yGames.find(g=>includesAny(g.name,['блогер','blogger','vlogger','escape']));
+  const bloggerCas=[...casApps].sort((a,b)=>(includesAny(b.app,['blogger','vlogger','escapefromblogger'])?2:includesAny(b.app,['spaghetti'])?1:0)-(includesAny(a.app,['blogger','vlogger','escapefromblogger'])?2:includesAny(a.app,['spaghetti'])?1:0)||num(b.earnings)-num(a.earnings)).find(a=>includesAny(a.app,['blogger','vlogger','spaghetti','escapefromblogger']));
+  $('analyticsBlogger').innerHTML=[
+    insight('Яндекс',bloggerY?`${bloggerY.name}: 30д ${fmtRub(kpi(bloggerY,'revenue30'))}, 7д ${fmtRub(kpi(bloggerY,'revenue7'))}, рост ${pct(kpi(bloggerY,'revenueChange7'))}`:'не найдено','neu'),
+    insight('CAS.ai',bloggerCas?`${bloggerCas.app}: ${fmtUsd(bloggerCas.earnings)} / ${fmtNum(bloggerCas.impressions)} показов / eCPM ${fmtUsd(bloggerCas.ecpm)}`:'не найдено','neu'),
+    insight('Firebase',FIREBASE_DATA?`DAU ${fbm.dailyActiveUsers?.display||fmtShortNum(fbm.dailyActiveUsers?.value)}, D1 ${fbm.day1Retention?.display||'—'}, revenue card ${fbm.revenue?.display||'—'}`:'не загружен','neu')
+  ].join('');
+  $('analyticsFreshness').innerHTML=[
+    insight('Яндекс Игры',DATA?`обновлено ${DATA.generatedAt}; период ${DATA.dateRange.from}—${DATA.dateRange.to}`:'нет данных','neu'),
+    insight('CAS.ai',CAS_ACCOUNTS?`live 7д, обновлено ${CAS_ACCOUNTS.generatedAt}; аккаунтов ${casAccounts.length}`:'нет данных','neu'),
+    insight('Firebase',FIREBASE_DATA?`срез ${FIREBASE_DATA.generatedAt}; ${FIREBASE_DATA.dateRange.from}—${FIREBASE_DATA.dateRange.to}`:'нет данных','neu'),
+    insight('Ограничение','Firebase пока снят из Console, не через официальный GA4 API — для истории нужен collector/service account','neu')
+  ].join('');
+  const rows=[];
+  yGames.slice(0,5).forEach(g=>rows.push(['Яндекс Игры',g.name,'30 дней',fmtRub(kpi(g,'revenue30')),`DAU 7д ${fmtNum(kpi(g,'players7'))}`,pct(kpi(g,'revenueChange7')),kpi(g,'revenueChange7')>=0?'pos':'neg']));
+  casApps.sort((a,b)=>num(b.earnings)-num(a.earnings)).slice(0,6).forEach(a=>rows.push(['CAS.ai',a.app,'7 дней',fmtUsd(a.earnings),`${fmtNum(a.impressions)} показов · eCPM ${fmtUsd(a.ecpm)}`,a.account,'neu']));
+  if(FIREBASE_DATA) rows.push(['Firebase',fbProject.name,'7 дней',fbm.revenue?.display||'—',`DAU ${fbm.dailyActiveUsers?.display||fmtShortNum(fbm.dailyActiveUsers?.value)} · Users 30m ${fmtNum(fbm.usersLast30Minutes?.value)}`,`DAU ${pct(fbm.dailyActiveUsers?.change)}`,num(fbm.dailyActiveUsers?.change)>=0?'pos':'neg']);
+  $('analyticsRows').innerHTML=rows.map((r,i)=>`<tr><td class="rank">${i+1}</td><td>${r[0]}</td><td><div class="game-name">${r[1]}</div></td><td>${r[2]}</td><td><b>${r[3]}</b></td><td>${r[4]}</td><td class="${r[6]}">${r[5]}</td></tr>`).join('')||'<tr><td colspan="7" class="empty">Данные ещё грузятся</td></tr>';
+}
+fetch('data/cas_ai_all.json?ts='+Date.now()).then(r=>r.json()).then(d=>{CAS_DATA=d; bindCas(); renderCas(); renderCasAccounts(); renderAnalytics(); renderProjects();}).catch(e=>{const el=$('casSubtitle'); if(el) el.textContent='CAS.ai не загружен: '+e.message});
+fetch('data/cas_accounts_latest.json?ts='+Date.now()).then(r=>r.json()).then(d=>{CAS_ACCOUNTS=d; renderCasAccounts(); renderAnalytics(); renderProjects();}).catch(()=>{});
+fetch('data/firebase.json?ts='+Date.now()).then(r=>r.json()).then(d=>{FIREBASE_DATA=d; renderFirebase(); renderAnalytics(); renderProjects();}).catch(e=>{const el=$('firebaseSubtitle'); if(el) el.textContent='Firebase не загружен: '+e.message});
+
+fetch('data/projects.json?ts='+Date.now()).then(r=>r.json()).then(d=>{PROJECTS_DATA=d; renderProjectControls(); renderProjects();}).catch(e=>{const el=$('projectsSubtitle'); if(el) el.textContent='Проекты не загружены: '+e.message});
+fetch('data/revenue.json?ts='+Date.now()).then(r=>r.json()).then(d=>{DATA=d; DATA.games.sort((a,b)=>kpi(b,'revenue30')-kpi(a,'revenue30')); state.selected=DATA.games[0]?.id; state.compare=DATA.games.slice(0,5).map(g=>g.id); $('subtitle').textContent=`Обновлено: ${DATA.generatedAt} · период ${DATA.dateRange.from}—${DATA.dateRange.to} · ${DATA.games.length} игр`; bind(); bindSourceTabs(); renderAll(); renderOverview(); renderAnalytics(); renderProjects();}).catch(e=>{$('subtitle').textContent='Не удалось загрузить data/revenue.json: '+e.message});
 </script>
 </body>
 </html>

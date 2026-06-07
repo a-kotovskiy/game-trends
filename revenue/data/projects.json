@@ -1,0 +1,38 @@
+{
+  "source": "manual-project-map",
+  "generatedAt": "2026-06-07T17:05:00+03:00",
+  "projects": [
+    {
+      "id": "blogger_escape",
+      "title": "Побег от Блогера",
+      "aliases": [
+        "Побег от Блогера",
+        "Blogger Escape",
+        "Escape from Blogger",
+        "Escape from Vlogger",
+        "EscapeFromBlogger",
+        "com.SpaghettiHouse.EscapeFromBlogger"
+      ],
+      "platforms": {
+        "yandex": {
+          "gameId": "506125",
+          "title": "Побег от Блогера"
+        },
+        "cas": {
+          "appId": "com.SpaghettiHouse.EscapeFromBlogger",
+          "title": "Escape from Vlogger: Runaway",
+          "accountHint": "spaghettibreak3d@gmail.com"
+        },
+        "firebase": {
+          "projectId": "blogger-escape",
+          "appName": "Escape from Blogger"
+        },
+        "googlePlay": {
+          "status": "not_connected",
+          "packageCandidate": "com.SpaghettiHouse.EscapeFromBlogger",
+          "note": "Google Play Console revenue/downloads ещё не подключены к дашборду"
+        }
+      }
+    }
+  ]
+}

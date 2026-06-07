@@ -1,0 +1,121 @@
+{
+  "source": "cas.ai browser live",
+  "generatedAt": "2026-06-07T16:30:31+03:00",
+  "accounts": [
+    {
+      "id": "spaghettibreak3d",
+      "label": "CAS account 1",
+      "email": "spaghettibreak3d@gmail.com",
+      "period": "7 days",
+      "totals": {
+        "revenue": 6482.656,
+        "impressions": 2881917,
+        "ecpm": 2.249
+      },
+      "apps": [
+        {
+          "app": "6760410364 (6760410364)",
+          "impressions": 159919,
+          "ecpm": 4.68,
+          "earnings": 749.03
+        },
+        {
+          "app": "6748311128 (Spaghetti Game 3D)",
+          "impressions": 20124,
+          "ecpm": 4.98,
+          "earnings": 100.19
+        },
+        {
+          "app": "com.D_one_Games.Spaghetti_Game_3D (com.D_one_Games.Spaghetti_Game_3D)",
+          "impressions": 113640,
+          "ecpm": 2.92,
+          "earnings": 331.85
+        },
+        {
+          "app": "com.SpaghettiHouse.EscapeFromBlogger (Escape from Vlogger: Runaway)",
+          "impressions": 2588234,
+          "ecpm": 2.05,
+          "earnings": 5301.59
+        }
+      ]
+    },
+    {
+      "id": "donegamesstudio",
+      "label": "CAS account 2",
+      "email": "donegamesstudio@gmail.com",
+      "period": "7 days",
+      "totals": {
+        "revenue": 2275.853,
+        "impressions": 1265530,
+        "ecpm": 1.798
+      },
+      "apps": [
+        {
+          "app": "6739977105 (6739977105)",
+          "impressions": 49133,
+          "ecpm": 3.81,
+          "earnings": 187.33
+        },
+        {
+          "app": "6755886420 (Escape from School: Runaway)",
+          "impressions": 29972,
+          "ecpm": 3.89,
+          "earnings": 116.67
+        },
+        {
+          "app": "6742878488 (Hide And Seek: Prop Hunt)",
+          "impressions": 221,
+          "ecpm": 2.92,
+          "earnings": 0.64
+        },
+        {
+          "app": "6744178882 (6744178882)",
+          "impressions": 1104,
+          "ecpm": 4.02,
+          "earnings": 4.44
+        },
+        {
+          "app": "6737253228 (6737253228)",
+          "impressions": 15733,
+          "ecpm": 3.18,
+          "earnings": 50.09
+        },
+        {
+          "app": "6742878503 (Scary Hospital Horror)",
+          "impressions": 1009,
+          "ecpm": 2.73,
+          "earnings": 2.75
+        },
+        {
+          "app": "6742706321 (Schoolboy Escape: Evil Witch)",
+          "impressions": 721,
+          "ecpm": 5.21,
+          "earnings": 3.75
+        },
+        {
+          "app": "6746124291 (6746124291)",
+          "impressions": 1880,
+          "ecpm": 2.37,
+          "earnings": 4.45
+        },
+        {
+          "app": "6742881287 (Raccoon Pranker and Grandpa)",
+          "impressions": 855,
+          "ecpm": 2.72,
+          "earnings": 2.32
+        },
+        {
+          "app": "6742880162 (Schoolboy Prison Escape)",
+          "impressions": 6335,
+          "ecpm": 5.08,
+          "earnings": 32.19
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "revenue7": 8758.509,
+    "impressions7": 4147447,
+    "ecpm7": 2.1117832247163135
+  }
+}
