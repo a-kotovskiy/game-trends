@@ -1,9 +1,9 @@
 {
   "source": "firebase-console-browser",
-  "generatedAt": "2026-06-07T16:10:54+03:00",
+  "generatedAt": "2026-06-10T17:10:49+03:00",
   "dateRange": {
-    "from": "2026-05-31",
-    "to": "2026-06-06",
+    "from": "2026-06-03",
+    "to": "2026-06-09",
     "days": 7,
     "timezone": "Firebase console shows UTC-7"
   },
@@ -14,51 +14,236 @@
       "appName": "Escape from Blogger",
       "consoleUrl": "https://console.firebase.google.com/project/blogger-escape/overview",
       "plan": "Spark plan",
-      "platforms": ["android"],
+      "platforms": [
+        "android"
+      ],
       "metrics": {
         "usersLast30Minutes": {
-          "value": 7232,
+          "value": 5953,
           "label": "Users in last 30 minutes"
         },
         "dailyActiveUsers": {
-          "value": 142000,
-          "display": "142K",
-          "change": -25.9,
+          "value": 113000,
+          "display": "113K",
+          "change": -25.6,
           "period": "current week latest point",
-          "range": { "min": 140000, "max": 217000 },
-          "lastWeekEndpoints": [217000, 191000],
-          "thisWeekEndpoints": [179000, 142000]
+          "range": {
+            "min": 113000,
+            "max": 192000
+          },
+          "lastWeekEndpoints": [
+            192000,
+            152000
+          ],
+          "thisWeekEndpoints": [
+            141000,
+            113000
+          ]
         },
         "day1Retention": {
-          "value": 39.8,
-          "display": "39.8%",
-          "change": -0.3,
+          "value": 39.4,
+          "display": "39.4%",
+          "change": 0.2,
           "period": "current week latest point",
-          "range": { "min": 36.5, "max": 41.0 },
-          "lastWeekEndpoints": [41.0, 39.9],
-          "thisWeekEndpoints": [38.2, 39.8]
+          "range": {
+            "min": 36.5,
+            "max": 40.5
+          },
+          "lastWeekEndpoints": [
+            39.8,
+            39.3
+          ],
+          "thisWeekEndpoints": [
+            39.2,
+            39.4
+          ]
         },
         "revenue": {
-          "value": 19.26,
+          "value": 25.2,
           "currency": "USD",
-          "display": "$19.26",
-          "change": -58.3,
+          "display": "$25.20",
+          "change": -39.1,
           "period": "current week total/selected Firebase card",
-          "range": { "min": 0, "max": 15.794 },
-          "lastWeekEndpoints": [6.293, 12.077],
-          "thisWeekEndpoints": [0.883, 3.932]
+          "range": {
+            "min": 0,
+            "max": 15.794
+          },
+          "lastWeekEndpoints": [
+            6.924,
+            0
+          ],
+          "thisWeekEndpoints": [
+            0.91,
+            2.285
+          ]
         }
       },
       "warnings": [
-        "Данные сняты из Firebase Console через залогиненный браузерный профиль, не через официальный GA4 API.",
-        "Для полноценной ежедневной истории нужен service account или отдельный браузерный collector с обходом Firebase UI."
-      ]
+        "LTV/CPI считается по Firebase/GA4, не по CAS: CAS содержит revenue другого билда без Firebase и может завышать показатель.",
+        "Firebase/GA4 данные сняты из Console через залогиненный браузерный профиль; для стабильного автообновления нужен GA4 Data API/service account."
+      ],
+      "acquisition": {
+        "label": "Побег от Блогера — ориентиры для закупки",
+        "dataQuality": "firebase_ga4_only_for_ltv",
+        "revenue7Usd": null,
+        "casLive7Usd": null,
+        "firebaseRevenue7Usd": 25.2,
+        "avgDauAssumption": 127000.0,
+        "arpdauUsd": 0.005992,
+        "day1RetentionPct": 39.4,
+        "ltvDefinition": "LTV для закупки считается по Firebase/GA4 в рамках билда с Firebase: GA4 total revenue / first_open + проверка retention cohorts. CAS не используем в числителе LTV, потому что туда попадают деньги с другого билда без Firebase и игроков там больше.",
+        "scenarios": {
+          "conservative": {
+            "d7RetentionAssumption": 10.0,
+            "d30RetentionAssumption": 2.0,
+            "retainedUserDays30": 4.069,
+            "ltv30Usd": 0.0244,
+            "breakEvenCpiUsd": 0.0244,
+            "targetCpi70Usd": 0.0171,
+            "testCpi50Usd": 0.0122
+          },
+          "base": {
+            "d7RetentionAssumption": 12.0,
+            "d30RetentionAssumption": 3.0,
+            "retainedUserDays30": 4.479,
+            "ltv30Usd": 0.0268,
+            "breakEvenCpiUsd": 0.0268,
+            "targetCpi70Usd": 0.0188,
+            "testCpi50Usd": 0.0134
+          },
+          "optimistic": {
+            "d7RetentionAssumption": 16.0,
+            "d30RetentionAssumption": 5.0,
+            "retainedUserDays30": 5.299,
+            "ltv30Usd": 0.0318,
+            "breakEvenCpiUsd": 0.0318,
+            "targetCpi70Usd": 0.0222,
+            "testCpi50Usd": 0.0159
+          }
+        },
+        "recommendation": {
+          "safeTestCpiUsd": "$0.014–$0.016",
+          "workingTargetCpiUsd": "$0.018–$0.022",
+          "breakEvenCpiUsd": "≈ $0.0315",
+          "hardStopCpiUsd": "выше $0.024–$0.032 без ROAS D3/D7 по Firebase",
+          "notes": [
+            "CAS не брать в LTV: там смешан другой билд без Firebase.",
+            "GA4 first_open ≈ 825K, total revenue ≈ $26K → historic LTV ≈ $0.0315.",
+            "Первые тесты держать в $0.014–$0.016 CPI; масштабировать $0.018–$0.022 только если Firebase ROAS D3/D7 подтверждает."
+          ]
+        },
+        "ga4FirstOpenApprox": 825000,
+        "ga4TotalRevenueUsdApprox": 26000,
+        "ga4HistoricLtvUsdApprox": 0.0315,
+        "revenueSourceComparison": {
+          "recommendedRevenueSource": "Firebase/GA4 total revenue for this Firebase-connected build",
+          "recommendedUserSource": "Firebase/GA4 first_open + cohorts",
+          "casUsage": "reference_only_not_for_ltv",
+          "firebaseGa4TotalRevenueUsdApprox": 26000,
+          "firebaseGa4FirstOpenApprox": 825000,
+          "firebaseGa4LtvUsdApprox": 0.0315,
+          "firebaseOverviewCardUsd": 25.2,
+          "casRevenueUsd7Live": 5301.59,
+          "casRevenueUsd30History": 33188.6036,
+          "note": "CAS.ai содержит revenue от другого билда/источника без Firebase, поэтому завышает деньги относительно Firebase cohorts. Для закупки считать LTV по Firebase/GA4; CAS держать только как справочную сверку монетизации."
+        },
+        "firebaseRevenueForLtvUsdApprox": 26000
+      },
+      "ga4Snapshot": {
+        "source": "Google Analytics Firebase overview",
+        "dateRange": "Last 28 days: 2026-05-13—2026-06-09; cohorts: 6 weeks ending 2026-06-06",
+        "activeUsers": {
+          "30d": 1600000,
+          "7d": 496000,
+          "1d": 113000
+        },
+        "events": {
+          "first_open": 825000,
+          "app_remove": 823000,
+          "screen_view": 33000000,
+          "user_engagement": 24000000,
+          "ad_impression": 13000000,
+          "session_start": 8200000,
+          "ad_reward": 324000
+        },
+        "revenue": {
+          "totalUsdApprox": 26000,
+          "adRevenueUsdApprox": 26000,
+          "purchaseRevenueUsd": 185.74
+        },
+        "engagement": {
+          "avgEngagementTimePerActiveUser": "1h 00m",
+          "engagedSessionsPerActiveUser": 5.1,
+          "avgEngagementTimePerSession": "10m 22s"
+        },
+        "cohortRetention": {
+          "week0": 100.0,
+          "week1": 35.9,
+          "week2": 21.5,
+          "week3": 16.2,
+          "week4": 13.1,
+          "week5": 10.3
+        },
+        "topCountries30d": [
+          {
+            "country": "Russia",
+            "activeUsers": 979000
+          },
+          {
+            "country": "Ukraine",
+            "activeUsers": 152000
+          },
+          {
+            "country": "Kazakhstan",
+            "activeUsers": 116000
+          },
+          {
+            "country": "Belarus",
+            "activeUsers": 57000
+          },
+          {
+            "country": "Kyrgyzstan",
+            "activeUsers": 48000
+          }
+        ]
+      },
+      "ga4Explanation": {
+        "short": "GA4 = Google Analytics 4. Это аналитика, которая стоит за Firebase Analytics: события, first_open, revenue, retention/cohorts, ROAS.",
+        "forThisProject": "Для расчёта LTV/CPI берём Firebase/GA4, потому что он относится именно к билду с Firebase. CAS по Blogger смешан с другим билдом и в LTV не входит."
+      },
+      "roasPlan": {
+        "canCalculate": true,
+        "formula": "ROAS Dn = cumulative revenue from cohort by day N / ad spend for the same cohort",
+        "sourceOfTruth": {
+          "spend": "из рекламных кабинетов: campaign/adset/ad, date, country, cost, installs если есть",
+          "revenue": "Firebase/GA4 revenue по тем же campaign/date/country cohorts",
+          "users": "Firebase/GA4 first_open/new users/cohorts",
+          "attribution": "UTM / campaign params / ad network attribution links; желательно AppsFlyer/Adjust или Firebase campaign attribution"
+        },
+        "minimumInputs": [
+          "date",
+          "campaign/source/medium",
+          "country желательно",
+          "spend",
+          "first_open/new users",
+          "revenue by cohort day D0/D1/D3/D7/D14/D30"
+        ],
+        "dashboardMetrics": [
+          "CPI = spend / first_open",
+          "ROAS D1/D3/D7/D30",
+          "payback day",
+          "profit = revenue - spend",
+          "margin = profit / spend",
+          "decision: scale/hold/stop"
+        ],
+        "currentStatus": "Можем считать вручную/полуавтоматом, если загрузить spend CSV из рекламных кабинетов и связать campaign names с Firebase. Для автообновления нужен API рекламных кабинетов + GA4 Data API/service account."
+      }
     }
   ],
   "totals": {
     "projects": 1,
-    "usersLast30Minutes": 7232,
-    "dailyActiveUsers": 142000,
-    "revenue7CardUsd": 19.26
+    "usersLast30Minutes": 5953,
+    "dailyActiveUsers": 113000,
+    "revenue7CardUsd": 25.2
   }
 }
