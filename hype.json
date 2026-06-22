@@ -143,9 +143,9 @@
     {
       "id": "Sge-51UBCGU",
       "title": "We're Quitting Brawl Stars... But Where To? 🙄",
-      "views": 413000,
-      "views_str": "413K",
-      "vpd": 31769,
+      "views": 414000,
+      "views_str": "414K",
+      "vpd": 31846,
       "vpd_str": "32K",
       "age_days": 13,
       "upload_date": "20260609",
@@ -158,7 +158,79 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=32K",
-      "channel_avg_vpd": 31769
+      "channel_avg_vpd": 31846
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "Совместная песня с Квинкой?!🤔",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/uT9RaShYvqk",
+      "thumb": "https://img.youtube.com/vi/uT9RaShYvqk/mqdefault.jpg",
+      "published": "2026-06-22T14:00:36+00:00",
+      "hype_score": 5,
+      "related_videos": 93,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "ПОЙМАЛ КВИНКУ В ШКОЛЕ😱",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/KZc2brIyUqw",
+      "thumb": "https://img.youtube.com/vi/KZc2brIyUqw/mqdefault.jpg",
+      "published": "2026-06-22T12:00:08+00:00",
+      "hype_score": 5,
+      "related_videos": 93,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "ХОЛИБАМ ВЛЮБИЛСЯ В КВИНКУ В ШКОЛЕ😱",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/xe1pDSz0UII",
+      "thumb": "https://img.youtube.com/vi/xe1pDSz0UII/mqdefault.jpg",
+      "published": "2026-06-22T11:00:16+00:00",
+      "hype_score": 5,
+      "related_videos": 93,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -201,78 +273,6 @@
       "url": "https://youtu.be/oUr4ECQS6zM",
       "thumb": "https://img.youtube.com/vi/oUr4ECQS6zM/mqdefault.jpg",
       "published": "2026-06-21T12:00:33+00:00",
-      "hype_score": 5,
-      "related_videos": 93,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "ПРОВЕРЯЮ САМЫЕ ПОПУЛЯРНЫЕ АНТИСТРЕССЫ 😳",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 1,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/6WiVQAFu6Ak",
-      "thumb": "https://img.youtube.com/vi/6WiVQAFu6Ak/mqdefault.jpg",
-      "published": "2026-06-20T10:00:11+00:00",
-      "hype_score": 5,
-      "related_videos": 93,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "МОЯ СЕСТРИЧКА ХОЧЕТ МЕНЯ УБИТЬ😱",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 2,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/897E1VmXtdQ",
-      "thumb": "https://img.youtube.com/vi/897E1VmXtdQ/mqdefault.jpg",
-      "published": "2026-06-20T08:00:37+00:00",
-      "hype_score": 5,
-      "related_videos": 93,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "НИКОГДА НЕ ПОДГЛЯДЫВАЙ ЗА СОСЕДОМ В 03:00 НОЧИ в HELLO NEIGHBOR",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 2,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/TWcK_64rBzw",
-      "thumb": "https://img.youtube.com/vi/TWcK_64rBzw/mqdefault.jpg",
-      "published": "2026-06-19T12:00:13+00:00",
       "hype_score": 5,
       "related_videos": 93,
       "channel_count": 11,
@@ -576,29 +576,11 @@
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1259",
-      "tg_text": "🦠В ТикТок снов вирусятся мемы с участием Глента:«Запустил админ абьюз»❓Вам нравится данный мем?👍-Нравится👎-Неоч 👎46👍30❤1🍌1 735 views05:14",
-      "topic": "Запустил админ абьюз",
-      "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1260",
-      "tg_text": "#западныемемы« I am a fucking architect »«Я, блять, архитектор»И так мы имеем второй мем с фильма &quot;Backrooms &quot; « I am a fucking architect » становится безумно вирусным. Люди используют клип из Backrooms, где Кларк&nbsp; говорит «Я, блять, архитектор», а потом показывают что-то смешное, что",
-      "topic": "I am a fucking architect",
-      "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1261",
-      "tg_text": "#️⃣Диану Шурыгину задержали правоохранительные органы.🍷Героине мема: «На донышке» вменяют распространение материалов интимного характера и оказание платных 🔞услуг ❓Вы помните ее?👍-Доо 20к17 👎-Кто это? 👍68👎22🤮1 779 viewsedited &nbsp;10:37",
+      "tg_text": "#️⃣Диану Шурыгину задержали правоохранительные органы.🍷Героине мема: «На донышке» вменяют распространение материалов интимного характера и оказание платных 🔞услуг ❓Вы помните ее?👍-Доо 20к17 👎-Кто это? 👍68👎22🤮1 788 viewsedited &nbsp;10:37",
       "topic": "На донышке",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
@@ -607,88 +589,88 @@
       "tg_text": "❓Помните парня из мема:«Чоко и пай»🔥После внезапной славы, парень стал ухаживать за собой, а так же вести блог в ТикТок, писать музыку, и делать каверы.💁‍♂️В ТикТок у него уже свыше 300к сабов, в общем наглядный пример, как нужно правильно использовать свою «Мемную» славу. Респект? 👍-Респект♥️-Краса",
       "topic": "Чоко и пай",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1267",
-      "tg_text": "🆕 «Моё ж плечо» Откуда мем? ♥️Приятного просмотра🙏Поддержите пожалуйста любой реакцией ❤24 683 viewsedited &nbsp;17:54",
+      "tg_text": "🆕 «Моё ж плечо» Откуда мем? ♥️Приятного просмотра🙏Поддержите пожалуйста любой реакцией ❤24 733 viewsedited &nbsp;17:54",
       "topic": "Моё ж плечо",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1269",
-      "tg_text": "🦠В ТикТок сново вирусится мем с синим Гринчем🔹🇺🇸В 2024 году этот мем завирусился на Западе, и в тот же момент дошел до нас❓Вам попадались подобные мемы?👍-Да👎-Нет 👎49👍10❤1 638 views14:14",
+      "tg_text": "🦠В ТикТок сново вирусится мем с синим Гринчем🔹🇺🇸В 2024 году этот мем завирусился на Западе, и в тот же момент дошел до нас❓Вам попадались подобные мемы?👍-Да👎-Нет 👎49👍10❤1 662 views14:14",
       "topic": "мем с синим Гринчем",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1270",
-      "tg_text": "🆕Новое видео на Ютуб: «Капитан Кларк откуда мем?»♥️Приятного просмотра 👇Смотреть тут👇https://youtu.be/eNSIHnp_7Oc?si=6XggYVE-eEnKNDVb ❤12 633 views16:56",
+      "tg_text": "🆕Новое видео на Ютуб: «Капитан Кларк откуда мем?»♥️Приятного просмотра 👇Смотреть тут👇https://youtu.be/eNSIHnp_7Oc?si=6XggYVE-eEnKNDVb ❤12 651 views16:56",
       "topic": "Капитан Кларк откуда мем?",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1271",
-      "tg_text": "💁‍♂️Для тех у кого Ютуб не работает, специально для Вас Новое видео про:«Капитан Кларк откуда мем?»♥️Приятного просмотра🙏Поддержите пожалуйста любой реакцией(💵По желанию, можно платной, буду искренне благодарен ❤️) 1❤‍🔥16 572 viewsedited &nbsp;08:48",
+      "tg_text": "💁‍♂️Для тех у кого Ютуб не работает, специально для Вас Новое видео про:«Капитан Кларк откуда мем?»♥️Приятного просмотра🙏Поддержите пожалуйста любой реакцией(💵По желанию, можно платной, буду искренне благодарен ❤️) 1❤‍🔥16❤1 588 viewsedited &nbsp;08:48",
       "topic": "Капитан Кларк откуда мем?",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1272",
-      "tg_text": "🦠В ТикТок набирает популярность мем с серым котом и фразой:«Иди на…»❓Вам попадались подобные мемы? 👍-Да👎-No name meme 👍78👎26💘3 571 views13:10",
+      "tg_text": "🦠В ТикТок набирает популярность мем с серым котом и фразой:«Иди на…»❓Вам попадались подобные мемы? 👍-Да👎-No name meme 👍78👎26💘3 591 views13:10",
       "topic": "Иди на…",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1273",
-      "tg_text": "🐈В ТикТок сново вирусится мем с рыжим котом и фразой:«Эх б**»🌊Первая волна мемов была в 2024 году, если Вам интересно откуда взялся мем, Вы можете глянуть обзор от моего друга👇🔗https://youtu.be/QqbHKpGlJe0?si=XM4G6VCPw4dH7xlz❓Вам попадались подобные мемы?👍-Да👎-Нет 👍46👎4❤1 508 viewsedited &nbsp;08:19",
+      "tg_text": "🐈В ТикТок сново вирусится мем с рыжим котом и фразой:«Эх б**»🌊Первая волна мемов была в 2024 году, если Вам интересно откуда взялся мем, Вы можете глянуть обзор от моего друга👇🔗https://youtu.be/QqbHKpGlJe0?si=XM4G6VCPw4dH7xlz❓Вам попадались подобные мемы?👍-Да👎-Нет 👍46👎4❤1 525 viewsedited &nbsp;08:19",
       "topic": "Эх б**",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1274",
-      "tg_text": "🦠В ТикТок набирает популярность мем:«Ты чего пупс расплакался»❓Вам уже попадались подобные мемы? 👍-Видел(-а)👎-Нет 👎51👍29❤1🤮1 503 views09:27",
+      "tg_text": "🦠В ТикТок набирает популярность мем:«Ты чего пупс расплакался»❓Вам уже попадались подобные мемы? 👍-Видел(-а)👎-Нет 👎52👍30❤1🤮1 520 views09:27",
       "topic": "Ты чего пупс расплакался",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1275",
-      "tg_text": "🍽️Стол заказов мемов❓Про какой АКТУАЛЬНЫЙ мем рассказать? ✍️Пишите в комментариях 🔥13👍3🤮1 452 views17:28",
+      "tg_text": "🍽️Стол заказов мемов❓Про какой АКТУАЛЬНЫЙ мем рассказать? ✍️Пишите в комментариях 🔥13👍3🤮1 482 views17:28",
       "topic": "рассказать",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1276",
-      "tg_text": "📋Планирую снять обзор на мем «Меллстройность: пословицы»🔎Нужна Ваша помощь с поиском мема, кто что знает, дайте пожалуйста знать в комментариях❤️Спасибо заранее ❤17👍2💘1 397 views07:08",
+      "tg_text": "📋Планирую снять обзор на мем «Меллстройность: пословицы»🔎Нужна Ваша помощь с поиском мема, кто что знает, дайте пожалуйста знать в комментариях❤️Спасибо заранее ❤17👍2💘1 442 views07:08",
       "topic": "Меллстройность: пословицы",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
@@ -697,7 +679,16 @@
       "tg_text": "🦠В ТикТок набирает популярность мем с участием Асхаба Тамаева:😷 «Тут запах Криштиану Роналду»❓Вам нравится данный мем? 👍-Дооо👎-Неоч",
       "topic": "Тут запах Криштиану Роналду",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1279",
+      "tg_text": "«Mаленький бро». На видео изобрёжен седьмой шейный позвонок (C7), также известный в анатомии как выступающий позвонок (vertebra prominens).​Если вы проведёте рукой по задней стороне шеи и наклоните голову вперёд, тот самый самый чёткий, выступающий бугорок у основания — это как раз длинный остистый ",
+      "topic": "Mаленький бро",
+      "youtube_videos": [],
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
@@ -706,7 +697,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁49👎11❤3👍3 8.27K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
@@ -715,7 +706,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:27"
     },
     {
       "source": "tg_signal",
@@ -724,7 +715,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:28"
     },
     {
       "source": "tg_signal",
@@ -733,7 +724,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:28"
     },
     {
       "source": "tg_signal",
@@ -742,7 +733,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-06-22 02:25"
+      "detected_at": "2026-06-22 07:28"
     }
   ]
 }
