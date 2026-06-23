@@ -1,9 +1,9 @@
 {
   "source": "firebase-console-browser",
-  "generatedAt": "2026-06-10T17:10:49+03:00",
+  "generatedAt": "2026-06-23T16:15:53+03:00",
   "dateRange": {
-    "from": "2026-06-03",
-    "to": "2026-06-09",
+    "from": "2026-06-16",
+    "to": "2026-06-22",
     "days": 7,
     "timezone": "Firebase console shows UTC-7"
   },
@@ -19,17 +19,17 @@
       ],
       "metrics": {
         "usersLast30Minutes": {
-          "value": 5953,
+          "value": 3876,
           "label": "Users in last 30 minutes"
         },
         "dailyActiveUsers": {
-          "value": 113000,
-          "display": "113K",
-          "change": -25.6,
+          "value": 79000,
+          "display": "79K",
+          "change": -14.4,
           "period": "current week latest point",
           "range": {
-            "min": 113000,
-            "max": 192000
+            "min": 78700,
+            "max": 117000
           },
           "lastWeekEndpoints": [
             192000,
@@ -41,13 +41,13 @@
           ]
         },
         "day1Retention": {
-          "value": 39.4,
-          "display": "39.4%",
-          "change": 0.2,
+          "value": 35.9,
+          "display": "35.9%",
+          "change": -2.3,
           "period": "current week latest point",
           "range": {
-            "min": 36.5,
-            "max": 40.5
+            "min": 35.9,
+            "max": 0.0
           },
           "lastWeekEndpoints": [
             39.8,
@@ -59,14 +59,14 @@
           ]
         },
         "revenue": {
-          "value": 25.2,
+          "value": 30.01,
           "currency": "USD",
-          "display": "$25.20",
-          "change": -39.1,
+          "display": "$30.01",
+          "change": 113.3,
           "period": "current week total/selected Firebase card",
           "range": {
-            "min": 0,
-            "max": 15.794
+            "min": 0.0,
+            "max": 8.0
           },
           "lastWeekEndpoints": [
             6.924,
@@ -80,17 +80,19 @@
       },
       "warnings": [
         "LTV/CPI считается по Firebase/GA4, не по CAS: CAS содержит revenue другого билда без Firebase и может завышать показатель.",
-        "Firebase/GA4 данные сняты из Console через залогиненный браузерный профиль; для стабильного автообновления нужен GA4 Data API/service account."
+        "Firebase/GA4 данные сняты из Console через залогиненный браузерный профиль; для стабильного автообновления нужен GA4 Data API/service account.",
+        "Актуальные Firebase overview данные сняты 2026-06-23 через залогиненный real Chrome, аккаунт u/1; это read-only browser snapshot, не GA4 Data API.",
+        "Firebase revenue card используем как текущий сигнал, но LTV для закупки опирается на GA4 first_open/revenue/cohorts; CAS не смешиваем."
       ],
       "acquisition": {
         "label": "Побег от Блогера — ориентиры для закупки",
         "dataQuality": "firebase_ga4_only_for_ltv",
         "revenue7Usd": null,
         "casLive7Usd": null,
-        "firebaseRevenue7Usd": 25.2,
-        "avgDauAssumption": 127000.0,
+        "firebaseRevenue7Usd": 30.01,
+        "avgDauAssumption": 79000,
         "arpdauUsd": 0.005992,
-        "day1RetentionPct": 39.4,
+        "day1RetentionPct": 35.9,
         "ltvDefinition": "LTV для закупки считается по Firebase/GA4 в рамках билда с Firebase: GA4 total revenue / first_open + проверка retention cohorts. CAS не используем в числителе LTV, потому что туда попадают деньги с другого билда без Firebase и игроков там больше.",
         "scenarios": {
           "conservative": {
@@ -147,7 +149,14 @@
           "casRevenueUsd30History": 33188.6036,
           "note": "CAS.ai содержит revenue от другого билда/источника без Firebase, поэтому завышает деньги относительно Firebase cohorts. Для закупки считать LTV по Firebase/GA4; CAS держать только как справочную сверку монетизации."
         },
-        "firebaseRevenueForLtvUsdApprox": 26000
+        "firebaseRevenueForLtvUsdApprox": 26000,
+        "latestFirebaseOverview": {
+          "generatedAt": "2026-06-23T16:15:53+03:00",
+          "usersLast30Minutes": 3876,
+          "dailyActiveUsers": 79000,
+          "day1RetentionPct": 35.9,
+          "revenueCardUsd": 30.01
+        }
       },
       "ga4Snapshot": {
         "source": "Google Analytics Firebase overview",
@@ -242,8 +251,8 @@
   ],
   "totals": {
     "projects": 1,
-    "usersLast30Minutes": 5953,
-    "dailyActiveUsers": 113000,
-    "revenue7CardUsd": 25.2
+    "usersLast30Minutes": 3876,
+    "dailyActiveUsers": 79000,
+    "revenue7CardUsd": 30.01
   }
 }
