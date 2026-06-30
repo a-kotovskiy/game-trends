@@ -23,6 +23,30 @@
     {
       "source": "rss",
       "kind": "Video",
+      "title": "ОН СОЖРАЛ МОЮ ЖЕНУ😭 ДЕЛАЕМ ШАУРМУ, ДЛЯ АНОМАЛИЙ😱",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/Y4pdyX55Zhk",
+      "thumb": "https://img.youtube.com/vi/Y4pdyX55Zhk/mqdefault.jpg",
+      "published": "2026-06-30T14:00:18+00:00",
+      "hype_score": 5,
+      "related_videos": 88,
+      "channel_count": 10,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
       "title": "ПРИШЕЛЬЦЫ ПОХИТИЛИ ОЛЕНЯ!😱 ОБНОВА В 99 Nights in the Forest + НОВЫЙ КЛАСС👽",
       "topic": "roblox",
       "channel": "Holy Baam",
@@ -103,36 +127,12 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 3,
+      "age_days": 4,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/BLgfRJofkU0",
       "thumb": "https://img.youtube.com/vi/BLgfRJofkU0/mqdefault.jpg",
       "published": "2026-06-26T11:00:39+00:00",
-      "hype_score": 5,
-      "related_videos": 88,
-      "channel_count": 10,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "ДО-БА-ВЛЯЙ➕➕➕",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 4,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/fihPKbgIDCc",
-      "thumb": "https://img.youtube.com/vi/fihPKbgIDCc/mqdefault.jpg",
-      "published": "2026-06-25T14:00:11+00:00",
       "hype_score": 5,
       "related_videos": 88,
       "channel_count": 10,
@@ -477,7 +477,33 @@
       "niche_free": false
     }
   ],
-  "google_trends": [],
+  "google_trends": [
+    {
+      "source": "google_trends",
+      "kind": "Trend",
+      "title": "sony playstation",
+      "topic": "sony playstation",
+      "channel": "Google Trends US",
+      "author": "Google Trends",
+      "views": 500,
+      "views_str": "500+",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 500,
+      "grade": "🔥",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "thumb": "",
+      "published": "сейчас",
+      "hype_score": 7,
+      "related_videos": 0,
+      "channel_count": 0,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false,
+      "is_gaming": true
+    }
+  ],
   "hype_validated": [],
   "tiktok": [],
   "tg_signals": [
@@ -485,19 +511,19 @@
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1297",
-      "tg_text": "🦠В ТикТок вирусится Новый трек:❤️«Если ты хочешь со мной встречаться»💁‍♂️Всего за неделю люди наснимали уже 8К клипов❓Вам нравится данный тренд?👍-Да👎-Неоч🎤Автор трека: https://www.tiktok.com/@bibelmehca0?_r=1&amp;_t=ZN-97WzvjQKShS 👎32👍2😢1 597 views11:07",
+      "tg_text": "🦠В ТикТок вирусится Новый трек:❤️«Если ты хочешь со мной встречаться»💁‍♂️Всего за неделю люди наснимали уже 8К клипов❓Вам нравится данный тренд?👍-Да👎-Неоч🎤Автор трека: https://www.tiktok.com/@bibelmehca0?_r=1&amp;_t=ZN-97WzvjQKShS 👎32👍2😢1 607 views11:07",
       "topic": "Если ты хочешь со мной встречаться",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:38"
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1299",
-      "tg_text": "🆕Друзья, с моим другом https://t.me/meme_expert17 выпустили Новое видео на Ютуб про:🏆 «Лучшие мемы Июня»❤️Приятного просмотра👇Смотреть тут👇🔗 https://youtu.be/zpVsxljyOb8?si=kT1Nf24cd0iZ1tiE ❤3😢3👍1🔥1🤮1 610 viewsedited &nbsp;13:11",
+      "tg_text": "🆕Друзья, с моим другом https://t.me/meme_expert17 выпустили Новое видео на Ютуб про:🏆 «Лучшие мемы Июня»❤️Приятного просмотра👇Смотреть тут👇🔗 https://youtu.be/zpVsxljyOb8?si=kT1Nf24cd0iZ1tiE ❤3😢3👍1🔥1🤮1 624 viewsedited &nbsp;13:11",
       "topic": "Лучшие мемы Июня",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:38"
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
@@ -506,7 +532,7 @@
       "tg_text": "#западныемемыFolk Valley -«Фолк Вэлли» сейчас очень популярен на западе . В видеороликах происходит куча всякой случайной х**ни и люди говорят что это происходит в «Фолк Вэлли» -Мем используется по-разному, например, если в парке происходит что-то странное, его называют «Фолк Парк» или если это прои",
       "topic": "Фолк Вэлли",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:38"
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
@@ -515,7 +541,7 @@
       "tg_text": "🦠В ТикТок зарождается Новый сезон Меллстройности про:«Верхний Новгород» ❓Вам уже попадались подобные видео? 👍-Да👎-Нет",
       "topic": "Верхний Новгород",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
@@ -524,7 +550,7 @@
       "tg_text": "🌊В ТикТок и на Ютуб Шортс пришла вторая волна мемов:💨“the fog is coming”💁‍♂️Это Криповый мем, который ранее дал хороший буст сезону: «Мурино» с участием Меллстроя❓Учитывая, что пришла вторая волна, хотели бы длинное видео на эту тему в ТГК и на Ютуб? 👍-Давай ролик👎-Не надо дядя",
       "topic": "Мурино",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
@@ -533,7 +559,7 @@
       "tg_text": "🙏БРАТВА, ПОМОГИ ПОЖАЛУЙСТА БУСТАНУТЬ МОЙ РОЛИК ПРО: «ВСЕ МЕМЫ ИЮНЯ»💁‍♂️Для тех, кто еще не видел, по возможности: Лайк и коммент ❤️Спасибо заранее 👇Ссылка вот👇https://youtu.be/zpVsxljyOb8?si=JPKdfBabbQQerdwV YouTube ВСЕ МЕМЫ ИЮНЯ Мой ТГК: https://t.me/memolodjiyaМой коллега по мемам: https://youtube",
       "topic": "ВСЕ МЕМЫ ИЮНЯ",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
@@ -542,16 +568,25 @@
       "tg_text": "🇺🇸В Англоязычный ТикТок вернулся мем: «Скибиди Туалет» 🚽 Только сейчас пользователи сами делают пародии на этот мем🤷‍♂️❓Вам нравится такое? 👍-Имба 👎-Остановите планету, я сойду)",
       "topic": "Скибиди Туалет",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1314",
-      "tg_text": "❓Угадали про какой мем он говорит?👍-Изи👎-Не понятно 👎18👍12🤮1🤡1 288 views15:10",
+      "tg_text": "❓Угадали про какой мем он говорит?👍-Изи👎-Не понятно 👎21👍11🤮1🤡1 370 views15:10",
       "topic": "он говорит",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:27"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1315",
+      "tg_text": "🦠В ТикТок достиг пика популярности мем с участием мальчика и его фразой:«Твоё мнение мне не интересно»❓Вам попадались подобные мемы? 👍-Да👎-Нет 👍36👎7🤮1 211 views10:27",
+      "topic": "Твоё мнение мне не интересно",
+      "youtube_videos": [],
+      "detected_at": "2026-06-30 07:27"
     },
     {
       "source": "tg_signal",
@@ -560,7 +595,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁49👎11❤3👍3 8.28K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:28"
     },
     {
       "source": "tg_signal",
@@ -569,7 +604,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:28"
     },
     {
       "source": "tg_signal",
@@ -578,7 +613,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:28"
     },
     {
       "source": "tg_signal",
@@ -587,7 +622,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:28"
     },
     {
       "source": "tg_signal",
@@ -596,7 +631,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-06-30 02:39"
+      "detected_at": "2026-06-30 07:28"
     }
   ]
 }
