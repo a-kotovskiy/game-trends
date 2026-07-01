@@ -1,6 +1,26 @@
 {
   "viral_trends": [
     {
+      "id": "oeskhi0Mlts",
+      "title": "НЕ СМОГЛА ПРОЙТИ МАСКУ😭КВИНКА ПОЁТ ПЕСНЮ ПРО ПЕЛЬМЕНИ😱(до конца) #роблокс #игры #смешное #квинка",
+      "views": 1100000,
+      "views_str": "1.1M",
+      "vpd": 550000,
+      "vpd_str": "550K",
+      "age_days": 2,
+      "upload_date": "20260629",
+      "duration": 18,
+      "kind": "Short",
+      "channel": "i_roblox_queen (Квинка)",
+      "channel_id": "UC6HKWohA11bBbyob7ieP-0g",
+      "url": "https://youtu.be/oeskhi0Mlts",
+      "thumb": "https://img.youtube.com/vi/oeskhi0Mlts/mqdefault.jpg",
+      "grade": "🔥🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=550K",
+      "channel_avg_vpd": 550000
+    },
+    {
       "id": "NOj4EIG7-NM",
       "title": "Hiding as TOILET PAPER..🤣",
       "views": 4500000,
@@ -38,7 +58,7 @@
       "thumb": "https://img.youtube.com/vi/0pwAO5b5Zpw/mqdefault.jpg",
       "published": "2026-06-30T15:30:33+00:00",
       "hype_score": 5,
-      "related_videos": 90,
+      "related_videos": 89,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -62,7 +82,7 @@
       "thumb": "https://img.youtube.com/vi/rV2guxl1F84/mqdefault.jpg",
       "published": "2026-06-30T15:00:01+00:00",
       "hype_score": 5,
-      "related_videos": 90,
+      "related_videos": 89,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -86,7 +106,7 @@
       "thumb": "https://img.youtube.com/vi/Y4pdyX55Zhk/mqdefault.jpg",
       "published": "2026-06-30T14:00:18+00:00",
       "hype_score": 5,
-      "related_videos": 90,
+      "related_videos": 89,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -110,7 +130,7 @@
       "thumb": "https://img.youtube.com/vi/D2g8eixaDRM/mqdefault.jpg",
       "published": "2026-06-29T15:30:14+00:00",
       "hype_score": 5,
-      "related_videos": 90,
+      "related_videos": 89,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -134,7 +154,7 @@
       "thumb": "https://img.youtube.com/vi/WZrJ0uK3Ppg/mqdefault.jpg",
       "published": "2026-06-29T15:00:31+00:00",
       "hype_score": 5,
-      "related_videos": 90,
+      "related_videos": 89,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -457,16 +477,16 @@
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "emergency department",
-      "topic": "emergency department",
+      "title": "playstation store ps3 ps vita closure",
+      "topic": "playstation store ps3 ps vita closure",
       "channel": "Google Trends US",
       "author": "Google Trends",
-      "views": 1000,
-      "views_str": "1000+",
+      "views": 500,
+      "views_str": "500+",
       "subs": 0,
       "subs_str": "",
       "age_days": 1,
-      "vpd": 1000,
+      "vpd": 500,
       "grade": "🔥",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "thumb": "",
@@ -486,20 +506,11 @@
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1300",
-      "tg_text": "#западныемемыFolk Valley -«Фолк Вэлли» сейчас очень популярен на западе . В видеороликах происходит куча всякой случайной х**ни и люди говорят что это происходит в «Фолк Вэлли» -Мем используется по-разному, например, если в парке происходит что-то странное, его называют «Фолк Парк» или если это прои",
-      "topic": "Фолк Вэлли",
-      "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1303",
       "tg_text": "🦠В ТикТок зарождается Новый сезон Меллстройности про:«Верхний Новгород» ❓Вам уже попадались подобные видео? 👍-Да👎-Нет",
       "topic": "Верхний Новгород",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -508,7 +519,7 @@
       "tg_text": "🌊В ТикТок и на Ютуб Шортс пришла вторая волна мемов:💨“the fog is coming”💁‍♂️Это Криповый мем, который ранее дал хороший буст сезону: «Мурино» с участием Меллстроя❓Учитывая, что пришла вторая волна, хотели бы длинное видео на эту тему в ТГК и на Ютуб? 👍-Давай ролик👎-Не надо дядя",
       "topic": "Мурино",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -517,7 +528,7 @@
       "tg_text": "🙏БРАТВА, ПОМОГИ ПОЖАЛУЙСТА БУСТАНУТЬ МОЙ РОЛИК ПРО: «ВСЕ МЕМЫ ИЮНЯ»💁‍♂️Для тех, кто еще не видел, по возможности: Лайк и коммент ❤️Спасибо заранее 👇Ссылка вот👇https://youtu.be/zpVsxljyOb8?si=JPKdfBabbQQerdwV YouTube ВСЕ МЕМЫ ИЮНЯ Мой ТГК: https://t.me/memolodjiyaМой коллега по мемам: https://youtube",
       "topic": "ВСЕ МЕМЫ ИЮНЯ",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -526,34 +537,34 @@
       "tg_text": "🇺🇸В Англоязычный ТикТок вернулся мем: «Скибиди Туалет» 🚽 Только сейчас пользователи сами делают пародии на этот мем🤷‍♂️❓Вам нравится такое? 👍-Имба 👎-Остановите планету, я сойду)",
       "topic": "Скибиди Туалет",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1314",
-      "tg_text": "❓Угадали про какой мем он говорит?👍-Изи👎-Не понятно 👎25👍13🤮1🤡1 461 views15:10",
+      "tg_text": "❓Угадали про какой мем он говорит?👍-Изи👎-Не понятно 👎26👍13🤮1🤡1 495 views15:10",
       "topic": "он говорит",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1315",
-      "tg_text": "🦠В ТикТок достиг пика популярности мем с участием мальчика и его фразой:«Твоё мнение мне не интересно»❓Вам попадались подобные мемы? 👍-Да👎-Нет 👍52👎11🤮2❤1 411 views10:27",
+      "tg_text": "🦠В ТикТок достиг пика популярности мем с участием мальчика и его фразой:«Твоё мнение мне не интересно»❓Вам попадались подобные мемы? 👍-Да👎-Нет 👍58👎11🤮3❤1 456 views10:27",
       "topic": "Твоё мнение мне не интересно",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1316",
-      "tg_text": "📹 «Туман приближается» Откуда мем?❤️Приятного просмотра🙏Поддержите пожалуйста любой реакцией ❤8👍2🥰1 332 views16:16",
+      "tg_text": "📹 «Туман приближается» Откуда мем?❤️Приятного просмотра🙏Поддержите пожалуйста любой реакцией ❤12👍2🥰1 408 views16:16",
       "topic": "Туман приближается",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -562,7 +573,16 @@
       "tg_text": "😳Тем временем под звук: «За горами за лесами» наснимали в ТикТок:🍋 1 миллион клипов🤷‍♂️Мем вышел из под контроля❓Вы слушаете треки Анатолия?👍-Да👎-Нет",
       "topic": "За горами за лесами",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1322",
+      "tg_text": "🆕Новое длинное видео на Ютуб:🌃«Верхний Новгород: история мема»❤️Приятного просмотра👇смотреть тут👇🔗 https://youtu.be/1r19sjEZ7-k?si=aDbEnU7uXd_0pPj9 28 views14:27",
+      "topic": "Верхний Новгород: история мема",
+      "youtube_videos": [],
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -571,7 +591,7 @@
       "tg_text": "Блогерша Дарья Зарыковская стала мемным воплощением типичного начальника. Редкий случай, когда человек сам запускает мем - и он реально заходитhttps://memepedia.ru/tvitterskaya-zarykovskaya-zapustila-mem-i-stala-licom-toksichnogo-nachalstva/ 😁49👎11❤3👍3 8.28K views17:15",
       "topic": "- и он реально заходитhttps",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -580,7 +600,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -589,7 +609,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -598,7 +618,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     },
     {
       "source": "tg_signal",
@@ -607,7 +627,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-07-01 02:08"
+      "detected_at": "2026-07-01 07:28"
     }
   ]
 }
