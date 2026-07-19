@@ -38,7 +38,7 @@
       "thumb": "https://img.youtube.com/vi/r_-NCKk415U/mqdefault.jpg",
       "published": "2026-07-19T08:00:35+00:00",
       "hype_score": 5,
-      "related_videos": 106,
+      "related_videos": 104,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -62,7 +62,7 @@
       "thumb": "https://img.youtube.com/vi/UTxz8LehJ8A/mqdefault.jpg",
       "published": "2026-07-18T14:00:14+00:00",
       "hype_score": 5,
-      "related_videos": 106,
+      "related_videos": 104,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -86,7 +86,7 @@
       "thumb": "https://img.youtube.com/vi/rZJ1ySz-cpE/mqdefault.jpg",
       "published": "2026-07-18T11:00:00+00:00",
       "hype_score": 5,
-      "related_videos": 106,
+      "related_videos": 104,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -110,7 +110,7 @@
       "thumb": "https://img.youtube.com/vi/qCDcO-0nhGo/mqdefault.jpg",
       "published": "2026-07-18T08:00:35+00:00",
       "hype_score": 5,
-      "related_videos": 106,
+      "related_videos": 104,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -127,14 +127,14 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/PXIjO5TcyVo",
       "thumb": "https://img.youtube.com/vi/PXIjO5TcyVo/mqdefault.jpg",
       "published": "2026-07-17T10:00:31+00:00",
       "hype_score": 5,
-      "related_videos": 106,
+      "related_videos": 104,
       "channel_count": 10,
       "has_games": true,
       "game_count": 5,
@@ -302,7 +302,7 @@
       "thumb": "https://img.youtube.com/vi/1DS-cfkb9b0/mqdefault.jpg",
       "published": "2026-07-15T21:00:23+00:00",
       "hype_score": 2,
-      "related_videos": 7,
+      "related_videos": 6,
       "channel_count": 3,
       "has_games": true,
       "game_count": 5,
@@ -326,7 +326,7 @@
       "thumb": "https://img.youtube.com/vi/-qIa7N3BgaA/mqdefault.jpg",
       "published": "2026-07-12T17:30:38+00:00",
       "hype_score": 2,
-      "related_videos": 7,
+      "related_videos": 6,
       "channel_count": 3,
       "has_games": true,
       "game_count": 5,
@@ -350,7 +350,55 @@
       "thumb": "https://img.youtube.com/vi/Iu0Z2M_XzY4/mqdefault.jpg",
       "published": "2026-07-18T19:15:21+00:00",
       "hype_score": 2,
-      "related_videos": 7,
+      "related_videos": 6,
+      "channel_count": 3,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "EVERYONE HATES YOU!",
+      "topic": "everyone",
+      "channel": "Aphmau",
+      "author": "Aphmau",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 4,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/LrE3QrO58QE",
+      "thumb": "https://img.youtube.com/vi/LrE3QrO58QE/mqdefault.jpg",
+      "published": "2026-07-14T19:45:40+00:00",
+      "hype_score": 2,
+      "related_videos": 4,
+      "channel_count": 3,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "EVERYONE is OBSESSED with YOU!",
+      "topic": "everyone",
+      "channel": "Aphmau",
+      "author": "Aphmau",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 9,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/0tcGFfTKaAE",
+      "thumb": "https://img.youtube.com/vi/0tcGFfTKaAE/mqdefault.jpg",
+      "published": "2026-07-09T19:15:00+00:00",
+      "hype_score": 2,
+      "related_videos": 4,
       "channel_count": 3,
       "has_games": true,
       "game_count": 5,
@@ -431,30 +479,6 @@
     {
       "source": "rss",
       "kind": "Video",
-      "title": "EVERYONE HATES YOU!",
-      "topic": "gaming",
-      "channel": "Aphmau",
-      "author": "Aphmau",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 4,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/LrE3QrO58QE",
-      "thumb": "https://img.youtube.com/vi/LrE3QrO58QE/mqdefault.jpg",
-      "published": "2026-07-14T19:45:40+00:00",
-      "hype_score": 1,
-      "related_videos": 1,
-      "channel_count": 1,
-      "has_games": false,
-      "game_count": 0,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
       "title": "WAKE UP Aphmau!",
       "topic": "gaming",
       "channel": "Aphmau",
@@ -475,6 +499,30 @@
       "has_games": false,
       "game_count": 0,
       "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "Aphmau's SQUISHY TOUCH!",
+      "topic": "gaming",
+      "channel": "Aphmau",
+      "author": "Aphmau",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 6,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/ys1YtuJ9SyE",
+      "thumb": "https://img.youtube.com/vi/ys1YtuJ9SyE/mqdefault.jpg",
+      "published": "2026-07-12T19:32:43+00:00",
+      "hype_score": 1,
+      "related_videos": 1,
+      "channel_count": 1,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false
     }
   ],
   "google_trends": [],
@@ -485,10 +533,10 @@
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1395",
-      "tg_text": "🆕Новое видео на Ютуб: «Денис: Откуда мем?»❤️Приятного просмотра 👇смотреть тут👇🔗 ДЕНИС: ОТКУДА МЕМ?https://youtu.be/MTZZgFR2Qg4 ❤10😁3🤮2🤡1 598 viewsedited &nbsp;16:10",
+      "tg_text": "🆕Новое видео на Ютуб: «Денис: Откуда мем?»❤️Приятного просмотра 👇смотреть тут👇🔗 ДЕНИС: ОТКУДА МЕМ?https://youtu.be/MTZZgFR2Qg4 ❤10😁3🤮2🤡1 608 viewsedited &nbsp;16:10",
       "topic": "Денис: Откуда мем?",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
@@ -497,25 +545,25 @@
       "tg_text": "🇺🇸В англоязычном TikTok вирусится мем:⚽️ Lionel Messi FIFA Princess («Месси — принцесса FIFA»).👑 В этом меме Лионеля Месси в шутку изображают принцессой FIFA, намекая на то, что организация и судьи якобы постоянно помогают ему и сборной Аргентины. 🤖Пользователи создают ИИ-видео и картинки, где Месси",
       "topic": "Месси — принцесса FIFA",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1400",
-      "tg_text": "#западныемемыЭта кошка становится следующим большим шаблоном для мемов и она буквально выглядит как мем с вайбом))Как думаете есть ли шанс что она завирусится у нас ?👍 - Yes 👎 - No 👍28👎13🤡1 489 views06:13",
+      "tg_text": "#западныемемыЭта кошка становится следующим большим шаблоном для мемов и она буквально выглядит как мем с вайбом))Как думаете есть ли шанс что она завирусится у нас ?👍 - Yes 👎 - No 👍29👎13🤡1 501 views06:13",
       "topic": "с вайбом",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1401",
-      "tg_text": "💁‍♂️Для тех, у кого Ютуб не работает:«ДЕНИС ОТКУДА МЕМ?»❤️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией ❤13🤡2 472 views07:46",
+      "tg_text": "💁‍♂️Для тех, у кого Ютуб не работает:«ДЕНИС ОТКУДА МЕМ?»❤️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией ❤14🤡2 483 views07:46",
       "topic": "ДЕНИС ОТКУДА МЕМ?",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
@@ -524,43 +572,52 @@
       "tg_text": "#западныемемы 🇺🇸 В англоязычном TikTok вирусится мем Homer Let the Barts Out («Гомер выпустил Бартов»).💁‍♂️В этом меме Гомер Симпсон случайно выпускает сразу множество Бартов, которые начинают устраивать хаос по всему Спрингфилду. 🦠Мем основан на вирусной ИИ-песне и абсурдном юморе, поэтому пользова",
       "topic": "Гомер выпустил Бартов",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1406",
-      "tg_text": "❓У меня к Вам вопрос, какой сейчас сезон «Меллстройности» вирусится? 🤔Я вот не могу понять, каждый по разному его называет✍️Кто знает, напишите в комментариях, спасибо заранее❤️ ❤29🍓1👾1 506 views15:26",
+      "tg_text": "❓У меня к Вам вопрос, какой сейчас сезон «Меллстройности» вирусится? 🤔Я вот не могу понять, каждый по разному его называет✍️Кто знает, напишите в комментариях, спасибо заранее❤️ ❤29🍓1👾1 527 views15:26",
       "topic": "Меллстройности",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1407",
-      "tg_text": "🦠 На данный момент в Рунете набирает популярность очередной сезон «Меллстройности»:🏭 «Норильск»💁‍♂️ Мем строится вокруг шуток о суровом городе Норильске с большим количеством заводов.🤔Я вот думаю снять обзор на этот сезон? ❓Хотели бы историю сезона?👍-Срочно снимай 👎Неее 1👍55👎8 438 views07:51",
+      "tg_text": "🦠 На данный момент в Рунете набирает популярность очередной сезон «Меллстройности»:🏭 «Норильск»💁‍♂️ Мем строится вокруг шуток о суровом городе Норильске с большим количеством заводов.🤔Я вот думаю снять обзор на этот сезон? ❓Хотели бы историю сезона?👍-Срочно снимай 👎Неее 1👍56👎8❤1 469 views07:51",
       "topic": "Меллстройности",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1408",
-      "tg_text": "🙀В Рунете достиг пика популярности мем с тремя танцующими котятами❓Хотели бы обзор на этот мем?👍-Делай👎-Не надо дядя 👎60👍42🤮2❤1 423 views08:52",
+      "tg_text": "🙀В Рунете достиг пика популярности мем с тремя танцующими котятами❓Хотели бы обзор на этот мем?👍-Делай👎-Не надо дядя 👎60👍42🤮2❤1 457 views08:52",
       "topic": "с тремя танцующими котятами",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1409",
-      "tg_text": "#западныемемы🇺🇸В Англоязычном ТикТок сново набирает популярность мем с участием персонажа по имени:Джеймс Доакс💁‍♂️В 2025 с ним были мемы, в которых он подозрительно смотрит❓Вам попадались подобные мемы?👍-Да👎-Нет 👎24👍14❤1🤮1 168 viewsedited &nbsp;07:35",
+      "tg_text": "#западныемемы🇺🇸В Англоязычном ТикТок сново набирает популярность мем с участием персонажа по имени:Джеймс Доакс💁‍♂️В 2025 с ним были мемы, в которых он подозрительно смотрит❓Вам попадались подобные мемы?👍-Да👎-Нет 👎29👍17❤1🤮1 286 viewsedited &nbsp;07:35",
       "topic": "с участием персонажа по имени",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1412",
+      "tg_text": "🆕Новое видео на YouTube:«ФЕЙКОВЫЙ БЕНТО»ОТКУДА МПМ?❤️Приятного просмотра 👇Смотреть тут👇🔗https://youtu.be/picQbKd7HDg?si=AEHfUyN9SekEjh0D 16 views14:27",
+      "topic": "ФЕЙКОВЫЙ БЕНТО",
+      "youtube_videos": [],
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
@@ -569,7 +626,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
@@ -578,7 +635,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
@@ -587,7 +644,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     },
     {
       "source": "tg_signal",
@@ -596,7 +653,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-07-19 02:48"
+      "detected_at": "2026-07-19 07:27"
     }
   ]
 }
