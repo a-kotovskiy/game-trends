@@ -1,6 +1,47 @@
 {
   "rockets": [
     {
+      "id": "com.op.fps.commando.gun.shooting",
+      "emoji": "🚀🔥",
+      "tag": "1M+",
+      "name": "Gun Games FPS Shooting Offline",
+      "icon": "https://play-lh.googleusercontent.com/Z_qlfz3DS00w5RrgC4vkjjDa1-ocpSGDr4NH9JWxN8Ttn_Q23Tfy9-rNIHLHfclMm01o-ikdw8rUn2zNQW-X",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/bJq0TH7ccr9baTOom3EnOlBR_xkxGwJAKrEmtkyd9J52tlc_zKBcq_E1qqm-SNgbxlgsgaeAJwRrj_6Ptg91=w300",
+        "https://play-lh.googleusercontent.com/ow7TTal12QfNcpVCNBjZIP5BNUajnl18jXS2DXZrlEMjj1xdFQWUc--Yv7w2weEHbBPNxoiTWClh-YGjCE0-EA=w300",
+        "https://play-lh.googleusercontent.com/fx6HCGNfTK4cXUlewJB3kSMzazOxK5_H0-COGwvcW72VujN-GLkE0qbccx1umvzJh7glul0BWCJIuG-MDkFjJw=w300",
+        "https://play-lh.googleusercontent.com/lFTpUBm4L7QcLO_JMoI4AIw7o48YSyM7W9AICSvYr9NAxkY92IqtQfKl-yF0Tcyt5tCXTg-8aYeJUMwW0xBdcA=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "Outplay Games",
+      "downloads": "5,000,000+",
+      "realInstalls": 6556071,
+      "realInstallsStr": "6.6M",
+      "perDay": 3278035,
+      "days": 2,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Jul 27, 2026",
+      "lastUpdated": "",
+      "summary": "Experience FPS Gun Games 3d adventure with powerful shooting and modern missions",
+      "url": "https://play.google.com/store/apps/details?id=com.op.fps.commando.gun.shooting",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-29",
+          "dpd": 3278035,
+          "installs": 6556071
+        }
+      ],
+      "trend": "new",
+      "dpd_prev": 0,
+      "dpd_change_pct": 0,
+      "isWatchlist": false
+    },
+    {
       "id": "com.wtg.indian.bike.game",
       "emoji": "🚀🔥",
       "tag": "1M+",
@@ -17,8 +58,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 3973158,
       "realInstallsStr": "4.0M",
-      "perDay": 993289,
-      "days": 4,
+      "perDay": 794631,
+      "days": 5,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -34,11 +75,16 @@
           "date": "2026-07-28",
           "dpd": 993289,
           "installs": 3973158
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 794631,
+          "installs": 3973158
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "falling",
+      "dpd_prev": 993289,
+      "dpd_change_pct": -20,
       "isWatchlist": false
     },
     {
@@ -58,8 +104,8 @@
       "downloads": "10,000,000+",
       "realInstalls": 10749662,
       "realInstallsStr": "10.7M",
-      "perDay": 467376,
-      "days": 23,
+      "perDay": 447902,
+      "days": 24,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -130,11 +176,16 @@
           "date": "2026-07-28",
           "dpd": 467376,
           "installs": 10749662
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 447902,
+          "installs": 10749662
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 715147,
-      "dpd_change_pct": -35,
+      "trend": "stable",
+      "dpd_prev": 467376,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -152,15 +203,15 @@
       "genre": "Adventure",
       "developer": "Gaming Engine",
       "downloads": "1,000,000+",
-      "realInstalls": 1784718,
+      "realInstalls": 1802902,
       "realInstallsStr": "1.8M",
-      "perDay": 356943,
-      "days": 5,
+      "perDay": 300483,
+      "days": 6,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
       "contentRating": "Everyone",
-      "offersIAP": false,
+      "offersIAP": true,
       "releaseDate": "Jul 23, 2026",
       "lastUpdated": "Jul 23, 2026",
       "summary": "Carry livestock safely through challenging roads in Farm Animal Transport Games.",
@@ -171,11 +222,16 @@
           "date": "2026-07-28",
           "dpd": 356943,
           "installs": 1784718
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 300483,
+          "installs": 1802902
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "falling",
+      "dpd_prev": 356943,
+      "dpd_change_pct": -16,
       "isWatchlist": false
     },
     {
@@ -193,13 +249,13 @@
       "genre": "Adventure",
       "developer": "Gaming Switch LLC",
       "downloads": "5,000,000+",
-      "realInstalls": 5191055,
+      "realInstalls": 5245730,
       "realInstallsStr": "5.2M",
-      "perDay": 305356,
-      "days": 17,
+      "perDay": 291429,
+      "days": 18,
       "score": 4.5,
-      "ratings": 194,
-      "ratingsStr": "194",
+      "ratings": 198,
+      "ratingsStr": "198",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Jul 11, 2026",
@@ -237,11 +293,16 @@
           "date": "2026-07-28",
           "dpd": 305356,
           "installs": 5191055
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 291429,
+          "installs": 5245730
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 527278,
-      "dpd_change_pct": -42,
+      "trend": "stable",
+      "dpd_prev": 305356,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -259,12 +320,12 @@
       "genre": "Casual",
       "developer": "Social Game Lab",
       "downloads": "5,000,000+",
-      "realInstalls": 5133869,
+      "realInstalls": 5141389,
       "realInstallsStr": "5.1M",
-      "perDay": 233357,
-      "days": 22,
+      "perDay": 223538,
+      "days": 23,
       "score": 4.6,
-      "ratings": 10253,
+      "ratings": 10269,
       "ratingsStr": "10K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -328,11 +389,16 @@
           "date": "2026-07-28",
           "dpd": 233357,
           "installs": 5133869
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 223538,
+          "installs": 5141389
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 364627,
-      "dpd_change_pct": -36,
+      "trend": "stable",
+      "dpd_prev": 233357,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -351,8 +417,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 4322662,
       "realInstallsStr": "4.3M",
-      "perDay": 227508,
-      "days": 19,
+      "perDay": 216133,
+      "days": 20,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -408,11 +474,16 @@
           "date": "2026-07-28",
           "dpd": 227508,
           "installs": 4322662
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 216133,
+          "installs": 4322662
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 388246,
-      "dpd_change_pct": -41,
+      "trend": "stable",
+      "dpd_prev": 227508,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -432,11 +503,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 2911449,
       "realInstallsStr": "2.9M",
-      "perDay": 223957,
-      "days": 13,
-      "score": 4.3,
-      "ratings": 111,
-      "ratingsStr": "111",
+      "perDay": 207960,
+      "days": 14,
+      "score": 4.4,
+      "ratings": 116,
+      "ratingsStr": "116",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jul 15, 2026",
@@ -464,11 +535,16 @@
           "date": "2026-07-28",
           "dpd": 223957,
           "installs": 2911449
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 207960,
+          "installs": 2911449
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 513422,
-      "dpd_change_pct": -56,
+      "trend": "stable",
+      "dpd_prev": 223957,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -488,8 +564,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 4178283,
       "realInstallsStr": "4.2M",
-      "perDay": 208914,
-      "days": 20,
+      "perDay": 198965,
+      "days": 21,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -540,11 +616,16 @@
           "date": "2026-07-28",
           "dpd": 208914,
           "installs": 4178283
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 198965,
+          "installs": 4178283
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 343646,
-      "dpd_change_pct": -39,
+      "trend": "stable",
+      "dpd_prev": 208914,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -564,11 +645,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 2880236,
       "realInstallsStr": "2.9M",
-      "perDay": 205731,
-      "days": 14,
+      "perDay": 192015,
+      "days": 15,
       "score": 4.1,
-      "ratings": 150,
-      "ratingsStr": "150",
+      "ratings": 164,
+      "ratingsStr": "164",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jul 14, 2026",
@@ -596,52 +677,16 @@
           "date": "2026-07-28",
           "dpd": 205731,
           "installs": 2880236
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 410411,
-      "dpd_change_pct": -50,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.netmarble.enn",
-      "emoji": "🚀🔥",
-      "tag": "1M+",
-      "name": "Ni no Kuni: Cross Worlds",
-      "icon": "https://play-lh.googleusercontent.com/eyREl29W_9xiGGSh1IInIHHKNfHUoo7aJ1epmvuTQvYtmr4fF6bd6m6ZxRe9_eDxm6LWLhsudOwVT0thsP6aRA",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/pe4IIzLElULdHcRM-OiWZpMMMkEYCgx9MYCiArNPhru_-D3D3m3C9H_0734lB-TTTFfZ4znSF4sUcyTCWVQuiw=w300",
-        "https://play-lh.googleusercontent.com/0L2EkDviPWHIlFMeJuc5EkueR1o9N1BCosagdV-gdScLzZZPbF6fnWX8vGsd4bTA2qnV7zPa3ekk41J0zD-Lj-8=w300",
-        "https://play-lh.googleusercontent.com/R_xgSTRiv1E-D7F6Ka362eenyMM4RFQzdmNmT0-_aIqGr1PeU-iePfuhBxoc8CgWn9eUYQEdaHfj8bnT92fCcA=w300",
-        "https://play-lh.googleusercontent.com/mURCHCgD6DPjmVMGGZqctMgjA2tseBBWMQGCV4V4jCeahffdp0r1qDSyHOC3lvM_rM752GMaIkC4IICCRNdctQ=w300"
-      ],
-      "genre": "Role Playing",
-      "developer": "Netmarble",
-      "downloads": "1,000,000+",
-      "realInstalls": 1754319,
-      "realInstallsStr": "1.8M",
-      "perDay": 194924,
-      "days": 9,
-      "score": 4.5,
-      "ratings": 68982,
-      "ratingsStr": "68K",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Jul 19, 2026",
-      "lastUpdated": "Jul 16, 2026",
-      "summary": "Epic Adventure RPG",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.enn",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 194924,
-          "installs": 1754319
+          "date": "2026-07-29",
+          "dpd": 192015,
+          "installs": 2880236
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 205731,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -661,10 +706,10 @@
       "downloads": "1,000,000+",
       "realInstalls": 3594218,
       "realInstallsStr": "3.6M",
-      "perDay": 189169,
-      "days": 19,
+      "perDay": 179710,
+      "days": 20,
       "score": 4.4,
-      "ratings": 4068,
+      "ratings": 4368,
       "ratingsStr": "4K",
       "contentRating": "Mature 17+",
       "offersIAP": false,
@@ -718,11 +763,62 @@
           "date": "2026-07-28",
           "dpd": 189169,
           "installs": 3594218
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 179710,
+          "installs": 3594218
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 309986,
-      "dpd_change_pct": -39,
+      "trend": "stable",
+      "dpd_prev": 189169,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.netmarble.enn",
+      "emoji": "🚀🔥",
+      "tag": "1M+",
+      "name": "Ni no Kuni: Cross Worlds",
+      "icon": "https://play-lh.googleusercontent.com/eyREl29W_9xiGGSh1IInIHHKNfHUoo7aJ1epmvuTQvYtmr4fF6bd6m6ZxRe9_eDxm6LWLhsudOwVT0thsP6aRA",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/pe4IIzLElULdHcRM-OiWZpMMMkEYCgx9MYCiArNPhru_-D3D3m3C9H_0734lB-TTTFfZ4znSF4sUcyTCWVQuiw=w300",
+        "https://play-lh.googleusercontent.com/0L2EkDviPWHIlFMeJuc5EkueR1o9N1BCosagdV-gdScLzZZPbF6fnWX8vGsd4bTA2qnV7zPa3ekk41J0zD-Lj-8=w300",
+        "https://play-lh.googleusercontent.com/R_xgSTRiv1E-D7F6Ka362eenyMM4RFQzdmNmT0-_aIqGr1PeU-iePfuhBxoc8CgWn9eUYQEdaHfj8bnT92fCcA=w300",
+        "https://play-lh.googleusercontent.com/mURCHCgD6DPjmVMGGZqctMgjA2tseBBWMQGCV4V4jCeahffdp0r1qDSyHOC3lvM_rM752GMaIkC4IICCRNdctQ=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "Netmarble",
+      "downloads": "1,000,000+",
+      "realInstalls": 1756873,
+      "realInstallsStr": "1.8M",
+      "perDay": 175687,
+      "days": 10,
+      "score": 4.5,
+      "ratings": 68996,
+      "ratingsStr": "68K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Jul 19, 2026",
+      "lastUpdated": "Jul 16, 2026",
+      "summary": "Epic Adventure RPG",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.enn",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 194924,
+          "installs": 1754319
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 175687,
+          "installs": 1756873
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 194924,
+      "dpd_change_pct": -10,
       "isWatchlist": false
     },
     {
@@ -742,8 +838,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1803171,
       "realInstallsStr": "1.8M",
-      "perDay": 150264,
-      "days": 12,
+      "perDay": 138705,
+      "days": 13,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -774,11 +870,16 @@
           "date": "2026-07-28",
           "dpd": 150264,
           "installs": 1803171
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 138705,
+          "installs": 1803171
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 382168,
-      "dpd_change_pct": -61,
+      "trend": "stable",
+      "dpd_prev": 150264,
+      "dpd_change_pct": -8,
       "isWatchlist": false
     },
     {
@@ -798,8 +899,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 2164281,
       "realInstallsStr": "2.2M",
-      "perDay": 144285,
-      "days": 15,
+      "perDay": 135267,
+      "days": 16,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -815,11 +916,16 @@
           "date": "2026-07-28",
           "dpd": 144285,
           "installs": 2164281
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 135267,
+          "installs": 2164281
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 144285,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -839,8 +945,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 2096933,
       "realInstallsStr": "2.1M",
-      "perDay": 139795,
-      "days": 15,
+      "perDay": 131058,
+      "days": 16,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -876,11 +982,16 @@
           "date": "2026-07-28",
           "dpd": 139795,
           "installs": 2096933
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 131058,
+          "installs": 2096933
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 296694,
-      "dpd_change_pct": -53,
+      "trend": "stable",
+      "dpd_prev": 139795,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -900,11 +1011,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 3484154,
       "realInstallsStr": "3.5M",
-      "perDay": 134005,
-      "days": 26,
+      "perDay": 129042,
+      "days": 27,
       "score": 4.2,
-      "ratings": 817,
-      "ratingsStr": "817",
+      "ratings": 842,
+      "ratingsStr": "842",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Jul 2, 2026",
@@ -992,11 +1103,16 @@
           "date": "2026-07-28",
           "dpd": 134005,
           "installs": 3484154
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 129042,
+          "installs": 3484154
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 183611,
-      "dpd_change_pct": -27,
+      "trend": "stable",
+      "dpd_prev": 134005,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -1016,8 +1132,8 @@
       "downloads": "500,000+",
       "realInstalls": 884381,
       "realInstallsStr": "884K",
-      "perDay": 126340,
-      "days": 7,
+      "perDay": 110547,
+      "days": 8,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -1033,11 +1149,16 @@
           "date": "2026-07-28",
           "dpd": 126340,
           "installs": 884381
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 110547,
+          "installs": 884381
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "falling",
+      "dpd_prev": 126340,
+      "dpd_change_pct": -13,
       "isWatchlist": false
     },
     {
@@ -1057,11 +1178,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 2917256,
       "realInstallsStr": "2.9M",
-      "perDay": 112202,
-      "days": 26,
+      "perDay": 108046,
+      "days": 27,
       "score": 2.9,
-      "ratings": 669,
-      "ratingsStr": "669",
+      "ratings": 694,
+      "ratingsStr": "694",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Jul 2, 2026",
@@ -1144,52 +1265,16 @@
           "date": "2026-07-28",
           "dpd": 112202,
           "installs": 2917256
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 146456,
-      "dpd_change_pct": -23,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.wydxb.words.puzzle.an",
-      "emoji": "🚀🔥",
-      "tag": "500K+",
-      "name": "天天拼詞王",
-      "icon": "https://play-lh.googleusercontent.com/gSFfE1Guj1qC6RUt14SsFJ86Har491aJ6W4u3vrd_8kp-9u0QJCF5tOyZS38A9BH6VzVxVZdjN1oG0d_B-Oj8A",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/vnujxeX1SLE0oZwzYpRRIROZXbFcE8hvJ6LXI10epYZo2WBd2WeKUNPbfch_C-em2nBOt-Xy9PSaIfvcgzLdeqU=w300",
-        "https://play-lh.googleusercontent.com/ZubjyGm3ZHPH_UCvzVz9lCAbK5pjbwxA2lKmaioLIrwKo0QrsBQXxsto081g24MqvzmOdDN1KNjXoTJTxIG9MQ=w300",
-        "https://play-lh.googleusercontent.com/5_r00OWQHX8tK0UFxAiz60yQ4dY1GFU_oGN4Y0xbPoszYC5jnNSxwCQ3JheQ4mNiQqZJUGn0QPPxSJRWmVS7=w300",
-        "https://play-lh.googleusercontent.com/2lE81BkZva6qytmMKs1YBPdoItiWko_cAwmXnwiFnElrifMBp0GWhMDWDBOw0xrVZcDMDN7El9c5SPmkyNK4=w300"
-      ],
-      "genre": "Word",
-      "developer": "Ocean Joy",
-      "downloads": "500,000+",
-      "realInstalls": 874096,
-      "realInstallsStr": "874K",
-      "perDay": 109262,
-      "days": 8,
-      "score": 4.9,
-      "ratings": 1609,
-      "ratingsStr": "1K",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 20, 2026",
-      "lastUpdated": "Jul 27, 2026",
-      "summary": "Challenge your eyesight limits, uncover hidden Chinese characters, and become a master of Chinese characters!",
-      "url": "https://play.google.com/store/apps/details?id=com.wydxb.words.puzzle.an",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 109262,
-          "installs": 874096
+          "date": "2026-07-29",
+          "dpd": 108046,
+          "installs": 2917256
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 112202,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -1207,12 +1292,12 @@
       "genre": "Puzzle",
       "developer": "Pleasure City",
       "downloads": "500,000+",
-      "realInstalls": 826787,
-      "realInstallsStr": "827K",
-      "perDay": 103348,
-      "days": 8,
+      "realInstalls": 901698,
+      "realInstallsStr": "902K",
+      "perDay": 100188,
+      "days": 9,
       "score": 4.8,
-      "ratings": 4221,
+      "ratings": 4993,
       "ratingsStr": "4K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -1226,16 +1311,67 @@
           "date": "2026-07-28",
           "dpd": 103348,
           "installs": 826787
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 100188,
+          "installs": 901698
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 103348,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.wydxb.words.puzzle.an",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "天天拼詞王",
+      "icon": "https://play-lh.googleusercontent.com/gSFfE1Guj1qC6RUt14SsFJ86Har491aJ6W4u3vrd_8kp-9u0QJCF5tOyZS38A9BH6VzVxVZdjN1oG0d_B-Oj8A",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/vnujxeX1SLE0oZwzYpRRIROZXbFcE8hvJ6LXI10epYZo2WBd2WeKUNPbfch_C-em2nBOt-Xy9PSaIfvcgzLdeqU=w300",
+        "https://play-lh.googleusercontent.com/ZubjyGm3ZHPH_UCvzVz9lCAbK5pjbwxA2lKmaioLIrwKo0QrsBQXxsto081g24MqvzmOdDN1KNjXoTJTxIG9MQ=w300",
+        "https://play-lh.googleusercontent.com/5_r00OWQHX8tK0UFxAiz60yQ4dY1GFU_oGN4Y0xbPoszYC5jnNSxwCQ3JheQ4mNiQqZJUGn0QPPxSJRWmVS7=w300",
+        "https://play-lh.googleusercontent.com/2lE81BkZva6qytmMKs1YBPdoItiWko_cAwmXnwiFnElrifMBp0GWhMDWDBOw0xrVZcDMDN7El9c5SPmkyNK4=w300"
+      ],
+      "genre": "Word",
+      "developer": "Ocean Joy",
+      "downloads": "500,000+",
+      "realInstalls": 874096,
+      "realInstallsStr": "874K",
+      "perDay": 97121,
+      "days": 9,
+      "score": 4.9,
+      "ratings": 1793,
+      "ratingsStr": "1K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 20, 2026",
+      "lastUpdated": "Jul 27, 2026",
+      "summary": "Challenge your eyesight limits, uncover hidden Chinese characters, and become a master of Chinese characters!",
+      "url": "https://play.google.com/store/apps/details?id=com.wydxb.words.puzzle.an",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 109262,
+          "installs": 874096
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 97121,
+          "installs": 874096
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 109262,
+      "dpd_change_pct": -11,
       "isWatchlist": false
     },
     {
       "id": "com.zdb.car.parking.simulator",
-      "emoji": "🚀🔥",
+      "emoji": "🚀",
       "tag": "1M+",
       "name": "Car Driving & Parking Academy",
       "icon": "https://play-lh.googleusercontent.com/_CmfMwZk7WkX-B-vV663jdPY1UsATcvtsCdAldlVyTuXHxIXQeWl1ISS-pza2biSd9Z_J0cCa1rpAc33JTPZkQ",
@@ -1250,8 +1386,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 2035781,
       "realInstallsStr": "2.0M",
-      "perDay": 101789,
-      "days": 20,
+      "perDay": 96941,
+      "days": 21,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -1267,6 +1403,52 @@
           "date": "2026-07-28",
           "dpd": 101789,
           "installs": 2035781
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 96941,
+          "installs": 2035781
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 101789,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.match.goodsfactory.sort",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Goods Factory Sorting - Match",
+      "icon": "https://play-lh.googleusercontent.com/YfkzmWjCUQNCeGqfrQjcRnM524jn5Lbwx4ai9LHgpl7NCoyRAXVCaD_kIpEK8FtyCB3c0QekRi-PpZvNR6iy",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/4iqkKQb6xOfPRoMUbnoCR1Rxv_nH55q6uKgBT1Syd3Ne-dUf7k8cyR3IoVQF28-bVEAoP_fyTtkGZIrZCGtX=w300",
+        "https://play-lh.googleusercontent.com/tG19llvV87kzXXUbtf6mnp5i77dYqRtanwraWteAQo0hKg0ystAcAbu9nd9ZaCqo85PHGMPK5yBgTyxJ55Bgag=w300",
+        "https://play-lh.googleusercontent.com/8E2ddE42jFZrmvZdRtbU-j7idfFShqanrr85VkXPV3lDeOUW-lRUn9teOwcDIk8J0753UhPemufdZdzyH0wn=w300",
+        "https://play-lh.googleusercontent.com/r9qt1p7XqX_zj1lehHGOOFYNgvRN0FYDxx24P6-00a0YCFUHDQrWzVS79-MEuKMdtXKF8IiGvjkPUbzr_o0eyg=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Ouroboros Technology Pte. Ltd",
+      "downloads": "100,000+",
+      "realInstalls": 184789,
+      "realInstallsStr": "185K",
+      "perDay": 92394,
+      "days": 2,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 27, 2026",
+      "lastUpdated": "Jul 28, 2026",
+      "summary": "Sort shelves, match 3 goods, and solve fun 3D sorting puzzle challenges!",
+      "url": "https://play.google.com/store/apps/details?id=com.match.goodsfactory.sort",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-29",
+          "dpd": 92394,
+          "installs": 184789
         }
       ],
       "trend": "new",
@@ -1291,11 +1473,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 1468701,
       "realInstallsStr": "1.5M",
-      "perDay": 97913,
-      "days": 15,
+      "perDay": 91793,
+      "days": 16,
       "score": 2.4,
-      "ratings": 353,
-      "ratingsStr": "353",
+      "ratings": 375,
+      "ratingsStr": "375",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jul 13, 2026",
@@ -1323,11 +1505,16 @@
           "date": "2026-07-28",
           "dpd": 97913,
           "installs": 1468701
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 91793,
+          "installs": 1468701
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 190602,
-      "dpd_change_pct": -49,
+      "trend": "stable",
+      "dpd_prev": 97913,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -1347,10 +1534,10 @@
       "downloads": "1,000,000+",
       "realInstalls": 2702534,
       "realInstallsStr": "2.7M",
-      "perDay": 93190,
-      "days": 29,
+      "perDay": 90084,
+      "days": 30,
       "score": 4.8,
-      "ratings": 4257,
+      "ratings": 4429,
       "ratingsStr": "4K",
       "contentRating": "Teen",
       "offersIAP": false,
@@ -1439,11 +1626,77 @@
           "date": "2026-07-28",
           "dpd": 93190,
           "installs": 2702534
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 90084,
+          "installs": 2702534
         }
       ],
       "trend": "stable",
-      "dpd_prev": 93486,
-      "dpd_change_pct": 0,
+      "dpd_prev": 93190,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.bandainamcoent.dgup_ww",
+      "emoji": "🚀",
+      "tag": "1M+",
+      "name": "DIGIMON UP",
+      "icon": "https://play-lh.googleusercontent.com/WC1AVEJf1u9_0WkRdzRHBaOcV9UOr4PpnWA5dWi5itaBn0oUz3MOXgXLgQ2f-2PuWrk27Wv5FmB0qaeIq_F8Xw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/4W5tQ3ctJrU0eoD2R2Jk5vb4VYFHP1BBPQMJjW8PbJsvTVvZw31Ldf5w03RvxDiwETUbkxmZBcwICPGxJPZzqNU=w300",
+        "https://play-lh.googleusercontent.com/kjOdhOwzmzG1CRRIXKYqCOP5Y5gsi4rE0lDGIiI6iTTgHuW1df4nVBm-VAmnEUHDi-YeAgcEPYbp58zkxiyMrA=w300",
+        "https://play-lh.googleusercontent.com/m4je_lHNUf6yi68lxbpAwEYrb0BUwsoOkRUN1iE60mPuP0XuMyVnyoAyzZ40vIf10W6wbSUZHWFwXOaieAicOQ=w300",
+        "https://play-lh.googleusercontent.com/TOu_rdL1q-u2eYNbLAaxboDi2lhLyZVwzaSGHwPXcKOv3YaijvwKtppag3Mpg-RdXYVBLZeTLnVbBR-KAk1wXlc=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "Bandai Namco Entertainment Inc.",
+      "downloads": "1,000,000+",
+      "realInstalls": 1406990,
+      "realInstallsStr": "1.4M",
+      "perDay": 87936,
+      "days": 16,
+      "score": 4.4,
+      "ratings": 51683,
+      "ratingsStr": "51K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 13, 2026",
+      "lastUpdated": "Jul 29, 2026",
+      "summary": "Monster-raising RPG, includes random-item purchases",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.dgup_ww",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-18",
+          "dpd": 60599,
+          "installs": 302997
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 122186,
+          "installs": 733119
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 104731,
+          "installs": 733119
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 89779,
+          "installs": 1346685
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 87936,
+          "installs": 1406990
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 89779,
+      "dpd_change_pct": -2,
       "isWatchlist": false
     },
     {
@@ -1463,8 +1716,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1473199,
       "realInstallsStr": "1.5M",
-      "perDay": 92074,
-      "days": 16,
+      "perDay": 86658,
+      "days": 17,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -1495,67 +1748,16 @@
           "date": "2026-07-28",
           "dpd": 92074,
           "installs": 1473199
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 86658,
+          "installs": 1473199
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 160310,
-      "dpd_change_pct": -43,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.bandainamcoent.dgup_ww",
-      "emoji": "🚀",
-      "tag": "1M+",
-      "name": "DIGIMON UP",
-      "icon": "https://play-lh.googleusercontent.com/WC1AVEJf1u9_0WkRdzRHBaOcV9UOr4PpnWA5dWi5itaBn0oUz3MOXgXLgQ2f-2PuWrk27Wv5FmB0qaeIq_F8Xw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/4W5tQ3ctJrU0eoD2R2Jk5vb4VYFHP1BBPQMJjW8PbJsvTVvZw31Ldf5w03RvxDiwETUbkxmZBcwICPGxJPZzqNU=w300",
-        "https://play-lh.googleusercontent.com/kjOdhOwzmzG1CRRIXKYqCOP5Y5gsi4rE0lDGIiI6iTTgHuW1df4nVBm-VAmnEUHDi-YeAgcEPYbp58zkxiyMrA=w300",
-        "https://play-lh.googleusercontent.com/m4je_lHNUf6yi68lxbpAwEYrb0BUwsoOkRUN1iE60mPuP0XuMyVnyoAyzZ40vIf10W6wbSUZHWFwXOaieAicOQ=w300",
-        "https://play-lh.googleusercontent.com/TOu_rdL1q-u2eYNbLAaxboDi2lhLyZVwzaSGHwPXcKOv3YaijvwKtppag3Mpg-RdXYVBLZeTLnVbBR-KAk1wXlc=w300"
-      ],
-      "genre": "Role Playing",
-      "developer": "Bandai Namco Entertainment Inc.",
-      "downloads": "1,000,000+",
-      "realInstalls": 1346685,
-      "realInstallsStr": "1.3M",
-      "perDay": 89779,
-      "days": 15,
-      "score": 4.4,
-      "ratings": 50954,
-      "ratingsStr": "50K",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 13, 2026",
-      "lastUpdated": "Jul 22, 2026",
-      "summary": "Monster-raising RPG, includes random-item purchases",
-      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.dgup_ww",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 60599,
-          "installs": 302997
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 122186,
-          "installs": 733119
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 104731,
-          "installs": 733119
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 89779,
-          "installs": 1346685
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 104731,
-      "dpd_change_pct": -14,
+      "trend": "stable",
+      "dpd_prev": 92074,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -1575,11 +1777,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 2482974,
       "realInstallsStr": "2.5M",
-      "perDay": 85619,
-      "days": 29,
+      "perDay": 82765,
+      "days": 30,
       "score": 3.5,
-      "ratings": 854,
-      "ratingsStr": "854",
+      "ratings": 870,
+      "ratingsStr": "870",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jun 29, 2026",
@@ -1677,11 +1879,72 @@
           "date": "2026-07-28",
           "dpd": 85619,
           "installs": 2482974
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 82765,
+          "installs": 2482974
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 95611,
-      "dpd_change_pct": -10,
+      "trend": "stable",
+      "dpd_prev": 85619,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.RC13B.ragdoll.survival.playground",
+      "emoji": "🚀",
+      "tag": "1M+",
+      "name": "Ragdoll Survival Playground",
+      "icon": "https://play-lh.googleusercontent.com/KWKVFhOxzshEf0n5qAxviwRp7UDWsLPEPrbhKxL7TxNclRurvZkNwi1krMk85hDF9DjMrVuh-wR4FpW5yMyaLOg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/LaDm9YZrnZOjIamYd9jmIDx754L8VjK74rsnb7j2zCNxFA-xYU7jDfp9XvXegKxxtS3gx4pBU6eQbVX-LLy7=w300",
+        "https://play-lh.googleusercontent.com/It2zc6jyigJj09i2UkM-C5mmTAFQkb2Ng8IVxvMPZBJvN1mq6lPQSoIDlvToTuvwsFEh5ErfyFjMXBdtNWZP7A=w300",
+        "https://play-lh.googleusercontent.com/mPhwQh5BY8TxVP_hnoNQoE5Z7jSU5q5gh5_seHnai4sjmRYRgn8ck8CaBfC5Y3k8oYmpMQ3JXLpfynYhRxVY0Q=w300",
+        "https://play-lh.googleusercontent.com/A0STOj-fulSDN8fHzjGZzlg4KnEas0CJSuumkd6aq1Cgf2uHobk2KharF0DngBesYHxQEGAwtTOERmISxNTr4xU=w300"
+      ],
+      "genre": "Simulation",
+      "developer": "oZ Studio",
+      "downloads": "1,000,000+",
+      "realInstalls": 1111006,
+      "realInstallsStr": "1.1M",
+      "perDay": 79357,
+      "days": 14,
+      "score": 2.7,
+      "ratings": 202,
+      "ratingsStr": "202",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 15, 2026",
+      "lastUpdated": "Jul 22, 2026",
+      "summary": "Build, fight, and experiment with crazy physics in Ragdoll Survival Playground!",
+      "url": "https://play.google.com/store/apps/details?id=com.RC13B.ragdoll.survival.playground",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-19",
+          "dpd": 128244,
+          "installs": 512976
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 102684,
+          "installs": 513424
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 64975,
+          "installs": 844684
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 79357,
+          "installs": 1111006
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 64975,
+      "dpd_change_pct": 22,
       "isWatchlist": false
     },
     {
@@ -1701,11 +1964,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 1013178,
       "realInstallsStr": "1.0M",
-      "perDay": 84431,
-      "days": 12,
-      "score": 3.5,
-      "ratings": 614,
-      "ratingsStr": "614",
+      "perDay": 77936,
+      "days": 13,
+      "score": 3.1,
+      "ratings": 653,
+      "ratingsStr": "653",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jul 16, 2026",
@@ -1733,11 +1996,16 @@
           "date": "2026-07-28",
           "dpd": 84431,
           "installs": 1013178
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 77936,
+          "installs": 1013178
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 238469,
-      "dpd_change_pct": -65,
+      "trend": "stable",
+      "dpd_prev": 84431,
+      "dpd_change_pct": -8,
       "isWatchlist": false
     },
     {
@@ -1757,8 +2025,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1036101,
       "realInstallsStr": "1.0M",
-      "perDay": 79700,
-      "days": 13,
+      "perDay": 74007,
+      "days": 14,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -1789,11 +2057,16 @@
           "date": "2026-07-28",
           "dpd": 79700,
           "installs": 1036101
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 74007,
+          "installs": 1036101
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 180847,
-      "dpd_change_pct": -56,
+      "trend": "stable",
+      "dpd_prev": 79700,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -1813,8 +2086,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1157374,
       "realInstallsStr": "1.2M",
-      "perDay": 77158,
-      "days": 15,
+      "perDay": 72335,
+      "days": 16,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -1845,52 +2118,16 @@
           "date": "2026-07-28",
           "dpd": 77158,
           "installs": 1157374
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 155309,
-      "dpd_change_pct": -50,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.run.puzzle.arrow",
-      "emoji": "🚀",
-      "tag": "100K+",
-      "name": "Arrow Trace: Escape Puzzle",
-      "icon": "https://play-lh.googleusercontent.com/yjJRdhz3hbPGn4X44_1OG-ngrZptKYxx4UKwk7Txx-b8ibI0QqU6YM9SiYj77ftVACK6WgxebdJZGWzU_1MfB8M",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/Cvi7dVY7sgcFL_uvrO9QJMxm729H_14FlBrlULiFNQ1z60bawZmsrXrO8mJv2t_cuQpf_A9JTUD7fUdkeq5-jag=w300",
-        "https://play-lh.googleusercontent.com/XYqgPll3qB96w_I7sdmD9TMbuRY1fch7qWj4Hu5N5WHDTo0lVu6ZbxHMYWVhxP4bQrPUOFrWHFmHpmlvuNAa=w300",
-        "https://play-lh.googleusercontent.com/lh4LXiKJ5_WPjv8Msbwdt2QRHbGIRftEKl-MQy3-u1kqyg93gNneUcMhMYRqEJkTdKNhX1rw83-zxdcnAq8M=w300",
-        "https://play-lh.googleusercontent.com/Y8J8aGmzyIyzaYhQJ0MAH-LS9xCbM8bBbfsGatAbrTJSmrm11l_UwIztawUq6AdZbwV4WhZNB3vtfTZY-rQO=w300"
-      ],
-      "genre": "Casual",
-      "developer": "Game Changer Software",
-      "downloads": "100,000+",
-      "realInstalls": 292326,
-      "realInstallsStr": "292K",
-      "perDay": 73081,
-      "days": 4,
-      "score": 2.8,
-      "ratings": 44,
-      "ratingsStr": "44",
-      "contentRating": "Everyone",
-      "offersIAP": false,
-      "releaseDate": "Jul 24, 2026",
-      "lastUpdated": "Jul 24, 2026",
-      "summary": "Release all the arrows!",
-      "url": "https://play.google.com/store/apps/details?id=com.run.puzzle.arrow",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 73081,
-          "installs": 292326
+          "date": "2026-07-29",
+          "dpd": 72335,
+          "installs": 1157374
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 77158,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -1910,8 +2147,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1222408,
       "realInstallsStr": "1.2M",
-      "perDay": 67911,
-      "days": 18,
+      "perDay": 64337,
+      "days": 19,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -1947,52 +2184,16 @@
           "date": "2026-07-28",
           "dpd": 67911,
           "installs": 1222408
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 120144,
-      "dpd_change_pct": -43,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.fusionmer.sagafrui.asion",
-      "emoji": "🚀",
-      "tag": "500K+",
-      "name": "Fruit Fusion: Merge Saga",
-      "icon": "https://play-lh.googleusercontent.com/42Wv3UgUJwq_H6CMGq7CqPa_yxpkdV_NMHhA9pqGite4Ey1o7U_WcZIQgV6BYcz6yWk2bXWunEcVKmFF7G0NIw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/fhM-EGVtTgz9cd1sPncQWCITIBqDz035gB_jk8rOhNQK12dHfAxSMscdl18fI-AOHZwVvdaA8aXFvhssu-rt7Q=w300",
-        "https://play-lh.googleusercontent.com/KXkZJNStNzEkE210Of1T1bJKWxukjCDWX2T3uE3YTCAlFvcSGSykt8vLCFnJkbbdEr5eFbHjpROl1epUAlxsCA=w300",
-        "https://play-lh.googleusercontent.com/m5i0eILMVaBAD3ACu79LdXkHrdDS9UDmqCSnDzXA9xFeDsc9g02mpOiQIGUY84ezO-9_Hj_hKEO6WBTPSm2c=w300",
-        "https://play-lh.googleusercontent.com/nIjQqxq1tV6nKT6gtxinSg1xfCbGdKKIEzVsHKznOOw-rL7uoVTO1W4TW34Stzsomgb7ypLk8nVfYPp3CXddvq0=w300"
-      ],
-      "genre": "Puzzle",
-      "developer": "Nano IT Bangladesh",
-      "downloads": "500,000+",
-      "realInstalls": 542725,
-      "realInstallsStr": "543K",
-      "perDay": 67840,
-      "days": 8,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": false,
-      "releaseDate": "Jul 20, 2026",
-      "lastUpdated": "Jul 20, 2026",
-      "summary": "Merge fruits to grow the ultimate watermelon! ﻿",
-      "url": "https://play.google.com/store/apps/details?id=com.fusionmer.sagafrui.asion",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 67840,
-          "installs": 542725
+          "date": "2026-07-29",
+          "dpd": 64337,
+          "installs": 1222408
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 67911,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -2012,8 +2213,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1328716,
       "realInstallsStr": "1.3M",
-      "perDay": 66435,
-      "days": 20,
+      "perDay": 63272,
+      "days": 21,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -2069,118 +2270,16 @@
           "date": "2026-07-28",
           "dpd": 66435,
           "installs": 1328716
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 63272,
+          "installs": 1328716
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 103660,
-      "dpd_change_pct": -36,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.RC13B.ragdoll.survival.playground",
-      "emoji": "🚀",
-      "tag": "500K+",
-      "name": "Ragdoll Survival Playground",
-      "icon": "https://play-lh.googleusercontent.com/KWKVFhOxzshEf0n5qAxviwRp7UDWsLPEPrbhKxL7TxNclRurvZkNwi1krMk85hDF9DjMrVuh-wR4FpW5yMyaLOg",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/LaDm9YZrnZOjIamYd9jmIDx754L8VjK74rsnb7j2zCNxFA-xYU7jDfp9XvXegKxxtS3gx4pBU6eQbVX-LLy7=w300",
-        "https://play-lh.googleusercontent.com/It2zc6jyigJj09i2UkM-C5mmTAFQkb2Ng8IVxvMPZBJvN1mq6lPQSoIDlvToTuvwsFEh5ErfyFjMXBdtNWZP7A=w300",
-        "https://play-lh.googleusercontent.com/mPhwQh5BY8TxVP_hnoNQoE5Z7jSU5q5gh5_seHnai4sjmRYRgn8ck8CaBfC5Y3k8oYmpMQ3JXLpfynYhRxVY0Q=w300",
-        "https://play-lh.googleusercontent.com/A0STOj-fulSDN8fHzjGZzlg4KnEas0CJSuumkd6aq1Cgf2uHobk2KharF0DngBesYHxQEGAwtTOERmISxNTr4xU=w300"
-      ],
-      "genre": "Simulation",
-      "developer": "oZ Studio",
-      "downloads": "500,000+",
-      "realInstalls": 844684,
-      "realInstallsStr": "845K",
-      "perDay": 64975,
-      "days": 13,
-      "score": 2.7,
-      "ratings": 178,
-      "ratingsStr": "178",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 15, 2026",
-      "lastUpdated": "Jul 22, 2026",
-      "summary": "Build, fight, and experiment with crazy physics in Ragdoll Survival Playground!",
-      "url": "https://play.google.com/store/apps/details?id=com.RC13B.ragdoll.survival.playground",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-19",
-          "dpd": 128244,
-          "installs": 512976
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 102684,
-          "installs": 513424
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 64975,
-          "installs": 844684
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 102684,
-      "dpd_change_pct": -37,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.ares.twd",
-      "emoji": "🚀",
-      "tag": "500K+",
-      "name": "The Walking Dead: Aftermath",
-      "icon": "https://play-lh.googleusercontent.com/Ewffs__fx5b1Cd6H4kRJCR_EbNGbP9l2qoMTQvXJE_jM7IrjBnaVZJlQOAbnwSZL8AsvO6QoG3i2A-FgiS4z",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/CR5JFXGwMmP_U2xSOmKiR-SGZ1FWBBREP07lPHXK7SIcTQ_53EL2LG_wRVV7ag0csbDS80fJvm7bjwpiEdA9XRY=w300",
-        "https://play-lh.googleusercontent.com/xqP_3ITZC2YGo1impgtA9E_0EiNJpDCbsIfY2imc0atoAJ4xxDmlUpjkgjMKJFnB-BBzhkNSEbIfzbT2M80Iquc=w300",
-        "https://play-lh.googleusercontent.com/bLdr8tG6YefBcgc6BZDhmHAZc94JTYCHX5BWLdR73yIkH8ZKBA_jdD2JNSky1H1xMTt5KiVUJ8cN7XIgyuCQ4Cw=w300",
-        "https://play-lh.googleusercontent.com/zSjZ-BpH4TN6M8Mb1jxJL_kvBrXVSciKqwOxcA8DyYp-6NFMselnGYtlFBq-7JyvVavyl9ZE8wInesF4jnRg=w300"
-      ],
-      "genre": "Action",
-      "developer": "Ares Interactive, Inc.",
-      "downloads": "500,000+",
-      "realInstalls": 901259,
-      "realInstallsStr": "901K",
-      "perDay": 64375,
-      "days": 14,
-      "score": 4.8,
-      "ratings": 22526,
-      "ratingsStr": "22K",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Jul 14, 2026",
-      "lastUpdated": "Jul 24, 2026",
-      "summary": "Fight walker swarms, lead iconic survivors, survive in The Walking Dead universe",
-      "url": "https://play.google.com/store/apps/details?id=com.ares.twd",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 126321,
-          "installs": 505284
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 101056,
-          "installs": 505284
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 95603,
-          "installs": 573622
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 64375,
-          "installs": 901259
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 95603,
-      "dpd_change_pct": -33,
+      "trend": "stable",
+      "dpd_prev": 66435,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -2200,11 +2299,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 1785284,
       "realInstallsStr": "1.8M",
-      "perDay": 63760,
-      "days": 28,
+      "perDay": 61561,
+      "days": 29,
       "score": 4.6,
-      "ratings": 36751,
-      "ratingsStr": "36K",
+      "ratings": 37181,
+      "ratingsStr": "37K",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Jun 30, 2026",
@@ -2252,11 +2351,123 @@
           "date": "2026-07-28",
           "dpd": 63760,
           "installs": 1785284
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 61561,
+          "installs": 1785284
         }
       ],
       "trend": "stable",
-      "dpd_prev": 68055,
-      "dpd_change_pct": -6,
+      "dpd_prev": 63760,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.fusionmer.sagafrui.asion",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Fruit Fusion: Merge Saga",
+      "icon": "https://play-lh.googleusercontent.com/42Wv3UgUJwq_H6CMGq7CqPa_yxpkdV_NMHhA9pqGite4Ey1o7U_WcZIQgV6BYcz6yWk2bXWunEcVKmFF7G0NIw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/fhM-EGVtTgz9cd1sPncQWCITIBqDz035gB_jk8rOhNQK12dHfAxSMscdl18fI-AOHZwVvdaA8aXFvhssu-rt7Q=w300",
+        "https://play-lh.googleusercontent.com/KXkZJNStNzEkE210Of1T1bJKWxukjCDWX2T3uE3YTCAlFvcSGSykt8vLCFnJkbbdEr5eFbHjpROl1epUAlxsCA=w300",
+        "https://play-lh.googleusercontent.com/m5i0eILMVaBAD3ACu79LdXkHrdDS9UDmqCSnDzXA9xFeDsc9g02mpOiQIGUY84ezO-9_Hj_hKEO6WBTPSm2c=w300",
+        "https://play-lh.googleusercontent.com/nIjQqxq1tV6nKT6gtxinSg1xfCbGdKKIEzVsHKznOOw-rL7uoVTO1W4TW34Stzsomgb7ypLk8nVfYPp3CXddvq0=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Nano IT Bangladesh",
+      "downloads": "500,000+",
+      "realInstalls": 542725,
+      "realInstallsStr": "543K",
+      "perDay": 60302,
+      "days": 9,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Jul 20, 2026",
+      "lastUpdated": "Jul 20, 2026",
+      "summary": "Merge fruits to grow the ultimate watermelon! ﻿",
+      "url": "https://play.google.com/store/apps/details?id=com.fusionmer.sagafrui.asion",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 67840,
+          "installs": 542725
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 60302,
+          "installs": 542725
+        }
+      ],
+      "trend": "falling",
+      "dpd_prev": 67840,
+      "dpd_change_pct": -11,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.ares.twd",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "The Walking Dead: Aftermath",
+      "icon": "https://play-lh.googleusercontent.com/Ewffs__fx5b1Cd6H4kRJCR_EbNGbP9l2qoMTQvXJE_jM7IrjBnaVZJlQOAbnwSZL8AsvO6QoG3i2A-FgiS4z",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/CR5JFXGwMmP_U2xSOmKiR-SGZ1FWBBREP07lPHXK7SIcTQ_53EL2LG_wRVV7ag0csbDS80fJvm7bjwpiEdA9XRY=w300",
+        "https://play-lh.googleusercontent.com/xqP_3ITZC2YGo1impgtA9E_0EiNJpDCbsIfY2imc0atoAJ4xxDmlUpjkgjMKJFnB-BBzhkNSEbIfzbT2M80Iquc=w300",
+        "https://play-lh.googleusercontent.com/bLdr8tG6YefBcgc6BZDhmHAZc94JTYCHX5BWLdR73yIkH8ZKBA_jdD2JNSky1H1xMTt5KiVUJ8cN7XIgyuCQ4Cw=w300",
+        "https://play-lh.googleusercontent.com/zSjZ-BpH4TN6M8Mb1jxJL_kvBrXVSciKqwOxcA8DyYp-6NFMselnGYtlFBq-7JyvVavyl9ZE8wInesF4jnRg=w300"
+      ],
+      "genre": "Action",
+      "developer": "Ares Interactive, Inc.",
+      "downloads": "500,000+",
+      "realInstalls": 901259,
+      "realInstallsStr": "901K",
+      "perDay": 60083,
+      "days": 15,
+      "score": 4.8,
+      "ratings": 23384,
+      "ratingsStr": "23K",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Jul 14, 2026",
+      "lastUpdated": "Jul 24, 2026",
+      "summary": "Fight walker swarms, lead iconic survivors, survive in The Walking Dead universe",
+      "url": "https://play.google.com/store/apps/details?id=com.ares.twd",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-18",
+          "dpd": 126321,
+          "installs": 505284
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 101056,
+          "installs": 505284
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 95603,
+          "installs": 573622
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 64375,
+          "installs": 901259
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 60083,
+          "installs": 901259
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 64375,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -2276,11 +2487,11 @@
       "downloads": "1,000,000+",
       "realInstalls": 1603689,
       "realInstallsStr": "1.6M",
-      "perDay": 61680,
-      "days": 26,
-      "score": 4,
-      "ratings": 261,
-      "ratingsStr": "261",
+      "perDay": 59395,
+      "days": 27,
+      "score": 3.7,
+      "ratings": 263,
+      "ratingsStr": "263",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Jul 2, 2026",
@@ -2368,11 +2579,62 @@
           "date": "2026-07-28",
           "dpd": 61680,
           "installs": 1603689
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 59395,
+          "installs": 1603689
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 61680,
+      "dpd_change_pct": -4,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.run.puzzle.arrow",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Arrow Trace: Escape Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/yjJRdhz3hbPGn4X44_1OG-ngrZptKYxx4UKwk7Txx-b8ibI0QqU6YM9SiYj77ftVACK6WgxebdJZGWzU_1MfB8M",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/Cvi7dVY7sgcFL_uvrO9QJMxm729H_14FlBrlULiFNQ1z60bawZmsrXrO8mJv2t_cuQpf_A9JTUD7fUdkeq5-jag=w300",
+        "https://play-lh.googleusercontent.com/XYqgPll3qB96w_I7sdmD9TMbuRY1fch7qWj4Hu5N5WHDTo0lVu6ZbxHMYWVhxP4bQrPUOFrWHFmHpmlvuNAa=w300",
+        "https://play-lh.googleusercontent.com/lh4LXiKJ5_WPjv8Msbwdt2QRHbGIRftEKl-MQy3-u1kqyg93gNneUcMhMYRqEJkTdKNhX1rw83-zxdcnAq8M=w300",
+        "https://play-lh.googleusercontent.com/Y8J8aGmzyIyzaYhQJ0MAH-LS9xCbM8bBbfsGatAbrTJSmrm11l_UwIztawUq6AdZbwV4WhZNB3vtfTZY-rQO=w300"
+      ],
+      "genre": "Casual",
+      "developer": "Game Changer Software",
+      "downloads": "100,000+",
+      "realInstalls": 292326,
+      "realInstallsStr": "292K",
+      "perDay": 58465,
+      "days": 5,
+      "score": 3.2,
+      "ratings": 66,
+      "ratingsStr": "66",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Jul 24, 2026",
+      "lastUpdated": "Jul 24, 2026",
+      "summary": "Release all the arrows!",
+      "url": "https://play.google.com/store/apps/details?id=com.run.puzzle.arrow",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 73081,
+          "installs": 292326
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 58465,
+          "installs": 292326
         }
       ],
       "trend": "falling",
-      "dpd_prev": 83879,
-      "dpd_change_pct": -26,
+      "dpd_prev": 73081,
+      "dpd_change_pct": -20,
       "isWatchlist": false
     },
     {
@@ -2392,8 +2654,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1203169,
       "realInstallsStr": "1.2M",
-      "perDay": 60158,
-      "days": 20,
+      "perDay": 57293,
+      "days": 21,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -2409,11 +2671,16 @@
           "date": "2026-07-28",
           "dpd": 60158,
           "installs": 1203169
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 57293,
+          "installs": 1203169
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 60158,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -2433,8 +2700,8 @@
       "downloads": "1,000,000+",
       "realInstalls": 1369266,
       "realInstallsStr": "1.4M",
-      "perDay": 54770,
-      "days": 25,
+      "perDay": 52664,
+      "days": 26,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -2515,11 +2782,138 @@
           "date": "2026-07-28",
           "dpd": 54770,
           "installs": 1369266
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 52664,
+          "installs": 1369266
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 79223,
-      "dpd_change_pct": -31,
+      "trend": "stable",
+      "dpd_prev": 54770,
+      "dpd_change_pct": -4,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.crazyfood.android",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Crazy Food",
+      "icon": "https://play-lh.googleusercontent.com/PXLbLTv1L0ZYNe55OKqknie8y65vzS5KelZR3kte2NVS5fJNx2VUzdnKzRaUEF_r5o83oxlCU-LrC09kIvlWuQ",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/khRJJZD2j6AfV0BkYo5QaHWeNM-RTIM_57xZWwC9QHLTiJZZc7r_t5UwzTvwK9WDE_Xq16IpRqh7zpv_RRlJcw=w300",
+        "https://play-lh.googleusercontent.com/viPq-odNd8He5xFmHXF3DR3RSxePFyE1WJhk9dQ_WwJi08lVa_636_EWX7MWMaQ8MwlmLFBoqyPP0qjk58ap=w300",
+        "https://play-lh.googleusercontent.com/0N3LSLENQhLGMjg5Sg5T1uBRzA7ClkJGC4XY-bwBRDxc0S1U9ozeURFplRs1Cmh5BNi3qFrHhms1Rxr36beEag=w300",
+        "https://play-lh.googleusercontent.com/jWYrq7cAQCLEdKbxXuT9DZlTkgWi_e26m6ekW36RnwUEA_AU8nTX76EhJ5Pkr-3eLjlR0RL7_qIizZa50xpK=w300"
+      ],
+      "genre": "Racing",
+      "developer": "DotVerse",
+      "downloads": "500,000+",
+      "realInstalls": 635598,
+      "realInstallsStr": "636K",
+      "perDay": 48892,
+      "days": 13,
+      "score": 4.7,
+      "ratings": 26989,
+      "ratingsStr": "26K",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Jul 16, 2026",
+      "lastUpdated": "Jul 29, 2026",
+      "summary": "Tap, survive, and earn big! Convert your high scores into amazing daily perks!",
+      "url": "https://play.google.com/store/apps/details?id=com.crazyfood.android",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-18",
+          "dpd": 749,
+          "installs": 1498
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 499,
+          "installs": 1498
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 4210,
+          "installs": 16842
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 43699,
+          "installs": 524390
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 48892,
+          "installs": 635598
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 43699,
+      "dpd_change_pct": 12,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.spark.sp.gp",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "Narco Empire",
+      "icon": "https://play-lh.googleusercontent.com/jHAS_HNO-9l8kyEhT0WvtmAcrPWHSq0i5zQ4Y4OochrtjqvamIyH7wnS5VYQ68ItlGSmNNO_qLSGbFF5N3FzHw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/NDfQK1UwDInq3RuII2kRd4D6Dih1DAVho686cxjWKOQZ6iBpMkz-ERM-F66oyDtlUghioIx5HjxFc3jS-f9rLg=w300",
+        "https://play-lh.googleusercontent.com/tLlTIvAbUw0wM86SsNzjwVpfywZuoWD9YGsrZj5xC2lORAek9JVH2DjNvTLptO3uRllWDPbo9ATfELSAlvwobQ=w300",
+        "https://play-lh.googleusercontent.com/12MKVTaxQPvKrU5SI6ZqMkNEcdx66_Ve_DxStZBu1soi95NvTzZ-3btiz41b47IYSIKg7hrgauLcl36tgglW=w300",
+        "https://play-lh.googleusercontent.com/UBRwDf1eiMGB6KyxI8LogtM13iUiIq0iihZR_5IgDYmnCQg0QxsS9OJ74_rMVPjEed_V3SP_1_ui1jks0Sn7PQ=w300"
+      ],
+      "genre": "Strategy",
+      "developer": "Sparkhaven HK Limited",
+      "downloads": "500,000+",
+      "realInstalls": 705781,
+      "realInstallsStr": "706K",
+      "perDay": 47052,
+      "days": 15,
+      "score": 4.8,
+      "ratings": 27008,
+      "ratingsStr": "27K",
+      "contentRating": "Mature 17+",
+      "offersIAP": true,
+      "releaseDate": "Jul 14, 2026",
+      "lastUpdated": "Jul 14, 2026",
+      "summary": "Climb out of the streets and take command of Narco Empire",
+      "url": "https://play.google.com/store/apps/details?id=com.spark.sp.gp",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-18",
+          "dpd": 7663,
+          "installs": 30652
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 21502,
+          "installs": 107511
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 17918,
+          "installs": 107511
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 44346,
+          "installs": 620856
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 47052,
+          "installs": 705781
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 44346,
+      "dpd_change_pct": 6,
       "isWatchlist": false
     },
     {
@@ -2539,11 +2933,11 @@
       "downloads": "500,000+",
       "realInstalls": 863668,
       "realInstallsStr": "864K",
-      "perDay": 45456,
-      "days": 19,
+      "perDay": 43183,
+      "days": 20,
       "score": 2.5,
-      "ratings": 692,
-      "ratingsStr": "692",
+      "ratings": 723,
+      "ratingsStr": "723",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Jul 9, 2026",
@@ -2571,11 +2965,16 @@
           "date": "2026-07-28",
           "dpd": 45456,
           "installs": 863668
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 43183,
+          "installs": 863668
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 71533,
-      "dpd_change_pct": -36,
+      "trend": "stable",
+      "dpd_prev": 45456,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -2595,8 +2994,8 @@
       "downloads": "500,000+",
       "realInstalls": 859183,
       "realInstallsStr": "859K",
-      "perDay": 45220,
-      "days": 19,
+      "perDay": 42959,
+      "days": 20,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -2612,67 +3011,16 @@
           "date": "2026-07-28",
           "dpd": 45220,
           "installs": 859183
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 42959,
+          "installs": 859183
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.spark.sp.gp",
-      "emoji": "🚀",
-      "tag": "500K+",
-      "name": "Narco Empire",
-      "icon": "https://play-lh.googleusercontent.com/jHAS_HNO-9l8kyEhT0WvtmAcrPWHSq0i5zQ4Y4OochrtjqvamIyH7wnS5VYQ68ItlGSmNNO_qLSGbFF5N3FzHw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/NDfQK1UwDInq3RuII2kRd4D6Dih1DAVho686cxjWKOQZ6iBpMkz-ERM-F66oyDtlUghioIx5HjxFc3jS-f9rLg=w300",
-        "https://play-lh.googleusercontent.com/tLlTIvAbUw0wM86SsNzjwVpfywZuoWD9YGsrZj5xC2lORAek9JVH2DjNvTLptO3uRllWDPbo9ATfELSAlvwobQ=w300",
-        "https://play-lh.googleusercontent.com/12MKVTaxQPvKrU5SI6ZqMkNEcdx66_Ve_DxStZBu1soi95NvTzZ-3btiz41b47IYSIKg7hrgauLcl36tgglW=w300",
-        "https://play-lh.googleusercontent.com/UBRwDf1eiMGB6KyxI8LogtM13iUiIq0iihZR_5IgDYmnCQg0QxsS9OJ74_rMVPjEed_V3SP_1_ui1jks0Sn7PQ=w300"
-      ],
-      "genre": "Strategy",
-      "developer": "Sparkhaven HK Limited",
-      "downloads": "500,000+",
-      "realInstalls": 620856,
-      "realInstallsStr": "621K",
-      "perDay": 44346,
-      "days": 14,
-      "score": 4.9,
-      "ratings": 25556,
-      "ratingsStr": "25K",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Jul 14, 2026",
-      "lastUpdated": "Jul 14, 2026",
-      "summary": "Climb out of the streets and take command of Narco Empire",
-      "url": "https://play.google.com/store/apps/details?id=com.spark.sp.gp",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 7663,
-          "installs": 30652
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 21502,
-          "installs": 107511
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 17918,
-          "installs": 107511
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 44346,
-          "installs": 620856
-        }
-      ],
-      "trend": "rising",
-      "dpd_prev": 17918,
-      "dpd_change_pct": 147,
+      "trend": "stable",
+      "dpd_prev": 45220,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -2692,10 +3040,10 @@
       "downloads": "100,000+",
       "realInstalls": 398763,
       "realInstallsStr": "399K",
-      "perDay": 44307,
-      "days": 9,
+      "perDay": 39876,
+      "days": 10,
       "score": 4.4,
-      "ratings": 1009,
+      "ratings": 1200,
       "ratingsStr": "1K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -2709,118 +3057,16 @@
           "date": "2026-07-28",
           "dpd": 44307,
           "installs": 398763
-        }
-      ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.crazyfood.android",
-      "emoji": "🚀",
-      "tag": "500K+",
-      "name": "Crazy Food",
-      "icon": "https://play-lh.googleusercontent.com/PXLbLTv1L0ZYNe55OKqknie8y65vzS5KelZR3kte2NVS5fJNx2VUzdnKzRaUEF_r5o83oxlCU-LrC09kIvlWuQ",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/khRJJZD2j6AfV0BkYo5QaHWeNM-RTIM_57xZWwC9QHLTiJZZc7r_t5UwzTvwK9WDE_Xq16IpRqh7zpv_RRlJcw=w300",
-        "https://play-lh.googleusercontent.com/viPq-odNd8He5xFmHXF3DR3RSxePFyE1WJhk9dQ_WwJi08lVa_636_EWX7MWMaQ8MwlmLFBoqyPP0qjk58ap=w300",
-        "https://play-lh.googleusercontent.com/0N3LSLENQhLGMjg5Sg5T1uBRzA7ClkJGC4XY-bwBRDxc0S1U9ozeURFplRs1Cmh5BNi3qFrHhms1Rxr36beEag=w300",
-        "https://play-lh.googleusercontent.com/jWYrq7cAQCLEdKbxXuT9DZlTkgWi_e26m6ekW36RnwUEA_AU8nTX76EhJ5Pkr-3eLjlR0RL7_qIizZa50xpK=w300"
-      ],
-      "genre": "Racing",
-      "developer": "DotVerse",
-      "downloads": "500,000+",
-      "realInstalls": 524390,
-      "realInstallsStr": "524K",
-      "perDay": 43699,
-      "days": 12,
-      "score": 4.6,
-      "ratings": 25527,
-      "ratingsStr": "25K",
-      "contentRating": "Everyone",
-      "offersIAP": false,
-      "releaseDate": "Jul 16, 2026",
-      "lastUpdated": "Jul 16, 2026",
-      "summary": "Tap, survive, and earn big! Convert your high scores into amazing daily perks!",
-      "url": "https://play.google.com/store/apps/details?id=com.crazyfood.android",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 749,
-          "installs": 1498
         },
         {
-          "date": "2026-07-19",
-          "dpd": 499,
-          "installs": 1498
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 4210,
-          "installs": 16842
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 43699,
-          "installs": 524390
-        }
-      ],
-      "trend": "rising",
-      "dpd_prev": 4210,
-      "dpd_change_pct": 938,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.motamanta.velvet.crush",
-      "emoji": "🚀",
-      "tag": "100K+",
-      "name": "Velvet Crush",
-      "icon": "https://play-lh.googleusercontent.com/w77qWpHbuWIxzECOBHIX_YZTJpNyR6Ywexgv0CKgIEtnBF4GZM_lrd8_Z6jKFbZH8znO267sDG_PJx_w3WeO",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/fxEkLggYA7HIYF8VEO5ZSCDCMf3Ly0NStu1ruU0hZ6cBrE-s6AzvV9sd1yt91I_ll-Yq5PePAXY4mGDwqd0B1Hk=w300",
-        "https://play-lh.googleusercontent.com/kGigJVcfW2zF_xnqRT2PW5lAWAQOzsnFHBZqRlX8x4j5gXMTxN5OgwK5PY3ggRvmoC0gJ3Hl_F0p5ssGAvlVqQ=w300",
-        "https://play-lh.googleusercontent.com/Brv1u00joFwYMXy_q7PXu-A0g4aNMHNyxIn1g2UShmPPSvtxDzNi9sSXeZJ7-wmr-LH8r9YhMi_V1rPgxTDg=w300",
-        "https://play-lh.googleusercontent.com/CzvxGAP0nojVYr1BBcwd62Ixi6eOCL1nebZy7W6iYe7m9pJhxL47GdskesgFPPsV0f5gh5mrntCgVt5jsJUpVP8=w300"
-      ],
-      "genre": "Puzzle",
-      "developer": "Motmana",
-      "downloads": "100,000+",
-      "realInstalls": 483071,
-      "realInstallsStr": "483K",
-      "perDay": 40255,
-      "days": 12,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Mature 17+",
-      "offersIAP": false,
-      "releaseDate": "Jul 16, 2026",
-      "lastUpdated": "Jul 19, 2026",
-      "summary": "Smooth match-3 luxury. Experience rich puzzles with a velvety touch.",
-      "url": "https://play.google.com/store/apps/details?id=com.motamanta.velvet.crush",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-19",
-          "dpd": 155495,
-          "installs": 466486
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 116630,
-          "installs": 466520
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 40255,
-          "installs": 483071
+          "date": "2026-07-29",
+          "dpd": 39876,
+          "installs": 398763
         }
       ],
       "trend": "falling",
-      "dpd_prev": 116630,
-      "dpd_change_pct": -65,
+      "dpd_prev": 44307,
+      "dpd_change_pct": -10,
       "isWatchlist": false
     },
     {
@@ -2840,8 +3086,8 @@
       "downloads": "500,000+",
       "realInstalls": 877156,
       "realInstallsStr": "877K",
-      "perDay": 39870,
-      "days": 22,
+      "perDay": 38137,
+      "days": 23,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -2907,52 +3153,16 @@
           "date": "2026-07-28",
           "dpd": 39870,
           "installs": 877156
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 60867,
-      "dpd_change_pct": -34,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.sfr.real.traffic.car.simulator3d",
-      "emoji": "🚀",
-      "tag": "100K+",
-      "name": "Real Traffic Car Simulator 3D",
-      "icon": "https://play-lh.googleusercontent.com/J0tnRNVD0xqzGKKeI0NnMuyKLoyuCU00N9SIezYz5Q9VqSnEvbccyiwXd89nVIG8uW3sYpMXUoyQn8MwFvS7Yg",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/nC52BMFYaXX-PXENXCktG9440fBtEnBPEaQoWe8c51sv9wB7wx9_B_6h6tjXbrsX7I9Y4DbHVaMSlvlZkt6Zdg=w300",
-        "https://play-lh.googleusercontent.com/Tv2rAjmOczK2oJSsoDMjAb8tkTyniXDIxZ_roVO5zJPSgmUqkszJUhvQzuQsBFXRzzmxP5YBX0NO1m4nrXkD=w300",
-        "https://play-lh.googleusercontent.com/3aYg0JafkcK9GfzeR9bR9OuyH-YsH4txBQ74PsDODdLPyqLwVSQFHsafwkiQSYQGjGHpGoPny0XjmRcIqFu8ALs=w300",
-        "https://play-lh.googleusercontent.com/ZPc3c4pY2JXHhtxRUaQaufUwsGyKCXRhhPqgs5WoIjpS7_4ppCFYEmJ8ZIECanmEGAm60NwvrAA4uljtS6fs=w300"
-      ],
-      "genre": "Racing",
-      "developer": "Safari MMS",
-      "downloads": "100,000+",
-      "realInstalls": 236797,
-      "realInstallsStr": "237K",
-      "perDay": 39466,
-      "days": 6,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": false,
-      "releaseDate": "Jul 22, 2026",
-      "lastUpdated": "Jul 23, 2026",
-      "summary": "Experience the ultimate rush of high-speed highway racing",
-      "url": "https://play.google.com/store/apps/details?id=com.sfr.real.traffic.car.simulator3d",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 39466,
-          "installs": 236797
+          "date": "2026-07-29",
+          "dpd": 38137,
+          "installs": 877156
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 39870,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -2972,8 +3182,8 @@
       "downloads": "500,000+",
       "realInstalls": 818598,
       "realInstallsStr": "819K",
-      "perDay": 38980,
-      "days": 21,
+      "perDay": 37209,
+      "days": 22,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -2989,11 +3199,118 @@
           "date": "2026-07-28",
           "dpd": 38980,
           "installs": 818598
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 37209,
+          "installs": 818598
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 38980,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.motamanta.velvet.crush",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Velvet Crush",
+      "icon": "https://play-lh.googleusercontent.com/w77qWpHbuWIxzECOBHIX_YZTJpNyR6Ywexgv0CKgIEtnBF4GZM_lrd8_Z6jKFbZH8znO267sDG_PJx_w3WeO",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/fxEkLggYA7HIYF8VEO5ZSCDCMf3Ly0NStu1ruU0hZ6cBrE-s6AzvV9sd1yt91I_ll-Yq5PePAXY4mGDwqd0B1Hk=w300",
+        "https://play-lh.googleusercontent.com/kGigJVcfW2zF_xnqRT2PW5lAWAQOzsnFHBZqRlX8x4j5gXMTxN5OgwK5PY3ggRvmoC0gJ3Hl_F0p5ssGAvlVqQ=w300",
+        "https://play-lh.googleusercontent.com/Brv1u00joFwYMXy_q7PXu-A0g4aNMHNyxIn1g2UShmPPSvtxDzNi9sSXeZJ7-wmr-LH8r9YhMi_V1rPgxTDg=w300",
+        "https://play-lh.googleusercontent.com/CzvxGAP0nojVYr1BBcwd62Ixi6eOCL1nebZy7W6iYe7m9pJhxL47GdskesgFPPsV0f5gh5mrntCgVt5jsJUpVP8=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Motmana",
+      "downloads": "100,000+",
+      "realInstalls": 483071,
+      "realInstallsStr": "483K",
+      "perDay": 37159,
+      "days": 13,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Mature 17+",
+      "offersIAP": false,
+      "releaseDate": "Jul 16, 2026",
+      "lastUpdated": "Jul 19, 2026",
+      "summary": "Smooth match-3 luxury. Experience rich puzzles with a velvety touch.",
+      "url": "https://play.google.com/store/apps/details?id=com.motamanta.velvet.crush",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-19",
+          "dpd": 155495,
+          "installs": 466486
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 116630,
+          "installs": 466520
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 40255,
+          "installs": 483071
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 37159,
+          "installs": 483071
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 40255,
+      "dpd_change_pct": -8,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.sfr.real.traffic.car.simulator3d",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Real Traffic Car Simulator 3D",
+      "icon": "https://play-lh.googleusercontent.com/J0tnRNVD0xqzGKKeI0NnMuyKLoyuCU00N9SIezYz5Q9VqSnEvbccyiwXd89nVIG8uW3sYpMXUoyQn8MwFvS7Yg",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/nC52BMFYaXX-PXENXCktG9440fBtEnBPEaQoWe8c51sv9wB7wx9_B_6h6tjXbrsX7I9Y4DbHVaMSlvlZkt6Zdg=w300",
+        "https://play-lh.googleusercontent.com/Tv2rAjmOczK2oJSsoDMjAb8tkTyniXDIxZ_roVO5zJPSgmUqkszJUhvQzuQsBFXRzzmxP5YBX0NO1m4nrXkD=w300",
+        "https://play-lh.googleusercontent.com/3aYg0JafkcK9GfzeR9bR9OuyH-YsH4txBQ74PsDODdLPyqLwVSQFHsafwkiQSYQGjGHpGoPny0XjmRcIqFu8ALs=w300",
+        "https://play-lh.googleusercontent.com/ZPc3c4pY2JXHhtxRUaQaufUwsGyKCXRhhPqgs5WoIjpS7_4ppCFYEmJ8ZIECanmEGAm60NwvrAA4uljtS6fs=w300"
+      ],
+      "genre": "Racing",
+      "developer": "Safari MMS",
+      "downloads": "100,000+",
+      "realInstalls": 258803,
+      "realInstallsStr": "259K",
+      "perDay": 36971,
+      "days": 7,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Jul 22, 2026",
+      "lastUpdated": "Jul 29, 2026",
+      "summary": "Experience the ultimate rush of high-speed highway racing",
+      "url": "https://play.google.com/store/apps/details?id=com.sfr.real.traffic.car.simulator3d",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 39466,
+          "installs": 236797
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 36971,
+          "installs": 258803
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 39466,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -3013,8 +3330,8 @@
       "downloads": "500,000+",
       "realInstalls": 560188,
       "realInstallsStr": "560K",
-      "perDay": 37345,
-      "days": 15,
+      "perDay": 35011,
+      "days": 16,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -3045,97 +3362,16 @@
           "date": "2026-07-28",
           "dpd": 37345,
           "installs": 560188
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 35011,
+          "installs": 560188
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 67649,
-      "dpd_change_pct": -45,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.gd.bus.simulator.game",
-      "emoji": "🚀",
-      "tag": "500K+",
-      "name": "Real Bus Simulator India",
-      "icon": "https://play-lh.googleusercontent.com/vYJFAdZ7gR84ce3Ihnh6Z6OY2qkgpimyVG_CfcK-HT3rDpPVbMfJsO59Qg8BcwlspydBkAmCnGuSNdUTHL1Whw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/13BsJjLe09Z-MsvnvTxvd_2AapCAXAcey1TXrrC_2U4ZpFVoafOtMPy9GXNGcKbxp8_YqVNWzz443uh9SHb9=w300",
-        "https://play-lh.googleusercontent.com/WlXSbvVVSOIXYHId9KD7jRqs8amCHBSp45xt_ldY2koDpJXrQ-dxFvkm8YvYfeFr1FUvSI98qr2mr66q3IHt8yc=w300",
-        "https://play-lh.googleusercontent.com/l9hA1y2AUfg-0QneQg4iWO216tgaRo5fX3Ob0ssHDIn7myMNoF2fctnOUWtI1kRRlfvZj50Z2HF5Q8k4rL2W=w300",
-        "https://play-lh.googleusercontent.com/Lx4PO8VAgaYwNigNuHgWKj1yVJ-N2sYRZx1fVhfubkUPaKVBrUSzBrvL1hONiZ74tReu1-KnZcHw4RXyNpk7hTw=w300"
-      ],
-      "genre": "Simulation",
-      "developer": "Gen Dev Studio",
-      "downloads": "500,000+",
-      "realInstalls": 693362,
-      "realInstallsStr": "693K",
-      "perDay": 33017,
-      "days": 21,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Teen",
-      "offersIAP": false,
-      "releaseDate": "Jul 7, 2026",
-      "lastUpdated": "",
-      "summary": "Drive real Indian buses, explore cities and handle chaotic traffic.",
-      "url": "https://play.google.com/store/apps/details?id=com.gd.bus.simulator.game",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-09",
-          "dpd": 250834,
-          "installs": 501669
-        },
-        {
-          "date": "2026-07-10",
-          "dpd": 167261,
-          "installs": 501785
-        },
-        {
-          "date": "2026-07-12",
-          "dpd": 109409,
-          "installs": 547049
-        },
-        {
-          "date": "2026-07-13",
-          "dpd": 96640,
-          "installs": 579843
-        },
-        {
-          "date": "2026-07-14",
-          "dpd": 82967,
-          "installs": 580773
-        },
-        {
-          "date": "2026-07-15",
-          "dpd": 75787,
-          "installs": 606300
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 55140,
-          "installs": 606550
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 52227,
-          "installs": 626730
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 48235,
-          "installs": 627067
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 33017,
-          "installs": 693362
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 48235,
-      "dpd_change_pct": -32,
+      "trend": "stable",
+      "dpd_prev": 37345,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -3155,11 +3391,11 @@
       "downloads": "500,000+",
       "realInstalls": 946666,
       "realInstallsStr": "947K",
-      "perDay": 32643,
-      "days": 29,
+      "perDay": 31555,
+      "days": 30,
       "score": 4.2,
-      "ratings": 754,
-      "ratingsStr": "754",
+      "ratings": 791,
+      "ratingsStr": "791",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Jun 29, 2026",
@@ -3257,67 +3493,107 @@
           "date": "2026-07-28",
           "dpd": 32643,
           "installs": 946666
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 31555,
+          "installs": 946666
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 40201,
-      "dpd_change_pct": -19,
+      "trend": "stable",
+      "dpd_prev": 32643,
+      "dpd_change_pct": -3,
       "isWatchlist": false
     },
     {
-      "id": "com.gaming.mob.airplane.flight.simulator.games",
+      "id": "com.gd.bus.simulator.game",
       "emoji": "🚀",
-      "tag": "100K+",
-      "name": "City Airplane Flight Games 3D",
-      "icon": "https://play-lh.googleusercontent.com/Xh8seTDnjwd7mDea5_z3Fb8J1nKGOuiPBKe7OVPNXtU152K1AqmURQ2ye5WLR3UNBp4eOGZyubjULUUba-frxcI",
+      "tag": "500K+",
+      "name": "Real Bus Simulator India",
+      "icon": "https://play-lh.googleusercontent.com/vYJFAdZ7gR84ce3Ihnh6Z6OY2qkgpimyVG_CfcK-HT3rDpPVbMfJsO59Qg8BcwlspydBkAmCnGuSNdUTHL1Whw",
       "screenshots": [
-        "https://play-lh.googleusercontent.com/uIxqJbLKk-7QSGSxTAASqVFw8dSSfaNSMWG7ZucrpFbX7MLjLTkrEf_a0UumaZfWQwktsjzbScrNo4Qk7ilVdqM=w300",
-        "https://play-lh.googleusercontent.com/WgeWupjAVK2O9l4abmWpFI1KzJhgA0HQAO4fF2HbxthpP4YKvBb6M7HQo0ueOi0N1c1zFGSoRmV7MzcwOWpr=w300",
-        "https://play-lh.googleusercontent.com/ItwbwuiufcI2te3qV3pYIiEUg72RIuIq7BSI7eAY22B8S9EoFCVA0t8cYWl5xvsbifAVVfOhH7W2Dx6enXkcWA=w300",
-        "https://play-lh.googleusercontent.com/LZ6fTiCKW94HaN9ni62b5ku1DOjXpiPbre0AtoGYibomg38j6nLZGDkfb_gkDC7XUPiM_qfNpgq0akiwaxFRfMk=w300"
+        "https://play-lh.googleusercontent.com/13BsJjLe09Z-MsvnvTxvd_2AapCAXAcey1TXrrC_2U4ZpFVoafOtMPy9GXNGcKbxp8_YqVNWzz443uh9SHb9=w300",
+        "https://play-lh.googleusercontent.com/WlXSbvVVSOIXYHId9KD7jRqs8amCHBSp45xt_ldY2koDpJXrQ-dxFvkm8YvYfeFr1FUvSI98qr2mr66q3IHt8yc=w300",
+        "https://play-lh.googleusercontent.com/l9hA1y2AUfg-0QneQg4iWO216tgaRo5fX3Ob0ssHDIn7myMNoF2fctnOUWtI1kRRlfvZj50Z2HF5Q8k4rL2W=w300",
+        "https://play-lh.googleusercontent.com/Lx4PO8VAgaYwNigNuHgWKj1yVJ-N2sYRZx1fVhfubkUPaKVBrUSzBrvL1hONiZ74tReu1-KnZcHw4RXyNpk7hTw=w300"
       ],
-      "genre": "Role Playing",
-      "developer": "Gaming Mob",
-      "downloads": "100,000+",
-      "realInstalls": 417907,
-      "realInstallsStr": "418K",
-      "perDay": 32146,
-      "days": 13,
+      "genre": "Simulation",
+      "developer": "Gen Dev Studio",
+      "downloads": "500,000+",
+      "realInstalls": 693362,
+      "realInstallsStr": "693K",
+      "perDay": 31516,
+      "days": 22,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
-      "contentRating": "Everyone",
+      "contentRating": "Teen",
       "offersIAP": false,
-      "releaseDate": "Jul 15, 2026",
-      "lastUpdated": "Jul 15, 2026",
-      "summary": "Try Airplane Flight Simulator Games and master Plane Landing and Flying skills.",
-      "url": "https://play.google.com/store/apps/details?id=com.gaming.mob.airplane.flight.simulator.games",
+      "releaseDate": "Jul 7, 2026",
+      "lastUpdated": "",
+      "summary": "Drive real Indian buses, explore cities and handle chaotic traffic.",
+      "url": "https://play.google.com/store/apps/details?id=com.gd.bus.simulator.game",
       "reviewsByDay": [],
       "dpdHistory": [
         {
+          "date": "2026-07-09",
+          "dpd": 250834,
+          "installs": 501669
+        },
+        {
+          "date": "2026-07-10",
+          "dpd": 167261,
+          "installs": 501785
+        },
+        {
+          "date": "2026-07-12",
+          "dpd": 109409,
+          "installs": 547049
+        },
+        {
+          "date": "2026-07-13",
+          "dpd": 96640,
+          "installs": 579843
+        },
+        {
+          "date": "2026-07-14",
+          "dpd": 82967,
+          "installs": 580773
+        },
+        {
+          "date": "2026-07-15",
+          "dpd": 75787,
+          "installs": 606300
+        },
+        {
           "date": "2026-07-18",
-          "dpd": 121589,
-          "installs": 364767
+          "dpd": 55140,
+          "installs": 606550
         },
         {
           "date": "2026-07-19",
-          "dpd": 91675,
-          "installs": 366702
+          "dpd": 52227,
+          "installs": 626730
         },
         {
           "date": "2026-07-20",
-          "dpd": 73340,
-          "installs": 366702
+          "dpd": 48235,
+          "installs": 627067
         },
         {
           "date": "2026-07-28",
-          "dpd": 32146,
-          "installs": 417907
+          "dpd": 33017,
+          "installs": 693362
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 31516,
+          "installs": 693362
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 73340,
-      "dpd_change_pct": -56,
+      "trend": "stable",
+      "dpd_prev": 33017,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -3337,11 +3613,11 @@
       "downloads": "500,000+",
       "realInstalls": 694453,
       "realInstallsStr": "694K",
-      "perDay": 31566,
-      "days": 22,
+      "perDay": 30193,
+      "days": 23,
       "score": 4.4,
-      "ratings": 105,
-      "ratingsStr": "105",
+      "ratings": 113,
+      "ratingsStr": "113",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Jul 6, 2026",
@@ -3409,52 +3685,77 @@
           "date": "2026-07-28",
           "dpd": 31566,
           "installs": 694453
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 30193,
+          "installs": 694453
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 40076,
-      "dpd_change_pct": -21,
+      "trend": "stable",
+      "dpd_prev": 31566,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
-      "id": "com.gsb17.funnyraccoon.pranksim",
+      "id": "com.gaming.mob.airplane.flight.simulator.games",
       "emoji": "🚀",
       "tag": "100K+",
-      "name": "Taxi Car Robot Transformation",
-      "icon": "https://play-lh.googleusercontent.com/7mZ6tFIqKYvHVUA1klUmvG00iuGxJPAvoOnwB0Qm2_UbQBKkxZt60BlL4ZcKAwf8rLo1iJtWumn9Vrbagi9O6w",
+      "name": "City Airplane Flight Games 3D",
+      "icon": "https://play-lh.googleusercontent.com/Xh8seTDnjwd7mDea5_z3Fb8J1nKGOuiPBKe7OVPNXtU152K1AqmURQ2ye5WLR3UNBp4eOGZyubjULUUba-frxcI",
       "screenshots": [
-        "https://play-lh.googleusercontent.com/IenCxNwzXLTsk4n-WEDLoNtdse2Vl1LTlpJnyInou82e9o3Nrsk9CkdHm7KFSlgaH5vRcffY2ss_r5Jiy7LzkQ8=w300",
-        "https://play-lh.googleusercontent.com/l-00L2DKFexRZ28vMkjb2OAG-xqaBprqbivTT0QnChBELlXKHK8BvsZarm0q8Qy2jIpMAP7somVGhHxsK7zQWg=w300",
-        "https://play-lh.googleusercontent.com/7Zz9sj0W0JpTSJ_EQQCdUB7zVpZSj2P4h5SzlMPbxejBG8fzWJu6X2ZtnKLm-ugmN_RoovkPCR7P6FiVYj2fKXI=w300",
-        "https://play-lh.googleusercontent.com/17ME1zIGs6ofONUdozPCAkVgVVuro6b4c4ugeEcO99NIPsFe3WcM3d8M0ynh4k1lwROh8r9b7FMtHqxEqTlwrw=w300"
+        "https://play-lh.googleusercontent.com/uIxqJbLKk-7QSGSxTAASqVFw8dSSfaNSMWG7ZucrpFbX7MLjLTkrEf_a0UumaZfWQwktsjzbScrNo4Qk7ilVdqM=w300",
+        "https://play-lh.googleusercontent.com/WgeWupjAVK2O9l4abmWpFI1KzJhgA0HQAO4fF2HbxthpP4YKvBb6M7HQo0ueOi0N1c1zFGSoRmV7MzcwOWpr=w300",
+        "https://play-lh.googleusercontent.com/ItwbwuiufcI2te3qV3pYIiEUg72RIuIq7BSI7eAY22B8S9EoFCVA0t8cYWl5xvsbifAVVfOhH7W2Dx6enXkcWA=w300",
+        "https://play-lh.googleusercontent.com/LZ6fTiCKW94HaN9ni62b5ku1DOjXpiPbre0AtoGYibomg38j6nLZGDkfb_gkDC7XUPiM_qfNpgq0akiwaxFRfMk=w300"
       ],
-      "genre": "Action",
-      "developer": "Capricorn Studioz",
+      "genre": "Role Playing",
+      "developer": "Gaming Mob",
       "downloads": "100,000+",
-      "realInstalls": 466734,
-      "realInstallsStr": "467K",
-      "perDay": 31115,
-      "days": 15,
+      "realInstalls": 417907,
+      "realInstallsStr": "418K",
+      "perDay": 29850,
+      "days": 14,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Jul 13, 2026",
-      "lastUpdated": "Jul 13, 2026",
-      "summary": "Transform robots and fight epic battles in an action packed robot fighting game.",
-      "url": "https://play.google.com/store/apps/details?id=com.gsb17.funnyraccoon.pranksim",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Jul 15, 2026",
+      "lastUpdated": "Jul 15, 2026",
+      "summary": "Try Airplane Flight Simulator Games and master Plane Landing and Flying skills.",
+      "url": "https://play.google.com/store/apps/details?id=com.gaming.mob.airplane.flight.simulator.games",
       "reviewsByDay": [],
       "dpdHistory": [
         {
+          "date": "2026-07-18",
+          "dpd": 121589,
+          "installs": 364767
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 91675,
+          "installs": 366702
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 73340,
+          "installs": 366702
+        },
+        {
           "date": "2026-07-28",
-          "dpd": 31115,
-          "installs": 466734
+          "dpd": 32146,
+          "installs": 417907
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 29850,
+          "installs": 417907
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 32146,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -3474,8 +3775,8 @@
       "downloads": "500,000+",
       "realInstalls": 820809,
       "realInstallsStr": "821K",
-      "perDay": 30400,
-      "days": 27,
+      "perDay": 29314,
+      "days": 28,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -3566,11 +3867,108 @@
           "date": "2026-07-28",
           "dpd": 30400,
           "installs": 820809
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 29314,
+          "installs": 820809
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 42661,
-      "dpd_change_pct": -29,
+      "trend": "stable",
+      "dpd_prev": 30400,
+      "dpd_change_pct": -4,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.gsb17.funnyraccoon.pranksim",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Taxi Car Robot Transformation",
+      "icon": "https://play-lh.googleusercontent.com/7mZ6tFIqKYvHVUA1klUmvG00iuGxJPAvoOnwB0Qm2_UbQBKkxZt60BlL4ZcKAwf8rLo1iJtWumn9Vrbagi9O6w",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/IenCxNwzXLTsk4n-WEDLoNtdse2Vl1LTlpJnyInou82e9o3Nrsk9CkdHm7KFSlgaH5vRcffY2ss_r5Jiy7LzkQ8=w300",
+        "https://play-lh.googleusercontent.com/l-00L2DKFexRZ28vMkjb2OAG-xqaBprqbivTT0QnChBELlXKHK8BvsZarm0q8Qy2jIpMAP7somVGhHxsK7zQWg=w300",
+        "https://play-lh.googleusercontent.com/7Zz9sj0W0JpTSJ_EQQCdUB7zVpZSj2P4h5SzlMPbxejBG8fzWJu6X2ZtnKLm-ugmN_RoovkPCR7P6FiVYj2fKXI=w300",
+        "https://play-lh.googleusercontent.com/17ME1zIGs6ofONUdozPCAkVgVVuro6b4c4ugeEcO99NIPsFe3WcM3d8M0ynh4k1lwROh8r9b7FMtHqxEqTlwrw=w300"
+      ],
+      "genre": "Action",
+      "developer": "Capricorn Studioz",
+      "downloads": "100,000+",
+      "realInstalls": 466734,
+      "realInstallsStr": "467K",
+      "perDay": 29170,
+      "days": 16,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Jul 13, 2026",
+      "lastUpdated": "Jul 13, 2026",
+      "summary": "Transform robots and fight epic battles in an action packed robot fighting game.",
+      "url": "https://play.google.com/store/apps/details?id=com.gsb17.funnyraccoon.pranksim",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 31115,
+          "installs": 466734
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 29170,
+          "installs": 466734
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 31115,
+      "dpd_change_pct": -6,
+      "isWatchlist": false
+    },
+    {
+      "id": "game.qualiarts.hololive.dreams.com",
+      "emoji": "🚀",
+      "tag": "500K+",
+      "name": "hololive Dreams",
+      "icon": "https://play-lh.googleusercontent.com/0ic1Lk3doNRloIKJFGjBLiZBxpwLj61z2U6uV9ZpK21CjnjHiGF4tXS4mBCUwrKx_5O5hJ6GeJL1A1TBl3AM2v8",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/npWR4HaQRYFDkMAW2TEDGjTnoBoud9KIluNl7FSyJJc_uSAQnferA8zIPOJY6b7N0uDmCXmQg7biuRMvgmthQiQ=w300",
+        "https://play-lh.googleusercontent.com/6MfPPDDTE2NJo-9z1vDdaMQ7_FxbNvr93kDQ-hkPlkO40s_B5WWZkQezDESNOJmcEGtJ6CLy0AuEy78Vk9d8kA=w300",
+        "https://play-lh.googleusercontent.com/3yoiXMRV-0j-oQXZ__zmK-XRrgMt-Hyrk8-G-SyaKTqYUqSd_Nxiw2FTXaJjxYISc1VQLWfgJ6Jr_oWGONT0Lw=w300",
+        "https://play-lh.googleusercontent.com/XFAsy7Dx7qaN6ujUlDsu9tR1RLfwb7LCODfLqsQn_MlU3Wu-BMzlPW-mD3cV8lskwMSExGbXsFNYvNwpiXbIWw=w300"
+      ],
+      "genre": "Music",
+      "developer": "QualiArts, Inc.",
+      "downloads": "500,000+",
+      "realInstalls": 573616,
+      "realInstallsStr": "574K",
+      "perDay": 28680,
+      "days": 20,
+      "score": 4.8,
+      "ratings": 37084,
+      "ratingsStr": "37K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 9, 2026",
+      "lastUpdated": "Jul 9, 2026",
+      "summary": "Official hololive Mobile Game",
+      "url": "https://play.google.com/store/apps/details?id=game.qualiarts.hololive.dreams.com",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 24319,
+          "installs": 462064
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 28680,
+          "installs": 573616
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 24319,
+      "dpd_change_pct": 18,
       "isWatchlist": false
     },
     {
@@ -3588,17 +3986,17 @@
       "genre": "Casual",
       "developer": "Phone Games Studio",
       "downloads": "500,000+",
-      "realInstalls": 549991,
-      "realInstallsStr": "550K",
-      "perDay": 28946,
-      "days": 19,
-      "score": 3,
-      "ratings": 31,
-      "ratingsStr": "31",
+      "realInstalls": 556063,
+      "realInstallsStr": "556K",
+      "perDay": 27803,
+      "days": 20,
+      "score": 2.8,
+      "ratings": 33,
+      "ratingsStr": "33",
       "contentRating": "Everyone",
-      "offersIAP": false,
+      "offersIAP": true,
       "releaseDate": "Jul 9, 2026",
-      "lastUpdated": "",
+      "lastUpdated": "Jul 28, 2026",
       "summary": "SatisMerge ASMR relaxing games with satisfying puzzles & stress relief",
       "url": "https://play.google.com/store/apps/details?id=com.pgs.asmr.satisfying.tidy.mini.games",
       "reviewsByDay": [],
@@ -3632,11 +4030,16 @@
           "date": "2026-07-28",
           "dpd": 28946,
           "installs": 549991
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 27803,
+          "installs": 556063
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 45210,
-      "dpd_change_pct": -36,
+      "trend": "stable",
+      "dpd_prev": 28946,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -3656,11 +4059,11 @@
       "downloads": "500,000+",
       "realInstalls": 797963,
       "realInstallsStr": "798K",
-      "perDay": 27515,
-      "days": 29,
+      "perDay": 26598,
+      "days": 30,
       "score": 2.7,
-      "ratings": 362,
-      "ratingsStr": "362",
+      "ratings": 380,
+      "ratingsStr": "380",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jun 29, 2026",
@@ -3763,11 +4166,77 @@
           "date": "2026-07-28",
           "dpd": 27515,
           "installs": 797963
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 26598,
+          "installs": 797963
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 33034,
-      "dpd_change_pct": -17,
+      "trend": "stable",
+      "dpd_prev": 27515,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.bibota.blocky",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Blocky Quest: 3D Platformer",
+      "icon": "https://play-lh.googleusercontent.com/D1u94LB7ZTeXUGL3DAQhPsKTUuJvhOGeHJiX5dNZBSttFMgqygRrSj3ioT8qMspdH_v8xrYTxwL2j88-EK_Uiw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/ly289xzpPaSLS8XkAbotfO6zgxAff7yMZQrJrRhJGujNwFCqDJkzn7h3rOl8Xh0gUzfxvmXQczBPfQxT5d-BIw=w300",
+        "https://play-lh.googleusercontent.com/jG-w_SzrEOcBuSyhbUSMV0nBM6YOJsQ0zewtIFNiz0-hYooaBuOlpbs3Xbk_E3vR9WZSP3nvVqM7eEGarm5r4w=w300",
+        "https://play-lh.googleusercontent.com/Ec7SGMhOHXjoHLuJOADcDSKjaEqmvPdJUBlI-FdUzCOZcDbGz9UHlDQfmXNu3zCd7ndjoqJk2kssVlZwnx1KJA=w300",
+        "https://play-lh.googleusercontent.com/AZQPPGT1r5tFJ78_uUB04vasBqUi6IS3hijjI7dzj2Q1MEst9C7bUdC-tlik5OAi-tzb-Kb3P_ekpra1cOZ9ng=w300"
+      ],
+      "genre": "Adventure",
+      "developer": "Bibota",
+      "downloads": "100,000+",
+      "realInstalls": 425578,
+      "realInstallsStr": "426K",
+      "perDay": 25034,
+      "days": 17,
+      "score": 4.1,
+      "ratings": 81,
+      "ratingsStr": "81",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 12, 2026",
+      "lastUpdated": "Jul 13, 2026",
+      "summary": "Explore a massive 3D voxel world! Jump, dash & fight in this epic adventure.",
+      "url": "https://play.google.com/store/apps/details?id=com.bibota.blocky",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-18",
+          "dpd": 54179,
+          "installs": 325076
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 47758,
+          "installs": 334311
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 41948,
+          "installs": 335588
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 26598,
+          "installs": 425578
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 25034,
+          "installs": 425578
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 26598,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -3787,8 +4256,8 @@
       "downloads": "100,000+",
       "realInstalls": 348492,
       "realInstallsStr": "348K",
-      "perDay": 26807,
-      "days": 13,
+      "perDay": 24892,
+      "days": 14,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -3819,67 +4288,16 @@
           "date": "2026-07-28",
           "dpd": 26807,
           "installs": 348492
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 24892,
+          "installs": 348492
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 56911,
-      "dpd_change_pct": -53,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.bibota.blocky",
-      "emoji": "🚀",
-      "tag": "100K+",
-      "name": "Blocky Quest: 3D Platformer",
-      "icon": "https://play-lh.googleusercontent.com/D1u94LB7ZTeXUGL3DAQhPsKTUuJvhOGeHJiX5dNZBSttFMgqygRrSj3ioT8qMspdH_v8xrYTxwL2j88-EK_Uiw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/ly289xzpPaSLS8XkAbotfO6zgxAff7yMZQrJrRhJGujNwFCqDJkzn7h3rOl8Xh0gUzfxvmXQczBPfQxT5d-BIw=w300",
-        "https://play-lh.googleusercontent.com/jG-w_SzrEOcBuSyhbUSMV0nBM6YOJsQ0zewtIFNiz0-hYooaBuOlpbs3Xbk_E3vR9WZSP3nvVqM7eEGarm5r4w=w300",
-        "https://play-lh.googleusercontent.com/Ec7SGMhOHXjoHLuJOADcDSKjaEqmvPdJUBlI-FdUzCOZcDbGz9UHlDQfmXNu3zCd7ndjoqJk2kssVlZwnx1KJA=w300",
-        "https://play-lh.googleusercontent.com/AZQPPGT1r5tFJ78_uUB04vasBqUi6IS3hijjI7dzj2Q1MEst9C7bUdC-tlik5OAi-tzb-Kb3P_ekpra1cOZ9ng=w300"
-      ],
-      "genre": "Adventure",
-      "developer": "Bibota",
-      "downloads": "100,000+",
-      "realInstalls": 425578,
-      "realInstallsStr": "426K",
-      "perDay": 26598,
-      "days": 16,
-      "score": 4,
-      "ratings": 72,
-      "ratingsStr": "72",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 12, 2026",
-      "lastUpdated": "Jul 13, 2026",
-      "summary": "Explore a massive 3D voxel world! Jump, dash & fight in this epic adventure.",
-      "url": "https://play.google.com/store/apps/details?id=com.bibota.blocky",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 54179,
-          "installs": 325076
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 47758,
-          "installs": 334311
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 41948,
-          "installs": 335588
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 26598,
-          "installs": 425578
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 41948,
-      "dpd_change_pct": -37,
+      "trend": "stable",
+      "dpd_prev": 26807,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -3899,8 +4317,8 @@
       "downloads": "100,000+",
       "realInstalls": 391801,
       "realInstallsStr": "392K",
-      "perDay": 26120,
-      "days": 15,
+      "perDay": 24487,
+      "days": 16,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -3926,52 +4344,107 @@
           "date": "2026-07-28",
           "dpd": 26120,
           "installs": 391801
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 24487,
+          "installs": 391801
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 46149,
-      "dpd_change_pct": -43,
+      "trend": "stable",
+      "dpd_prev": 26120,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
-      "id": "com.fashionworld.indianwedding.dressup.makeupgame",
+      "id": "com.mahjong.cashlink.gg",
       "emoji": "🚀",
-      "tag": "100K+",
-      "name": "Bridal Wedding: DressUp Makeup",
-      "icon": "https://play-lh.googleusercontent.com/_bi2iIXs6BqIfC1kONNVGDcQHs-UBehi2iqsqqoknHeiA_Ag8SOXNBcSaYSeqrqHPfY5lmiQEA-4OKqCtlZXpjc",
+      "tag": "500K+",
+      "name": "Mahjong Cash Link",
+      "icon": "https://play-lh.googleusercontent.com/4f66rjWf38K4u8e8Q3bjtw2fZyK7R1NkWa0aSGVBOy5ltXEOarOydR0pcmxyf7hGkKgzSZKjswzz5YcBKP-B0w",
       "screenshots": [
-        "https://play-lh.googleusercontent.com/sPSMswhySxXy9IOWDVF1Jt8T15zhqDT5vFuzU2mWxujXnxpUVOhvuKj9tE9ikGy5bysZGxyFq4TaPsnuc_dWkQ=w300",
-        "https://play-lh.googleusercontent.com/0DL4A0QNzxT7XnRIdWWTPk9rcJ_PvYjvf1mWNaByIt65GUxjj15-9CjVtWv95_d6uf6apxsgpJAWW-zv45k3=w300",
-        "https://play-lh.googleusercontent.com/aGgI44QKrPeYWFs_EKMlykyG1GNHZqZJp2py9m30nw47wMk5aPx2vbOE1yciHBd3Tht_IoQill95QUP5cFiVzA=w300",
-        "https://play-lh.googleusercontent.com/i1U2ZuPsDVdsU2RQl-C2lBySajdM2CqCejRTmGwp93Nt1en-VkE_bz8Z3tjeQk9yYOyVPYp4uwk74OJ8uCS1YA=w300"
+        "https://play-lh.googleusercontent.com/xF-uWSfm5MSfatDmPOzE02b-fRVz-_It7gfGk6SinrfgcpIUsTdZ6A0nrKakf7zkKkoyRlI40cQ1pqU33zCncw=w300",
+        "https://play-lh.googleusercontent.com/m_xQG6Mlhl8weeTzk2Jxh77Z6sG413XNjoUyKQGJ67_YOJE_lEm_fuJzUwBzs8mSCP5hbc8e6BfO0GBoFYm-=w300",
+        "https://play-lh.googleusercontent.com/CKcQGDKS2cjh3ujbeFgI94uLdzAZaVkW4ZZ3AE-ID7f2Uz4iQHvofXU7uHJJ4zKrVyc33jVJ9M5hXvwunwrW=w300",
+        "https://play-lh.googleusercontent.com/bNg7eSjjWmLa6sCWtNwLC3LwIKAvXk0VkJ1WtJhMafk689F6MLDOX6r6gh5FRvZMX5UzmwsbQrwcKIxmjTOcNgQ=w300"
       ],
       "genre": "Casual",
-      "developer": "Code Tech Media",
-      "downloads": "100,000+",
-      "realInstalls": 201670,
-      "realInstallsStr": "202K",
-      "perDay": 25208,
-      "days": 8,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
+      "developer": "Jva TTC",
+      "downloads": "500,000+",
+      "realInstalls": 510424,
+      "realInstallsStr": "510K",
+      "perDay": 24305,
+      "days": 21,
+      "score": 4.3,
+      "ratings": 12233,
+      "ratingsStr": "12K",
+      "contentRating": "Mature 17+",
       "offersIAP": false,
-      "releaseDate": "Jul 20, 2026",
-      "lastUpdated": "",
-      "summary": "Create stunning Indian bridal looks with makeup, dress up & makeover fun!",
-      "url": "https://play.google.com/store/apps/details?id=com.fashionworld.indianwedding.dressup.makeupgame",
+      "releaseDate": "Jul 8, 2026",
+      "lastUpdated": "Jul 10, 2026",
+      "summary": "Match mahjong tiles, clear the board and relax through 1000+ levels.",
+      "url": "https://play.google.com/store/apps/details?id=com.mahjong.cashlink.gg",
       "reviewsByDay": [],
       "dpdHistory": [
         {
+          "date": "2026-07-10",
+          "dpd": 28220,
+          "installs": 56440
+        },
+        {
+          "date": "2026-07-11",
+          "dpd": 37596,
+          "installs": 112788
+        },
+        {
+          "date": "2026-07-12",
+          "dpd": 28197,
+          "installs": 112788
+        },
+        {
+          "date": "2026-07-13",
+          "dpd": 30102,
+          "installs": 150512
+        },
+        {
+          "date": "2026-07-14",
+          "dpd": 28956,
+          "installs": 173737
+        },
+        {
+          "date": "2026-07-15",
+          "dpd": 30479,
+          "installs": 213353
+        },
+        {
+          "date": "2026-07-18",
+          "dpd": 25740,
+          "installs": 257408
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 25518,
+          "installs": 280698
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 25275,
+          "installs": 303307
+        },
+        {
           "date": "2026-07-28",
-          "dpd": 25208,
-          "installs": 201670
+          "dpd": 23503,
+          "installs": 470073
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 24305,
+          "installs": 510424
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 23503,
+      "dpd_change_pct": 3,
       "isWatchlist": false
     },
     {
@@ -3991,8 +4464,8 @@
       "downloads": "100,000+",
       "realInstalls": 374817,
       "realInstallsStr": "375K",
-      "perDay": 24987,
-      "days": 15,
+      "perDay": 23426,
+      "days": 16,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -4013,52 +4486,16 @@
           "date": "2026-07-28",
           "dpd": 24987,
           "installs": 374817
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 45376,
-      "dpd_change_pct": -45,
-      "isWatchlist": false
-    },
-    {
-      "id": "game.qualiarts.hololive.dreams.com",
-      "emoji": "🚀",
-      "tag": "100K+",
-      "name": "hololive Dreams",
-      "icon": "https://play-lh.googleusercontent.com/0ic1Lk3doNRloIKJFGjBLiZBxpwLj61z2U6uV9ZpK21CjnjHiGF4tXS4mBCUwrKx_5O5hJ6GeJL1A1TBl3AM2v8",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/npWR4HaQRYFDkMAW2TEDGjTnoBoud9KIluNl7FSyJJc_uSAQnferA8zIPOJY6b7N0uDmCXmQg7biuRMvgmthQiQ=w300",
-        "https://play-lh.googleusercontent.com/6MfPPDDTE2NJo-9z1vDdaMQ7_FxbNvr93kDQ-hkPlkO40s_B5WWZkQezDESNOJmcEGtJ6CLy0AuEy78Vk9d8kA=w300",
-        "https://play-lh.googleusercontent.com/3yoiXMRV-0j-oQXZ__zmK-XRrgMt-Hyrk8-G-SyaKTqYUqSd_Nxiw2FTXaJjxYISc1VQLWfgJ6Jr_oWGONT0Lw=w300",
-        "https://play-lh.googleusercontent.com/XFAsy7Dx7qaN6ujUlDsu9tR1RLfwb7LCODfLqsQn_MlU3Wu-BMzlPW-mD3cV8lskwMSExGbXsFNYvNwpiXbIWw=w300"
-      ],
-      "genre": "Music",
-      "developer": "QualiArts, Inc.",
-      "downloads": "100,000+",
-      "realInstalls": 462064,
-      "realInstallsStr": "462K",
-      "perDay": 24319,
-      "days": 19,
-      "score": 4.8,
-      "ratings": 34418,
-      "ratingsStr": "34K",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 9, 2026",
-      "lastUpdated": "Jul 9, 2026",
-      "summary": "Official hololive Mobile Game",
-      "url": "https://play.google.com/store/apps/details?id=game.qualiarts.hololive.dreams.com",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 24319,
-          "installs": 462064
+          "date": "2026-07-29",
+          "dpd": 23426,
+          "installs": 374817
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 24987,
+      "dpd_change_pct": -6,
       "isWatchlist": false
     },
     {
@@ -4078,11 +4515,11 @@
       "downloads": "500,000+",
       "realInstalls": 558089,
       "realInstallsStr": "558K",
-      "perDay": 24264,
-      "days": 23,
+      "perDay": 23253,
+      "days": 24,
       "score": 2.7,
-      "ratings": 495,
-      "ratingsStr": "495",
+      "ratings": 510,
+      "ratingsStr": "510",
       "contentRating": "Mature 17+",
       "offersIAP": false,
       "releaseDate": "Jul 5, 2026",
@@ -4150,138 +4587,16 @@
           "date": "2026-07-28",
           "dpd": 24264,
           "installs": 558089
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 31940,
-      "dpd_change_pct": -24,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.mahjong.cashlink.gg",
-      "emoji": "🚀",
-      "tag": "100K+",
-      "name": "Mahjong Cash Link",
-      "icon": "https://play-lh.googleusercontent.com/4f66rjWf38K4u8e8Q3bjtw2fZyK7R1NkWa0aSGVBOy5ltXEOarOydR0pcmxyf7hGkKgzSZKjswzz5YcBKP-B0w",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/xF-uWSfm5MSfatDmPOzE02b-fRVz-_It7gfGk6SinrfgcpIUsTdZ6A0nrKakf7zkKkoyRlI40cQ1pqU33zCncw=w300",
-        "https://play-lh.googleusercontent.com/m_xQG6Mlhl8weeTzk2Jxh77Z6sG413XNjoUyKQGJ67_YOJE_lEm_fuJzUwBzs8mSCP5hbc8e6BfO0GBoFYm-=w300",
-        "https://play-lh.googleusercontent.com/CKcQGDKS2cjh3ujbeFgI94uLdzAZaVkW4ZZ3AE-ID7f2Uz4iQHvofXU7uHJJ4zKrVyc33jVJ9M5hXvwunwrW=w300",
-        "https://play-lh.googleusercontent.com/bNg7eSjjWmLa6sCWtNwLC3LwIKAvXk0VkJ1WtJhMafk689F6MLDOX6r6gh5FRvZMX5UzmwsbQrwcKIxmjTOcNgQ=w300"
-      ],
-      "genre": "Casual",
-      "developer": "Jva TTC",
-      "downloads": "100,000+",
-      "realInstalls": 470073,
-      "realInstallsStr": "470K",
-      "perDay": 23503,
-      "days": 20,
-      "score": 4.4,
-      "ratings": 11639,
-      "ratingsStr": "11K",
-      "contentRating": "Mature 17+",
-      "offersIAP": false,
-      "releaseDate": "Jul 8, 2026",
-      "lastUpdated": "Jul 10, 2026",
-      "summary": "Match mahjong tiles, clear the board and relax through 1000+ levels.",
-      "url": "https://play.google.com/store/apps/details?id=com.mahjong.cashlink.gg",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-10",
-          "dpd": 28220,
-          "installs": 56440
         },
         {
-          "date": "2026-07-11",
-          "dpd": 37596,
-          "installs": 112788
-        },
-        {
-          "date": "2026-07-12",
-          "dpd": 28197,
-          "installs": 112788
-        },
-        {
-          "date": "2026-07-13",
-          "dpd": 30102,
-          "installs": 150512
-        },
-        {
-          "date": "2026-07-14",
-          "dpd": 28956,
-          "installs": 173737
-        },
-        {
-          "date": "2026-07-15",
-          "dpd": 30479,
-          "installs": 213353
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 25740,
-          "installs": 257408
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 25518,
-          "installs": 280698
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 25275,
-          "installs": 303307
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 23503,
-          "installs": 470073
+          "date": "2026-07-29",
+          "dpd": 23253,
+          "installs": 558089
         }
       ],
       "trend": "stable",
-      "dpd_prev": 25275,
-      "dpd_change_pct": -7,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.pixelfederation.truck.real.simulator.transport.tycoon.offroad.manager",
-      "emoji": "🚀",
-      "tag": "100K+",
-      "name": "Highway Heroes: Truck Manager",
-      "icon": "https://play-lh.googleusercontent.com/vNOQycUWwtISdf5csnyxRq8VdwTgXax1YfMRs45KwLrg81lNVjpkQDQ6VV8eONN_Bw03Lz9LbLD5ED3KFBXB8Tk",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/0-kOjSm8RqNmwYnuq0FoSmvh30mGZF0OHloq0jHyG_I0kX9or5UG2WlFiG68vcdnTiuZlnvkURsFuOHK4bXbkQ=w300",
-        "https://play-lh.googleusercontent.com/X55IMn3WOdk3zVNfrqOrre8-SfVJLJzXOT_fEyBw6oNZgvC7zqjWu2D7-16pXpKl0K1mrqjyBkAcuunxj9Dasg=w300",
-        "https://play-lh.googleusercontent.com/b71a01NKu7DjsiOmyrD0ET5DtTCg1EKIVnckSsyns-b9Ab8CWAXGRG5h-jpoV_BwLckDq_Pl0GSGqoj3IMHwDw=w300",
-        "https://play-lh.googleusercontent.com/NADQFZBbRLYTiGXi6_KgoeSvmOsY_H2BAQLEPALebcSacfOhMqlY02BvVYKymk8aVgcSZGND4YTMja2GP1Wfrg=w300"
-      ],
-      "genre": "Strategy",
-      "developer": "PIXEL FEDERATION, s.r.o.",
-      "downloads": "100,000+",
-      "realInstalls": 163617,
-      "realInstallsStr": "164K",
-      "perDay": 23373,
-      "days": 7,
-      "score": 4.6,
-      "ratings": 433,
-      "ratingsStr": "433",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 21, 2026",
-      "lastUpdated": "Jul 20, 2026",
-      "summary": "Build your company, dominate tycoon truck games! Customize, transport and expand",
-      "url": "https://play.google.com/store/apps/details?id=com.pixelfederation.truck.real.simulator.transport.tycoon.offroad.manager",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-28",
-          "dpd": 23373,
-          "installs": 163617
-        }
-      ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "dpd_prev": 24264,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -4299,17 +4614,17 @@
       "genre": "Casual",
       "developer": "Hemlock Valley",
       "downloads": "100,000+",
-      "realInstalls": 459020,
-      "realInstallsStr": "459K",
-      "perDay": 22951,
-      "days": 20,
-      "score": 2.7,
-      "ratings": 650,
-      "ratingsStr": "650",
+      "realInstalls": 479343,
+      "realInstallsStr": "479K",
+      "perDay": 22825,
+      "days": 21,
+      "score": 2.4,
+      "ratings": 665,
+      "ratingsStr": "665",
       "contentRating": "Mature 17+",
       "offersIAP": false,
       "releaseDate": "Jul 8, 2026",
-      "lastUpdated": "Jul 8, 2026",
+      "lastUpdated": "Jul 28, 2026",
       "summary": "Drop, merge, and master 2048 puzzles with a stylish pool table twist!",
       "url": "https://play.google.com/store/apps/details?id=com.poolmerge.master",
       "reviewsByDay": [],
@@ -4358,11 +4673,149 @@
           "date": "2026-07-28",
           "dpd": 22951,
           "installs": 459020
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 22825,
+          "installs": 479343
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 22951,
+      "dpd_change_pct": -1,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.fashionworld.indianwedding.dressup.makeupgame",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Bridal Wedding: DressUp Makeup",
+      "icon": "https://play-lh.googleusercontent.com/_bi2iIXs6BqIfC1kONNVGDcQHs-UBehi2iqsqqoknHeiA_Ag8SOXNBcSaYSeqrqHPfY5lmiQEA-4OKqCtlZXpjc",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/sPSMswhySxXy9IOWDVF1Jt8T15zhqDT5vFuzU2mWxujXnxpUVOhvuKj9tE9ikGy5bysZGxyFq4TaPsnuc_dWkQ=w300",
+        "https://play-lh.googleusercontent.com/0DL4A0QNzxT7XnRIdWWTPk9rcJ_PvYjvf1mWNaByIt65GUxjj15-9CjVtWv95_d6uf6apxsgpJAWW-zv45k3=w300",
+        "https://play-lh.googleusercontent.com/aGgI44QKrPeYWFs_EKMlykyG1GNHZqZJp2py9m30nw47wMk5aPx2vbOE1yciHBd3Tht_IoQill95QUP5cFiVzA=w300",
+        "https://play-lh.googleusercontent.com/i1U2ZuPsDVdsU2RQl-C2lBySajdM2CqCejRTmGwp93Nt1en-VkE_bz8Z3tjeQk9yYOyVPYp4uwk74OJ8uCS1YA=w300"
+      ],
+      "genre": "Casual",
+      "developer": "Code Tech Media",
+      "downloads": "100,000+",
+      "realInstalls": 201670,
+      "realInstallsStr": "202K",
+      "perDay": 22407,
+      "days": 9,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Jul 20, 2026",
+      "lastUpdated": "",
+      "summary": "Create stunning Indian bridal looks with makeup, dress up & makeover fun!",
+      "url": "https://play.google.com/store/apps/details?id=com.fashionworld.indianwedding.dressup.makeupgame",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 25208,
+          "installs": 201670
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 22407,
+          "installs": 201670
         }
       ],
       "trend": "falling",
-      "dpd_prev": 28315,
-      "dpd_change_pct": -19,
+      "dpd_prev": 25208,
+      "dpd_change_pct": -11,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.pixelfederation.truck.real.simulator.transport.tycoon.offroad.manager",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Highway Heroes: Truck Manager",
+      "icon": "https://play-lh.googleusercontent.com/vNOQycUWwtISdf5csnyxRq8VdwTgXax1YfMRs45KwLrg81lNVjpkQDQ6VV8eONN_Bw03Lz9LbLD5ED3KFBXB8Tk",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/0-kOjSm8RqNmwYnuq0FoSmvh30mGZF0OHloq0jHyG_I0kX9or5UG2WlFiG68vcdnTiuZlnvkURsFuOHK4bXbkQ=w300",
+        "https://play-lh.googleusercontent.com/X55IMn3WOdk3zVNfrqOrre8-SfVJLJzXOT_fEyBw6oNZgvC7zqjWu2D7-16pXpKl0K1mrqjyBkAcuunxj9Dasg=w300",
+        "https://play-lh.googleusercontent.com/b71a01NKu7DjsiOmyrD0ET5DtTCg1EKIVnckSsyns-b9Ab8CWAXGRG5h-jpoV_BwLckDq_Pl0GSGqoj3IMHwDw=w300",
+        "https://play-lh.googleusercontent.com/NADQFZBbRLYTiGXi6_KgoeSvmOsY_H2BAQLEPALebcSacfOhMqlY02BvVYKymk8aVgcSZGND4YTMja2GP1Wfrg=w300"
+      ],
+      "genre": "Strategy",
+      "developer": "PIXEL FEDERATION, s.r.o.",
+      "downloads": "100,000+",
+      "realInstalls": 171127,
+      "realInstallsStr": "171K",
+      "perDay": 21390,
+      "days": 8,
+      "score": 4.6,
+      "ratings": 490,
+      "ratingsStr": "490",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 21, 2026",
+      "lastUpdated": "Jul 20, 2026",
+      "summary": "Build your company, dominate tycoon truck games! Customize, transport and expand",
+      "url": "https://play.google.com/store/apps/details?id=com.pixelfederation.truck.real.simulator.transport.tycoon.offroad.manager",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 23373,
+          "installs": 163617
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 21390,
+          "installs": 171127
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 23373,
+      "dpd_change_pct": -8,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.idt.urban.car.drive.simulator",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Openworld Game Car Sim 3D",
+      "icon": "https://play-lh.googleusercontent.com/4WtIWm62vVoiyLK2bFLOkUkvIIp40nF2tAxAPA0NoVK2Dg2C9cW-ZfwtHlh4czjHu5paG4dm9jNgbP66uDfZ",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/hRMVgmySvp-s_6dzCV8-td0Qe3SIZ3KujoLAX-Oxt59KAN5xArXPtPpijcLO5Km0Ujw6I4IxbEdT-ZPG0OOjEUE=w300",
+        "https://play-lh.googleusercontent.com/hzYsUrZRJPd74Kxxr-B5X7mbL8UsqKonfHN4QrHRW9AhBSgqIXTRGVH7rhkfPiudTCb6sb3x-kCjbslbGd8qgQ=w300",
+        "https://play-lh.googleusercontent.com/e1wqzRHPQrqKQNbctN86egJIOcLfveOkHFlwu2uKn2X3PBWCy5kV2gG2Z6PyUsl6n_qQwAdIn-Rh1-7yquAYCQ=w300",
+        "https://play-lh.googleusercontent.com/l-3Vo1iGg788xdaa2dfhtW2uZ4uhsr-PLAZRGI7D1-TzT-Wz1NbPdoMjwvWmYwLnRASsAAoDAAvWDs10QE30=w300"
+      ],
+      "genre": "Strategy",
+      "developer": "Identive",
+      "downloads": "100,000+",
+      "realInstalls": 145003,
+      "realInstallsStr": "145K",
+      "perDay": 20714,
+      "days": 7,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": false,
+      "releaseDate": "Jul 22, 2026",
+      "lastUpdated": "",
+      "summary": "Drive, explore, and enjoy exciting levels in Picnic & Story Modes offline!",
+      "url": "https://play.google.com/store/apps/details?id=com.idt.urban.car.drive.simulator",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-29",
+          "dpd": 20714,
+          "installs": 145003
+        }
+      ],
+      "trend": "new",
+      "dpd_prev": 0,
+      "dpd_change_pct": 0,
       "isWatchlist": false
     },
     {
@@ -4380,17 +4833,17 @@
       "genre": "Sports",
       "developer": "FunClave",
       "downloads": "500,000+",
-      "realInstalls": 555757,
-      "realInstallsStr": "556K",
-      "perDay": 21375,
-      "days": 26,
+      "realInstalls": 557271,
+      "realInstallsStr": "557K",
+      "perDay": 20639,
+      "days": 27,
       "score": 2.2,
-      "ratings": 715,
-      "ratingsStr": "715",
+      "ratings": 712,
+      "ratingsStr": "712",
       "contentRating": "Everyone",
       "offersIAP": true,
       "releaseDate": "Jul 2, 2026",
-      "lastUpdated": "Jul 22, 2026",
+      "lastUpdated": "Jul 27, 2026",
       "summary": "Master Mini Soccer with a touch! Be the manager and lead your team to victory!",
       "url": "https://play.google.com/store/apps/details?id=com.funclave.fm2mini",
       "reviewsByDay": [],
@@ -4419,11 +4872,62 @@
           "date": "2026-07-28",
           "dpd": 21375,
           "installs": 555757
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 20639,
+          "installs": 557271
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 27231,
-      "dpd_change_pct": -22,
+      "trend": "stable",
+      "dpd_prev": 21375,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.happygogame.GlamTidyMakeupASMR",
+      "emoji": "🚀",
+      "tag": "100K+",
+      "name": "Makeup Match: Dressup Beauty",
+      "icon": "https://play-lh.googleusercontent.com/uVcvovxjuXCaoiHaMkV-SQUVm9qUzWJgyQPQj-jOGVVnGZR59OZw_v3t_qP2AQPIeu6imT5XPsBUQQO0SRgi",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/Bh7slAXUaCo2HHvHmcqlRAeWulnes80BM0EgMG8kU2AqHviqFByfIgtCcm_bsuqg_4w6rgZFoFfpYZ7q5MQycA=w300",
+        "https://play-lh.googleusercontent.com/WgpT7UW0aeUGkm7YsvIcPUwC_IPBeoKJZlk6jYGlkSULiYRhIB7VveONR6rcpWqRpWD3Bj5lAIg74du1Xyp-zx8=w300",
+        "https://play-lh.googleusercontent.com/uq3AiBwRrc02-UYNrNqZtlPpDcEf7Pp2-biOVONsvaNYIAeKFAep_ChoihlS54CCxoQA5Dj39nMYLXU6yzfgiQ=w300",
+        "https://play-lh.googleusercontent.com/99l7zgMqqVopSQhREoXc5FQtJIT5KQFIW1rBoX_29Q4Sp902sl5QpF12jujUy-J2OmoFlQActOY7pHGsAJrzcts=w300"
+      ],
+      "genre": "Casual",
+      "developer": "Happy Go Game",
+      "downloads": "100,000+",
+      "realInstalls": 288116,
+      "realInstallsStr": "288K",
+      "perDay": 20579,
+      "days": 14,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 15, 2026",
+      "lastUpdated": "Jul 20, 2026",
+      "summary": "Tidy makeup, fit beauty items, and enjoy satisfying ASMR mini games!",
+      "url": "https://play.google.com/store/apps/details?id=com.happygogame.GlamTidyMakeupASMR",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 13940,
+          "installs": 181231
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 20579,
+          "installs": 288116
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 13940,
+      "dpd_change_pct": 48,
       "isWatchlist": false
     },
     {
@@ -4443,11 +4947,11 @@
       "downloads": "100,000+",
       "realInstalls": 404153,
       "realInstallsStr": "404K",
-      "perDay": 21271,
-      "days": 19,
+      "perDay": 20207,
+      "days": 20,
       "score": 4.6,
-      "ratings": 46,
-      "ratingsStr": "46",
+      "ratings": 49,
+      "ratingsStr": "49",
       "contentRating": "Teen",
       "offersIAP": true,
       "releaseDate": "Jul 9, 2026",
@@ -4475,11 +4979,16 @@
           "date": "2026-07-28",
           "dpd": 21271,
           "installs": 404153
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 20207,
+          "installs": 404153
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 33017,
-      "dpd_change_pct": -36,
+      "trend": "stable",
+      "dpd_prev": 21271,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -4499,11 +5008,11 @@
       "downloads": "100,000+",
       "realInstalls": 355528,
       "realInstallsStr": "356K",
-      "perDay": 19751,
-      "days": 18,
-      "score": 4.4,
-      "ratings": 11571,
-      "ratingsStr": "11K",
+      "perDay": 18712,
+      "days": 19,
+      "score": 4.2,
+      "ratings": 12968,
+      "ratingsStr": "12K",
       "contentRating": "Mature 17+",
       "offersIAP": false,
       "releaseDate": "Jul 10, 2026",
@@ -4551,11 +5060,16 @@
           "date": "2026-07-28",
           "dpd": 19751,
           "installs": 355528
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 18712,
+          "installs": 355528
         }
       ],
-      "trend": "rising",
-      "dpd_prev": 16078,
-      "dpd_change_pct": 23,
+      "trend": "stable",
+      "dpd_prev": 19751,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -4575,8 +5089,8 @@
       "downloads": "500,000+",
       "realInstalls": 501951,
       "realInstallsStr": "502K",
-      "perDay": 19305,
-      "days": 26,
+      "perDay": 18590,
+      "days": 27,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -4597,11 +5111,16 @@
           "date": "2026-07-28",
           "dpd": 19305,
           "installs": 501951
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 18590,
+          "installs": 501951
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 26262,
-      "dpd_change_pct": -26,
+      "trend": "stable",
+      "dpd_prev": 19305,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
@@ -4621,11 +5140,11 @@
       "downloads": "100,000+",
       "realInstalls": 255460,
       "realInstallsStr": "255K",
-      "perDay": 18247,
-      "days": 14,
+      "perDay": 17030,
+      "days": 15,
       "score": 4.7,
-      "ratings": 266,
-      "ratingsStr": "266",
+      "ratings": 280,
+      "ratingsStr": "280",
       "contentRating": "Everyone 10+",
       "offersIAP": true,
       "releaseDate": "Jul 14, 2026",
@@ -4653,11 +5172,16 @@
           "date": "2026-07-28",
           "dpd": 18247,
           "installs": 255460
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 17030,
+          "installs": 255460
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 41181,
-      "dpd_change_pct": -56,
+      "trend": "stable",
+      "dpd_prev": 18247,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -4675,10 +5199,10 @@
       "genre": "Role Playing",
       "developer": "Gaming Spark Studio",
       "downloads": "100,000+",
-      "realInstalls": 473396,
-      "realInstallsStr": "473K",
-      "perDay": 16324,
-      "days": 29,
+      "realInstalls": 493619,
+      "realInstallsStr": "494K",
+      "perDay": 16453,
+      "days": 30,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -4749,11 +5273,16 @@
           "date": "2026-07-28",
           "dpd": 16324,
           "installs": 473396
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 16453,
+          "installs": 493619
         }
       ],
       "trend": "stable",
-      "dpd_prev": 14952,
-      "dpd_change_pct": 9,
+      "dpd_prev": 16324,
+      "dpd_change_pct": 1,
       "isWatchlist": false
     },
     {
@@ -4773,11 +5302,11 @@
       "downloads": "100,000+",
       "realInstalls": 312118,
       "realInstallsStr": "312K",
-      "perDay": 15605,
-      "days": 20,
-      "score": 4.5,
-      "ratings": 13358,
-      "ratingsStr": "13K",
+      "perDay": 14862,
+      "days": 21,
+      "score": 4.6,
+      "ratings": 14254,
+      "ratingsStr": "14K",
       "contentRating": "Mature 17+",
       "offersIAP": false,
       "releaseDate": "Jul 8, 2026",
@@ -4795,52 +5324,16 @@
           "date": "2026-07-28",
           "dpd": 15605,
           "installs": 312118
-        }
-      ],
-      "trend": "rising",
-      "dpd_prev": 13344,
-      "dpd_change_pct": 17,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.game.idlerpg.zombierush",
-      "emoji": "⚡",
-      "tag": "50K+ УСТАНОВОК",
-      "name": "Zombie Rush: Idle Survival",
-      "icon": "https://play-lh.googleusercontent.com/2KpQ-aiHQmuiNyF_pHudFhmilU5DpoeP3fKwbZhEV2T2A-3kUrgR1PnKOf1zqZCGGPTEIT07O1LGie1r4WP8",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/-YOtf6NbfgvANByk7MAddDRg7JgbHdXemtY-mzfSNiG9FEJTo65GjkyxizBlFXaT-FeAn58FCNG1_WX7Dnx05w=w300",
-        "https://play-lh.googleusercontent.com/bWRs_njAmHCwL3m9cL6UMRXAJw0nkwiUO-jH6W89p52HNOEC37vqz41DxtC4AIgDOfHQeGs56M5UXz1lBuu__A=w300",
-        "https://play-lh.googleusercontent.com/307RPHt3WJsL9C1CTzwA1PiOe5btFXF1u3tqj5D1Ld9XpdnyQdZwR_KewtQEn9rQVrGZMb1Pj8JCHd6N8IGTkg=w300",
-        "https://play-lh.googleusercontent.com/ohneTjE9Wj-Hi-CYkPjdqEoHFAQrSiZ_YSqcmqxrA21DtE8rgLXMDEFkJQk9sALt-ZogbfVKiekUOBqpJnagRw=w300"
-      ],
-      "genre": "Arcade",
-      "developer": "DREAMWEAVE GAMES LIMITED",
-      "downloads": "50,000+",
-      "realInstalls": 60877,
-      "realInstallsStr": "61K",
-      "perDay": 15219,
-      "days": 4,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Jul 24, 2026",
-      "lastUpdated": "",
-      "summary": "Zombie Rush:  Tap to Kill, Rise to Survive",
-      "url": "https://play.google.com/store/apps/details?id=com.game.idlerpg.zombierush",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 15219,
-          "installs": 60877
+          "date": "2026-07-29",
+          "dpd": 14862,
+          "installs": 312118
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 15605,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -4860,11 +5353,11 @@
       "downloads": "100,000+",
       "realInstalls": 423622,
       "realInstallsStr": "424K",
-      "perDay": 15129,
-      "days": 28,
+      "perDay": 14607,
+      "days": 29,
       "score": 2.9,
-      "ratings": 35,
-      "ratingsStr": "35",
+      "ratings": 38,
+      "ratingsStr": "38",
       "contentRating": "Teen",
       "offersIAP": false,
       "releaseDate": "Jun 30, 2026",
@@ -4947,11 +5440,16 @@
           "date": "2026-07-28",
           "dpd": 15129,
           "installs": 423622
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 14607,
+          "installs": 423622
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 19897,
-      "dpd_change_pct": -24,
+      "trend": "stable",
+      "dpd_prev": 15129,
+      "dpd_change_pct": -3,
       "isWatchlist": false
     },
     {
@@ -4971,8 +5469,8 @@
       "downloads": "100,000+",
       "realInstalls": 207111,
       "realInstallsStr": "207K",
-      "perDay": 14793,
-      "days": 14,
+      "perDay": 13807,
+      "days": 15,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -4998,11 +5496,16 @@
           "date": "2026-07-28",
           "dpd": 14793,
           "installs": 207111
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 13807,
+          "installs": 207111
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 27746,
-      "dpd_change_pct": -47,
+      "trend": "stable",
+      "dpd_prev": 14793,
+      "dpd_change_pct": -7,
       "isWatchlist": false
     },
     {
@@ -5022,10 +5525,10 @@
       "downloads": "100,000+",
       "realInstalls": 275870,
       "realInstallsStr": "276K",
-      "perDay": 14519,
-      "days": 19,
-      "score": 4.3,
-      "ratings": 2328,
+      "perDay": 13793,
+      "days": 20,
+      "score": 4.4,
+      "ratings": 2597,
       "ratingsStr": "2K",
       "contentRating": "Teen",
       "offersIAP": false,
@@ -5069,52 +5572,16 @@
           "date": "2026-07-28",
           "dpd": 14519,
           "installs": 275870
-        }
-      ],
-      "trend": "rising",
-      "dpd_prev": 11790,
-      "dpd_change_pct": 23,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.clover.ctrummy",
-      "emoji": "⚡",
-      "tag": "НОВИНКА",
-      "name": "Rummy City : Cozy & Classic",
-      "icon": "https://play-lh.googleusercontent.com/RkNNjfg3frqJLTuxrTgbVW9rTmRdFLBvAj5jtDgP2gcPNjEVmTJVAic1mGkoS3XrhkCSYyX105veIrz67AWuvw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/bcOEmlhAUdkBQnNb4o1Qmic1FlHKoWR4NChk1hwbBLBJI-b4VI_K1qm7y005GG-LhvH8E9oB_mMdh9NeS1yFmg=w300",
-        "https://play-lh.googleusercontent.com/Z7It_U_OPiLfRWfIBZSQuPBmjc9YMMUA3Ly1tFydu7DuvvrNcFjTBGKvRCAj3MEg-Q7AYnzbLY-wMwDPNDBaKC4=w300",
-        "https://play-lh.googleusercontent.com/LlBKY04xMrYIi6ER8fr5oEx7ztjoPj6bjCHzhz2lbanL32T0mwoZWUv3OBx5me4Z76ZZsaXsyuaRaI2phjQ7uw=w300",
-        "https://play-lh.googleusercontent.com/9sXHmXQYZpnpb8Z8VwwyVIFLBg9s7dIysY8iljYywphas5X2pmVkDH1qrJDDSSQSWJunah-SxnOuHXobdgfOZfk=w300"
-      ],
-      "genre": "Card",
-      "developer": "Rummy City",
-      "downloads": "10,000+",
-      "realInstalls": 14498,
-      "realInstallsStr": "14K",
-      "perDay": 14498,
-      "days": 1,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 27, 2026",
-      "lastUpdated": "Jul 22, 2026",
-      "summary": "Where classic rules meet a polished, elegant interface for your daily escape.",
-      "url": "https://play.google.com/store/apps/details?id=com.clover.ctrummy",
-      "reviewsByDay": [],
-      "dpdHistory": [
+        },
         {
-          "date": "2026-07-28",
-          "dpd": 14498,
-          "installs": 14498
+          "date": "2026-07-29",
+          "dpd": 13793,
+          "installs": 275870
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "stable",
+      "dpd_prev": 14519,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
@@ -5134,8 +5601,8 @@
       "downloads": "100,000+",
       "realInstalls": 286406,
       "realInstallsStr": "286K",
-      "perDay": 14320,
-      "days": 20,
+      "perDay": 13638,
+      "days": 21,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -5191,52 +5658,61 @@
           "date": "2026-07-28",
           "dpd": 14320,
           "installs": 286406
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 13638,
+          "installs": 286406
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 22409,
-      "dpd_change_pct": -36,
+      "trend": "stable",
+      "dpd_prev": 14320,
+      "dpd_change_pct": -5,
       "isWatchlist": false
     },
     {
-      "id": "com.happygogame.GlamTidyMakeupASMR",
+      "id": "com.RC56.crafty.blox.world",
       "emoji": "⚡",
       "tag": "100K+",
-      "name": "Makeup Match: Dressup Beauty",
-      "icon": "https://play-lh.googleusercontent.com/uVcvovxjuXCaoiHaMkV-SQUVm9qUzWJgyQPQj-jOGVVnGZR59OZw_v3t_qP2AQPIeu6imT5XPsBUQQO0SRgi",
+      "name": "Crafty Blox World",
+      "icon": "https://play-lh.googleusercontent.com/7tviKTCxykQjI4K30BLJeaEsdQoyJZV8XEgFjmvWrLcvF_5sONxpZfQ4cSZSpQ4msH2ZIU4H3obaW-u_hRJzMg",
       "screenshots": [
-        "https://play-lh.googleusercontent.com/Bh7slAXUaCo2HHvHmcqlRAeWulnes80BM0EgMG8kU2AqHviqFByfIgtCcm_bsuqg_4w6rgZFoFfpYZ7q5MQycA=w300",
-        "https://play-lh.googleusercontent.com/WgpT7UW0aeUGkm7YsvIcPUwC_IPBeoKJZlk6jYGlkSULiYRhIB7VveONR6rcpWqRpWD3Bj5lAIg74du1Xyp-zx8=w300",
-        "https://play-lh.googleusercontent.com/uq3AiBwRrc02-UYNrNqZtlPpDcEf7Pp2-biOVONsvaNYIAeKFAep_ChoihlS54CCxoQA5Dj39nMYLXU6yzfgiQ=w300",
-        "https://play-lh.googleusercontent.com/99l7zgMqqVopSQhREoXc5FQtJIT5KQFIW1rBoX_29Q4Sp902sl5QpF12jujUy-J2OmoFlQActOY7pHGsAJrzcts=w300"
+        "https://play-lh.googleusercontent.com/Od6YG6CZ1Tqnza9912EGd4u89ovbQ66tXDthX4IhNcSa_xq1Z_kPYUP_HtvkGUiZ7pvYjaXn8oClTraTEi0KsWU=w300",
+        "https://play-lh.googleusercontent.com/JXC-L_9otfKcNFOYAXwYywc-lZv1XdQy_OXTpbShdEMGBN-lHE0vB9CDvb4yWwjW8IpWXxM61znt3_c0o5vOhQ=w300",
+        "https://play-lh.googleusercontent.com/NgStbWa9xUmLM45MPKLNmAmOQKvYFE7zyScu0B0MQh74KIVjaJ73gGUz1igJ2Q8iWe-dMH7SkV4vej6vYrTUiA=w300"
       ],
       "genre": "Casual",
-      "developer": "Happy Go Game",
+      "developer": "Tappy Game",
       "downloads": "100,000+",
-      "realInstalls": 181231,
-      "realInstallsStr": "181K",
-      "perDay": 13940,
-      "days": 13,
+      "realInstalls": 267785,
+      "realInstallsStr": "268K",
+      "perDay": 13389,
+      "days": 20,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
       "contentRating": "Everyone",
       "offersIAP": true,
-      "releaseDate": "Jul 15, 2026",
-      "lastUpdated": "Jul 20, 2026",
-      "summary": "Tidy makeup, fit beauty items, and enjoy satisfying ASMR mini games!",
-      "url": "https://play.google.com/store/apps/details?id=com.happygogame.GlamTidyMakeupASMR",
+      "releaseDate": "Jul 9, 2026",
+      "lastUpdated": "Jul 29, 2026",
+      "summary": "Craft, build, and fight for survival in an action-packed blocky world!",
+      "url": "https://play.google.com/store/apps/details?id=com.RC56.crafty.blox.world",
       "reviewsByDay": [],
       "dpdHistory": [
         {
           "date": "2026-07-28",
-          "dpd": 13940,
-          "installs": 181231
+          "dpd": 8540,
+          "installs": 162277
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 13389,
+          "installs": 267785
         }
       ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
+      "trend": "rising",
+      "dpd_prev": 8540,
+      "dpd_change_pct": 57,
       "isWatchlist": false
     },
     {
@@ -5256,15 +5732,15 @@
       "downloads": "100,000+",
       "realInstalls": 389149,
       "realInstallsStr": "389K",
-      "perDay": 13418,
-      "days": 29,
+      "perDay": 12971,
+      "days": 30,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jun 29, 2026",
-      "lastUpdated": "",
+      "lastUpdated": "Jun 29, 2026",
       "summary": "Become a city car driver, Drive modern cars in this real 3D car simulator.",
       "url": "https://play.google.com/store/apps/details?id=com.gd.real.car.simulator.driver.game",
       "reviewsByDay": [],
@@ -5358,11 +5834,82 @@
           "date": "2026-07-28",
           "dpd": 13418,
           "installs": 389149
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 12971,
+          "installs": 389149
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 15688,
-      "dpd_change_pct": -14,
+      "trend": "stable",
+      "dpd_prev": 13418,
+      "dpd_change_pct": -3,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.kite.knockfever",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Knock Fever",
+      "icon": "https://play-lh.googleusercontent.com/mn35Ln3AVVKPt6WJ6CC7Kul9mBfUEfLZxubt5EY10AvXoBvFWZFIK6PNhy8eKjAfWOSluFu1DQu8xDt3DiFS",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/goULHPRzjvBDNX5YroAKsdx8TEto__BsZ1QzKQZRj0VITLsVgc0omNhib8sRzjQM5zDSl6X2oPzFKeigMeZ4RMo=w300",
+        "https://play-lh.googleusercontent.com/cHaMXefuK4t1tkEjWtRiPIS1XD8w9rYz1omYZkXG6YUjjs_zKb68RaShn3U9CQKn4oVkrGUC17Q5sp4HB-PW7w=w300",
+        "https://play-lh.googleusercontent.com/HgJuLLatSXkjnx33sxtdTNHCY--5Apm7gp0RO3OTurY7I2An7xKtA67LO6cNWjvLw4GYRd7lhNCAn0jRExNJig=w300",
+        "https://play-lh.googleusercontent.com/peMjXBIo5dGiao2devAaT8FOI9j-ORHFxDVsDVUoOUCU5objjGc4ig16XBOQuHeCf1X4XgWlj4qTcPbCN3BLoA=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Kite Games AS",
+      "downloads": "100,000+",
+      "realInstalls": 294831,
+      "realInstallsStr": "295K",
+      "perDay": 12818,
+      "days": 23,
+      "score": 4.7,
+      "ratings": 7133,
+      "ratingsStr": "7K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 6, 2026",
+      "lastUpdated": "Jul 25, 2026",
+      "summary": "Blast towers with powerful cannon shots and conquer every level!",
+      "url": "https://play.google.com/store/apps/details?id=com.kite.knockfever",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-15",
+          "dpd": 2004,
+          "installs": 18044
+        },
+        {
+          "date": "2026-07-18",
+          "dpd": 3391,
+          "installs": 40696
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 4499,
+          "installs": 58494
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 6957,
+          "installs": 97404
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 11597,
+          "installs": 255155
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 12818,
+          "installs": 294831
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 11597,
+      "dpd_change_pct": 11,
       "isWatchlist": false
     },
     {
@@ -5382,8 +5929,8 @@
       "downloads": "100,000+",
       "realInstalls": 244925,
       "realInstallsStr": "245K",
-      "perDay": 12890,
-      "days": 19,
+      "perDay": 12246,
+      "days": 20,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -5414,11 +5961,62 @@
           "date": "2026-07-28",
           "dpd": 12890,
           "installs": 244925
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 12246,
+          "installs": 244925
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 12890,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.game.idlerpg.zombierush",
+      "emoji": "⚡",
+      "tag": "50K+ УСТАНОВОК",
+      "name": "Zombie Rush: Idle Survival",
+      "icon": "https://play-lh.googleusercontent.com/2KpQ-aiHQmuiNyF_pHudFhmilU5DpoeP3fKwbZhEV2T2A-3kUrgR1PnKOf1zqZCGGPTEIT07O1LGie1r4WP8",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/-YOtf6NbfgvANByk7MAddDRg7JgbHdXemtY-mzfSNiG9FEJTo65GjkyxizBlFXaT-FeAn58FCNG1_WX7Dnx05w=w300",
+        "https://play-lh.googleusercontent.com/bWRs_njAmHCwL3m9cL6UMRXAJw0nkwiUO-jH6W89p52HNOEC37vqz41DxtC4AIgDOfHQeGs56M5UXz1lBuu__A=w300",
+        "https://play-lh.googleusercontent.com/307RPHt3WJsL9C1CTzwA1PiOe5btFXF1u3tqj5D1Ld9XpdnyQdZwR_KewtQEn9rQVrGZMb1Pj8JCHd6N8IGTkg=w300",
+        "https://play-lh.googleusercontent.com/ohneTjE9Wj-Hi-CYkPjdqEoHFAQrSiZ_YSqcmqxrA21DtE8rgLXMDEFkJQk9sALt-ZogbfVKiekUOBqpJnagRw=w300"
+      ],
+      "genre": "Arcade",
+      "developer": "DREAMWEAVE GAMES LIMITED",
+      "downloads": "50,000+",
+      "realInstalls": 60877,
+      "realInstallsStr": "61K",
+      "perDay": 12175,
+      "days": 5,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Jul 24, 2026",
+      "lastUpdated": "",
+      "summary": "Zombie Rush:  Tap to Kill, Rise to Survive",
+      "url": "https://play.google.com/store/apps/details?id=com.game.idlerpg.zombierush",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 15219,
+          "installs": 60877
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 12175,
+          "installs": 60877
         }
       ],
       "trend": "falling",
-      "dpd_prev": 18215,
-      "dpd_change_pct": -29,
+      "dpd_prev": 15219,
+      "dpd_change_pct": -20,
       "isWatchlist": false
     },
     {
@@ -5438,8 +6036,8 @@
       "downloads": "100,000+",
       "realInstalls": 325742,
       "realInstallsStr": "326K",
-      "perDay": 12528,
-      "days": 26,
+      "perDay": 12064,
+      "days": 27,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -5505,11 +6103,62 @@
           "date": "2026-07-28",
           "dpd": 12528,
           "installs": 325742
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 12064,
+          "installs": 325742
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 12528,
+      "dpd_change_pct": -4,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.gravity.roocam.android",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Ragnarok Origin: Classic",
+      "icon": "https://play-lh.googleusercontent.com/-MKNJmjFmRDN0Q9lKQ6VqtI8AtJZqkCu_KAHQSppl5ptpNQLyOltxCQTQag_CTvZpJ3inZko-xGY5R0f-EtKlQ",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/vbm7GI1-_W-gE-sKFHZl478fqGUFllXviuik4j1KwBhmZ1Y-k5zBpc2dlqpXjd4gU9YfGPMGI5h33R7XcpAm=w300",
+        "https://play-lh.googleusercontent.com/uu9HU1llrpGwSCmN5H0XS6xTgi0uGv2GquEOJq3ZnDuPl5ACRrcMm8BJKoFfRi6Ln1UUEN4zVr0xEccyWvXm=w300",
+        "https://play-lh.googleusercontent.com/Q7MqXD4A2QwDu3RfeRZUn9kbxqVbkP33ho2kJlxUR24n5aazccVKT2yl0NJgyBqhotsW0O9Gjjv_aOdk_viI1Q=w300",
+        "https://play-lh.googleusercontent.com/1V6Ns-i8V_NL3PKxVrxbkkz1ld-8tjgc_sVXnytAqYZdaYs-qbQ5luIbDeWOsjaPEUy2ZQfI6yP95NVqPzZ_gF0=w300"
+      ],
+      "genre": "Role Playing",
+      "developer": "Gravity Game Vision",
+      "downloads": "100,000+",
+      "realInstalls": 118134,
+      "realInstallsStr": "118K",
+      "perDay": 11813,
+      "days": 10,
+      "score": 3.5,
+      "ratings": 1023,
+      "ratingsStr": "1K",
+      "contentRating": "Everyone 10+",
+      "offersIAP": true,
+      "releaseDate": "Jul 19, 2026",
+      "lastUpdated": "",
+      "summary": "The RO with Monthly Pass Only. Everything can drop and P2W has no power",
+      "url": "https://play.google.com/store/apps/details?id=com.gravity.roocam.android",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 8473,
+          "installs": 76262
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 11813,
+          "installs": 118134
         }
       ],
       "trend": "rising",
-      "dpd_prev": 8375,
-      "dpd_change_pct": 50,
+      "dpd_prev": 8473,
+      "dpd_change_pct": 39,
       "isWatchlist": false
     },
     {
@@ -5527,12 +6176,12 @@
       "genre": "Puzzle",
       "developer": "NimbleMind Network Inc.",
       "downloads": "100,000+",
-      "realInstalls": 303913,
-      "realInstallsStr": "304K",
-      "perDay": 11688,
-      "days": 26,
+      "realInstalls": 318788,
+      "realInstallsStr": "319K",
+      "perDay": 11806,
+      "days": 27,
       "score": 4.8,
-      "ratings": 1419,
+      "ratings": 1503,
       "ratingsStr": "1K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -5621,72 +6270,67 @@
           "date": "2026-07-28",
           "dpd": 11688,
           "installs": 303913
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 11806,
+          "installs": 318788
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 14930,
-      "dpd_change_pct": -22,
+      "trend": "stable",
+      "dpd_prev": 11688,
+      "dpd_change_pct": 1,
       "isWatchlist": false
     },
     {
-      "id": "com.kite.knockfever",
+      "id": "com.tripledot.blockssmashgame",
       "emoji": "⚡",
       "tag": "100K+",
-      "name": "Knock Fever",
-      "icon": "https://play-lh.googleusercontent.com/mn35Ln3AVVKPt6WJ6CC7Kul9mBfUEfLZxubt5EY10AvXoBvFWZFIK6PNhy8eKjAfWOSluFu1DQu8xDt3DiFS",
+      "name": "Stack Smash - Block 3D Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/ZokGuQq95KXWg7Oj_Q-CTofEh8V4gci8t9zqd5bk_iy11QJq4Q9KDjWKsOJ1rab1A2WaeJTyrDk4nFdBv1P3",
       "screenshots": [
-        "https://play-lh.googleusercontent.com/goULHPRzjvBDNX5YroAKsdx8TEto__BsZ1QzKQZRj0VITLsVgc0omNhib8sRzjQM5zDSl6X2oPzFKeigMeZ4RMo=w300",
-        "https://play-lh.googleusercontent.com/cHaMXefuK4t1tkEjWtRiPIS1XD8w9rYz1omYZkXG6YUjjs_zKb68RaShn3U9CQKn4oVkrGUC17Q5sp4HB-PW7w=w300",
-        "https://play-lh.googleusercontent.com/HgJuLLatSXkjnx33sxtdTNHCY--5Apm7gp0RO3OTurY7I2An7xKtA67LO6cNWjvLw4GYRd7lhNCAn0jRExNJig=w300",
-        "https://play-lh.googleusercontent.com/peMjXBIo5dGiao2devAaT8FOI9j-ORHFxDVsDVUoOUCU5objjGc4ig16XBOQuHeCf1X4XgWlj4qTcPbCN3BLoA=w300"
+        "https://play-lh.googleusercontent.com/eYPRQpGuqMqRYyi4vHNuigU3GI-jfw83BO4KASoYDTkqvwcLLLb0WLo9fy6Hd6v2fckdBBhOBLDLdhsDK5fzHw=w300",
+        "https://play-lh.googleusercontent.com/abSqdCFaxPic3SfDEuH9bANef16EHYfbMCrGyuq6vacQCOa5jURUMkZiPgN6zQ_2-Qkv7zsAjIFm2CZCjQdztw=w300",
+        "https://play-lh.googleusercontent.com/_SmiFvoVBvdSOi3eejLSTzLYQavg4--4PQHAB_KYMA7OefJ_dV7Agqs3jid416vbTSjeUhgKiwDfpUhF2rGZ=w300",
+        "https://play-lh.googleusercontent.com/TNFc8WzMUkZOs-kGqQaXJrTvSQAcN8v6lSDtzdZnjOrqciFgq8NOwbdn6QE36oZsb1fmbKVaJhyzkFClRY95rQ=w300"
       ],
       "genre": "Puzzle",
-      "developer": "Kite Games AS",
+      "developer": "Tripledot Studios Limited",
       "downloads": "100,000+",
-      "realInstalls": 255155,
-      "realInstallsStr": "255K",
-      "perDay": 11597,
-      "days": 22,
-      "score": 4.7,
-      "ratings": 6719,
+      "realInstalls": 179269,
+      "realInstallsStr": "179K",
+      "perDay": 11204,
+      "days": 16,
+      "score": 5.0,
+      "ratings": 6801,
       "ratingsStr": "6K",
       "contentRating": "Everyone",
       "offersIAP": true,
-      "releaseDate": "Jul 6, 2026",
-      "lastUpdated": "Jul 25, 2026",
-      "summary": "Blast towers with powerful cannon shots and conquer every level!",
-      "url": "https://play.google.com/store/apps/details?id=com.kite.knockfever",
+      "releaseDate": "Jul 13, 2026",
+      "lastUpdated": "Jul 28, 2026",
+      "summary": "Cute & Cozy Physics Puzzle!",
+      "url": "https://play.google.com/store/apps/details?id=com.tripledot.blockssmashgame",
       "reviewsByDay": [],
       "dpdHistory": [
         {
-          "date": "2026-07-15",
-          "dpd": 2004,
-          "installs": 18044
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 3391,
-          "installs": 40696
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 4499,
-          "installs": 58494
-        },
-        {
           "date": "2026-07-20",
-          "dpd": 6957,
-          "installs": 97404
+          "dpd": 2025,
+          "installs": 14176
         },
         {
           "date": "2026-07-28",
-          "dpd": 11597,
-          "installs": 255155
+          "dpd": 7517,
+          "installs": 112764
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 11204,
+          "installs": 179269
         }
       ],
       "trend": "rising",
-      "dpd_prev": 6957,
-      "dpd_change_pct": 67,
+      "dpd_prev": 7517,
+      "dpd_change_pct": 49,
       "isWatchlist": false
     },
     {
@@ -5706,11 +6350,11 @@
       "downloads": "100,000+",
       "realInstalls": 265769,
       "realInstallsStr": "266K",
-      "perDay": 11555,
-      "days": 23,
-      "score": 4.4,
-      "ratings": 208,
-      "ratingsStr": "208",
+      "perDay": 11073,
+      "days": 24,
+      "score": 4.5,
+      "ratings": 227,
+      "ratingsStr": "227",
       "contentRating": "Everyone",
       "offersIAP": false,
       "releaseDate": "Jul 5, 2026",
@@ -5748,11 +6392,77 @@
           "date": "2026-07-28",
           "dpd": 11555,
           "installs": 265769
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 11073,
+          "installs": 265769
+        }
+      ],
+      "trend": "stable",
+      "dpd_prev": 11555,
+      "dpd_change_pct": -4,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.global.szsslg",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Shelter Days: Survival",
+      "icon": "https://play-lh.googleusercontent.com/K6RIPs_UCp7_kDGPnKf-hB4mpsX5OWl6vl8PyyUiRux3V_XoEpkys3RXc-7gjdJLSammZqwrsJfMw9OJvmHzow",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/rkpdIw4jyaE7TlDcOiwim3KkcBqinatZKYVDmWVcZWM1AOTDmNt9MgojyovkNi7c1WcdgGv_GS5P_tqmjgAm=w300",
+        "https://play-lh.googleusercontent.com/7JyGwrcAywQ7XSKSNBagftIYpDoLf_SkhpYiwQjH_tFkE2WSgQxXY8iXNmB73fZ9z-F94wtLr0rlElxcDdXKsQ=w300",
+        "https://play-lh.googleusercontent.com/j9Vtym3H8C_r9yDpqUitUkCE8SI-zJxcnDSqYnPTVF8S0ZtxE6I0VBGDZ8c5W1TDIY1zyTWWAnqF2sX50G4i=w300",
+        "https://play-lh.googleusercontent.com/qVf54czFgG18IzjeMn2hEje8VWYrLRGS0XpuDq_CXObwfMoXV10_WtIr4l5DWU1Td_GIN32fFsmGr88nv2sppas=w300"
+      ],
+      "genre": "Strategy",
+      "developer": "Germer Studio",
+      "downloads": "100,000+",
+      "realInstalls": 151801,
+      "realInstallsStr": "152K",
+      "perDay": 10842,
+      "days": 14,
+      "score": 4.3,
+      "ratings": 383,
+      "ratingsStr": "383",
+      "contentRating": "Teen",
+      "offersIAP": true,
+      "releaseDate": "Jul 15, 2026",
+      "lastUpdated": "Jul 24, 2026",
+      "summary": "Build and manage your shelter in a survival world",
+      "url": "https://play.google.com/store/apps/details?id=com.global.szsslg",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-18",
+          "dpd": 6247,
+          "installs": 18743
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 4685,
+          "installs": 18743
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 3753,
+          "installs": 18768
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 9680,
+          "installs": 125850
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 10842,
+          "installs": 151801
         }
       ],
       "trend": "rising",
-      "dpd_prev": 4531,
-      "dpd_change_pct": 155,
+      "dpd_prev": 9680,
+      "dpd_change_pct": 12,
       "isWatchlist": false
     },
     {
@@ -5772,8 +6482,8 @@
       "downloads": "100,000+",
       "realInstalls": 204602,
       "realInstallsStr": "205K",
-      "perDay": 11366,
-      "days": 18,
+      "perDay": 10768,
+      "days": 19,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -5819,11 +6529,87 @@
           "date": "2026-07-28",
           "dpd": 11366,
           "installs": 204602
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 10768,
+          "installs": 204602
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 17681,
-      "dpd_change_pct": -36,
+      "trend": "stable",
+      "dpd_prev": 11366,
+      "dpd_change_pct": -5,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.combo.knockout",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Knock Out",
+      "icon": "https://play-lh.googleusercontent.com/znXwhixoLeAfAyQe3-jisa-72IsfkP1UG0wTDZrGadNHWPlsoXjOj8ZP_5J5tHUMQPAu5Tg0ZB7qVZ1ZsBycLw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/O7RPPuE2853J1-BI0m36lLG8s_DmkZaGSJN1A-YVPOXRcwkvazdx0eDlFTl1iKpnOzdiV-KbpmatPXD7X6g2jV4=w300",
+        "https://play-lh.googleusercontent.com/2gKUdYS9qlW-2bneqTpzcrztoEhc6_IFFa5GgJqn7sweYFJvGD_VNBdv22RtcyEXkV8miMTJSwXMHvx-F6H6=w300",
+        "https://play-lh.googleusercontent.com/sM9cFxDw1v92AGgx8XtFapLlKD6LJjtaACYOsK6AOD2UGJJW7SNpwUt41vAvcY29NvMPLhT29-PjEqzhgFJ3OA=w300",
+        "https://play-lh.googleusercontent.com/OXBIFWu_dYOHUfmmBIExC3v6BpELnakONcHqkZq5GxMlailjgQfa0g1SXYCiFfEu36iwXnDe7vuoCSgPkiowyVk=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "Combo Game",
+      "downloads": "100,000+",
+      "realInstalls": 309552,
+      "realInstallsStr": "310K",
+      "perDay": 10674,
+      "days": 29,
+      "score": 4.8,
+      "ratings": 2648,
+      "ratingsStr": "2K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jun 30, 2026",
+      "lastUpdated": "Jul 24, 2026",
+      "summary": "Fun Block Game",
+      "url": "https://play.google.com/store/apps/details?id=com.combo.knockout",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-13",
+          "dpd": 475,
+          "installs": 6178
+        },
+        {
+          "date": "2026-07-14",
+          "dpd": 804,
+          "installs": 11266
+        },
+        {
+          "date": "2026-07-18",
+          "dpd": 3162,
+          "installs": 56933
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 2996,
+          "installs": 56933
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 3604,
+          "installs": 72088
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 9488,
+          "installs": 265688
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 10674,
+          "installs": 309552
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 9488,
+      "dpd_change_pct": 12,
       "isWatchlist": false
     },
     {
@@ -5841,12 +6627,12 @@
       "genre": "Simulation",
       "developer": "StreetComplete",
       "downloads": "100,000+",
-      "realInstalls": 313918,
-      "realInstallsStr": "314K",
-      "perDay": 10824,
-      "days": 29,
+      "realInstalls": 315305,
+      "realInstallsStr": "315K",
+      "perDay": 10510,
+      "days": 30,
       "score": 4.4,
-      "ratings": 12630,
+      "ratings": 12670,
       "ratingsStr": "12K",
       "contentRating": "Everyone",
       "offersIAP": true,
@@ -5940,67 +6726,16 @@
           "date": "2026-07-28",
           "dpd": 10824,
           "installs": 313918
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 10510,
+          "installs": 315305
         }
       ],
-      "trend": "falling",
-      "dpd_prev": 14642,
-      "dpd_change_pct": -26,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.ft.jeep.stunt.drive.sim.game",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "4x4 Jeep Stunt Drive Sim Game",
-      "icon": "https://play-lh.googleusercontent.com/YMAQHpEugqG0ZgRiveMWyQO_1qKL8HhgIsSFLUmXOmmQjXUvU6HoflGkMp89D5c1yZFtcvFjC-rtm5gWfOPXgg",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/zqeJUP4RhZd4CVO9q5vSHsZFUH-E3n3fiMT3BocdkSKkyKl1W863awl8tL_wNQluBajVNadQxr_D04_lWWQAIw=w300",
-        "https://play-lh.googleusercontent.com/PBtNYmkiQEpBWVkgxKbtmgy2WEI8oZZE16NbGaoml6Y8skl2-EWZ9bLIqMkIyYeaJE4MlffzAV5hxofh8_6qiQ=w300",
-        "https://play-lh.googleusercontent.com/rq1mB-ND24VwLRzsc4GvuZarktdp8RTPDc5OQQiuWW49M-if7PK-AMXRWolOX1JOgtUhuJt2K7iwKybfZXHQ=w300",
-        "https://play-lh.googleusercontent.com/sHO2dlEavKq0F-L5XVb1dOWZ_6LpypODG1uKTrLtmmUhO1PpeiMtKNhqBLvDtKKdNaCTXGqWmXLvCycIo10Xn9E=w300"
-      ],
-      "genre": "Strategy",
-      "developer": "Funtrix",
-      "downloads": "100,000+",
-      "realInstalls": 160975,
-      "realInstallsStr": "161K",
-      "perDay": 10731,
-      "days": 15,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": false,
-      "releaseDate": "Jul 13, 2026",
-      "lastUpdated": "",
-      "summary": "Enjoy offroad jeep driving, tackle hills & ramps, and perform epic stunts.",
-      "url": "https://play.google.com/store/apps/details?id=com.ft.jeep.stunt.drive.sim.game",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 23237,
-          "installs": 116189
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 20189,
-          "installs": 121136
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 17492,
-          "installs": 122444
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 10731,
-          "installs": 160975
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 17492,
-      "dpd_change_pct": -39,
+      "trend": "stable",
+      "dpd_prev": 10824,
+      "dpd_change_pct": -3,
       "isWatchlist": false
     },
     {
@@ -6020,8 +6755,8 @@
       "downloads": "100,000+",
       "realInstalls": 235171,
       "realInstallsStr": "235K",
-      "perDay": 10689,
-      "days": 22,
+      "perDay": 10224,
+      "days": 23,
       "score": null,
       "ratings": 0,
       "ratingsStr": "0",
@@ -6092,650 +6827,225 @@
           "date": "2026-07-28",
           "dpd": 10689,
           "installs": 235171
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 15448,
-      "dpd_change_pct": -31,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.global.szsslg",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Shelter Days: Survival",
-      "icon": "https://play-lh.googleusercontent.com/K6RIPs_UCp7_kDGPnKf-hB4mpsX5OWl6vl8PyyUiRux3V_XoEpkys3RXc-7gjdJLSammZqwrsJfMw9OJvmHzow",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/rkpdIw4jyaE7TlDcOiwim3KkcBqinatZKYVDmWVcZWM1AOTDmNt9MgojyovkNi7c1WcdgGv_GS5P_tqmjgAm=w300",
-        "https://play-lh.googleusercontent.com/7JyGwrcAywQ7XSKSNBagftIYpDoLf_SkhpYiwQjH_tFkE2WSgQxXY8iXNmB73fZ9z-F94wtLr0rlElxcDdXKsQ=w300",
-        "https://play-lh.googleusercontent.com/j9Vtym3H8C_r9yDpqUitUkCE8SI-zJxcnDSqYnPTVF8S0ZtxE6I0VBGDZ8c5W1TDIY1zyTWWAnqF2sX50G4i=w300",
-        "https://play-lh.googleusercontent.com/qVf54czFgG18IzjeMn2hEje8VWYrLRGS0XpuDq_CXObwfMoXV10_WtIr4l5DWU1Td_GIN32fFsmGr88nv2sppas=w300"
-      ],
-      "genre": "Strategy",
-      "developer": "Germer Studio",
-      "downloads": "100,000+",
-      "realInstalls": 125850,
-      "realInstallsStr": "126K",
-      "perDay": 9680,
-      "days": 13,
-      "score": 4.3,
-      "ratings": 338,
-      "ratingsStr": "338",
-      "contentRating": "Teen",
-      "offersIAP": true,
-      "releaseDate": "Jul 15, 2026",
-      "lastUpdated": "Jul 24, 2026",
-      "summary": "Build and manage your shelter in a survival world",
-      "url": "https://play.google.com/store/apps/details?id=com.global.szsslg",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 6247,
-          "installs": 18743
         },
         {
-          "date": "2026-07-19",
-          "dpd": 4685,
-          "installs": 18743
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 3753,
-          "installs": 18768
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 9680,
-          "installs": 125850
-        }
-      ],
-      "trend": "rising",
-      "dpd_prev": 3753,
-      "dpd_change_pct": 158,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.combo.knockout",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Knock Out",
-      "icon": "https://play-lh.googleusercontent.com/znXwhixoLeAfAyQe3-jisa-72IsfkP1UG0wTDZrGadNHWPlsoXjOj8ZP_5J5tHUMQPAu5Tg0ZB7qVZ1ZsBycLw",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/O7RPPuE2853J1-BI0m36lLG8s_DmkZaGSJN1A-YVPOXRcwkvazdx0eDlFTl1iKpnOzdiV-KbpmatPXD7X6g2jV4=w300",
-        "https://play-lh.googleusercontent.com/2gKUdYS9qlW-2bneqTpzcrztoEhc6_IFFa5GgJqn7sweYFJvGD_VNBdv22RtcyEXkV8miMTJSwXMHvx-F6H6=w300",
-        "https://play-lh.googleusercontent.com/sM9cFxDw1v92AGgx8XtFapLlKD6LJjtaACYOsK6AOD2UGJJW7SNpwUt41vAvcY29NvMPLhT29-PjEqzhgFJ3OA=w300",
-        "https://play-lh.googleusercontent.com/OXBIFWu_dYOHUfmmBIExC3v6BpELnakONcHqkZq5GxMlailjgQfa0g1SXYCiFfEu36iwXnDe7vuoCSgPkiowyVk=w300"
-      ],
-      "genre": "Puzzle",
-      "developer": "Combo Game",
-      "downloads": "100,000+",
-      "realInstalls": 265688,
-      "realInstallsStr": "266K",
-      "perDay": 9488,
-      "days": 28,
-      "score": 4.8,
-      "ratings": 2518,
-      "ratingsStr": "2K",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jun 30, 2026",
-      "lastUpdated": "Jul 24, 2026",
-      "summary": "Fun Block Game",
-      "url": "https://play.google.com/store/apps/details?id=com.combo.knockout",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-13",
-          "dpd": 475,
-          "installs": 6178
-        },
-        {
-          "date": "2026-07-14",
-          "dpd": 804,
-          "installs": 11266
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 3162,
-          "installs": 56933
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 2996,
-          "installs": 56933
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 3604,
-          "installs": 72088
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 9488,
-          "installs": 265688
-        }
-      ],
-      "trend": "rising",
-      "dpd_prev": 3604,
-      "dpd_change_pct": 163,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.ig.drawclash.hero",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Draw Clash Hero",
-      "icon": "https://play-lh.googleusercontent.com/gnwTYtxSEGTMgzT5gnXwvGIESaApNzuUh2dB431vX8f0f_dKyePKRkNwtRffRfh7dmM76IoRSH5oAuY4dvnM",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/f59gkl98L3G8x-PQBWlBeOyKBeg1wGAcPr5LsiUjeq3ABVZw97Ow_KR_-ZidGW96YRA9IqkNiD3y-9QK3tcKmg=w300",
-        "https://play-lh.googleusercontent.com/1TmbH-i0fXCRdN65U1x7TRQ-F31o6XrIadPVYUY7sinPd_zNgZ-fjHZ4xTs8UO1enPL7R57z9IwcbxPX4Bo3G9Y=w300",
-        "https://play-lh.googleusercontent.com/opYE3U66QOcv3cgNs2uEr0k0pUjW31Jugr0Qvwm1Zh36P0TaykoAAHOQ3U5XveCu-TgomTar_INcgSgjUYfCrw=w300",
-        "https://play-lh.googleusercontent.com/UnRfJaviQbdyeXlPO0M0xrZR3WKppjpL20cumV8IY_tqU67o3aY8pX39HxmD84g5LvhsT5sfvjlxbxYLFgtuhA=w300"
-      ],
-      "genre": "Action",
-      "developer": "Iron Glitch",
-      "downloads": "100,000+",
-      "realInstalls": 261922,
-      "realInstallsStr": "262K",
-      "perDay": 9354,
-      "days": 28,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Mature 17+",
-      "offersIAP": false,
-      "releaseDate": "Jun 30, 2026",
-      "lastUpdated": "Jul 17, 2026",
-      "summary": "Draw your moves, fight with enemies and become the ultimate hero!",
-      "url": "https://play.google.com/store/apps/details?id=com.ig.drawclash.hero",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-09",
-          "dpd": 12295,
-          "installs": 110662
-        },
-        {
-          "date": "2026-07-10",
-          "dpd": 11715,
-          "installs": 117159
-        },
-        {
-          "date": "2026-07-11",
-          "dpd": 11042,
-          "installs": 121463
-        },
-        {
-          "date": "2026-07-12",
-          "dpd": 12284,
-          "installs": 147419
-        },
-        {
-          "date": "2026-07-13",
-          "dpd": 11835,
-          "installs": 153855
-        },
-        {
-          "date": "2026-07-14",
-          "dpd": 12063,
-          "installs": 168891
-        },
-        {
-          "date": "2026-07-15",
-          "dpd": 12214,
-          "installs": 183223
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 10992,
-          "installs": 197860
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 10789,
-          "installs": 205005
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 10250,
-          "installs": 205005
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 9354,
-          "installs": 261922
+          "date": "2026-07-29",
+          "dpd": 10224,
+          "installs": 235171
         }
       ],
       "trend": "stable",
-      "dpd_prev": 10250,
-      "dpd_change_pct": -9,
+      "dpd_prev": 10689,
+      "dpd_change_pct": -4,
       "isWatchlist": false
     },
     {
-      "id": "com.rsgapps.reactor.two",
+      "id": "com.ft.jeep.stunt.drive.sim.game",
       "emoji": "⚡",
       "tag": "100K+",
-      "name": "Reactor 2: Nuclear Tycoon",
-      "icon": "https://play-lh.googleusercontent.com/EIKkhSSemgcaRVZgKCEpaPJDZ30Izl_K4D0_IrxgevMPebiMcrVo_fAf5d1fWCnbi8kaKPOFfnsczwYIrWYAFA",
+      "name": "4x4 Jeep Stunt Drive Sim Game",
+      "icon": "https://play-lh.googleusercontent.com/YMAQHpEugqG0ZgRiveMWyQO_1qKL8HhgIsSFLUmXOmmQjXUvU6HoflGkMp89D5c1yZFtcvFjC-rtm5gWfOPXgg",
       "screenshots": [
-        "https://play-lh.googleusercontent.com/ita7yoDNDo5CjqadwsgoDQ9aWJsbNZm_ek5BICWBCOvv8HLsVVfM-eNV0VHMyR5PKAY0-j_36D4pM5AuPOOy=w300",
-        "https://play-lh.googleusercontent.com/p-VGNpnZsw1wnVN9IL4E99eQHfomu9SQShN_Xz1lLqZatb4wQMsCbBTzLcylVufI-Ho5OWr7SGhbLdmONdmeHMk=w300",
-        "https://play-lh.googleusercontent.com/ANHrX3ay_wrs-rZC_nve-oROWNOg80fuSixKX6rOnZC8gC8q3-E_Pb6UQhDsgnnYJJtoK-LUf-bfzkXUawCkpGg=w300",
-        "https://play-lh.googleusercontent.com/CJGYzajkBtAT2pMbkTWHL3_kfrbFs4gndPRzr77j3KBPtQtm2cwrq_i-lv3fJ9lxqBdVoC3H-stS5TjysdOHdzo=w300"
+        "https://play-lh.googleusercontent.com/zqeJUP4RhZd4CVO9q5vSHsZFUH-E3n3fiMT3BocdkSKkyKl1W863awl8tL_wNQluBajVNadQxr_D04_lWWQAIw=w300",
+        "https://play-lh.googleusercontent.com/PBtNYmkiQEpBWVkgxKbtmgy2WEI8oZZE16NbGaoml6Y8skl2-EWZ9bLIqMkIyYeaJE4MlffzAV5hxofh8_6qiQ=w300",
+        "https://play-lh.googleusercontent.com/rq1mB-ND24VwLRzsc4GvuZarktdp8RTPDc5OQQiuWW49M-if7PK-AMXRWolOX1JOgtUhuJt2K7iwKybfZXHQ=w300",
+        "https://play-lh.googleusercontent.com/sHO2dlEavKq0F-L5XVb1dOWZ_6LpypODG1uKTrLtmmUhO1PpeiMtKNhqBLvDtKKdNaCTXGqWmXLvCycIo10Xn9E=w300"
       ],
       "genre": "Strategy",
-      "developer": "RSGapps - Idle Tycoon Games",
+      "developer": "Funtrix",
       "downloads": "100,000+",
-      "realInstalls": 129528,
-      "realInstallsStr": "130K",
-      "perDay": 9252,
-      "days": 14,
-      "score": 3.3,
-      "ratings": 254,
-      "ratingsStr": "254",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 14, 2026",
-      "lastUpdated": "Jul 27, 2026",
-      "summary": "Build your energy sector empire! Manage heat, power the city & become a magnate.",
-      "url": "https://play.google.com/store/apps/details?id=com.rsgapps.reactor.two",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-18",
-          "dpd": 25797,
-          "installs": 103188
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 21378,
-          "installs": 106891
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 17819,
-          "installs": 106916
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 9252,
-          "installs": 129528
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 17819,
-      "dpd_change_pct": -48,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.spindreams.game",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Spin Dreams",
-      "icon": "https://play-lh.googleusercontent.com/R5JDego4a71Sobv_gOufrFHh0UiO98pv4JcprdK-LCGA8xYei3PwkY_CWPf-2u9oZnEpSz--9gMMK2jMZVSyxA",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/qDQW7AFqsD7pipBOMP--ym8odPgu8vsOSf9A7YWBd_jC3BVNnqdPSi3TZiPyWG_Dreh7zX95J_6Kxd4fty5M=w300",
-        "https://play-lh.googleusercontent.com/v9-TTu95jbxvur6kb2qpHtxCsUBgmCaxANvtFmPsoK-d4HDkdLeITQY2mn3-3rwNfiQ2adxsW-J7vd9Usfjrhcg=w300",
-        "https://play-lh.googleusercontent.com/7vPFBO6qFCliRlYxEnvT-Fja7HWDiz0xgzM2yLl15pDBgmQdSClfnFuHEBdnED6h23KEQdiygIxeJodYOkLk2w=w300",
-        "https://play-lh.googleusercontent.com/QriU1loUxdRCVwkphfVdLNCr5VIYgySksA19viH5q8xTRk6iAEWP4FEr9vGBw3S4hoyhnleTgF35H-D5SPD2gz0=w300"
-      ],
-      "genre": "Casual",
-      "developer": "MegaFun Entertainmen",
-      "downloads": "100,000+",
-      "realInstalls": 198339,
-      "realInstallsStr": "198K",
-      "perDay": 9015,
-      "days": 22,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Teen",
-      "offersIAP": false,
-      "releaseDate": "Jul 6, 2026",
-      "lastUpdated": "Jul 6, 2026",
-      "summary": "Spin, raid, and build with friends to create your legendary Silk Road empire!",
-      "url": "https://play.google.com/store/apps/details?id=com.spindreams.game",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-09",
-          "dpd": 33809,
-          "installs": 101429
-        },
-        {
-          "date": "2026-07-10",
-          "dpd": 26292,
-          "installs": 105168
-        },
-        {
-          "date": "2026-07-11",
-          "dpd": 24106,
-          "installs": 120531
-        },
-        {
-          "date": "2026-07-12",
-          "dpd": 20567,
-          "installs": 123407
-        },
-        {
-          "date": "2026-07-13",
-          "dpd": 18316,
-          "installs": 128216
-        },
-        {
-          "date": "2026-07-14",
-          "dpd": 16406,
-          "installs": 131255
-        },
-        {
-          "date": "2026-07-15",
-          "dpd": 15003,
-          "installs": 135035
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 12910,
-          "installs": 154927
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 11917,
-          "installs": 154927
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 11784,
-          "installs": 164977
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 9015,
-          "installs": 198339
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 11784,
-      "dpd_change_pct": -23,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.sg.real.euro.truck.driving.truck.simulator.truck.games",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Euro Truck Driving Cargo Truck",
-      "icon": "https://play-lh.googleusercontent.com/czEAswpV8eyppbZmxH6aL56o27H3EulgKErzb9-gt5-NJtgzEJAIInvtEV4rGJNl1acC0a2x9E0AegyIT-XQaQ",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/1ILQPXesB10j8jqTHYeZeBmUBqy5OlHq1Q2jg-sdKmsNHYLYAWDcM-up3l3DDZaGh_b0RmzTGd8kZyjfuo7ySw=w300",
-        "https://play-lh.googleusercontent.com/zgPqd2f_dWmE4nh_YzCxtDEp_1jdXEVP_ZDhL6A7180kRhGu7vwtyubMNQY7HqQuEdsSvi2DTJiryMu0hhXoXw=w300",
-        "https://play-lh.googleusercontent.com/-d7DkCD59rpg20w0acuItZBuL0lw5Vua4IfdariYKVSSP1LlWiwam2OM8GuTHNQrrRLfurbcmDKdhIN8W2Mdew=w300",
-        "https://play-lh.googleusercontent.com/YyII9bMK8ZDZAiETTkXSLkuGot3LrY8zUFDl39jhnr09Dw6ofaenwmqqL49-EQoBILK8f659L2LHdic52Txf=w300"
-      ],
-      "genre": "Strategy",
-      "developer": "Solo Gamerz",
-      "downloads": "100,000+",
-      "realInstalls": 185813,
-      "realInstallsStr": "186K",
-      "perDay": 8848,
-      "days": 21,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": false,
-      "releaseDate": "Jul 7, 2026",
-      "lastUpdated": "Jul 7, 2026",
-      "summary": "Enjoy Real Truck Simulator with Truck Game 3D, transport in Truck Parking Games",
-      "url": "https://play.google.com/store/apps/details?id=com.sg.real.euro.truck.driving.truck.simulator.truck.games",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-11",
-          "dpd": 12738,
-          "installs": 50954
-        },
-        {
-          "date": "2026-07-12",
-          "dpd": 20773,
-          "installs": 103867
-        },
-        {
-          "date": "2026-07-13",
-          "dpd": 17311,
-          "installs": 103867
-        },
-        {
-          "date": "2026-07-14",
-          "dpd": 17200,
-          "installs": 120405
-        },
-        {
-          "date": "2026-07-15",
-          "dpd": 16572,
-          "installs": 132576
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 12967,
-          "installs": 142641
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 13048,
-          "installs": 156581
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 12344,
-          "installs": 160478
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 8848,
-          "installs": 185813
-        }
-      ],
-      "trend": "falling",
-      "dpd_prev": 12344,
-      "dpd_change_pct": -28,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.dng.police.game.gunshooting.game",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Police Car Driving Cop Game 3D",
-      "icon": "https://play-lh.googleusercontent.com/dBsJ4fGBHEPED9BcpThryAhNgdEJlO2_fIoH2C0fphzpDHHiGgENV4s5jyTW0u-acH22mY9JFQX4bAeDxygFYg",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/vVk2HwrLvP2BmsmLsvmzU0LSg-Mgz6FVptM6-Pu6zGkcEe5RUH9DS0YQ4TAT88xoyePEP0UmrjSts1Hd-QkgGw=w300",
-        "https://play-lh.googleusercontent.com/jy2fMmfiWq_bHGDwi6DrRrrTIkOadSkHMnFFJq4mMx-VyrrpnLs4u11pfcb1Q7A-0XgsApxCZiohTAN262gXXQ=w300",
-        "https://play-lh.googleusercontent.com/OnXHZZkAjyeoHSj9SITlSLWNiL-G_vYvIaFhV6HDimODO_e64jPxHLO5PxzuMHmhLYhJGZfCxBRy6xLJNVlX6g=w300",
-        "https://play-lh.googleusercontent.com/EJ18nOrRXGXMg7Dk3X75gr4S7E05oKd9Ro7JK-O1ZMGlENq0xveF7qpMDcYs8bLq4I_v0uo0KNPQ0JCUM6FnNQ=w300"
-      ],
-      "genre": "Role Playing",
-      "developer": "Day Night Gaming Inc.",
-      "downloads": "100,000+",
-      "realInstalls": 223154,
-      "realInstallsStr": "223K",
-      "perDay": 8582,
-      "days": 26,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": false,
-      "releaseDate": "Jul 2, 2026",
-      "lastUpdated": "Jul 2, 2026",
-      "summary": "Chase criminals and dominate streets in intense cop car chase action game 3D.",
-      "url": "https://play.google.com/store/apps/details?id=com.dng.police.game.gunshooting.game",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-15",
-          "dpd": 7217,
-          "installs": 93832
-        },
-        {
-          "date": "2026-07-18",
-          "dpd": 6414,
-          "installs": 102636
-        },
-        {
-          "date": "2026-07-19",
-          "dpd": 6226,
-          "installs": 105854
-        },
-        {
-          "date": "2026-07-20",
-          "dpd": 6082,
-          "installs": 109480
-        },
-        {
-          "date": "2026-07-28",
-          "dpd": 8582,
-          "installs": 223154
-        }
-      ],
-      "trend": "rising",
-      "dpd_prev": 6082,
-      "dpd_change_pct": 41,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.RC56.crafty.blox.world",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Crafty Blox World",
-      "icon": "https://play-lh.googleusercontent.com/7tviKTCxykQjI4K30BLJeaEsdQoyJZV8XEgFjmvWrLcvF_5sONxpZfQ4cSZSpQ4msH2ZIU4H3obaW-u_hRJzMg",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/Od6YG6CZ1Tqnza9912EGd4u89ovbQ66tXDthX4IhNcSa_xq1Z_kPYUP_HtvkGUiZ7pvYjaXn8oClTraTEi0KsWU=w300",
-        "https://play-lh.googleusercontent.com/JXC-L_9otfKcNFOYAXwYywc-lZv1XdQy_OXTpbShdEMGBN-lHE0vB9CDvb4yWwjW8IpWXxM61znt3_c0o5vOhQ=w300",
-        "https://play-lh.googleusercontent.com/NgStbWa9xUmLM45MPKLNmAmOQKvYFE7zyScu0B0MQh74KIVjaJ73gGUz1igJ2Q8iWe-dMH7SkV4vej6vYrTUiA=w300"
-      ],
-      "genre": "Casual",
-      "developer": "Tappy Game",
-      "downloads": "100,000+",
-      "realInstalls": 162277,
-      "realInstallsStr": "162K",
-      "perDay": 8540,
-      "days": 19,
-      "score": null,
-      "ratings": 0,
-      "ratingsStr": "0",
-      "contentRating": "Everyone",
-      "offersIAP": true,
-      "releaseDate": "Jul 9, 2026",
-      "lastUpdated": "Jul 16, 2026",
-      "summary": "Craft, build, and fight for survival in an action-packed blocky world!",
-      "url": "https://play.google.com/store/apps/details?id=com.RC56.crafty.blox.world",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-28",
-          "dpd": 8540,
-          "installs": 162277
-        }
-      ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.gravity.roocam.android",
-      "emoji": "⚡",
-      "tag": "50K+ УСТАНОВОК",
-      "name": "Ragnarok Origin: Classic",
-      "icon": "https://play-lh.googleusercontent.com/-MKNJmjFmRDN0Q9lKQ6VqtI8AtJZqkCu_KAHQSppl5ptpNQLyOltxCQTQag_CTvZpJ3inZko-xGY5R0f-EtKlQ",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/vbm7GI1-_W-gE-sKFHZl478fqGUFllXviuik4j1KwBhmZ1Y-k5zBpc2dlqpXjd4gU9YfGPMGI5h33R7XcpAm=w300",
-        "https://play-lh.googleusercontent.com/uu9HU1llrpGwSCmN5H0XS6xTgi0uGv2GquEOJq3ZnDuPl5ACRrcMm8BJKoFfRi6Ln1UUEN4zVr0xEccyWvXm=w300",
-        "https://play-lh.googleusercontent.com/Q7MqXD4A2QwDu3RfeRZUn9kbxqVbkP33ho2kJlxUR24n5aazccVKT2yl0NJgyBqhotsW0O9Gjjv_aOdk_viI1Q=w300",
-        "https://play-lh.googleusercontent.com/1V6Ns-i8V_NL3PKxVrxbkkz1ld-8tjgc_sVXnytAqYZdaYs-qbQ5luIbDeWOsjaPEUy2ZQfI6yP95NVqPzZ_gF0=w300"
-      ],
-      "genre": "Role Playing",
-      "developer": "Gravity Game Vision",
-      "downloads": "50,000+",
-      "realInstalls": 76262,
-      "realInstallsStr": "76K",
-      "perDay": 8473,
-      "days": 9,
-      "score": 3.4,
-      "ratings": 967,
-      "ratingsStr": "967",
-      "contentRating": "Everyone 10+",
-      "offersIAP": true,
-      "releaseDate": "Jul 19, 2026",
-      "lastUpdated": "",
-      "summary": "The RO with Monthly Pass Only. Everything can drop and P2W has no power",
-      "url": "https://play.google.com/store/apps/details?id=com.gravity.roocam.android",
-      "reviewsByDay": [],
-      "dpdHistory": [
-        {
-          "date": "2026-07-28",
-          "dpd": 8473,
-          "installs": 76262
-        }
-      ],
-      "trend": "new",
-      "dpd_prev": 0,
-      "dpd_change_pct": 0,
-      "isWatchlist": false
-    },
-    {
-      "id": "com.clearway.arrow",
-      "emoji": "⚡",
-      "tag": "100K+",
-      "name": "Arrow Clearway",
-      "icon": "https://play-lh.googleusercontent.com/ejamV1uyf0DKwMWrbFblLdwGRHdQOVXU43olgL7Mam9Sep0N6g9N1rvHnHrP0jJacpwLc7zGQ8GnDaP40GwU",
-      "screenshots": [
-        "https://play-lh.googleusercontent.com/p8ttZx_kb6K6mw-d9ZPBJVUmJTOuyRs1nyvb0324ccYFj2qQyy1fTH4Fm3beIQZBX4QZ-vMxSLiZ28aFQgceh3Q=w300",
-        "https://play-lh.googleusercontent.com/vfB_F0xaeTY34w9dYGTFJuxnlmQwqJZWSgAhNqXHDhIaueYCJ61OWn5hJx_xJ-3ptnNSm7E_ty_Vb450SwVXTQ=w300",
-        "https://play-lh.googleusercontent.com/awVl6r8X32GVo-lUAgTICMqC8Ls0w0b0KzbiWVL0LNEGjrK987WlMiZ_sr8D77qga26c8Og7LkZaunPmhLES=w300",
-        "https://play-lh.googleusercontent.com/TcCRXDCtYb23W-Mlu0uCJ976O_0JN-DOJMte3uiRQGMlTh4b0wlkF1d9W40VRZLnVGKOXgc6kYj3fi7bjefhMg=w300"
-      ],
-      "genre": "Puzzle",
-      "developer": "YO App Studios",
-      "downloads": "100,000+",
-      "realInstalls": 134989,
-      "realInstallsStr": "135K",
-      "perDay": 8436,
+      "realInstalls": 160975,
+      "realInstallsStr": "161K",
+      "perDay": 10060,
       "days": 16,
-      "score": 1.3,
-      "ratings": 131,
-      "ratingsStr": "131",
-      "contentRating": "Mature 17+",
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone",
       "offersIAP": false,
-      "releaseDate": "Jul 12, 2026",
-      "lastUpdated": "Jul 13, 2026",
-      "summary": "Move the arrows, clear the path, and enjoy satisfying puzzle freedom.",
-      "url": "https://play.google.com/store/apps/details?id=com.clearway.arrow",
+      "releaseDate": "Jul 13, 2026",
+      "lastUpdated": "",
+      "summary": "Enjoy offroad jeep driving, tackle hills & ramps, and perform epic stunts.",
+      "url": "https://play.google.com/store/apps/details?id=com.ft.jeep.stunt.drive.sim.game",
       "reviewsByDay": [],
       "dpdHistory": [
         {
           "date": "2026-07-18",
-          "dpd": 8399,
-          "installs": 50397
+          "dpd": 23237,
+          "installs": 116189
         },
         {
           "date": "2026-07-19",
-          "dpd": 8263,
-          "installs": 57846
+          "dpd": 20189,
+          "installs": 121136
         },
         {
           "date": "2026-07-20",
-          "dpd": 8342,
-          "installs": 66738
+          "dpd": 17492,
+          "installs": 122444
         },
         {
           "date": "2026-07-28",
-          "dpd": 8436,
-          "installs": 134989
+          "dpd": 10731,
+          "installs": 160975
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 10060,
+          "installs": 160975
         }
       ],
       "trend": "stable",
-      "dpd_prev": 8342,
-      "dpd_change_pct": 1,
+      "dpd_prev": 10731,
+      "dpd_change_pct": -6,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.meta.trafficcar.racer.driving3d",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Traffic Car Racer: Driving 3D",
+      "icon": "https://play-lh.googleusercontent.com/9W4Owo7OVhgeA8gB-Zb1an7f68XlcDn55ONA4deKVUCbaz_ddF7-snFcvwLrjV_1fVkhyJvZFdKAAeC2jowe",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/_VA_-A6WhSTpdzgHR9iLRRVfRNUiZ7ulVWndtgNL7kcMAICQbi8cDf7wGrJbU2_5UZR5y2HHeJZt1Zx9xWoQCUY=w300",
+        "https://play-lh.googleusercontent.com/do9KDtvdCr3ImjjbKmFLkQ_zL4TmqEL7fNQwVbSQc_avUW2i1VtOqsJiyBrj6tF_h5xajL6XsOHj09e_zTzljw=w300",
+        "https://play-lh.googleusercontent.com/Ac9EkE6tvrY1QL8F2BXkSgHFojfPJIwenSsy6XBc3aBl80CTTIbPoVkgy5WNgRv6DSWeAgl-1tMWCXq3On8Q=w300",
+        "https://play-lh.googleusercontent.com/OoJqXyl9X9VsTiUgfcL6V8pccfOCM2VU2UAzsb_Q7bVFwm7eRjly9h833Hh_UGHE51hbW9yiGhiR71XIHT0J=w300"
+      ],
+      "genre": "Racing",
+      "developer": "Meta Play Studio",
+      "downloads": "100,000+",
+      "realInstalls": 256348,
+      "realInstallsStr": "256K",
+      "perDay": 9859,
+      "days": 26,
+      "score": 4.1,
+      "ratings": 255,
+      "ratingsStr": "255",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 3, 2026",
+      "lastUpdated": "Jul 29, 2026",
+      "summary": "Master the highway! Extreme traffic car racer with realistic 3D driving physics!",
+      "url": "https://play.google.com/store/apps/details?id=com.meta.trafficcar.racer.driving3d",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-18",
+          "dpd": 3073,
+          "installs": 46104
+        },
+        {
+          "date": "2026-07-19",
+          "dpd": 2993,
+          "installs": 47898
+        },
+        {
+          "date": "2026-07-20",
+          "dpd": 2817,
+          "installs": 47899
+        },
+        {
+          "date": "2026-07-28",
+          "dpd": 3703,
+          "installs": 92583
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 9859,
+          "installs": 256348
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 3703,
+      "dpd_change_pct": 166,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.auroragem.treasurespin",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Gem Fortune: Treasure Spin",
+      "icon": "https://play-lh.googleusercontent.com/lMI_spT931Ml2qrx_20bCvB87_47KzRhkIYXWc8Yrs_ZLws4-RcbzEvANCRt5GBW7a2hCGRHaCG_YeJArC96",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/bnNLYB8kAtyaII14n6F-nY2MOHg8yZTkGAMNSXhBm33OEX4zYGAQxEcq53eo9_wBHSBr0jrKbDNUiKJ4tBiRdw=w300",
+        "https://play-lh.googleusercontent.com/Bf0mfhsnkgCI_haFwkFnEEThPFYEqLXtHc0JVL_DGnStSFKbighbsfKv1xcj3IAj7jWUC0Fow0aJtmzwJPVm=w300",
+        "https://play-lh.googleusercontent.com/wanAu3WF0zA3d6WQWrf8woZgxrbaSHS-J07Cfi0gB2ERw99TXeWA-W6CXLSeeFKtZg0bdjJz_POk8LhtVLM-4w=w300",
+        "https://play-lh.googleusercontent.com/j6vYHGaboACQ6lwA-oHGzcUbEkTu2b1uTgiBQMlaF2864nj_hOjhoHxyeCBH78seq6C4y8Nm2QQyY3qmIfjpBg=w300"
+      ],
+      "genre": "Casino",
+      "developer": "Nexa777 Entertainment",
+      "downloads": "100,000+",
+      "realInstalls": 267908,
+      "realInstallsStr": "268K",
+      "perDay": 9238,
+      "days": 29,
+      "score": null,
+      "ratings": 0,
+      "ratingsStr": "0",
+      "contentRating": "Everyone 10+",
+      "offersIAP": false,
+      "releaseDate": "Jun 30, 2026",
+      "lastUpdated": "",
+      "summary": "Open a jewel vault with garuda art and octagonal gem patterns.",
+      "url": "https://play.google.com/store/apps/details?id=com.auroragem.treasurespin",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-29",
+          "dpd": 9238,
+          "installs": 267908
+        }
+      ],
+      "trend": "new",
+      "dpd_prev": 0,
+      "dpd_change_pct": 0,
+      "isWatchlist": false
+    },
+    {
+      "id": "com.ocean.block.shoot",
+      "emoji": "⚡",
+      "tag": "100K+",
+      "name": "Ocean Block Shoot",
+      "icon": "https://play-lh.googleusercontent.com/qYCQxjlULRaIEXUneAa6ID9K0kz4xReoCDBe1sTu0z9njT2-jXbHJZj34DYxCxaOeIpSetV_CYHaYMA2OAjT",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/brlZ3jiN3L2WCfhD08Kx8FFLObQjTELE6rYHg3xtJHLHC6aJmKSZH2hu2q86m6Tz56TZv432kiSO2-zYubItsns=w300",
+        "https://play-lh.googleusercontent.com/Se7lsfbTtwLXOovtYvq8EuqVzs2okTeUM7Q-R0Ebc02J62LU3GY4lLb4KjqqUuKIOUyaPHBwaKKOjelhiFzkZw=w300",
+        "https://play-lh.googleusercontent.com/9sUC4h73HAa0Yb_7EHC7oMjbAoyvzb9gVBlH03qw13HQguumz_OAWMs5oUDZbSXTQ5jqf9a1Jie5xjO0tMBlUQ=w300",
+        "https://play-lh.googleusercontent.com/Fm1f5Pu1LF4Aj3RHW7Hr6u9U0AIuQmwgJtlgwJ_TfLiGPVPOuja3zxljZHI2rarKif7QuTLdZ5g23ydvdXyr=w300"
+      ],
+      "genre": "Puzzle",
+      "developer": "HM Games Pty Ltd",
+      "downloads": "100,000+",
+      "realInstalls": 119525,
+      "realInstallsStr": "120K",
+      "perDay": 9194,
+      "days": 13,
+      "score": 4.8,
+      "ratings": 11645,
+      "ratingsStr": "11K",
+      "contentRating": "Everyone",
+      "offersIAP": true,
+      "releaseDate": "Jul 16, 2026",
+      "lastUpdated": "Jul 24, 2026",
+      "summary": "Aim, Shoot And Smash Blocks!",
+      "url": "https://play.google.com/store/apps/details?id=com.ocean.block.shoot",
+      "reviewsByDay": [],
+      "dpdHistory": [
+        {
+          "date": "2026-07-28",
+          "dpd": 6360,
+          "installs": 76324
+        },
+        {
+          "date": "2026-07-29",
+          "dpd": 9194,
+          "installs": 119525
+        }
+      ],
+      "trend": "rising",
+      "dpd_prev": 6360,
+      "dpd_change_pct": 45,
       "isWatchlist": false
     }
   ],
