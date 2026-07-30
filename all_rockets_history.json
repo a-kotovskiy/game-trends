@@ -145853,8 +145853,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.combo.knockout",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-30",
-    "peak_dpd": 10674,
-    "peak_date": "2026-07-29",
+    "peak_dpd": 11070,
+    "peak_date": "2026-07-30",
     "history": [
       {
         "date": "2026-07-13",
@@ -147356,8 +147356,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.kite.knockfever",
     "first_seen": "2026-07-15",
     "last_seen": "2026-07-30",
-    "peak_dpd": 12818,
-    "peak_date": "2026-07-29",
+    "peak_dpd": 13030,
+    "peak_date": "2026-07-30",
     "history": [
       {
         "date": "2026-07-15",
@@ -149142,8 +149142,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.global.szsslg",
     "first_seen": "2026-07-18",
     "last_seen": "2026-07-30",
-    "peak_dpd": 10842,
-    "peak_date": "2026-07-29",
+    "peak_dpd": 10942,
+    "peak_date": "2026-07-30",
     "history": [
       {
         "date": "2026-07-18",
@@ -151780,8 +151780,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.hookah.cs.manager",
     "first_seen": "2026-07-20",
     "last_seen": "2026-07-30",
-    "peak_dpd": 6217,
-    "peak_date": "2026-07-29",
+    "peak_dpd": 6374,
+    "peak_date": "2026-07-30",
     "history": [
       {
         "date": "2026-07-20",
@@ -151985,8 +151985,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.esprit.rpg.lttlefirykng",
     "first_seen": "2026-07-20",
     "last_seen": "2026-07-30",
-    "peak_dpd": 900,
-    "peak_date": "2026-07-28",
+    "peak_dpd": 1126,
+    "peak_date": "2026-07-30",
     "history": [
       {
         "date": "2026-07-20",
@@ -153380,8 +153380,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.arrowverse115.gp",
     "first_seen": "2026-07-28",
     "last_seen": "2026-07-30",
-    "peak_dpd": 1814,
-    "peak_date": "2026-07-28",
+    "peak_dpd": 2059,
+    "peak_date": "2026-07-30",
     "history": [
       {
         "date": "2026-07-28",
@@ -154125,8 +154125,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.ravengames.chameleon",
     "first_seen": "2026-07-28",
     "last_seen": "2026-07-30",
-    "peak_dpd": 1101,
-    "peak_date": "2026-07-29",
+    "peak_dpd": 1605,
+    "peak_date": "2026-07-30",
     "history": [
       {
         "date": "2026-07-28",
@@ -155150,7 +155150,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.puzztime.minipuzzles.rush",
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-30",
-    "peak_dpd": 710,
+    "peak_dpd": 740,
     "peak_date": "2026-07-30",
     "history": [
       {
@@ -155328,6 +155328,25 @@
         "date": "2026-07-30",
         "installs": 6375,
         "dpd": 303,
+        "score": 0
+      }
+    ]
+  },
+  "com.gurupuzzle.goods.tidy.jam.sorting": {
+    "id": "com.gurupuzzle.goods.tidy.jam.sorting",
+    "name": "Item Escape - Goods 3D Sorting",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/682RXLmpdyh1RNNEbjrvj3-EiIEoGJZGYYXJXYpwU1SzcBVKdL8J9KHSHmtf6anhINtVvutoqT7CyiP4Q9Gr",
+    "url": "https://play.google.com/store/apps/details?id=com.gurupuzzle.goods.tidy.jam.sorting",
+    "first_seen": "2026-07-30",
+    "last_seen": "2026-07-30",
+    "peak_dpd": 117804,
+    "peak_date": "2026-07-30",
+    "history": [
+      {
+        "date": "2026-07-30",
+        "installs": 117804,
+        "dpd": 117804,
         "score": 0
       }
     ]
