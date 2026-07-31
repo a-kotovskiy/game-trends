@@ -157018,5 +157018,81 @@
         "score": 0
       }
     ]
+  },
+  "com.kr.chens.ete2024": {
+    "id": "com.kr.chens.ete2024",
+    "name": "E.T.E: Shattered Skie",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/CPWfNt3Bmy1TQVe6YXc9gA-X93r4F2DrjYS7Oa6Lq9T3rSes-hn_X23QfdTCJC3Sfh9ax_x3k6k1YHE5Kj4RuQ",
+    "url": "https://play.google.com/store/apps/details?id=com.kr.chens.ete2024",
+    "first_seen": "2026-07-31",
+    "last_seen": "2026-07-31",
+    "peak_dpd": 65631,
+    "peak_date": "2026-07-31",
+    "history": [
+      {
+        "date": "2026-07-31",
+        "installs": 65631,
+        "dpd": 65631,
+        "score": 4.3
+      }
+    ]
+  },
+  "com.emagroups.zs": {
+    "id": "com.emagroups.zs",
+    "name": "Dynasty Warriors: Overlords",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/bnRNTMLq31Xz0zAodb7zyqgxGVXn5fE40WtySObWnVfkm0-50gaxTuUw-qJQxkYTjSNfFXmxut5DqTOAk9GCtMA",
+    "url": "https://play.google.com/store/apps/details?id=com.emagroups.zs",
+    "first_seen": "2026-07-31",
+    "last_seen": "2026-07-31",
+    "peak_dpd": 8061,
+    "peak_date": "2026-07-31",
+    "history": [
+      {
+        "date": "2026-07-31",
+        "installs": 16123,
+        "dpd": 8061,
+        "score": 4.2
+      }
+    ]
+  },
+  "waterflow.color.sort.puzzle": {
+    "id": "waterflow.color.sort.puzzle",
+    "name": "Water Flow: Color Sort Puzzle",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/eOAG-MV8uxov_VVZRDwk3mU2_gq6N_aqic0jTgG-nxIbKTJYVq_AyJLSn6TYmHFVHtSi3nqeMH7IV4iQbyycCg",
+    "url": "https://play.google.com/store/apps/details?id=waterflow.color.sort.puzzle",
+    "first_seen": "2026-07-31",
+    "last_seen": "2026-07-31",
+    "peak_dpd": 2681,
+    "peak_date": "2026-07-31",
+    "history": [
+      {
+        "date": "2026-07-31",
+        "installs": 32180,
+        "dpd": 2681,
+        "score": 4.7
+      }
+    ]
+  },
+  "com.tilematch.cat": {
+    "id": "com.tilematch.cat",
+    "name": "Tile Manor",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/ByWH1SRkae2GKdGGL9OPFCgvQfIySfSgjW41Hp_Xv-UROHK6DarAwCpV4Z5I0fZf0Ej20S-QS7DTYves79_uYQ",
+    "url": "https://play.google.com/store/apps/details?id=com.tilematch.cat",
+    "first_seen": "2026-07-31",
+    "last_seen": "2026-07-31",
+    "peak_dpd": 1744,
+    "peak_date": "2026-07-31",
+    "history": [
+      {
+        "date": "2026-07-31",
+        "installs": 24417,
+        "dpd": 1744,
+        "score": 5
+      }
+    ]
   }
 }
