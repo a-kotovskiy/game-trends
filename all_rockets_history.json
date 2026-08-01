@@ -147994,7 +147994,7 @@
     "id": "com.kite.knockfever",
     "name": "Knock Fever",
     "genre": "Puzzle",
-    "icon": "https://play-lh.googleusercontent.com/mn35Ln3AVVKPt6WJ6CC7Kul9mBfUEfLZxubt5EY10AvXoBvFWZFIK6PNhy8eKjAfWOSluFu1DQu8xDt3DiFS",
+    "icon": "https://play-lh.googleusercontent.com/iPl8bc5roFIBptZdI9oupRqnjByBHF6g0rMWBChtpq6FMVKsYftlbk422E1d3Fv_AB6OisCGV1Nb07CC4JTo",
     "url": "https://play.google.com/store/apps/details?id=com.kite.knockfever",
     "first_seen": "2026-07-15",
     "last_seen": "2026-08-01",
@@ -154610,8 +154610,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.ocean.block.shoot",
     "first_seen": "2026-07-28",
     "last_seen": "2026-08-01",
-    "peak_dpd": 10464,
-    "peak_date": "2026-07-30",
+    "peak_dpd": 11229,
+    "peak_date": "2026-08-01",
     "history": [
       {
         "date": "2026-07-28",
@@ -158568,7 +158568,7 @@
     "url": "https://play.google.com/store/apps/details?id=vn.choingay.portal",
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
-    "peak_dpd": 59119,
+    "peak_dpd": 59123,
     "peak_date": "2026-08-01",
     "history": [
       {
@@ -158671,6 +158671,101 @@
         "installs": 1165,
         "dpd": 1165,
         "score": 0
+      }
+    ]
+  },
+  "com.RC40B.steal.monster.catchn.run": {
+    "id": "com.RC40B.steal.monster.catchn.run",
+    "name": "Steal Monster: Catch n Run",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/MpGnYdL6PrPbSwa8L-n2KORvy4EnbKbVwA8bOyi1CD4SyYIdlcr_MXvI449Wa8k31sF-hztTxKPaFUTyXmavQg",
+    "url": "https://play.google.com/store/apps/details?id=com.RC40B.steal.monster.catchn.run",
+    "first_seen": "2026-08-01",
+    "last_seen": "2026-08-01",
+    "peak_dpd": 49484,
+    "peak_date": "2026-08-01",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "installs": 940204,
+        "dpd": 49484,
+        "score": 0
+      }
+    ]
+  },
+  "com.tree.idle.cat.cult": {
+    "id": "com.tree.idle.cat.cult",
+    "name": "Cat Mafia : Idle Tycoon Games",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/JkgBMrWefnbApk8uE_XF55osFrCOHpHM_l8u_iHPhx3oPE30p2sSv7t-mwLJZL9prs2EvNv3cVpqVGkLDGd5mw",
+    "url": "https://play.google.com/store/apps/details?id=com.tree.idle.cat.cult",
+    "first_seen": "2026-08-01",
+    "last_seen": "2026-08-01",
+    "peak_dpd": 9854,
+    "peak_date": "2026-08-01",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "installs": 39417,
+        "dpd": 9854,
+        "score": 4.7
+      }
+    ]
+  },
+  "com.gl.giant.monster.city.run": {
+    "id": "com.gl.giant.monster.city.run",
+    "name": "Dear Passengers",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/500d7FnwDRMTcKW_n5FLzwJQyMKx4is8z8MrEy7_eQyZjL7t04Tfr9u9lGzOmM-KRS0pRPDLmasnf--p1Bu6NQ",
+    "url": "https://play.google.com/store/apps/details?id=com.gl.giant.monster.city.run",
+    "first_seen": "2026-08-01",
+    "last_seen": "2026-08-01",
+    "peak_dpd": 5030,
+    "peak_date": "2026-08-01",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "installs": 75453,
+        "dpd": 5030,
+        "score": 1.8
+      }
+    ]
+  },
+  "com.LetsArrowsPuzzle.play": {
+    "id": "com.LetsArrowsPuzzle.play",
+    "name": "Lets Arrows Puzzle",
+    "genre": "Puzzle",
+    "icon": "https://play-lh.googleusercontent.com/ZNnSspsGGH44y0uhwKPxldQfWhG54uDsbD_XgEngZNX9eSLbd0r8HKv08nsbNN453WisJJ41MAGc7wovPSvX9Og",
+    "url": "https://play.google.com/store/apps/details?id=com.LetsArrowsPuzzle.play",
+    "first_seen": "2026-08-01",
+    "last_seen": "2026-08-01",
+    "peak_dpd": 1785,
+    "peak_date": "2026-08-01",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "installs": 26778,
+        "dpd": 1785,
+        "score": 4.8
+      }
+    ]
+  },
+  "com.jewel.scapes.color.by.number.free.games": {
+    "id": "com.jewel.scapes.color.by.number.free.games",
+    "name": "Jewelscapes: Color by Number",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/bLsEX4h0r2FNInh_9kUTE3eKR_X0VkuRg7OtbNK-Hd398gn0hFJh24M7So3XGCTv3t689WVEApQDu-ueygehPg",
+    "url": "https://play.google.com/store/apps/details?id=com.jewel.scapes.color.by.number.free.games",
+    "first_seen": "2026-08-01",
+    "last_seen": "2026-08-01",
+    "peak_dpd": 1050,
+    "peak_date": "2026-08-01",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "installs": 23110,
+        "dpd": 1050,
+        "score": 4.9
       }
     ]
   }

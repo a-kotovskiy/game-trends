@@ -3,9 +3,9 @@
     {
       "id": "dDckGauu8ng",
       "title": "The New Minecraft World Record...",
-      "views": 6300000,
-      "views_str": "6.3M",
-      "vpd": 1575000,
+      "views": 6500000,
+      "views_str": "6.5M",
+      "vpd": 1625000,
       "vpd_str": "1.6M",
       "age_days": 4,
       "upload_date": "20260728",
@@ -18,7 +18,7 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=1.6M",
-      "channel_avg_vpd": 1147500
+      "channel_avg_vpd": 1172500
     },
     {
       "id": "auPTJwKiBw4",
@@ -38,7 +38,7 @@
       "grade": "🔥🔥",
       "source": "channel_monitor",
       "reason": "vpd=720K",
-      "channel_avg_vpd": 1147500
+      "channel_avg_vpd": 1172500
     },
     {
       "id": "0I69KxVC3Tw",
@@ -63,10 +63,10 @@
     {
       "id": "7wO32tHHWLE",
       "title": "GUESS THE YOUTUBER BY THEIR EYE 😂 #roblox #challenge #gaming #memes #funny #comedy",
-      "views": 3700000,
-      "views_str": "3.7M",
-      "vpd": 528571,
-      "vpd_str": "529K",
+      "views": 3800000,
+      "views_str": "3.8M",
+      "vpd": 542857,
+      "vpd_str": "543K",
       "age_days": 7,
       "upload_date": "20260725",
       "duration": 61,
@@ -77,16 +77,16 @@
       "thumb": "https://img.youtube.com/vi/7wO32tHHWLE/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=529K",
-      "channel_avg_vpd": 474285
+      "reason": "vpd=543K",
+      "channel_avg_vpd": 491428
     },
     {
       "id": "MnUC4Xas-Hg",
       "title": "GUESS THE ROBLOX GAME BY THE ICON 😂 #roblox #challenge #funny #comedy #gaming",
-      "views": 2100000,
-      "views_str": "2.1M",
-      "vpd": 420000,
-      "vpd_str": "420K",
+      "views": 2200000,
+      "views_str": "2.2M",
+      "vpd": 440000,
+      "vpd_str": "440K",
       "age_days": 5,
       "upload_date": "20260727",
       "duration": 66,
@@ -97,8 +97,8 @@
       "thumb": "https://img.youtube.com/vi/MnUC4Xas-Hg/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=420K",
-      "channel_avg_vpd": 474285
+      "reason": "vpd=440K",
+      "channel_avg_vpd": 491428
     },
     {
       "id": "CY93SBXnxDw",
@@ -118,7 +118,7 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=400K",
-      "channel_avg_vpd": 285250
+      "channel_avg_vpd": 289000
     },
     {
       "id": "HpwdLWWqawU",
@@ -161,6 +161,26 @@
       "channel_avg_vpd": 260869
     },
     {
+      "id": "rVJzYVjc5yc",
+      "title": "MY WIFE HAS TO FINISH MY SONG!",
+      "views": 712000,
+      "views_str": "712K",
+      "vpd": 178000,
+      "vpd_str": "178K",
+      "age_days": 4,
+      "upload_date": "20260728",
+      "duration": 45,
+      "kind": "Short",
+      "channel": "Holy Baam",
+      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
+      "url": "https://youtu.be/rVJzYVjc5yc",
+      "thumb": "https://img.youtube.com/vi/rVJzYVjc5yc/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=178K",
+      "channel_avg_vpd": 289000
+    },
+    {
       "id": "LnMRU5uhvnU",
       "title": "WHO’S the WINNER? #minecraft #shorts",
       "views": 4500000,
@@ -178,35 +198,15 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=173K",
-      "channel_avg_vpd": 108225
-    },
-    {
-      "id": "rVJzYVjc5yc",
-      "title": "MY WIFE HAS TO FINISH MY SONG!",
-      "views": 682000,
-      "views_str": "682K",
-      "vpd": 170500,
-      "vpd_str": "170K",
-      "age_days": 4,
-      "upload_date": "20260728",
-      "duration": 45,
-      "kind": "Short",
-      "channel": "Holy Baam",
-      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
-      "url": "https://youtu.be/rVJzYVjc5yc",
-      "thumb": "https://img.youtube.com/vi/rVJzYVjc5yc/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=170K",
-      "channel_avg_vpd": 285250
+      "channel_avg_vpd": 108444
     },
     {
       "id": "49LyhVKpy1Q",
       "title": "ARE THESE ALL FOR ME?!😱KVIINKA OPENS GIFTS FROM FOLLOWERS IN ALMATY🥰#roblox #gaming #funny #kviinka",
-      "views": 819000,
-      "views_str": "819K",
-      "vpd": 163800,
-      "vpd_str": "164K",
+      "views": 848000,
+      "views_str": "848K",
+      "vpd": 169600,
+      "vpd_str": "170K",
       "age_days": 5,
       "upload_date": "20260727",
       "duration": 59,
@@ -217,8 +217,8 @@
       "thumb": "https://img.youtube.com/vi/49LyhVKpy1Q/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=164K",
-      "channel_avg_vpd": 121500
+      "reason": "vpd=170K",
+      "channel_avg_vpd": 124800
     },
     {
       "id": "hThq9MHyNls",
@@ -263,10 +263,10 @@
     {
       "id": "KS6OwNrBkcM",
       "title": "INTERESTING FACT in Animal Hospital roblox | Animal Hospital roblox | Fire extinguisher",
-      "views": 240000,
-      "views_str": "240K",
-      "vpd": 80000,
-      "vpd_str": "80K",
+      "views": 266000,
+      "views_str": "266K",
+      "vpd": 88666,
+      "vpd_str": "89K",
       "age_days": 3,
       "upload_date": "20260729",
       "duration": 14,
@@ -277,16 +277,16 @@
       "thumb": "https://img.youtube.com/vi/KS6OwNrBkcM/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=80K",
-      "channel_avg_vpd": 55300
+      "reason": "vpd=89K",
+      "channel_avg_vpd": 88666
     },
     {
       "id": "AW1t0klqszA",
       "title": "HOW TO CONVINCE MOM?😱TO GO TO MY CONCERT IN ASTANA🥰KVINKA GIVES TIPS👑(watch until the end) #roblo...",
-      "views": 792000,
-      "views_str": "792K",
-      "vpd": 79200,
-      "vpd_str": "79K",
+      "views": 800000,
+      "views_str": "800K",
+      "vpd": 80000,
+      "vpd_str": "80K",
       "age_days": 10,
       "upload_date": "20260722",
       "duration": 55,
@@ -297,15 +297,15 @@
       "thumb": "https://img.youtube.com/vi/AW1t0klqszA/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=79K",
-      "channel_avg_vpd": 121500
+      "reason": "vpd=80K",
+      "channel_avg_vpd": 124800
     },
     {
       "id": "9wD8PzHDOAQ",
       "title": "Minecraft, But Touching Colors Changes My Mob…",
-      "views": 899000,
-      "views_str": "899K",
-      "vpd": 69153,
+      "views": 903000,
+      "views_str": "903K",
+      "vpd": 69461,
       "vpd_str": "69K",
       "age_days": 13,
       "upload_date": "20260719",
@@ -318,15 +318,15 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=69K",
-      "channel_avg_vpd": 40261
+      "channel_avg_vpd": 40434
     },
     {
       "id": "8-M5nVBi3cE",
       "title": "Tap to the Beat Challenge in Minecraft!",
-      "views": 739000,
-      "views_str": "739K",
-      "vpd": 49266,
-      "vpd_str": "49K",
+      "views": 752000,
+      "views_str": "752K",
+      "vpd": 50133,
+      "vpd_str": "50K",
       "age_days": 15,
       "upload_date": "20260717",
       "duration": 20,
@@ -335,18 +335,18 @@
       "channel_id": "UC_NqVr5AA1vziN0ZLR-QiLw",
       "url": "https://youtu.be/8-M5nVBi3cE",
       "thumb": "https://img.youtube.com/vi/8-M5nVBi3cE/mqdefault.jpg",
-      "grade": "🚀",
+      "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=49K",
-      "channel_avg_vpd": 45064
+      "reason": "vpd=50K",
+      "channel_avg_vpd": 45611
     },
     {
       "id": "lnivfmYxBM4",
       "title": "WORLD CUP Maze! #minecraft #shorts",
-      "views": 694000,
-      "views_str": "694K",
-      "vpd": 43375,
-      "vpd_str": "43K",
+      "views": 701000,
+      "views_str": "701K",
+      "vpd": 43812,
+      "vpd_str": "44K",
       "age_days": 16,
       "upload_date": "20260716",
       "duration": 6,
@@ -357,15 +357,15 @@
       "thumb": "https://img.youtube.com/vi/lnivfmYxBM4/mqdefault.jpg",
       "grade": "🚀",
       "source": "channel_monitor",
-      "reason": "vpd=43K",
-      "channel_avg_vpd": 108225
+      "reason": "vpd=44K",
+      "channel_avg_vpd": 108444
     },
     {
       "id": "iiOEjFzxFeI",
       "title": "Don’t Choose the Wrong Door in Minecraft!",
-      "views": 899000,
-      "views_str": "899K",
-      "vpd": 40863,
+      "views": 904000,
+      "views_str": "904K",
+      "vpd": 41090,
       "vpd_str": "41K",
       "age_days": 22,
       "upload_date": "20260710",
@@ -378,14 +378,14 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=41K",
-      "channel_avg_vpd": 45064
+      "channel_avg_vpd": 45611
     },
     {
       "id": "GFXayaue7cg",
       "title": "That was a mistake😂⬇️⬇️⬇️ | Fixeye #shorts",
-      "views": 272000,
-      "views_str": "272K",
-      "vpd": 38857,
+      "views": 275000,
+      "views_str": "275K",
+      "vpd": 39285,
       "vpd_str": "39K",
       "age_days": 7,
       "upload_date": "20260725",
@@ -398,14 +398,14 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=39K",
-      "channel_avg_vpd": 38428
+      "channel_avg_vpd": 38792
     },
     {
       "id": "20ClnPqLufw",
       "title": "Verity Speedrun😂⬇️⬇️⬇️ | Fixeye #shorts",
-      "views": 380000,
-      "views_str": "380K",
-      "vpd": 38000,
+      "views": 383000,
+      "views_str": "383K",
+      "vpd": 38300,
       "vpd_str": "38K",
       "age_days": 10,
       "upload_date": "20260722",
@@ -418,14 +418,14 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=38K",
-      "channel_avg_vpd": 38428
+      "channel_avg_vpd": 38792
     },
     {
       "id": "9QzTlui6UrI",
       "title": "Ranking Things I Can't Live Without",
-      "views": 909000,
-      "views_str": "909K",
-      "vpd": 33666,
+      "views": 911000,
+      "views_str": "911K",
+      "vpd": 33740,
       "vpd_str": "34K",
       "age_days": 27,
       "upload_date": "20260705",
@@ -438,27 +438,31 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=34K",
-      "channel_avg_vpd": 33666
+      "channel_avg_vpd": 33740
     },
     {
-      "id": "q65FDdjFU1s",
-      "title": "WHAT'S IN THE STALKER'S PHOTO? in Animal Hospital roblox | Animal Hospital roblox | Monster photo",
-      "views": 153000,
-      "views_str": "153K",
-      "vpd": 30600,
-      "vpd_str": "31K",
-      "age_days": 5,
-      "upload_date": "20260727",
-      "duration": 14,
-      "kind": "Short",
-      "channel": "Red Cat",
-      "channel_id": "UC7jL8M3KBSO47ke9l1os_Fg",
-      "url": "https://youtu.be/q65FDdjFU1s",
-      "thumb": "https://img.youtube.com/vi/q65FDdjFU1s/mqdefault.jpg",
-      "grade": "🚀",
-      "source": "channel_monitor",
-      "reason": "vpd=31K",
-      "channel_avg_vpd": 55300
+      "source": "rss",
+      "kind": "Video",
+      "title": "Я НАШЕЛ ВСЕ 11 АНОМАЛИЙ В БОЛЬНИЦЕ ДЛЯ ЖИВОТНЫХ В ROBLOX",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/LRNs8rnrEGo",
+      "thumb": "https://img.youtube.com/vi/LRNs8rnrEGo/mqdefault.jpg",
+      "published": "2026-08-01T08:00:39+00:00",
+      "hype_score": 5,
+      "related_videos": 130,
+      "channel_count": 12,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -519,7 +523,7 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/ffKnBfNG2UU",
@@ -543,36 +547,12 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/g21EtdDyUX4",
       "thumb": "https://img.youtube.com/vi/g21EtdDyUX4/mqdefault.jpg",
       "published": "2026-07-30T08:00:22+00:00",
-      "hype_score": 5,
-      "related_videos": 130,
-      "channel_count": 12,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "Меня Сожрал Верити🙂",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 2,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/CY93SBXnxDw",
-      "thumb": "https://img.youtube.com/vi/CY93SBXnxDw/mqdefault.jpg",
-      "published": "2026-07-29T12:00:21+00:00",
       "hype_score": 5,
       "related_videos": 130,
       "channel_count": 12,
@@ -591,7 +571,7 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 3,
+      "age_days": 4,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/tlS05R-nr5I",
@@ -627,6 +607,30 @@
       "has_games": true,
       "game_count": 5,
       "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "STREAM 3 - THE OVERFLOW",
+      "topic": "minecraft",
+      "channel": "Life of Boris",
+      "author": "Life of Boris",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 6,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/s8L6bu1CmK8",
+      "thumb": "https://img.youtube.com/vi/s8L6bu1CmK8/mqdefault.jpg",
+      "published": "2026-07-26T10:49:00+00:00",
+      "hype_score": 4,
+      "related_videos": 17,
+      "channel_count": 5,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     }
   ],
   "google_trends": [],
@@ -636,38 +640,20 @@
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1463",
-      "tg_text": "#западныемемы 🇺🇸В англоязычном интернете завирусился мем «Jimothy the Raccoon» («Енот Джимоти»).💁‍♂️Мем появился в июле 2026 года после того, как жительница Сиэтла опубликовала видео с необычным енотом по кличке Джимоти. 🦝Из-за редкого синдрома короткого позвоночника его тело выглядит круглым и непр",
-      "topic": "Jimothy the Raccoon",
-      "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/1466",
-      "tg_text": "🆕Новое видео на YouTube:«Я КРУТОЙ: ОТКУДА МЕМ?»❤️Приятного просмотра👇Смотреть тут👇🔗 https://youtu.be/oxitdtWg9Ek?si=fCwZ1ZKLqUvxqSVN ❤17🤮5 593 views14:20",
-      "topic": "Я КРУТОЙ: ОТКУДА МЕМ?",
-      "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1470",
-      "tg_text": "📹Для тех у кого Ютуб не работает:«Я крутой: откуда мем?»❤️Приятного просмотра🙏Поддержите пожалуйста любой реакцией ❤17👎3🤮2 628 views11:19",
+      "tg_text": "📹Для тех у кого Ютуб не работает:«Я крутой: откуда мем?»❤️Приятного просмотра🙏Поддержите пожалуйста любой реакцией ❤18👎3🤮2 660 views11:19",
       "topic": "Я крутой: откуда мем?",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1474",
-      "tg_text": "🆕Новое видео на Ютуб:«Жарить Варить:Откуда мем?»❤️Приятного просмотра 👇смотреть тут👇🔗 https://youtu.be/I-ha66VDE3s?si=NMx3a0ihANv3oriE ❤12🤮2👎1 589 viewsedited &nbsp;14:24",
+      "tg_text": "🆕Новое видео на Ютуб:«Жарить Варить:Откуда мем?»❤️Приятного просмотра 👇смотреть тут👇🔗 https://youtu.be/I-ha66VDE3s?si=NMx3a0ihANv3oriE ❤13🤮2👎1 625 viewsedited &nbsp;14:24",
       "topic": "Жарить Варить:Откуда мем?",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
     },
     {
       "source": "tg_signal",
@@ -676,16 +662,52 @@
       "tg_text": "🦠 В TikTok набирает популярность мем с участием парня по имени:Матвей Бодяг Любомирович🧗‍♂️ Автор видео застал ребят, которые лазили по охраняемому объекту, и снял одного из них на камеру.❓ Вы уже видели это видео?👍 — Да👎 — Нет",
       "topic": "с участием парня по имени",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/1484",
-      "tg_text": "🦠В Рунете набирает популярность мем:«Где майор» ❓Вам попадались подобные мемы?👍-Доо👎-Неа 👍41👎13 311 views19:29",
+      "tg_text": "🦠В Рунете набирает популярность мем:«Где майор» ❓Вам попадались подобные мемы?👍-Доо👎-Неа 👍50👎18⚡1🤮1 447 views19:29",
       "topic": "Где майор",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1486",
+      "tg_text": "🦠В ТикТок набирает популярность мем:💁‍♂️ «Это ровно сынок»❓Вам уже попадались подобные мемы? 👍-Да👎-Неа 👎29👍17⚡1👀1 363 views07:33",
+      "topic": "Это ровно сынок",
+      "youtube_videos": [],
+      "detected_at": "2026-08-01 07:23"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1487",
+      "tg_text": "💁‍♂️Для тех у кого Ютуб не работает:«Я апнул первый прайм на Тюленя»❤️Приятного просмотра 🙏Поддержите пожалуйста любой реакцией ❤11⚡1🔥1👏1 325 views09:31",
+      "topic": "Я апнул первый прайм на Тюленя",
+      "youtube_videos": [],
+      "detected_at": "2026-08-01 07:23"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1488",
+      "tg_text": "🦠В ТикТок вирусится очередной трек от юной певицы Betsy:⚡️«Электрощиток»🤷‍♂️Со звуком снято уже свыше 200к клипов, кажется у БИСВИДИ появилась работа😆❓Вам нравится этот трек? 👍-Да👎-Неа",
+      "topic": "Электрощиток",
+      "youtube_videos": [],
+      "detected_at": "2026-08-01 07:23"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/1491",
+      "tg_text": "❌Тренд можно закрывать😆 Sweetie Kislinka 👍25❤2🔥1🤡1🍓1😭1 237 views12:51",
+      "topic": "можно закрывать",
+      "youtube_videos": [],
+      "detected_at": "2026-08-01 07:23"
     },
     {
       "source": "tg_signal",
@@ -694,7 +716,7 @@
       "tg_text": "В Советском союзе все делали не спеша... Нейросетевые фантазии о прошлом - главный тренд Тиктока прямо сейчас. И олицетворение этого тренда - существо по имени Черемша (гибрид зайца и льва). Такие мемы, такое времяhttps://memepedia.ru/cheremsha/ 0:46 This media is not supported in your browser VIEW ",
       "topic": "Тиктока прямо сейчас",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
     },
     {
       "source": "tg_signal",
@@ -703,7 +725,7 @@
       "tg_text": "Танец Тарона Эджертона в новом фильме от Netflix - идеальный мем о тех, кто слетает с катушекhttps://memepedia.ru/taron-edzherton-tancuet/ 0:12 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "о тех",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
     },
     {
       "source": "tg_signal",
@@ -712,7 +734,7 @@
       "tg_text": "Песня про Эверест стала гимном самоуверенных людей, а ее смешной перевод - это новый мем про всё крутоеhttps://memepedia.ru/gora-everest-na-fone-menya/ 0:24 This media is not supported in your browser VIEW IN TELEGRAM",
       "topic": "про вс",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
     },
     {
       "source": "tg_signal",
@@ -721,7 +743,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-08-01 00:23"
+      "detected_at": "2026-08-01 07:23"
     }
   ]
 }
