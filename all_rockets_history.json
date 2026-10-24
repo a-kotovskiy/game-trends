@@ -198886,7 +198886,7 @@
     "id": "com.deadpixel.slowmosmash",
     "name": "Slow Mo Smash: Time Strike",
     "genre": "Action",
-    "icon": "https://play-lh.googleusercontent.com/s41BkB2V8QAi2ri79Vu69ySPvvS4E_9fzZqyxZoe7Fnmj7k1rhcVjmnF1S8Hqh_dDoqP8AY9m8U1flHQJSKuDw",
+    "icon": "https://play-lh.googleusercontent.com/AHqj9zVHZEaYUgM8DgBa7K5_d-_i8TbBBx8Ad4Up6SR_WN1jirSCow3o_Zg7bZtG_x3yccTHHmEoFANIlh3QqGw",
     "url": "https://play.google.com/store/apps/details?id=com.deadpixel.slowmosmash",
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-24",
@@ -201335,8 +201335,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.anygames.dummydrop",
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-24",
-    "peak_dpd": 456,
-    "peak_date": "2026-10-23",
+    "peak_dpd": 546,
+    "peak_date": "2026-10-24",
     "history": [
       {
         "date": "2026-10-23",
@@ -201410,8 +201410,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.deepclean.asmr.makeover.home.tidy.relaxinggame",
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-24",
-    "peak_dpd": 337,
-    "peak_date": "2026-10-23",
+    "peak_dpd": 440,
+    "peak_date": "2026-10-24",
     "history": [
       {
         "date": "2026-10-23",
@@ -201435,8 +201435,8 @@
     "url": "https://play.google.com/store/apps/details?id=club.citysoccer.app",
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-24",
-    "peak_dpd": 335,
-    "peak_date": "2026-10-23",
+    "peak_dpd": 365,
+    "peak_date": "2026-10-24",
     "history": [
       {
         "date": "2026-10-23",
@@ -201510,8 +201510,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.tutotoons.app.fluvsiescaremochi",
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-24",
-    "peak_dpd": 2259,
-    "peak_date": "2026-10-23",
+    "peak_dpd": 2538,
+    "peak_date": "2026-10-24",
     "history": [
       {
         "date": "2026-10-23",
@@ -201757,6 +201757,139 @@
         "date": "2026-10-24",
         "installs": 8746,
         "dpd": 323,
+        "score": 0
+      }
+    ]
+  },
+  "com.pirate.belle.smashquest": {
+    "id": "com.pirate.belle.smashquest",
+    "name": "Pirate Belle: Smash Quest",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/yhWBhy45VBUOealOGrXuKpMN-2EcXVwuGkG-EUpwQRqugByss4_u8Rujb4cdEPhWHx6yYZ-2qbk0VwR_HDdV4Q4",
+    "url": "https://play.google.com/store/apps/details?id=com.pirate.belle.smashquest",
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "peak_dpd": 8604,
+    "peak_date": "2026-10-24",
+    "history": [
+      {
+        "date": "2026-10-24",
+        "installs": 51628,
+        "dpd": 8604,
+        "score": 0
+      }
+    ]
+  },
+  "com.tinyfoundry.magnetworks": {
+    "id": "com.tinyfoundry.magnetworks",
+    "name": "Yono 66:Tiny Foundry",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/VbjFKGu1ILoZAwc2kvzNXTca1I_hSPQ6LP2B-eT0woR1qth5AfgQfs33laIj0hquH6iSfx9ZSBg1bH3FgbD05DY",
+    "url": "https://play.google.com/store/apps/details?id=com.tinyfoundry.magnetworks",
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "peak_dpd": 3981,
+    "peak_date": "2026-10-24",
+    "history": [
+      {
+        "date": "2026-10-24",
+        "installs": 103515,
+        "dpd": 3981,
+        "score": 0
+      }
+    ]
+  },
+  "com.sohi.woodgrid.gp": {
+    "id": "com.sohi.woodgrid.gp",
+    "name": "Wood Grid:Classic Block Puzzle",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/vHo7eDFkE2pGoarz8TJ7NEcaMK1AKWWrKQPz1N4L1eHtGQ_AU8azix34GXi0hqCTkOBzX9a6iDKByO0MHo7_NB4",
+    "url": "https://play.google.com/store/apps/details?id=com.sohi.woodgrid.gp",
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "peak_dpd": 1195,
+    "peak_date": "2026-10-24",
+    "history": [
+      {
+        "date": "2026-10-24",
+        "installs": 35856,
+        "dpd": 1195,
+        "score": 4.9
+      }
+    ]
+  },
+  "com.cargopathwayfern.routelane": {
+    "id": "com.cargopathwayfern.routelane",
+    "name": "NN44Pathway",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/W4hpaYHPut7GctX8vSElO8ce07iwqCcyPMemh1ydyc0tKXAgdo-iLqgYgnbAkYXDZ4lS8YO9260BmtcONUYLFw",
+    "url": "https://play.google.com/store/apps/details?id=com.cargopathwayfern.routelane",
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "peak_dpd": 1110,
+    "peak_date": "2026-10-24",
+    "history": [
+      {
+        "date": "2026-10-24",
+        "installs": 12214,
+        "dpd": 1110,
+        "score": 0
+      }
+    ]
+  },
+  "com.stormchasersflap.dodge": {
+    "id": "com.stormchasersflap.dodge",
+    "name": "storm chasers",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/sfulg7VtieVw_szYPWkzwyJm02BXspElx8emJMUdMkpVaD9f0Gu_hURkJeCnn8GognM-6IS53Uzb8FunkDf0nqM",
+    "url": "https://play.google.com/store/apps/details?id=com.stormchasersflap.dodge",
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "peak_dpd": 831,
+    "peak_date": "2026-10-24",
+    "history": [
+      {
+        "date": "2026-10-24",
+        "installs": 11638,
+        "dpd": 831,
+        "score": 0
+      }
+    ]
+  },
+  "com.serpenttrailglow.mellowtrail": {
+    "id": "com.serpenttrailglow.mellowtrail",
+    "name": "NN555Serpent",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/Mj0l7ODyBqpj3eC1v26hKKM43YfB7_vPjwLiyEGxE8Qr-IeuZdfNOJU-3L4QheIYQ3WqiKg2VJka-dlUd3JqCw",
+    "url": "https://play.google.com/store/apps/details?id=com.serpenttrailglow.mellowtrail",
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "peak_dpd": 558,
+    "peak_date": "2026-10-24",
+    "history": [
+      {
+        "date": "2026-10-24",
+        "installs": 14533,
+        "dpd": 558,
+        "score": 0
+      }
+    ]
+  },
+  "com.hitflowgames.osmanlikariyerim": {
+    "id": "com.hitflowgames.osmanlikariyerim",
+    "name": "Osmanlı Kariyerim: Diriliş",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/HxcaqRz9jjoh00oV52xDHINbhOEblD4WdUb8sAPuZg7Cjv7Xe433PlSb3bL77GoSfvpHxyRHIQzPC2rUnFEl",
+    "url": "https://play.google.com/store/apps/details?id=com.hitflowgames.osmanlikariyerim",
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "peak_dpd": 495,
+    "peak_date": "2026-10-24",
+    "history": [
+      {
+        "date": "2026-10-24",
+        "installs": 8425,
+        "dpd": 495,
         "score": 0
       }
     ]
