@@ -202446,7 +202446,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.androidz.ESTILOJOVEMROLEPLAY",
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
-    "peak_dpd": 938,
+    "peak_dpd": 1116,
     "peak_date": "2026-10-25",
     "history": [
       {
@@ -203838,6 +203838,120 @@
         "date": "2026-10-25",
         "installs": 3907,
         "dpd": 300,
+        "score": 0
+      }
+    ]
+  },
+  "com.wg.indian.tractor.driver.farming.game": {
+    "id": "com.wg.indian.tractor.driver.farming.game",
+    "name": "Indian Tractor Driver Farm 3D",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/bP7g_Gs9V7QLlBtZYx6GBFi_W0QEkrZIB5v70jnnl--SWRNpTEyyOE31uhbpizW1wC5Jfe9yXdKZwEVXw9gbng",
+    "url": "https://play.google.com/store/apps/details?id=com.wg.indian.tractor.driver.farming.game",
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "peak_dpd": 54000,
+    "peak_date": "2026-10-25",
+    "history": [
+      {
+        "date": "2026-10-25",
+        "installs": 216000,
+        "dpd": 54000,
+        "score": 0
+      }
+    ]
+  },
+  "com.TREETHEBLESSING.SAWITTRUCKOFFLINEind": {
+    "id": "com.TREETHEBLESSING.SAWITTRUCKOFFLINEind",
+    "name": "truk sawit simulator offline",
+    "genre": "Racing",
+    "icon": "https://play-lh.googleusercontent.com/tmBcOSQ1d24ZrUni8p-8Or_T6xny2kX2ldwMU4uCYt5KyR-sUILUvJnoQmyjsRFUDuQAakm3hKPkiS14-XDf",
+    "url": "https://play.google.com/store/apps/details?id=com.TREETHEBLESSING.SAWITTRUCKOFFLINEind",
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "peak_dpd": 15920,
+    "peak_date": "2026-10-25",
+    "history": [
+      {
+        "date": "2026-10-25",
+        "installs": 15920,
+        "dpd": 15920,
+        "score": 0
+      }
+    ]
+  },
+  "com.RC56B.crafty.survival.blox.world": {
+    "id": "com.RC56B.crafty.survival.blox.world",
+    "name": "Crafty Survival: Blox World",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/RTxIxHanJBoZl2rBbcOdgFw_lKxDMxiGbm3P2vLYFWHVDebj9YrFxtv-bWVX7ok087wUZrvHZw1QKbjDAwHO",
+    "url": "https://play.google.com/store/apps/details?id=com.RC56B.crafty.survival.blox.world",
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "peak_dpd": 5084,
+    "peak_date": "2026-10-25",
+    "history": [
+      {
+        "date": "2026-10-25",
+        "installs": 147452,
+        "dpd": 5084,
+        "score": 0
+      }
+    ]
+  },
+  "com.duck.war": {
+    "id": "com.duck.war",
+    "name": "Duck War",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/pxchycnNramvRgk7Td5YfTSTsgMPXFy0kJcFzUCh3t_aPuXc8LNajc-HBpo7Nl8xzBJkgYyPw91tKyuTVY7H",
+    "url": "https://play.google.com/store/apps/details?id=com.duck.war",
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "peak_dpd": 1500,
+    "peak_date": "2026-10-25",
+    "history": [
+      {
+        "date": "2026-10-25",
+        "installs": 3001,
+        "dpd": 1500,
+        "score": 0
+      }
+    ]
+  },
+  "com.casual.fashion.queen.dressup": {
+    "id": "com.casual.fashion.queen.dressup",
+    "name": "Runway Star: Dress Up Game",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/RyXTWA0cr2JtPUAZnLNuZ8NeBt_f4hzcYdYrl7w8hNedw-n0kFHu0LXnFKF-dZ49_a488bevidz4ddMPxkTuIyU",
+    "url": "https://play.google.com/store/apps/details?id=com.casual.fashion.queen.dressup",
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "peak_dpd": 1373,
+    "peak_date": "2026-10-25",
+    "history": [
+      {
+        "date": "2026-10-25",
+        "installs": 39822,
+        "dpd": 1373,
+        "score": 0
+      }
+    ]
+  },
+  "com.sonsuzdongu.al": {
+    "id": "com.sonsuzdongu.al",
+    "name": "AL: Anatolian Folk Horror",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/JwkyE0BQhjqgWtlGQ82Vwkcor1PqX9nNA_0YBFOSA0SGFKm0qKpu97BUj5UbO9r_hCDsQqM_vgvKg574SCxLPw",
+    "url": "https://play.google.com/store/apps/details?id=com.sonsuzdongu.al",
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "peak_dpd": 305,
+    "peak_date": "2026-10-25",
+    "history": [
+      {
+        "date": "2026-10-25",
+        "installs": 5189,
+        "dpd": 305,
         "score": 0
       }
     ]
