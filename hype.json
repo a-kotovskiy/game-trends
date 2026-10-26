@@ -3,10 +3,10 @@
     {
       "id": "cZ9Rtqs9hg8",
       "title": "the best damage in minecraft",
-      "views": 3300000,
-      "views_str": "3.3M",
-      "vpd": 1650000,
-      "vpd_str": "1.6M",
+      "views": 3600000,
+      "views_str": "3.6M",
+      "vpd": 1800000,
+      "vpd_str": "1.8M",
       "age_days": 2,
       "upload_date": "20261024",
       "duration": 30,
@@ -17,8 +17,8 @@
       "thumb": "https://img.youtube.com/vi/cZ9Rtqs9hg8/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=1.6M",
-      "channel_avg_vpd": 1525000
+      "reason": "vpd=1.8M",
+      "channel_avg_vpd": 1633333
     },
     {
       "id": "1XBrY9U9K_o",
@@ -43,10 +43,10 @@
     {
       "id": "OGlqI_ooNHE",
       "title": "brittle ice is op",
-      "views": 4200000,
-      "views_str": "4.2M",
-      "vpd": 1400000,
-      "vpd_str": "1.4M",
+      "views": 4400000,
+      "views_str": "4.4M",
+      "vpd": 1466666,
+      "vpd_str": "1.5M",
       "age_days": 3,
       "upload_date": "20261023",
       "duration": 32,
@@ -57,8 +57,8 @@
       "thumb": "https://img.youtube.com/vi/OGlqI_ooNHE/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=1.4M",
-      "channel_avg_vpd": 1525000
+      "reason": "vpd=1.5M",
+      "channel_avg_vpd": 1633333
     },
     {
       "id": "A1njZBaJYzE",
@@ -83,10 +83,10 @@
     {
       "id": "9rknyGFJAkY",
       "title": "😂NEVER TAKE STUFF THAT ISN'T YOURS IN ROBLOX STEAL THE EGG!",
-      "views": 827000,
-      "views_str": "827K",
-      "vpd": 275666,
-      "vpd_str": "276K",
+      "views": 871000,
+      "views_str": "871K",
+      "vpd": 290333,
+      "vpd_str": "290K",
       "age_days": 3,
       "upload_date": "20261023",
       "duration": 19,
@@ -97,16 +97,16 @@
       "thumb": "https://img.youtube.com/vi/9rknyGFJAkY/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=276K",
-      "channel_avg_vpd": 234333
+      "reason": "vpd=290K",
+      "channel_avg_vpd": 244166
     },
     {
       "id": "ku4z1yzrB2c",
       "title": "😜ЛУЧШАЯ ЗАРЯДКА В РОБЛОКС!",
-      "views": 579000,
-      "views_str": "579K",
-      "vpd": 193000,
-      "vpd_str": "193K",
+      "views": 594000,
+      "views_str": "594K",
+      "vpd": 198000,
+      "vpd_str": "198K",
       "age_days": 3,
       "upload_date": "20261023",
       "duration": 16,
@@ -117,16 +117,16 @@
       "thumb": "https://img.youtube.com/vi/ku4z1yzrB2c/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=193K",
-      "channel_avg_vpd": 234333
+      "reason": "vpd=198K",
+      "channel_avg_vpd": 244166
     },
     {
       "id": "gkih2bf3U_Y",
       "title": "КОГДА ПОВЕЗЛО 😱",
-      "views": 354000,
-      "views_str": "354K",
-      "vpd": 177000,
-      "vpd_str": "177K",
+      "views": 364000,
+      "views_str": "364K",
+      "vpd": 182000,
+      "vpd_str": "182K",
       "age_days": 2,
       "upload_date": "20261024",
       "duration": 16,
@@ -137,8 +137,28 @@
       "thumb": "https://img.youtube.com/vi/gkih2bf3U_Y/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=177K",
-      "channel_avg_vpd": 140916
+      "reason": "vpd=182K",
+      "channel_avg_vpd": 144166
+    },
+    {
+      "id": "ChnAKgvwWJA",
+      "title": "Guess the Color BEHIND THE SCENES! #minecraft #shorts",
+      "views": 1200000,
+      "views_str": "1.2M",
+      "vpd": 171428,
+      "vpd_str": "171K",
+      "age_days": 7,
+      "upload_date": "20261019",
+      "duration": 10,
+      "kind": "Short",
+      "channel": "Cash",
+      "channel_id": "UC0eLBYhxW9HC0P9PXQ73mpQ",
+      "url": "https://youtu.be/ChnAKgvwWJA",
+      "thumb": "https://img.youtube.com/vi/ChnAKgvwWJA/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=171K",
+      "channel_avg_vpd": 169047
     },
     {
       "id": "n9nlKJMwbO0",
@@ -158,27 +178,27 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=167K",
-      "channel_avg_vpd": 161904
+      "channel_avg_vpd": 169047
     },
     {
-      "id": "ChnAKgvwWJA",
-      "title": "Guess the Color BEHIND THE SCENES! #minecraft #shorts",
-      "views": 1100000,
-      "views_str": "1.1M",
-      "vpd": 157142,
-      "vpd_str": "157K",
-      "age_days": 7,
-      "upload_date": "20261019",
-      "duration": 10,
+      "id": "VORyqdwcMmI",
+      "title": "How to find Mikhdzen in Escape from Blogger?",
+      "views": 581000,
+      "views_str": "581K",
+      "vpd": 116200,
+      "vpd_str": "116K",
+      "age_days": 5,
+      "upload_date": "20261021",
+      "duration": 44,
       "kind": "Short",
-      "channel": "Cash",
-      "channel_id": "UC0eLBYhxW9HC0P9PXQ73mpQ",
-      "url": "https://youtu.be/ChnAKgvwWJA",
-      "thumb": "https://img.youtube.com/vi/ChnAKgvwWJA/mqdefault.jpg",
+      "channel": "Holy Baam",
+      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
+      "url": "https://youtu.be/VORyqdwcMmI",
+      "thumb": "https://img.youtube.com/vi/VORyqdwcMmI/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=157K",
-      "channel_avg_vpd": 161904
+      "reason": "vpd=116K",
+      "channel_avg_vpd": 78183
     },
     {
       "id": "KUWbicPZXEE",
@@ -201,32 +221,12 @@
       "channel_avg_vpd": 84358
     },
     {
-      "id": "VORyqdwcMmI",
-      "title": "How to find Mikhdzen in Escape from Blogger?",
-      "views": 568000,
-      "views_str": "568K",
-      "vpd": 113600,
-      "vpd_str": "114K",
-      "age_days": 5,
-      "upload_date": "20261021",
-      "duration": 44,
-      "kind": "Short",
-      "channel": "Holy Baam",
-      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
-      "url": "https://youtu.be/VORyqdwcMmI",
-      "thumb": "https://img.youtube.com/vi/VORyqdwcMmI/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=114K",
-      "channel_avg_vpd": 76591
-    },
-    {
       "id": "IXMz2iAFexw",
       "title": "ОТ 0% ДО 100% МЯГКОСТИ! ПОПРОБУЙ НЕ ЗАЛИПНУТЬ",
-      "views": 629000,
-      "views_str": "629K",
-      "vpd": 104833,
-      "vpd_str": "105K",
+      "views": 638000,
+      "views_str": "638K",
+      "vpd": 106333,
+      "vpd_str": "106K",
       "age_days": 6,
       "upload_date": "20261020",
       "duration": 24,
@@ -237,16 +237,16 @@
       "thumb": "https://img.youtube.com/vi/IXMz2iAFexw/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=105K",
-      "channel_avg_vpd": 140916
+      "reason": "vpd=106K",
+      "channel_avg_vpd": 144166
     },
     {
       "id": "SnelK12Hdcs",
       "title": "Who Can Scream the Loudest in Minecraft?",
-      "views": 1000000,
-      "views_str": "1.0M",
-      "vpd": 58823,
-      "vpd_str": "59K",
+      "views": 1100000,
+      "views_str": "1.1M",
+      "vpd": 64705,
+      "vpd_str": "65K",
       "age_days": 17,
       "upload_date": "20261009",
       "duration": 34,
@@ -257,8 +257,8 @@
       "thumb": "https://img.youtube.com/vi/SnelK12Hdcs/mqdefault.jpg",
       "grade": "🚀🔥",
       "source": "channel_monitor",
-      "reason": "vpd=59K",
-      "channel_avg_vpd": 58823
+      "reason": "vpd=65K",
+      "channel_avg_vpd": 64705
     },
     {
       "id": "2ifBgTlLlBQ",
@@ -283,9 +283,9 @@
     {
       "id": "NnavzvHWrfc",
       "title": "How I Became the Smartest Kid in Minecraft… #ad",
-      "views": 752000,
-      "views_str": "752K",
-      "vpd": 50133,
+      "views": 754000,
+      "views_str": "754K",
+      "vpd": 50266,
       "vpd_str": "50K",
       "age_days": 15,
       "upload_date": "20261011",
@@ -298,14 +298,14 @@
       "grade": "🚀🔥",
       "source": "channel_monitor",
       "reason": "vpd=50K",
-      "channel_avg_vpd": 50133
+      "channel_avg_vpd": 50266
     },
     {
       "id": "K-mB5mk-Cww",
       "title": "I Made a Stinky Barry Costume for $1",
-      "views": 475000,
-      "views_str": "475K",
-      "vpd": 39583,
+      "views": 482000,
+      "views_str": "482K",
+      "vpd": 40166,
       "vpd_str": "40K",
       "age_days": 12,
       "upload_date": "20261014",
@@ -318,7 +318,31 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=40K",
-      "channel_avg_vpd": 76591
+      "channel_avg_vpd": 78183
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "СБЕЖАЛ ОТ ТЫКВА ЧАНГИ НА ХЭЛЛОУИН! 🎃 ПОБЕГ ОТ ЧУНГА ЧАНГИ😱",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/pzyIr1WfAas",
+      "thumb": "https://img.youtube.com/vi/pzyIr1WfAas/mqdefault.jpg",
+      "published": "2026-10-26T14:00:36+00:00",
+      "hype_score": 5,
+      "related_videos": 115,
+      "channel_count": 12,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -338,7 +362,7 @@
       "thumb": "https://img.youtube.com/vi/0MLoKdQ7Efw/mqdefault.jpg",
       "published": "2026-10-25T15:00:07+00:00",
       "hype_score": 5,
-      "related_videos": 117,
+      "related_videos": 115,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -362,7 +386,7 @@
       "thumb": "https://img.youtube.com/vi/09J2dLzrSLY/mqdefault.jpg",
       "published": "2026-10-25T09:00:07+00:00",
       "hype_score": 5,
-      "related_videos": 117,
+      "related_videos": 115,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -379,14 +403,14 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 1,
+      "age_days": 2,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/pPe2sAL4bIQ",
       "thumb": "https://img.youtube.com/vi/pPe2sAL4bIQ/mqdefault.jpg",
       "published": "2026-10-24T11:00:08+00:00",
       "hype_score": 5,
-      "related_videos": 117,
+      "related_videos": 115,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -403,38 +427,14 @@
       "views_str": "?",
       "subs": 0,
       "subs_str": "",
-      "age_days": 2,
+      "age_days": 3,
       "vpd": 0,
       "grade": "📡",
       "url": "https://youtu.be/WGE10uMfz1s",
       "thumb": "https://img.youtube.com/vi/WGE10uMfz1s/mqdefault.jpg",
       "published": "2026-10-23T14:00:30+00:00",
       "hype_score": 5,
-      "related_videos": 117,
-      "channel_count": 12,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "ХОЛИБАМ ИЛИ СКУЛБОЙ?!😱 КТО ПОБЕДИТ?!😱",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 3,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/jCz3kcwSe4E",
-      "thumb": "https://img.youtube.com/vi/jCz3kcwSe4E/mqdefault.jpg",
-      "published": "2026-10-22T14:00:15+00:00",
-      "hype_score": 5,
-      "related_videos": 117,
+      "related_videos": 115,
       "channel_count": 12,
       "has_games": true,
       "game_count": 5,
@@ -657,81 +657,10 @@
       "niche_free": false
     }
   ],
-  "google_trends": [
-    {
-      "source": "google_trends",
-      "kind": "Trend",
-      "title": "xbox fifty new games release",
-      "topic": "xbox fifty new games release",
-      "channel": "Google Trends US",
-      "author": "Google Trends",
-      "views": 500,
-      "views_str": "500+",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 1,
-      "vpd": 500,
-      "grade": "🔥",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "thumb": "",
-      "published": "сейчас",
-      "hype_score": 7,
-      "related_videos": 0,
-      "channel_count": 0,
-      "has_games": false,
-      "game_count": 0,
-      "niche_free": false,
-      "is_gaming": true
-    }
-  ],
+  "google_trends": [],
   "hype_validated": [],
   "tiktok": [],
   "tg_signals": [
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/2080",
-      "tg_text": "📈 В TikTok активно форсят новый биологический мем под названием:🦠 «Хламидомонада»🤔 Хламидомонада — это одноклеточная зелёная водоросль, которая преимущественно обитает в пресной воде.💁‍♂️ Пользователи публикуют самые разные мемы с её изображением, обыгрывая его в необычных и забавных ситуациях.❓ А в",
-      "topic": "Хламидомонада",
-      "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/2083",
-      "tg_text": "🚙В ТикТок потихоньку форсят мем:«Ой папа, зачем ты ломаешь мой внедорожник?»❓Видели подобное? 👍-Видел(-а)👎НН 👎55👍19 529 views11:03",
-      "topic": "Ой папа, зачем ты ломаешь мой внедорожник?",
-      "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/2084",
-      "tg_text": "🧠В ТикТок сново вспомнили ролик из 2025 года:«Зачем тебя хейтят за картавость? Ай док ноу&#33;»❓Вам попадались подобные ролики? 👍-Дооо👎-НН 👎52👍13🤓1 525 views11:33",
-      "topic": "Зачем тебя хейтят за картавость? Ай док ноу&#33;",
-      "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/2085",
-      "tg_text": "🍔 В ТикТоке завирусился мем «У меня получилось» — продолжение мемов «Я хочу вкусно и точка» и «Я архитектор»&#33;🤔 Этот мем является своеобразной хорошей концовкой истории Кларка, которому всё-таки удалось построить «Вкусно — и точка».🎬 Как рассказал подписчик, фрагмент взят из третьей части серии п",
-      "topic": "У меня получилось",
-      "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/2087",
-      "tg_text": "🦑 В TikTok завирусился мем «Сквидвард кусает крабсбургер»&#33;💁‍♂️ Суть тренда заключается в ностальгических эдитах, в которых за основу берут момент со Сквидвардом, кусающим крабсбургер, а затем добавляют различные предметы, персонажей из мультфильмов и фильмов, а также другие знакомые образы.📼 В и",
-      "topic": "Сквидвард кусает крабсбургер",
-      "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
-    },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
@@ -739,16 +668,16 @@
       "tg_text": "Aura Farmer 9 октября голландский создатель контента Уинстон Джулиан ван Граафейланд, известный как Horror Skunx, выпустил зажигательный трек и 3D-анимационный клип на песню «The Aura Farmer», представив харизматичного антропоморфного коня в честь своей популярной серии «Лорд Верити». Видео набрало ",
       "topic": "The Aura Farmer",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/2094",
-      "tg_text": "❄️В ТикТок и на Ютуб Шортс вирусится мем:«Не седи на снегу»❓Вам попадалось такое?👍-Да👎-Нет 👎63👍20☃2🤮1 549 viewsedited &nbsp;09:11",
+      "tg_text": "❄️В ТикТок и на Ютуб Шортс вирусится мем:«Не седи на снегу»❓Вам попадалось такое?👍-Да👎-Нет 👎67👍22☃2🤮1 625 viewsedited &nbsp;09:11",
       "topic": "Не седи на снегу",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
@@ -757,7 +686,7 @@
       "tg_text": "❄️ В TikTok набирает популярность проект по возвращению зимы 2021 года&#33;📈 Уже несколько месяцев пользователи TikTok продвигают идею вернуть атмосферу зимы 2021 года, которую многие вспоминают как одно из лучших времён для мемов, трендов и интернет-культуры.💭 Пользователи хотят, чтобы зима 2026 го",
       "topic": "Чудо-дом",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
@@ -766,16 +695,70 @@
       "tg_text": "🖊️ В рекомендациях TikTok завирусился новый тренд&#33;🏫 Школьники показывают, как делают так называемые «кастомные ручки». Они берут обычные шариковые ручки, по-своему изменяют их дизайн, добавляют различные детали и собственные апгрейды.✍️ В конце роликов авторы демонстрируют результат и показывают",
       "topic": "кастомные ручки",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/2101",
-      "tg_text": "🦠В ТикТок форсят мем:«Меня переполняет желание творить»❓Видели такое? 👍-Да👎-НН 👎52👍23 416 views16:02",
+      "tg_text": "🦠В ТикТок форсят мем:«Меня переполняет желание творить»❓Видели такое? 👍-Да👎-НН 👎61👍30❤‍🔥1 577 views16:02",
       "topic": "Меня переполняет желание творить",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:25"
+      "detected_at": "2026-10-26 07:25"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/2102",
+      "tg_text": "🤔Кажется в ТикТок вирусится очередной сезон Меллстройности:«Мелрумс»❓Видели такое? 👍-Да👎-Нет 👎60👍14🆒1 425 views08:54",
+      "topic": "Мелрумс",
+      "youtube_videos": [],
+      "detected_at": "2026-10-26 07:25"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/2103",
+      "tg_text": "😆В Рекомендациях ТикТок очень часто стали попадаться мемы:«Пошёл на🍌»❓Вам попадалось тако? 👍-Дооо👎-НН 👎60👍12☃4❤2 389 viewsedited &nbsp;09:33",
+      "topic": "Пошёл на🍌",
+      "youtube_videos": [],
+      "detected_at": "2026-10-26 07:25"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/2104",
+      "tg_text": "🦠В ТикТок завирусился мем:«Эй приятель, ты что совсем тупой?»❓Видели этот мем? 👍-Да👎-Нет 👎28👍24❤1 357 views10:15",
+      "topic": "Эй приятель, ты что совсем тупой?",
+      "youtube_videos": [],
+      "detected_at": "2026-10-26 07:25"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/2105",
+      "tg_text": "⚠️ В TikTok распространяется неоднозначный тренд среди школьников&#33;📈 Помните мем «Все системы включены» с персонажем Джимбо из мультсериала «Супер крылья»?🤔 В конце сентября и начале октября школьники начали снимать ролики под этот звук, в которых они гнут крючки в школьных раздевалках в момент п",
+      "topic": "Все системы включены",
+      "youtube_videos": [],
+      "detected_at": "2026-10-26 07:25"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/2108",
+      "tg_text": "🦠В ТикТок набирает популярность очередной мем с разделенным экраном:«Кто скажет кто он»❓Видели такое? 👍-Да👎-Нет 👍21👎16 184 views13:33",
+      "topic": "Кто скажет кто он",
+      "youtube_videos": [],
+      "detected_at": "2026-10-26 07:25"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/2109",
+      "tg_text": "🇬🇧🐈Еще в ТикТок сново вирусится мем про Британских кошек💁‍♂️Данный мем уже форсили раннее, но он переодически появляется.🌊И в октябре пришла вторая волна мемов или третья, я запутался если честно😆❓Видели эти мемы? 👍-Доо👎-Нит",
+      "topic": "мем про Британских кошек",
+      "youtube_videos": [],
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
@@ -784,7 +767,7 @@
       "tg_text": "Лицо мошенницы Элизабет Холмс из тизера документалки - новый мем о сомнительных обещаниях, обмане и манипуляцияхhttps://memepedia.ru/zachem-mne-tebya-obmanyvat/ ❤36😁27👍10🤬2😢1 4.84K views10:02",
       "topic": "о сомнительных обещаниях",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:26"
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
@@ -793,7 +776,7 @@
       "tg_text": "Белка принимает судьбу и улетает в торнадо - новый вирусный шаблон для жизненных ситуацийhttps://memepedia.ru/belka-v-tornado/ 😁27❤8😱7👍4 6.09K views11:22",
       "topic": "шаблон для жизненных ситуацийhttps",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:26"
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
@@ -802,7 +785,7 @@
       "tg_text": "Котенок в доспехах еле держится на ветру, но храбро сжимает меч - это новый мем о преодолении трудностейhttps://memepedia.ru/kotenok-s-mechom/ ❤43😁11😱5😢5 4.13K views11:57",
       "topic": "о преодолении трудностейhttps",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:26"
+      "detected_at": "2026-10-26 07:25"
     },
     {
       "source": "tg_signal",
@@ -811,7 +794,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-10-26 00:26"
+      "detected_at": "2026-10-26 07:25"
     }
   ]
 }
