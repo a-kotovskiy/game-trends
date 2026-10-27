@@ -190174,7 +190174,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.home.jigcard.solitaire.puzzle.free.games",
     "first_seen": "2026-10-13",
     "last_seen": "2026-10-27",
-    "peak_dpd": 3072,
+    "peak_dpd": 3073,
     "peak_date": "2026-10-27",
     "history": [
       {
@@ -198385,7 +198385,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.DoubleDaggerStudio.LittleKittyBigCity",
     "first_seen": "2026-10-17",
     "last_seen": "2026-10-27",
-    "peak_dpd": 55766,
+    "peak_dpd": 56183,
     "peak_date": "2026-10-27",
     "history": [
       {
@@ -206050,11 +206050,11 @@
     "id": "com.trickylab.puzzle",
     "name": "Tricky Lab: Twist Your Mind!",
     "genre": "Puzzle",
-    "icon": "https://play-lh.googleusercontent.com/Afa6xrWB-Nj-w83IcnGQHOM7NHe-N1ZqvpzpAfkLdhjcWe3JOCSLfKg7EzcRC9qkZm2v-DS3YBiD7E5C72wz7j4",
+    "icon": "https://play-lh.googleusercontent.com/qJp91IAdgb78CLx73pubJs9f8Pe6ZfS_byaqyR-Ulhrd9YBeM9nUkb0LEcmxEZLY1G7Q1fZNsgtc7rwwhpae",
     "url": "https://play.google.com/store/apps/details?id=com.trickylab.puzzle",
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-27",
-    "peak_dpd": 2043,
+    "peak_dpd": 2047,
     "peak_date": "2026-10-27",
     "history": [
       {
@@ -207617,7 +207617,7 @@
     "url": "https://play.google.com/store/apps/details?id=puzzle.crowd.bus.flow",
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-27",
-    "peak_dpd": 1020,
+    "peak_dpd": 1025,
     "peak_date": "2026-10-27",
     "history": [
       {
@@ -207636,7 +207636,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.snow.race.game.push.run",
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-27",
-    "peak_dpd": 947,
+    "peak_dpd": 951,
     "peak_date": "2026-10-27",
     "history": [
       {
@@ -207655,7 +207655,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.levangames.cursedon",
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-27",
-    "peak_dpd": 656,
+    "peak_dpd": 661,
     "peak_date": "2026-10-27",
     "history": [
       {
@@ -207712,7 +207712,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.happyhay.valley",
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-27",
-    "peak_dpd": 377,
+    "peak_dpd": 378,
     "peak_date": "2026-10-27",
     "history": [
       {
@@ -207758,6 +207758,63 @@
         "installs": 8695,
         "dpd": 310,
         "score": 5
+      }
+    ]
+  },
+  "com.Animal.Evolution.Escape.Run": {
+    "id": "com.Animal.Evolution.Escape.Run",
+    "name": "Animal Evolution: Escape Run",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/Xneb6n6wgQNnX8iyuFDUxm8zBxttghn3qnjO41j4jwuwgef-Rhq1Zd2r3AMIhkBu_vEcbVGGCG69puz8Q74zgQ",
+    "url": "https://play.google.com/store/apps/details?id=com.Animal.Evolution.Escape.Run",
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "peak_dpd": 29456,
+    "peak_date": "2026-10-27",
+    "history": [
+      {
+        "date": "2026-10-27",
+        "installs": 147281,
+        "dpd": 29456,
+        "score": 5
+      }
+    ]
+  },
+  "com.oneninja.blarush": {
+    "id": "com.oneninja.blarush",
+    "name": "Ninja Blade Rush",
+    "genre": "Arcade",
+    "icon": "https://play-lh.googleusercontent.com/7QxyjKKmVhBH0U7by8yEvk2P3q2OkUOooFIeguNDniCtDz21ISg-dlMvB7750WMMENNGjZFCaw1gwgG9R5dJMw",
+    "url": "https://play.google.com/store/apps/details?id=com.oneninja.blarush",
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "peak_dpd": 483,
+    "peak_date": "2026-10-27",
+    "history": [
+      {
+        "date": "2026-10-27",
+        "installs": 5804,
+        "dpd": 483,
+        "score": 0
+      }
+    ]
+  },
+  "com.tracesafeguide.deducepath": {
+    "id": "com.tracesafeguide.deducepath",
+    "name": "NN555Safe",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/d-Mlnr3Zu4GwtmgHzbXwyVDh53hpTtwzXHZQABbVM36purW1i9IgC1zEjK3mWezr9XHLXuQ97B_WJEgIls5nhA",
+    "url": "https://play.google.com/store/apps/details?id=com.tracesafeguide.deducepath",
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "peak_dpd": 432,
+    "peak_date": "2026-10-27",
+    "history": [
+      {
+        "date": "2026-10-27",
+        "installs": 12536,
+        "dpd": 432,
+        "score": 0
       }
     ]
   }
