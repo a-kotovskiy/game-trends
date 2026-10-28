@@ -197603,7 +197603,7 @@
     "icon": "https://play-lh.googleusercontent.com/oQKf1LFmol58LCleWPHgRv7pX7xADMjSjyoPEhGKKbhyOSDavMIIFy3pEidvYKv0tUpfjVDRt3sCtbpjT1N7nA",
     "url": "https://play.google.com/store/apps/details?id=com.unboxing.dumpling.squishy.asmr",
     "first_seen": "2026-10-16",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "peak_dpd": 6960,
     "peak_date": "2026-10-26",
     "history": [
@@ -197677,6 +197677,12 @@
         "date": "2026-10-27",
         "installs": 194905,
         "dpd": 6720,
+        "score": 4.5
+      },
+      {
+        "date": "2026-10-28",
+        "installs": 194905,
+        "dpd": 6496,
         "score": 4.5
       }
     ]
@@ -209547,7 +209553,7 @@
     "url": "https://play.google.com/store/apps/details?id=app.mrcadosgoold.co",
     "first_seen": "2026-10-28",
     "last_seen": "2026-10-28",
-    "peak_dpd": 736,
+    "peak_dpd": 738,
     "peak_date": "2026-10-28",
     "history": [
       {
