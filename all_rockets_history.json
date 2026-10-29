@@ -211194,7 +211194,7 @@
     "id": "com.tencent.mhadv",
     "name": "Monster Hunter Outlanders",
     "genre": "Action",
-    "icon": "https://play-lh.googleusercontent.com/7sOwODW60OgEsbbuA8AirYARaYj5Nw06IH05Ujog8TR6hGQhvKXHLXQ47n2MeMeNvPC1cPamu6COAvm3ShtdbAg",
+    "icon": "https://play-lh.googleusercontent.com/dV0gdgFh4s9So1SoE4xwLLwnwl3dlJMKoWSeWUieYsVZNUaiWwtJLexThhq4mfrj7RjeDfO31eoFAeXszoOQ8Q",
     "url": "https://play.google.com/store/apps/details?id=com.tencent.mhadv",
     "first_seen": "2026-10-29",
     "last_seen": "2026-10-29",
@@ -211320,6 +211320,120 @@
         "installs": 6785,
         "dpd": 848,
         "score": 4.4
+      }
+    ]
+  },
+  "com.F2Games.GB27": {
+    "id": "com.F2Games.GB27",
+    "name": "GoreBox 27",
+    "genre": "Action",
+    "icon": "https://play-lh.googleusercontent.com/Y0HxXO9mL_eXDtrOsUsZ2RenSTwUONmZVuUOqatZgSOGgitamzC7F-PLxAgjhxTJuKABSZf3fEBOwNbnFUkw",
+    "url": "https://play.google.com/store/apps/details?id=com.F2Games.GB27",
+    "first_seen": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "peak_dpd": 466370,
+    "peak_date": "2026-10-29",
+    "history": [
+      {
+        "date": "2026-10-29",
+        "installs": 466370,
+        "dpd": 466370,
+        "score": 0
+      }
+    ]
+  },
+  "com.at.aa.indian.biker.driving.game": {
+    "id": "com.at.aa.indian.biker.driving.game",
+    "name": "Indian Bike Driving Sim Games",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/E1VTDy9O2PQdJxEeUe2XSF6PoEmT6Wi97eeeVgJUFGCctiglGDRp4Cd3otwGZtEKqYEIYA-13lZbEs_BR3xZaX8",
+    "url": "https://play.google.com/store/apps/details?id=com.at.aa.indian.biker.driving.game",
+    "first_seen": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "peak_dpd": 386021,
+    "peak_date": "2026-10-29",
+    "history": [
+      {
+        "date": "2026-10-29",
+        "installs": 1158064,
+        "dpd": 386021,
+        "score": 0
+      }
+    ]
+  },
+  "com.aircap.agatha.idle": {
+    "id": "com.aircap.agatha.idle",
+    "name": "AGATHA: Idle",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/wibIg65pKYzC3cbcfNAey6B5rqOJv73IcLGq_5-RQK1OXQOkSLjk2oZu4T6sJDCTH-WAOaAlGs_e0PUywwpw",
+    "url": "https://play.google.com/store/apps/details?id=com.aircap.agatha.idle",
+    "first_seen": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "peak_dpd": 156941,
+    "peak_date": "2026-10-29",
+    "history": [
+      {
+        "date": "2026-10-29",
+        "installs": 156941,
+        "dpd": 156941,
+        "score": 0
+      }
+    ]
+  },
+  "com.deadpixel.coinsclickercollector.game": {
+    "id": "com.deadpixel.coinsclickercollector.game",
+    "name": "Coins Clicker : Idle Collector",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/GTyWobeb6Gtt4dMREFcoqq8fieLavdAxB8msJOCheochU2r1mUMz_CBHB04TKF9p1WR9nPT_otlYxyt7bpIM",
+    "url": "https://play.google.com/store/apps/details?id=com.deadpixel.coinsclickercollector.game",
+    "first_seen": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "peak_dpd": 41462,
+    "peak_date": "2026-10-29",
+    "history": [
+      {
+        "date": "2026-10-29",
+        "installs": 41462,
+        "dpd": 41462,
+        "score": 0
+      }
+    ]
+  },
+  "com.wolf.children.game": {
+    "id": "com.wolf.children.game",
+    "name": "Wolf Family Time Simulator",
+    "genre": "Adventure",
+    "icon": "https://play-lh.googleusercontent.com/NK5zY6CuupSm5agyWatxmb84BE5ufUjQAbhIZe89HqL441Gyct9fNUZb4GWNNydvZ_N6oOd4u-U84PNR5c43",
+    "url": "https://play.google.com/store/apps/details?id=com.wolf.children.game",
+    "first_seen": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "peak_dpd": 12763,
+    "peak_date": "2026-10-29",
+    "history": [
+      {
+        "date": "2026-10-29",
+        "installs": 25527,
+        "dpd": 12763,
+        "score": 0
+      }
+    ]
+  },
+  "com.stroberu.frytimcjd": {
+    "id": "com.stroberu.frytimcjd",
+    "name": "Fruits Board",
+    "genre": "Arcade",
+    "icon": "https://play-lh.googleusercontent.com/XQwKOpdPdmjxyKbo74qEb0q82tjgiEkdJyVZpnoWDjApfFOUZmXY5pXEinxYwakwkt3HFE17yi30oIN1PpGdRw",
+    "url": "https://play.google.com/store/apps/details?id=com.stroberu.frytimcjd",
+    "first_seen": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "peak_dpd": 627,
+    "peak_date": "2026-10-29",
+    "history": [
+      {
+        "date": "2026-10-29",
+        "installs": 9417,
+        "dpd": 627,
+        "score": 0
       }
     ]
   }
