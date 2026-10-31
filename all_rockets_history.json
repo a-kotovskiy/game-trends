@@ -186411,7 +186411,7 @@
     "id": "com.Animal.Crazy.Hospital.Prank",
     "name": "Animal Crazy: Hospital Prank",
     "genre": "Simulation",
-    "icon": "https://play-lh.googleusercontent.com/QqO7qJtrE1qkk7Jhxw12-zGfQ2T0GUQ5kSUlnr2SQuj_tifZb_IQYld7A-33Fk6g8S9u-XRKep3LTgP3CN9Q",
+    "icon": "https://play-lh.googleusercontent.com/M-VJ0OlnWV3qYWWzGw3y7Q-ssJIKuQE6FekNDTOMtESEFR-ZOdKWgj6bQdDTl8AntG_burM5b5yUp0e8YKJh7w",
     "url": "https://play.google.com/store/apps/details?id=com.Animal.Crazy.Hospital.Prank",
     "first_seen": "2026-10-13",
     "last_seen": "2026-10-31",
@@ -215210,6 +215210,25 @@
         "installs": 5113,
         "dpd": 340,
         "score": 5.0
+      }
+    ]
+  },
+  "com.mgame.indian.bike.mafia.city": {
+    "id": "com.mgame.indian.bike.mafia.city",
+    "name": "Indian Bike Mafia City 3D",
+    "genre": "Role Playing",
+    "icon": "https://play-lh.googleusercontent.com/4uOJtpXzmt7cWQ38hVtS91x_ZFcLhi6gJO0AWEIJqUh3DMVgocArFCv8MBhpi_TpQSptBwPUvuGaBPAxDI90",
+    "url": "https://play.google.com/store/apps/details?id=com.mgame.indian.bike.mafia.city",
+    "first_seen": "2026-10-31",
+    "last_seen": "2026-10-31",
+    "peak_dpd": 879,
+    "peak_date": "2026-10-31",
+    "history": [
+      {
+        "date": "2026-10-31",
+        "installs": 4398,
+        "dpd": 879,
+        "score": 0
       }
     ]
   }
