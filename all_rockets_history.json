@@ -196164,8 +196164,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.Kayac.DigInc",
     "first_seen": "2026-10-14",
     "last_seen": "2026-11-02",
-    "peak_dpd": 2412,
-    "peak_date": "2026-10-26",
+    "peak_dpd": 2513,
+    "peak_date": "2026-11-02",
     "history": [
       {
         "date": "2026-10-14",
@@ -209247,8 +209247,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.prooplayerr.arrow.beauty",
     "first_seen": "2026-10-23",
     "last_seen": "2026-11-02",
-    "peak_dpd": 2383,
-    "peak_date": "2026-10-30",
+    "peak_dpd": 3192,
+    "peak_date": "2026-11-02",
     "history": [
       {
         "date": "2026-10-23",
@@ -213345,8 +213345,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.duck.war",
     "first_seen": "2026-10-25",
     "last_seen": "2026-11-02",
-    "peak_dpd": 3012,
-    "peak_date": "2026-10-30",
+    "peak_dpd": 4849,
+    "peak_date": "2026-11-02",
     "history": [
       {
         "date": "2026-10-25",
@@ -216758,8 +216758,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.ccmstudio.thegoat",
     "first_seen": "2026-10-30",
     "last_seen": "2026-11-02",
-    "peak_dpd": 1640,
-    "peak_date": "2026-10-30",
+    "peak_dpd": 3949,
+    "peak_date": "2026-11-02",
     "history": [
       {
         "date": "2026-10-30",
@@ -217087,7 +217087,7 @@
     "id": "com.ragdoll.kick.master",
     "name": "Ragdoll Mayhem: Smash & Relax",
     "genre": "Simulation",
-    "icon": "https://play-lh.googleusercontent.com/H94yOAJGSoo7PXFlFlBMT1Q3nggcApGxicp_nfC91O6SbthoS8IrqUobyhYukiTQls24aWX_HVLRjzARhE2_jg",
+    "icon": "https://play-lh.googleusercontent.com/acw63CXO9iWGtlwDS8cTHPkZQJIhXWMlYLie7bHz8cCQ5nYExpEkQHTV3b4FaOXncxvkciLOdrn1hFFDgSBQQxI",
     "url": "https://play.google.com/store/apps/details?id=com.ragdoll.kick.master",
     "first_seen": "2026-10-30",
     "last_seen": "2026-11-02",
@@ -218299,8 +218299,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.ragdollsurvival.forestnight",
     "first_seen": "2026-11-01",
     "last_seen": "2026-11-02",
-    "peak_dpd": 724,
-    "peak_date": "2026-11-01",
+    "peak_dpd": 1073,
+    "peak_date": "2026-11-02",
     "history": [
       {
         "date": "2026-11-01",
@@ -218424,7 +218424,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.Sunborn.SnqxExilium.Glo",
     "first_seen": "2026-11-02",
     "last_seen": "2026-11-02",
-    "peak_dpd": 178907,
+    "peak_dpd": 179159,
     "peak_date": "2026-11-02",
     "history": [
       {
@@ -219058,6 +219058,63 @@
         "date": "2026-11-02",
         "installs": 3707,
         "dpd": 308,
+        "score": 0
+      }
+    ]
+  },
+  "com.superbox.aos.catshooter": {
+    "id": "com.superbox.aos.catshooter",
+    "name": "Meow Blast!",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/zFOuoFwDkZwTFcJSORYKxD6wgavvJRMBFAg7cTU6SdaqMq9xh-TizaMxxliisuk5UbgSxF4nXBFBEfO21FLY",
+    "url": "https://play.google.com/store/apps/details?id=com.superbox.aos.catshooter",
+    "first_seen": "2026-11-02",
+    "last_seen": "2026-11-02",
+    "peak_dpd": 3101,
+    "peak_date": "2026-11-02",
+    "history": [
+      {
+        "date": "2026-11-02",
+        "installs": 62032,
+        "dpd": 3101,
+        "score": 0
+      }
+    ]
+  },
+  "com.kaede.dreamy.beauty.ball.sorting": {
+    "id": "com.kaede.dreamy.beauty.ball.sorting",
+    "name": "Dreamy Beauty Ball Sorting",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/b9xUYyxh-D78P83q9mHbJH2f2tfRJEpD2Zodjkq7GmFc241iF9PiwUi-cj32uF1iLrnmiGpko1EFcgqaq93TsA",
+    "url": "https://play.google.com/store/apps/details?id=com.kaede.dreamy.beauty.ball.sorting",
+    "first_seen": "2026-11-02",
+    "last_seen": "2026-11-02",
+    "peak_dpd": 659,
+    "peak_date": "2026-11-02",
+    "history": [
+      {
+        "date": "2026-11-02",
+        "installs": 8574,
+        "dpd": 659,
+        "score": 4.7
+      }
+    ]
+  },
+  "com.Kayac.LightBendMaster": {
+    "id": "com.Kayac.LightBendMaster",
+    "name": "Light Bend Master",
+    "genre": "Strategy",
+    "icon": "https://play-lh.googleusercontent.com/QadgPh7OlVZFgr38BX_3NEiEhchjz_TfiEgG5oBqV8FWwagpr_PnJHE38zlzGyUEXWHsGv1sq4ecXGtWE1br",
+    "url": "https://play.google.com/store/apps/details?id=com.Kayac.LightBendMaster",
+    "first_seen": "2026-11-02",
+    "last_seen": "2026-11-02",
+    "peak_dpd": 649,
+    "peak_date": "2026-11-02",
+    "history": [
+      {
+        "date": "2026-11-02",
+        "installs": 4548,
+        "dpd": 649,
         "score": 0
       }
     ]
