@@ -1,6 +1,26 @@
 {
   "viral_trends": [
     {
+      "id": "9BFe_dhmpw0",
+      "title": "block bottoms you've never seen",
+      "views": 3000000,
+      "views_str": "3.0M",
+      "vpd": 3000000,
+      "vpd_str": "3.0M",
+      "age_days": 1,
+      "upload_date": "20261102",
+      "duration": 25,
+      "kind": "Short",
+      "channel": "camman18",
+      "channel_id": "UCiZ2z8F8ilr6SC7lOaxAQ4g",
+      "url": "https://youtu.be/9BFe_dhmpw0",
+      "thumb": "https://img.youtube.com/vi/9BFe_dhmpw0/mqdefault.jpg",
+      "grade": "🔥🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=3.0M",
+      "channel_avg_vpd": 1940000
+    },
+    {
       "id": "1XBrY9U9K_o",
       "title": "WHOS MY CRUSH? 🤫❤️ #roblox #funny #memes #gaming #comedy #challenge",
       "views": 16000000,
@@ -23,10 +43,10 @@
     {
       "id": "pMXsQA-udOg",
       "title": "A NEW TRANSPORTATION METHOD BETTER THAN MINECARTS!!!!!!",
-      "views": 4300000,
-      "views_str": "4.3M",
-      "vpd": 860000,
-      "vpd_str": "860K",
+      "views": 4400000,
+      "views_str": "4.4M",
+      "vpd": 880000,
+      "vpd_str": "880K",
       "age_days": 5,
       "upload_date": "20261029",
       "duration": 32,
@@ -37,28 +57,8 @@
       "thumb": "https://img.youtube.com/vi/pMXsQA-udOg/mqdefault.jpg",
       "grade": "🔥🔥",
       "source": "channel_monitor",
-      "reason": "vpd=860K",
-      "channel_avg_vpd": 846666
-    },
-    {
-      "id": "TRF_RMEOTNs",
-      "title": "the rarest sound in Minecraft...",
-      "views": 2500000,
-      "views_str": "2.5M",
-      "vpd": 833333,
-      "vpd_str": "833K",
-      "age_days": 3,
-      "upload_date": "20261031",
-      "duration": 39,
-      "kind": "Short",
-      "channel": "camman18",
-      "channel_id": "UCiZ2z8F8ilr6SC7lOaxAQ4g",
-      "url": "https://youtu.be/TRF_RMEOTNs",
-      "thumb": "https://img.youtube.com/vi/TRF_RMEOTNs/mqdefault.jpg",
-      "grade": "🔥🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=833K",
-      "channel_avg_vpd": 846666
+      "reason": "vpd=880K",
+      "channel_avg_vpd": 1940000
     },
     {
       "id": "Z-5bhh4pLJE",
@@ -101,46 +101,6 @@
       "channel_avg_vpd": 326190
     },
     {
-      "id": "EqB-Jq5GggA",
-      "title": "Who turned off the lights!?😭",
-      "views": 729000,
-      "views_str": "729K",
-      "vpd": 364500,
-      "vpd_str": "364K",
-      "age_days": 2,
-      "upload_date": "20261101",
-      "duration": 11,
-      "kind": "Short",
-      "channel": "Holy Baam",
-      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
-      "url": "https://youtu.be/EqB-Jq5GggA",
-      "thumb": "https://img.youtube.com/vi/EqB-Jq5GggA/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=364K",
-      "channel_avg_vpd": 256250
-    },
-    {
-      "id": "62HkPZc9Tec",
-      "title": "😂HOW TO GET RID OF THE RNG IN 99 NIGHTS IN THE FOREST IN ROBLOX!",
-      "views": 1300000,
-      "views_str": "1.3M",
-      "vpd": 325000,
-      "vpd_str": "325K",
-      "age_days": 4,
-      "upload_date": "20261030",
-      "duration": 22,
-      "kind": "Short",
-      "channel": "GADOSTI",
-      "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
-      "url": "https://youtu.be/62HkPZc9Tec",
-      "thumb": "https://img.youtube.com/vi/62HkPZc9Tec/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=325K",
-      "channel_avg_vpd": 251666
-    },
-    {
       "id": "TpqDLa28e78",
       "title": "Help Cash's Dog! #minecraft #shorts",
       "views": 1900000,
@@ -158,15 +118,55 @@
       "grade": "🔥",
       "source": "channel_monitor",
       "reason": "vpd=317K",
-      "channel_avg_vpd": 213888
+      "channel_avg_vpd": 281833
+    },
+    {
+      "id": "LEUQ93OChsg",
+      "title": "Cash Chooses AIRDROPS! #minecraft #shorts",
+      "views": 247000,
+      "views_str": "247K",
+      "vpd": 247000,
+      "vpd_str": "247K",
+      "age_days": 1,
+      "upload_date": "20261102",
+      "duration": 9,
+      "kind": "Short",
+      "channel": "Cash",
+      "channel_id": "UC0eLBYhxW9HC0P9PXQ73mpQ",
+      "url": "https://youtu.be/LEUQ93OChsg",
+      "thumb": "https://img.youtube.com/vi/LEUQ93OChsg/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=247K",
+      "channel_avg_vpd": 281833
+    },
+    {
+      "id": "_-Aus3YbraM",
+      "title": "Sniff the Egg...👃🥚",
+      "views": 194000,
+      "views_str": "194K",
+      "vpd": 194000,
+      "vpd_str": "194K",
+      "age_days": 1,
+      "upload_date": "20261102",
+      "duration": 39,
+      "kind": "Short",
+      "channel": "Holy Baam",
+      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
+      "url": "https://youtu.be/_-Aus3YbraM",
+      "thumb": "https://img.youtube.com/vi/_-Aus3YbraM/mqdefault.jpg",
+      "grade": "🔥",
+      "source": "channel_monitor",
+      "reason": "vpd=194K",
+      "channel_avg_vpd": 194000
     },
     {
       "id": "Aa1-kjo6Ucw",
       "title": "🥳NEW GHOST RANGER CLASS IN 99 NIGHTS IN THE FOREST IN ROBLOX!",
-      "views": 535000,
-      "views_str": "535K",
-      "vpd": 178333,
-      "vpd_str": "178K",
+      "views": 543000,
+      "views_str": "543K",
+      "vpd": 181000,
+      "vpd_str": "181K",
       "age_days": 3,
       "upload_date": "20261031",
       "duration": 21,
@@ -177,8 +177,8 @@
       "thumb": "https://img.youtube.com/vi/Aa1-kjo6Ucw/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=178K",
-      "channel_avg_vpd": 251666
+      "reason": "vpd=181K",
+      "channel_avg_vpd": 167000
     },
     {
       "id": "6oWH3hc_B2U",
@@ -201,44 +201,24 @@
       "channel_avg_vpd": 326190
     },
     {
-      "id": "_-Aus3YbraM",
-      "title": "Sniff the Egg...👃🥚",
-      "views": 148000,
-      "views_str": "148K",
-      "vpd": 148000,
-      "vpd_str": "148K",
-      "age_days": 1,
-      "upload_date": "20261102",
-      "duration": 39,
+      "id": "cjU_FVZvAWg",
+      "title": "😂WHEN YOUR FRIEND IS LATE TO ROBLOX!",
+      "views": 459000,
+      "views_str": "459K",
+      "vpd": 153000,
+      "vpd_str": "153K",
+      "age_days": 3,
+      "upload_date": "20261031",
+      "duration": 22,
       "kind": "Short",
-      "channel": "Holy Baam",
-      "channel_id": "UCHVY_-jY-FayjszyX1nlGtQ",
-      "url": "https://youtu.be/_-Aus3YbraM",
-      "thumb": "https://img.youtube.com/vi/_-Aus3YbraM/mqdefault.jpg",
+      "channel": "GADOSTI",
+      "channel_id": "UCS6P_uMrthRW5LYR9yahNnQ",
+      "url": "https://youtu.be/cjU_FVZvAWg",
+      "thumb": "https://img.youtube.com/vi/cjU_FVZvAWg/mqdefault.jpg",
       "grade": "🔥",
       "source": "channel_monitor",
-      "reason": "vpd=148K",
-      "channel_avg_vpd": 256250
-    },
-    {
-      "id": "6xlYs-vD99I",
-      "title": "Cash Gender Swap BEHIND THE SCENES! #minecraft #shorts",
-      "views": 1000000,
-      "views_str": "1.0M",
-      "vpd": 111111,
-      "vpd_str": "111K",
-      "age_days": 9,
-      "upload_date": "20261025",
-      "duration": 15,
-      "kind": "Short",
-      "channel": "Cash",
-      "channel_id": "UC0eLBYhxW9HC0P9PXQ73mpQ",
-      "url": "https://youtu.be/6xlYs-vD99I",
-      "thumb": "https://img.youtube.com/vi/6xlYs-vD99I/mqdefault.jpg",
-      "grade": "🔥",
-      "source": "channel_monitor",
-      "reason": "vpd=111K",
-      "channel_avg_vpd": 213888
+      "reason": "vpd=153K",
+      "channel_avg_vpd": 167000
     },
     {
       "id": "KUWbicPZXEE",
@@ -283,9 +263,9 @@
     {
       "id": "NnavzvHWrfc",
       "title": "How I Became the Smartest Kid in Minecraft… #ad",
-      "views": 875000,
-      "views_str": "875K",
-      "vpd": 38043,
+      "views": 878000,
+      "views_str": "878K",
+      "vpd": 38173,
       "vpd_str": "38K",
       "age_days": 23,
       "upload_date": "20261011",
@@ -298,7 +278,55 @@
       "grade": "🚀",
       "source": "channel_monitor",
       "reason": "vpd=38K",
-      "channel_avg_vpd": 38043
+      "channel_avg_vpd": 38173
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "Спорим ты Засмеешься!?🤣 челлендж🤣",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/1pMVfY-wlXw",
+      "thumb": "https://img.youtube.com/vi/1pMVfY-wlXw/mqdefault.jpg",
+      "published": "2026-11-03T15:00:16+00:00",
+      "hype_score": 5,
+      "related_videos": 116,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "ЗРЯ Я СТАЛ КОТОМ В ДОМЕ С АНОМАЛИЯМИ 😱 Roblox",
+      "topic": "roblox",
+      "channel": "Holy Baam",
+      "author": "Holy Baam",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/kjofJFR36A4",
+      "thumb": "https://img.youtube.com/vi/kjofJFR36A4/mqdefault.jpg",
+      "published": "2026-11-03T13:00:04+00:00",
+      "hype_score": 5,
+      "related_videos": 116,
+      "channel_count": 11,
+      "has_games": true,
+      "game_count": 5,
+      "niche_free": false
     },
     {
       "source": "rss",
@@ -365,54 +393,6 @@
       "url": "https://youtu.be/Ywv1KwTGnrY",
       "thumb": "https://img.youtube.com/vi/Ywv1KwTGnrY/mqdefault.jpg",
       "published": "2026-11-01T19:00:04+00:00",
-      "hype_score": 5,
-      "related_videos": 116,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "Мишка Фазбер Укусил Мою Сосиску😱",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 1,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/EmQ0iHcr904",
-      "thumb": "https://img.youtube.com/vi/EmQ0iHcr904/mqdefault.jpg",
-      "published": "2026-11-01T17:00:24+00:00",
-      "hype_score": 5,
-      "related_videos": 116,
-      "channel_count": 11,
-      "has_games": true,
-      "game_count": 5,
-      "niche_free": false
-    },
-    {
-      "source": "rss",
-      "kind": "Video",
-      "title": "ДА ЧТО НЕ ТАК С ЭТОЙ ЧУВИХОЙ?! 😱",
-      "topic": "roblox",
-      "channel": "Holy Baam",
-      "author": "Holy Baam",
-      "views": 0,
-      "views_str": "?",
-      "subs": 0,
-      "subs_str": "",
-      "age_days": 1,
-      "vpd": 0,
-      "grade": "📡",
-      "url": "https://youtu.be/V-9Z4V7is5I",
-      "thumb": "https://img.youtube.com/vi/V-9Z4V7is5I/mqdefault.jpg",
-      "published": "2026-11-01T17:00:16+00:00",
       "hype_score": 5,
       "related_videos": 116,
       "channel_count": 11,
@@ -535,7 +515,7 @@
       "published": "2026-10-27T22:09:42+00:00",
       "hype_score": 2,
       "related_videos": 4,
-      "channel_count": 4,
+      "channel_count": 3,
       "has_games": true,
       "game_count": 5,
       "niche_free": false
@@ -659,22 +639,46 @@
       "has_games": false,
       "game_count": 0,
       "niche_free": false
+    },
+    {
+      "source": "rss",
+      "kind": "Video",
+      "title": "EVERYONE is Turning EVIL!",
+      "topic": "gaming",
+      "channel": "Aphmau",
+      "author": "Aphmau",
+      "views": 0,
+      "views_str": "?",
+      "subs": 0,
+      "subs_str": "",
+      "age_days": 1,
+      "vpd": 0,
+      "grade": "📡",
+      "url": "https://youtu.be/n8z3Bkpihpg",
+      "thumb": "https://img.youtube.com/vi/n8z3Bkpihpg/mqdefault.jpg",
+      "published": "2026-11-02T20:15:00+00:00",
+      "hype_score": 1,
+      "related_videos": 1,
+      "channel_count": 1,
+      "has_games": false,
+      "game_count": 0,
+      "niche_free": false
     }
   ],
   "google_trends": [
     {
       "source": "google_trends",
       "kind": "Trend",
-      "title": "gta6 release date",
-      "topic": "gta6 release date",
+      "title": "playstation store black friday 2026",
+      "topic": "playstation store black friday 2026",
       "channel": "Google Trends US",
       "author": "Google Trends",
-      "views": 100,
-      "views_str": "100+",
+      "views": 2000,
+      "views_str": "2000+",
       "subs": 0,
       "subs_str": "",
       "age_days": 1,
-      "vpd": 100,
+      "vpd": 2000,
       "grade": "🔥",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "thumb": "",
@@ -694,38 +698,29 @@
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
-      "tg_post_url": "https://t.me/memolodjiya/2200",
-      "tg_text": "🆕 НОВЫЙ РОЛИК НА ЮТУБ:«Ой, папа, зачем ты ломаешь мой внедорожник» - Откуда мем?❓А сможете найти в ролике отсылку на один мем? 😆👇Смотреть тут👇https://youtu.be/N3GjExdOI24?si=6q7udO2UrgnNWlmh ❤19🤮2 630 viewsedited &nbsp;09:13",
-      "topic": "Ой, папа, зачем ты ломаешь мой внедорожник",
-      "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
-    },
-    {
-      "source": "tg_signal",
-      "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/2204",
-      "tg_text": "🦠В ТикТок вирусится мем: «У Вас счастливый номер, рискуйте»❓Видели такое? 👍-Да👎-Нет 👍44👎21❤2❤‍🔥1💯1 666 views11:55",
+      "tg_text": "🦠В ТикТок вирусится мем: «У Вас счастливый номер, рискуйте»❓Видели такое? 👍-Да👎-Нет 👍44👎21❤2❤‍🔥1💯1 688 views11:55",
       "topic": "У Вас счастливый номер, рискуйте",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/2205",
-      "tg_text": "🎵В ТикТок форсят мем:«Кто пчёлок уважает»❓Видели тако? 👍-Доо👎-Нее 👍42👎33 640 views13:03",
+      "tg_text": "🎵В ТикТок форсят мем:«Кто пчёлок уважает»❓Видели тако? 👍-Доо👎-Нее 👍44👎33 671 views13:03",
       "topic": "Кто пчёлок уважает",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/2206",
-      "tg_text": "📱 Герой мема «Убери телефон» немного рассказал о той самой ситуации, которая произошла в маршрутке.😆 Ждём интервью у какого-нибудь популярного ютубера&#33; ❤36❤‍🔥3 667 views14:37",
+      "tg_text": "📱 Герой мема «Убери телефон» немного рассказал о той самой ситуации, которая произошла в маршрутке.😆 Ждём интервью у какого-нибудь популярного ютубера&#33; ❤37❤‍🔥3 700 views14:37",
       "topic": "Убери телефон",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
@@ -734,16 +729,16 @@
       "tg_text": "🤺В ТикТок вирусится мем:«Смертельная битва»❓Видели его? 👍-Да👎-Нет",
       "topic": "Смертельная битва",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/2210",
-      "tg_text": "📈В ТикТок достиг пика популярности мем:«Тебе 10, мне 40»❓Видели такое? 👍-Да👎-Нет 👍63👎25🤮1 519 views07:57",
+      "tg_text": "📈В ТикТок достиг пика популярности мем:«Тебе 10, мне 40»❓Видели такое? 👍-Да👎-Нет 👍65👎27🤮1 568 views07:57",
       "topic": "Тебе 10, мне 40",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
@@ -752,7 +747,7 @@
       "tg_text": "😂 В TikTok на протяжении всего октября вирусился нейросетевой ролик про: «Мимимишек»🎵 Речь идёт о забавном ИИ-видео с фразой «Литвин, Литвин, у кошитки болит», которое пользователи активно распространяли в рекомендациях и использовали для создания собственных мемов.📈 Похоже, необычные нейросетевые п",
       "topic": "Мимимишек",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
@@ -761,16 +756,16 @@
       "tg_text": "🤔В ТикТок появилось продолжение мема: «Закажи мой мармелад» на этот раз:«Хочу мармелад»💁‍♂️Это очередные мемы с разделенным экраном❓Вам попадались подобные мемы? 👍-Доо👎-Нит",
       "topic": "Закажи мой мармелад",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memolodjiya",
       "tg_post_url": "https://t.me/memolodjiya/2214",
-      "tg_text": "🦠Еще в ТикТок форсят мем:«Он верит в вечное блаженство»❓Видели такое? 👍-Да👎-НН 👎47👍30❤1🤮1 496 views12:10",
+      "tg_text": "🦠Еще в ТикТок форсят мем:«Он верит в вечное блаженство»❓Видели такое? 👍-Да👎-НН 👎50👍32❤1🤮1 586 views12:10",
       "topic": "Он верит в вечное блаженство",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
@@ -779,43 +774,52 @@
       "tg_text": "🦠В TikTok завирусился новый мем по мультсериалу «Барбоскины»&#33;📱 На этот раз пользователи активно распространяют фразу: «Генка, это, конечно, здорово, но где искорки, где огоньки?»🌊Знакомый фрагмент из мультсериала неожиданно получил новую волну популярности, а пользователи начали использовать его",
       "topic": "Барбоскины",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
+    },
+    {
+      "source": "tg_signal",
+      "tg_channel": "memolodjiya",
+      "tg_post_url": "https://t.me/memolodjiya/2219",
+      "tg_text": "🤔 Хотели бы, чтобы Ваш отец стал мемом?💁‍♂️У героя мема: «Убери телефон» есть такой милый сын, который знает, что его батя мем❤️🧐У меня есть одна история, как однажды мой друг стал реально популярным мемом, только это было ВК) В школе я всем хвастался😆 ❓Хотели бы чтобы кто-то из Ваших близких был по",
+      "topic": "Убери телефон",
+      "youtube_videos": [],
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memepedia_ru",
       "tg_post_url": "https://t.me/memepedia_ru",
-      "tg_text": "Лицо мошенницы Элизабет Холмс из тизера документалки - новый мем о сомнительных обещаниях, обмане и манипуляцияхhttps://memepedia.ru/zachem-mne-tebya-obmanyvat/ ❤36😁27👍10🤬2😢1 5.4K views10:02",
+      "tg_text": "Лицо мошенницы Элизабет Холмс из тизера документалки - новый мем о сомнительных обещаниях, обмане и манипуляцияхhttps://memepedia.ru/zachem-mne-tebya-obmanyvat/ ❤36😁27👍10🤬2😢1 5.42K views10:02",
       "topic": "о сомнительных обещаниях",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memepedia_ru",
       "tg_post_url": "https://t.me/memepedia_ru",
-      "tg_text": "Белка принимает судьбу и улетает в торнадо - новый вирусный шаблон для жизненных ситуацийhttps://memepedia.ru/belka-v-tornado/ 😁27❤8😱7👍4 6.46K views11:22",
+      "tg_text": "Белка принимает судьбу и улетает в торнадо - новый вирусный шаблон для жизненных ситуацийhttps://memepedia.ru/belka-v-tornado/ 😁27❤8😱7👍4 6.49K views11:22",
       "topic": "шаблон для жизненных ситуацийhttps",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memepedia_ru",
       "tg_post_url": "https://t.me/memepedia_ru",
-      "tg_text": "Котенок в доспехах еле держится на ветру, но храбро сжимает меч - это новый мем о преодолении трудностейhttps://memepedia.ru/kotenok-s-mechom/ ❤43😁11😱5😢5 4.85K views11:57",
+      "tg_text": "Котенок в доспехах еле держится на ветру, но храбро сжимает меч - это новый мем о преодолении трудностейhttps://memepedia.ru/kotenok-s-mechom/ ❤43😁11😱5😢5 4.92K views11:57",
       "topic": "о преодолении трудностейhttps",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
       "tg_channel": "memepedia_ru",
       "tg_post_url": "https://t.me/memepedia_ru",
-      "tg_text": "Позитива явно не хватает в последнее время. Возможно, именно поэтому прямо сейчас залетает мем со снежным барсом, который трогает тебя лапкой. Всем смотреть на милотуhttps://memepedia.world/snezhnyj-bars-trogaet-lapkoj/ ❤30😁10👍8😢2 2.43K views09:35",
+      "tg_text": "Позитива явно не хватает в последнее время. Возможно, именно поэтому прямо сейчас залетает мем со снежным барсом, который трогает тебя лапкой. Всем смотреть на милотуhttps://memepedia.world/snezhnyj-bars-trogaet-lapkoj/ ❤30😁10👍8😢2 2.53K views09:35",
       "topic": "со снежным барсом",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     },
     {
       "source": "tg_signal",
@@ -824,7 +828,7 @@
       "tg_text": "Дочь актера Робина Уилльямса написала в сторис эмоциональную реакцию на AI-слоп, прекрасно описав ~98% того, что я вижу, особенно за последнюю неделю.Пожалуйста, перестаньте присылать мне AI-видео с папой.Не надо думать, что я хочу это видеть или что «пойму» — нет, не хочу и не пойму. Если вы просто",
       "topic": "ну вроде похоже, пойдёт",
       "youtube_videos": [],
-      "detected_at": "2026-11-03 00:23"
+      "detected_at": "2026-11-03 07:27"
     }
   ]
 }
