@@ -207401,8 +207401,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.fhgbfghj.aekq",
     "first_seen": "2026-10-21",
     "last_seen": "2026-11-10",
-    "peak_dpd": 6635,
-    "peak_date": "2026-11-03",
+    "peak_dpd": 6724,
+    "peak_date": "2026-11-10",
     "history": [
       {
         "date": "2026-10-21",
@@ -216101,7 +216101,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.severex.daily.cross.word.grid",
     "first_seen": "2026-10-25",
     "last_seen": "2026-11-10",
-    "peak_dpd": 531,
+    "peak_dpd": 578,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -218771,8 +218771,8 @@
     "url": "https://play.google.com/store/apps/details?id=puzzle.crowd.bus.flow",
     "first_seen": "2026-10-27",
     "last_seen": "2026-11-10",
-    "peak_dpd": 4298,
-    "peak_date": "2026-11-09",
+    "peak_dpd": 4560,
+    "peak_date": "2026-11-10",
     "history": [
       {
         "date": "2026-10-27",
@@ -218941,7 +218941,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.levangames.cursedon",
     "first_seen": "2026-10-27",
     "last_seen": "2026-11-10",
-    "peak_dpd": 2194,
+    "peak_dpd": 2195,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -219363,7 +219363,7 @@
     "id": "com.Animal.Evolution.Escape.Run",
     "name": "Animal Evolution: Escape Run",
     "genre": "Casual",
-    "icon": "https://play-lh.googleusercontent.com/Xneb6n6wgQNnX8iyuFDUxm8zBxttghn3qnjO41j4jwuwgef-Rhq1Zd2r3AMIhkBu_vEcbVGGCG69puz8Q74zgQ",
+    "icon": "https://play-lh.googleusercontent.com/dYGqq3owLBG9qh3O1OSkeJsMSn69EAEp1h0v5smjbS83fSrkxcSzfrSeJnLMZ1Qs6eyNy_IaFFR5w0EuXTdZvQ",
     "url": "https://play.google.com/store/apps/details?id=com.Animal.Evolution.Escape.Run",
     "first_seen": "2026-10-27",
     "last_seen": "2026-11-10",
@@ -221893,14 +221893,14 @@
   },
   "com.mimicvoicechallenge": {
     "id": "com.mimicvoicechallenge",
-    "name": "Wolf Family Life Time Game",
+    "name": "Draw Your Fish Aquarium",
     "genre": "Music",
-    "icon": "https://play-lh.googleusercontent.com/V7DjHCAxnSwRxM-VX9M9q0YbLI7GB1u36iiS5R0LJE5yef98xPkPwCSSBAXHTxTJBq88xnjswGPTHKQ5FZhDMg",
+    "icon": "https://play-lh.googleusercontent.com/Ll9d0MUtURx0GaqK3RVh7N1DrODwug64Rh_d-Yl7XUevDSYzmUNATI_TKrVTiK9KHL47QEM3Le-l9zMeh4-EAQ",
     "url": "https://play.google.com/store/apps/details?id=com.mimicvoicechallenge",
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-04",
-    "peak_dpd": 2112,
-    "peak_date": "2026-11-02",
+    "last_seen": "2026-11-10",
+    "peak_dpd": 3086,
+    "peak_date": "2026-11-10",
     "history": [
       {
         "date": "2026-10-30",
@@ -221936,6 +221936,12 @@
         "date": "2026-11-04",
         "installs": 14790,
         "dpd": 1643,
+        "score": 0
+      },
+      {
+        "date": "2026-11-10",
+        "installs": 46291,
+        "dpd": 3086,
         "score": 0
       }
     ]
@@ -222211,7 +222217,7 @@
     "url": "https://play.google.com/store/apps/details?id=io.epicleague.ar",
     "first_seen": "2026-10-30",
     "last_seen": "2026-11-10",
-    "peak_dpd": 644,
+    "peak_dpd": 645,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -222810,7 +222816,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.pizzaemulators.pbds",
     "first_seen": "2026-10-31",
     "last_seen": "2026-11-10",
-    "peak_dpd": 1369,
+    "peak_dpd": 1373,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -223900,7 +223906,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.stickman.master.combo.fight",
     "first_seen": "2026-11-01",
     "last_seen": "2026-11-10",
-    "peak_dpd": 1792,
+    "peak_dpd": 1793,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -224482,7 +224488,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.superrope.hero.city.swing",
     "first_seen": "2026-11-02",
     "last_seen": "2026-11-10",
-    "peak_dpd": 4086,
+    "peak_dpd": 4102,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -224531,7 +224537,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.pdd.sfungames",
     "first_seen": "2026-11-02",
     "last_seen": "2026-11-10",
-    "peak_dpd": 2959,
+    "peak_dpd": 2960,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -225113,8 +225119,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.superbean.starturret",
     "first_seen": "2026-11-02",
     "last_seen": "2026-11-10",
-    "peak_dpd": 558,
-    "peak_date": "2026-11-09",
+    "peak_dpd": 622,
+    "peak_date": "2026-11-10",
     "history": [
       {
         "date": "2026-11-02",
@@ -225402,8 +225408,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.ninjakiwi.zombieassault",
     "first_seen": "2026-11-02",
     "last_seen": "2026-11-10",
-    "peak_dpd": 324,
-    "peak_date": "2026-11-02",
+    "peak_dpd": 331,
+    "peak_date": "2026-11-10",
     "history": [
       {
         "date": "2026-11-02",
@@ -226035,7 +226041,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.ganko.wordeex",
     "first_seen": "2026-11-03",
     "last_seen": "2026-11-10",
-    "peak_dpd": 1612,
+    "peak_dpd": 1618,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -226552,7 +226558,7 @@
     "url": "https://play.google.com/store/apps/details?id=io.heseri.rock",
     "first_seen": "2026-11-03",
     "last_seen": "2026-11-10",
-    "peak_dpd": 2324,
+    "peak_dpd": 2352,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -227740,7 +227746,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.m2lab.manualcardriving",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-10",
-    "peak_dpd": 5989,
+    "peak_dpd": 5999,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -227833,7 +227839,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.Kayac.DiscFever",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-10",
-    "peak_dpd": 1784,
+    "peak_dpd": 2202,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -228044,7 +228050,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.ccmstudio.survivor",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-10",
-    "peak_dpd": 1507,
+    "peak_dpd": 1591,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -228355,7 +228361,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.gamefactory.roomsort",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-10",
-    "peak_dpd": 2664,
+    "peak_dpd": 2667,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -229044,7 +229050,7 @@
     "url": "https://play.google.com/store/apps/details?id=ore.crusher",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-10",
-    "peak_dpd": 979,
+    "peak_dpd": 1015,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -229075,7 +229081,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.agavegames.hexaword",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-10",
-    "peak_dpd": 439,
+    "peak_dpd": 486,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -229529,7 +229535,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.mystery.dumpling.diy.squishy.unboxing.asmr",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-10",
-    "peak_dpd": 1131,
+    "peak_dpd": 1603,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -229604,7 +229610,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.recreogames.galacticrun",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-10",
-    "peak_dpd": 1681,
+    "peak_dpd": 1788,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -229654,8 +229660,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.studioadept.frontline",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-10",
-    "peak_dpd": 694,
-    "peak_date": "2026-11-09",
+    "peak_dpd": 785,
+    "peak_date": "2026-11-10",
     "history": [
       {
         "date": "2026-11-09",
@@ -229854,7 +229860,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.footballteamgame",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-10",
-    "peak_dpd": 477,
+    "peak_dpd": 479,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -229929,7 +229935,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.launcher.pinballadventure",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-10",
-    "peak_dpd": 346,
+    "peak_dpd": 406,
     "peak_date": "2026-11-10",
     "history": [
       {
@@ -230411,6 +230417,44 @@
         "installs": 3922,
         "dpd": 301,
         "score": 4.7
+      }
+    ]
+  },
+  "com.Hypper": {
+    "id": "com.Hypper",
+    "name": "Hypper Sandbox",
+    "genre": "Simulation",
+    "icon": "https://play-lh.googleusercontent.com/3Gz5yuSNS3VNtIXIBhfCubqJVZY0yG9lwBe74EZQyHrWJi7xhy3leCPAShH_Zq8HjivT_R9ufBJAzp0clNMf",
+    "url": "https://play.google.com/store/apps/details?id=com.Hypper",
+    "first_seen": "2026-11-10",
+    "last_seen": "2026-11-10",
+    "peak_dpd": 475574,
+    "peak_date": "2026-11-10",
+    "history": [
+      {
+        "date": "2026-11-10",
+        "installs": 4280166,
+        "dpd": 475574,
+        "score": 0
+      }
+    ]
+  },
+  "com.arcshoot.arena": {
+    "id": "com.arcshoot.arena",
+    "name": "Archery Duel 3D",
+    "genre": "Casual",
+    "icon": "https://play-lh.googleusercontent.com/MWtMrPC9UTHmODrCM823gi70fuA3RaW5tyepeFfP4GkU0B9O0hcUb2Tm_WeovU0hCILTBOU9r62y9aJDEz1Xvw",
+    "url": "https://play.google.com/store/apps/details?id=com.arcshoot.arena",
+    "first_seen": "2026-11-10",
+    "last_seen": "2026-11-10",
+    "peak_dpd": 1230,
+    "peak_date": "2026-11-10",
+    "history": [
+      {
+        "date": "2026-11-10",
+        "installs": 31999,
+        "dpd": 1230,
+        "score": 3.5
       }
     ]
   }
